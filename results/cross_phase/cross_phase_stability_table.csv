@@ -144,3 +144,9 @@ phase330_coupling_drift,0.157,NA,0.10,0.21,NA,0,0.0%,0.10
 phase330_boundedness,0.827,NA,0.75,0.92,NA,0,0.0%,0.75
 phase330_rg_similarity,0.862,NA,0.84,0.97,NA,0,0.0%,0.84
 phase330_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase331_recursion_strength,0.757,NA,0.67,0.87,NA,0,0.0%,0.67
+phase331_recursion_retention,0.819,NA,0.73,0.90,NA,0,0.0%,0.73
+phase331_recursion_drift,0.152,NA,0.11,0.21,NA,0,0.0%,0.11
+phase331_boundedness,0.831,NA,0.75,0.92,NA,0,0.0%,0.75
+phase331_rg_similarity,0.867,NA,0.83,0.97,NA,0,0.0%,0.83
+phase331_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA

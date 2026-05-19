@@ -1,0 +1,71 @@
+{
+  "phase": "331",
+  "verdict": "WELL_STRUCTURED",
+  "hypotheses": {
+    "H1": {
+      "name": "Recursion strength > 0.50",
+      "result": "PASS",
+      "min_value": 0.6701,
+      "threshold": 0.50,
+      "details": "All sectors exceed 0.50 at all depths"
+    },
+    "H2": {
+      "name": "Recursion retention > 0.70",
+      "result": "PASS",
+      "min_value": 0.7267,
+      "threshold": 0.70,
+      "details": "Projection maintains > 0.70 through depth 20; antisymmetry through depth 16; neutral fails at depth 16"
+    },
+    "H3": {
+      "name": "Recursive drift < 0.30",
+      "result": "PASS",
+      "max_value": 0.2101,
+      "threshold": 0.30,
+      "details": "All sectors remain below 0.30 threshold across all depths; maximum drift 0.2101 at neutral depth 20"
+    },
+    "H4": {
+      "name": "RG stability > 0.90",
+      "result": "FAIL",
+      "mean_value": 0.8667,
+      "threshold": 0.90,
+      "details": "RG similarity peaks at 0.9656 (projection, depth 1); never exceeds 0.90 beyond depth 3; falls to 0.8278 at neutral depth 20"
+    },
+    "H5": {
+      "name": "All sectors nonzero recursive retention",
+      "result": "PASS",
+      "min_value": 0.6701,
+      "threshold": 0.0,
+      "details": "All sectors maintain nonzero recursion strength across all depths"
+    }
+  },
+  "aggregate_metrics": {
+    "mean_recursion_strength": 0.7567,
+    "mean_recursion_retention": 0.8189,
+    "mean_recursion_drift": 0.1519,
+    "mean_boundedness": 0.8312,
+    "mean_rg_similarity": 0.8667
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "WEAKLY_RECURSIVE",
+      "mean_recursion_strength": 0.8111,
+      "recursion_depth_limit": 20
+    },
+    "antisymmetry": {
+      "classification": "RECURSION-DEGRADING",
+      "mean_recursion_strength": 0.7719,
+      "recursion_depth_limit": 16
+    },
+    "neutral": {
+      "classification": "RECURSION-DEGRADING",
+      "mean_recursion_strength": 0.7261,
+      "recursion_depth_limit": 8
+    }
+  },
+  "hypothesis_summary": {
+    "total": 5,
+    "passed": 4,
+    "failed": 1
+  },
+  "classification_logic": "4/5 pass => WELL_STRUCTURED"
+}

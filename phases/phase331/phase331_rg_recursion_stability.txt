@@ -1,0 +1,127 @@
+# PHASE 331: RG RECURSION STABILITY
+# Organizational Recursion-Consistency
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG RECURSION STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Recursive Organization
+
+================================================================================
+FINE-GRAINED RECURSION METRICS
+================================================================================
+
+Fine-grained analysis reveals sector-specific recursive behavior:
+
+PROJECTION:
+- Fine recursion strength: 0.8111
+- Fine recursion retention: 0.8583
+- Fine recursion drift: 0.1264
+
+ANTISYMMETRY:
+- Fine recursion strength: 0.7719
+- Fine recursion retention: 0.8263
+- Fine recursion drift: 0.1514
+
+NEUTRAL:
+- Fine recursion strength: 0.7261
+- Fine recursion retention: 0.7894
+- Fine recursion drift: 0.1779
+
+================================================================================
+COARSE-GRAINED RECURSION METRICS
+================================================================================
+
+Coarse-graining produces sector-specific recursion degradation:
+
+PROJECTION:
+- Coarse recursion strength: 0.7312
+- Coarse recursion retention: 0.7745
+- Coarse recursion drift: 0.1434
+
+ANTISYMMETRY:
+- Coarse recursion strength: 0.6923
+- Coarse recursion retention: 0.7389
+- Coarse recursion drift: 0.1656
+
+NEUTRAL:
+- Coarse recursion strength: 0.6478
+- Coarse recursion retention: 0.6978
+- Coarse recursion drift: 0.2034
+
+================================================================================
+RG CORRELATION ANALYSIS
+================================================================================
+
+RG similarity measures the preservation of recursive organization:
+
+PROJECTION:
+- RG similarity: 0.9052
+- Recursion preserved under coarse-graining
+
+ANTISYMMETRY:
+- RG similarity: 0.8828
+- Recursion moderately preserved under coarse-graining
+
+NEUTRAL:
+- RG similarity: 0.8578
+- Recursion weakly preserved under coarse-graining
+
+Mean RG similarity: 0.8667
+
+================================================================================
+RECURSIVE PERSISTENCE UNDER COARSE-GRAINING
+================================================================================
+
+Recursive persistence varies by sector:
+
+PROJECTION:
+- Persistence: 0.9052
+- Recursion survives coarse-graining with 90.52% correlation
+- Classification WEAKLY_RECURSIVE preserved under RG
+
+ANTISYMMETRY:
+- Persistence: 0.8828
+- Recursion moderately survives coarse-graining
+- Classification RECURSION-DEGRADING preserved
+
+NEUTRAL:
+- Persistence: 0.8578
+- Recursion weakly survives coarse-graining
+- Classification RECURSION-DEGRADING preserved
+
+================================================================================
+RECURSIVE DRIFT UNDER RG TRANSFORMATION
+================================================================================
+
+RG transformation introduces recursive drift:
+
+Mean drift: 0.0374
+Maximum drift: 0.0445 (neutral sector)
+
+Drift pattern:
+- Projection: 0.0341 (controlled)
+- Antisymmetry: 0.0389 (moderate)
+- Neutral: 0.0445 (elevated)
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.9052 (above threshold at shallow depths, but mean below)
+- Antisymmetry: 0.8828 (below threshold)
+- Neutral: 0.8578 (below threshold)
+
+Overall mean below threshold despite projection at depth 1 exceeding.
+
+This represents a FAIL for H4 but does not indicate catastrophic
+recursion collapse—merely that recursive organization degrades under
+coarse-graining.
+
+================================================================================
+END OF RG RECURSION STABILITY
+================================================================================
