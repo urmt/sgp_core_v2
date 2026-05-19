@@ -42,3 +42,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 321,METASTABLE,TRUE,TRUE,FALSE,TRUE,TRUE,0.60,0.69,0.82,0.82,0.29,core_periphery_geometry,COMPLETE
 322,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.64,0.70,0.83,0.83,0.21,hierarchical_stabilization_geometry,COMPLETE
 323,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.66,0.73,0.83,0.83,0.20,resonance_geometry,COMPLETE
+324,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.68,0.74,0.84,0.84,0.19,attractor_basin_geometry,COMPLETE

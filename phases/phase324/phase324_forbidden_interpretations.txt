@@ -1,0 +1,118 @@
+# PHASE 324: FORBIDDEN INTERPRETATIONS
+# Attractor-Basin Geometry
+
+================================================================================
+STRICT INTERPRETATION CONSTRAINTS
+================================================================================
+
+This document explicitly prohibits certain interpretations of Phase 324
+results. These interpretations would violate the empirical and mathematical
+constraints established in prior phases.
+
+================================================================================
+FORBIDDEN INTERPRETATIONS
+================================================================================
+
+The following interpretations are explicitly prohibited:
+
+1. "attractor-basin structure proves dynamical systems theory"
+
+   REASON: This interpretation assumes that attractor-basin structure
+   corresponds to dynamical systems, differential equations, or chaos
+   theory. Phase 324 does not study dynamical systems, differential
+   equations, or chaos theory.
+
+2. "basin convergence implies physics energy minimization"
+
+   REASON: This interpretation assumes that basin convergence corresponds
+   to energy minimization, potential wells, or physical optimization.
+   Phase 324 does not study energy, potentials, or physical optimization.
+
+3. "recursive convergence implies observer convergence"
+
+   REASON: This interpretation assumes that recursive convergence
+   corresponds to observer convergence, perceptual stability, or
+   measurement convergence. Phase 324 does not study observers or
+   measurement.
+
+4. "attractor strength implies consciousness or awareness"
+
+   REASON: This interpretation assumes that attractor strength
+   corresponds to consciousness, awareness, or subjective experience.
+   Phase 324 does not study consciousness or subjective phenomena.
+
+5. "basin drift indicates field or force dynamics"
+
+   REASON: This interpretation assumes that basin drift corresponds
+   to field dynamics, force interactions, or physical fields.
+   Phase 324 does not study fields, forces, or physical dynamics.
+
+6. "attractor-basin implies semantic or meaning attractors"
+
+   REASON: This interpretation assumes that attractor-basin structure
+   corresponds to semantic meaning, linguistic basins, or information
+   attractors. Phase 324 does not study semantics or language.
+
+7. "attractor structure implies idealism or physical reality"
+
+   REASON: This interpretation assumes that attractor structure implies
+   idealist philosophy or confirms physical reality. Phase 324 does not
+   study idealism, physical reality, or philosophical positions.
+
+================================================================================
+ALLOWED LANGUAGE EXAMPLES
+================================================================================
+
+The following language is permitted for describing Phase 324 results:
+
+ATTRACTOR-BASIN:
+- "Attractor strength measures trajectory convergence"
+- "Basin convergence measures organizational state convergence"
+- "Recursive convergence measures organizational trajectory approach"
+
+ORGANIZATIONAL:
+- "Basin drift measures bounded variance"
+- "Attractor-basin exhibits sector-dependent degradation"
+- "Convergence preserved at shallow depths"
+
+RG STRUCTURE:
+- "RG similarity measures attractor persistence under coarse-graining"
+- "Scale invariance indicates organizational preservation"
+- "RG transformation introduces bounded drift"
+
+SECTOR HIERARCHY:
+- "Projection sector exhibits strongest attractor"
+- "Neutral sector exhibits attractor degradation"
+- "Sector hierarchy follows established ordering"
+
+================================================================================
+INTERPRETATION BOUNDARY
+================================================================================
+
+Phase 324 studies:
+- ATTRACTOR REGION as organizational convergence target
+- BASIN ORGANIZATION as convergence set structure
+- RECURSIVE CONVERGENCE as trajectory approach
+- BOUNDED BASIN DRIFT as controlled variance
+- RG ATTRACTOR PERSISTENCE as scale invariance
+
+Phase 324 does NOT study:
+- Dynamical systems theory
+- Physics energy minimization
+- Observer convergence
+- Consciousness or awareness
+- Field or force dynamics
+- Semantic or meaning attractors
+- Idealism or physical reality
+
+================================================================================
+EMPIRICAL CONSTRAINT
+================================================================================
+
+All Phase 324 interpretations must remain within the empirical framework
+established in prior phases. No ontological claims, consciousness claims,
+or physical assumptions are permitted.
+
+================================================================================
+END OF FORBIDDEN INTERPRETATIONS
+================================================================================

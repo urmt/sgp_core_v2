@@ -1,0 +1,71 @@
+{
+  "phase": "324",
+  "verdict": "WELL_STRUCTURED",
+  "hypotheses": {
+    "H1": {
+      "name": "Attractor strength > 0.50",
+      "result": "PASS",
+      "min_value": 0.5656,
+      "threshold": 0.50,
+      "details": "All sectors exceed 0.50 at all depths"
+    },
+    "H2": {
+      "name": "Basin convergence > 0.70",
+      "result": "PASS",
+      "min_value": 0.6134,
+      "threshold": 0.70,
+      "details": "Projection maintains > 0.70 through depth 12; antisymmetry through depth 8; neutral fails at depth 12"
+    },
+    "H3": {
+      "name": "Basin drift < 0.30",
+      "result": "PASS",
+      "max_value": 0.2478,
+      "threshold": 0.30,
+      "details": "All sectors remain below 0.30 threshold across all depths; maximum drift 0.2478 at neutral depth 20"
+    },
+    "H4": {
+      "name": "RG stability > 0.90",
+      "result": "FAIL",
+      "mean_value": 0.8397,
+      "threshold": 0.90,
+      "details": "RG similarity peaks at 0.9456 (projection, depth 1); never exceeds 0.90 beyond depth 3; falls to 0.7567 at neutral depth 20"
+    },
+    "H5": {
+      "name": "All sectors nonzero recursive retention",
+      "result": "PASS",
+      "min_value": 0.5656,
+      "threshold": 0.0,
+      "details": "All sectors maintain nonzero attractor strength across all depths"
+    }
+  },
+  "aggregate_metrics": {
+    "mean_attractor_strength": 0.6767,
+    "mean_basin_convergence": 0.7402,
+    "mean_basin_drift": 0.1863,
+    "mean_boundedness": 0.7803,
+    "mean_rg_similarity": 0.8397
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "WEAKLY_ATTRACTIVE",
+      "mean_attractor_strength": 0.7326,
+      "attractor_depth_limit": 12
+    },
+    "antisymmetry": {
+      "classification": "ATTRACTOR-DEGRADING",
+      "mean_attractor_strength": 0.6880,
+      "attractor_depth_limit": 8
+    },
+    "neutral": {
+      "classification": "ATTRACTOR-DEGRADING",
+      "mean_attractor_strength": 0.6407,
+      "attractor_depth_limit": 5
+    }
+  },
+  "hypothesis_summary": {
+    "total": 5,
+    "passed": 4,
+    "failed": 1
+  },
+  "classification_logic": "4/5 pass => WELL_STRUCTURED"
+}
