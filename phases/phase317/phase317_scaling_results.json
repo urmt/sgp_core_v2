@@ -1,0 +1,58 @@
+{
+  "phase": 317,
+  "verdict": "WELL_STRUCTURED",
+  "hypotheses": {
+    "H1_scaling_strength": {
+      "passed": true,
+      "value": 0.7002139700691347,
+      "threshold": 0.5
+    },
+    "H2_proportional_retention": {
+      "passed": false,
+      "value": 0.6682945964113725,
+      "threshold": 0.7
+    },
+    "H3_scale_drift": {
+      "passed": true,
+      "value": 0.16708822667921244,
+      "threshold": 0.3
+    },
+    "H4_rg_stability": {
+      "passed": true,
+      "value": 0.9168493413840089,
+      "threshold": 0.9
+    },
+    "H5_sector_retention": {
+      "passed": true,
+      "value": 0.6911588721672013,
+      "threshold": 0.0
+    }
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "SCALING-PRESERVING",
+      "avg_scaling_strength": 0.8855084762169297,
+      "avg_proportional_retention": 0.8861011181630786,
+      "avg_scale_drift": 0.1507676836523619,
+      "avg_boundedness": 0.9462598620881361,
+      "avg_rg_similarity": 0.9685028254056431
+    },
+    "antisymmetry": {
+      "classification": "SCALING-PRESERVING",
+      "avg_scaling_strength": 0.8323779676439139,
+      "avg_proportional_retention": 0.8152130287100325,
+      "avg_scale_drift": 0.14322929946974378,
+      "avg_boundedness": 0.9084094676046107,
+      "avg_rg_similarity": 0.9297627123894175
+    },
+    "neutral": {
+      "classification": "SCALING-PRESERVING",
+      "avg_scaling_strength": 0.7261169504978824,
+      "avg_proportional_retention": 0.6911588721672013,
+      "avg_scale_drift": 0.1281525311045076,
+      "avg_boundedness": 0.8327086786375598,
+      "avg_rg_similarity": 0.8522824863569659
+    }
+  },
+  "n_measurements": 21
+}

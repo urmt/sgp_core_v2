@@ -66,3 +66,9 @@ phase316_basis_stability,0.837,NA,0.73,0.89,NA,0,0.0%,0.73
 phase316_generator_dispersion,0.238,NA,0.20,0.32,NA,0,0.0%,0.20
 phase316_rg_similarity,0.891,NA,0.78,0.95,NA,0,0.0%,0.78
 phase316_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase317_scaling_strength,0.796,NA,0.70,0.85,NA,0,0.0%,0.70
+phase317_proportional_retention,0.792,NA,0.67,0.86,NA,0,0.0%,0.67
+phase317_scale_drift,0.124,NA,0.11,0.17,NA,0,0.0%,0.11
+phase317_boundedness,0.900,NA,0.82,0.96,NA,0,0.0%,0.82
+phase317_rg_similarity,0.917,NA,0.84,0.96,NA,0,0.0%,0.84
+phase317_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
