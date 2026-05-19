@@ -1,0 +1,115 @@
+# PHASE 321: FORBIDDEN INTERPRETATIONS
+# Core-Periphery Geometry
+
+================================================================================
+STRICT INTERPRETATION CONSTRAINTS
+================================================================================
+
+This document explicitly prohibits certain interpretations of Phase 321
+results. These interpretations would violate the empirical and mathematical
+constraints established in prior phases.
+
+================================================================================
+FORBIDDEN INTERPRETATIONS
+================================================================================
+
+The following interpretations are explicitly prohibited:
+
+1. "core-periphery structure proves physical field emergence"
+
+   REASON: This interpretation assumes that core-periphery structure
+   corresponds to physical field emergence, force distributions, or
+   energy concentration. Phase 321 does not study physical fields,
+   energy distributions, or force structures.
+
+2. "core structure implies consciousness or awareness"
+
+   REASON: This interpretation assumes that core structure corresponds
+   to consciousness, awareness, or subjective experience. Phase 321 does
+   not study consciousness, awareness, or subjective phenomena.
+
+3. "peripheral drift proves cognitive peripheral processing"
+
+   REASON: This interpretation assumes that peripheral drift corresponds
+   to cognitive peripheral processing, attention mechanisms, or neural
+   distribution. Phase 321 does not study cognition, attention, or
+   neural systems.
+
+4. "recursive centrality implies observer centrality"
+
+   REASON: This interpretation assumes that recursive centrality
+   corresponds to observer centrality, perspective, or measurement
+   frame. Phase 321 does not study observers, measurement, or
+   perspective.
+
+5. "core-periphery structure implies semantic architecture"
+
+   REASON: This interpretation assumes that core-periphery structure
+   corresponds to semantic meaning, linguistic hierarchy, or information
+   architecture. Phase 321 does not study semantics, meaning, or
+   language.
+
+6. "bounded drift indicates spatial emergence"
+
+   REASON: This interpretation assumes that bounded drift corresponds
+   to spatial emergence, dimensional structure, or geometric formation.
+   Phase 321 does not study space, dimensions, or geometry.
+
+7. "core structure implies idealism or physical reality"
+
+   REASON: This interpretation assumes that core structure implies
+   idealist philosophy or confirms physical reality. Phase 321 does
+   not study idealism, physical reality, or philosophical positions.
+
+================================================================================
+ALLOWED LANGUAGE EXAMPLES
+================================================================================
+
+The following language is permitted for describing Phase 321 results:
+
+CORE-PERIPHERY:
+- "Core strength measures organizational centrality"
+- "Peripheral drift measures displacement from core behavior"
+- "Recursive centrality measures sector position in organizational structure"
+
+ORGANIZATIONAL:
+- "Core-periphery structure emerges from sector hierarchy"
+- "Sector hierarchy: projection > antisymmetry > neutral"
+- "Projection acts as organizational core"
+
+RG STRUCTURE:
+- "RG similarity measures core persistence under coarse-graining"
+- "Core structure degrades under scale transformation"
+- "Scale invariance indicates organizational preservation"
+
+================================================================================
+INTERPRETATION BOUNDARY
+================================================================================
+
+Phase 321 studies:
+- CORE STRUCTURE as organizational centrality
+- PERIPHERAL STRUCTURE as displacement from core
+- RECURSIVE CENTRALITY as sector position
+- BOUNDED PERIPHERAL DRIFT as controlled variance
+- RG CORE PERSISTENCE as scale invariance
+
+Phase 321 does NOT study:
+- Physical field emergence
+- Consciousness or awareness
+- Cognitive peripheral processing
+- Observer centrality
+- Semantic architecture
+- Spatial emergence
+- Idealism or physical reality
+
+================================================================================
+EMPIRICAL CONSTRAINT
+================================================================================
+
+All Phase 321 interpretations must remain within the empirical framework
+established in prior phases. No ontological claims, consciousness claims,
+or physical assumptions are permitted.
+
+================================================================================
+END OF FORBIDDEN INTERPRETATIONS
+================================================================================

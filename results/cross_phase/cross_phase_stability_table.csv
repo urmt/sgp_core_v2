@@ -90,3 +90,9 @@ phase320_degradation_rate,0.229,NA,0.15,0.31,NA,0,0.0%,0.15
 phase320_boundedness,0.730,NA,0.64,0.82,NA,0,0.0%,0.64
 phase320_rg_similarity,0.830,NA,0.76,0.92,NA,0,0.0%,0.76
 phase320_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase321_core_strength,0.603,NA,0.44,0.77,NA,0,0.0%,0.44
+phase321_centrality,0.688,NA,0.55,0.82,NA,0,0.0%,0.55
+phase321_periphery_drift,0.292,NA,0.18,0.42,NA,0,0.0%,0.18
+phase321_boundedness,0.739,NA,0.63,0.87,NA,0,0.0%,0.63
+phase321_rg_similarity,0.816,NA,0.73,0.92,NA,0,0.0%,0.73
+phase321_verdict,METASTABLE,NA,NA,NA,NA,NA,NA,NA

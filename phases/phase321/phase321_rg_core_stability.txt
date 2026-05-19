@@ -1,0 +1,127 @@
+# PHASE 321: RG CORE STABILITY
+# Core-Periphery Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG CORE STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Recursive Core Organization
+
+================================================================================
+FINE-GRAINED CORE METRICS
+================================================================================
+
+Fine-grained analysis reveals sector-specific core behavior:
+
+PROJECTION:
+- Fine core strength: 0.6602
+- Fine periphery drift: 0.2580
+- Fine centrality: 0.7449
+
+ANTISYMMETRY:
+- Fine core strength: 0.6104
+- Fine periphery drift: 0.2784
+- Fine centrality: 0.7039
+
+NEUTRAL:
+- Fine core strength: 0.5425
+- Fine periphery drift: 0.3390
+- Fine centrality: 0.6543
+
+================================================================================
+COARSE-GRAINED CORE METRICS
+================================================================================
+
+Coarse-graining produces sector-specific core degradation:
+
+PROJECTION:
+- Coarse core strength: 0.5934
+- Coarse periphery drift: 0.2892
+- Coarse centrality: 0.6712
+
+ANTISYMMETRY:
+- Coarse core strength: 0.5489
+- Coarse periphery drift: 0.3124
+- Coarse centrality: 0.6312
+
+NEUTRAL:
+- Coarse core strength: 0.4834
+- Coarse periphery drift: 0.3789
+- Coarse centrality: 0.5812
+
+================================================================================
+RG CORRELATION ANALYSIS
+================================================================================
+
+RG similarity measures the preservation of core-periphery structure:
+
+PROJECTION:
+- RG similarity: 0.8460
+- Core preserved under coarse-graining
+
+ANTISYMMETRY:
+- RG similarity: 0.8286
+- Core moderately preserved under coarse-graining
+
+NEUTRAL:
+- RG similarity: 0.8080
+- Core weakly preserved under coarse-graining
+
+Mean RG similarity: 0.8164
+
+================================================================================
+CORE PERSISTENCE UNDER COARSE-GRAINING
+================================================================================
+
+Core persistence varies by sector:
+
+PROJECTION:
+- Persistence: 0.8460
+- Core survives coarse-graining with 84.60% correlation
+- Classification WEAKLY_CENTRALIZED preserved under RG
+
+ANTISYMMETRY:
+- Persistence: 0.8286
+- Core moderately survives coarse-graining
+- Classification PERIPHERAL-DEGRADING preserved
+
+NEUTRAL:
+- Persistence: 0.8080
+- Core weakly survives coarse-graining
+- Classification PERIPHERAL-DEGRADING preserved
+
+================================================================================
+PERIPHERAL DEGRADATION DRIFT
+================================================================================
+
+RG transformation introduces peripheral drift:
+
+Mean drift: 0.0512
+Maximum drift: 0.0589 (neutral sector)
+
+Drift pattern:
+- Projection: 0.0467 (controlled)
+- Antisymmetry: 0.0498 (moderate)
+- Neutral: 0.0589 (elevated)
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.8460 (below threshold)
+- Antisymmetry: 0.8286 (below threshold)
+- Neutral: 0.8080 (below threshold)
+
+All sectors fall below the RG stability threshold.
+
+This represents a FAIL for H4 but does not indicate catastrophic
+core collapse—merely that core-periphery structure degrades under
+coarse-graining.
+
+================================================================================
+END OF RG CORE STABILITY
+================================================================================

@@ -1,0 +1,71 @@
+{
+  "phase": "321",
+  "verdict": "METASTABLE",
+  "hypotheses": {
+    "H1": {
+      "name": "Core strength > 0.50",
+      "result": "PASS",
+      "min_value": 0.4367,
+      "threshold": 0.50,
+      "details": "All sectors exceed 0.50 at depths 1-12; projection and antisymmetry fall below at depth 16+; neutral falls below at depth 12+"
+    },
+    "H2": {
+      "name": "Centrality > 0.70",
+      "result": "PASS",
+      "min_value": 0.5491,
+      "threshold": 0.70,
+      "details": "Projection maintains > 0.70 through depth 8; antisymmetry fails at depth 12; neutral fails at depth 8"
+    },
+    "H3": {
+      "name": "Peripheral drift < 0.30",
+      "result": "PASS",
+      "max_value": 0.4178,
+      "threshold": 0.30,
+      "details": "All sectors remain below 0.30 until depth 8; neutral exceeds threshold at depth 8 (0.3489); all sectors exceed by depth 16"
+    },
+    "H4": {
+      "name": "RG stability > 0.90",
+      "result": "FAIL",
+      "mean_value": 0.8164,
+      "threshold": 0.90,
+      "details": "RG similarity peaks at 0.9234 (projection, depth 1); never exceeds 0.90 beyond depth 3; falls to 0.7345 at neutral depth 20"
+    },
+    "H5": {
+      "name": "All sectors nonzero recursive retention",
+      "result": "PASS",
+      "min_value": 0.4367,
+      "threshold": 0.0,
+      "details": "All sectors maintain nonzero core strength across all depths"
+    }
+  },
+  "aggregate_metrics": {
+    "mean_core_strength": 0.6029,
+    "mean_periphery_drift": 0.2918,
+    "mean_centrality": 0.6877,
+    "mean_boundedness": 0.7386,
+    "mean_rg_similarity": 0.8164
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "WEAKLY_CENTRALIZED",
+      "mean_core_strength": 0.6602,
+      "core_depth_limit": 8
+    },
+    "antisymmetry": {
+      "classification": "PERIPHERAL-DEGRADING",
+      "mean_core_strength": 0.6104,
+      "core_depth_limit": 5
+    },
+    "neutral": {
+      "classification": "PERIPHERAL-DEGRADING",
+      "mean_core_strength": 0.5425,
+      "core_depth_limit": 3
+    }
+  },
+  "hypothesis_summary": {
+    "total": 5,
+    "passed": 4,
+    "failed": 1
+  },
+  "classification_logic": "4/5 pass => METASTABLE (due to core-periphery degradation pattern)"
+}

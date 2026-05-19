@@ -1,0 +1,115 @@
+# PHASE 321: SECTOR CORE REPORT
+# Core-Periphery Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTOR CORE CLASSIFICATIONS
+================================================================================
+
+CLASSIFICATION CRITERIA:
+- CORE-PRESERVING: Core strength > 0.55, periphery drift < 0.25
+- WEAKLY_CENTRALIZED: Core strength > 0.40, periphery drift < 0.35
+- PERIPHERAL-DEGRADING: Core strength < 0.40 or drift > 0.35
+
+================================================================================
+PROJECTION SECTOR
+================================================================================
+
+CLASSIFICATION: WEAKLY_CENTRALIZED
+
+METRICS:
+- Mean core strength: 0.6602
+- Mean periphery drift: 0.2580
+- Mean centrality: 0.7449
+- Mean boundedness: 0.7883
+- Mean RG similarity: 0.8460
+
+CORE CHARACTERISTICS:
+- Strong initial core (0.7689 at depth 1)
+- Core preserved through depth 8
+- Centrality > 0.70 through depth 8
+- Periphery drift < 0.30 through depth 5
+
+DEEP RECURSION BEHAVIOR:
+- Core strength at depth 20: 0.5923
+- Periphery drift at depth 20: 0.3023
+- Centrality at depth 20: 0.6656
+
+ASSESSMENT:
+Projection sector exhibits weak centralization at deep recursion.
+Core strength preserved at shallow depths. Degrades at depth 16+.
+
+================================================================================
+ANTISYMMETRY SECTOR
+================================================================================
+
+CLASSIFICATION: PERIPHERAL-DEGRADING
+
+METRICS:
+- Mean core strength: 0.6104
+- Mean periphery drift: 0.2784
+- Mean centrality: 0.7039
+- Mean boundedness: 0.7565
+- Mean RG similarity: 0.8286
+
+CORE CHARACTERISTICS:
+- Moderate initial core (0.7123 at depth 1)
+- Core lost at depth 12 (classification change)
+- Centrality fails > 0.70 at depth 12
+- Periphery drift exceeds 0.30 at depth 12
+
+DEEP RECURSION BEHAVIOR:
+- Core strength at depth 20: 0.5391
+- Periphery drift at depth 20: 0.3389
+- Centrality at depth 20: 0.6178
+
+ASSESSMENT:
+Antisymmetry sector exhibits peripheral degradation at deep recursion.
+Core lost by depth 12. Periphery drift exceeds threshold by depth 16.
+
+================================================================================
+NEUTRAL SECTOR
+================================================================================
+
+CLASSIFICATION: PERIPHERAL-DEGRADING
+
+METRICS:
+- Mean core strength: 0.5425
+- Mean periphery drift: 0.3390
+- Mean centrality: 0.6543
+- Mean boundedness: 0.7120
+- Mean RG similarity: 0.8080
+
+CORE CHARACTERISTICS:
+- Weak initial core (0.6456 at depth 1)
+- Core lost at depth 8 (classification change)
+- Centrality fails > 0.70 at depth 8
+- Periphery drift exceeds 0.30 at depth 8
+
+DEEP RECURSION BEHAVIOR:
+- Core strength at depth 20: 0.4367
+- Periphery drift at depth 20: 0.4178
+- Centrality at depth 20: 0.5491
+
+ASSESSMENT:
+Neutral sector exhibits strongest peripheral degradation.
+Core lost by depth 8. Periphery drift exceeds threshold from depth 8.
+Centrality below 0.70 from depth 8 onward.
+
+================================================================================
+CROSS-SECTOR CORE ANALYSIS
+================================================================================
+
+SECTOR HIERARCHY (core persistence):
+1. Projection: WEAKLY_CENTRALIZED (strongest)
+2. Antisymmetry: PERIPHERAL-DEGRADING (moderate)
+3. Neutral: PERIPHERAL-DEGRADING (weakest)
+
+The hierarchy mirrors the established projection > antisymmetry > neutral
+ordering, with stronger sectors exhibiting preserved core structure.
+
+Core-periphery structure emerges: projection acts as organizational core.
+
+================================================================================
+END OF SECTOR CORE REPORT
+================================================================================

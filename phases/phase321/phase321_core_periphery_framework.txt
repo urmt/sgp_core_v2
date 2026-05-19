@@ -1,0 +1,112 @@
+# PHASE 321: CORE-PERIPHERY FRAMEWORK
+# Emergent Relational Core-Periphery Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+A. CORE STRUCTURE
+================================================================================
+
+DEFINITION:
+Organizational region exhibiting strong persistence and central
+position within recursive relational structure.
+
+OPERATIONAL MEASURE:
+Core strength measures the degree to which a sector exhibits
+core-like organizational properties.
+
+QUANTIFICATION:
+Core strength = normalized centrality × structural persistence
+
+================================================================================
+B. PERIPHERAL STRUCTURE
+================================================================================
+
+DEFINITION:
+Organizational region exhibiting weaker persistence and
+displaced position within recursive relational structure.
+
+OPERATIONAL MEASURE:
+Peripheral drift measures the degree of displacement from
+core-like organizational behavior.
+
+QUANTIFICATION:
+Peripheral drift = 1 - (core_strength / max_core_strength)
+
+================================================================================
+C. RECURSIVE CENTRALITY
+================================================================================
+
+DEFINITION:
+Measure of a sector's central organizational position within
+the recursive relational structure.
+
+OPERATIONAL MEASURE:
+Centrality quantifies the degree to which a sector occupies
+the core position relative to other sectors.
+
+QUANTIFICATION:
+Centrality = structural coherence / mean_structural_coherence
+
+================================================================================
+D. BOUNDED PERIPHERAL DRIFT
+================================================================================
+
+DEFINITION:
+Constraint on unbounded divergence of peripheral sectors
+during recursive evolution.
+
+OPERATIONAL MEASURE:
+The degree to which peripheral drift remains controlled
+rather than drifting unboundedly.
+
+QUANTIFICATION:
+Peripheral drift boundedness = variance of drift / threshold
+
+================================================================================
+E. RG CORE PERSISTENCE
+================================================================================
+
+DEFINITION:
+Scale-stable preservation of core-periphery structure.
+
+OPERATIONAL MEASURE:
+The degree to which core-periphery structure survives
+coarse-graining operations.
+
+QUANTIFICATION:
+RG similarity = correlation(fine_core_metrics, coarse_core_metrics)
+
+================================================================================
+CORE-PERIPHERY FRAMEWORK FORMALIZATION
+================================================================================
+
+CP_STRUCTURE = (C_str, P_drift, Cent, Bound, RG_sim)
+
+Where:
+- C_str: Core strength
+- P_drift: Peripheral drift
+- Cent: Recursive centrality
+- Bound: Boundedness
+- RG_sim: RG similarity
+
+================================================================================
+HYPOTHESES
+================================================================================
+
+H1: Core strength > 0.50
+H2: Centrality > 0.70
+H3: Peripheral drift < 0.30
+H4: RG stability > 0.90
+H5: All sectors nonzero recursive retention
+
+================================================================================
+SECTOR CORE CLASSIFICATIONS
+================================================================================
+
+CORE-PRESERVING: Strong core (strength > 0.55, drift < 0.25)
+WEAKLY_CENTRALIZED: Moderate core (strength > 0.40, drift < 0.35)
+PERIPHERAL-DEGRADING: Weak core (strength < 0.40, drift > 0.35)
+
+================================================================================
+END OF CORE-PERIPHERY FRAMEWORK
+================================================================================
