@@ -18,4 +18,9 @@ phase308_rg_correlation,0.920,NA,0.92,0.92,NA,0,0.0%,0.92
 phase308_boundedness,0.940,NA,0.90,0.98,NA,0,0.0%,0.90
 phase308_retention,0.970,NA,0.82,0.99,NA,0,0.0%,0.82
 phase308_dispersion,0.150,NA,0.15,0.15,NA,0,0.0%,0.15
-phase308_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NA
+phase308_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NAphase309_composition_persistence,0.960,NA,0.87,1.00,NA,0,0.0%,0.87
+phase309_decomposition_stability,0.910,NA,0.83,0.96,NA,0,0.0%,0.83
+phase309_recursive_retention,0.920,NA,0.84,0.97,NA,0,0.0%,0.84
+phase309_rg_stability,0.972,NA,0.91,0.98,NA,0,0.0%,0.91
+phase309_dispersion,0.140,NA,0.14,0.14,NA,0,0.0%,0.14
+phase309_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NA
