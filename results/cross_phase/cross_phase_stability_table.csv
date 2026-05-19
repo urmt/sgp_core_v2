@@ -102,3 +102,9 @@ phase322_hierarchical_drift,0.206,NA,0.14,0.28,NA,0,0.0%,0.14
 phase322_boundedness,0.754,NA,0.65,0.87,NA,0,0.0%,0.65
 phase322_rg_similarity,0.825,NA,0.73,0.93,NA,0,0.0%,0.73
 phase322_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase323_resonance_strength,0.665,NA,0.55,0.80,NA,0,0.0%,0.55
+phase323_cross_level_alignment,0.735,NA,0.61,0.86,NA,0,0.0%,0.61
+phase323_resonance_drift,0.197,NA,0.13,0.26,NA,0,0.0%,0.13
+phase323_boundedness,0.768,NA,0.67,0.88,NA,0,0.0%,0.67
+phase323_rg_similarity,0.835,NA,0.74,0.94,NA,0,0.0%,0.74
+phase323_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
