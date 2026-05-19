@@ -1,0 +1,81 @@
+# PHASE 289: CURVATURE FLOW FRAMEWORK
+# Emergent Relational Curvature Organization
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: OPERATIONAL DEFINITIONS
+================================================================================
+
+A. RELATIONAL CURVATURE
+------------------------
+Definition: Directional deviation of recursive trajectories
+within embedding configuration geometry.
+
+Operationalization:
+- Compute cosine of angle between consecutive tangent vectors
+- curvature = 1 - cos_angle
+- Higher curvature = more directional change
+
+B. CURVATURE FLOW
+------------------
+Definition: Depth-dependent evolution of relational
+trajectory curvature.
+
+Operationalization:
+- Track mean_curvature across depths
+- Monitor curvature stability (variance)
+- Measure flow organization
+
+C. MANIFOLD BENDING
+--------------------
+Definition: Sector-dependent concentration of recursive
+trajectories into curved relational regions.
+
+Operationalization:
+- sector_bending = 1 / trajectory_dispersion
+- Higher bending = tighter trajectory concentration
+- Track bending across depths and sectors
+
+D. CURVATURE STABILITY
+-----------------------
+Definition: Persistence of curvature organization across
+recursive depth.
+
+Operationalization:
+- Compute curvature_variance across depths
+- Bounded variance = STABLE
+- Unbounded variance = UNSTABLE
+
+E. RG-STABLE CURVATURE
+------------------------
+Definition: Curvature structure preserved under
+coarse-graining.
+
+Operationalization:
+- Compute fine-scale curvature at multiple depths
+- Compare coarse-scale (RG block) curvature
+- Correlation > 0.90 = RG_STABLE
+
+================================================================================
+SECTION 2: CURVATURE CLASSIFICATION
+================================================================================
+
+ORGANIZED_CURVATURE:
+- All H1-H5 PASS
+- Bounded variance, sector differentiation, alignment, RG stable
+
+WEAKLY_CURVED:
+- H1, H2, H4 PASS
+- Bounded with sector differentiation
+
+STABLE_FLAT:
+- H1, H4 PASS
+- Bounded but undifferentiated
+
+UNORGANIZED:
+- No clear curvature structure
+- Unbounded variance or no differentiation
+
+================================================================================
+END OF FRAMEWORK
+================================================================================

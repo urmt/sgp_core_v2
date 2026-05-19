@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-05-15T21:07:36.731573Z",
+  "phase": "T004_LATENT_SYMMETRY",
+  "variant_geometry": {
+    "base": {
+      "mean_within_distance": 8.995935456799888,
+      "std_within_distance": 11.364127534996562,
+      "n_samples": 50
+    },
+    "reverse": {
+      "mean_within_distance": 8.983825802203674,
+      "std_within_distance": 11.371508584933208,
+      "n_samples": 50
+    },
+    "swap": {
+      "mean_within_distance": 8.988019059923458,
+      "std_within_distance": 11.356311262283052,
+      "n_samples": 50
+    },
+    "replay": {
+      "mean_within_distance": 9.026235622460494,
+      "std_within_distance": 11.606203917512293,
+      "n_samples": 50
+    },
+    "stitch": {
+      "mean_within_distance": 8.89111672889345,
+      "std_within_distance": 11.418008855349969,
+      "n_samples": 50
+    }
+  },
+  "metric_correlation_matrix": [
+    [
+      1.0,
+      -0.2489723166729204,
+      -0.8750802487025819,
+      -0.5403541256153424
+    ],
+    [
+      -0.2489723166729204,
+      1.0,
+      0.2696397321590679,
+      0.08159396122470006
+    ],
+    [
+      -0.8750802487025819,
+      0.2696397321590679,
+      0.9999999999999999,
+      0.16337946552071883
+    ],
+    [
+      -0.5403541256153424,
+      0.08159396122470006,
+      0.16337946552071886,
+      0.9999999999999998
+    ]
+  ],
+  "eigenvectors": [
+    [
+      -0.6516537606089067,
+      0.7280188012908604,
+      0.1765820642809631,
+      -0.11897384513229071
+    ],
+    [
+      0.2888988172132272,
+      -0.009487635680312335,
+      0.6058783929511643,
+      -0.7411874466940938
+    ],
+    [
+      0.5847112445637552,
+      0.6134989684955613,
+      -0.4970361544603079,
+      -0.18624402619922045
+    ],
+    [
+      0.3872952493612236,
+      0.30580651626657496,
+      0.5955545388027006,
+      0.6338766092408141
+    ]
+  ],
+  "interpretation": {
+    "reverse": "temporal inversion - preserves ordinal structure",
+    "swap": "rotation in time - disrupts half_corr",
+    "replay": "duplication - quasi-invariant",
+    "stitch": "permutation - breaks temporal continuity",
+    "base": "canonical reference"
+  }
+}

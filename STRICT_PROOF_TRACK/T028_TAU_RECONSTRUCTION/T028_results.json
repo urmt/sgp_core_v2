@@ -1,0 +1,21 @@
+{
+  "tau_empirical": [
+    -0.001593297811584605,
+    0.9999879196925505,
+    -0.0022214610963947933,
+    -0.004084970213605462
+  ],
+  "tau_analytic": [
+    0.003664860696381396,
+    0.9999924277503107,
+    -0.0004059458906505899,
+    -0.0012443657218316776
+  ],
+  "tau_variance": 0.9982858303010651,
+  "alignment": 0.9999804933097207,
+  "mean_component_error": 0.0024796965658110473,
+  "H1_alignment": true,
+  "H2_low_error": true,
+  "H3_tau_m2": true,
+  "interpretation": "If analytic \u03c4 aligns with empirical, SFH-SGP becomes analytic geometric theory."
+}

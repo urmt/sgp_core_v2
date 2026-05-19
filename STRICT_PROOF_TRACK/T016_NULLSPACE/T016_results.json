@@ -1,0 +1,33 @@
+{
+  "singular_values": [
+    1.4149974904043414,
+    1.0208131372325366,
+    0.9619136829787172,
+    0.0022724813006817206
+  ],
+  "nullspace_vector": [
+    -0.0050727356284791855,
+    0.7064958361890934,
+    -0.7016451079715841,
+    -0.09236906007024939
+  ],
+  "metric_contributions": {
+    "m1_ordinal_flow": -0.0050727356284791855,
+    "m2_half_corr": 0.7064958361890934,
+    "m3_signed_compress": -0.7016451079715841,
+    "m4_amp_transition": -0.09236906007024939
+  },
+  "dominant_metric": "m2_half_corr",
+  "suppression_ratio": 0.010968162681306919,
+  "domain_suppression": {
+    "chaotic_logistic": 0.0,
+    "chirp": 0.0,
+    "coupled_osc": 0.0,
+    "regime_switch": 0.024930443741847743,
+    "rw_trend": 0.0026282661599832556
+  },
+  "pc1_alignment": -0.3635482039252507,
+  "H1_single_metric": false,
+  "H2_pc1_aligned": false,
+  "H3_true_annihilation": true
+}

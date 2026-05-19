@@ -1,0 +1,157 @@
+{
+  "financial_timeseries": {
+    "real_metrics": {
+      "memory": 0.24470297975757743,
+      "persistence": 0.3696551724137931,
+      "consensus": 0.5378742311563252,
+      "fragmentation": 0.02712931993250106,
+      "drift": 0.9798083702507121,
+      "product_metric": 0.3650667345726324
+    },
+    "random_metrics": {
+      "memory": 0.04792532099456017,
+      "persistence": 0.07913793103448276,
+      "consensus": 0.37540409164156746,
+      "fragmentation": 0.029174662800201683,
+      "drift": 1.139150114010568,
+      "product_metric": 0.11248224410489294
+    },
+    "ratios": {
+      "memory": 5.105922497199972,
+      "persistence": 4.671023906117781,
+      "consensus": 1.4327873395612731,
+      "fragmentation": 0.9298931469542253,
+      "drift": 0.8601222589892135,
+      "product_metric": 3.2455498575103756
+    },
+    "shape": [
+      30,
+      50,
+      5
+    ]
+  },
+  "ecg_signal": {
+    "real_metrics": {
+      "memory": 0.08513214592579671,
+      "persistence": 0.14655172413793102,
+      "consensus": 0.4100316801452715,
+      "fragmentation": 0.03989182904670275,
+      "drift": 1.672607311674093,
+      "product_metric": 0.17230609573159117
+    },
+    "random_metrics": {
+      "memory": 0.08323032049815482,
+      "persistence": 0.14118773946360152,
+      "consensus": 0.4076914065111252,
+      "fragmentation": 0.03660969698746009,
+      "drift": 1.1493312373273712,
+      "product_metric": 0.1685682380223603
+    },
+    "ratios": {
+      "memory": 1.0228501391489164,
+      "persistence": 1.0379918515355258,
+      "consensus": 1.005740304041317,
+      "fragmentation": 1.0896519567128602,
+      "drift": 1.4552874366385868,
+      "product_metric": 1.0221741457994056
+    },
+    "shape": [
+      30,
+      30,
+      3
+    ]
+  },
+  "language_token_stream": {
+    "real_metrics": {
+      "memory": 0.30293437368359727,
+      "persistence": 0.4955729166666667,
+      "consensus": 0.5994004613192067,
+      "fragmentation": 0.017492855684535916,
+      "drift": 1.0120336927192792,
+      "product_metric": 0.4481166327926509
+    },
+    "random_metrics": {
+      "memory": 0.06197142743241344,
+      "persistence": 0.10243055555555557,
+      "consensus": 0.38757677965747156,
+      "fragmentation": 0.04054223704627614,
+      "drift": 1.1540229045897565,
+      "product_metric": 0.13498631779040005
+    },
+    "ratios": {
+      "memory": 4.888290964827123,
+      "persistence": 4.838135545987016,
+      "consensus": 1.5465334644206623,
+      "fragmentation": 0.4314723736901017,
+      "drift": 0.876961529807838,
+      "product_metric": 3.319718893056591
+    },
+    "shape": [
+      25,
+      40,
+      8
+    ]
+  },
+  "network_traffic": {
+    "real_metrics": {
+      "memory": 0.6102046306005934,
+      "persistence": 0.7020833333333334,
+      "consensus": 0.7706287825055669,
+      "fragmentation": 0.020044395171163874,
+      "drift": 0.6222142901843067,
+      "product_metric": 0.6911459954615609
+    },
+    "random_metrics": {
+      "memory": 0.08187274499903899,
+      "persistence": 0.13113425925925926,
+      "consensus": 0.40364653120252864,
+      "fragmentation": 0.045502652894632005,
+      "drift": 1.123499841336631,
+      "product_metric": 0.16303579100543494
+    },
+    "ratios": {
+      "memory": 7.453086166277553,
+      "persistence": 5.353927584944454,
+      "consensus": 1.9091673556578599,
+      "fragmentation": 0.4405104637979925,
+      "drift": 0.5538178704949692,
+      "product_metric": 4.239228619434197
+    },
+    "shape": [
+      25,
+      30,
+      5
+    ]
+  },
+  "weather_sequence": {
+    "real_metrics": {
+      "memory": 0.32356808008123794,
+      "persistence": 0.48237179487179477,
+      "consensus": 0.6016053797186015,
+      "fragmentation": 0.03354101966249685,
+      "drift": 0.7560842726752149,
+      "product_metric": 0.4545201029385915
+    },
+    "random_metrics": {
+      "memory": 0.13000977071152506,
+      "persistence": 0.2107905982905983,
+      "consensus": 0.44619837539220875,
+      "fragmentation": 0.046611840000862936,
+      "drift": 1.0812674978179289,
+      "product_metric": 0.23037532009286518
+    },
+    "ratios": {
+      "memory": 2.4887981558739587,
+      "persistence": 2.288393298824449,
+      "consensus": 1.3482912792802049,
+      "fragmentation": 0.719581525687344,
+      "drift": 0.6992573747955865,
+      "product_metric": 1.972954832064554
+    },
+    "shape": [
+      40,
+      20,
+      3
+    ]
+  }
+}

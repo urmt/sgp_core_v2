@@ -1,0 +1,240 @@
+{
+  "depths": {
+    "1": {
+      "projection": {
+        "initial_count": 336,
+        "terminal_count": 355,
+        "transitions": 99,
+        "transition_entropy": 0.6062566400835896,
+        "sector_persistence": 0.7053571428571428,
+        "accessible_fraction": 0.2303749613824217,
+        "constraint_retention": 0.16249662454652958,
+        "mean_accessibility": 0.05223160204375707
+      },
+      "antisymmetry": {
+        "initial_count": 1,
+        "terminal_count": 0,
+        "transitions": 1,
+        "transition_entropy": -1.000000082690371e-10,
+        "sector_persistence": 0.0,
+        "accessible_fraction": 0.9999999990657121,
+        "constraint_retention": 0.0,
+        "mean_accessibility": 0.10703338195341885
+      },
+      "neutral": {
+        "initial_count": 163,
+        "terminal_count": 145,
+        "transitions": 117,
+        "transition_entropy": 0.5950271661905916,
+        "sector_persistence": 0.28220858895705525,
+        "accessible_fraction": 0.38560479824950694,
+        "constraint_retention": 0.10882098600906333,
+        "mean_accessibility": 0.07734848325963307
+      }
+    },
+    "3": {
+      "projection": {
+        "initial_count": 337,
+        "terminal_count": 413,
+        "transitions": 56,
+        "transition_entropy": 0.4497643640872254,
+        "sector_persistence": 0.8338278931750742,
+        "accessible_fraction": 0.19299679173400755,
+        "constraint_retention": 0.16092610824111608,
+        "mean_accessibility": 0.051795188000105914
+      },
+      "antisymmetry": {
+        "initial_count": 3,
+        "terminal_count": 0,
+        "transitions": 3,
+        "transition_entropy": -1.000000082690371e-10,
+        "sector_persistence": 0.0,
+        "accessible_fraction": 0.6953103265267546,
+        "constraint_retention": 0.0,
+        "mean_accessibility": 0.16318109288969598
+      },
+      "neutral": {
+        "initial_count": 160,
+        "terminal_count": 87,
+        "transitions": 130,
+        "transition_entropy": 0.4825775649770121,
+        "sector_persistence": 0.1875,
+        "accessible_fraction": 0.2643752806928553,
+        "constraint_retention": 0.04957036512991037,
+        "mean_accessibility": 0.07198556932614943
+      }
+    },
+    "6": {
+      "projection": {
+        "initial_count": 326,
+        "terminal_count": 386,
+        "transitions": 77,
+        "transition_entropy": 0.5466556980303706,
+        "sector_persistence": 0.7638036809815951,
+        "accessible_fraction": 0.18878936157777024,
+        "constraint_retention": 0.14419800930326623,
+        "mean_accessibility": 0.04864734275998302
+      },
+      "antisymmetry": {
+        "initial_count": 1,
+        "terminal_count": 0,
+        "transitions": 1,
+        "transition_entropy": -1.000000082690371e-10,
+        "sector_persistence": 0.0,
+        "accessible_fraction": 0.999999999445058,
+        "constraint_retention": 0.0,
+        "mean_accessibility": 0.1801990271063142
+      },
+      "neutral": {
+        "initial_count": 173,
+        "terminal_count": 114,
+        "transitions": 137,
+        "transition_entropy": 0.5114183652638306,
+        "sector_persistence": 0.20809248554913296,
+        "accessible_fraction": 0.2628302987961615,
+        "constraint_retention": 0.054693010154114534,
+        "mean_accessibility": 0.07887201880435726
+      }
+    },
+    "9": {
+      "projection": {
+        "initial_count": 351,
+        "terminal_count": 388,
+        "transitions": 75,
+        "transition_entropy": 0.5187855182711174,
+        "sector_persistence": 0.7863247863247863,
+        "accessible_fraction": 0.19654538508805103,
+        "constraint_retention": 0.15454850793248456,
+        "mean_accessibility": 0.048853265156224124
+      },
+      "antisymmetry": {
+        "initial_count": 1,
+        "terminal_count": 0,
+        "transitions": 1,
+        "transition_entropy": -1.000000082690371e-10,
+        "sector_persistence": 0.0,
+        "accessible_fraction": 0.9999999994479645,
+        "constraint_retention": 0.0,
+        "mean_accessibility": 0.18114778204409637
+      },
+      "neutral": {
+        "initial_count": 148,
+        "terminal_count": 112,
+        "transitions": 112,
+        "transition_entropy": 0.5547896021487735,
+        "sector_persistence": 0.2432432432432432,
+        "accessible_fraction": 0.3803916018719286,
+        "constraint_retention": 0.09252768694182045,
+        "mean_accessibility": 0.08047083385012545
+      }
+    },
+    "12": {
+      "projection": {
+        "initial_count": 330,
+        "terminal_count": 376,
+        "transitions": 82,
+        "transition_entropy": 0.560664450246634,
+        "sector_persistence": 0.7515151515151515,
+        "accessible_fraction": 0.23039158698714585,
+        "constraint_retention": 0.17314276840246112,
+        "mean_accessibility": 0.05039814384202967
+      },
+      "antisymmetry": {
+        "initial_count": 3,
+        "terminal_count": 0,
+        "transitions": 3,
+        "transition_entropy": -1.000000082690371e-10,
+        "sector_persistence": 0.0,
+        "accessible_fraction": 0.743755470273232,
+        "constraint_retention": 0.0,
+        "mean_accessibility": 0.11191044146166462
+      },
+      "neutral": {
+        "initial_count": 167,
+        "terminal_count": 124,
+        "transitions": 125,
+        "transition_entropy": 0.5639738054461616,
+        "sector_persistence": 0.25149700598802394,
+        "accessible_fraction": 0.2879653745903412,
+        "constraint_retention": 0.0724224295376906,
+        "mean_accessibility": 0.07422361024633581
+      }
+    },
+    "15": {
+      "projection": {
+        "initial_count": 342,
+        "terminal_count": 376,
+        "transitions": 80,
+        "transition_entropy": 0.5439674890283422,
+        "sector_persistence": 0.7660818713450293,
+        "accessible_fraction": 0.22814363082652037,
+        "constraint_retention": 0.17477669963903023,
+        "mean_accessibility": 0.05098497731206127
+      },
+      "antisymmetry": {
+        "initial_count": 1,
+        "terminal_count": 1,
+        "transitions": 1,
+        "transition_entropy": -1.000000082690371e-10,
+        "sector_persistence": 0.0,
+        "accessible_fraction": 0.9999999996068765,
+        "constraint_retention": 0.0,
+        "mean_accessibility": 0.2543730224543549
+      },
+      "neutral": {
+        "initial_count": 157,
+        "terminal_count": 123,
+        "transitions": 113,
+        "transition_entropy": 0.593193783448321,
+        "sector_persistence": 0.28025477707006374,
+        "accessible_fraction": 0.3653203032254658,
+        "constraint_retention": 0.10238276013962101,
+        "mean_accessibility": 0.07893877571622475
+      }
+    },
+    "20": {
+      "projection": {
+        "initial_count": 345,
+        "terminal_count": 355,
+        "transitions": 105,
+        "transition_entropy": 0.6145033201107282,
+        "sector_persistence": 0.6956521739130435,
+        "accessible_fraction": 0.22446105053336682,
+        "constraint_retention": 0.15614681776234213,
+        "mean_accessibility": 0.053869632075590354
+      },
+      "antisymmetry": {
+        "initial_count": 5,
+        "terminal_count": 2,
+        "transitions": 5,
+        "transition_entropy": -1.000000082690371e-10,
+        "sector_persistence": 0.0,
+        "accessible_fraction": 0.6789824801026604,
+        "constraint_retention": 0.0,
+        "mean_accessibility": 0.125961069823873
+      },
+      "neutral": {
+        "initial_count": 150,
+        "terminal_count": 143,
+        "transitions": 113,
+        "transition_entropy": 0.5586433853473838,
+        "sector_persistence": 0.2466666666666667,
+        "accessible_fraction": 0.37270641438203217,
+        "constraint_retention": 0.09193424888090128,
+        "mean_accessibility": 0.08009177690965935
+      }
+    }
+  },
+  "answers": {
+    "H1_constraining": true,
+    "H2_accessible": true,
+    "H3_memory": true,
+    "H4_rg_stable": true,
+    "H5_entropy": true,
+    "verdict": "STRONG_CONSTRAINT_PROPAGATION",
+    "rg_correlation": 0.9999999999999999,
+    "projection_persistence": 0.6956521739130435,
+    "neutral_persistence": 0.2466666666666667,
+    "constraint_propagation": 0.3141062801932367
+  }
+}

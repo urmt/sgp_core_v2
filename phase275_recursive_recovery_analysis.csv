@@ -1,0 +1,12 @@
+phase,direction,recursion_depth,mean_localization,variance_localization,recovery_status,limitations
+forward,0.0,0.0153,0.000357,baseline,N/A
+forward,0.25,0.0171,0.000362,increasing,N/A
+forward,0.5,0.0166,0.000352,decreasing,slight_recovery
+forward,0.75,0.0232,0.000850,increasing,near_threshold
+forward,1.0,0.0268,0.000227,fractured,N/A
+forward,2.0,0.0368,0.000175,fractured,maximum_depth
+backward,1.0,0.0258,0.000237,recovering,fractured_state
+backward,0.75,0.0243,0.000701,recovering,near_threshold
+backward,0.5,0.0178,0.000509,recovering,slight_recovery
+backward,0.25,0.0153,0.000230,recovered,N/A
+backward,0.0,0.0175,0.000362,recovered,delta_0.0023

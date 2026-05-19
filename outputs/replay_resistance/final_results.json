@@ -1,0 +1,64 @@
+{
+  "legitimate": {
+    "stable_hierarchy": {
+      "data_drift": 0.9793981368765037,
+      "replay_similarity": 0.8266195605347915,
+      "novelty_decay": 0.40929895882950684,
+      "anti_replay_score": 0.6574657755418937,
+      "is_replay": false,
+      "is_replay_drift_only": false
+    },
+    "random_temporal": {
+      "data_drift": 1.1929369951698998,
+      "replay_similarity": 0.004506837221698296,
+      "novelty_decay": 1.115403833642224,
+      "anti_replay_score": 0.9990986325556603,
+      "is_replay": false,
+      "is_replay_drift_only": false
+    },
+    "perturb_recover": {
+      "data_drift": 0.11559104200309314,
+      "replay_similarity": 0.9893075359320983,
+      "novelty_decay": 0.11160689997992695,
+      "anti_replay_score": 0.22827229947938033,
+      "is_replay": false,
+      "is_replay_drift_only": false
+    }
+  },
+  "adversarial": {
+    "replay_memory_spoof": {
+      "data_drift": 0.011559104200309308,
+      "replay_similarity": 0.9998917320379249,
+      "novelty_decay": 0.011160689997992697,
+      "anti_replay_score": 0.022635034258995008,
+      "is_replay": true,
+      "is_replay_drift_only": true
+    },
+    "delayed_random_coherence": {
+      "data_drift": 1.1849514558600758,
+      "replay_similarity": 0.007889047213599308,
+      "novelty_decay": 1.1153794183886092,
+      "anti_replay_score": 0.9984221905572801,
+      "is_replay": false,
+      "is_replay_drift_only": false
+    },
+    "temporal_camouflage": {
+      "data_drift": 1.1981148418602063,
+      "replay_similarity": -0.04580585436993881,
+      "novelty_decay": 1.1376239907408399,
+      "anti_replay_score": 1.0091611708739878,
+      "is_replay": false,
+      "is_replay_drift_only": false
+    },
+    "phase_shift_replay": {
+      "data_drift": 1.1781851758068949,
+      "replay_similarity": 0.07969137062228948,
+      "novelty_decay": 1.1005898308420416,
+      "anti_replay_score": 0.9840617258755422,
+      "is_replay": false,
+      "is_replay_drift_only": false
+    }
+  },
+  "detection_rate": 0.25,
+  "false_positive_rate": 0.0
+}

@@ -1,0 +1,176 @@
+{
+  "depths": {
+    "1": {
+      "projection-neutral": {
+        "boundary_strength": 0.05414315305915577,
+        "transition_flux": 0.15041666666666664,
+        "interface_dispersion": 0.16757141256654765,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.08333333333333333
+      },
+      "projection-antisymmetry": {
+        "boundary_strength": 0.15384541189739015,
+        "transition_flux": 0.19624999999999998,
+        "interface_dispersion": 0.20393024481979685,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.11666666666666667
+      },
+      "neutral-antisymmetry": {
+        "boundary_strength": 0.12221559348564565,
+        "transition_flux": 0.18333333333333335,
+        "interface_dispersion": 0.20981159320338197,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.16666666666666669
+      }
+    },
+    "3": {
+      "projection-neutral": {
+        "boundary_strength": 0.19000135764366805,
+        "transition_flux": 0.11875,
+        "interface_dispersion": 0.17119354275630125,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.05
+      },
+      "projection-antisymmetry": {
+        "boundary_strength": 0.35914659571045465,
+        "transition_flux": 0.21916666666666668,
+        "interface_dispersion": 0.16353871342971465,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.1
+      },
+      "neutral-antisymmetry": {
+        "boundary_strength": 0.16801828671022181,
+        "transition_flux": 0.175,
+        "interface_dispersion": 0.1891909952353684,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.15000000000000002
+      }
+    },
+    "6": {
+      "projection-neutral": {
+        "boundary_strength": 0.2573720173291232,
+        "transition_flux": 0.19047619047619047,
+        "interface_dispersion": 0.18504890169395039,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.0
+      },
+      "projection-antisymmetry": {
+        "boundary_strength": 0.4569058061297668,
+        "transition_flux": 0.3709523809523809,
+        "interface_dispersion": 0.16474524563107654,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.1
+      },
+      "neutral-antisymmetry": {
+        "boundary_strength": 0.19226398120890964,
+        "transition_flux": 0.18785714285714286,
+        "interface_dispersion": 0.18111936988478738,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.1
+      }
+    },
+    "9": {
+      "projection-neutral": {
+        "boundary_strength": 0.2859970663251095,
+        "transition_flux": 0.22875,
+        "interface_dispersion": 0.1912523320057844,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.0
+      },
+      "projection-antisymmetry": {
+        "boundary_strength": 0.4982634807472435,
+        "transition_flux": 0.6391666666666667,
+        "interface_dispersion": 0.16820999969392128,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.1
+      },
+      "neutral-antisymmetry": {
+        "boundary_strength": 0.20183446336574798,
+        "transition_flux": 0.18625,
+        "interface_dispersion": 0.1800777571400803,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.1
+      }
+    },
+    "12": {
+      "projection-neutral": {
+        "boundary_strength": 0.3019964347934239,
+        "transition_flux": 0.20512820512820512,
+        "interface_dispersion": 0.19377195803773906,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.0
+      },
+      "projection-antisymmetry": {
+        "boundary_strength": 0.5214809916586287,
+        "transition_flux": 0.6598076923076923,
+        "interface_dispersion": 0.17084357337416126,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.1
+      },
+      "neutral-antisymmetry": {
+        "boundary_strength": 0.2071343779786805,
+        "transition_flux": 0.18538461538461537,
+        "interface_dispersion": 0.17850120069932812,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.1
+      }
+    },
+    "15": {
+      "projection-neutral": {
+        "boundary_strength": 0.3121190812172247,
+        "transition_flux": 0.2700520833333333,
+        "interface_dispersion": 0.19743493837446402,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.0
+      },
+      "projection-antisymmetry": {
+        "boundary_strength": 0.5360841388453293,
+        "transition_flux": 0.6761458333333333,
+        "interface_dispersion": 0.17240008996959774,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.1
+      },
+      "neutral-antisymmetry": {
+        "boundary_strength": 0.21033701010921413,
+        "transition_flux": 0.18484375,
+        "interface_dispersion": 0.17837440589013412,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.1
+      }
+    },
+    "20": {
+      "projection-neutral": {
+        "boundary_strength": 0.322810644082035,
+        "transition_flux": 0.4603968253968254,
+        "interface_dispersion": 0.19907955679970632,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.0
+      },
+      "projection-antisymmetry": {
+        "boundary_strength": 0.5515971590367065,
+        "transition_flux": 0.6880952380952381,
+        "interface_dispersion": 0.17415013906710985,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.1
+      },
+      "neutral-antisymmetry": {
+        "boundary_strength": 0.21370026700407796,
+        "transition_flux": 0.18424603174603174,
+        "interface_dispersion": 0.17704140225969364,
+        "sector_separability": 0.0,
+        "boundary_retention": 0.1
+      }
+    }
+  },
+  "answers": {
+    "H1_boundary_strength": true,
+    "H2_sector_separability": false,
+    "H3_interface_boundedness": true,
+    "H4_rg_stability": true,
+    "H5_boundary_retention": false,
+    "verdict": "DIFFUSE",
+    "best_boundary_strength": 0.5515971590367065,
+    "mean_separability_initial": 0.0,
+    "mean_separability_terminal": 0.0
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "gate_open_rate": 0.2,
+  "max_metric_corr": 0.2937365333383183,
+  "domain_results": {
+    "chirp": {
+      "replay_distance": 0.14401059402020278,
+      "stitched_distance": 0.15662762660879406,
+      "reverse_distance": 0.2817174238754033,
+      "adversarial_distance": 0.28349488406993434,
+      "gate": false
+    },
+    "random_walk_trend": {
+      "replay_distance": 27.154364194425607,
+      "stitched_distance": 27.297006698565202,
+      "reverse_distance": 28.54696612054969,
+      "adversarial_distance": 27.637978884176114,
+      "gate": true
+    },
+    "regime_switching": {
+      "replay_distance": 2.155499946161092,
+      "stitched_distance": 0.055265834041122924,
+      "reverse_distance": 2.2944493363272844,
+      "adversarial_distance": 2.186627806915422,
+      "gate": false
+    },
+    "chaotic_logistic": {
+      "replay_distance": 0.04474560267089239,
+      "stitched_distance": 0.03038887213782598,
+      "reverse_distance": 0.04141769706077476,
+      "adversarial_distance": 3.1763127300826484,
+      "gate": false
+    },
+    "coupled_oscillator": {
+      "replay_distance": 0.060690014557237645,
+      "stitched_distance": 0.05080631919386853,
+      "reverse_distance": 0.021657456100863826,
+      "adversarial_distance": 0.24768719579626963,
+      "gate": false
+    }
+  },
+  "metric_summary": {
+    "late_energy_ratio": {
+      "mean": 2.278668805988441,
+      "std": 9.638587219037676,
+      "min": 0.0028194016929016896,
+      "max": 354.6851810856415
+    },
+    "directional_ngram_kl": {
+      "mean": 0.6061748629725517,
+      "std": 1.2328646379257584,
+      "min": 0.0,
+      "max": 3.456869651611707
+    },
+    "inst_freq_drift": {
+      "mean": -1.5721273822129565e-06,
+      "std": 1.6420799120482232e-05,
+      "min": -0.00016268893816343526,
+      "max": 5.4144839853058134e-05
+    },
+    "lz_gradient_asymmetry": {
+      "mean": 0.0024076391264073673,
+      "std": 0.06915154353344588,
+      "min": -0.5657894736767659,
+      "max": 0.5714285714211502
+    }
+  },
+  "correlation_matrix": [
+    [
+      1.0,
+      -0.06399244648844274,
+      -0.05490524586052765,
+      -0.0303840949839654
+    ],
+    [
+      -0.06399244648844275,
+      1.0,
+      0.04041071752474237,
+      -0.0022751711253791956
+    ],
+    [
+      -0.054905245860527654,
+      0.04041071752474238,
+      0.9999999999999998,
+      0.2937365333383183
+    ],
+    [
+      -0.030384094983965396,
+      -0.0022751711253791956,
+      0.29373653333831823,
+      1.0
+    ]
+  ]
+}

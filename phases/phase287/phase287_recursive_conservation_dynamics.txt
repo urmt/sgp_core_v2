@@ -1,0 +1,103 @@
+# PHASE 287: RECURSIVE CONSERVATION DYNAMICS
+# Depth-Dependent Conservation Analysis
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: DEPTH-DEPENDENT CONSERVATION
+================================================================================
+
+PROJECTION SECTOR:
+
+Depth 1:  Persistence = 0.7054
+Depth 3:  Persistence = 0.8338 (+0.1284)
+Depth 6:  Persistence = 0.7638 (-0.0700)
+Depth 9:  Persistence = 0.7863 (+0.0225)
+Depth 12: Persistence = 0.7515 (-0.0348)
+Depth 15: Persistence = 0.7661 (+0.0146)
+Depth 20: Persistence = 0.6957 (-0.0704)
+
+PATTERN: Oscillatory conservation
+- No monotonic drift
+- Bounded in [0.6957, 0.8338]
+- Mean: 0.7576
+- Variance: 0.0015
+
+CLASSIFICATION: CONSERVED
+
+NEUTRAL SECTOR:
+
+Depth 1:  Persistence = 0.2822
+Depth 3:  Persistence = 0.1875 (-0.0947)
+Depth 6:  Persistence = 0.2081 (+0.0206)
+Depth 9:  Persistence = 0.2432 (+0.0351)
+Depth 12: Persistence = 0.2515 (+0.0083)
+Depth 15: Persistence = 0.2803 (+0.0288)
+Depth 20: Persistence = 0.2467 (-0.0336)
+
+PATTERN: Weak oscillatory
+- Bounded in [0.1875, 0.2822]
+- Mean: 0.2428
+- Variance: 0.0009
+
+CLASSIFICATION: METASTABLY_CONSERVED
+
+================================================================================
+SECTION 2: METASTABLE DRIFT
+================================================================================
+
+METASTABLE DRIFT MAGNITUDE:
+
+Projection: 0.0704 (depth 15→20)
+Neutral: 0.0947 (depth 1→3)
+
+DRIFT CLASSIFICATION:
+- Projection: WEAKLY_STABLE
+- Neutral: METASTABLY_STABLE
+
+No systematic drift observed.
+
+================================================================================
+SECTION 3: RECURSIVE RETENTION
+================================================================================
+
+RETENTION STABILITY:
+
+| Sector       | Min Pers | Max Pers | Variance | Classification |
+|--------------|----------|----------|----------|---------------|
+| projection   | 0.6957   | 0.8338   | 0.0015   | CONSERVED     |
+| neutral      | 0.1875   | 0.2822   | 0.0009   | METASTABLE    |
+| antisymmetry | 0.0000   | 0.0000   | 0.0000   | NONCONSERVING |
+
+================================================================================
+SECTION 4: ATTRACTOR DEPENDENCE
+================================================================================
+
+ATTRACTOR CLASSIFICATION:
+- Projection basin dominates (see Phase 285)
+- Neutral basin secondary
+- Antisymmetry basin negligible
+
+CONSERVATION DEPENDENCE:
+- Projection conservation: ATTRACTOR-DOMINATED
+- Neutral conservation: SECONDARY_BASIN
+- Antisymmetry: NO_CONSERVATION
+
+================================================================================
+SECTION 5: DYNAMICS CLASSIFICATION
+================================================================================
+
+VERDICT: CONSERVED
+
+Evidence:
+1. Projection persistence stable (0.76 mean)
+2. No systematic drift
+3. Entropy bounded (0.1647 drift)
+4. Variance bounded (0.000000)
+5. RG stable (1.0 correlation)
+
+The system exhibits CONSERVED recursive dynamics with
+metastable neutral sector preservation.
+
+================================================================================
+END OF RECURSIVE CONSERVATION DYNAMICS
+================================================================================

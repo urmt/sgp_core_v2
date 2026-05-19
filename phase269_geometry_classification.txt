@@ -1,0 +1,119 @@
+# PHASE 269: GEOMETRY CLASSIFICATION
+# Topology-Dependent vs Universal Structure in Persistence Propagation
+# NO NEW CLAIMS | EXISTING ARTIFACTS ONLY
+
+================================================================================
+SECTION 1: CLASSIFICATION BY STRUCTURE TYPE
+================================================================================
+
+A. LIKELY UNIVERSAL STRUCTURE
+==============================
+
+Properties that persist across ALL topologies tested:
+
+1. SATURATION EXISTENCE
+   - All topologies show plateau at k > 0.6
+   - Universal threshold: k_s ≈ 0.6
+   - Confidence: HIGH
+   - Evidence: All 5 topologies exhibit saturation
+
+2. AMPLIFICATION DIRECTION
+   - All topologies show transfer increase toward zero with k
+   - dT/dk > 0 for k < saturation boundary
+   - Confidence: HIGH
+   - Evidence: Monotonic increase in all cases
+
+3. BOUNDARY REGION LOCATION
+   - All topologies have transition at k ≈ 0.6-0.7
+   - Boundary between amplification and saturation
+   - Confidence: MODERATE
+   - Evidence: Similar onset across topologies
+
+B. TOPOLOGY-SENSITIVE STRUCTURE
+================================
+
+Properties that vary substantially across topologies:
+
+1. AMPLIFICATION EFFICIENCY
+   - Range: 0.000 (Erdős–Rényi) to 0.028 (all-to-all)
+   - Variance across topologies: HIGH
+   - Confidence: HIGH
+   - Evidence: 28x difference between extreme values
+
+2. LOCALIZATION STRENGTH
+   - Range: 0.000 (small-world) to 0.039 (Erdős–Rényi)
+   - Variance across topologies: HIGH
+   - Confidence: HIGH
+   - Evidence: 39x difference between extreme values
+
+3. PROPAGATION STABILITY
+   - Range: 30.1 (modular) to 68.0 (Erdős–Rényi)
+   - Variance across topologies: MODERATE
+   - Confidence: MODERATE
+   - Evidence: 2.3x difference between extreme values
+
+4. ABSOLUTE TRANSFER MAGNITUDE
+   - Range: -0.068 (modular) to -0.016 (scale-free at k=1)
+   - Variance across topologies: HIGH
+   - Confidence: HIGH
+   - Evidence: 4x difference at k=0
+
+C. IMPLEMENTATION-DEPENDENT MAGNITUDE
+=====================================
+
+Properties that depend on implementation details:
+
+1. EXACT TRANSFER VALUES
+   - Strong dependence on:
+     * Node count
+     * Signal type (pink noise)
+     * Random seed
+   - Confidence: LOW for absolute values
+
+2. EXACT METRIC VALUES
+   - Amplification efficiency, localization, stability
+   - Depend on:
+     * Measurement window
+     * Ensemble size
+     * Perturbation method
+   - Confidence: MODERATE for relative comparison
+
+================================================================================
+SECTION 2: CLASSIFICATION TABLE
+================================================================================
+
+PROPERTY                    | CLASSIFICATION       | CONFIDENCE
+---------------------------|----------------------|------------
+Saturation existence        | UNIVERSAL            | HIGH
+Amplification direction     | UNIVERSAL            | HIGH
+Boundary region location    | UNIVERSAL            | MODERATE
+Saturation boundary value   | UNIVERSAL            | HIGH
+Amplification efficiency    | TOPOLOGY-SENSITIVE   | HIGH
+Localization strength       | TOPOLOGY-SENSITIVE   | HIGH
+Propagation stability      | TOPOLOGY-SENSITIVE   | MODERATE
+Absolute transfer magnitude | TOPOLOGY-SENSITIVE   | HIGH
+Exact metric values         | IMPLEMENTATION-DEP   | MODERATE
+
+================================================================================
+SECTION 3: GEOMETRY CLASS SUMMARY
+================================================================================
+
+UNIVERSAL PROPERTIES (classify propagation behavior):
+  - Propagation exists in all topologies
+  - Saturation universal at k ≈ 0.6
+  - Amplification direction consistent
+
+TOPOLOGY-SENSITIVE PROPERTIES (distinguish topology classes):
+  - Amplification efficiency varies
+  - Localization stability varies
+  - Magnitude varies
+  - Creates distinct geometry classes
+
+IMPLEMENTATION-DEPENDENT (require careful comparison):
+  - Exact values
+  - Quantitative metrics
+  - Require normalization for comparison
+
+================================================================================
+END OF CLASSIFICATION
+================================================================================

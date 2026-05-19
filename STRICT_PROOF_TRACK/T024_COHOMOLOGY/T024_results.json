@@ -1,0 +1,35 @@
+{
+  "cross_domain_alignment": {
+    "reverse": {
+      "mean_alignment": 5.096222503950419e-33,
+      "min_alignment": 1.2874249229075857e-33,
+      "std_alignment": 3.499831979097802e-33
+    },
+    "swap": {
+      "mean_alignment": 0.29057985206144815,
+      "min_alignment": -0.0077496698073607736,
+      "std_alignment": 0.3482981137517968
+    },
+    "replay": {
+      "mean_alignment": 0.9997977100619206,
+      "min_alignment": 0.9994521097283724,
+      "std_alignment": 0.00013955621834745415
+    },
+    "stitch": {
+      "mean_alignment": -0.19988029399544796,
+      "min_alignment": -0.9999989506771427,
+      "std_alignment": 0.9793493415398419
+    }
+  },
+  "tau_alignments": {
+    "chirp": 0.999359844514595,
+    "rw_trend": 0.9999229520082885,
+    "regime_switch": 0.9996176815030058,
+    "chaotic_logistic": 0.9997801727292027,
+    "coupled_osc": 0.9998697726641329
+  },
+  "H1_replay_universal": true,
+  "H2_replay_homologous": true,
+  "H3_stitch_homologous": false,
+  "interpretation": "Replay/stitch act homologically across domains \u2014 \u03c4 is universal."
+}

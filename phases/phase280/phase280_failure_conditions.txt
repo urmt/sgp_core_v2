@@ -1,0 +1,59 @@
+# PHASE 280: FAILURE CONDITIONS
+# Explicit FAIL Criteria for Recovery Fragility Boundary
+# NO PARAMETER RETUNING | NO THRESHOLD MODIFICATION
+
+================================================================================
+SECTION 1: EXPLICIT FAIL CONDITIONS
+================================================================================
+
+The Phase 280 recovery fragility boundary analysis FAILS if ANY
+of the following conditions are met:
+
+FAIL CONDITION 1: Localization Overflow
+-----------------------------------------
+Criterion: max(localization) > 0.10
+Evidence required: Any topology exceeds 0.10 under stress
+Current status: max = 0.0320 < 0.10 → NOT FAILING
+
+FAIL CONDITION 2: Variance Explosion
+------------------------------------
+Criterion: variance > 0.01
+Evidence required: Topology variance diverges
+Current status: var = 0.000020 < 0.01 → NOT FAILING
+
+FAIL CONDITION 3: Monotonic Divergence
+---------------------------------------
+Criterion: rollback_delta increases monotonically across durations
+Evidence required: 1x < 2x < 4x < 8x for all topologies
+Current status: No monotonic pattern observed → NOT FAILING
+
+FAIL CONDITION 4: Complete Irreversibility
+-------------------------------------------
+Criterion: all topologies reach IRREVERSIBLE classification
+Evidence required: 5/5 topologies delta >= 0.05
+Current status: 0/5 IRREVERSIBLE → NOT FAILING
+
+FAIL CONDITION 5: Classification Instability
+--------------------------------------------
+Criterion: Q2 FAIL (non-recoverable topologies at 8x)
+Evidence required: Any topology not RECOVERABLE/FRAGILE at 8x
+Current status: 2/5 non-recoverable → FAILING
+
+================================================================================
+SECTION 2: OBSERVED STATUS
+================================================================================
+
+Q1 (thresholded): FAIL (gradual)
+Q2 (recoverable): FAIL (2/5 non-recoverable)
+Q3 (path dependent): PASS (YES)
+Q4 (stable ranking): PASS (YES)
+Q5 (propagation): PASS (NO)
+
+VERDICT: PATH_DEPENDENT_FAILURE
+
+Q5 is NOT failing (no propagation), but Q2 fails because
+2 topologies remain DEGRADED or FRAGILE at 8x rollback.
+
+================================================================================
+END OF FAILURE CONDITIONS
+================================================================================

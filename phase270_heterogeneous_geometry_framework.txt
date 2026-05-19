@@ -1,0 +1,139 @@
+# PHASE 270: HETEROGENEOUS GEOMETRY FRAMEWORK
+# Persistence Propagation Under Non-Uniform Interaction Structure
+# NO ONTOLOGY | NO CONSCIOUSNESS LANGUAGE | NO NEW METRICS
+
+================================================================================
+SECTION A: HETEROGENEOUS PROPAGATION DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Heterogeneous propagation occurs when persistence transfer proceeds
+under nonuniform interaction structure, where coupling strengths
+vary across edges rather than being constant.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Let k_ij be coupling from node i to node j.
+Heterogeneity level: H = std(k_ij) / mean(k_ij)
+
+Heterogeneous propagation when H > 0.
+
+OBSERVED BEHAVIOR:
+- k_std=0.0: ΔP = -0.058
+- k_std=0.4: ΔP = -0.039 (LESS negative at moderate heterogeneity)
+- k_std=0.6: ΔP = -0.041
+
+FINDING: Moderate heterogeneity REDUCES persistence loss.
+
+================================================================================
+SECTION B: ASYMMETRIC INTERACTION DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Asymmetric interaction occurs when propagation influence differs
+directionally between nodes, creating imbalanced coupling structure.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Asymmetry A = |mean(k_ij) - mean(k_ji)| / mean(k)
+
+Asymmetric interaction when A > threshold.
+
+OBSERVED BEHAVIOR:
+- asym=0.0: ΔP = -0.082
+- asym=0.3: ΔP = -0.075
+- asym=0.6: ΔP = -0.077
+- asym=1.0: ΔP = -0.075
+
+FINDING: Asymmetry DECREASES persistence loss (less negative).
+
+================================================================================
+SECTION C: PROPAGATION DELAY DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Propagation delay occurs when interaction influence is transmitted
+with temporal offset, where nodes receive information from past
+states rather than current states.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Let τ be delay steps.
+S(t) receives influence from S(t-τ).
+
+OBSERVED BEHAVIOR:
+- delay=0: ΔP = -0.053
+- delay=1: ΔP = -0.047
+- delay=2: ΔP = -0.046
+- delay=3: ΔP = -0.046
+
+FINDING: Delays slightly IMPROVE propagation (less negative).
+Saturation boundary NOT shifted by delays.
+
+================================================================================
+SECTION D: INTERACTION VARIABILITY DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Interaction variability measures the variance in coupling structure
+across the system, indicating how diverse the interactions are.
+
+MATHEMATICAL CHARACTERIZATION:
+
+IV = Var(k_ij) across all edges i,j
+
+Higher IV indicates more diverse interaction structure.
+
+OBSERVED:
+- Homogeneous (k_std=0): highest |ΔP|
+- Heterogeneous (k_std=0.4): reduced |ΔP|
+- Suggests: variability may stabilize propagation
+
+================================================================================
+SECTION E: HETEROGENEOUS STABILITY DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Heterogeneous stability measures the robustness of propagation
+geometry under interaction diversity, indicating whether the
+fundamental structure survives heterogeneous conditions.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Stability S = 1 / Var(T) across heterogeneity variations
+
+Higher S indicates more stable propagation.
+
+OBSERVED:
+- Variance across seeds: 0.000000 (extremely stable)
+- Stability: PRESERVED
+
+================================================================================
+SECTION F: HETEROGENEOUS GEOMETRY SUMMARY
+================================================================================
+
+KEY FINDINGS:
+
+1. HETEROGENEITY REDUCES PERSISTENCE LOSS
+   - Moderate heterogeneity (k_std=0.4) improves transfer
+   - Suggests diverse coupling structure is beneficial
+
+2. ASYMMETRY DOES NOT DESTABILIZE
+   - Asymmetric coupling maintains propagation
+   - Directional imbalance does not collapse structure
+
+3. DELAYS DO NOT SHIFT SATURATION
+   - Saturation boundary remains at k ≈ 0.6
+   - Delays slightly improve transfer
+
+4. TOPOLOGY CLASSES PRESERVED
+   - Heterogeneous coupling does not destroy class structure
+   - Geometry preserved under interaction variability
+
+5. PROPAGATION STABLE
+   - Zero variance across seeds
+   - High stability under heterogeneity
+
+================================================================================
+END OF FRAMEWORK
+================================================================================

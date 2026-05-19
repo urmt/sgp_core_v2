@@ -1,0 +1,57 @@
+{
+  "seed": 79,
+  "alignments": {
+    "reverse": 0.0,
+    "replay": 0.9688439649116506,
+    "stitch": 0.9752582064323352,
+    "swap": 0.07603611710148246,
+    "jitter": 0.13239241297951082,
+    "blur": 0.6348950786987024,
+    "decimate": 0.33504299890882017
+  },
+  "mean_alignment": 0.44606696843321453,
+  "families": {
+    "reverse": "symmetry_family",
+    "replay": "symmetry_family",
+    "stitch": "symmetry_family",
+    "swap": "tau_family",
+    "jitter": "orthogonal_family",
+    "blur": "tau_family",
+    "decimate": "orthogonal_family"
+  },
+  "coords": [
+    [
+      -0.3910123329514211,
+      -0.07473641425250238
+    ],
+    [
+      0.17739089706697708,
+      0.43780601002774955
+    ],
+    [
+      0.20636478493724042,
+      0.4497729249500113
+    ],
+    [
+      0.9186819529253499,
+      0.2229015064993393
+    ],
+    [
+      0.44676720201720777,
+      -0.8810964046603558
+    ],
+    [
+      -0.8050709623955766,
+      0.3825073320577417
+    ],
+    [
+      -0.5531215415997773,
+      -0.5371549546219835
+    ]
+  ],
+  "checks": {
+    "H1_prediction_valid": false,
+    "H2_replay_best": false,
+    "H3_family_structure": true
+  }
+}

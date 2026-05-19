@@ -1,0 +1,99 @@
+# PHASE 286: CONSTRAINT PROPAGATION FRAMEWORK
+# Emergent Constraint Transmission Structure
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: OPERATIONAL DEFINITIONS
+================================================================================
+
+A. CONSTRAINT PROPAGATION
+--------------------------
+Definition: Persistence of restricted future state accessibility
+under recursive composition.
+
+Operationalization:
+- Compute sector persistence probabilities across depths
+- Measure constraint retention = persistence × accessible_fraction
+- Track stability of constraint structure
+
+B. ACCESSIBLE STATE REGION
+--------------------------
+Definition: Subset of embedding configurations reachable from
+a prior relational sector.
+
+Operationalization:
+- Compute embedding distances between initial and terminal states
+- Measure accessible_fraction = mean_distance / max_distance
+- Track changes across recursive depth
+
+C. CONSTRAINT RETENTION
+-----------------------
+Definition: Degree to which future states remain restricted
+by prior sector structure.
+
+Operationalization:
+- retention = sector_persistence × accessible_fraction
+- Higher retention = stronger constraint propagation
+- Track across depths to measure propagation stability
+
+D. PROPAGATION STABILITY
+-------------------------
+Definition: Consistency of constraint retention across
+recursive depth.
+
+Operationalization:
+- Compute variance of constraint retention across depths
+- Lower variance = more stable propagation
+- RG correlation test for scale invariance
+
+E. SECTOR MEMORY
+----------------
+Definition: Residual dependence of future sector membership
+on prior sector history.
+
+Operationalization:
+- sector_persistence = P(terminal_sector = initial_sector)
+- Higher persistence = stronger sector memory
+- Classify as STRONG (>0.50), WEAK (0.30-0.50), MEMORYLESS (<0.30)
+
+================================================================================
+SECTION 2: SECTOR FRAMEWORK
+================================================================================
+
+SECTORS:
+- projection: variance < 0.0001
+- antisymmetry: variance > 0.001
+- neutral: 0.0001 <= variance <= 0.001
+
+TRANSITION ANALYSIS:
+- For each sector, compute persistence probability
+- Measure transition entropy
+- Track accessible geometry narrowing/diffusion
+
+================================================================================
+SECTION 3: CONSTRAINT PROPAGATION CLASSIFICATION
+================================================================================
+
+STRONG_CONSTRAINT_PROPAGATION:
+- All H1-H5 PASS
+- Constraining, accessible, memory, RG stable, entropy bounded
+- Strong sector memory with stable propagation
+
+WEAK_CONSTRAINT_PROPAGATION:
+- H1 PASS and H3 PASS
+- Constraining with sector memory
+- Propagation less stable
+
+ACCESSIBLE_DIFFUSION:
+- H2 PASS only
+- Sectors accessible but not constraining
+- Propagation diffuse
+
+CONSTRAINT_COLLAPSE:
+- No H PASS
+- No constraint propagation
+- Accessibility collapses
+
+================================================================================
+END OF FRAMEWORK
+================================================================================

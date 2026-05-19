@@ -1,0 +1,18 @@
+{
+  "collapse": {
+    "replay": true,
+    "stitched": true,
+    "reverse": true
+  },
+  "null_failure": true,
+  "adversarial_failure": true,
+  "max_metric_correlation": 0.9950119165623248,
+  "success_conditions": {
+    "replay_distance_gt_0.15": false,
+    "stitched_distance_gt_0.20": false,
+    "reverse_distance_gt_0.20": false,
+    "adversarial_detection_rate_gte_0.80": false,
+    "null_separation_gte_0.15": false,
+    "metric_correlation_lt_0.85": false
+  }
+}

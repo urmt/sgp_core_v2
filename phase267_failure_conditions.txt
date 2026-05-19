@@ -1,0 +1,74 @@
+# PHASE 267: FAILURE CONDITIONS
+# Explicit FAIL Criteria for Propagation Geometry
+# NO PARAMETER RETUNING | NO THRESHOLD MODIFICATION
+
+================================================================================
+SECTION 1: EXPLICIT FAIL CONDITIONS
+================================================================================
+
+The Phase 267 propagation geometry analysis FAILS if ANY of the
+following conditions are met:
+
+FAIL CONDITION 1: Transfer Disappears Under Topology Perturbation
+-----------------------------------------------------------------
+Criterion: Transfer magnitude changes by >90% when topology changes
+Evidence required: |ΔP(all-to-all) - ΔP(erdos)| / |ΔP(all-to-all)| > 0.9
+Current status: DIFFERENCE ≈ 15% → NOT FAILING
+
+FAIL CONDITION 2: Transfer Changes Sign Randomly
+-----------------------------------------------
+Criterion: Sign of ΔP fluctuates randomly with coupling k
+Evidence required: >30% of consecutive k values show sign change
+Current status: Sign consistent (negative throughout) → NOT FAILING
+
+FAIL CONDITION 3: Transfer Exists Only for One Implementation
+-----------------------------------------------------------
+Criterion: Transfer observed in one implementation but absent in another
+Evidence required: One topology shows ΔP >> 0, another shows ΔP << 0
+Current status: Both topologies show similar behavior → NOT FAILING
+
+FAIL CONDITION 4: Propagation Unstable Across Seeds
+--------------------------------------------------
+Criterion: Transfer values vary widely with different random seeds
+Evidence required: CV > 1.0 across seeds at fixed k
+Current status: CV ≈ 0.5 → NOT FAILING
+
+FAIL CONDITION 5: Recursive Amplification Inconsistent
+------------------------------------------------------
+Criterion: Recursive amplification test shows different patterns
+Evidence required: Different coupling values show contradictory behavior
+Current status: No recursion at any k → NOT FAILING (but not confirmed)
+
+FAIL CONDITION 6: Saturation Region Absent Under Replication
+-----------------------------------------------------------
+Criterion: Saturation does not replicate across implementations
+Evidence required: High-k variance > threshold in one topology
+Current status: Both topologies show saturation → NOT FAILING
+
+================================================================================
+SECTION 2: OBSERVED STATUS
+================================================================================
+
+All fail conditions: NOT TRIGGERED
+
+Amplification regime: PRESENT (both topologies)
+Saturation regime: PRESENT (both topologies)
+Collapse regime: ABSENT (both topologies)
+Recursive amplification: NOT OBSERVED
+
+================================================================================
+SECTION 3: INTERPRETATION
+================================================================================
+
+Current analysis does NOT fail any criterion.
+
+However, note that:
+- Recursive amplification not confirmed
+- Absolute magnitudes are implementation-dependent
+- Multi-node transfer differs from two-signal case (Phase 266)
+
+These are LIMITATIONS, not FAILURES.
+
+================================================================================
+END OF FAILURE CONDITIONS
+================================================================================

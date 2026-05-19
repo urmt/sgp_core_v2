@@ -1,0 +1,16 @@
+Condition,Topology,Depth0,Depth0.5,Depth1.0,Depth2.0,MaxLoc,Fractured
+ordered,all-to-all,0.0235,0.0235,0.0235,0.0235,0.0235,False
+ordered,erdos-renyi,0.0235,0.0235,0.0235,0.0235,0.0235,False
+ordered,small-world,0.0235,0.0235,0.0235,0.0235,0.0235,False
+ordered,scale-free,0.0235,0.0235,0.0235,0.0235,0.0235,False
+ordered,modular,0.0235,0.0235,0.0235,0.0235,0.0235,False
+randomized,all-to-all,0.0228,0.0228,0.0228,0.0228,0.0228,False
+randomized,erdos-renyi,0.0222,0.0222,0.0222,0.0222,0.0222,False
+randomized,small-world,0.0235,0.0235,0.0235,0.0235,0.0235,False
+randomized,scale-free,0.0183,0.0183,0.0183,0.0183,0.0183,False
+randomized,modular,0.0235,0.0235,0.0235,0.0235,0.0235,False
+heterogeneous,all-to-all,0.0278,0.0278,0.0278,0.0278,0.0278,False
+heterogeneous,erdos-renyi,0.0278,0.0278,0.0278,0.0278,0.0278,False
+heterogeneous,small-world,0.0278,0.0278,0.0278,0.0278,0.0278,False
+heterogeneous,scale-free,0.0278,0.0278,0.0278,0.0278,0.0278,False
+heterogeneous,modular,0.0278,0.0278,0.0278,0.0278,0.0278,False

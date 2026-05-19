@@ -1,0 +1,19 @@
+metric_name,definition,phase_origin,tier_status,invariant_candidate,implementation_sensitive,empirical_support,limitations,ontology_safe
+sharpening,Rate of change in coordination order parameter near transition,Tier_2,TIER_2_VERIFIED,YES,MODERATE,Strong across systems,Finite-size dependent,ONTOLOGY_SAFE
+Binder_dip,Minimum in Binder cumulant indicating phase transition,Tier_2,TIER_2_VERIFIED,PARTIAL,STRONG,Moderate,Estimator dependent depth,ONTOLOGY_SAFE
+hysteresis_absence,No persistent loop in forward/backward coordination measurement,Tier_2,TIER_2_VERIFIED,YES,LOW,Moderate in validated systems,Sensitive to sweep rate,ONTOLOGY_SAFE
+critical_slowing,Increased correlation time near phase transition,Tier_2,TIER_2_VERIFIED,YES,LOW,Moderate,Requires long time series,ONTOLOGY_SAFE
+susceptibility_scaling,Variance amplification near critical point,Tier_1,TIER_1_CANDIDATE,PARTIAL,MODERATE,Limited,System size constrained,ONTOLOGY_SAFE
+topology_robustness,Coordination persistence under graph perturbation,Tier_2,TIER_2_VERIFIED,YES,LOW,Moderate across topologies,Perturbation magnitude dependent,ONTOLOGY_SAFE
+frequency_sensitivity,Response to oscillator frequency variation,Tier_1,TIER_1_CANDIDATE,NO,STRONG,Limited,Spectral method dependent,ONTOLOGY_SAFE
+metastability_indicator,Bimodal distribution near transition,Tier_2,TIER_2_VERIFIED,YES,LOW,Moderate,Requires sufficient samples,ONTOLOGY_SAFE
+phase_coherence_order,Mean field synchronization measure,Tier_1,TIER_1_CANDIDATE,NO,STRONG,Limited,Specific to oscillator systems,ONTOLOGY_SAFE
+correlation_length_scaling,Divergence of spatial correlation near transition,Tier_1,TIER_1_CANDIDATE,YES,MODERATE,Weak,Finite-size limitation,ONTOLOGY_SAFE
+coupling_threshold,K_c value for synchronization onset,Tier_1,TIER_1_CANDIDATE,NO,STRONG,Weak,Estimator and size dependent,ONTOLOGY_SAFE
+order_parameter_variance,Second-moment ratio (Binder cumulant),Tier_2,TIER_2_VERIFIED,PARTIAL,MODERATE,Moderate,Bin count sensitive,ONTOLOGY_SAFE
+transition_width_scaling,Width of phase transition region,Tier_2,TIER_2_VERIFIED,PARTIAL,MODERATE,Moderate,Definition dependent,ONTOLOGY_SAFE
+recovery_likelihood,Probability of coordination restoration after perturbation,Tier_2,TIER_2_VERIFIED,YES,LOW,Moderate,Requires long observation,ONTOLOGY_SAFE
+fertility_index,Net persistent organization after interaction,Tier_3,TIER_3_EXPLORATORY,NO,STRONG,Weak,Not fully validated,ONTOLOGY_SAFE
+recursive_stabilization_ratio,Probability of coordination given history,Tier_3,TIER_3_EXPLORATORY,PARTIAL,MODERATE,Weak,Requires extended time series,ONTOLOGY_SAFE
+persistence_duration,Mean time in coordinated state,Tier_2,TIER_2_VERIFIED,YES,LOW,Moderate,Observation window dependent,ONTOLOGY_SAFE
+interaction_survivability,Coherence after perturbation,Tier_3,TIER_3_EXPLORATORY,PARTIAL,MODERATE,Weak,Not fully tested,ONTOLOGY_SAFE

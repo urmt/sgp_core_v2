@@ -1,0 +1,244 @@
+{
+  "depths": {
+    "1": {
+      "projection": {
+        "count": 600,
+        "transition_rate": 0.6096850620448147,
+        "retention_strength": 0.5305246265502719,
+        "transition_dispersion": 0.22931094542659666,
+        "pathway_stability": 0.10529698177846536,
+        "sector_bias": 0.5578938713512901,
+        "metastability": 0.4088695228639369,
+        "recursive_consistency": 1.0
+      },
+      "antisymmetry": {
+        "count": 600,
+        "transition_rate": 0.011840982486553972,
+        "retention_strength": 0.49507301614541355,
+        "transition_dispersion": 0.26596158351674515,
+        "pathway_stability": -1.6630522513205217,
+        "sector_bias": 0.9545377232598589,
+        "metastability": 0.3634026128149682,
+        "recursive_consistency": 1.0
+      },
+      "neutral": {
+        "count": 600,
+        "transition_rate": 0.3225779290462149,
+        "retention_strength": 0.5562973519399405,
+        "transition_dispersion": 0.21880995641122175,
+        "pathway_stability": -0.5374656300404055,
+        "sector_bias": 0.6100150678545705,
+        "metastability": 0.434573952610284,
+        "recursive_consistency": 1.0
+      }
+    },
+    "3": {
+      "projection": {
+        "count": 600,
+        "transition_rate": 0.3061347904022074,
+        "retention_strength": 0.8106561974189962,
+        "transition_dispersion": 0.239401257828572,
+        "pathway_stability": 0.31207686531580525,
+        "sector_bias": 0.6331718615072492,
+        "metastability": 0.6165840840903613,
+        "recursive_consistency": 1.0
+      },
+      "antisymmetry": {
+        "count": 600,
+        "transition_rate": 0.01184098248655397,
+        "retention_strength": 0.49507301614541355,
+        "transition_dispersion": 0.2659615835167455,
+        "pathway_stability": -1.6630522513205217,
+        "sector_bias": 0.8696580058469521,
+        "metastability": 0.36340261281496805,
+        "recursive_consistency": 1.0
+      },
+      "neutral": {
+        "count": 600,
+        "transition_rate": 0.1541226889358954,
+        "retention_strength": 0.2692768503713008,
+        "transition_dispersion": 0.211102614342911,
+        "pathway_stability": -0.7060165602697286,
+        "sector_bias": 0.48475537496849785,
+        "metastability": 0.2124318032758943,
+        "recursive_consistency": 1.0
+      }
+    },
+    "6": {
+      "projection": {
+        "count": 600,
+        "transition_rate": 0.1530673952011037,
+        "retention_strength": 0.8106561974189962,
+        "transition_dispersion": 0.261622257176518,
+        "pathway_stability": 0.31207686531580525,
+        "sector_bias": 0.5950925948368887,
+        "metastability": 0.5985704932561055,
+        "recursive_consistency": 1.0
+      },
+      "antisymmetry": {
+        "count": 600,
+        "transition_rate": 0.01184098248655397,
+        "retention_strength": 0.0,
+        "transition_dispersion": 0.2658893921714389,
+        "pathway_stability": 1.0,
+        "sector_bias": 0.7555363315878345,
+        "metastability": 0.0,
+        "recursive_consistency": 1.0
+      },
+      "neutral": {
+        "count": 600,
+        "transition_rate": 0.10776254321945376,
+        "retention_strength": 0.0,
+        "transition_dispersion": 0.20746527200770745,
+        "pathway_stability": -0.7679988232358095,
+        "sector_bias": 0.41057726177779785,
+        "metastability": 0.0,
+        "recursive_consistency": 1.0
+      }
+    },
+    "9": {
+      "projection": {
+        "count": 600,
+        "transition_rate": 0.10204493013406915,
+        "retention_strength": 0.8106561974189962,
+        "transition_dispersion": 0.2679276586161862,
+        "pathway_stability": 0.31207686531580525,
+        "sector_bias": 0.5599229516155905,
+        "metastability": 0.5934589805018237,
+        "recursive_consistency": 1.0
+      },
+      "antisymmetry": {
+        "count": 600,
+        "transition_rate": 0.011840982486553972,
+        "retention_strength": 0.49507301614541355,
+        "transition_dispersion": 0.2659615835167452,
+        "pathway_stability": -1.6630522513205217,
+        "sector_bias": 0.6547437942029359,
+        "metastability": 0.36340261281496816,
+        "recursive_consistency": 1.0
+      },
+      "neutral": {
+        "count": 600,
+        "transition_rate": 0.09230916131397321,
+        "retention_strength": 0.2692768503713008,
+        "transition_dispersion": 0.20663705858417147,
+        "pathway_stability": -0.7060165602697286,
+        "sector_bias": 0.456525688645799,
+        "metastability": 0.21363427406576513,
+        "recursive_consistency": 1.0
+      }
+    },
+    "12": {
+      "projection": {
+        "count": 600,
+        "transition_rate": 0.07653369760055186,
+        "retention_strength": 0.8106561974189962,
+        "transition_dispersion": 0.27004293645559274,
+        "pathway_stability": 0.31207686531580525,
+        "sector_bias": 0.5273417187362357,
+        "metastability": 0.5917442174120457,
+        "recursive_consistency": 1.0
+      },
+      "antisymmetry": {
+        "count": 600,
+        "transition_rate": 0.01184098248655397,
+        "retention_strength": 0.0,
+        "transition_dispersion": 0.265923150821912,
+        "pathway_stability": 1.0,
+        "sector_bias": 0.5650454515593271,
+        "metastability": 0.0,
+        "recursive_consistency": 1.0
+      },
+      "neutral": {
+        "count": 600,
+        "transition_rate": 0.08458247036123295,
+        "retention_strength": 0.0,
+        "transition_dispersion": 0.20623269532546232,
+        "pathway_stability": -0.7679988232358095,
+        "sector_bias": 0.494421862815808,
+        "metastability": 0.0,
+        "recursive_consistency": 1.0
+      }
+    },
+    "15": {
+      "projection": {
+        "count": 600,
+        "transition_rate": 0.06122695808044149,
+        "retention_strength": 0.8106561974189962,
+        "transition_dispersion": 0.27079421887267646,
+        "pathway_stability": 0.31207686531580525,
+        "sector_bias": 0.4970732861452932,
+        "metastability": 0.591135185664625,
+        "recursive_consistency": 1.0
+      },
+      "antisymmetry": {
+        "count": 600,
+        "transition_rate": 0.011840982486553972,
+        "retention_strength": 0.49507301614541355,
+        "transition_dispersion": 0.26596158351673904,
+        "pathway_stability": -1.6630522513205217,
+        "sector_bias": 0.4846847134850407,
+        "metastability": 0.36340261281497127,
+        "recursive_consistency": 1.0
+      },
+      "neutral": {
+        "count": 600,
+        "transition_rate": 0.07994645578958878,
+        "retention_strength": 0.2692768503713008,
+        "transition_dispersion": 0.20609800395697722,
+        "pathway_stability": -0.7060165602697286,
+        "sector_bias": 0.5256874310626394,
+        "metastability": 0.21377942899795407,
+        "recursive_consistency": 1.0
+      }
+    },
+    "20": {
+      "projection": {
+        "count": 600,
+        "transition_rate": 0.04592021856033112,
+        "retention_strength": 0.8106561974189962,
+        "transition_dispersion": 0.27104504525995,
+        "pathway_stability": 0.31207686531580525,
+        "sector_bias": 0.4511339474752232,
+        "metastability": 0.5909318516993054,
+        "recursive_consistency": 1.0
+      },
+      "antisymmetry": {
+        "count": 600,
+        "transition_rate": 0.011840982486553969,
+        "retention_strength": 0.0,
+        "transition_dispersion": 0.2659379126922926,
+        "pathway_stability": 1.0,
+        "sector_bias": 0.36781962703557136,
+        "metastability": 0.0,
+        "recursive_consistency": 1.0
+      },
+      "neutral": {
+        "count": 600,
+        "transition_rate": 0.07511446207400063,
+        "retention_strength": 0.19757397415188163,
+        "transition_dispersion": 0.20607369158962002,
+        "pathway_stability": -0.5597060696615956,
+        "sector_bias": 0.5659283305900483,
+        "metastability": 0.15685917593637122,
+        "recursive_consistency": 1.0
+      }
+    }
+  },
+  "answers": {
+    "H1_metastable_structure": true,
+    "H2_bounded_transition": true,
+    "H3_sector_bias": true,
+    "H4_recursive_retention": false,
+    "H5_rg_stability": true,
+    "verdict": "WEAKLY_STRUCTURED",
+    "sector_classifications": {
+      "projection": "TRANSITION-PRESERVING",
+      "antisymmetry": "TRANSITION-NEUTRAL",
+      "neutral": "TRANSITION-NEUTRAL"
+    },
+    "mean_metastability": 0.24926367587855888,
+    "mean_dispersion": 0.24768554984728755,
+    "mean_bias": 0.46162730170028093
+  }
+}

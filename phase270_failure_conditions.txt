@@ -1,0 +1,76 @@
+# PHASE 270: FAILURE CONDITIONS
+# Explicit FAIL Criteria for Heterogeneous Geometry Analysis
+# NO PARAMETER RETUNING | NO THRESHOLD MODIFICATION
+
+================================================================================
+SECTION 1: EXPLICIT FAIL CONDITIONS
+================================================================================
+
+The Phase 270 heterogeneous geometry analysis FAILS if ANY of the
+following conditions are met:
+
+FAIL CONDITION 1: Topology Classes Collapse Randomly
+---------------------------------------------------
+Criterion: Heterogeneity causes topology classes to become indistinguishable
+Evidence required: |T(topo_A, het) - T(topo_B, het)| < ε for all A, B
+Current status: Classes remain distinguishable → NOT FAILING
+
+FAIL CONDITION 2: Saturation Boundaries Unstable
+-------------------------------------------------
+Criterion: Saturation boundary shifts significantly under heterogeneity
+Evidence required: |k_s(het) - k_s(hom)| > 0.2
+Current status: k_s ≈ 0.6 invariant → NOT FAILING
+
+FAIL CONDITION 3: Localization Disappears Inconsistently
+----------------------------------------------------------
+Criterion: Localization varies randomly with heterogeneity level
+Evidence required: |T(k=1, het_high) - T(k=1, het_low)| > 0.05
+Current status: |T| bounded at all levels → NOT FAILING
+
+FAIL CONDITION 4: Heterogeneity Destroys Propagation Structure
+---------------------------------------------------------------
+Criterion: Propagation geometry fundamentally changes with heterogeneity
+Evidence required: Direction of dT/dk reverses
+Current status: dT/dk positive throughout → NOT FAILING
+
+FAIL CONDITION 5: Stability Non-Reproducible
+---------------------------------------------
+Criterion: Propagation stability varies across seeds
+Evidence required: Var(T across seeds) > 0.01
+Current status: Variance ≈ 0.000000 → NOT FAILING
+
+================================================================================
+SECTION 2: OBSERVED STATUS
+================================================================================
+
+All fail conditions: NOT TRIGGERED
+
+1. Topology classes: PRESERVED (all 5 classes distinguishable)
+2. Saturation boundaries: STABLE (k_s ≈ 0.6 invariant)
+3. Localization: PRESERVED (|ΔP| bounded)
+4. Propagation structure: ROBUST (dT/dk > 0 maintained)
+5. Stability: REPRODUCIBLE (zero variance across seeds)
+
+================================================================================
+SECTION 3: KEY OBSERVATIONS
+================================================================================
+
+A. HETEROGENEITY HELPS, NOT HURTS
+   - Moderate heterogeneity improves transfer
+   - k_std=0.4 shows less negative ΔP than k_std=0.0
+
+B. ASYMMETRY DOES NOT COLLAPSE STRUCTURE
+   - Strong asymmetry (1.0) maintains propagation
+   - No destabilization observed
+
+C. DELAYS DO NOT SHIFT BOUNDARIES
+   - Saturation boundary invariant across delays
+   - Temporal offset does not alter geometry
+
+D. ALL TOPOLOGY CLASSES SURVIVE
+   - Classes A–E remain distinguishable
+   - Heterogeneity does not destroy classification
+
+================================================================================
+END OF FAILURE CONDITIONS
+================================================================================

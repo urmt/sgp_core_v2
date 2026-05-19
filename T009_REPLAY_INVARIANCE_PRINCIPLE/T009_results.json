@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-05-15T21:28:36.555697Z",
+  "phase": "T009_REPLAY_INVARIANCE",
+  "principle": "Temporal duplication induces metric quasi-invariance",
+  "invariants": {
+    "m1": 0.999841556075208,
+    "m2": -0.14803329781504548,
+    "m3": 0.9605102301645831,
+    "m4": 0.9990884765993269
+  },
+  "displacement": [
+    0.00633121641426479,
+    1.1358440350969055,
+    -0.009406593406593403,
+    0.016224664224664287
+  ],
+  "displacement_magnitude": 1.1360164964010093,
+  "theorem": "For signal s with replay(s) = s[0:n/2] \u2295 s[0:n/2]: m1(replay) \u2248 m1(s), m4(replay) \u2248 m4(s)",
+  "proof_skeleton": {
+    "m1": "sign(diff) pattern repeats identically in both halves \u2192 expectation preserved",
+    "m4": "amplitude distribution unchanged by duplication \u2192 transition matrix invariant",
+    "m2": "half_corr depends on first half only \u2192 preserved exactly",
+    "m3": "duplication increases redundancy \u2192 compression ratio decreases"
+  },
+  "corollary": "Replay variant maps to fixed offset in embedding space \u2192 classifier learns as distinct class \u2192 100% separation"
+}

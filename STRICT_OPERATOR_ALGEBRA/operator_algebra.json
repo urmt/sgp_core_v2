@@ -1,0 +1,262 @@
+{
+  "composition": {
+    "identity\u2218identity": {
+      "closest": "identity",
+      "mse": 0.0
+    },
+    "identity\u2218reverse": {
+      "closest": "reverse",
+      "mse": 0.0
+    },
+    "identity\u2218swap": {
+      "closest": "swap",
+      "mse": 0.0
+    },
+    "identity\u2218replay": {
+      "closest": "replay",
+      "mse": 0.0
+    },
+    "identity\u2218stitch": {
+      "closest": "stitch",
+      "mse": 0.0
+    },
+    "reverse\u2218identity": {
+      "closest": "reverse",
+      "mse": 0.0
+    },
+    "reverse\u2218reverse": {
+      "closest": "identity",
+      "mse": 0.0
+    },
+    "reverse\u2218swap": {
+      "closest": "identity",
+      "mse": 0.018576643183674062
+    },
+    "reverse\u2218replay": {
+      "closest": "replay",
+      "mse": 0.01778263518083456
+    },
+    "reverse\u2218stitch": {
+      "closest": "identity",
+      "mse": 0.632595828841731
+    },
+    "swap\u2218identity": {
+      "closest": "swap",
+      "mse": 0.0
+    },
+    "swap\u2218reverse": {
+      "closest": "identity",
+      "mse": 0.018576643183674062
+    },
+    "swap\u2218swap": {
+      "closest": "identity",
+      "mse": 0.0
+    },
+    "swap\u2218replay": {
+      "closest": "replay",
+      "mse": 0.0
+    },
+    "swap\u2218stitch": {
+      "closest": "identity",
+      "mse": 0.6456528515267923
+    },
+    "replay\u2218identity": {
+      "closest": "replay",
+      "mse": 0.0
+    },
+    "replay\u2218reverse": {
+      "closest": "reverse",
+      "mse": 1.2657444030885672
+    },
+    "replay\u2218swap": {
+      "closest": "identity",
+      "mse": 1.2657444030885672
+    },
+    "replay\u2218replay": {
+      "closest": "replay",
+      "mse": 0.0
+    },
+    "replay\u2218stitch": {
+      "closest": "stitch",
+      "mse": 1.2657444030885672
+    },
+    "stitch\u2218identity": {
+      "closest": "stitch",
+      "mse": 0.0
+    },
+    "stitch\u2218reverse": {
+      "closest": "identity",
+      "mse": 0.6557524993968815
+    },
+    "stitch\u2218swap": {
+      "closest": "identity",
+      "mse": 0.6456528515267923
+    },
+    "stitch\u2218replay": {
+      "closest": "stitch",
+      "mse": 1.2657444030885672
+    },
+    "stitch\u2218stitch": {
+      "closest": "swap",
+      "mse": 0.6551620543756491
+    }
+  },
+  "commutativity": {
+    "identity,identity": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "identity,reverse": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "identity,swap": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "identity,replay": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "identity,stitch": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "reverse,identity": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "reverse,reverse": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "reverse,swap": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "reverse,replay": {
+      "commutes": false,
+      "mse": 2.5314888061771343
+    },
+    "reverse,stitch": {
+      "commutes": false,
+      "mse": 1.8981661381618413
+    },
+    "swap,identity": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "swap,reverse": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "swap,swap": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "swap,replay": {
+      "commutes": false,
+      "mse": 2.5314888061771343
+    },
+    "swap,stitch": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "replay,identity": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "replay,reverse": {
+      "commutes": false,
+      "mse": 2.5314888061771343
+    },
+    "replay,swap": {
+      "commutes": false,
+      "mse": 2.5314888061771343
+    },
+    "replay,replay": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "replay,stitch": {
+      "commutes": false,
+      "mse": 1.5558545597237188
+    },
+    "stitch,identity": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "stitch,reverse": {
+      "commutes": false,
+      "mse": 1.8981661381618413
+    },
+    "stitch,swap": {
+      "commutes": true,
+      "mse": 0.0
+    },
+    "stitch,replay": {
+      "commutes": false,
+      "mse": 1.5558545597237188
+    },
+    "stitch,stitch": {
+      "commutes": true,
+      "mse": 0.0
+    }
+  },
+  "invariants": {
+    "identity": {
+      "variance_ratio": 1.0,
+      "energy_ratio": 1.0
+    },
+    "reverse": {
+      "variance_ratio": 1.0,
+      "energy_ratio": 1.0
+    },
+    "swap": {
+      "variance_ratio": 1.0,
+      "energy_ratio": 1.0
+    },
+    "replay": {
+      "variance_ratio": 0.9779757799036647,
+      "energy_ratio": 1.0159266761583685
+    },
+    "stitch": {
+      "variance_ratio": 1.0,
+      "energy_ratio": 1.0
+    }
+  },
+  "generator_vectors": {
+    "identity": {
+      "norm": 0.0,
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "reverse": {
+      "norm": 50.931010916785,
+      "mean": 2.7755575615628914e-17,
+      "std": 1.5915940911495312
+    },
+    "swap": {
+      "norm": 50.91408977410266,
+      "mean": 0.0,
+      "std": 1.5910653054407082
+    },
+    "replay": {
+      "norm": 36.001698137208656,
+      "mean": 0.15216318401589712,
+      "std": 1.1147155549819476
+    },
+    "stitch": {
+      "norm": 44.20163422337857,
+      "mean": -2.7755575615628914e-17,
+      "std": 1.3813010694805803
+    }
+  },
+  "interpretation": {
+    "identity": "neutral_element",
+    "reverse": "involution_candidate",
+    "swap": "permutation_operator",
+    "replay": "noninvertible_duplication_operator",
+    "stitch": "localized_permutation_operator"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "depths": {
+    "1": {
+      "projection": {
+        "count": 343,
+        "accessible_volume": 0.686,
+        "manifold_compactness": 29.435969200490703,
+        "state_diversity": 0.00029204316527476243,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.033972042511844075
+      },
+      "antisymmetry": {
+        "count": 2,
+        "accessible_volume": 0.004,
+        "manifold_compactness": 15.957066946513052,
+        "state_diversity": 0.0009661548988144714,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.06266815836244981
+      },
+      "neutral": {
+        "count": 155,
+        "accessible_volume": 0.31,
+        "manifold_compactness": 18.577352955773616,
+        "state_diversity": 0.0006135333596233024,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.05382898201497953
+      }
+    },
+    "3": {
+      "projection": {
+        "count": 404,
+        "accessible_volume": 0.808,
+        "manifold_compactness": 33.06119842568354,
+        "state_diversity": 0.00024197769226275059,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.030246937325690882,
+        "volume_ratio": 1.1778425655976676
+      },
+      "antisymmetry": {
+        "count": 0,
+        "accessible_volume": 0.0,
+        "manifold_compactness": 0.0,
+        "state_diversity": 0.0,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.0,
+        "volume_ratio": 0.0
+      },
+      "neutral": {
+        "count": 96,
+        "accessible_volume": 0.192,
+        "manifold_compactness": 17.175919844473093,
+        "state_diversity": 0.0006902009216459463,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.05822104477299306,
+        "volume_ratio": 0.6193548387096774
+      }
+    },
+    "6": {
+      "projection": {
+        "count": 387,
+        "accessible_volume": 0.774,
+        "manifold_compactness": 35.14231881436362,
+        "state_diversity": 0.00020280980732637207,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.028455720345836738,
+        "volume_ratio": 0.9579207920792079
+      },
+      "antisymmetry": {
+        "count": 0,
+        "accessible_volume": 0.0,
+        "manifold_compactness": 0.0,
+        "state_diversity": 0.0,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.0,
+        "volume_ratio": 1.0
+      },
+      "neutral": {
+        "count": 113,
+        "accessible_volume": 0.226,
+        "manifold_compactness": 18.280355107451694,
+        "state_diversity": 0.0006126600102990532,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.054703532414659195,
+        "volume_ratio": 1.1770833333333333
+      }
+    },
+    "9": {
+      "projection": {
+        "count": 384,
+        "accessible_volume": 0.768,
+        "manifold_compactness": 33.743179358779635,
+        "state_diversity": 0.0002469744054357489,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.02963561868290553,
+        "volume_ratio": 0.9922480620155039
+      },
+      "antisymmetry": {
+        "count": 0,
+        "accessible_volume": 0.0,
+        "manifold_compactness": 0.0,
+        "state_diversity": 0.0,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.0,
+        "volume_ratio": 1.0
+      },
+      "neutral": {
+        "count": 116,
+        "accessible_volume": 0.232,
+        "manifold_compactness": 18.405469224306678,
+        "state_diversity": 0.0005873238694541427,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.0543316764149012,
+        "volume_ratio": 1.0265486725663717
+      }
+    },
+    "12": {
+      "projection": {
+        "count": 374,
+        "accessible_volume": 0.748,
+        "manifold_compactness": 31.726138239873762,
+        "state_diversity": 0.00025531033508350475,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.03151975160880359,
+        "volume_ratio": 0.9739583333333333
+      },
+      "antisymmetry": {
+        "count": 0,
+        "accessible_volume": 0.0,
+        "manifold_compactness": 0.0,
+        "state_diversity": 0.0,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.0,
+        "volume_ratio": 1.0
+      },
+      "neutral": {
+        "count": 126,
+        "accessible_volume": 0.252,
+        "manifold_compactness": 17.96953160699487,
+        "state_diversity": 0.0006863515428072527,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.055649753152930484,
+        "volume_ratio": 1.0862068965517242
+      }
+    },
+    "15": {
+      "projection": {
+        "count": 388,
+        "accessible_volume": 0.776,
+        "manifold_compactness": 35.28341221720465,
+        "state_diversity": 0.00020477975205861505,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.028341929922073857,
+        "volume_ratio": 1.0374331550802138
+      },
+      "antisymmetry": {
+        "count": 0,
+        "accessible_volume": 0.0,
+        "manifold_compactness": 0.0,
+        "state_diversity": 0.0,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.0,
+        "volume_ratio": 1.0
+      },
+      "neutral": {
+        "count": 112,
+        "accessible_volume": 0.224,
+        "manifold_compactness": 17.016141017492455,
+        "state_diversity": 0.000765272515384806,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.05876773101905972,
+        "volume_ratio": 0.888888888888889
+      }
+    },
+    "20": {
+      "projection": {
+        "count": 344,
+        "accessible_volume": 0.688,
+        "manifold_compactness": 32.62759928364613,
+        "state_diversity": 0.00023837005004687852,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.030648899051499267,
+        "volume_ratio": 0.8865979381443297
+      },
+      "antisymmetry": {
+        "count": 1,
+        "accessible_volume": 0.002,
+        "manifold_compactness": 10000000000.0,
+        "state_diversity": 0.0008560526856642466,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.0,
+        "volume_ratio": 1.0
+      },
+      "neutral": {
+        "count": 155,
+        "accessible_volume": 0.31,
+        "manifold_compactness": 17.68712445005307,
+        "state_diversity": 0.0006471640739052506,
+        "revisit_rate": 0.0,
+        "mean_centroid_dist": 0.05653830282334487,
+        "volume_ratio": 1.3839285714285714
+      }
+    }
+  },
+  "answers": {
+    "H1_volume_reduction": false,
+    "H2_revisit_growth": false,
+    "H3_compactness_growth": true,
+    "H4_rg_stability": true,
+    "H5_noncollapse": true,
+    "verdict": "WEAKLY_COMPRESSIVE",
+    "vol_initial": 0.686,
+    "vol_terminal": 0.688,
+    "compact_initial": 29.435969200490703,
+    "compact_terminal": 32.62759928364613,
+    "rg_correlation": 1.0
+  }
+}

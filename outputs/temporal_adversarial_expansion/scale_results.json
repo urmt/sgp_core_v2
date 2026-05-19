@@ -1,0 +1,62 @@
+{
+  "50": {
+    "stable_hierarchy": {
+      "memory": 0.2222157349050731,
+      "persistence": 0.35460526315789476,
+      "frag_var": 0.02619413891205873,
+      "consensus": 0.5253755016792764
+    },
+    "random_temporal": {
+      "memory": 0.04866068971448227,
+      "persistence": 0.07881578947368421,
+      "frag_var": 0.031010519498744702,
+      "consensus": 0.3755048036113406
+    },
+    "perturb_recover": {
+      "memory": 0.7130882557701446,
+      "persistence": 0.81,
+      "frag_var": 0.022047866889211738,
+      "consensus": 0.8408591883612203
+    }
+  },
+  "100": {
+    "stable_hierarchy": {
+      "memory": 0.11508302593698297,
+      "persistence": 0.19335526315789475,
+      "frag_var": 0.021318611003559196,
+      "consensus": 0.43599300308194755
+    },
+    "random_temporal": {
+      "memory": 0.023347975740003593,
+      "persistence": 0.03986842105263158,
+      "frag_var": 0.026627053911388678,
+      "consensus": 0.35416929970582894
+    },
+    "perturb_recover": {
+      "memory": 0.6457907498525732,
+      "persistence": 0.760263157894737,
+      "frag_var": 0.015475888344731924,
+      "consensus": 0.8019380302098454
+    }
+  },
+  "250": {
+    "stable_hierarchy": {
+      "memory": 0.0347443810711419,
+      "persistence": 0.07021052631578949,
+      "frag_var": 0.01702904406909146,
+      "consensus": 0.3682207986677972
+    },
+    "random_temporal": {
+      "memory": 0.009223627389552309,
+      "persistence": 0.014447368421052634,
+      "frag_var": 0.009425142985775712,
+      "consensus": 0.34119286853819497
+    },
+    "perturb_recover": {
+      "memory": 0.5549656586318721,
+      "persistence": 0.6858157894736843,
+      "frag_var": 0.009740257162462847,
+      "consensus": 0.7468953657943753
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-05-16T02:50:08.147358Z",
+  "architecture": "V2_079",
+  "status": "CANONICAL",
+  "validated_findings": [
+    {
+      "id": "F001",
+      "finding": "V2_079 embeddings are separable",
+      "evidence": "1NN accuracy = 0.80 vs chance = 0.20",
+      "status": "VALIDATED"
+    },
+    {
+      "id": "F002",
+      "finding": "LDA recovers more information than scalar gate",
+      "evidence": "LDA AUC = 0.905 vs gate \u2248 0.76",
+      "status": "VALIDATED"
+    },
+    {
+      "id": "F003",
+      "finding": "Scalar gate destroys separable information",
+      "evidence": "regime_switch gate = 30% vs LDA = 90%",
+      "status": "VALIDATED"
+    },
+    {
+      "id": "F004",
+      "finding": "M4 dead in oscillatory domains",
+      "evidence": "zero variance across chirp/coupled_osc",
+      "status": "VALIDATED"
+    },
+    {
+      "id": "F005",
+      "finding": "Cross-version contamination existed",
+      "evidence": "different random signal realizations",
+      "status": "VALIDATED"
+    }
+  ],
+  "domain_results": [
+    {
+      "domain": "chaotic_logistic",
+      "lda_accuracy": 1.0,
+      "gate_accuracy": 1.0,
+      "status": "perfect"
+    },
+    {
+      "domain": "chirp",
+      "lda_accuracy": 1.0,
+      "gate_accuracy": 1.0,
+      "status": "perfect"
+    },
+    {
+      "domain": "coupled_osc",
+      "lda_accuracy": 1.0,
+      "gate_accuracy": 1.0,
+      "status": "perfect"
+    },
+    {
+      "domain": "regime_switch",
+      "lda_accuracy": 0.9,
+      "gate_accuracy": 0.3,
+      "status": "gate_failure"
+    },
+    {
+      "domain": "rw_trend",
+      "lda_accuracy": 0.42,
+      "gate_accuracy": 0.5,
+      "status": "true_overlap"
+    }
+  ]
+}

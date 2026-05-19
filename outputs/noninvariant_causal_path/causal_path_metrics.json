@@ -1,0 +1,56 @@
+{
+  "results": {
+    "evolving": {
+      "directional_prediction_asymmetry": 5.551115123125783e-17,
+      "temporal_operator_noncommutativity": 4.061217099645302e-17,
+      "causal_path_divergence": 0.07715231574610631,
+      "stitching_discontinuity": 0.13227027731214613
+    },
+    "static": {
+      "directional_prediction_asymmetry": 4.440892098500626e-16,
+      "temporal_operator_noncommutativity": 4.8824296309331197e-17,
+      "causal_path_divergence": 0.0004525244366173924,
+      "stitching_discontinuity": 0.07250152574195236
+    },
+    "random": {
+      "directional_prediction_asymmetry": 8.673617379884035e-18,
+      "temporal_operator_noncommutativity": 4.111081708580256e-17,
+      "causal_path_divergence": 0.011947994018708765,
+      "stitching_discontinuity": 0.2908241730571552
+    },
+    "replay": {
+      "directional_prediction_asymmetry": 1.5265566588595902e-16,
+      "temporal_operator_noncommutativity": 4.050092620440641e-17,
+      "causal_path_divergence": 0.12506585121280986,
+      "stitching_discontinuity": 0.06283656398119798
+    },
+    "stitched": {
+      "directional_prediction_asymmetry": 7.632783294297951e-17,
+      "temporal_operator_noncommutativity": 4.064519679409185e-17,
+      "causal_path_divergence": 0.10788076102096321,
+      "stitching_discontinuity": 0.2962905293889762
+    },
+    "time_reversed": {
+      "directional_prediction_asymmetry": 5.551115123125783e-17,
+      "temporal_operator_noncommutativity": 4.0141118830130654e-17,
+      "causal_path_divergence": 0.07274641659302641,
+      "stitching_discontinuity": 0.13227027731214613
+    },
+    "cyclic_loop": {
+      "directional_prediction_asymmetry": 0.0,
+      "temporal_operator_noncommutativity": 5.074848357176238e-17,
+      "causal_path_divergence": 0.013937662500702669,
+      "stitching_discontinuity": 0.0336848372520492
+    }
+  },
+  "distances": {
+    "replay": 0.08436081689886214,
+    "stitched": 0.16687384588471843,
+    "time_reversed": 0.004405899153079901
+  },
+  "collapse": {
+    "replay": true,
+    "stitched": true,
+    "reverse": true
+  }
+}

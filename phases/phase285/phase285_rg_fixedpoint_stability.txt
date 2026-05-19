@@ -1,0 +1,66 @@
+# PHASE 285: RG FIXED-POINT STABILITY
+# Fine vs Coarse Recursive Structure
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: FINE-SCALE ANALYSIS
+================================================================================
+
+DEPTH 10:
+  Classifications: {'CYCLIC': 197, 'METASTABLE': 287, 'FIXED': 16}
+  Fixed/Metastable rate: 0.6060
+  Mean recurrence: 0.7108
+
+DEPTH 20:
+  Classifications: {'CYCLIC': 212, 'METASTABLE': 287, 'FIXED': 1}
+  Fixed/Metastable rate: 0.5760
+  Mean recurrence: 0.7170
+
+================================================================================
+SECTION 2: COARSE-GRAINED (RG) ANALYSIS
+================================================================================
+
+RG BLOCK: [10, 20]
+
+COARSE STRUCTURE:
+  Fixed/Metastable rate: (0.6060 + 0.5760) / 2 = 0.5910
+  Mean recurrence: (0.7108 + 0.7170) / 2 = 0.7139
+
+================================================================================
+SECTION 3: FINE vs COARSE COMPARISON
+================================================================================
+
+FIXED RATE AGREEMENT:
+  Fine (d=20): 0.5760
+  Coarse: 0.5910
+  Agreement: 0.0000 (rates differ)
+
+RECURRENCE AGREEMENT:
+  Fine (d=20): 0.7170
+  Coarse: 0.7139
+  Agreement: 0.9997 (nearly identical)
+
+H3 STATUS: FAIL
+- Fixed rate agreement: 0.0 < 0.90
+- Recurrence agreement: 0.9997 > 0.90
+
+================================================================================
+SECTION 4: INTERPRETATION
+================================================================================
+
+RG STABILITY ASSESSMENT:
+1. Fixed structure not stable across scales
+2. Recurrence structure stable across scales
+3. Classification changes with depth
+
+The system shows:
+- Depth-dependent fixed rate variation
+- Scale-invariant recurrence
+- No fixed-point stability
+
+This explains H1 and H3 failures: fixed structure
+is not stable across recursion depths.
+
+================================================================================
+END OF RG FIXED-POINT STABILITY
+================================================================================

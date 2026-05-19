@@ -1,0 +1,63 @@
+{
+  "phase": 300,
+  "verdict": "RECURSIVELY_STABLE",
+  "hypotheses": {
+    "H1_universal_structure": {
+      "passed": true,
+      "value": 1.0,
+      "threshold": 0.3
+    },
+    "H2_bounded_variation": {
+      "passed": true,
+      "value": 0.9000000000000002,
+      "threshold": 1.0
+    },
+    "H3_sector_independence": {
+      "passed": true,
+      "value": 0.05666666666666668,
+      "threshold": 0.5
+    },
+    "H4_recursive_retention": {
+      "passed": true,
+      "value": 0.9391095512455315,
+      "threshold": 0.0
+    },
+    "H5_rg_stability": {
+      "passed": true,
+      "value": 0.9500000000000002,
+      "threshold": 0.9
+    }
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "UNIVERSALITY-NEUTRAL",
+      "avg_strength": 1.0,
+      "avg_stability": 0.7898571814120865
+    },
+    "antisymmetry": {
+      "classification": "UNIVERSALITY-NEUTRAL",
+      "avg_strength": 1.0,
+      "avg_stability": 0.7898571814120865
+    },
+    "neutral": {
+      "classification": "UNIVERSALITY-NEUTRAL",
+      "avg_strength": 1.0,
+      "avg_stability": 0.7898571814120865
+    }
+  },
+  "rg_stability": {
+    "fine_scale_universality": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "coarse_scale_universality": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rg_correlation": 0.95,
+    "universality_preserved": true
+  },
+  "n_measurements": 147
+}

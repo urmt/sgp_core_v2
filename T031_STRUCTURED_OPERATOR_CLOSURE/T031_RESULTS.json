@@ -1,0 +1,98 @@
+{
+  "seed": 79,
+  "tau_variance": 0.9966452799636473,
+  "tau_vector": [
+    -0.006808043694614727,
+    0.9999607814233041,
+    -0.005510151308061705,
+    -0.0013131598949347454
+  ],
+  "composition_results": {
+    "RS": {
+      "mean_alignment": 0.948487669917793,
+      "std_alignment": 0.11292012691498274,
+      "mean_magnitude": 1.1536849426919973
+    },
+    "SR": {
+      "mean_alignment": 0.7845089174408191,
+      "std_alignment": 0.28615090092350703,
+      "mean_magnitude": 0.47773851763848635
+    },
+    "RV": {
+      "mean_alignment": 0.9274641607074611,
+      "std_alignment": 0.1585183131689739,
+      "mean_magnitude": 1.154229348992159
+    },
+    "VR": {
+      "mean_alignment": 0.9481575610814063,
+      "std_alignment": 0.11278330865127116,
+      "mean_magnitude": 1.1538812859351923
+    },
+    "SV": {
+      "mean_alignment": 0.7760586190990176,
+      "std_alignment": 0.3642815007855575,
+      "mean_magnitude": 0.34160766040746005
+    },
+    "VS": {
+      "mean_alignment": 0.7760586190990176,
+      "std_alignment": 0.3642815007855575,
+      "mean_magnitude": 0.34160766040746005
+    },
+    "RW": {
+      "mean_alignment": 0.9274641607074611,
+      "std_alignment": 0.1585183131689739,
+      "mean_magnitude": 1.154229348992159
+    },
+    "WR": {
+      "mean_alignment": 0.9481575610814063,
+      "std_alignment": 0.11278330865127117,
+      "mean_magnitude": 1.1538812859351923
+    },
+    "SW": {
+      "mean_alignment": 0.7635530417853197,
+      "std_alignment": 0.3558540414958049,
+      "mean_magnitude": 0.3449852473206711
+    },
+    "WS": {
+      "mean_alignment": 0.8089359346733449,
+      "std_alignment": 0.36127492622668467,
+      "mean_magnitude": 0.34191959319861315
+    }
+  },
+  "absorption": {
+    "chirp": {
+      "R_after_S": 0.04498050752978404,
+      "S_after_R": 0.9763093681872796
+    },
+    "rw_trend": {
+      "R_after_S": 0.0470714250241937,
+      "S_after_R": 0.14886297553630445
+    },
+    "telegraph": {
+      "R_after_S": 0.0,
+      "S_after_R": 0.0038832704390995287
+    },
+    "pink_noise": {
+      "R_after_S": 0.05413730562971514,
+      "S_after_R": 1.6381280012995016
+    },
+    "square": {
+      "R_after_S": 0.011311645797677393,
+      "S_after_R": 0.853600502612655
+    },
+    "chaotic_logistic": {
+      "R_after_S": 0.011411717618443751,
+      "S_after_R": 0.9156648113070555
+    }
+  },
+  "summary": {
+    "tau_family_alignment": 0.8601225912242524,
+    "orthogonal_alignment": 0.862027674561883,
+    "mean_absorption_distance": 0.3921134609151425
+  },
+  "checks": {
+    "H1_tau_closure": false,
+    "H2_replay_absorbing": false,
+    "H3_orthogonal_breaks": false
+  }
+}

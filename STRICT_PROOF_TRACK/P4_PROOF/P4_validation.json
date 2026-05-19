@@ -1,0 +1,18 @@
+{
+  "proposition": "P4: Replay_Quasi_Invariance",
+  "numerical_validation": {
+    "m1_correlation": 0.999841556075208,
+    "m2_correlation": -0.14803329781504548,
+    "m3_correlation": 0.9605102301645831,
+    "m4_correlation": 0.9990884765993269,
+    "displacement_magnitude": 1.1360164964010093,
+    "ordinal_preservation": 0.9811633720401125,
+    "transition_preservation": 0.9542933994544652,
+    "m1_quasi_invariant": true,
+    "m4_quasi_invariant": true,
+    "bounded_displacement": true,
+    "operator_consistency": true
+  },
+  "all_checks_pass": true,
+  "conclusion": "Empirically supported. m1 and m4 are quasi-invariant (>0.99 correlation), displacement is bounded (~1.14), ordinal and transition structure preserved."
+}

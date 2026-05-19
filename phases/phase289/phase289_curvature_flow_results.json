@@ -1,0 +1,198 @@
+{
+  "depths": {
+    "1": {
+      "projection": {
+        "count": 299,
+        "mean_curvature": 1.3895840825993448,
+        "curvature_variance": 0.2743024191855118,
+        "trajectory_dispersion": 0.02432258360406796,
+        "sector_bending": 41.11405318476711,
+        "flow_alignment": -0.38958408259934474
+      },
+      "antisymmetry": {
+        "count": 0,
+        "mean_curvature": 0.0,
+        "curvature_variance": 0.0,
+        "trajectory_dispersion": 0.0,
+        "sector_bending": 10000000000.0,
+        "flow_alignment": 0.0
+      },
+      "neutral": {
+        "count": 101,
+        "mean_curvature": 1.244125660381203,
+        "curvature_variance": 0.32975960494458806,
+        "trajectory_dispersion": 0.02380674319188327,
+        "sector_bending": 42.004905405979756,
+        "flow_alignment": -0.24412566038120287
+      }
+    },
+    "3": {
+      "projection": {
+        "count": 371,
+        "mean_curvature": 1.4779973567223497,
+        "curvature_variance": 0.2864290573737589,
+        "trajectory_dispersion": 0.02477970906836328,
+        "sector_bending": 40.35559873627245,
+        "flow_alignment": -0.4779973567223499
+      },
+      "antisymmetry": {
+        "count": 0,
+        "mean_curvature": 0.0,
+        "curvature_variance": 0.0,
+        "trajectory_dispersion": 0.0,
+        "sector_bending": 10000000000.0,
+        "flow_alignment": 0.0
+      },
+      "neutral": {
+        "count": 29,
+        "mean_curvature": 1.2461692847239485,
+        "curvature_variance": 0.240929607175547,
+        "trajectory_dispersion": 0.02629581875236257,
+        "sector_bending": 38.02885947817343,
+        "flow_alignment": -0.24616928472394833
+      }
+    },
+    "6": {
+      "projection": {
+        "count": 364,
+        "mean_curvature": 1.3929489267127555,
+        "curvature_variance": 0.3035540420753068,
+        "trajectory_dispersion": 0.02188000923912595,
+        "sector_bending": 45.70381961454626,
+        "flow_alignment": -0.39294892671275566
+      },
+      "antisymmetry": {
+        "count": 0,
+        "mean_curvature": 0.0,
+        "curvature_variance": 0.0,
+        "trajectory_dispersion": 0.0,
+        "sector_bending": 10000000000.0,
+        "flow_alignment": 0.0
+      },
+      "neutral": {
+        "count": 36,
+        "mean_curvature": 1.3761605213921708,
+        "curvature_variance": 0.3180571146527244,
+        "trajectory_dispersion": 0.025536371107607685,
+        "sector_bending": 39.15983175017773,
+        "flow_alignment": -0.37616052139217104
+      }
+    },
+    "9": {
+      "projection": {
+        "count": 366,
+        "mean_curvature": 1.4890729862775176,
+        "curvature_variance": 0.2750128641879296,
+        "trajectory_dispersion": 0.02542742761587285,
+        "sector_bending": 39.32761155292789,
+        "flow_alignment": -0.48907298627751755
+      },
+      "antisymmetry": {
+        "count": 0,
+        "mean_curvature": 0.0,
+        "curvature_variance": 0.0,
+        "trajectory_dispersion": 0.0,
+        "sector_bending": 10000000000.0,
+        "flow_alignment": 0.0
+      },
+      "neutral": {
+        "count": 34,
+        "mean_curvature": 1.6925757246261925,
+        "curvature_variance": 0.12327839421630037,
+        "trajectory_dispersion": 0.022878475371119766,
+        "sector_bending": 43.70920611656717,
+        "flow_alignment": -0.6925757246261925
+      }
+    },
+    "12": {
+      "projection": {
+        "count": 371,
+        "mean_curvature": 1.4163038369761356,
+        "curvature_variance": 0.27198231101002734,
+        "trajectory_dispersion": 0.022342723833591482,
+        "sector_bending": 44.75730009341144,
+        "flow_alignment": -0.41630383697613543
+      },
+      "antisymmetry": {
+        "count": 0,
+        "mean_curvature": 0.0,
+        "curvature_variance": 0.0,
+        "trajectory_dispersion": 0.0,
+        "sector_bending": 10000000000.0,
+        "flow_alignment": 0.0
+      },
+      "neutral": {
+        "count": 29,
+        "mean_curvature": 1.3369804073981957,
+        "curvature_variance": 0.34435521252087453,
+        "trajectory_dispersion": 0.024930146943639955,
+        "sector_bending": 40.11207788905178,
+        "flow_alignment": -0.3369804073981957
+      }
+    },
+    "15": {
+      "projection": {
+        "count": 368,
+        "mean_curvature": 1.5207298189107605,
+        "curvature_variance": 0.24756760197461344,
+        "trajectory_dispersion": 0.02536726124240349,
+        "sector_bending": 39.42088925178599,
+        "flow_alignment": -0.5207298189107606
+      },
+      "antisymmetry": {
+        "count": 0,
+        "mean_curvature": 0.0,
+        "curvature_variance": 0.0,
+        "trajectory_dispersion": 0.0,
+        "sector_bending": 10000000000.0,
+        "flow_alignment": 0.0
+      },
+      "neutral": {
+        "count": 32,
+        "mean_curvature": 1.557766698189429,
+        "curvature_variance": 0.162495158361214,
+        "trajectory_dispersion": 0.02039599878987891,
+        "sector_bending": 49.02922408454479,
+        "flow_alignment": -0.5577666981894291
+      }
+    },
+    "20": {
+      "projection": {
+        "count": 337,
+        "mean_curvature": 1.4773900174525294,
+        "curvature_variance": 0.2590881925733067,
+        "trajectory_dispersion": 0.02543814253650256,
+        "sector_bending": 39.311046183263635,
+        "flow_alignment": -0.4773900174525293
+      },
+      "antisymmetry": {
+        "count": 0,
+        "mean_curvature": 0.0,
+        "curvature_variance": 0.0,
+        "trajectory_dispersion": 0.0,
+        "sector_bending": 10000000000.0,
+        "flow_alignment": 0.0
+      },
+      "neutral": {
+        "count": 63,
+        "mean_curvature": 1.383052463696388,
+        "curvature_variance": 0.26913722314532934,
+        "trajectory_dispersion": 0.030536477168348546,
+        "sector_bending": 32.747719758641345,
+        "flow_alignment": -0.3830524636963877
+      }
+    }
+  },
+  "answers": {
+    "H1_curvature_stability": false,
+    "H2_sector_differentiation": true,
+    "H3_flow_alignment": false,
+    "H4_rg_stability": true,
+    "H5_nondegenerate": true,
+    "verdict": "UNORGANIZED",
+    "proj_curv_var": 0.2590881925733067,
+    "proj_curv": 1.4773900174525294,
+    "antisym_curv": 0.0,
+    "rg_correlation": 1.0
+  }
+}

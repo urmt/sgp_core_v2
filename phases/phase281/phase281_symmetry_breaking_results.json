@@ -1,0 +1,110 @@
+{
+  "depths": {
+    "1": {
+      "projection_fraction": 0.3586,
+      "antisymmetry_fraction": 0.0048,
+      "neutral_fraction": 0.6366,
+      "order_parameter": 0.35379999999999995,
+      "kl_divergence": 0.41772568598012344,
+      "mean_variance": 0.00018423936795585193
+    },
+    "2": {
+      "projection_fraction": 0.3502,
+      "antisymmetry_fraction": 0.0022,
+      "neutral_fraction": 0.6476,
+      "order_parameter": 0.34800000000000003,
+      "kl_divergence": 0.4363316022507911,
+      "mean_variance": 0.00018705822970959825
+    },
+    "3": {
+      "projection_fraction": 0.3682,
+      "antisymmetry_fraction": 0.0022,
+      "neutral_fraction": 0.6296,
+      "order_parameter": 0.36600000000000005,
+      "kl_divergence": 0.4259731334467283,
+      "mean_variance": 0.00018021904021507274
+    },
+    "4": {
+      "projection_fraction": 0.361,
+      "antisymmetry_fraction": 0.0044,
+      "neutral_fraction": 0.6346,
+      "order_parameter": 0.3566,
+      "kl_divergence": 0.41833156303222513,
+      "mean_variance": 0.0001877375163238499
+    },
+    "5": {
+      "projection_fraction": 0.3578,
+      "antisymmetry_fraction": 0.0042,
+      "neutral_fraction": 0.638,
+      "order_parameter": 0.3536,
+      "kl_divergence": 0.4211589479766624,
+      "mean_variance": 0.00018895117589163646
+    },
+    "6": {
+      "projection_fraction": 0.3584,
+      "antisymmetry_fraction": 0.0032,
+      "neutral_fraction": 0.6384,
+      "order_parameter": 0.3552,
+      "kl_divergence": 0.42596562353683515,
+      "mean_variance": 0.00018222025804129122
+    },
+    "7": {
+      "projection_fraction": 0.3472,
+      "antisymmetry_fraction": 0.004,
+      "neutral_fraction": 0.6488,
+      "order_parameter": 0.3432,
+      "kl_divergence": 0.42854858587123984,
+      "mean_variance": 0.0001897047269273632
+    },
+    "8": {
+      "projection_fraction": 0.3538,
+      "antisymmetry_fraction": 0.0056,
+      "neutral_fraction": 0.6406,
+      "order_parameter": 0.3482,
+      "kl_divergence": 0.41667860204221213,
+      "mean_variance": 0.000188450503789431
+    },
+    "9": {
+      "projection_fraction": 0.3556,
+      "antisymmetry_fraction": 0.0022,
+      "neutral_fraction": 0.6422,
+      "order_parameter": 0.35340000000000005,
+      "kl_divergence": 0.4330758484521756,
+      "mean_variance": 0.00018376369575790537
+    },
+    "10": {
+      "projection_fraction": 0.3532,
+      "antisymmetry_fraction": 0.0034,
+      "neutral_fraction": 0.6434,
+      "order_parameter": 0.3498,
+      "kl_divergence": 0.42797206057434434,
+      "mean_variance": 0.0001875654581592442
+    },
+    "11": {
+      "projection_fraction": 0.3546,
+      "antisymmetry_fraction": 0.003,
+      "neutral_fraction": 0.6424,
+      "order_parameter": 0.3516,
+      "kl_divergence": 0.4292576911119105,
+      "mean_variance": 0.00018837311437992348
+    },
+    "12": {
+      "projection_fraction": 0.3702,
+      "antisymmetry_fraction": 0.0024,
+      "neutral_fraction": 0.6274,
+      "order_parameter": 0.36779999999999996,
+      "kl_divergence": 0.42378698864490366,
+      "mean_variance": 0.00018295518169737402
+    }
+  },
+  "answers": {
+    "H1_symmetry_breaking": true,
+    "H2_projection_dominance": false,
+    "H3_order_parameter_growth": false,
+    "H4_rg_stability": true,
+    "verdict": "WEAK_SYMMETRY_BREAKING",
+    "slope": 0.001272727272727274,
+    "monotonic": false,
+    "rg_correlation": 1.0
+  }
+}

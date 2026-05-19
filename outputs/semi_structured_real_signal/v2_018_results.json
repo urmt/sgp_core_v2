@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "tested": 5,
+    "passed": 0,
+    "mean_ratio": 2.7156462433249873,
+    "min_ratio": 1.0,
+    "gate": "CLOSED"
+  },
+  "results": {
+    "eeg_like": {
+      "domain": "eeg_like",
+      "ratio": 1.0,
+      "org_prod": 0.11262108834579027,
+      "replay_detected": true,
+      "replay_ratio": 1.0383005695942036,
+      "noise_retention": 1.0,
+      "missing_retention": 0.9985254914468293,
+      "scramble_ratio": 0.9722948041581295,
+      "passed": false
+    },
+    "financial": {
+      "domain": "financial",
+      "ratio": 3.2415486294337383,
+      "org_prod": 0.3650667345726324,
+      "replay_detected": false,
+      "replay_ratio": 0.8342472943256112,
+      "noise_retention": 0.9906512879801047,
+      "missing_retention": 0.7401069417887757,
+      "scramble_ratio": 0.8323171184180332,
+      "passed": false
+    },
+    "weather": {
+      "domain": "weather",
+      "ratio": 5.095133957757458,
+      "org_prod": 0.5738195315902387,
+      "replay_detected": true,
+      "replay_ratio": 1.3472910810002152,
+      "noise_retention": 0.8296795545428282,
+      "missing_retention": 0.49634127397644184,
+      "scramble_ratio": 0.7959058572737502,
+      "passed": false
+    },
+    "network": {
+      "domain": "network",
+      "ratio": 3.2415486294337383,
+      "org_prod": 0.3650667345726324,
+      "replay_detected": false,
+      "replay_ratio": 0.8342472943256112,
+      "noise_retention": 0.991850399721483,
+      "missing_retention": 0.6954596033489273,
+      "scramble_ratio": 0.7156905691008646,
+      "passed": false
+    },
+    "activity": {
+      "domain": "activity",
+      "ratio": 1.0,
+      "org_prod": 0.11262108834579027,
+      "replay_detected": true,
+      "replay_ratio": 1.0383005695942036,
+      "noise_retention": 1.000527902118732,
+      "missing_retention": 1.009655229273403,
+      "scramble_ratio": 1.0198317148072205,
+      "passed": false
+    }
+  }
+}

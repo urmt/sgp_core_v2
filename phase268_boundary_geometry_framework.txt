@@ -1,0 +1,141 @@
+# PHASE 268: BOUNDARY GEOMETRY FRAMEWORK
+# Persistence Propagation Boundary Conditions and Behavior
+# NO ONTOLOGY | NO CONSCIOUSNESS LANGUAGE | NO NEW METRICS
+
+================================================================================
+SECTION A: LOCALIZATION DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Localization occurs when persistence propagation remains confined
+despite increasing coupling, such that transfer values remain bounded
+near zero regardless of k value.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Localization exists if:
+  ∃ ε > 0: ∀ k ∈ [k_min, 1]: |ΔP(k)| < ε
+
+where ε is a small threshold (e.g., 0.01).
+
+OBSERVED BEHAVIOR:
+- At k ≥ 0.7, transfer values are consistently |ΔP| < 0.01
+- Localization confirmed for k ∈ [0.7, 1.0]
+- Transfer remains near-zero despite varying coupling
+
+================================================================================
+SECTION B: FRAGMENTATION DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Fragmentation occurs when persistent organization separates into
+unstable partial coordination regions, measured by high variance
+in persistence across nodes.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Fragmentation metric F:
+  F = Var(P_i) for i ∈ nodes
+
+Fragmentation exists if:
+  F > threshold (e.g., 0.001)
+
+OBSERVED BEHAVIOR:
+- Fragmentation decreases with increasing coupling
+- k=0.2: F=0.00038 (mild fragmentation)
+- k=0.4: F=0.00013 (reduced)
+- k=0.6: F=0.00001 (minimal)
+- k=0.8: F≈0 (no fragmentation)
+
+CONCLUSION: Fragmentation DECREASES with coupling. High coupling
+reduces node-to-node variance.
+
+================================================================================
+SECTION C: BOUNDARY REGIME DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+A boundary regime is the transition region between amplification
+and saturation, where propagation behavior changes qualitatively.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Boundary region identified by:
+  - Local maximum in d(ΔP)/dk
+  - Rapid transition from negative to near-zero transfer
+  - Change in propagation structure
+
+OBSERVED BEHAVIOR:
+- Boundary detected near k ≈ 0.7
+- Transition from amplification (d(ΔP)/dk > 0) to saturation
+- Transfer values converge toward zero at boundary
+- Structure preserved across N values
+
+================================================================================
+SECTION D: SCALE-SENSITIVITY DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Scale-sensitivity exists when propagation geometry changes
+substantially with system size N, indicating size-dependent behavior.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Scale-sensitivity exists if:
+  Var(ΔP(k=1) across N values) > threshold
+
+OBSERVED BEHAVIOR:
+- N tested: 256, 512, 1024, 2048
+- Transfer at k=1: [-0.013, -0.007, -0.007, -0.005]
+- Variance across N: < 0.001
+- Scale-sensitivity: NOT CONFIRMED
+
+CONCLUSION: Propagation geometry is SCALE-INVARIANT across
+tested N range. No substantial N-dependence observed.
+
+================================================================================
+SECTION E: SATURATION INVARIANCE DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Saturation invariance exists when the plateau structure of
+transfer at high coupling is preserved across different
+topologies and implementations.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Saturation invariant if:
+  - Saturation exists in all topologies
+  - Saturation onset k is similar across topologies
+  - Plateau depth is similar across topologies
+
+OBSERVED BEHAVIOR:
+- All-to-all: saturation at k > 0.6
+- Erdős–Rényi: saturation at k > 0.6
+- Both show plateau near zero
+- Structure invariant; magnitude implementation-dependent
+
+================================================================================
+SECTION F: BOUNDARY GEOMETRY SUMMARY
+================================================================================
+
+REGIME STRUCTURE:
+
+k ∈ [0.0, 0.4]: Amplification regime
+  - d(ΔP)/dk > 0 (transfer increases toward zero)
+  - Fragmentation present but decreasing
+  - Topology sensitivity moderate
+
+k ∈ [0.4, 0.7]: Transition regime
+  - Rapid approach to near-zero transfer
+  - Fragmentation minimal
+  - Topology sensitivity decreasing
+
+k ∈ [0.7, 1.0]: Saturation regime
+  - Transfer confined near zero (localization)
+  - No fragmentation
+  - Topology invariance approaches
+
+================================================================================
+END OF FRAMEWORK
+================================================================================

@@ -1,0 +1,60 @@
+# PHASE 273: FAILURE CONDITIONS
+# Explicit FAIL Criteria for Recursive Fertility Analysis
+# NO PARAMETER RETUNING | NO THRESHOLD MODIFICATION
+
+================================================================================
+SECTION 1: EXPLICIT FAIL CONDITIONS
+================================================================================
+
+The Phase 273 recursive fertility analysis FAILS if ANY of the
+following conditions are met:
+
+FAIL CONDITION 1: Recursive Divergence
+---------------------------------------
+Criterion: max_delta >= 0.025 between depth layers
+Evidence required: |T(d+1) - T(d)| >= 0.025 for any d
+Current status: max_delta = 0.011 < 0.025 → NOT FAILING
+
+FAIL CONDITION 2: NaN Values
+-----------------------------
+Criterion: NaN values appear in transfer measurements
+Evidence required: Any NaN in transfer gains
+Current status: No NaNs detected → NOT FAILING
+
+FAIL CONDITION 3: Variance Explosion
+-------------------------------------
+Criterion: Variance exceeds 0.5 at any depth
+Evidence required: Var(T_d) > 0.5
+Current status: max variance = 0.000454 < 0.5 → NOT FAILING
+
+FAIL CONDITION 4: Localization Break
+------------------------------------
+Criterion: |ΔP(k=1)| >= 0.02 at any depth
+Evidence required: Localization lost
+Current status: depth 1+ shows |ΔP| >= 0.02 → FAILING
+
+FAIL CONDITION 5: New Estimators Required
+-----------------------------------------
+Criterion: Any metric requires new computation
+Evidence required: Cannot use Phase 266-272 metrics
+Current status: All metrics from existing phases → NOT FAILING
+
+================================================================================
+SECTION 2: OBSERVED STATUS
+================================================================================
+
+STOP CONDITION TRIGGERED: localization_breaks = True
+
+This triggered the STOP condition per phase protocol.
+Phase terminates at this point.
+
+RESULT SUMMARY:
+- Q1 (bounded): PASS
+- Q2 (no new classes): FAIL
+- Q3 (variance stable): PASS
+- Q4 (localization): FAIL ← TRIGGERED STOP
+- Q5 (saturation): FAIL
+
+================================================================================
+END OF FAILURE CONDITIONS
+================================================================================

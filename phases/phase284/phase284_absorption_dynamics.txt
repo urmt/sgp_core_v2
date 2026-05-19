@@ -1,0 +1,79 @@
+# PHASE 284: ABSORPTION DYNAMICS
+# Replay Terminal Absorption Analysis
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: ABSORPTION RATES BY DEPTH
+================================================================================
+
+| Depth | Absorption Rate | Neutral Persistence |
+|-------|-----------------|---------------------|
+| 1     | 0.2975          | 0.1037              |
+| 2     | 0.2812          | 0.0887              |
+| 3     | 0.1875          | 0.0612              |
+| 4     | 0.3425          | 0.1025              |
+| 5     | 0.3000          | 0.0938              |
+| 6     | 0.2300          | 0.0800              |
+| 7     | 0.3425          | 0.1300              |
+| 8     | 0.2737          | 0.0988              |
+| 9     | 0.2213          | 0.0800              |
+| 10    | 0.3387          | 0.1138              |
+| 11    | 0.2700          | 0.0900              |
+| 12    | 0.2263          | 0.0862              |
+
+Mean absorption rate: 0.2759
+Mean neutral persistence: 0.0932
+
+================================================================================
+SECTION 2: SECTOR COLLAPSE TENDENCY
+================================================================================
+
+TERMINAL DEPTH (d=12) ANALYSIS:
+
+Transition from projection: 41.25% → neutral
+Transition from antisymmetry: 100% → neutral
+Transition from neutral: 100% → neutral
+
+SECTOR STABILITY:
+- Projection: Unstable (58.75% stay, 41.25% absorbed)
+- Antisymmetry: Fully unstable (100% absorbed)
+- Neutral: Stable (100% persist)
+
+COLLAPSE CLASSIFICATION:
+- Projection: PARTIAL_COLLAPSE
+- Antisymmetry: COMPLETE_COLLAPSE
+- Neutral: PERSISTENT
+
+================================================================================
+SECTION 3: REPLAY ABSORPTION RATE
+================================================================================
+
+H4 Criterion: absorption_rate > 0.50
+Observed: 0.2263
+Status: FAIL
+
+The absorption rate is below threshold because:
+1. Only projection sector has significant initial population
+2. Only 41% of projection transitions to neutral
+3. Neutral sector itself is terminal (already absorbed)
+
+Replay does NOT remain terminally absorbing in the transition
+spectrum. The neutral sector is terminal, not replay.
+
+================================================================================
+SECTION 4: NEUTRAL SECTOR PERSISTENCE
+================================================================================
+
+H5 Criterion: neutral_persistence > 0.01
+Observed: 0.0862
+Status: PASS
+
+Neutral sector remains nonvanishing across all depths.
+Mean persistence: 0.0932
+
+This confirms metastable constraint structure with
+neutral sector as persistent ground state.
+
+================================================================================
+END OF ABSORPTION DYNAMICS
+================================================================================

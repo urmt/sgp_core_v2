@@ -1,0 +1,93 @@
+{
+  "gate_open_rate": 0.4,
+  "max_metric_corr": 0.7685229352275251,
+  "domain_results": {
+    "chirp": {
+      "replay_distance": 15.438742753600705,
+      "stitched_distance": 7.949183153735561,
+      "reverse_distance": 3.0314314759460492,
+      "adversarial_distance": 2.7140584695837613,
+      "gate": true
+    },
+    "random_walk_trend": {
+      "replay_distance": 0.15807748044073422,
+      "stitched_distance": 4.30574984000106,
+      "reverse_distance": 0.013367382842193888,
+      "adversarial_distance": 0.10885924816852202,
+      "gate": false
+    },
+    "regime_switching": {
+      "replay_distance": 4.572066384528533,
+      "stitched_distance": 2.1088074542227466,
+      "reverse_distance": 5.1367049686619835,
+      "adversarial_distance": 4.533090459885187,
+      "gate": true
+    },
+    "chaotic_logistic": {
+      "replay_distance": 0.09759286431810157,
+      "stitched_distance": 0.02856614824813274,
+      "reverse_distance": 0.020309090774443286,
+      "adversarial_distance": 4.014067500758004,
+      "gate": false
+    },
+    "coupled_oscillator": {
+      "replay_distance": 78.14822010724922,
+      "stitched_distance": 26.235115991044296,
+      "reverse_distance": 0.04762175149102678,
+      "adversarial_distance": 54.84233109852604,
+      "gate": false
+    }
+  },
+  "metric_summary": {
+    "mass_ratio": {
+      "mean": 1.4408860697196701,
+      "std": 1.486437533923358,
+      "min": 0.1713257064740472,
+      "max": 7.755430469591319
+    },
+    "directional_ngram_kl": {
+      "mean": 0.6778888849345248,
+      "std": 1.500813987453892,
+      "min": 0.0,
+      "max": 4.190574218342608
+    },
+    "phase_gradient_skew": {
+      "mean": -4.158121402191771,
+      "std": 17.499684431079235,
+      "min": -56.139673088094305,
+      "max": 27.63142026812137
+    },
+    "lz_directionality": {
+      "mean": 0.06451163156951946,
+      "std": 0.289449786486464,
+      "min": -0.2553191489343595,
+      "max": 1.8602150537434385
+    }
+  },
+  "correlation_matrix": [
+    [
+      0.9999999999999998,
+      -0.13029330140473078,
+      0.07564432000261936,
+      0.7685229352275251
+    ],
+    [
+      -0.13029330140473078,
+      0.9999999999999998,
+      0.07985365980252972,
+      -0.10458244503785243
+    ],
+    [
+      0.07564432000261936,
+      0.07985365980252972,
+      1.0,
+      0.057182244694457936
+    ],
+    [
+      0.7685229352275251,
+      -0.10458244503785243,
+      0.057182244694457936,
+      0.9999999999999998
+    ]
+  ]
+}

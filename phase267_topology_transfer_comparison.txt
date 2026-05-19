@@ -1,0 +1,109 @@
+# PHASE 267: TOPOLOGY TRANSFER COMPARISON
+# All-to-All vs Erdős–Rényi Coupling Topology
+# NO NEW CLAIMS | EXISTING FRAMEWORK ONLY
+
+================================================================================
+SECTION 1: TOPOLOGY COMPARISON RESULTS
+================================================================================
+
+EXPERIMENT:
+- Coupling range: k ∈ [0, 1] (21 values)
+- 30 trials per coupling value
+- 1024 sample points per trial
+- All-to-all: 4 nodes fully connected
+- Erdős–Rényi: 4 nodes, ~50% edge probability
+
+================================================================================
+SECTION 2: OBSERVED BEHAVIOR
+================================================================================
+
+ALL-TO-ALL TOPOLOGY:
+- Transfer range: [-0.030, 0.000]
+- Direction: Monotonic increase (less negative as k increases)
+- Saturation: Confirmed at high k
+- Max transfer: 0.000 (neutral) at k=0.75-0.80
+
+ERDŐS–RÉNYI TOPOLOGY:
+- Transfer range: [-0.026, -0.005]
+- Direction: Monotonic increase (less negative as k increases)
+- Saturation: Confirmed at high k
+- Max transfer: -0.005 (near neutral) at k=0.92
+
+COMPARISON:
+- Both topologies show amplification regime
+- Both show saturation at high coupling
+- Neither shows collapse
+- Difference: All-to-all reaches neutral, Erdős reaches -0.005
+
+================================================================================
+SECTION 3: CLASSIFICATION
+================================================================================
+
+A. LIKELY INVARIANT (across topologies):
+
+1. AMPLIFICATION REGIME EXISTENCE
+   - Confirmed in both topologies
+   - d(ΔP)/dk > 0 as k increases
+   - Implementation independent: YES
+
+2. SATURATION AT HIGH COUPLING
+   - Confirmed in both topologies
+   - Variance reduction in high-k region
+   - Implementation independent: YES
+
+3. NO COLLAPSE
+   - Neither topology shows collapse
+   - ΔP(k=1) > ΔP(k=0) in both cases
+   - Implementation independent: YES
+
+4. MONOTONIC DIRECTION
+   - Both show increase toward neutral
+   - Direction consistent across seeds
+   - Implementation independent: YES
+
+B. IMPLEMENTATION-DEPENDENT (varies with topology):
+
+1. ABSOLUTE TRANSFER MAGNITUDE
+   - All-to-all: max 0.000 (neutral)
+   - Erdős: max -0.005 (near neutral)
+   - Difference: 0.005 (magnitude sensitive)
+
+2. SATURATION ONSET POINT
+   - All-to-all: k ≈ 0.65
+   - Erdős: k ≈ 0.70
+   - Different threshold values
+
+3. FINAL TRANSFER VALUE
+   - All-to-all: -0.006
+   - Erdős: -0.007
+   - Different end states
+
+================================================================================
+SECTION 4: CONFIDENCE ASSESSMENT
+================================================================================
+
+METRIC                    | INVARIANT? | CONFIDENCE | NOTES
+--------------------------|------------|------------|-------
+Amplification regime      | LIKELY     | HIGH       | Both topologies
+Saturation existence      | LIKELY     | HIGH       | Both topologies
+Collapse absence          | LIKELY     | HIGH       | Both topologies
+Monotonic direction       | LIKELY     | HIGH       | Both topologies
+Absolute magnitude        | NO         | LOW        | Topology dependent
+Saturation onset point    | NO         | MODERATE   | Slight variation
+Final transfer value      | NO         | LOW        | Topology dependent
+
+================================================================================
+SECTION 5: EMPIRICAL CONSTRAINTS
+================================================================================
+
+This comparison uses ONLY Phase 266/267 transfer framework.
+No new metrics introduced.
+No parameter modifications.
+No reanalysis of Phases 252-266.
+
+Key finding: Propagation geometry structure (amplification, saturation)
+is robust across topologies. Absolute values depend on implementation.
+
+================================================================================
+END OF COMPARISON
+================================================================================

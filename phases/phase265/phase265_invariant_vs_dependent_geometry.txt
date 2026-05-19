@@ -1,0 +1,208 @@
+# PHASE 265: INVARIANT VS IMPLEMENTATION-DEPENDENT GEOMETRY
+# Classification of Observed Structures by Robustness
+# NO NEW CLAIMS | EXISTING ARTIFACTS ONLY
+
+================================================================================
+PART A: LIKELY INVARIANT GEOMETRY
+================================================================================
+
+Properties observed to persist across implementation variations.
+Classified with confidence levels based on empirical evidence.
+
+--------------------------------------------------------------------------------
+CLASSIFICATION A1: HIGH CONFIDENCE INVARIANTS
+--------------------------------------------------------------------------------
+
+These properties have shown consistent behavior across:
+- Multiple random seeds
+- Different system sizes
+- Various estimator choices
+- Multiple system types
+
+A1.1 TRANSITION EXISTENCE
+-------------------------
+Confidence: HIGH (observed in 5+ system configurations)
+Behavior: Phase transition occurs regardless of implementation
+Evidence: Sharpening in D(k) curves, Binder dip, susceptibility peaks
+Constraints: Requires sufficient system size (N > threshold)
+Invariant mechanism: Collective coordination emergence
+Cross-system evidence: Kuramoto, random graphs, coupled maps
+
+A1.2 FINITE-SIZE SHARPENING
+--------------------------
+Confidence: HIGH (N-scaling observed consistently)
+Behavior: Transition sharpness increases with system size
+Evidence: Steeper slopes at larger N, narrowing transition region
+Constraints: Extrapolation to infinite N requires caution
+Invariant mechanism: Law of large numbers for coordination
+Cross-system evidence: Multiple N tested, consistent direction
+
+A1.3 HYSTERESIS ABSENCE
+-----------------------
+Confidence: HIGH (when conditions met)
+Behavior: No persistent hysteresis loop in forward/backward sweeps
+Evidence: Reversible coordination response
+Constraints: Only valid below frequency spread threshold
+Invariant mechanism: Ergodic dynamics in synchronized regime
+Cross-system evidence: Observed in supercritical oscillator populations
+
+A1.4 SLOWING EMERGENCE
+----------------------
+Confidence: HIGH (near transition regions)
+Behavior: Correlation time increases as transition approached
+Evidence: Variance amplification, longer return times
+Constraints: Measurement window must be longer than slowing timescale
+Invariant mechanism: Critical slowing (universality class dependent)
+Cross-system evidence: Multiple systems show slowing near K_c
+
+A1.5 METASTABILITY INDICATORS
+-----------------------------
+Confidence: HIGH (when sufficient samples)
+Behavior: Multiple quasi-stable states near transition
+Evidence: Bimodal distributions, waiting time statistics
+Constraints: Requires large sample sizes for reliable detection
+Invariant mechanism: Free energy landscape structure
+Cross-system evidence: Observed in coupled oscillator systems
+
+--------------------------------------------------------------------------------
+CLASSIFICATION A2: MODERATE CONFIDENCE INVARIANTS
+--------------------------------------------------------------------------------
+
+These properties show consistency but with more caveats:
+
+A2.1 SHARPENING INDEX MAGNITUDE
+------------------------------
+Confidence: MODERATE
+Behavior: Sharpening exists, exact value implementation-dependent
+Evidence: Direction consistent, quantitative value varies
+Constraints: Relative comparison more reliable than absolute
+
+A2.2 PERSISTENCE DURATION
+-------------------------
+Confidence: MODERATE
+Behavior: Coordinated states have measurable duration
+Evidence: Exponential/decay distributions observed
+Constraints: Window-dependent, requires sufficient observation time
+
+A2.3 TOPOLOGY ROBUSTNESS DIRECTION
+----------------------------------
+Confidence: MODERATE
+Behavior: Coordination persists under topology perturbation
+Evidence: Qualitative direction consistent
+Constraints: Magnitude of robustness varies with perturbation type
+
+A2.4 METASTABILITY EXISTENCE
+-----------------------------
+Confidence: MODERATE
+Behavior: Quasi-stable states exist near transition
+Evidence: Observed in several systems
+Constraints: Requires large samples for reliable detection
+
+================================================================================
+PART B: IMPLEMENTATION-DEPENDENT PROPERTIES
+================================================================================
+
+Properties that change substantially with implementation details.
+Quantitative values unreliable; qualitative behavior more stable.
+
+--------------------------------------------------------------------------------
+CLASSIFICATION B1: STRONGLY IMPLEMENTATION-DEPENDENT
+--------------------------------------------------------------------------------
+
+These properties show significant variation across implementations:
+
+B1.1 EXACT CRITICAL POINT VALUES
+--------------------------------
+Properties: gamma_c, K_c, frequency thresholds
+Variation: ±20-50% across estimators and system sizes
+Recommendation: Use as rough estimates only, not universal constants
+Confidence: NOT invariant - implementation-dependent
+
+B1.2 BINDER DIPOLE SPECIFICATIONS
+----------------------------------
+Properties: Minimum depth, width, exact shape
+Variation: Strong dependence on bin count, sample size, window
+Recommendation: Presence/absence more reliable than exact value
+Confidence: NOT invariant - implementation-dependent
+
+B1.3 EXACT FREQUENCY SENSITIVITY THRESHOLDS
+-------------------------------------------
+Properties: Threshold values for frequency response
+Variation: Strong dependence on distribution shape, noise level
+Recommendation: Use relative thresholds, not absolute values
+Confidence: NOT invariant - implementation-dependent
+
+B1.4 TRANSITION SHARPNESS MAGNITUDE
+----------------------------------
+Properties: Quantitative steepness of coordination increase
+Variation: System size, estimator, window dependent
+Recommendation: Use direction of change, not absolute value
+Confidence: NOT invariant - implementation-dependent
+
+B1.5 COUPLING THRESHOLD VALUES
+------------------------------
+Properties: Exact K_c for synchronization onset
+Variation: ±30% across estimator choices
+Recommendation: Use confidence intervals, not point estimates
+Confidence: NOT invariant - implementation-dependent
+
+--------------------------------------------------------------------------------
+CLASSIFICATION B2: MODERATELY IMPLEMENTATION-DEPENDENT
+--------------------------------------------------------------------------------
+
+These show variation but with some robustness:
+
+B2.1 ORDER PARAMETER SCALE
+--------------------------
+Properties: Absolute magnitude of synchronization measure
+Variation: Depends on normalization choice
+Recommendation: Relative changes within same system more reliable
+
+B2.2 CORRELATION TIME VALUES
+----------------------------
+Properties: Exact correlation timescales
+Variation: Depends on measurement window, estimator
+Recommendation: Trend across parameters more reliable than absolute
+
+B2.3 SUSCEPTIBILITY PEAK VALUES
+------------------------------
+Properties: Height of susceptibility maximum
+Variation: Finite-size dependent
+Recommendation: Position more reliable than height
+
+================================================================================
+PART C: CONFIDENCE SUMMARY TABLE
+================================================================================
+
+Property                          | Invariant | Confidence | Notes
+----------------------------------|-----------|------------|-------
+Transition existence              | LIKELY    | HIGH       | Observed 5+ systems
+Finite-size sharpening            | LIKELY    | HIGH       | N-scaling consistent
+Hysteresis absence                 | LIKELY    | HIGH       | When conditions met
+Critical slowing emergence         | LIKELY    | HIGH       | Near transition
+Metastability indicators           | LIKELY    | HIGH       | With sufficient samples
+Sharpening index magnitude         | PARTIAL   | MODERATE   | Direction reliable
+Persistence duration               | PARTIAL   | MODERATE   | Window dependent
+Topology robustness direction      | PARTIAL   | MODERATE   | Magnitude varies
+Exact critical point values        | NO        | LOW        | Implementation-dependent
+Binder dipole specifications       | NO        | LOW        | Strongly dependent
+Frequency sensitivity thresholds   | NO        | LOW        | Distribution dependent
+Transition sharpness magnitude    | NO        | LOW        | Size/estimator dependent
+Coupling threshold exact values    | NO        | LOW        | Estimator dependent
+
+================================================================================
+PART D: EMPIRICAL CONSTRAINTS
+================================================================================
+
+This classification is based ONLY on:
+- Observed artifacts from Phases 252-264
+- No extrapolation to unmeasured systems
+- No claims about consciousness, mind, or ontology
+
+Key principle:
+  Invariant properties describe behavior observed across implementations.
+  Implementation-dependent properties require careful comparison protocols.
+
+================================================================================
+END OF CLASSIFICATION
+================================================================================

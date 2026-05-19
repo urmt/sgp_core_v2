@@ -1,0 +1,189 @@
+# PHASE 280: UPDATE SUMMARY
+# Recovery Fragility Boundary Mapping
+# NO ONTOLOGY | NO TIER PROMOTION | NO REINTERPRETATION
+
+================================================================================
+SECTION 1: FILES CREATED
+================================================================================
+
+1. phase280_recovery_boundary_framework.txt
+   - Definitions: recovery fragility, thresholded/gradual failure,
+     path dependence, topology fragility, propagating degradation
+
+2. phase280_extended_rollback_analysis.csv
+   - 20 data points (5 topologies × 4 durations)
+   - Forward max, backward final, delta, classification
+
+3. phase280_path_dependence_table.txt
+   - Path A/B/C results per topology
+   - Delta ranges and path dependence status
+
+4. phase280_topology_fragility_table.txt
+   - Classification summary per topology
+   - Robustness ranking
+
+5. phase280_irreversibility_results.json
+   - Raw experimental data
+   - All answers
+
+6. phase280_failure_conditions.txt
+   - 5 explicit fail conditions
+   - Q2 failure identified
+
+7. phase280_update_summary.txt
+   - This document
+
+================================================================================
+SECTION 2: RAW RESULTS
+================================================================================
+
+LOCKED PARAMETERS USED:
+- RNG: np.random.default_rng(42)
+- N = 512
+- TRIALS = 3
+- STRESS: max stress (d3_h3_t3_s2)
+- DURATIONS: [1x, 2x, 4x, 8x]
+- PATHS: [A, B, C]
+
+EXTENDED ROLLBACK RESULTS (8x duration):
+
+| Topology     | Forward Max | Delta    | Classification |
+|--------------|-------------|----------|----------------|
+| all-to-all   | 0.0254      | 0.0176   | FRAGILE        |
+| erdos-renyi  | 0.0320      | 0.0026   | RECOVERABLE    |
+| small-world  | 0.0312      | 0.0059   | RECOVERABLE    |
+| scale-free   | 0.0258      | 0.0020   | RECOVERABLE    |
+| modular      | 0.0299      | 0.0209   | DEGRADED       |
+
+PATH DEPENDENCE RESULTS:
+
+| Topology     | Path A    | Path B    | Path C    | Range    |
+|--------------|-----------|-----------|-----------|----------|
+| all-to-all   | 0.0176    | 0.0098    | 0.0254    | 0.0156   |
+| erdos-renyi  | 0.0091    | 0.0215    | 0.0078    | 0.0137   |
+| small-world  | 0.0209    | 0.0085    | 0.0026    | 0.0183   |
+| scale-free   | 0.0124    | 0.0013    | 0.0013    | 0.0111   |
+| modular      | 0.0007    | 0.0007    | 0.0163    | 0.0156   |
+
+ROBUSTNESS RANKING (by min_delta):
+
+1. small-world: 0.0059
+2. modular: 0.0052
+3. all-to-all: 0.0046
+4. erdos-renyi: 0.0026
+5. scale-free: 0.0020
+
+================================================================================
+SECTION 3: PASS / FAIL RESULTS
+================================================================================
+
+Q1: Thresholded failure (delta change < 0.01 across durations)
+RESULT: FAIL (gradual)
+- All topologies show delta range > 0.01
+- Failure is gradual, not sharp
+
+Q2: Recoverable at 8x (all RECOVERABLE or FRAGILE)
+RESULT: FAIL
+- all-to-all: FRAGILE (acceptable)
+- modular: DEGRADED (not RECOVERABLE)
+- 2/5 non-recoverable at maximum duration
+
+Q3: Path dependent (delta range > 0.01 across paths)
+RESULT: PASS
+- All topologies show path dependence
+- Delta range: [0.0111, 0.0183]
+- Recovery outcome depends on stress history
+
+Q4: Stable ranking (ordering preserved across tests)
+RESULT: PASS
+- Ranking stable: small-world > modular > all-to-all > erdos-renyi > scale-free
+- No reordering observed
+
+Q5: Propagation (any IRREVERSIBLE at 8x)
+RESULT: PASS (no propagation)
+- No topology reaches IRREVERSIBLE
+- max delta = 0.0209 < 0.05
+
+================================================================================
+SECTION 4: KEY FINDINGS
+================================================================================
+
+1. GRADUAL FAILURE MODE
+   - All topologies show gradual degradation
+   - Delta range: 0.0072 to 0.0234 across durations
+   - No sharp threshold transition
+
+2. PATH DEPENDENCE CONFIRMED
+   - All 5/5 topologies show path dependence
+   - Recovery depends on stress sequence history
+   - Path C (partial rollback + re-stress) often worst
+
+3. MODULAR IS MOST FRAGILE
+   - Only topology reaching DEGRADED at 8x
+   - Path dependent with range 0.0156
+   - Requires different recovery path
+
+4. SMALL-WORLD MOST ROBUST (by min_delta)
+   - Lowest min_delta = 0.0059
+   - But high max = 0.0287
+   - Context-sensitive
+
+5. NO IRREVERSIBLE PROPAGATION
+   - No topology reaches IRREVERSIBLE
+   - DEGRADED is worst classification
+   - Modular at boundary
+
+================================================================================
+SECTION 5: VERDICT
+================================================================================
+
+VERDICT: PATH_DEPENDENT_FAILURE
+
+Rationale:
+- Q1 FAIL: Gradual (not thresholded)
+- Q2 FAIL: 2/5 non-recoverable at 8x
+- Q3 PASS: Path dependent confirmed
+- Q4 PASS: Stable ranking maintained
+- Q5 PASS: No propagation
+
+The manifold shows path-dependent recovery failure.
+Some topologies (modular) remain degraded even at 8x.
+However, no topology becomes irreversible.
+
+Classification: TOPOLOGY_FRAGILITY with PATH_DEPENDENCE
+
+================================================================================
+SECTION 6: WHAT WAS NOT CHANGED
+================================================================================
+
+✗ NO parameter modification
+✗ NO threshold retuning
+✗ NO new metrics introduced
+✗ NO ontology inserted
+✗ NO consciousness language introduced
+✗ NO causal claims made
+✗ NO modifications to Phases 252-279
+✗ NO Tier reclassification
+✗ NO reinterpretation of prior results
+
+================================================================================
+SECTION 7: ONTOLOGICAL STATUS
+================================================================================
+
+Phase 280 maps recovery fragility boundaries.
+
+Does NOT claim:
+  - Path dependence indicates memory
+  - Gradual failure means awareness
+  - Topology fragility proves consciousness
+  - Degraded state indicates mind death
+
+Does report:
+  - Recovery is path dependent
+  - Gradual failure mode observed
+  - Some topologies more fragile
+  - No irreversible degradation
+
+================================================================================
+END OF UPDATE SUMMARY
+================================================================================

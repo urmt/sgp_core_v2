@@ -1,0 +1,33 @@
+{
+  "collapse_ratio": 0.002048728716390388,
+  "mutual_proxy_corr": 0.2742119585223516,
+  "base_abs_m2_minus_m3": 1.1885018819579036,
+  "replay_abs_m2_minus_m3": 0.011532648560350252,
+  "alignment_gain": 103.05541486289363,
+  "regression_r2": 0.0751921981966639,
+  "domain_results": {
+    "chaotic_logistic": {
+      "collapse_ratio": 0.0,
+      "corr": NaN
+    },
+    "chirp": {
+      "collapse_ratio": 0.0,
+      "corr": NaN
+    },
+    "coupled_osc": {
+      "collapse_ratio": 0.0,
+      "corr": NaN
+    },
+    "regime_switch": {
+      "collapse_ratio": 6.208991283254599e-08,
+      "corr": -0.08855092751960157
+    },
+    "rw_trend": {
+      "collapse_ratio": 4.34398565668885e-07,
+      "corr": -0.6409056498590758
+    }
+  },
+  "H1_nullspace_confirmed": true,
+  "H2_alignment_manifold": true,
+  "H3_information_destroyed": false
+}

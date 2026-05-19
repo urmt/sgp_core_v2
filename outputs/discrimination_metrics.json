@@ -1,0 +1,17 @@
+{
+  "random_gaussian": {
+    "curvature_variance": 6.999977608090043e-08,
+    "max_curvature": 0.0010524206891133758,
+    "inflection_count": 0
+  },
+  "hierarchical": {
+    "curvature_variance": 0.0005544609691008627,
+    "max_curvature": 0.07935189427517386,
+    "inflection_count": 5
+  },
+  "sparse": {
+    "curvature_variance": 2.7280137751719253e-06,
+    "max_curvature": 0.006461406850744922,
+    "inflection_count": 12
+  }
+}

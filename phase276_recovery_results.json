@@ -1,0 +1,206 @@
+{
+  "topologies": {
+    "all-to-all": {
+      "cycles": [
+        {
+          "cycle": 0,
+          "max_forward_loc": 0.029789084583605147,
+          "final_back_loc": 0.026744944553163723,
+          "recovery_delta": 0.0,
+          "fractured": false
+        },
+        {
+          "cycle": 1,
+          "max_forward_loc": 0.030223961730811037,
+          "final_back_loc": 0.016307893020221793,
+          "recovery_delta": 0.0,
+          "fractured": false
+        },
+        {
+          "cycle": 2,
+          "max_forward_loc": 0.041095890410958895,
+          "final_back_loc": 0.041095890410958895,
+          "recovery_delta": 0.0,
+          "fractured": true
+        },
+        {
+          "cycle": 3,
+          "max_forward_loc": 0.0426179604261796,
+          "final_back_loc": 0.011959121548162636,
+          "recovery_delta": 0.0,
+          "fractured": true
+        },
+        {
+          "cycle": 4,
+          "max_forward_loc": 0.04044357469015003,
+          "final_back_loc": 0.03848662752772342,
+          "recovery_delta": 0.0,
+          "fractured": true
+        }
+      ]
+    },
+    "erdos-renyi": {
+      "cycles": [
+        {
+          "cycle": 0,
+          "max_forward_loc": 0.029789084583605147,
+          "final_back_loc": 0.026744944553163723,
+          "recovery_delta": 0.0,
+          "fractured": false
+        },
+        {
+          "cycle": 1,
+          "max_forward_loc": 0.030223961730811037,
+          "final_back_loc": 0.016307893020221793,
+          "recovery_delta": 0.0,
+          "fractured": false
+        },
+        {
+          "cycle": 2,
+          "max_forward_loc": 0.041095890410958895,
+          "final_back_loc": 0.041095890410958895,
+          "recovery_delta": 0.0,
+          "fractured": true
+        },
+        {
+          "cycle": 3,
+          "max_forward_loc": 0.0426179604261796,
+          "final_back_loc": 0.011959121548162636,
+          "recovery_delta": 0.0,
+          "fractured": true
+        },
+        {
+          "cycle": 4,
+          "max_forward_loc": 0.04044357469015003,
+          "final_back_loc": 0.03848662752772342,
+          "recovery_delta": 0.0,
+          "fractured": true
+        }
+      ]
+    },
+    "small-world": {
+      "cycles": [
+        {
+          "cycle": 0,
+          "max_forward_loc": 0.029789084583605147,
+          "final_back_loc": 0.026744944553163723,
+          "recovery_delta": 0.0,
+          "fractured": false
+        },
+        {
+          "cycle": 1,
+          "max_forward_loc": 0.030223961730811037,
+          "final_back_loc": 0.016307893020221793,
+          "recovery_delta": 0.0,
+          "fractured": false
+        },
+        {
+          "cycle": 2,
+          "max_forward_loc": 0.041095890410958895,
+          "final_back_loc": 0.041095890410958895,
+          "recovery_delta": 0.0,
+          "fractured": true
+        },
+        {
+          "cycle": 3,
+          "max_forward_loc": 0.0426179604261796,
+          "final_back_loc": 0.011959121548162636,
+          "recovery_delta": 0.0,
+          "fractured": true
+        },
+        {
+          "cycle": 4,
+          "max_forward_loc": 0.04044357469015003,
+          "final_back_loc": 0.03848662752772342,
+          "recovery_delta": 0.0,
+          "fractured": true
+        }
+      ]
+    },
+    "scale-free": {
+      "cycles": [
+        {
+          "cycle": 0,
+          "max_forward_loc": 0.029789084583605147,
+          "final_back_loc": 0.026744944553163723,
+          "recovery_delta": 0.0,
+          "fractured": false
+        },
+        {
+          "cycle": 1,
+          "max_forward_loc": 0.030223961730811037,
+          "final_back_loc": 0.016307893020221793,
+          "recovery_delta": 0.0,
+          "fractured": false
+        },
+        {
+          "cycle": 2,
+          "max_forward_loc": 0.041095890410958895,
+          "final_back_loc": 0.041095890410958895,
+          "recovery_delta": 0.0,
+          "fractured": true
+        },
+        {
+          "cycle": 3,
+          "max_forward_loc": 0.0426179604261796,
+          "final_back_loc": 0.011959121548162636,
+          "recovery_delta": 0.0,
+          "fractured": true
+        },
+        {
+          "cycle": 4,
+          "max_forward_loc": 0.04044357469015003,
+          "final_back_loc": 0.03848662752772342,
+          "recovery_delta": 0.0,
+          "fractured": true
+        }
+      ]
+    },
+    "modular": {
+      "cycles": [
+        {
+          "cycle": 0,
+          "max_forward_loc": 0.029789084583605147,
+          "final_back_loc": 0.026744944553163723,
+          "recovery_delta": 0.0,
+          "fractured": false
+        },
+        {
+          "cycle": 1,
+          "max_forward_loc": 0.030223961730811037,
+          "final_back_loc": 0.016307893020221793,
+          "recovery_delta": 0.0,
+          "fractured": false
+        },
+        {
+          "cycle": 2,
+          "max_forward_loc": 0.041095890410958895,
+          "final_back_loc": 0.041095890410958895,
+          "recovery_delta": 0.0,
+          "fractured": true
+        },
+        {
+          "cycle": 3,
+          "max_forward_loc": 0.0426179604261796,
+          "final_back_loc": 0.011959121548162636,
+          "recovery_delta": 0.0,
+          "fractured": true
+        },
+        {
+          "cycle": 4,
+          "max_forward_loc": 0.04044357469015003,
+          "final_back_loc": 0.03848662752772342,
+          "recovery_delta": 0.0,
+          "fractured": true
+        }
+      ]
+    }
+  },
+  "answers": {
+    "Q1_bounded": true,
+    "Q2_separable": true,
+    "Q3_variance_bounded": true,
+    "Q4_recovery": true,
+    "Q5_convergence": true
+  }
+}

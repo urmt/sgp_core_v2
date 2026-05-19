@@ -1,0 +1,67 @@
+{
+  "max_metric_corr": NaN,
+  "gate_open_rate": 0.0,
+  "domain_results": {
+    "chirp": {
+      "replay_distance": 13.739762686401395,
+      "stitched_distance": 37.985796124143484,
+      "reverse_distance": 3.4013323153894306,
+      "adversarial_distance": 12.931848441234914,
+      "gate": false
+    },
+    "random_walk_trend": {
+      "replay_distance": 1.2513185051472633,
+      "stitched_distance": 1.6391521015731225,
+      "reverse_distance": 0.026019711546691523,
+      "adversarial_distance": 1.087558263843109,
+      "gate": false
+    },
+    "regime_switching": {
+      "replay_distance": 29.884022147416026,
+      "stitched_distance": 2.1926392043789527,
+      "reverse_distance": 2.8787096427614474,
+      "adversarial_distance": 2.195257295944874,
+      "gate": false
+    },
+    "chaotic_logistic": {
+      "replay_distance": 0.032623497554204565,
+      "stitched_distance": 0.024519783597822177,
+      "reverse_distance": 0.034535026945399595,
+      "adversarial_distance": 0.14962763001442628,
+      "gate": false
+    },
+    "coupled_oscillator": {
+      "replay_distance": 5.879235160411743,
+      "stitched_distance": 3.3067634741223126,
+      "reverse_distance": 0.05207830127237045,
+      "adversarial_distance": 10.07361492582927,
+      "gate": false
+    }
+  },
+  "correlation_matrix": [
+    [
+      1.0,
+      NaN,
+      0.1306294720017923,
+      0.44081836653199913
+    ],
+    [
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    [
+      0.1306294720017923,
+      NaN,
+      1.0,
+      -0.09885955733144362
+    ],
+    [
+      0.44081836653199913,
+      NaN,
+      -0.09885955733144362,
+      0.9999999999999998
+    ]
+  ]
+}

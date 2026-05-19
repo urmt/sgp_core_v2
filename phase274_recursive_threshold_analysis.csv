@@ -1,0 +1,10 @@
+depth,recursion_level,mean_transfer,variance,localization,threshold_type,classification,variance_bounded,deformation_observed,limitations
+0.00,0.0,-0.0139,0.000397,0.013,STABLE,sTABLE_DEFORMATION,yes,yes,early_depth
+0.25,0.25,-0.0159,0.000401,0.006,STABLE,STABLE_DEFORMATION,yes,yes,mild_deformation
+0.50,0.50,-0.0147,0.000413,0.000,STABLE,STABLE_RECURSION,yes,no,localization_perfect
+0.75,0.75,-0.0228,0.000868,0.003,STABLE,STABLE_RECURSION,yes,no,near_threshold
+1.00,1.00,-0.0268,0.000227,0.043,LOCALIZATION_FRACTURE,LOCALIZATION_FRACTURE,yes,no,fracture_onset
+1.25,1.25,-0.0258,0.000237,0.043,LOCALIZATION_FRACTURE,LOCALIZATION_FRACTURE,yes,no,fracture_propagates
+1.50,1.50,-0.0258,0.000237,0.043,LOCALIZATION_FRACTURE,LOCALIZATION_FRACTURE,yes,no,fracture_propagates
+1.75,1.75,-0.0258,0.000237,0.043,LOCALIZATION_FRACTURE,LOCALIZATION_FRACTURE,yes,no,fracture_propagates
+2.00,2.00,-0.0368,0.000175,0.043,CLASS_DESTABILIZATION,LOCALIZATION_FRACTURE,yes,no,class_dests_at_2

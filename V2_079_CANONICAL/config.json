@@ -1,0 +1,46 @@
+{
+  "lineage": "V2_079_CANONICAL",
+  "version": "STRICT_RECOVERY_V1",
+  "created_unix": 1778898890,
+  "numpy_seed_policy": "explicit_per_run",
+  "n_signal": 4096,
+  "domains": [
+    "chirp",
+    "rw_trend",
+    "regime_switch",
+    "chaotic_logistic",
+    "coupled_osc"
+  ],
+  "variants": [
+    "base",
+    "reverse",
+    "swap",
+    "replay",
+    "stitch"
+  ],
+  "evaluation_seeds": [
+    11,
+    23,
+    37,
+    51,
+    79,
+    97,
+    111,
+    123,
+    137,
+    149
+  ],
+  "metrics": [
+    "signed_compressibility",
+    "half_corr",
+    "ordinal_transition_asymmetry",
+    "amp_transition_asymmetry"
+  ],
+  "thresholds": {
+    "reverse": 0.4,
+    "swap": 0.2,
+    "replay": 0.2,
+    "stitch": 0.25,
+    "corr_max": 0.9
+  }
+}

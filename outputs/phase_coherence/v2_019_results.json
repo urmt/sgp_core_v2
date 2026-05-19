@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "tested": 4,
+    "passed": 0,
+    "mean_ratio": 2.9512350693900102,
+    "min_ratio": 1.3797283056215357,
+    "gate": "CLOSED"
+  },
+  "results": {
+    "eeg_like": {
+      "ratio": 3.269777062821855,
+      "shuffle_ratio": 0.9636053752294673,
+      "passed": false
+    },
+    "activity": {
+      "ratio": 3.269777062821855,
+      "shuffle_ratio": 0.9124054288165577,
+      "passed": false
+    },
+    "financial": {
+      "ratio": 3.885657846294796,
+      "shuffle_ratio": 1.1352667848277016,
+      "passed": false
+    },
+    "weather": {
+      "ratio": 1.3797283056215357,
+      "shuffle_ratio": 0.7171293823868957,
+      "passed": false
+    }
+  }
+}

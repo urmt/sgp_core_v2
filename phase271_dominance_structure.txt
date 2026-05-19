@@ -1,0 +1,125 @@
+# PHASE 271: DOMINANCE STRUCTURE ANALYSIS
+# Competitive Propagation Dominance and Regime Emergence
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: DOMINANT PROPAGATION CLASSES
+================================================================================
+
+OBSERVED SINGLE TOPOLOGY TRANSFER:
+
+all-to-all:     ΔP = -0.009
+Erdős–Rényi:    ΔP = -0.033
+small-world:    ΔP = -0.010
+
+DOMINANCE HIERARCHY:
+
+1. all-to-all: DOMINANT (highest efficiency, strongest localization)
+2. small-world: INTERMEDIATE (moderate efficiency)
+3. Erdős–Rényi: DOMINATED (lowest efficiency)
+
+When competing:
+- Mixed system: ΔP = -0.010
+- Closer to all-to-all (-0.009) than ER (-0.033)
+- Classification: all-to-all DOMINANT
+
+================================================================================
+SECTION 2: COEXISTENCE STABILITY
+================================================================================
+
+DUAL TOPOLOGY TRANSFER RANGE:
+
+k=0.0: ΔP = -0.051
+k=0.2: ΔP = -0.067
+k=0.4: ΔP = -0.045
+k=0.6: ΔP = -0.029
+k=0.8: ΔP = -0.010
+k=1.0: ΔP = -0.016
+
+COEXISTENCE METRICS:
+- Variance across k: > 0.005
+- Range: 0.057 (wide spread)
+- Distinct from pure AA (-0.009) and pure ER (-0.033)
+
+FINDING: Dual topology creates distinct manifold that NEITHER
+collapses nor dominates completely.
+
+================================================================================
+SECTION 3: AMPLIFICATION SUPPRESSION
+================================================================================
+
+QUESTION: Does competition suppress amplification?
+
+SINGLE TOPOLOGY (AA):
+- ΔP range: [-0.033, +0.001]
+- Amplification efficiency: HIGH
+
+DUAL TOPOLOGY:
+- ΔP range: [-0.067, -0.010]
+- Amplification efficiency: REDUCED
+
+FINDING: Competition REDUCES amplification efficiency.
+Dual topology shows larger magnitude loss than single AA.
+
+================================================================================
+SECTION 4: LOCALIZATION ALTERATION
+================================================================================
+
+LOCALIZATION UNDER COMPETITION:
+
+alpha=0.0 (pure AA): |ΔP| = 0.004 → LOCALIZED
+alpha=0.5 (mixed): |ΔP| = 0.004 → LOCALIZED
+alpha=1.0 (pure ER): |ΔP| = 0.039 → NOT LOCALIZED
+
+FINDING: Competition DOES ALTER localization.
+- Pure AA: strong localization (|ΔP| < 0.01)
+- Pure ER: weak localization (|ΔP| > 0.03)
+- Mixed: intermediate (depends on alpha)
+
+Localization preserved for alpha < 0.75.
+Localization lost for alpha = 1.0 (pure ER).
+
+================================================================================
+SECTION 5: DOMINANCE MECHANISM
+================================================================================
+
+WHY DOES ALL-TO-ALL DOMINATE?
+
+1. HIGHER EFFICIENCY
+   - AA: AE = 0.028
+   - ER: AE = 0.000
+   - Mixed: closer to AA efficiency
+
+2. STRONGER LOCALIZATION
+   - AA: L = 0.006
+   - ER: L = 0.039
+   - Mixed: AA-like localization
+
+3. MORE STABLE GEOMETRY
+   - AA: PS = 44
+   - ER: PS = 68
+   - But: Mixed shows AA-dominant behavior
+
+MECHANISM: High-efficiency topology exerts stronger influence
+on propagation structure, causing mixed system to resemble
+dominant topology.
+
+================================================================================
+SECTION 6: SUMMARY
+================================================================================
+
+DOMINANT CLASSES: All-to-all DOMINATES under competition
+
+COEXISTENCE: Stable dual topology manifold exists
+
+AMPLIFICATION: Reduced under competition (suppression)
+
+LOCALIZATION: Altered - depends on competition level
+
+CONCLUSION: Competitive propagation produces dominance
+hierarchy with all-to-all at top. Dual topology creates
+distinct geometry that is neither pure A nor pure B.
+
+================================================================================
+END OF DOMINANCE STRUCTURE ANALYSIS
+================================================================================

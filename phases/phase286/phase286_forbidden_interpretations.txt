@@ -1,0 +1,84 @@
+# PHASE 286: FORBIDDEN INTERPRETATIONS
+# Explicit Prohibited Claims
+# STRICTLY MATHEMATICAL | NO PHYSICS | NO ONTOLOGY
+
+================================================================================
+SECTION 1: EXPLICITLY FORBIDDEN
+================================================================================
+
+The following interpretations are PROHIBITED and will NOT
+be made regardless of experimental results:
+
+1. "Constraints imply laws of physics"
+   - Constraints are mathematical restrictions
+   - No physical law interpretation
+   - No natural law claim
+
+2. "Memory implies observers"
+   - Sector memory is persistence probability
+   - No memory in cognitive sense
+   - No observer interpretation
+
+3. "Sector persistence proves spacetime"
+   - Persistence is sector transition rate
+   - No spatial or temporal structure
+   - No spacetime emergence
+
+4. "Constraint propagation is consciousness"
+   - Propagation is state accessibility
+   - No consciousness implied
+   - No sentience claim
+
+5. "Recursive geometry creates reality"
+   - Geometry is mathematical structure
+   - No reality "creation"
+   - No ontological status
+
+6. "Metastable sectors are quantum states"
+   - Metastability is probability structure
+   - No quantum mechanics
+   - No wave function
+
+7. "Sector memory is information storage"
+   - Memory is persistence classification
+   - No information content
+   - No cognitive interpretation
+
+8. "Constraint retention indicates mind"
+   - Retention is persistence × accessibility
+   - No mind or awareness
+   - No consciousness
+
+================================================================================
+SECTION 2: ALLOWED INTERPRETATIONS
+================================================================================
+
+ONLY the following mathematical language is permitted:
+
+- "Sector persistence probability"
+- "Constraint propagation stability"
+- "Accessible state region"
+- "Recursive composition effect"
+- "Transition entropy"
+- "Sector memory classification"
+- "Geometry restriction"
+- "RG scale invariance"
+- "Metastable sector structure"
+
+================================================================================
+SECTION 3: EMPIRICAL BOUNDARY
+================================================================================
+
+Results reported:
+- Sector persistence probabilities
+- Accessible fractions
+- Constraint retention values
+- Transition entropies
+- RG correlations
+
+No claims beyond mathematical description of
+constraint propagation within persistence geometry.
+
+================================================================================
+END OF FORBIDDEN INTERPRETATIONS
+================================================================================

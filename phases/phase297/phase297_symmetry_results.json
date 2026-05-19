@@ -1,0 +1,244 @@
+{
+  "depths": {
+    "1": {
+      "projection": {
+        "count": 600,
+        "invariance_strength": 0.921081054050596,
+        "symmetry_deviation": 0.821217373070713,
+        "constraint_stability": 0.5893913134646436,
+        "pathway_invariance": 0.3913131895545224,
+        "sector_bias": 0.24865545181806709,
+        "recursive_retention": 0.3913131895545224,
+        "bounded_variation": 0.9414980474647594
+      },
+      "antisymmetry": {
+        "count": 600,
+        "invariance_strength": 0.9976220989692223,
+        "symmetry_deviation": 0.7841451220838108,
+        "constraint_stability": 0.6079274389580946,
+        "pathway_invariance": 0.9894581111950427,
+        "sector_bias": 0.29122297405867115,
+        "recursive_retention": 0.9894581111950427,
+        "bounded_variation": 0.9972443638563776
+      },
+      "neutral": {
+        "count": 600,
+        "invariance_strength": 0.9608476634689828,
+        "symmetry_deviation": 0.812367268882285,
+        "constraint_stability": 0.5938163655588575,
+        "pathway_invariance": 0.5225655434641512,
+        "sector_bias": 0.26859314190995165,
+        "recursive_retention": 0.5225655434641512,
+        "bounded_variation": 0.9541831652057963
+      }
+    },
+    "3": {
+      "projection": {
+        "count": 600,
+        "invariance_strength": 0.9052866537978423,
+        "symmetry_deviation": 0.7831002495380969,
+        "constraint_stability": 0.6084498752309515,
+        "pathway_invariance": 0.47374127713819664,
+        "sector_bias": 0.2398390261406807,
+        "recursive_retention": 0.47374127713819664,
+        "bounded_variation": 0.8957177979097853
+      },
+      "antisymmetry": {
+        "count": 600,
+        "invariance_strength": 0.9976220989692223,
+        "symmetry_deviation": 0.7841451220838106,
+        "constraint_stability": 0.6079274389580946,
+        "pathway_invariance": 0.9894581111950427,
+        "sector_bias": 0.29069709115733255,
+        "recursive_retention": 0.9894581111950427,
+        "bounded_variation": 0.9972443638563776
+      },
+      "neutral": {
+        "count": 600,
+        "invariance_strength": 0.9654690245629589,
+        "symmetry_deviation": 0.819298136822694,
+        "constraint_stability": 0.590350931588653,
+        "pathway_invariance": 0.40740823627713524,
+        "sector_bias": 0.2709613701789215,
+        "recursive_retention": 0.40740823627713524,
+        "bounded_variation": 0.9632641416039491
+      }
+    },
+    "6": {
+      "projection": {
+        "count": 600,
+        "invariance_strength": 0.8841919406219882,
+        "symmetry_deviation": 0.736853173150911,
+        "constraint_stability": 0.6315734134245445,
+        "pathway_invariance": 0.5045020803751774,
+        "sector_bias": 0.227465560768598,
+        "recursive_retention": 0.5045020803751774,
+        "bounded_variation": 0.891512719188639
+      },
+      "antisymmetry": {
+        "count": 600,
+        "invariance_strength": 0.9976445698107252,
+        "symmetry_deviation": 0.7834944302973011,
+        "constraint_stability": 0.6082527848513495,
+        "pathway_invariance": 0.9894600784817144,
+        "sector_bias": 0.28900748298481027,
+        "recursive_retention": 0.9894600784817144,
+        "bounded_variation": 0.9972703190928511
+      },
+      "neutral": {
+        "count": 600,
+        "invariance_strength": 0.9715659273941171,
+        "symmetry_deviation": 0.8187020902677481,
+        "constraint_stability": 0.590648954866126,
+        "pathway_invariance": 0.39809138533378674,
+        "sector_bias": 0.273177350302674,
+        "recursive_retention": 0.39809138533378674,
+        "bounded_variation": 0.9682269027871409
+      }
+    },
+    "9": {
+      "projection": {
+        "count": 600,
+        "invariance_strength": 0.8863198787351763,
+        "symmetry_deviation": 0.7141939689119398,
+        "constraint_stability": 0.6429030155440301,
+        "pathway_invariance": 0.5197457185708265,
+        "sector_bias": 0.22810453225097366,
+        "recursive_retention": 0.5197457185708265,
+        "bounded_variation": 0.8978782102708328
+      },
+      "antisymmetry": {
+        "count": 600,
+        "invariance_strength": 0.9976220989692223,
+        "symmetry_deviation": 0.7841451220838107,
+        "constraint_stability": 0.6079274389580946,
+        "pathway_invariance": 0.9894581111950427,
+        "sector_bias": 0.2880663894761426,
+        "recursive_retention": 0.9894581111950427,
+        "bounded_variation": 0.9972443638563776
+      },
+      "neutral": {
+        "count": 600,
+        "invariance_strength": 0.9746708891445385,
+        "symmetry_deviation": 0.8186286684728477,
+        "constraint_stability": 0.5906856657635762,
+        "pathway_invariance": 0.3980539317840593,
+        "sector_bias": 0.27439246340524337,
+        "recursive_retention": 0.3980539317840593,
+        "bounded_variation": 0.9708382960639795
+      }
+    },
+    "12": {
+      "projection": {
+        "count": 600,
+        "invariance_strength": 0.8916803866428362,
+        "symmetry_deviation": 0.7011688345545283,
+        "constraint_stability": 0.6494155827227359,
+        "pathway_invariance": 0.5284938733056085,
+        "sector_bias": 0.23055436613564206,
+        "recursive_retention": 0.5284938733056085,
+        "bounded_variation": 0.9048613478441225
+      },
+      "antisymmetry": {
+        "count": 600,
+        "invariance_strength": 0.9976281179427771,
+        "symmetry_deviation": 0.7837947729505116,
+        "constraint_stability": 0.6081026135247443,
+        "pathway_invariance": 0.9894591175525166,
+        "sector_bias": 0.2875085935702323,
+        "recursive_retention": 0.9894591175525166,
+        "bounded_variation": 0.997251276050582
+      },
+      "neutral": {
+        "count": 600,
+        "invariance_strength": 0.9766236999822349,
+        "symmetry_deviation": 0.8180483946951953,
+        "constraint_stability": 0.5909758026524023,
+        "pathway_invariance": 0.39804359305924397,
+        "sector_bias": 0.27504943435692664,
+        "recursive_retention": 0.39804359305924397,
+        "bounded_variation": 0.9726026532836491
+      }
+    },
+    "15": {
+      "projection": {
+        "count": 600,
+        "invariance_strength": 0.897184469758349,
+        "symmetry_deviation": 0.6927670343672468,
+        "constraint_stability": 0.6536164828163766,
+        "pathway_invariance": 0.5342846741222945,
+        "sector_bias": 0.23328409889786783,
+        "recursive_retention": 0.5342846741222945,
+        "bounded_variation": 0.9110499797718691
+      },
+      "antisymmetry": {
+        "count": 600,
+        "invariance_strength": 0.9976220989692223,
+        "symmetry_deviation": 0.7841451220838128,
+        "constraint_stability": 0.6079274389580935,
+        "pathway_invariance": 0.9894581111950425,
+        "sector_bias": 0.2871343869470099,
+        "recursive_retention": 0.9894581111950425,
+        "bounded_variation": 0.9972443638563777
+      },
+      "neutral": {
+        "count": 600,
+        "invariance_strength": 0.9779770173642967,
+        "symmetry_deviation": 0.8180099902249481,
+        "constraint_stability": 0.5909950048875259,
+        "pathway_invariance": 0.39803295740516964,
+        "sector_bias": 0.27559438314244405,
+        "recursive_retention": 0.39803295740516964,
+        "bounded_variation": 0.9738753791168235
+      }
+    },
+    "20": {
+      "projection": {
+        "count": 600,
+        "invariance_strength": 0.9052723377206758,
+        "symmetry_deviation": 0.6839060522781721,
+        "constraint_stability": 0.6580469738609139,
+        "pathway_invariance": 0.5406142976771399,
+        "sector_bias": 0.23724103503875088,
+        "recursive_retention": 0.5406142976771399,
+        "bounded_variation": 0.9194500846003756
+      },
+      "antisymmetry": {
+        "count": 600,
+        "invariance_strength": 0.9976241636335387,
+        "symmetry_deviation": 0.7839282457375092,
+        "constraint_stability": 0.6080358771312454,
+        "pathway_invariance": 0.9894587196226363,
+        "sector_bias": 0.2867351206067238,
+        "recursive_retention": 0.9894587196226363,
+        "bounded_variation": 0.9972467129094942
+      },
+      "neutral": {
+        "count": 600,
+        "invariance_strength": 0.9795894522208822,
+        "symmetry_deviation": 0.8177139250542516,
+        "constraint_stability": 0.5911430374728742,
+        "pathway_invariance": 0.3980138916003935,
+        "sector_bias": 0.2761663532712305,
+        "recursive_retention": 0.3980138916003935,
+        "bounded_variation": 0.975478457527235
+      }
+    }
+  },
+  "answers": {
+    "H1_invariant_structure": true,
+    "H2_bounded_deviation": true,
+    "H3_sector_invariance": true,
+    "H4_recursive_retention": true,
+    "H5_rg_stability": true,
+    "verdict": "CONSTRAINED",
+    "sector_classifications": {
+      "projection": "INVARIANCE-PRESERVING",
+      "antisymmetry": "INVARIANCE-PRESERVING",
+      "neutral": "INVARIANCE-PRESERVING"
+    },
+    "mean_invariance": 0.9608286511916989,
+    "mean_deviation": 0.7618494076899776,
+    "mean_bias": 0.26671416963890177
+  }
+}

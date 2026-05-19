@@ -1,0 +1,83 @@
+# PHASE 291: FORBIDDEN INTERPRETATIONS
+# Explicit Prohibited Claims
+# STRICTLY MATHEMATICAL | NO PHYSICS | NO ONTOLOGY
+
+================================================================================
+SECTION 1: EXPLICITLY FORBIDDEN
+================================================================================
+
+The following interpretations are PROHIBITED and will NOT
+be made regardless of experimental results:
+
+1. "Transport implies forces"
+   - Transport is net displacement measure
+   - No force interpretation
+   - No physical dynamics
+
+2. "Channels imply spacetime"
+   - Transport channels are statistical pathways
+   - No spatial or temporal structure
+   - No spacetime emergence
+
+3. "Recursive propagation proves physics"
+   - Propagation is trajectory evolution
+   - No physics derivation
+   - No physical theory
+
+4. "Directionality implies causality"
+   - Directional bias is geometric correlation
+   - No causal structure
+   - No causal inference
+
+5. "Transport geometry creates reality"
+   - Transport is mathematical property
+   - No reality claim
+   - No ontological status
+
+6. "Strong transport indicates energy flow"
+   - Transport strength is displacement ratio
+   - No energy interpretation
+   - No physical quantity
+
+7. "Channel persistence indicates matter continuity"
+   - Persistence is step consistency measure
+   - No matter interpretation
+   - No physical substance
+
+8. "Diffuse transport indicates wave behavior"
+   - Diffuse transport is weak channeling
+   - No wave interpretation
+   - No physical oscillation
+
+================================================================================
+SECTION 2: ALLOWED INTERPRETATIONS
+================================================================================
+
+ONLY the following mathematical language is permitted:
+
+- "net displacement ratio"
+- "statistical pathway preference"
+- "directional consistency"
+- "bounded path dispersion"
+- "step correlation persistence"
+- "recursive propagation pattern"
+- "transport strength measure"
+- "sector-dependent bias"
+
+================================================================================
+SECTION 3: EMPIRICAL BOUNDARY
+================================================================================
+
+Results reported:
+- Transport strength values
+- Directional bias measures
+- Path dispersions
+- Channel persistences
+- RG correlations
+
+No claims beyond mathematical description of
+transport propagation in persistence geometry.
+
+================================================================================
+END OF FORBIDDEN INTERPRETATIONS
+================================================================================

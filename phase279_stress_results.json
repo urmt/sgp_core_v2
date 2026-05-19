@@ -1,0 +1,3199 @@
+{
+  "escalation_levels": {
+    "d0_h0_t0_s0": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.0032615786040443386,
+        "erdos-renyi": 0.0032615786040443386,
+        "small-world": 0.0032615786040443386,
+        "scale-free": 0.0032615786040443386,
+        "modular": 0.0032615786040443386
+      },
+      "max_loc": 0.0032615786040443386,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d0_h0_t0_s1": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.020874103065883887,
+        "erdos-renyi": 0.017612524461839512,
+        "small-world": 0.017612524461839547,
+        "scale-free": 0.04500978473581215,
+        "modular": 0.033268101761252465
+      },
+      "max_loc": 0.04500978473581215,
+      "variance": 0.00011546796738336312,
+      "fractured": false
+    },
+    "d0_h0_t0_s2": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.012393998695368577,
+        "erdos-renyi": 0.018264840182648363,
+        "small-world": 0.03131115459882583,
+        "scale-free": 0.03065883887801694,
+        "modular": 0.017612524461839512
+      },
+      "max_loc": 0.03131115459882583,
+      "variance": 5.742761231595905e-05,
+      "fractured": false
+    },
+    "d0_h0_t1_s0": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.002609262883235486,
+        "erdos-renyi": 0.002609262883235486,
+        "small-world": 0.002609262883235486,
+        "scale-free": 0.002609262883235486,
+        "modular": 0.002609262883235486
+      },
+      "max_loc": 0.002609262883235486,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d0_h0_t1_s1": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03979125896934118,
+        "erdos-renyi": 0.033268101761252465,
+        "small-world": 0.04500978473581215,
+        "scale-free": 0.03848662752772344,
+        "modular": 0.01891715590345729
+      },
+      "max_loc": 0.04500978473581215,
+      "variance": 7.938422757606202e-05,
+      "fractured": false
+    },
+    "d0_h0_t1_s2": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.02217873450750159,
+        "erdos-renyi": 0.016307893020221804,
+        "small-world": 0.030658838878016976,
+        "scale-free": 0.023483365949119372,
+        "modular": 0.026744944553163747
+      },
+      "max_loc": 0.030658838878016976,
+      "variance": 2.29097706512392e-05,
+      "fractured": false
+    },
+    "d0_h0_t2_s0": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.002609262883235486,
+        "erdos-renyi": 0.002609262883235486,
+        "small-world": 0.002609262883235486,
+        "scale-free": 0.002609262883235486,
+        "modular": 0.002609262883235486
+      },
+      "max_loc": 0.002609262883235486,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d0_h0_t2_s1": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.030006523157208087,
+        "erdos-renyi": 0.033268101761252424,
+        "small-world": 0.033920417482061316,
+        "scale-free": 0.03457273320287021,
+        "modular": 0.02217873450750163
+      },
+      "max_loc": 0.03457273320287021,
+      "variance": 2.1003459868966673e-05,
+      "fractured": false
+    },
+    "d0_h0_t2_s2": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.011089367253750796,
+        "erdos-renyi": 0.026744944553163747,
+        "small-world": 0.02217873450750159,
+        "scale-free": 0.030006523157208125,
+        "modular": 0.03261578604044357
+      },
+      "max_loc": 0.03261578604044357,
+      "variance": 5.729144726008273e-05,
+      "fractured": false
+    },
+    "d0_h0_t3_s0": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.002609262883235486,
+        "erdos-renyi": 0.002609262883235486,
+        "small-world": 0.002609262883235486,
+        "scale-free": 0.002609262883235486,
+        "modular": 0.002609262883235486
+      },
+      "max_loc": 0.002609262883235486,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d0_h0_t3_s1": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.053489889106327425,
+        "erdos-renyi": 0.03587736464448795,
+        "small-world": 0.046966731898238745,
+        "scale-free": 0.03261578604044357,
+        "modular": 0.051532941943900866
+      },
+      "max_loc": 0.053489889106327425,
+      "variance": 7.022712756836003e-05,
+      "fractured": true
+    },
+    "d0_h0_t3_s2": {
+      "depth": 0,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.005870841487279825,
+        "erdos-renyi": 0.021526418786692775,
+        "small-world": 0.030006523157208087,
+        "scale-free": 0.016960208741030658,
+        "modular": 0.011741682974559686
+      },
+      "max_loc": 0.030006523157208087,
+      "variance": 6.818465173021116e-05,
+      "fractured": false
+    },
+    "d0_h1_t0_s0": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.005218525766470972,
+        "erdos-renyi": 0.003913894324853229,
+        "small-world": 0.002609262883235486,
+        "scale-free": 0.001304631441617743,
+        "modular": 0.005870841487279825
+      },
+      "max_loc": 0.005870841487279825,
+      "variance": 2.791383645470433e-06,
+      "fractured": false
+    },
+    "d0_h1_t0_s1": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.034572733202870166,
+        "erdos-renyi": 0.03913894324853229,
+        "small-world": 0.016960208741030658,
+        "scale-free": 0.016960208741030658,
+        "modular": 0.045662100456621
+      },
+      "max_loc": 0.045662100456621,
+      "variance": 0.00013752670643537326,
+      "fractured": false
+    },
+    "d0_h1_t0_s2": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.02413568166992826,
+        "erdos-renyi": 0.04370515329419437,
+        "small-world": 0.03065883887801694,
+        "scale-free": 0.02804957599478149,
+        "modular": 0.02152641878669274
+      },
+      "max_loc": 0.04370515329419437,
+      "variance": 5.950412941807723e-05,
+      "fractured": false
+    },
+    "d0_h1_t1_s0": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.005218525766470972,
+        "erdos-renyi": 0.003261578604044376,
+        "small-world": 0.007827788649706457,
+        "scale-free": 0.002609262883235486,
+        "modular": 0.002609262883235486
+      },
+      "max_loc": 0.007827788649706457,
+      "variance": 4.016869148359904e-06,
+      "fractured": false
+    },
+    "d0_h1_t1_s1": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.029354207436399233,
+        "erdos-renyi": 0.019569471624266144,
+        "small-world": 0.025440313111546004,
+        "scale-free": 0.033268101761252465,
+        "modular": 0.020221787345074998
+      },
+      "max_loc": 0.033268101761252465,
+      "variance": 2.7641506342951395e-05,
+      "fractured": false
+    },
+    "d0_h1_t1_s2": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.020874103065883887,
+        "erdos-renyi": 0.028701891715590344,
+        "small-world": 0.02217873450750163,
+        "scale-free": 0.03587736464448791,
+        "modular": 0.01630789302022177
+      },
+      "max_loc": 0.03587736464448791,
+      "variance": 4.646632531789218e-05,
+      "fractured": false
+    },
+    "d0_h1_t2_s0": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.006523157208088715,
+        "erdos-renyi": 0.002609262883235486,
+        "small-world": 0.002609262883235486,
+        "scale-free": 0.002609262883235486,
+        "modular": 0.002609262883235486
+      },
+      "max_loc": 0.006523157208088715,
+      "variance": 2.450971005778929e-06,
+      "fractured": false
+    },
+    "d0_h1_t2_s1": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.026744944553163712,
+        "erdos-renyi": 0.03457273320287021,
+        "small-world": 0.04500978473581211,
+        "scale-free": 0.0273972602739726,
+        "modular": 0.03457273320287021
+      },
+      "max_loc": 0.04500978473581211,
+      "variance": 4.350473535257597e-05,
+      "fractured": false
+    },
+    "d0_h1_t2_s2": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.03196347031963472,
+        "erdos-renyi": 0.0091324200913242,
+        "small-world": 0.038486627527723395,
+        "scale-free": 0.04957599478147423,
+        "modular": 0.03000652315720805
+      },
+      "max_loc": 0.04957599478147423,
+      "variance": 0.00017555079828891583,
+      "fractured": false
+    },
+    "d0_h1_t3_s0": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.001304631441617743,
+        "erdos-renyi": 0.001304631441617743,
+        "small-world": 0.003913894324853229,
+        "scale-free": 0.002609262883235486,
+        "modular": 0.003913894324853229
+      },
+      "max_loc": 0.003913894324853229,
+      "variance": 1.361650558766072e-06,
+      "fractured": false
+    },
+    "d0_h1_t3_s1": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.037181996086105694,
+        "erdos-renyi": 0.024135681669928227,
+        "small-world": 0.03913894324853229,
+        "scale-free": 0.05740378343118069,
+        "modular": 0.020874103065883887
+      },
+      "max_loc": 0.05740378343118069,
+      "variance": 0.00016772130757601104,
+      "fractured": true
+    },
+    "d0_h1_t3_s2": {
+      "depth": 0,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.019569471624266144,
+        "erdos-renyi": 0.015655577299412953,
+        "small-world": 0.02217873450750163,
+        "scale-free": 0.0182648401826484,
+        "modular": 0.0182648401826484
+      },
+      "max_loc": 0.02217873450750163,
+      "variance": 4.4934468439279905e-06,
+      "fractured": false
+    },
+    "d0_h2_t0_s0": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.0019569471624265957,
+        "erdos-renyi": 0.007175472928897568,
+        "small-world": 0.005870841487279825,
+        "scale-free": 0.003913894324853229,
+        "modular": 0.007827788649706457
+      },
+      "max_loc": 0.007827788649706457,
+      "variance": 4.663653163773805e-06,
+      "fractured": false
+    },
+    "d0_h2_t0_s1": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.013046314416177393,
+        "erdos-renyi": 0.016307893020221804,
+        "small-world": 0.03131115459882583,
+        "scale-free": 0.015003261578604063,
+        "modular": 0.014350945857795172
+      },
+      "max_loc": 0.03131115459882583,
+      "variance": 4.5377004870879385e-05,
+      "fractured": false
+    },
+    "d0_h2_t0_s2": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.02609262883235486,
+        "erdos-renyi": 0.030006523157208087,
+        "small-world": 0.017612524461839512,
+        "scale-free": 0.015655577299412915,
+        "modular": 0.015655577299412915
+      },
+      "max_loc": 0.030006523157208087,
+      "variance": 3.513058441616468e-05,
+      "fractured": false
+    },
+    "d0_h2_t1_s0": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.003261578604044376,
+        "erdos-renyi": 0.003913894324853229,
+        "small-world": 0.003913894324853229,
+        "scale-free": 0.003261578604044376,
+        "modular": 0.006523157208088715
+      },
+      "max_loc": 0.006523157208088715,
+      "variance": 1.4637743506735138e-06,
+      "fractured": false
+    },
+    "d0_h2_t1_s1": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.016307893020221804,
+        "erdos-renyi": 0.037834311806914545,
+        "small-world": 0.04305283757338548,
+        "scale-free": 0.0365296803652968,
+        "modular": 0.04174820613176777
+      },
+      "max_loc": 0.04305283757338548,
+      "variance": 9.402197108279702e-05,
+      "fractured": false
+    },
+    "d0_h2_t1_s2": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.02152641878669274,
+        "erdos-renyi": 0.030006523157208087,
+        "small-world": 0.04305283757338555,
+        "scale-free": 0.020221787345074998,
+        "modular": 0.03131115459882583
+      },
+      "max_loc": 0.04305283757338555,
+      "variance": 6.729957886701343e-05,
+      "fractured": false
+    },
+    "d0_h2_t2_s0": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.005218525766470972,
+        "erdos-renyi": 0.006523157208088715,
+        "small-world": 0.002609262883235486,
+        "scale-free": 0.002609262883235486,
+        "modular": 0.005218525766470972
+      },
+      "max_loc": 0.006523157208088715,
+      "variance": 2.45097100577893e-06,
+      "fractured": false
+    },
+    "d0_h2_t2_s1": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.033920417482061316,
+        "erdos-renyi": 0.016960208741030696,
+        "small-world": 0.003261578604044376,
+        "scale-free": 0.044357469015003224,
+        "modular": 0.017612524461839547
+      },
+      "max_loc": 0.044357469015003224,
+      "variance": 0.0002060517708052753,
+      "fractured": false
+    },
+    "d0_h2_t2_s2": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.04044357469015003,
+        "erdos-renyi": 0.030658838878016976,
+        "small-world": 0.04044357469015003,
+        "scale-free": 0.04435746901500326,
+        "modular": 0.0273972602739726
+      },
+      "max_loc": 0.04435746901500326,
+      "variance": 4.1938837209994986e-05,
+      "fractured": false
+    },
+    "d0_h2_t3_s0": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.005218525766470972,
+        "erdos-renyi": 0.003913894324853229,
+        "small-world": 0.005218525766470972,
+        "scale-free": 0.002609262883235486,
+        "modular": 0.001304631441617743
+      },
+      "max_loc": 0.005218525766470972,
+      "variance": 2.3148059499023223e-06,
+      "fractured": false
+    },
+    "d0_h2_t3_s1": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.04109589041095888,
+        "erdos-renyi": 0.02413568166992826,
+        "small-world": 0.018917155903457255,
+        "scale-free": 0.026744944553163747,
+        "modular": 0.02544031311154597
+      },
+      "max_loc": 0.04109589041095888,
+      "variance": 5.487451751827264e-05,
+      "fractured": false
+    },
+    "d0_h2_t3_s2": {
+      "depth": 0,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.016307893020221804,
+        "erdos-renyi": 0.03261578604044357,
+        "small-world": 0.018917155903457255,
+        "scale-free": 0.028701891715590306,
+        "modular": 0.020221787345075033
+      },
+      "max_loc": 0.03261578604044357,
+      "variance": 3.870491713292547e-05,
+      "fractured": false
+    },
+    "d0_h3_t0_s0": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.007175472928897568,
+        "erdos-renyi": 0.0032615786040443386,
+        "small-world": 0.005870841487279825,
+        "scale-free": 0.002609262883235486,
+        "modular": 0.006523157208088715
+      },
+      "max_loc": 0.007175472928897568,
+      "variance": 3.3020026050077172e-06,
+      "fractured": false
+    },
+    "d0_h3_t0_s1": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.04305283757338548,
+        "erdos-renyi": 0.03065883887801694,
+        "small-world": 0.03587736464448795,
+        "scale-free": 0.04957599478147423,
+        "modular": 0.045662100456621
+      },
+      "max_loc": 0.04957599478147423,
+      "variance": 4.653440784583051e-05,
+      "fractured": false
+    },
+    "d0_h3_t0_s2": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.02609262883235486,
+        "erdos-renyi": 0.01630789302022177,
+        "small-world": 0.03979125896934118,
+        "scale-free": 0.033920417482061316,
+        "modular": 0.03522504892367906
+      },
+      "max_loc": 0.03979125896934118,
+      "variance": 6.818465173021123e-05,
+      "fractured": false
+    },
+    "d0_h3_t1_s0": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.003913894324853229,
+        "erdos-renyi": 0.002609262883235486,
+        "small-world": 0.001304631441617743,
+        "scale-free": 0.0091324200913242,
+        "modular": 0.003261578604044376
+      },
+      "max_loc": 0.0091324200913242,
+      "variance": 7.216747961460175e-06,
+      "fractured": false
+    },
+    "d0_h3_t1_s1": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.028701891715590306,
+        "erdos-renyi": 0.02609262883235486,
+        "small-world": 0.02609262883235482,
+        "scale-free": 0.01369863013698632,
+        "modular": 0.028049575994781455
+      },
+      "max_loc": 0.028701891715590306,
+      "variance": 3.0398848724452368e-05,
+      "fractured": false
+    },
+    "d0_h3_t1_s2": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.021526418786692775,
+        "erdos-renyi": 0.02152641878669274,
+        "small-world": 0.012393998695368577,
+        "scale-free": 0.024787997390737115,
+        "modular": 0.03913894324853225
+      },
+      "max_loc": 0.03913894324853225,
+      "variance": 7.533331716373265e-05,
+      "fractured": false
+    },
+    "d0_h3_t2_s0": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.003913894324853229,
+        "erdos-renyi": 0.006523157208088715,
+        "small-world": 0.005218525766470972,
+        "scale-free": 0.006523157208088715,
+        "modular": 0.003913894324853229
+      },
+      "max_loc": 0.006523157208088715,
+      "variance": 1.361650558766072e-06,
+      "fractured": false
+    },
+    "d0_h3_t2_s1": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.04370515329419441,
+        "erdos-renyi": 0.033268101761252424,
+        "small-world": 0.046314416177429894,
+        "scale-free": 0.04892367906066538,
+        "modular": 0.045662100456621
+      },
+      "max_loc": 0.04892367906066538,
+      "variance": 2.9343569541409013e-05,
+      "fractured": false
+    },
+    "d0_h3_t2_s2": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.02413568166992819,
+        "erdos-renyi": 0.028049575994781455,
+        "small-world": 0.020874103065883887,
+        "scale-free": 0.01891715590345729,
+        "modular": 0.0273972602739726
+      },
+      "max_loc": 0.028049575994781455,
+      "variance": 1.2697391460493551e-05,
+      "fractured": false
+    },
+    "d0_h3_t3_s0": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.005218525766470972,
+        "erdos-renyi": 0.003913894324853229,
+        "small-world": 0.003913894324853229,
+        "scale-free": 0.006523157208088715,
+        "modular": 0.002609262883235486
+      },
+      "max_loc": 0.006523157208088715,
+      "variance": 1.7701457263958937e-06,
+      "fractured": false
+    },
+    "d0_h3_t3_s1": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03522504892367906,
+        "erdos-renyi": 0.02609262883235486,
+        "small-world": 0.04174820613176777,
+        "scale-free": 0.04305283757338555,
+        "modular": 0.01304631441617743
+      },
+      "max_loc": 0.04305283757338555,
+      "variance": 0.00012431869601534253,
+      "fractured": false
+    },
+    "d0_h3_t3_s2": {
+      "depth": 0,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.035225048923679024,
+        "erdos-renyi": 0.014350945857795172,
+        "small-world": 0.026744944553163747,
+        "scale-free": 0.017612524461839512,
+        "modular": 0.0273972602739726
+      },
+      "max_loc": 0.035225048923679024,
+      "variance": 5.572554911750141e-05,
+      "fractured": false
+    },
+    "d1_h0_t0_s0": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.01304631441617743,
+        "erdos-renyi": 0.01304631441617743,
+        "small-world": 0.01304631441617743,
+        "scale-free": 0.01304631441617743,
+        "modular": 0.01304631441617743
+      },
+      "max_loc": 0.01304631441617743,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d1_h0_t0_s1": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.030658838878016976,
+        "erdos-renyi": 0.03718199608610565,
+        "small-world": 0.04370515329419437,
+        "scale-free": 0.026744944553163712,
+        "modular": 0.03131115459882583
+      },
+      "max_loc": 0.04370515329419437,
+      "variance": 3.506250188822628e-05,
+      "fractured": false
+    },
+    "d1_h0_t0_s2": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.014350945857795136,
+        "erdos-renyi": 0.019569471624266144,
+        "small-world": 0.01630789302022177,
+        "scale-free": 0.021526418786692775,
+        "modular": 0.020874103065883887
+      },
+      "max_loc": 0.021526418786692775,
+      "variance": 7.591201865120948e-06,
+      "fractured": false
+    },
+    "d1_h0_t1_s0": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.01304631441617743,
+        "erdos-renyi": 0.01304631441617743,
+        "small-world": 0.01304631441617743,
+        "scale-free": 0.01304631441617743,
+        "modular": 0.01304631441617743
+      },
+      "max_loc": 0.01304631441617743,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d1_h0_t1_s1": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03522504892367906,
+        "erdos-renyi": 0.03196347031963472,
+        "small-world": 0.037181996086105694,
+        "scale-free": 0.0365296803652968,
+        "modular": 0.01630789302022177
+      },
+      "max_loc": 0.037181996086105694,
+      "variance": 6.04913260731829e-05,
+      "fractured": false
+    },
+    "d1_h0_t1_s2": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.028049575994781455,
+        "erdos-renyi": 0.00848010437051531,
+        "small-world": 0.0182648401826484,
+        "scale-free": 0.02087410306588385,
+        "modular": 0.02804957599478149
+      },
+      "max_loc": 0.02804957599478149,
+      "variance": 5.266183536027793e-05,
+      "fractured": false
+    },
+    "d1_h0_t2_s0": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.013698630136986282,
+        "erdos-renyi": 0.013698630136986282,
+        "small-world": 0.013698630136986282,
+        "scale-free": 0.013698630136986282,
+        "modular": 0.013698630136986282
+      },
+      "max_loc": 0.013698630136986282,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d1_h0_t2_s1": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.026744944553163747,
+        "erdos-renyi": 0.024135681669928227,
+        "small-world": 0.04500978473581215,
+        "scale-free": 0.03131115459882583,
+        "modular": 0.045662100456621
+      },
+      "max_loc": 0.045662100456621,
+      "variance": 8.255006512519322e-05,
+      "fractured": false
+    },
+    "d1_h0_t2_s2": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.033268101761252424,
+        "erdos-renyi": 0.028049575994781455,
+        "small-world": 0.024135681669928227,
+        "scale-free": 0.02544031311154597,
+        "modular": 0.02152641878669274
+      },
+      "max_loc": 0.033268101761252424,
+      "variance": 1.5931311537563034e-05,
+      "fractured": false
+    },
+    "d1_h0_t3_s0": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.012393998695368577,
+        "erdos-renyi": 0.012393998695368577,
+        "small-world": 0.012393998695368577,
+        "scale-free": 0.012393998695368577,
+        "modular": 0.012393998695368577
+      },
+      "max_loc": 0.012393998695368577,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d1_h0_t3_s1": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.039791258969341214,
+        "erdos-renyi": 0.028049575994781455,
+        "small-world": 0.025440313111546004,
+        "scale-free": 0.02283105022831052,
+        "modular": 0.023483365949119372
+      },
+      "max_loc": 0.039791258969341214,
+      "variance": 3.853471081308005e-05,
+      "fractured": false
+    },
+    "d1_h0_t3_s2": {
+      "depth": 1,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.011089367253750796,
+        "erdos-renyi": 0.006523157208088715,
+        "small-world": 0.015003261578604024,
+        "scale-free": 0.00848010437051531,
+        "modular": 0.020874103065883925
+      },
+      "max_loc": 0.020874103065883925,
+      "variance": 2.6041566936401274e-05,
+      "fractured": false
+    },
+    "d1_h1_t0_s0": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.0091324200913242,
+        "erdos-renyi": 0.006523157208088715,
+        "small-world": 0.006523157208088715,
+        "scale-free": 0.010437051532941943,
+        "modular": 0.009784735812133053
+      },
+      "max_loc": 0.010437051532941943,
+      "variance": 2.7233011175321344e-06,
+      "fractured": false
+    },
+    "d1_h1_t0_s1": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.0365296803652968,
+        "erdos-renyi": 0.03261578604044357,
+        "small-world": 0.011089367253750796,
+        "scale-free": 0.03131115459882583,
+        "modular": 0.025440313111546004
+      },
+      "max_loc": 0.0365296803652968,
+      "variance": 7.914593872827807e-05,
+      "fractured": false
+    },
+    "d1_h1_t0_s2": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.010437051532941943,
+        "erdos-renyi": 0.04174820613176777,
+        "small-world": 0.017612524461839547,
+        "scale-free": 0.01630789302022177,
+        "modular": 0.04500978473581211
+      },
+      "max_loc": 0.04500978473581211,
+      "variance": 0.00020312422210392868,
+      "fractured": false
+    },
+    "d1_h1_t1_s0": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.007827788649706457,
+        "erdos-renyi": 0.006523157208088715,
+        "small-world": 0.0091324200913242,
+        "scale-free": 0.010437051532941943,
+        "modular": 0.002609262883235486
+      },
+      "max_loc": 0.010437051532941943,
+      "variance": 7.216747961460182e-06,
+      "fractured": false
+    },
+    "d1_h1_t1_s1": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.021526418786692775,
+        "erdos-renyi": 0.007175472928897604,
+        "small-world": 0.029354207436399233,
+        "scale-free": 0.04957599478147423,
+        "modular": 0.024787997390737115
+      },
+      "max_loc": 0.04957599478147423,
+      "variance": 0.00018835031354131677,
+      "fractured": false
+    },
+    "d1_h1_t1_s2": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.03065883887801694,
+        "erdos-renyi": 0.01369863013698632,
+        "small-world": 0.01304631441617743,
+        "scale-free": 0.01891715590345729,
+        "modular": 0.005870841487279825
+      },
+      "max_loc": 0.03065883887801694,
+      "variance": 6.781019782655036e-05,
+      "fractured": false
+    },
+    "d1_h1_t2_s0": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.006523157208088715,
+        "erdos-renyi": 0.007827788649706457,
+        "small-world": 0.011741682974559686,
+        "scale-free": 0.0091324200913242,
+        "modular": 0.005218525766470972
+      },
+      "max_loc": 0.011741682974559686,
+      "variance": 5.038107067434467e-06,
+      "fractured": false
+    },
+    "d1_h1_t2_s1": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03718199608610565,
+        "erdos-renyi": 0.04109589041095892,
+        "small-world": 0.03979125896934118,
+        "scale-free": 0.056099151989562945,
+        "modular": 0.02804957599478149
+      },
+      "max_loc": 0.056099151989562945,
+      "variance": 8.203944616565578e-05,
+      "fractured": true
+    },
+    "d1_h1_t2_s2": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.033268101761252465,
+        "erdos-renyi": 0.033268101761252424,
+        "small-world": 0.01304631441617743,
+        "scale-free": 0.022831050228310557,
+        "modular": 0.046314416177429894
+      },
+      "max_loc": 0.046314416177429894,
+      "variance": 0.00012520376887854032,
+      "fractured": false
+    },
+    "d1_h1_t3_s0": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.007827788649706457,
+        "erdos-renyi": 0.007175472928897604,
+        "small-world": 0.006523157208088715,
+        "scale-free": 0.006523157208088715,
+        "modular": 0.005870841487279861
+      },
+      "max_loc": 0.007827788649706457,
+      "variance": 4.425364315989696e-07,
+      "fractured": false
+    },
+    "d1_h1_t3_s1": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.029354207436399198,
+        "erdos-renyi": 0.030006523157208087,
+        "small-world": 0.03261578604044357,
+        "scale-free": 0.028701891715590382,
+        "modular": 0.025440313111546004
+      },
+      "max_loc": 0.03261578604044357,
+      "variance": 5.344478443156798e-06,
+      "fractured": false
+    },
+    "d1_h1_t3_s2": {
+      "depth": 1,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.012393998695368539,
+        "erdos-renyi": 0.005218525766470972,
+        "small-world": 0.01630789302022177,
+        "scale-free": 0.015003261578604063,
+        "modular": 0.03848662752772344
+      },
+      "max_loc": 0.03848662752772344,
+      "variance": 0.00012499952129472563,
+      "fractured": false
+    },
+    "d1_h2_t0_s0": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.007827788649706457,
+        "erdos-renyi": 0.01304631441617743,
+        "small-world": 0.007827788649706457,
+        "scale-free": 0.010437051532941943,
+        "modular": 0.007175472928897568
+      },
+      "max_loc": 0.01304631441617743,
+      "variance": 4.833859483619571e-06,
+      "fractured": false
+    },
+    "d1_h2_t0_s1": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.05414220482713631,
+        "erdos-renyi": 0.03131115459882583,
+        "small-world": 0.013046314416177393,
+        "scale-free": 0.0365296803652968,
+        "modular": 0.030006523157208087
+      },
+      "max_loc": 0.05414220482713631,
+      "variance": 0.0001738827763544275,
+      "fractured": true
+    },
+    "d1_h2_t0_s2": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.0273972602739726,
+        "erdos-renyi": 0.024787997390737115,
+        "small-world": 0.019569471624266144,
+        "scale-free": 0.019569471624266144,
+        "modular": 0.023483365949119372
+      },
+      "max_loc": 0.0273972602739726,
+      "variance": 9.25922379960929e-06,
+      "fractured": false
+    },
+    "d1_h2_t1_s0": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.0091324200913242,
+        "erdos-renyi": 0.010437051532941943,
+        "small-world": 0.0091324200913242,
+        "scale-free": 0.0091324200913242,
+        "modular": 0.007827788649706457
+      },
+      "max_loc": 0.010437051532941943,
+      "variance": 6.80825279383036e-07,
+      "fractured": false
+    },
+    "d1_h2_t1_s1": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.02283105022831052,
+        "erdos-renyi": 0.04174820613176774,
+        "small-world": 0.04827136333985649,
+        "scale-free": 0.038486627527723395,
+        "modular": 0.02217873450750163
+      },
+      "max_loc": 0.04827136333985649,
+      "variance": 0.00010917033354906963,
+      "fractured": false
+    },
+    "d1_h2_t1_s2": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.014350945857795208,
+        "erdos-renyi": 0.017612524461839547,
+        "small-world": 0.016960208741030696,
+        "scale-free": 0.033920417482061316,
+        "modular": 0.02217873450750163
+      },
+      "max_loc": 0.033920417482061316,
+      "variance": 4.806626472444216e-05,
+      "fractured": false
+    },
+    "d1_h2_t2_s0": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.01304631441617743,
+        "erdos-renyi": 0.007827788649706457,
+        "small-world": 0.005218525766470972,
+        "scale-free": 0.008480104370515348,
+        "modular": 0.007827788649706457
+      },
+      "max_loc": 0.01304631441617743,
+      "variance": 6.467840154138841e-06,
+      "fractured": false
+    },
+    "d1_h2_t2_s1": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.033268101761252424,
+        "erdos-renyi": 0.0273972602739726,
+        "small-world": 0.05414220482713635,
+        "scale-free": 0.04631441617742985,
+        "modular": 0.05283757338551857
+      },
+      "max_loc": 0.05414220482713635,
+      "variance": 0.0001139701517687203,
+      "fractured": true
+    },
+    "d1_h2_t2_s2": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.004566210045662082,
+        "erdos-renyi": 0.02544031311154597,
+        "small-world": 0.03261578604044357,
+        "scale-free": 0.003913894324853229,
+        "modular": 0.030006523157208087
+      },
+      "max_loc": 0.03261578604044357,
+      "variance": 0.00015669193805000582,
+      "fractured": false
+    },
+    "d1_h2_t3_s0": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.006523157208088715,
+        "erdos-renyi": 0.009784735812133091,
+        "small-world": 0.012393998695368577,
+        "scale-free": 0.005870841487279861,
+        "modular": 0.0091324200913242
+      },
+      "max_loc": 0.012393998695368577,
+      "variance": 5.5487260269717595e-06,
+      "fractured": false
+    },
+    "d1_h2_t3_s1": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.033268101761252424,
+        "erdos-renyi": 0.04109589041095888,
+        "small-world": 0.044357469015003294,
+        "scale-free": 0.0639269406392694,
+        "modular": 0.034572733202870166
+      },
+      "max_loc": 0.0639269406392694,
+      "variance": 0.00012162943616177957,
+      "fractured": true
+    },
+    "d1_h2_t3_s2": {
+      "depth": 1,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.013046314416177393,
+        "erdos-renyi": 0.0273972602739726,
+        "small-world": 0.002609262883235449,
+        "scale-free": 0.014350945857795172,
+        "modular": 0.01630789302022177
+      },
+      "max_loc": 0.0273972602739726,
+      "variance": 6.25678431753012e-05,
+      "fractured": false
+    },
+    "d1_h3_t0_s0": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.009784735812133091,
+        "erdos-renyi": 0.005218525766470972,
+        "small-world": 0.007827788649706457,
+        "scale-free": 0.009784735812133053,
+        "modular": 0.003913894324853229
+      },
+      "max_loc": 0.009784735812133091,
+      "variance": 5.684891082848351e-06,
+      "fractured": false
+    },
+    "d1_h3_t0_s1": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.030658838878016976,
+        "erdos-renyi": 0.02217873450750163,
+        "small-world": 0.037834311806914545,
+        "scale-free": 0.045662100456621,
+        "modular": 0.012393998695368539
+      },
+      "max_loc": 0.045662100456621,
+      "variance": 0.00013558635438913177,
+      "fractured": false
+    },
+    "d1_h3_t0_s2": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.0091324200913242,
+        "erdos-renyi": 0.008480104370515348,
+        "small-world": 0.008480104370515348,
+        "scale-free": 0.029354207436399198,
+        "modular": 0.00848010437051531
+      },
+      "max_loc": 0.029354207436399198,
+      "variance": 6.869527068974817e-05,
+      "fractured": false
+    },
+    "d1_h3_t1_s0": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.011741682974559686,
+        "erdos-renyi": 0.0091324200913242,
+        "small-world": 0.009784735812133091,
+        "scale-free": 0.0091324200913242,
+        "modular": 0.015655577299412915
+      },
+      "max_loc": 0.015655577299412915,
+      "variance": 6.127427514447314e-06,
+      "fractured": false
+    },
+    "d1_h3_t1_s1": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.0273972602739726,
+        "erdos-renyi": 0.03000652315720805,
+        "small-world": 0.03783431180691458,
+        "scale-free": 0.019569471624266144,
+        "modular": 0.03261578604044357
+      },
+      "max_loc": 0.03783431180691458,
+      "variance": 3.649223497493084e-05,
+      "fractured": false
+    },
+    "d1_h3_t1_s2": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.018264840182648363,
+        "erdos-renyi": 0.013046314416177393,
+        "small-world": 0.034572733202870166,
+        "scale-free": 0.010437051532941943,
+        "modular": 0.011741682974559686
+      },
+      "max_loc": 0.034572733202870166,
+      "variance": 7.89757324084321e-05,
+      "fractured": false
+    },
+    "d1_h3_t2_s0": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.007175472928897604,
+        "erdos-renyi": 0.007827788649706457,
+        "small-world": 0.005218525766470972,
+        "scale-free": 0.013698630136986282,
+        "modular": 0.009784735812133053
+      },
+      "max_loc": 0.013698630136986282,
+      "variance": 8.27202714450383e-06,
+      "fractured": false
+    },
+    "d1_h3_t2_s1": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03131115459882583,
+        "erdos-renyi": 0.037834311806914545,
+        "small-world": 0.05348988910632746,
+        "scale-free": 0.057403783431180654,
+        "modular": 0.017612524461839474
+      },
+      "max_loc": 0.057403783431180654,
+      "variance": 0.0002130302299189522,
+      "fractured": true
+    },
+    "d1_h3_t2_s2": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.003913894324853229,
+        "erdos-renyi": 0.024787997390737154,
+        "small-world": 0.01304631441617743,
+        "scale-free": 0.012393998695368577,
+        "modular": 0.030006523157208087
+      },
+      "max_loc": 0.030006523157208087,
+      "variance": 8.755413092865852e-05,
+      "fractured": false
+    },
+    "d1_h3_t3_s0": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.005870841487279861,
+        "erdos-renyi": 0.005870841487279861,
+        "small-world": 0.012393998695368577,
+        "scale-free": 0.016307893020221804,
+        "modular": 0.010437051532941943
+      },
+      "max_loc": 0.016307893020221804,
+      "variance": 1.593131153756304e-05,
+      "fractured": false
+    },
+    "d1_h3_t3_s1": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03261578604044357,
+        "erdos-renyi": 0.06131767775603392,
+        "small-world": 0.042400521852576666,
+        "scale-free": 0.04892367906066538,
+        "modular": 0.026744944553163674
+      },
+      "max_loc": 0.06131767775603392,
+      "variance": 0.00014824970458565648,
+      "fractured": true
+    },
+    "d1_h3_t3_s2": {
+      "depth": 1,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.03783431180691458,
+        "erdos-renyi": 0.033268101761252424,
+        "small-world": 0.011089367253750834,
+        "scale-free": 0.013698630136986282,
+        "modular": 0.028701891715590344
+      },
+      "max_loc": 0.03783431180691458,
+      "variance": 0.00011359569786505966,
+      "fractured": false
+    },
+    "d2_h0_t0_s0": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.010437051532941943,
+        "erdos-renyi": 0.010437051532941943,
+        "small-world": 0.010437051532941943,
+        "scale-free": 0.010437051532941943,
+        "modular": 0.010437051532941943
+      },
+      "max_loc": 0.010437051532941943,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d2_h0_t0_s1": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.06131767775603392,
+        "erdos-renyi": 0.04174820613176777,
+        "small-world": 0.02152641878669274,
+        "scale-free": 0.03261578604044354,
+        "modular": 0.04957599478147423
+      },
+      "max_loc": 0.06131767775603392,
+      "variance": 0.0001871588693023969,
+      "fractured": true
+    },
+    "d2_h0_t0_s2": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.026744944553163712,
+        "erdos-renyi": 0.02217873450750163,
+        "small-world": 0.004566210045662118,
+        "scale-free": 0.014350945857795208,
+        "modular": 0.023483365949119372
+      },
+      "max_loc": 0.026744944553163712,
+      "variance": 6.348695730246791e-05,
+      "fractured": false
+    },
+    "d2_h0_t1_s0": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.010437051532941943,
+        "erdos-renyi": 0.010437051532941943,
+        "small-world": 0.010437051532941943,
+        "scale-free": 0.010437051532941943,
+        "modular": 0.010437051532941943
+      },
+      "max_loc": 0.010437051532941943,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d2_h0_t1_s1": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.038486627527723395,
+        "erdos-renyi": 0.04174820613176777,
+        "small-world": 0.030658838878016976,
+        "scale-free": 0.042400521852576624,
+        "modular": 0.04109589041095888
+      },
+      "max_loc": 0.042400521852576624,
+      "variance": 1.8654612655095087e-05,
+      "fractured": false
+    },
+    "d2_h0_t1_s2": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.015003261578604063,
+        "erdos-renyi": 0.024135681669928227,
+        "small-world": 0.020221787345075033,
+        "scale-free": 0.0182648401826484,
+        "modular": 0.016307893020221804
+      },
+      "max_loc": 0.024135681669928227,
+      "variance": 1.0280461718683774e-05,
+      "fractured": false
+    },
+    "d2_h0_t2_s0": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.010437051532941943,
+        "erdos-renyi": 0.010437051532941943,
+        "small-world": 0.010437051532941943,
+        "scale-free": 0.010437051532941943,
+        "modular": 0.010437051532941943
+      },
+      "max_loc": 0.010437051532941943,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d2_h0_t2_s1": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.033268101761252465,
+        "erdos-renyi": 0.033920417482061316,
+        "small-world": 0.043052837573385516,
+        "scale-free": 0.04761904761904764,
+        "modular": 0.020874103065883925
+      },
+      "max_loc": 0.04761904761904764,
+      "variance": 8.50010361309719e-05,
+      "fractured": false
+    },
+    "d2_h0_t2_s2": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.0071754729288975305,
+        "erdos-renyi": 0.01043705153294198,
+        "small-world": 0.025440313111546004,
+        "scale-free": 0.007175472928897568,
+        "modular": 0.014350945857795172
+      },
+      "max_loc": 0.025440313111546004,
+      "variance": 4.619399520613922e-05,
+      "fractured": false
+    },
+    "d2_h0_t3_s0": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.01174168297455965,
+        "erdos-renyi": 0.01174168297455965,
+        "small-world": 0.01174168297455965,
+        "scale-free": 0.01174168297455965,
+        "modular": 0.01174168297455965
+      },
+      "max_loc": 0.01174168297455965,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d2_h0_t3_s1": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03913894324853229,
+        "erdos-renyi": 0.03457273320287021,
+        "small-world": 0.019569471624266144,
+        "scale-free": 0.04827136333985649,
+        "modular": 0.029354207436399198
+      },
+      "max_loc": 0.04827136333985649,
+      "variance": 9.201353650861736e-05,
+      "fractured": false
+    },
+    "d2_h0_t3_s2": {
+      "depth": 2,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.022178734507501668,
+        "erdos-renyi": 0.02217873450750163,
+        "small-world": 0.014350945857795208,
+        "scale-free": 0.00848010437051531,
+        "modular": 0.019569471624266144
+      },
+      "max_loc": 0.022178734507501668,
+      "variance": 2.784575392676627e-05,
+      "fractured": false
+    },
+    "d2_h1_t0_s0": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.003913894324853229,
+        "erdos-renyi": 0.006523157208088715,
+        "small-world": 0.003913894324853229,
+        "scale-free": 0.007827788649706457,
+        "modular": 0.005218525766470972
+      },
+      "max_loc": 0.007827788649706457,
+      "variance": 2.3148059499023223e-06,
+      "fractured": false
+    },
+    "d2_h1_t0_s1": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.04696673189823878,
+        "erdos-renyi": 0.03587736464448791,
+        "small-world": 0.03522504892367906,
+        "scale-free": 0.04109589041095892,
+        "modular": 0.045662100456621
+      },
+      "max_loc": 0.04696673189823878,
+      "variance": 2.3386348346807416e-05,
+      "fractured": false
+    },
+    "d2_h1_t0_s2": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.011089367253750834,
+        "erdos-renyi": 0.00848010437051531,
+        "small-world": 0.012393998695368539,
+        "scale-free": 0.034572733202870166,
+        "modular": 0.04109589041095892
+      },
+      "max_loc": 0.04109589041095892,
+      "variance": 0.00018314200015403685,
+      "fractured": false
+    },
+    "d2_h1_t1_s0": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.006523157208088715,
+        "erdos-renyi": 0.00848010437051531,
+        "small-world": 0.005218525766470972,
+        "scale-free": 0.003913894324853229,
+        "modular": 0.004566210045662082
+      },
+      "max_loc": 0.00848010437051531,
+      "variance": 2.621177325624677e-06,
+      "fractured": false
+    },
+    "d2_h1_t1_s1": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.029354207436399198,
+        "erdos-renyi": 0.03783431180691458,
+        "small-world": 0.03979125896934114,
+        "scale-free": 0.033268101761252465,
+        "modular": 0.02217873450750163
+      },
+      "max_loc": 0.03979125896934114,
+      "variance": 3.9726155052000196e-05,
+      "fractured": false
+    },
+    "d2_h1_t1_s2": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.020221787345074998,
+        "erdos-renyi": 0.026744944553163747,
+        "small-world": 0.030006523157208087,
+        "scale-free": 0.014350945857795172,
+        "modular": 0.020221787345075033
+      },
+      "max_loc": 0.030006523157208087,
+      "variance": 3.019460114063768e-05,
+      "fractured": false
+    },
+    "d2_h1_t2_s0": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.002609262883235486,
+        "erdos-renyi": 0.006523157208088715,
+        "small-world": 0.006523157208088715,
+        "scale-free": 0.005218525766470972,
+        "modular": 0.006523157208088715
+      },
+      "max_loc": 0.006523157208088715,
+      "variance": 2.3148059499023227e-06,
+      "fractured": false
+    },
+    "d2_h1_t2_s1": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.05414220482713631,
+        "erdos-renyi": 0.03261578604044354,
+        "small-world": 0.058708414872798466,
+        "scale-free": 0.017612524461839547,
+        "modular": 0.05870841487279843
+      },
+      "max_loc": 0.058708414872798466,
+      "variance": 0.00027215990543336875,
+      "fractured": true
+    },
+    "d2_h1_t2_s2": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.012393998695368577,
+        "erdos-renyi": 0.01304631441617743,
+        "small-world": 0.007827788649706457,
+        "scale-free": 0.015655577299412898,
+        "modular": 0.028701891715590306
+      },
+      "max_loc": 0.028701891715590306,
+      "variance": 4.9768327922899706e-05,
+      "fractured": false
+    },
+    "d2_h1_t3_s0": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.005218525766470934,
+        "erdos-renyi": 0.00848010437051531,
+        "small-world": 0.003913894324853229,
+        "scale-free": 0.007175472928897568,
+        "modular": 0.005870841487279825
+      },
+      "max_loc": 0.00848010437051531,
+      "variance": 2.485012269748072e-06,
+      "fractured": false
+    },
+    "d2_h1_t3_s1": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.02609262883235486,
+        "erdos-renyi": 0.050880626223091974,
+        "small-world": 0.042400521852576666,
+        "scale-free": 0.042400521852576666,
+        "modular": 0.024135681669928227
+      },
+      "max_loc": 0.050880626223091974,
+      "variance": 0.00010705977518298262,
+      "fractured": true
+    },
+    "d2_h1_t3_s2": {
+      "depth": 2,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.018917155903457255,
+        "erdos-renyi": 0.034572733202870166,
+        "small-world": 0.0365296803652968,
+        "scale-free": 0.01826484018264844,
+        "modular": 0.020874103065883887
+      },
+      "max_loc": 0.0365296803652968,
+      "variance": 6.40997000539127e-05,
+      "fractured": false
+    },
+    "d2_h2_t0_s0": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.010437051532941943,
+        "erdos-renyi": 0.005218525766470972,
+        "small-world": 0.005218525766470972,
+        "scale-free": 0.0091324200913242,
+        "modular": 0.006523157208088715
+      },
+      "max_loc": 0.010437051532941943,
+      "variance": 4.493446843928038e-06,
+      "fractured": false
+    },
+    "d2_h2_t0_s1": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.028701891715590344,
+        "erdos-renyi": 0.06196999347684277,
+        "small-world": 0.04174820613176777,
+        "scale-free": 0.024135681669928227,
+        "modular": 0.03587736464448791
+      },
+      "max_loc": 0.06196999347684277,
+      "variance": 0.0001741210652022114,
+      "fractured": true
+    },
+    "d2_h2_t0_s2": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.022831050228310484,
+        "erdos-renyi": 0.01304631441617743,
+        "small-world": 0.015655577299412915,
+        "scale-free": 0.01891715590345729,
+        "modular": 0.025440313111546042
+      },
+      "max_loc": 0.025440313111546042,
+      "variance": 2.0526882173398648e-05,
+      "fractured": false
+    },
+    "d2_h2_t1_s0": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.004566210045662082,
+        "erdos-renyi": 0.0091324200913242,
+        "small-world": 0.001304631441617743,
+        "scale-free": 0.007827788649706457,
+        "modular": 0.004566210045662082
+      },
+      "max_loc": 0.0091324200913242,
+      "variance": 7.591201865120865e-06,
+      "fractured": false
+    },
+    "d2_h2_t1_s1": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.038486627527723395,
+        "erdos-renyi": 0.0365296803652968,
+        "small-world": 0.029354207436399198,
+        "scale-free": 0.02609262883235486,
+        "modular": 0.037834311806914545
+      },
+      "max_loc": 0.038486627527723395,
+      "variance": 2.495224648938826e-05,
+      "fractured": false
+    },
+    "d2_h2_t1_s2": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.03196347031963472,
+        "erdos-renyi": 0.014350945857795136,
+        "small-world": 0.03065883887801694,
+        "scale-free": 0.025440313111546004,
+        "modular": 0.03000652315720805
+      },
+      "max_loc": 0.03196347031963472,
+      "variance": 4.163246583427279e-05,
+      "fractured": false
+    },
+    "d2_h2_t2_s0": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.0032615786040443386,
+        "erdos-renyi": 0.005218525766470972,
+        "small-world": 0.010437051532941943,
+        "scale-free": 0.012393998695368577,
+        "modular": 0.007827788649706457
+      },
+      "max_loc": 0.012393998695368577,
+      "variance": 1.1063410789974406e-05,
+      "fractured": false
+    },
+    "d2_h2_t2_s1": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.04370515329419437,
+        "erdos-renyi": 0.037834311806914545,
+        "small-world": 0.02609262883235486,
+        "scale-free": 0.033920417482061316,
+        "modular": 0.03979125896934118
+      },
+      "max_loc": 0.04370515329419437,
+      "variance": 3.584545095951682e-05,
+      "fractured": false
+    },
+    "d2_h2_t2_s2": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.025440313111546004,
+        "erdos-renyi": 0.015655577299412877,
+        "small-world": 0.026744944553163747,
+        "scale-free": 0.025440313111546004,
+        "modular": 0.025440313111546004
+      },
+      "max_loc": 0.026744944553163747,
+      "variance": 1.6612136816946257e-05,
+      "fractured": false
+    },
+    "d2_h2_t3_s0": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.009784735812133053,
+        "erdos-renyi": 0.005218525766470934,
+        "small-world": 0.005218525766470972,
+        "scale-free": 0.005218525766470934,
+        "modular": 0.009784735812133053
+      },
+      "max_loc": 0.009784735812133053,
+      "variance": 5.0040658034653275e-06,
+      "fractured": false
+    },
+    "d2_h2_t3_s1": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.06001304631441614,
+        "erdos-renyi": 0.026744944553163747,
+        "small-world": 0.02804957599478149,
+        "scale-free": 0.017612524461839547,
+        "modular": 0.03979125896934114
+      },
+      "max_loc": 0.06001304631441614,
+      "variance": 0.00021316639497482798,
+      "fractured": true
+    },
+    "d2_h2_t3_s2": {
+      "depth": 2,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.018264840182648363,
+        "erdos-renyi": 0.011741682974559686,
+        "small-world": 0.03457273320287021,
+        "scale-free": 0.021526418786692775,
+        "modular": 0.0182648401826484
+      },
+      "max_loc": 0.03457273320287021,
+      "variance": 5.701911714832943e-05,
+      "fractured": false
+    },
+    "d2_h3_t0_s0": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.006523157208088715,
+        "erdos-renyi": 0.005218525766470972,
+        "small-world": 0.002609262883235486,
+        "scale-free": 0.007827788649706457,
+        "modular": 0.01304631441617743
+      },
+      "max_loc": 0.01304631441617743,
+      "variance": 1.1982524917141436e-05,
+      "fractured": false
+    },
+    "d2_h3_t0_s1": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.04109589041095888,
+        "erdos-renyi": 0.028049575994781455,
+        "small-world": 0.051532941943900866,
+        "scale-free": 0.045662100456621,
+        "modular": 0.03065883887801694
+      },
+      "max_loc": 0.051532941943900866,
+      "variance": 7.89076498804941e-05,
+      "fractured": true
+    },
+    "d2_h3_t0_s2": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.005870841487279861,
+        "erdos-renyi": 0.03065883887801694,
+        "small-world": 0.03522504892367909,
+        "scale-free": 0.022831050228310484,
+        "modular": 0.024135681669928227
+      },
+      "max_loc": 0.03522504892367909,
+      "variance": 0.00010001323354136799,
+      "fractured": false
+    },
+    "d2_h3_t1_s0": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.0091324200913242,
+        "erdos-renyi": 0.007175472928897568,
+        "small-world": 0.004566210045662082,
+        "scale-free": 0.009784735812133053,
+        "modular": 0.005218525766470972
+      },
+      "max_loc": 0.009784735812133053,
+      "variance": 4.255157996143974e-06,
+      "fractured": false
+    },
+    "d2_h3_t1_s1": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03196347031963468,
+        "erdos-renyi": 0.023483365949119372,
+        "small-world": 0.030006523157208087,
+        "scale-free": 0.045662100456621,
+        "modular": 0.037181996086105694
+      },
+      "max_loc": 0.045662100456621,
+      "variance": 5.5248971421933416e-05,
+      "fractured": false
+    },
+    "d2_h3_t1_s2": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.0273972602739726,
+        "erdos-renyi": 0.011089367253750796,
+        "small-world": 0.02609262883235484,
+        "scale-free": 0.03261578604044357,
+        "modular": 0.015655577299412915
+      },
+      "max_loc": 0.03261578604044357,
+      "variance": 6.324866845468412e-05,
+      "fractured": false
+    },
+    "d2_h3_t2_s0": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.0091324200913242,
+        "erdos-renyi": 0.007827788649706457,
+        "small-world": 0.002609262883235486,
+        "scale-free": 0.003913894324853229,
+        "modular": 0.0091324200913242
+      },
+      "max_loc": 0.0091324200913242,
+      "variance": 7.489078073213397e-06,
+      "fractured": false
+    },
+    "d2_h3_t2_s1": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.038486627527723395,
+        "erdos-renyi": 0.04109589041095888,
+        "small-world": 0.05022831050228308,
+        "scale-free": 0.020221787345075033,
+        "modular": 0.03522504892367906
+      },
+      "max_loc": 0.05022831050228308,
+      "variance": 9.57240342812546e-05,
+      "fractured": true
+    },
+    "d2_h3_t2_s2": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.016960208741030696,
+        "erdos-renyi": 0.042400521852576624,
+        "small-world": 0.028701891715590344,
+        "scale-free": 0.005218525766470934,
+        "modular": 0.037181996086105694
+      },
+      "max_loc": 0.042400521852576624,
+      "variance": 0.0001829717938341911,
+      "fractured": false
+    },
+    "d2_h3_t3_s0": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.005870841487279825,
+        "erdos-renyi": 0.011741682974559686,
+        "small-world": 0.00848010437051531,
+        "scale-free": 0.01174168297455965,
+        "modular": 0.005870841487279825
+      },
+      "max_loc": 0.011741682974559686,
+      "variance": 6.910376585737816e-06,
+      "fractured": false
+    },
+    "d2_h3_t3_s1": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.04174820613176777,
+        "erdos-renyi": 0.022178734507501668,
+        "small-world": 0.04500978473581215,
+        "scale-free": 0.02152641878669274,
+        "modular": 0.04109589041095892
+      },
+      "max_loc": 0.04500978473581215,
+      "variance": 0.00010528962945658659,
+      "fractured": false
+    },
+    "d2_h3_t3_s2": {
+      "depth": 2,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.013046314416177393,
+        "erdos-renyi": 0.02804957599478149,
+        "small-world": 0.014350945857795172,
+        "scale-free": 0.030006523157208125,
+        "modular": 0.015003261578604063
+      },
+      "max_loc": 0.030006523157208125,
+      "variance": 5.4023485919044186e-05,
+      "fractured": false
+    },
+    "d3_h0_t0_s0": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.017612524461839512,
+        "erdos-renyi": 0.017612524461839512,
+        "small-world": 0.017612524461839512,
+        "scale-free": 0.017612524461839512,
+        "modular": 0.017612524461839512
+      },
+      "max_loc": 0.017612524461839512,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d3_h0_t0_s1": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.02217873450750163,
+        "erdos-renyi": 0.037834311806914545,
+        "small-world": 0.026744944553163712,
+        "scale-free": 0.0273972602739726,
+        "modular": 0.017612524461839512
+      },
+      "max_loc": 0.037834311806914545,
+      "variance": 4.537700487087941e-05,
+      "fractured": false
+    },
+    "d3_h0_t0_s2": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.02609262883235486,
+        "erdos-renyi": 0.007827788649706494,
+        "small-world": 0.013698630136986282,
+        "scale-free": 0.026744944553163712,
+        "modular": 0.024787997390737115
+      },
+      "max_loc": 0.026744944553163712,
+      "variance": 5.865309781884837e-05,
+      "fractured": false
+    },
+    "d3_h0_t1_s0": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.016307893020221804,
+        "erdos-renyi": 0.016307893020221804,
+        "small-world": 0.016307893020221804,
+        "scale-free": 0.016307893020221804,
+        "modular": 0.016307893020221804
+      },
+      "max_loc": 0.016307893020221804,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d3_h0_t1_s1": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.043052837573385516,
+        "erdos-renyi": 0.058708414872798466,
+        "small-world": 0.045662100456621,
+        "scale-free": 0.02217873450750163,
+        "modular": 0.04435746901500326
+      },
+      "max_loc": 0.058708414872798466,
+      "variance": 0.0001377990365471267,
+      "fractured": true
+    },
+    "d3_h0_t1_s2": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.013046314416177393,
+        "erdos-renyi": 0.03848662752772344,
+        "small-world": 0.03587736464448795,
+        "scale-free": 0.007175472928897604,
+        "modular": 0.033268101761252424
+      },
+      "max_loc": 0.03848662752772344,
+      "variance": 0.00016550862541801623,
+      "fractured": false
+    },
+    "d3_h0_t2_s0": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.016307893020221804,
+        "erdos-renyi": 0.016307893020221804,
+        "small-world": 0.016307893020221804,
+        "scale-free": 0.016307893020221804,
+        "modular": 0.016307893020221804
+      },
+      "max_loc": 0.016307893020221804,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d3_h0_t2_s1": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.037834311806914545,
+        "erdos-renyi": 0.026744944553163747,
+        "small-world": 0.028701891715590344,
+        "scale-free": 0.03196347031963468,
+        "modular": 0.02544031311154597
+      },
+      "max_loc": 0.037834311806914545,
+      "variance": 1.9641809310200586e-05,
+      "fractured": false
+    },
+    "d3_h0_t2_s2": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.01891715590345729,
+        "erdos-renyi": 0.011089367253750796,
+        "small-world": 0.02804957599478149,
+        "scale-free": 0.02217873450750163,
+        "modular": 0.023483365949119372
+      },
+      "max_loc": 0.02804957599478149,
+      "variance": 3.1896664339095347e-05,
+      "fractured": false
+    },
+    "d3_h0_t3_s0": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.016960208741030658,
+        "erdos-renyi": 0.016960208741030658,
+        "small-world": 0.016960208741030658,
+        "scale-free": 0.016960208741030658,
+        "modular": 0.016960208741030658
+      },
+      "max_loc": 0.016960208741030658,
+      "variance": 0.0,
+      "fractured": false
+    },
+    "d3_h0_t3_s1": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.04174820613176781,
+        "erdos-renyi": 0.02609262883235486,
+        "small-world": 0.03979125896934118,
+        "scale-free": 0.011089367253750796,
+        "modular": 0.02804957599478149
+      },
+      "max_loc": 0.04174820613176781,
+      "variance": 0.00012169751868971806,
+      "fractured": false
+    },
+    "d3_h0_t3_s2": {
+      "depth": 3,
+      "het_std": 0.0,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.024135681669928227,
+        "erdos-renyi": 0.020221787345074998,
+        "small-world": 0.0182648401826484,
+        "scale-free": 0.015003261578604063,
+        "modular": 0.016307893020221804
+      },
+      "max_loc": 0.024135681669928227,
+      "variance": 1.0280461718683752e-05,
+      "fractured": false
+    },
+    "d3_h1_t0_s0": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.004566210045662082,
+        "erdos-renyi": 0.0006523157208088529,
+        "small-world": 0.012393998695368539,
+        "scale-free": 0.012393998695368539,
+        "modular": 0.0091324200913242
+      },
+      "max_loc": 0.012393998695368539,
+      "variance": 2.1105583660874127e-05,
+      "fractured": false
+    },
+    "d3_h1_t0_s1": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.023483365949119334,
+        "erdos-renyi": 0.05022831050228308,
+        "small-world": 0.02609262883235486,
+        "scale-free": 0.03457273320287021,
+        "modular": 0.028049575994781455
+      },
+      "max_loc": 0.05022831050228308,
+      "variance": 9.214970156449397e-05,
+      "fractured": true
+    },
+    "d3_h1_t0_s2": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.01304631441617743,
+        "erdos-renyi": 0.04044357469015003,
+        "small-world": 0.03196347031963472,
+        "scale-free": 0.019569471624266144,
+        "modular": 0.023483365949119372
+      },
+      "max_loc": 0.04044357469015003,
+      "variance": 9.184333018877162e-05,
+      "fractured": false
+    },
+    "d3_h1_t1_s0": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.006523157208088752,
+        "erdos-renyi": 0.007827788649706494,
+        "small-world": 0.002609262883235486,
+        "scale-free": 0.006523157208088752,
+        "modular": 0.003261578604044376
+      },
+      "max_loc": 0.007827788649706494,
+      "variance": 4.153034204236575e-06,
+      "fractured": false
+    },
+    "d3_h1_t1_s1": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.01891715590345729,
+        "erdos-renyi": 0.04109589041095892,
+        "small-world": 0.04370515329419437,
+        "scale-free": 0.03131115459882583,
+        "modular": 0.05218525766470972
+      },
+      "max_loc": 0.05218525766470972,
+      "variance": 0.0001301397521540672,
+      "fractured": true
+    },
+    "d3_h1_t1_s2": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.0182648401826484,
+        "erdos-renyi": 0.037834311806914545,
+        "small-world": 0.02544031311154597,
+        "scale-free": 0.022831050228310484,
+        "modular": 0.019569471624266106
+      },
+      "max_loc": 0.037834311806914545,
+      "variance": 4.884921379573293e-05,
+      "fractured": false
+    },
+    "d3_h1_t2_s0": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.007175472928897604,
+        "erdos-renyi": 0.007175472928897604,
+        "small-world": 0.004566210045662118,
+        "scale-free": 0.011089367253750834,
+        "modular": 0.003913894324853229
+      },
+      "max_loc": 0.011089367253750834,
+      "variance": 6.399757626200562e-06,
+      "fractured": false
+    },
+    "d3_h1_t2_s1": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03261578604044357,
+        "erdos-renyi": 0.045662100456621,
+        "small-world": 0.033920417482061316,
+        "scale-free": 0.03261578604044357,
+        "modular": 0.033268101761252465
+      },
+      "max_loc": 0.045662100456621,
+      "variance": 2.5462865448925528e-05,
+      "fractured": false
+    },
+    "d3_h1_t2_s2": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.0182648401826484,
+        "erdos-renyi": 0.03261578604044357,
+        "small-world": 0.028701891715590306,
+        "scale-free": 0.03522504892367906,
+        "modular": 0.026744944553163712
+      },
+      "max_loc": 0.03522504892367906,
+      "variance": 3.39731814412135e-05,
+      "fractured": false
+    },
+    "d3_h1_t3_s0": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.007827788649706457,
+        "erdos-renyi": 0.006523157208088715,
+        "small-world": 0.006523157208088715,
+        "scale-free": 0.006523157208088715,
+        "modular": 0.0091324200913242
+      },
+      "max_loc": 0.0091324200913242,
+      "variance": 1.0893204470128576e-06,
+      "fractured": false
+    },
+    "d3_h1_t3_s1": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03913894324853229,
+        "erdos-renyi": 0.0639269406392694,
+        "small-world": 0.06131767775603392,
+        "scale-free": 0.03913894324853225,
+        "modular": 0.05022831050228308
+      },
+      "max_loc": 0.0639269406392694,
+      "variance": 0.00011104260306737334,
+      "fractured": true
+    },
+    "d3_h1_t3_s2": {
+      "depth": 3,
+      "het_std": 0.2,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.015003261578604024,
+        "erdos-renyi": 0.020221787345074998,
+        "small-world": 0.0365296803652968,
+        "scale-free": 0.022831050228310484,
+        "modular": 0.017612524461839512
+      },
+      "max_loc": 0.0365296803652968,
+      "variance": 5.644041566085379e-05,
+      "fractured": false
+    },
+    "d3_h2_t0_s0": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.0091324200913242,
+        "erdos-renyi": 0.010437051532941943,
+        "small-world": 0.012393998695368539,
+        "scale-free": 0.002609262883235486,
+        "modular": 0.011089367253750796
+      },
+      "max_loc": 0.012393998695368539,
+      "variance": 1.1744236069357331e-05,
+      "fractured": false
+    },
+    "d3_h2_t0_s1": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.018917155903457255,
+        "erdos-renyi": 0.04500978473581211,
+        "small-world": 0.018917155903457255,
+        "scale-free": 0.04370515329419441,
+        "modular": 0.060013046314416174
+      },
+      "max_loc": 0.060013046314416174,
+      "variance": 0.0002584412760538007,
+      "fractured": true
+    },
+    "d3_h2_t0_s2": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.03261578604044357,
+        "erdos-renyi": 0.00848010437051531,
+        "small-world": 0.02217873450750163,
+        "scale-free": 0.017612524461839547,
+        "modular": 0.030006523157208087
+      },
+      "max_loc": 0.03261578604044357,
+      "variance": 7.574181233136284e-05,
+      "fractured": false
+    },
+    "d3_h2_t1_s0": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.007827788649706457,
+        "erdos-renyi": 0.009784735812133091,
+        "small-world": 0.008480104370515348,
+        "scale-free": 0.007827788649706494,
+        "modular": 0.007827788649706494
+      },
+      "max_loc": 0.009784735812133091,
+      "variance": 5.787014874755774e-07,
+      "fractured": false
+    },
+    "d3_h2_t1_s1": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.028701891715590344,
+        "erdos-renyi": 0.03261578604044357,
+        "small-world": 0.03196347031963472,
+        "scale-free": 0.06523157208088715,
+        "modular": 0.033268101761252465
+      },
+      "max_loc": 0.06523157208088715,
+      "variance": 0.00018303987636212915,
+      "fractured": true
+    },
+    "d3_h2_t1_s2": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.04370515329419437,
+        "erdos-renyi": 0.03000652315720805,
+        "small-world": 0.01891715590345729,
+        "scale-free": 0.024787997390737115,
+        "modular": 0.005218525766470972
+      },
+      "max_loc": 0.04370515329419437,
+      "variance": 0.00016043647708661218,
+      "fractured": false
+    },
+    "d3_h2_t2_s0": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.003913894324853229,
+        "erdos-renyi": 0.012393998695368577,
+        "small-world": 0.004566210045662118,
+        "scale-free": 0.003913894324853229,
+        "modular": 0.005870841487279861
+      },
+      "max_loc": 0.012393998695368577,
+      "variance": 1.0314502982653032e-05,
+      "fractured": false
+    },
+    "d3_h2_t2_s1": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03979125896934118,
+        "erdos-renyi": 0.05414220482713631,
+        "small-world": 0.03848662752772344,
+        "scale-free": 0.03913894324853229,
+        "modular": 0.04174820613176777
+      },
+      "max_loc": 0.05414220482713631,
+      "variance": 3.41433877610591e-05,
+      "fractured": true
+    },
+    "d3_h2_t2_s2": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.013046314416177393,
+        "erdos-renyi": 0.005218525766470972,
+        "small-world": 0.013698630136986282,
+        "scale-free": 0.024135681669928227,
+        "modular": 0.015655577299412915
+      },
+      "max_loc": 0.024135681669928227,
+      "variance": 3.6594358766838146e-05,
+      "fractured": false
+    },
+    "d3_h2_t3_s0": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.01304631441617743,
+        "erdos-renyi": 0.006523157208088715,
+        "small-world": 0.003913894324853229,
+        "scale-free": 0.010437051532941943,
+        "modular": 0.020874103065883887
+      },
+      "max_loc": 0.020874103065883887,
+      "variance": 3.444975913678162e-05,
+      "fractured": false
+    },
+    "d3_h2_t3_s1": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.03522504892367906,
+        "erdos-renyi": 0.01891715590345729,
+        "small-world": 0.04696673189823878,
+        "scale-free": 0.049575994781474196,
+        "modular": 0.028049575994781455
+      },
+      "max_loc": 0.049575994781474196,
+      "variance": 0.00013197798040840144,
+      "fractured": false
+    },
+    "d3_h2_t3_s2": {
+      "depth": 3,
+      "het_std": 0.4,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.017612524461839547,
+        "erdos-renyi": 0.006523157208088715,
+        "small-world": 0.017612524461839474,
+        "scale-free": 0.024135681669928227,
+        "modular": 0.00848010437051531
+      },
+      "max_loc": 0.024135681669928227,
+      "variance": 4.2279249849686485e-05,
+      "fractured": false
+    },
+    "d3_h3_t0_s0": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.020221787345074998,
+        "erdos-renyi": 0.0182648401826484,
+        "small-world": 0.006523157208088715,
+        "scale-free": 0.010437051532941943,
+        "modular": 0.007175472928897568
+      },
+      "max_loc": 0.020221787345074998,
+      "variance": 3.2237076978786745e-05,
+      "fractured": false
+    },
+    "d3_h3_t0_s1": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.038486627527723395,
+        "erdos-renyi": 0.03979125896934114,
+        "small-world": 0.05218525766470972,
+        "scale-free": 0.036529680365296836,
+        "modular": 0.024787997390737115
+      },
+      "max_loc": 0.05218525766470972,
+      "variance": 7.615030749899254e-05,
+      "fractured": true
+    },
+    "d3_h3_t0_s2": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 0,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.01304631441617743,
+        "erdos-renyi": 0.015003261578604024,
+        "small-world": 0.038486627527723395,
+        "scale-free": 0.023483365949119372,
+        "modular": 0.007175472928897568
+      },
+      "max_loc": 0.038486627527723395,
+      "variance": 0.00011802106218104925,
+      "fractured": false
+    },
+    "d3_h3_t1_s0": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.01826484018264844,
+        "erdos-renyi": 0.00848010437051531,
+        "small-world": 0.016960208741030658,
+        "scale-free": 0.007827788649706457,
+        "modular": 0.020221787345075033
+      },
+      "max_loc": 0.020221787345075033,
+      "variance": 2.672239221578431e-05,
+      "fractured": false
+    },
+    "d3_h3_t1_s1": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.0750163078930202,
+        "erdos-renyi": 0.038486627527723395,
+        "small-world": 0.03522504892367906,
+        "scale-free": 0.04370515329419437,
+        "modular": 0.04174820613176777
+      },
+      "max_loc": 0.0750163078930202,
+      "variance": 0.00020686876114053547,
+      "fractured": true
+    },
+    "d3_h3_t1_s2": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 1,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.03718199608610565,
+        "erdos-renyi": 0.02804957599478151,
+        "small-world": 0.031311154598825865,
+        "scale-free": 0.028701891715590344,
+        "modular": 0.016960208741030696
+      },
+      "max_loc": 0.03718199608610565,
+      "variance": 4.333452903273003e-05,
+      "fractured": false
+    },
+    "d3_h3_t2_s0": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.0091324200913242,
+        "erdos-renyi": 0.010437051532941943,
+        "small-world": 0.005218525766470972,
+        "scale-free": 0.003913894324853229,
+        "modular": 0.01891715590345729
+      },
+      "max_loc": 0.01891715590345729,
+      "variance": 2.784575392676624e-05,
+      "fractured": false
+    },
+    "d3_h3_t2_s1": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.035225048923679024,
+        "erdos-renyi": 0.0547945205479452,
+        "small-world": 0.023483365949119372,
+        "scale-free": 0.036529680365296836,
+        "modular": 0.025440313111546004
+      },
+      "max_loc": 0.0547945205479452,
+      "variance": 0.0001236378707359593,
+      "fractured": true
+    },
+    "d3_h3_t2_s2": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 2,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.01630789302022177,
+        "erdos-renyi": 0.022178734507501668,
+        "small-world": 0.024787997390737115,
+        "scale-free": 0.033920417482061316,
+        "modular": 0.0182648401826484
+      },
+      "max_loc": 0.033920417482061316,
+      "variance": 3.8058133117511745e-05,
+      "fractured": false
+    },
+    "d3_h3_t3_s0": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.0,
+      "locs": {
+        "all-to-all": 0.0,
+        "erdos-renyi": 0.016960208741030658,
+        "small-world": 0.0182648401826484,
+        "scale-free": 0.006523157208088715,
+        "modular": 0.010437051532941943
+      },
+      "max_loc": 0.0182648401826484,
+      "variance": 4.561529371866341e-05,
+      "fractured": false
+    },
+    "d3_h3_t3_s1": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.1,
+      "locs": {
+        "all-to-all": 0.0365296803652968,
+        "erdos-renyi": 0.016960208741030658,
+        "small-world": 0.04370515329419441,
+        "scale-free": 0.037181996086105694,
+        "modular": 0.043052837573385516
+      },
+      "max_loc": 0.04370515329419441,
+      "variance": 9.439642498645804e-05,
+      "fractured": false
+    },
+    "d3_h3_t3_s2": {
+      "depth": 3,
+      "het_std": 0.6,
+      "delay": 4,
+      "stochastic": 0.2,
+      "locs": {
+        "all-to-all": 0.025440313111546004,
+        "erdos-renyi": 0.02152641878669274,
+        "small-world": 0.033268101761252465,
+        "scale-free": 0.025440313111546004,
+        "modular": 0.022831050228310484
+      },
+      "max_loc": 0.033268101761252465,
+      "variance": 1.661213681694619e-05,
+      "fractured": false
+    }
+  },
+  "answers": {
+    "Q1_bounded": true,
+    "Q2_rollback": false,
+    "Q3_variance": true,
+    "Q4_recursive_fracture": true,
+    "Q5_convergence": true,
+    "verdict": "IRREVERSIBLE_MANIFOLD_FAILURE",
+    "rollback_deltas": [
+      0.0032615786040443746,
+      0.010437051532941981,
+      0.016307893020221804,
+      0.0,
+      0.003913894324853229
+    ],
+    "final_level_max_loc": 0.033268101761252465,
+    "final_level_variance": 1.661213681694619e-05
+  },
+  "rollback": {
+    "topologies": {
+      "all-to-all": {
+        "forward_locs": [
+          0.019569471624266144,
+          0.01630789302022177,
+          0.03131115459882583,
+          0.04370515329419441
+        ],
+        "backward_locs": [
+          0.027397260273972563,
+          0.053489889106327425,
+          0.02283105022831052
+        ],
+        "forward_max": 0.04370515329419441,
+        "backward_final": 0.02283105022831052,
+        "recovery_delta": 0.0032615786040443746
+      },
+      "erdos-renyi": {
+        "forward_locs": [
+          0.028049575994781455,
+          0.033920417482061316,
+          0.026744944553163747,
+          0.03000652315720805
+        ],
+        "backward_locs": [
+          0.04044357469015003,
+          0.010437051532941943,
+          0.03848662752772344
+        ],
+        "forward_max": 0.033920417482061316,
+        "backward_final": 0.03848662752772344,
+        "recovery_delta": 0.010437051532941981
+      },
+      "small-world": {
+        "forward_locs": [
+          0.029354207436399233,
+          0.03196347031963472,
+          0.02022178734507507,
+          0.020221787345074998
+        ],
+        "backward_locs": [
+          0.03196347031963472,
+          0.019569471624266144,
+          0.01304631441617743
+        ],
+        "forward_max": 0.03196347031963472,
+        "backward_final": 0.01304631441617743,
+        "recovery_delta": 0.016307893020221804
+      },
+      "scale-free": {
+        "forward_locs": [
+          0.02804957599478149,
+          0.023483365949119372,
+          0.01369863013698632,
+          0.030658838878016976
+        ],
+        "backward_locs": [
+          0.031311154598825865,
+          0.033268101761252424,
+          0.02804957599478149
+        ],
+        "forward_max": 0.030658838878016976,
+        "backward_final": 0.02804957599478149,
+        "recovery_delta": 0.0
+      },
+      "modular": {
+        "forward_locs": [
+          0.02217873450750163,
+          0.013046314416177466,
+          0.02087410306588385,
+          0.023483365949119372
+        ],
+        "backward_locs": [
+          0.035225048923679024,
+          0.016960208741030658,
+          0.02609262883235486
+        ],
+        "forward_max": 0.023483365949119372,
+        "backward_final": 0.02609262883235486,
+        "recovery_delta": 0.003913894324853229
+      }
+    }
+  },
+  "depth_analysis": {
+    "depth_0": {
+      "max_loc": 0.03913894324853232,
+      "variance": 2.3760802250468083e-05,
+      "fractured": false
+    },
+    "depth_1": {
+      "max_loc": 0.04892367906066538,
+      "variance": 1.140382342966593e-05,
+      "fractured": false
+    },
+    "depth_2": {
+      "max_loc": 0.04892367906066538,
+      "variance": 6.59379283082471e-05,
+      "fractured": false
+    },
+    "depth_3": {
+      "max_loc": 0.038486627527723395,
+      "variance": 3.6662441294776467e-05,
+      "fractured": false
+    }
+  }
+}

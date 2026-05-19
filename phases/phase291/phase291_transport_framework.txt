@@ -1,0 +1,75 @@
+# PHASE 291: TRANSPORT FRAMEWORK
+# Emergent Relational Transport Structure
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: OPERATIONAL DEFINITIONS
+================================================================================
+
+A. RELATIONAL TRANSPORT
+-----------------------
+Definition: Directional propagation of recursive relational
+organization across depth.
+
+Operationalization:
+- Compute net displacement in configuration space per depth
+- Track directional consistency across trajectories
+- transport_strength = mean_net_displacement / total_path_length
+
+B. TRANSPORT CHANNEL
+--------------------
+Definition: A statistically preferred recursive pathway through
+configuration geometry.
+
+Operationalization:
+- Identify trajectory clustering in embedding space
+- Compute path preference probability
+- Channel present if clustering > random baseline
+
+C. TRANSPORT STABILITY
+----------------------
+Definition: Persistence of directional propagation structure under
+recursive evolution.
+
+Operationalization:
+- Track transport_strength across depths
+- Stable if variance < threshold
+- Unstable if variance increases with depth
+
+D. DIFFUSE TRANSPORT
+--------------------
+Definition: Propagation without localized fixed-region retention.
+
+Operationalization:
+- High dispersion with nonzero transport
+- Diffuse if dispersion > threshold AND transport > 0
+- Channeled if dispersion < threshold AND transport > 0
+
+E. RG-STABLE TRANSPORT
+----------------------
+Definition: Transport organization preserved under coarse-graining.
+
+Operationalization:
+- Compute fine-scale transport at multiple depths
+- Compare coarse-scale (RG block) transport
+- Correlation > 0.90 = RG_STABLE
+
+================================================================================
+SECTION 2: TRANSPORT CLASSIFICATION
+================================================================================
+
+CHANNELLED:
+- H1, H2, H4, H5 PASS
+- Strong transport, positive bias, RG stable
+
+WEAKLY_CHANNELLED:
+- H2, H3, H5 PASS
+- Moderate transport, bounded dispersion
+
+DIFFUSE:
+- Transport present but weak channeling
+- High dispersion, low directional bias
+
+================================================================================
+END OF FRAMEWORK
+================================================================================

@@ -1,0 +1,160 @@
+{
+  "summary": {
+    "max_persistence_gain": 0.07992183683439179,
+    "optimal_coupling": 1.0,
+    "positive_transfer": true,
+    "synchronization_enhancement": true
+  },
+  "results": [
+    {
+      "coupling": 0.0,
+      "mean_persistence_gain": -0.0123009281875916,
+      "mean_sync_gain": 0.7081377951464687,
+      "mean_compressibility_shift": 0.0016910462599742271
+    },
+    {
+      "coupling": 0.041666666666666664,
+      "mean_persistence_gain": -0.005969711773326831,
+      "mean_sync_gain": 0.6902040214123201,
+      "mean_compressibility_shift": -0.018440662898189998
+    },
+    {
+      "coupling": 0.08333333333333333,
+      "mean_persistence_gain": -0.003361016121152904,
+      "mean_sync_gain": 0.6880120956347884,
+      "mean_compressibility_shift": -0.029413612272403064
+    },
+    {
+      "coupling": 0.125,
+      "mean_persistence_gain": 0.004728871519296542,
+      "mean_sync_gain": 0.6687370935545968,
+      "mean_compressibility_shift": -0.04977109460856303
+    },
+    {
+      "coupling": 0.16666666666666666,
+      "mean_persistence_gain": 0.006604787493893505,
+      "mean_sync_gain": 0.6709746848237801,
+      "mean_compressibility_shift": -0.061193570352099706
+    },
+    {
+      "coupling": 0.20833333333333331,
+      "mean_persistence_gain": 0.01762579384465071,
+      "mean_sync_gain": 0.6286936886663681,
+      "mean_compressibility_shift": -0.08066717951541033
+    },
+    {
+      "coupling": 0.25,
+      "mean_persistence_gain": 0.01741084513922813,
+      "mean_sync_gain": 0.6064595864573668,
+      "mean_compressibility_shift": -0.0964946892714279
+    },
+    {
+      "coupling": 0.29166666666666663,
+      "mean_persistence_gain": 0.024465070835368835,
+      "mean_sync_gain": 0.5787051845123662,
+      "mean_compressibility_shift": -0.11158918131970266
+    },
+    {
+      "coupling": 0.3333333333333333,
+      "mean_persistence_gain": 0.031382510991695166,
+      "mean_sync_gain": 0.5413832035351277,
+      "mean_compressibility_shift": -0.12742718691409063
+    },
+    {
+      "coupling": 0.375,
+      "mean_persistence_gain": 0.03580850024425989,
+      "mean_sync_gain": 0.5197838172070743,
+      "mean_compressibility_shift": -0.14057117399310504
+    },
+    {
+      "coupling": 0.41666666666666663,
+      "mean_persistence_gain": 0.038808011724474845,
+      "mean_sync_gain": 0.46477293862638436,
+      "mean_compressibility_shift": -0.15809367352953793
+    },
+    {
+      "coupling": 0.4583333333333333,
+      "mean_persistence_gain": 0.04635075720566682,
+      "mean_sync_gain": 0.4277849180545217,
+      "mean_compressibility_shift": -0.170254506368869
+    },
+    {
+      "coupling": 0.5,
+      "mean_persistence_gain": 0.05007327796775769,
+      "mean_sync_gain": 0.3983000465870468,
+      "mean_compressibility_shift": -0.1836632918048261
+    },
+    {
+      "coupling": 0.5416666666666666,
+      "mean_persistence_gain": 0.05419638495359062,
+      "mean_sync_gain": 0.36641361596355765,
+      "mean_compressibility_shift": -0.1973503030525121
+    },
+    {
+      "coupling": 0.5833333333333333,
+      "mean_persistence_gain": 0.058827552515876895,
+      "mean_sync_gain": 0.32656630034272205,
+      "mean_compressibility_shift": -0.20757397025057475
+    },
+    {
+      "coupling": 0.625,
+      "mean_persistence_gain": 0.06105520273571081,
+      "mean_sync_gain": 0.2933022048525072,
+      "mean_compressibility_shift": -0.2117998386203678
+    },
+    {
+      "coupling": 0.6666666666666666,
+      "mean_persistence_gain": 0.06792379091353198,
+      "mean_sync_gain": 0.28375924809155595,
+      "mean_compressibility_shift": -0.22323575343824537
+    },
+    {
+      "coupling": 0.7083333333333333,
+      "mean_persistence_gain": 0.06764044943820226,
+      "mean_sync_gain": 0.24882138973305076,
+      "mean_compressibility_shift": -0.22948594969966618
+    },
+    {
+      "coupling": 0.75,
+      "mean_persistence_gain": 0.07021006350757204,
+      "mean_sync_gain": 0.2355182059111617,
+      "mean_compressibility_shift": -0.2335344659563078
+    },
+    {
+      "coupling": 0.7916666666666666,
+      "mean_persistence_gain": 0.07025891548607718,
+      "mean_sync_gain": 0.21454271207463863,
+      "mean_compressibility_shift": -0.2360229458080692
+    },
+    {
+      "coupling": 0.8333333333333333,
+      "mean_persistence_gain": 0.0749877870053737,
+      "mean_sync_gain": 0.2123296065729387,
+      "mean_compressibility_shift": -0.24297247899403399
+    },
+    {
+      "coupling": 0.875,
+      "mean_persistence_gain": 0.0762970200293112,
+      "mean_sync_gain": 0.2019506848744372,
+      "mean_compressibility_shift": -0.24336927593670274
+    },
+    {
+      "coupling": 0.9166666666666666,
+      "mean_persistence_gain": 0.07849535906204201,
+      "mean_sync_gain": 0.20088245246316908,
+      "mean_compressibility_shift": -0.2491778525126563
+    },
+    {
+      "coupling": 0.9583333333333333,
+      "mean_persistence_gain": 0.07787982413287738,
+      "mean_sync_gain": 0.19149316204173591,
+      "mean_compressibility_shift": -0.2475667309706967
+    },
+    {
+      "coupling": 1.0,
+      "mean_persistence_gain": 0.07992183683439179,
+      "mean_sync_gain": 0.18685277677045303,
+      "mean_compressibility_shift": -0.24709556617051387
+    }
+  ]
+}

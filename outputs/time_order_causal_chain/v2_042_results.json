@@ -1,0 +1,96 @@
+{
+  "results": {
+    "evolving": {
+      "chain_entropy": 7.732804260238096,
+      "lag_asymmetry": 3.1080462277917795e-18,
+      "motif_accumulation": 0.00119244974768891,
+      "compression_asymmetry": 0.0
+    },
+    "replay": {
+      "chain_entropy": 6.4857852764146715,
+      "lag_asymmetry": 5.565571152092256e-18,
+      "motif_accumulation": 0.002089847596020401,
+      "compression_asymmetry": 0.0
+    },
+    "stitched": {
+      "chain_entropy": 7.7347543523128905,
+      "lag_asymmetry": 1.6263032587282567e-18,
+      "motif_accumulation": 0.001193499122126393,
+      "compression_asymmetry": 0.0
+    },
+    "time_reversed": {
+      "chain_entropy": 7.732804260238096,
+      "lag_asymmetry": 2.168404344971009e-18,
+      "motif_accumulation": 0.0011924440018702383,
+      "compression_asymmetry": 0.0
+    },
+    "static": {
+      "chain_entropy": 4.460984140334497,
+      "lag_asymmetry": 1.1567081927704725e-17,
+      "motif_accumulation": 0.0027508808276244926,
+      "compression_asymmetry": 0.0
+    },
+    "random": {
+      "chain_entropy": 7.778772792918474,
+      "lag_asymmetry": 7.047314121155779e-19,
+      "motif_accumulation": 0.0007854555322765903,
+      "compression_asymmetry": 0.0
+    },
+    "cyclic_loop": {
+      "chain_entropy": 3.4868284675709735,
+      "lag_asymmetry": 2.0816681711721685e-17,
+      "motif_accumulation": 0.0032292355366011693,
+      "compression_asymmetry": 0.0
+    }
+  },
+  "distances": {
+    "replay": 1.2470193067225959,
+    "stitched": 0.0019500923571370106,
+    "time_reversed": 5.745818671765504e-09,
+    "static": 3.271820491058981,
+    "random": 0.045970334359001386,
+    "cyclic_loop": 4.245976281188056
+  },
+  "metric_correlations": [
+    [
+      0.9999999999999999,
+      -0.9701906424078418,
+      -0.9779598361928433,
+      NaN
+    ],
+    [
+      -0.9701906424078419,
+      1.0,
+      0.9494975914995512,
+      NaN
+    ],
+    [
+      -0.9779598361928433,
+      0.949497591499551,
+      1.0,
+      NaN
+    ],
+    [
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ]
+  ],
+  "max_metric_corr": NaN,
+  "conditions": {
+    "replay_distance_pass": true,
+    "stitched_distance_pass": false,
+    "reverse_distance_pass": false,
+    "metric_corr_pass": false
+  },
+  "collapse_detected": true,
+  "contradictions": [
+    "STITCHED COLLAPSE",
+    "TIME REVERSAL COLLAPSE"
+  ],
+  "dead_metrics": [
+    "lag_asymmetry",
+    "compression_asymmetry"
+  ]
+}

@@ -1,0 +1,100 @@
+# PHASE 281: SECTOR DOMINANCE SUMMARY
+# Symmetry Classification
+
+================================================================================
+SECTION 1: SECTOR DEFINITIONS
+================================================================================
+
+SYMMETRIC: 
+- Equal distribution across sectors
+- KL divergence from uniform < 0.1
+- Order parameter ≈ 0
+
+WEAKLY_BROKEN:
+- Projection dominates > 40%
+- KL divergence 0.1 - 0.5
+- Order parameter > 0.3
+
+STRONGLY_BROKEN:
+- Projection dominates > 70%
+- KL divergence > 0.5
+- Order parameter > 0.6
+
+ABSORBING:
+- Single sector dominates > 90%
+- KL divergence > 1.0
+- Order parameter > 0.8
+
+================================================================================
+SECTION 2: TERMINAL DEPTH CLASSIFICATION
+================================================================================
+
+Depth 12 Results:
+- Projection fraction: 0.3702 (37.02%)
+- Antisymmetry fraction: 0.0024 (0.24%)
+- Neutral fraction: 0.6274 (62.74%)
+- KL divergence: 0.4238
+- Order parameter: 0.3678
+
+CLASSIFICATION: WEAKLY_BROKEN
+
+Rationale:
+- Projection at 37% (below 40% threshold for weak dominance)
+- KL divergence in [0.1, 0.5] range: 0.4238
+- Order parameter in [0.3, 0.6] range: 0.3678
+
+================================================================================
+SECTION 3: DEPTH PROGRESSION
+================================================================================
+
+SYMMETRY STATUS BY DEPTH:
+
+Depth 1-3: WEAKLY_BROKEN (KL 0.41-0.44)
+Depth 4-6: WEAKLY_BROKEN (KL 0.42-0.43)
+Depth 7-9: WEAKLY_BROKEN (KL 0.41-0.43)
+Depth 10-12: WEAKLY_BROKEN (KL 0.42-0.43)
+
+No transition between symmetry classes observed.
+
+================================================================================
+SECTION 4: SECTOR DOMINANCE VERDICT
+================================================================================
+
+VERDICT: WEAKLY_BROKEN
+
+Evidence:
+1. Projection sector has moderate bias (~37%)
+2. Neutral sector dominates (~63%)
+3. Antisymmetry sector suppressed (~0.2%)
+4. No evolution toward stronger asymmetry
+
+NOT:
+- SYMMETRIC (would require M ≈ 0)
+- STRONGLY_BROKEN (would require proj > 0.70)
+- ABSORBING (would require single sector > 0.90)
+
+================================================================================
+SECTION 5: HYPOTHESIS RESULTS
+================================================================================
+
+H1 (KL increases with depth): PASS
+- Initial: 0.4177
+- Final: 0.4238
+- Change: +0.0061 (slight increase)
+
+H2 (projection > 0.70): FAIL
+- Terminal: 0.3702
+- Threshold: 0.70
+- Gap: 0.3298
+
+H3 (M increases monotonically): FAIL
+- Observed: Oscillatory pattern
+- Not monotonic
+
+H4 (RG correlation > 0.90): PASS
+- Correlation: 1.0000
+- Scale invariance confirmed
+
+================================================================================
+END OF SECTOR DOMINANCE SUMMARY
+================================================================================

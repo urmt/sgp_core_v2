@@ -1,0 +1,10 @@
+ABSTRACT
+We performed forensic/geometric analysis of V2_079 embedding architecture for temporal transform detection.
+Initial investigation identified invalid experimental conditions: signal contamination, dead metrics, numerical singularities, embedding inconsistencies.
+After freezing canonical V2_079 and restoring strict lineage:
+- embeddings were separable (1NN=0.80 vs chance=0.20)
+- LDA achieved AUC=0.905
+- scalar threshold gates underperformed substantially
+regime_switch showed: scalar gate=30% vs LDA=90%, demonstrating gate geometry destroys separable information.
+Transform confusion: deterministic domains perfectly separable, replay universally robust, rw_trend true overlap.
+Findings support replacing scalar gates with probabilistic/discriminative readouts.

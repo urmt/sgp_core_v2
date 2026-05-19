@@ -1,0 +1,83 @@
+# PHASE 296: FORBIDDEN INTERPRETATIONS
+# Explicit Prohibited Claims
+# STRICTLY MATHEMATICAL | NO PHYSICS | NO ONTOLOGY
+
+================================================================================
+SECTION 1: EXPLICITLY FORBIDDEN
+================================================================================
+
+The following interpretations are PROHIBITED and will NOT
+be made regardless of experimental results:
+
+1. "Phase transitions discovered"
+   - Transitions are state changes between clusters
+   - No thermodynamic interpretation
+   - No phase matter analogy
+
+2. "Matter-like states"
+   - States are organizational configurations
+   - No physical matter claim
+   - No material interpretation
+
+3. "Physical attractors"
+   - Attractors are state convergence patterns
+   - No physics interpretation
+   - No gravitational analogy
+
+4. "Energy landscape"
+   - Landscape is metric configuration space
+   - No energy interpretation
+   - No potential function
+
+5. "Spacetime dynamics"
+   - Dynamics are trajectory evolution
+   - No spacetime claim
+   - No temporal structure
+
+6. "Physics emergence confirmed"
+   - Transition analysis is mathematical
+   - No physics derivation
+   - No physical theory
+
+7. "Matter-state transitions"
+   - Transitions are between relational states
+   - No matter interpretation
+   - No physical state
+
+8. "Thermodynamic phase behavior"
+   - Metastability is bounded transition
+   - No thermodynamic interpretation
+   - No heat/entropy claim
+
+================================================================================
+SECTION 2: ALLOWED INTERPRETATIONS
+================================================================================
+
+ONLY the following mathematical language is permitted:
+
+- "state cluster change"
+- "bounded transition rate"
+- "metastable pathway retention"
+- "sector transition bias"
+- "recursive consistency index"
+- "pathway stability measure"
+- "transition rate decay"
+- "retention strength correlation"
+
+================================================================================
+SECTION 3: EMPIRICAL BOUNDARY
+================================================================================
+
+Results reported:
+- Transition rates
+- Retention strengths
+- Metastability indices
+- Sector biases
+- RG correlations
+
+No claims beyond mathematical description of
+transition structure in persistence geometry.
+
+================================================================================
+END OF FORBIDDEN INTERPRETATIONS
+================================================================================

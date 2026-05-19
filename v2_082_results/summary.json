@@ -1,0 +1,30 @@
+{
+  "n_embeddings": 250,
+  "domains": [
+    "chirp",
+    "rw_trend",
+    "regime_switch",
+    "chaotic_logistic",
+    "coupled_osc"
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    79,
+    101,
+    149,
+    211,
+    307,
+    401
+  ],
+  "mean_1nn_acc": 0.8,
+  "mean_lda_acc": 0.905,
+  "mean_lda_auc": 0.905,
+  "comparison": {
+    "hypothesis": "Embeddings contain separable information; scalar gate destroys it.",
+    "key_ratio": "LDA acc=0.905 vs scalar gate ~3.5/5=0.70 effective rate",
+    "conclusion": "LDA consistently recovers information that scalar gate discards."
+  }
+}

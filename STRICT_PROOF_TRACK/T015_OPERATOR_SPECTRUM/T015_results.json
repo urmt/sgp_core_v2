@@ -1,0 +1,16 @@
+{
+  "spectral_radius": 1.013703098540916,
+  "rank_estimate": 4,
+  "singular_values": [
+    1.4149974904043419,
+    1.0208131372325357,
+    0.9619136829787172,
+    0.0022724813006817206
+  ],
+  "sv_ratio": 0.0016059967004116331,
+  "idempotency_error": 0.05479064227347424,
+  "principal_alignment": 0.7357800994183481,
+  "H1_projection": true,
+  "H2_spectral_filter": true,
+  "H3_invariant_direction": false
+}

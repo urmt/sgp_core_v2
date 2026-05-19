@@ -1,0 +1,82 @@
+# PHASE 280: PATH DEPENDENCE TABLE
+# Does Recovery Outcome Depend on Stress History?
+
+================================================================================
+SECTION 1: PATH STRUCTURE DEFINITIONS
+================================================================================
+
+PATH A: Simple rollback
+  Sequence: forward(d=3) → rollback(d=0)
+
+PATH B: Additional stress before rollback
+  Sequence: forward(d=3) → stress(d=2,3,2) → rollback(d=0)
+
+PATH C: Partial rollback + re-stress
+  Sequence: forward(d=3) → partial_rollback(d=1,0) → re-stress(d=2,2,3) → rollback(d=0)
+
+================================================================================
+SECTION 2: PATH RESULTS BY TOPOLOGY
+================================================================================
+
+TOPOLOGY: all-to-all
+  Path A: delta=0.0176 [FRAGILE]
+  Path B: delta=0.0098 [RECOVERABLE]
+  Path C: delta=0.0254 [DEGRADED]
+  Max delta: 0.0254
+  Min delta: 0.0098
+  Delta range: 0.0156 (> 0.01 threshold)
+  Path dependent: YES
+
+TOPOLOGY: erdos-renyi
+  Path A: delta=0.0091 [RECOVERABLE]
+  Path B: delta=0.0215 [DEGRADED]
+  Path C: delta=0.0078 [RECOVERABLE]
+  Max delta: 0.0215
+  Min delta: 0.0078
+  Delta range: 0.0137 (> 0.01 threshold)
+  Path dependent: YES
+
+TOPOLOGY: small-world
+  Path A: delta=0.0209 [DEGRADED]
+  Path B: delta=0.0085 [RECOVERABLE]
+  Path C: delta=0.0026 [RECOVERABLE]
+  Max delta: 0.0209
+  Min delta: 0.0026
+  Delta range: 0.0183 (> 0.01 threshold)
+  Path dependent: YES
+
+TOPOLOGY: scale-free
+  Path A: delta=0.0124 [FRAGILE]
+  Path B: delta=0.0013 [RECOVERABLE]
+  Path C: delta=0.0013 [RECOVERABLE]
+  Max delta: 0.0124
+  Min delta: 0.0013
+  Delta range: 0.0111 (> 0.01 threshold)
+  Path dependent: YES
+
+TOPOLOGY: modular
+  Path A: delta=0.0007 [RECOVERABLE]
+  Path B: delta=0.0007 [RECOVERABLE]
+  Path C: delta=0.0163 [FRAGILE]
+  Max delta: 0.0163
+  Min delta: 0.0007
+  Delta range: 0.0156 (> 0.01 threshold)
+  Path dependent: YES
+
+================================================================================
+SECTION 3: PATH DEPENDENCE SUMMARY
+================================================================================
+
+Path dependent topologies: 5 / 5
+Path independent topologies: 0 / 5
+
+Q3 STATUS: PASS (path dependent = YES)
+
+All topologies show path dependence with delta range > 0.01.
+
+The specific sequence of stress and rollback operations
+determines recovery outcome.
+
+================================================================================
+END OF PATH DEPENDENCE TABLE
+================================================================================

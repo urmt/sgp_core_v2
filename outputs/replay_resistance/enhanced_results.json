@@ -1,0 +1,92 @@
+{
+  "legitimate": {
+    "stable_hierarchy": {
+      "replay_similarity": 0.8266195605347915,
+      "novelty_decay": 0.40929895882950684,
+      "temporal_entropy": 3.4134051044660825,
+      "similarity_mean": 0.8266195605347915,
+      "similarity_std": 0.22529630907568748,
+      "similarity_range": 0.7857754402504572,
+      "similarity_trend": 0.11569699282946111,
+      "is_constant_replay": "False",
+      "anti_replay_score": 1.0124255785664937,
+      "is_replay": false
+    },
+    "random_temporal": {
+      "replay_similarity": 0.004506837221698296,
+      "novelty_decay": 1.115403833642224,
+      "temporal_entropy": 5.604741409739469,
+      "similarity_mean": 0.004506837221698296,
+      "similarity_std": 0.07518640096831325,
+      "similarity_range": 0.3405087896501663,
+      "similarity_trend": 0.012210181861794397,
+      "is_constant_replay": "False",
+      "anti_replay_score": 1.9391801006803888,
+      "is_replay": false
+    },
+    "perturb_recover": {
+      "replay_similarity": 0.9893075359320983,
+      "novelty_decay": 0.11160689997992695,
+      "temporal_entropy": -15.691010593709569,
+      "similarity_mean": 0.9893075359320983,
+      "similarity_std": 0.0010875422924964426,
+      "similarity_range": 0.004167195912059163,
+      "similarity_trend": 0.0007199235242343338,
+      "is_constant_replay": "True",
+      "anti_replay_score": -4.901729817986064,
+      "is_replay": true
+    }
+  },
+  "adversarial": {
+    "replay_memory_spoof": {
+      "replay_similarity": 0.9998917320379249,
+      "novelty_decay": 0.011160689997992697,
+      "temporal_entropy": -809.1017359200829,
+      "similarity_mean": 0.9998917320379249,
+      "similarity_std": 1.0552520134085094e-05,
+      "similarity_range": 4.1405805111804916e-05,
+      "similarity_trend": 6.4927183939245126e-06,
+      "is_constant_replay": "True",
+      "anti_replay_score": -163.6169686071326,
+      "is_replay": true
+    },
+    "delayed_random_coherence": {
+      "replay_similarity": 0.007889047213599308,
+      "novelty_decay": 1.1153794183886092,
+      "temporal_entropy": 5.602720878994252,
+      "similarity_mean": 0.007889047213599308,
+      "similarity_std": 0.07745335481161832,
+      "similarity_range": 0.3244006531208377,
+      "similarity_trend": 0.03512261067446574,
+      "is_constant_replay": "False",
+      "anti_replay_score": 1.93730061618903,
+      "is_replay": false
+    },
+    "temporal_camouflage": {
+      "replay_similarity": -0.04580585436993881,
+      "novelty_decay": 1.1376239907408399,
+      "temporal_entropy": 4.906452469542748,
+      "similarity_mean": -0.04580585436993881,
+      "similarity_std": 0.09036421431982823,
+      "similarity_range": 0.2983656063626574,
+      "similarity_trend": -0.07442652779635095,
+      "is_constant_replay": "False",
+      "anti_replay_score": 1.8182466045778176,
+      "is_replay": false
+    },
+    "phase_shift_replay": {
+      "replay_similarity": 0.07969137062228948,
+      "novelty_decay": 1.1005898308420416,
+      "temporal_entropy": 6.180545290077702,
+      "similarity_mean": 0.07969137062228948,
+      "similarity_std": 0.059670187909304305,
+      "similarity_range": 0.24627548047043463,
+      "similarity_trend": -0.04438870259953311,
+      "is_constant_replay": "False",
+      "anti_replay_score": 1.994335500484065,
+      "is_replay": false
+    }
+  },
+  "detection_rate": 0.25,
+  "false_positive_rate": 0.3333333333333333
+}

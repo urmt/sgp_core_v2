@@ -1,0 +1,64 @@
+{
+  "tau": [
+    0.0009286836974655924,
+    0.9999995524847825,
+    0.00017022912019078098,
+    5.999059913154234e-05
+  ],
+  "results": {
+    "reverse": {
+      "mean_vector": [
+        0.0,
+        7.37460765197484e-17,
+        0.0,
+        0.0
+      ],
+      "mean_norm": 7.37460765197484e-17,
+      "tau_alignment": 7.374604351725691e-17,
+      "orthogonal_ratio": 0.0009460603761301138
+    },
+    "swap": {
+      "mean_vector": [
+        0.00013678553981435692,
+        2.6645352591003756e-17,
+        6.264172374192967e-07,
+        -2.442002442002456e-05
+      ],
+      "mean_norm": 0.00013894968115665094,
+      "tau_alignment": 0.0009044436979961214,
+      "orthogonal_ratio": 0.9999995909907148
+    },
+    "replay": {
+      "mean_vector": [
+        0.002217879824132877,
+        1.2005163775037868,
+        0.00048184698553256134,
+        -0.004610500610500609
+      ],
+      "mean_norm": 1.2005273760052815,
+      "tau_alignment": 0.9999919447032147,
+      "orthogonal_ratio": 0.0040137923068542265
+    },
+    "stitch": {
+      "mean_vector": [
+        -0.0001172447484123107,
+        0.2295254930351433,
+        4.062459392581985e-05,
+        0.00020512820512820528
+      ],
+      "mean_norm": 0.22952561823747433,
+      "tau_alignment": 0.9999986163613538,
+      "orthogonal_ratio": 0.001663512963012197
+    }
+  },
+  "families": {
+    "reverse": "symmetry_preserving",
+    "swap": "orthogonal_family",
+    "replay": "tau_axis_family",
+    "stitch": "tau_axis_family"
+  },
+  "H1_tau_family": true,
+  "H2_swap_orthogonal": true,
+  "H3_reverse_symmetry": true,
+  "interpretation": "Transforms decompose: replay/stitch=\u03c4-axis family, reverse=symmetry preserving, swap=orthogonal."
+}

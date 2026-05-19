@@ -1,0 +1,6 @@
+domain,lda_accuracy,gate_accuracy,status,delta
+chaotic_logistic,1.0,1.0,perfect,0.0
+chirp,1.0,1.0,perfect,0.0
+coupled_osc,1.0,1.0,perfect,0.0
+regime_switch,0.9,0.3,gate_failure,0.6000000000000001
+rw_trend,0.42,0.5,true_overlap,-0.08000000000000002

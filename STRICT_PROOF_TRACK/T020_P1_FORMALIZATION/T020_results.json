@@ -1,0 +1,12 @@
+{
+  "global_pc1": 0.5959684853261078,
+  "global_dim95": 2,
+  "effective_rank": 2.158252369671271,
+  "transform_pc1": 0.9988802567388562,
+  "transform_dim95": 1,
+  "axis_similarity": 0.9996281435917654,
+  "H1_global_1D": false,
+  "H2_local_multidirectional": false,
+  "H3_axis_stable": true,
+  "interpretation": "P1 REFINED: Embedding manifold is globally low-rank, not geometrically collinear. Cov(X) has dominant rank-1 structure while transform operators induce local multidirectional displacements."
+}

@@ -1,0 +1,35 @@
+{
+  "vectors": {
+    "evolving": {
+      "coherence": 0.9362387170930389,
+      "fertility": 0.14520752728562622,
+      "continuity": 0.5408672163690512,
+      "evolution": 0
+    },
+    "static": {
+      "coherence": 0.9658829168363023,
+      "fertility": 0.17403364636602492,
+      "continuity": 0.8370743288336926,
+      "evolution": 0
+    },
+    "random": {
+      "coherence": 0.40699933711938047,
+      "fertility": 0.04822141047213009,
+      "continuity": 0.054049469836507685,
+      "evolution": 0
+    },
+    "replay": {
+      "coherence": 0.9623500207918817,
+      "fertility": 0.17981316158732483,
+      "continuity": 0.5677882056376962,
+      "evolution": 0
+    }
+  },
+  "ratios": {
+    "coherence": 1.2027566360609825,
+    "fertility": 1.0834543228986606,
+    "continuity": 1.11219978377717,
+    "evolution": 0.0
+  },
+  "best_axis": "coherence"
+}

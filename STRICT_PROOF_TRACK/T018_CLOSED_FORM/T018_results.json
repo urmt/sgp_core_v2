@@ -1,0 +1,19 @@
+{
+  "mean_trajectory": [
+    1.1885018819579038,
+    0.011532648560350252,
+    0.011532648560350252,
+    0.011532648560350252,
+    0.011532648560350252,
+    0.011532648560350252
+  ],
+  "exp_fit_a": 1.1885007408892745,
+  "exp_fit_b": 4.6155679225895305,
+  "exp_fit_r2": 0.9995414316194541,
+  "projection_ratio": 0.009703517289633562,
+  "fixed_error_mean": 0.0,
+  "H1_exponential_contraction": true,
+  "H2_projection_operator": true,
+  "H3_fixed_point": true,
+  "closed_form_statement": "Replay operator R acts approximately as: R:(m1,m2,m3,m4)->(m1,phi,phi,m4) where phi\u2248shared redundancy coordinate. Thus replay annihilates N(x)=m2-m3 and projects onto M={x:m2=m3}."
+}

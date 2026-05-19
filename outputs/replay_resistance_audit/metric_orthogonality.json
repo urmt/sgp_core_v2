@@ -1,0 +1,11 @@
+{
+  "pairwise_correlations": {
+    "evolution__irreversibility": 0.06285788107729016,
+    "evolution__operator_memory": -0.8700249247007759,
+    "evolution__spectral_entropy": 0.9950119165623248,
+    "irreversibility__operator_memory": -0.38850149787366306,
+    "irreversibility__spectral_entropy": 0.16208395721816574,
+    "operator_memory__spectral_entropy": -0.8994851990528056
+  },
+  "max_correlation": 0.9950119165623248
+}

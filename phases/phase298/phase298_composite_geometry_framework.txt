@@ -1,0 +1,86 @@
+# PHASE 298: COMPOSITE GEOMETRY FRAMEWORK
+# Emergent Relational Composite Organization Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: OPERATIONAL DEFINITIONS
+================================================================================
+
+A. COMPOSITE ORGANIZATION
+--------------------------
+Definition: A recursively persistent higher-order relational
+configuration formed from interacting sectors.
+
+Operationalization:
+- Identify stable sector-pair configurations
+- composite = sector_pair_center + bounded_variance
+- Higher retention = more stable composite
+
+B. COMPOSITE STABILITY
+------------------------
+Definition: Bounded variability of composite relational
+organization across recursive depth.
+
+Operationalization:
+- Compute variance of composite metrics across depths
+- Stability = 1 - normalized_variance
+- Bounded variance = stable composite
+
+C. COMPOSITE RETENTION
+------------------------
+Definition: Persistence of identifiable composite structure
+under recursive propagation.
+
+Operationalization:
+- Track composite structure across depths
+- retention = correlation(composite_d, composite_d+k)
+- Higher retention = more persistent composite
+
+D. SECTOR COMPOSITING BIAS
+----------------------------
+Definition: Sector-dependent asymmetry in composite
+formation behavior.
+
+Operationalization:
+- Compare composite formation across sector pairs
+- bias = |composite_A - composite_B| / avg_composite
+- Higher bias = more asymmetric
+
+E. METASTABLE COMPOSITE
+------------------------
+Definition: A bounded but non-fixed composite organizational
+structure.
+
+Operationalization:
+- Check for bounded variability with nonzero retention
+- metastable = bounded_variance AND retention > threshold
+- Fixed = very low variance
+
+F. COMPOSITE RG STABILITY
+----------------------------
+Definition: Scale-stable preservation of composite organization.
+
+Operationalization:
+- Compare fine-scale composite with coarse-grained
+- Stability = correlation(fine, coarse)
+- > 0.90 = RG_STABLE
+
+================================================================================
+SECTION 2: COMPOSITE CLASSIFICATION
+================================================================================
+
+COMPOSITE-PRESERVING:
+- H1, H2, H4, H5 PASS
+- Stable composites, bounded variability, RG stable
+
+COMPOSITE-NEUTRAL:
+- H2, H3, H5 PASS
+- Moderate composites, bounded variability
+
+COMPOSITE-SUPPRESSING:
+- H1 or H2 FAIL
+- Weak composite or unbounded variability
+
+================================================================================
+END OF FRAMEWORK
+================================================================================

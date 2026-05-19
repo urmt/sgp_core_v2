@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-05-15T21:07:02.408632Z",
+  "phase": "T002_CURVATURE_TOPOLOGY",
+  "mean_local_curvature": 0.05896447554040371,
+  "effective_rank_pc1": 0.9925697923725806,
+  "convex_hull_volume": 4.560201913707902,
+  "connection_density_10pct": 24.544,
+  "min_neighbor_distance_mean": 0.012302737327578847,
+  "interpretation": {
+    "curvature": "low=linear manifold",
+    "eff_rank": "high=full dimensional",
+    "conn_density": "connectedness at scale r"
+  }
+}

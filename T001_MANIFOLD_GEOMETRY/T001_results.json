@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-05-16T03:04:15.643241Z",
+  "phase": "THEORY_DISCOVERY",
+  "task": "T001_MANIFOLD_GEOMETRY",
+  "pca": {
+    "dim95": 3,
+    "explained": [
+      0.4337387038088581,
+      0.33051857212782504,
+      0.20764063436070376,
+      0.028102089702613135
+    ]
+  },
+  "neighbor_purity": 0.9992000000000001,
+  "geodesic_correlation": 0.9281236954428338,
+  "replay_distance": 1.2,
+  "domain_overlap": {
+    "chirp": {
+      "within_mean": 0.3667444378739659,
+      "between_mean": 1.345816287767107,
+      "separation_ratio": 3.669629717000931
+    },
+    "rw_trend": {
+      "within_mean": 0.36997590976279404,
+      "between_mean": 1.3414273093128017,
+      "separation_ratio": 3.6257152801457884
+    },
+    "regime_switch": {
+      "within_mean": 0.407120448757571,
+      "between_mean": 1.3162225067136648,
+      "separation_ratio": 3.2330051480598536
+    },
+    "chaotic_logistic": {
+      "within_mean": 0.3716407160054169,
+      "between_mean": 1.3770955662399884,
+      "separation_ratio": 3.7054485876620586
+    },
+    "coupled_osc": {
+      "within_mean": 0.4076206430599843,
+      "between_mean": 1.3965324889599393,
+      "separation_ratio": 3.426059285114345
+    }
+  }
+}

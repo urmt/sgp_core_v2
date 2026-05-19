@@ -1,0 +1,17 @@
+{
+  "distances": {
+    "replay": 0.08436081689886214,
+    "stitched": 0.16687384588471843,
+    "time_reversed": 0.004405899153079901
+  },
+  "collapse": {
+    "replay": true,
+    "stitched": true,
+    "reverse": true
+  },
+  "mean_transform_invariance": 0.44351113881415155,
+  "max_metric_correlation": 0.7109896256839564,
+  "contradictions": [
+    "COLLAPSE DETECTED"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "pairwise_correlations": {
+    "forward_reverse_transition_asymmetry__directional_state_predictability": -0.2838923853805462,
+    "forward_reverse_transition_asymmetry__temporal_path_irreversibility": 0.8380193632359312,
+    "forward_reverse_transition_asymmetry__transition_operator_divergence": 0.9895174358881228,
+    "directional_state_predictability__temporal_path_irreversibility": -0.3942429842210195,
+    "directional_state_predictability__transition_operator_divergence": -0.24703124736805823,
+    "temporal_path_irreversibility__transition_operator_divergence": 0.8786704013614468
+  },
+  "max_correlation": 0.9895174358881228
+}

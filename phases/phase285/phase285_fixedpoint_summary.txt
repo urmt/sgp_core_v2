@@ -1,0 +1,94 @@
+# PHASE 285: FIXED-POINT SUMMARY
+# System Classification
+
+================================================================================
+SECTION 1: CLASSIFICATION CRITERIA
+================================================================================
+
+DIFFUSE:
+- Diffuse rate > 25%
+- No fixed or metastable structure
+- Random sector evolution
+
+WEAKLY_RECURRENT:
+- Mean recurrence > 0.50
+- Diffuse < 25%
+- No dominant fixed structure
+
+METASTABLY_RECURRENT:
+- Fixed/metastable > 60%
+- Mean recurrence > 0.50
+- Stable sector persistence
+
+FIXED_POINT_DOMINATED:
+- All H1-H5 PASS
+- Strong fixed structure
+- Basin dominance
+
+BASIN_STRUCTURED:
+- All basins nonzero
+- Metastable sector persistence
+- No fixed domination
+
+================================================================================
+SECTION 2: HYPOTHESIS RESULTS
+================================================================================
+
+H1: Fixed/metastable > 60%
+STATUS: FAIL
+Value: 57.60%
+Deficit: 2.4%
+
+H2: Mean recurrence > 0.50
+STATUS: PASS
+Value: 0.7170
+
+H3: RG fixed stability > 0.90
+STATUS: FAIL
+Value: 0.0000
+Note: Coarse depths show different rates (0.606 vs 0.576)
+
+H4: All basins nonzero
+STATUS: PASS
+Value: projection=356, neutral=143, antisymmetry=1
+
+H5: Diffuse < 25%
+STATUS: PASS
+Value: 0.0000
+
+================================================================================
+SECTION 3: VERDICT
+================================================================================
+
+VERDICT: WEAKLY_RECURRENT
+
+Rationale:
+- H1 FAIL: Fixed/metastable = 57.6% (< 60%)
+- H2 PASS: Recurrence = 0.717 (> 0.50)
+- H3 FAIL: RG agreement = 0.0 (< 0.90)
+- H4 PASS: All basins nonzero
+- H5 PASS: Diffuse = 0% (< 25%)
+
+The system exhibits:
+- Weakly recurrent structure (recurrence > 0.50)
+- No strong fixed structure (fixed < 60%)
+- Two-basin topology (projection + neutral)
+- No diffuse evolution
+- Moderate RG instability
+
+================================================================================
+SECTION 4: INTERPRETATION
+================================================================================
+
+Recursive constraint organization exhibits:
+- Metastable sector persistence
+- Two-basin structure (projection dominant)
+- Stable recurrence around 0.72
+- No fixed-point domination
+- No diffuse evolution
+
+Classification: WEAKLY_RECURRENT
+
+================================================================================
+END OF FIXED-POINT SUMMARY
+================================================================================

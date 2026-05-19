@@ -1,0 +1,82 @@
+# PHASE 288: FORBIDDEN INTERPRETATIONS
+# Explicit Prohibited Claims
+# STRICTLY MATHEMATICAL | NO PHYSICS | NO ONTOLOGY
+
+================================================================================
+SECTION 1: EXPLICITLY FORBIDDEN
+================================================================================
+
+The following interpretations are PROHIBITED and will NOT
+be made regardless of experimental results:
+
+1. "State reduction implies wavefunction collapse"
+   - State reduction is volume/compactness change
+   - No quantum wave function
+   - No collapse interpretation
+
+2. "Compression proves physics"
+   - Compression is manifold tightening
+   - No physical system
+   - No physics claim
+
+3. "Manifolds imply spacetime"
+   - Manifolds are configuration clusters
+   - No spatial or temporal structure
+   - No spacetime emergence
+
+4. "Recursive reduction implies observers"
+   - Reduction is configuration compression
+   - No observer interpretation
+   - No consciousness connection
+
+5. "Constraint compression creates reality"
+   - Compression is mathematical
+   - No "reality generation"
+   - No ontological status
+
+6. "Volume decrease proves particle creation"
+   - Volume is sector fraction
+   - No particle physics
+   - No creation claim
+
+7. "Compactness increase indicates measurement"
+   - Compactness is manifold tightness
+   - No measurement interpretation
+   - No observer effect
+
+8. "Metastable manifold indicates quantum state"
+   - Manifold is configuration cluster
+   - No quantum mechanics
+   - No wave function
+
+================================================================================
+SECTION 2: ALLOWED INTERPRETATIONS
+================================================================================
+
+ONLY the following mathematical language is permitted:
+
+- "Accessible configuration volume"
+- "Manifold compactness"
+- "Recursive compression"
+- "State-space reduction"
+- "Metastable configuration manifold"
+- "Accessible volume stability"
+- "Configuration diversity bounded"
+- "Sector-dependent compactness"
+
+================================================================================
+SECTION 3: EMPIRICAL BOUNDARY
+================================================================================
+
+Results reported:
+- Accessible volumes by sector
+- Manifold compactness
+- Volume ratios
+- RG correlations
+
+No claims beyond mathematical description of
+state-space reduction in persistence geometry.
+
+================================================================================
+END OF FORBIDDEN INTERPRETATIONS
+================================================================================

@@ -1,0 +1,76 @@
+# PHASE 275: TOPOLOGY RECOVERY TABLE
+# Fracture Onset by Topology Class
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: TOPOLOGY FRACTURE DEPTHS
+================================================================================
+
+| Topology      | d=0.0 | d=0.5 | d=1.0 | d=1.5 | d=2.0 | Fracture Depth |
+|---------------|-------|-------|-------|-------|-------|----------------|
+| all-to-all    | 0.015 | 0.017 | 0.043 | 0.043 | 0.043 | 1.0            |
+| Erdős–Rényi   | 0.043 | 0.043 | 0.043 | 0.043 | 0.043 | 0.0            |
+| small-world   | 0.012 | 0.015 | 0.018 | 0.025 | 0.043 | 2.0            |
+
+FRACTURE THRESHOLDS:
+
+1. Erdős–Rényi: d_f = 0.0 (immediate fracture at start)
+2. all-to-all: d_f = 1.0 (fractures at depth 1.0)
+3. small-world: d_f = 2.0 (most stable, fractures at depth 2.0)
+
+================================================================================
+SECTION 2: TOPOLOGY SENSITIVITY RANKING
+================================================================================
+
+MOST SENSITIVE (fractures earliest):
+1. Erdős–Rényi: d = 0.0
+2. all-to-all: d = 1.0
+3. small-world: d = 2.0 (most robust)
+
+LEAST SENSITIVE (fractures latest):
+1. small-world: d = 2.0 (fracture-resistant)
+2. all-to-all: d = 1.0 (moderate)
+3. Erdős–Rényi: d = 0.0 (fracture-prone)
+
+================================================================================
+SECTION 3: RECOVERY BY TOPOLOGY
+================================================================================
+
+ALL-TO-ALL:
+- Initial localization: 0.015
+- At fracture (d=1.0): 0.043
+- After rollback to d=0: 0.018
+- Recovery: PARTIAL (delta = 0.003)
+
+ERDŐS–RÉNYI:
+- Initial localization: 0.043 (already fractured at baseline)
+- Recovery: NOT APPLICABLE (fractured from start)
+
+SMALL-WORLD:
+- Initial localization: 0.012
+- At fracture (d=2.0): 0.043
+- After rollback to d=0: 0.015
+- Recovery: COMPLETE (delta = 0.003)
+
+================================================================================
+SECTION 4: TOPOLOGY CLASSIFICATION
+================================================================================
+
+TOPOLOGY CLASS A: FRACTURE-PRONE
+- Erdős–Rényi
+- Fractures immediately
+- Low recovery potential
+
+TOPOLOGY CLASS B: FRACTURE-MODERATE
+- all-to-all
+- Fractures at depth 1.0
+- Partial recovery
+
+TOPOLOGY CLASS C: FRACTURE-RESISTANT
+- small-world
+- Fractures at depth 2.0
+- High recovery potential
+
+================================================================================
+END OF TOPOLOGY RECOVERY TABLE
+================================================================================

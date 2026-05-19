@@ -1,0 +1,11 @@
+{
+  "phase2_results": {
+    "name": "phase2_results",
+    "category": "research",
+    "path": "STRICT_STATE/research/phase2_results.pkl",
+    "sha256": "c724d7e2fb5078e6d0d946438083c7fa63fbb3f804c65e2a98a634608744e0c9",
+    "timestamp": "2026-05-16T02:40:23.251745Z",
+    "canonical": true,
+    "duplicate_allowed": false
+  }
+}

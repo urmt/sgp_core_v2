@@ -1,0 +1,56 @@
+{
+  "results": {
+    "evolving": {
+      "evolution": 1.3045032361229483,
+      "irreversibility": 0.0,
+      "operator_memory": 0.3201548708684725,
+      "spectral_entropy": 7.565510434443697
+    },
+    "static": {
+      "evolution": 0.1992279487844015,
+      "irreversibility": 0.0,
+      "operator_memory": 1.7601916140012657,
+      "spectral_entropy": 3.29059426877521
+    },
+    "random": {
+      "evolution": 1.1336757711141379,
+      "irreversibility": 2.220446049250313e-16,
+      "operator_memory": 0.00030161742514699455,
+      "spectral_entropy": 7.470428300707161
+    },
+    "replay": {
+      "evolution": 1.3040023390451814,
+      "irreversibility": 0.0,
+      "operator_memory": 0.31817445291792534,
+      "spectral_entropy": 7.565510434443697
+    },
+    "stitched": {
+      "evolution": 1.3035610283840915,
+      "irreversibility": 0.0,
+      "operator_memory": 0.3194997754806448,
+      "spectral_entropy": 7.553491233607472
+    },
+    "time_reversed": {
+      "evolution": 1.3045032361229483,
+      "irreversibility": 0.0,
+      "operator_memory": 0.3201548708684724,
+      "spectral_entropy": 7.565510434443697
+    },
+    "cyclic_loop": {
+      "evolution": 0.13609381845217175,
+      "irreversibility": 2.7755575615628914e-17,
+      "operator_memory": 1.0005034624282296,
+      "spectral_entropy": 3.1265152033704866
+    }
+  },
+  "distances": {
+    "replay": 0.0020427807374666547,
+    "stitched": 0.012073859951639968,
+    "time_reversed": 1.1102230246251565e-16
+  },
+  "collapse": {
+    "replay": true,
+    "stitched": true,
+    "reverse": true
+  }
+}

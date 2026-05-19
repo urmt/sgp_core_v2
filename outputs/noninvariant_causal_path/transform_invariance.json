@@ -1,0 +1,8 @@
+{
+  "transform_invariance": {
+    "replay": 0.44907974029112785,
+    "stitched": -0.08977349785084177,
+    "time_reversed": 0.9712271740021685
+  },
+  "mean_invariance": 0.44351113881415155
+}

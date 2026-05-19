@@ -1,0 +1,10 @@
+{
+  "pc1": 0.6127175692701752,
+  "dim95": 2,
+  "local_dim": Infinity,
+  "jacobian_rank": 4,
+  "mean_contraction_ratio": 0.0,
+  "H1_contraction": true,
+  "H2_lowrank": false,
+  "H3_stabilizer": false
+}

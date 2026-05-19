@@ -1,0 +1,12 @@
+{
+  "latent_pc1": 0.6053220964527564,
+  "latent_dim95": 2,
+  "latent_curvature": 1.1206360929497243,
+  "family_separation": 0.3748724271957638,
+  "cluster_ratio": 0.22115458762152856,
+  "checks": {
+    "H1_lowrank_latent": false,
+    "H2_family_separation": false,
+    "H3_low_curvature": false
+  }
+}

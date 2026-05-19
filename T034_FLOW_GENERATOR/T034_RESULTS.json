@@ -1,0 +1,19 @@
+{
+  "flow_pc1": 0.9981441363500567,
+  "mean_alignment": 0.44204091752439506,
+  "generator_singular_values": [
+    0.2956648805855764,
+    0.021097379624298935,
+    0.0008599200470509988,
+    0.0001794488194400693
+  ],
+  "rank1_ratio": 0.9303441314787264,
+  "continuous_ratio": -0.45656831518784324,
+  "checks": {
+    "H1_tau_alignment": false,
+    "H2_rank1_generator": true,
+    "H3_replay_terminal": true,
+    "H4_transient_nonreplay": true,
+    "H5_continuous_flow": false
+  }
+}

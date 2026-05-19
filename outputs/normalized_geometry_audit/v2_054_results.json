@@ -1,0 +1,62 @@
+[
+  {
+    "domain": "chirp",
+    "replay_distance": 0.9878386000115544,
+    "stitched_distance": 1.9611956057487763,
+    "reverse_distance": 0.018136549698370974,
+    "adversarial_distance": 4.449036955306761,
+    "max_metric_corr": 0.9999786143010391,
+    "gate_open": false,
+    "contradictions": [
+      "TIME REVERSAL COLLAPSE",
+      "METRIC REDUNDANCY"
+    ]
+  },
+  {
+    "domain": "random_walk_trend",
+    "replay_distance": 1.5628976607394736,
+    "stitched_distance": 1.2320695197918925,
+    "reverse_distance": 3.121052214001041,
+    "adversarial_distance": 4.676468640563779,
+    "max_metric_corr": 0.9999016565511278,
+    "gate_open": false,
+    "contradictions": [
+      "METRIC REDUNDANCY"
+    ]
+  },
+  {
+    "domain": "regime_switching",
+    "replay_distance": 1.6266522171882287,
+    "stitched_distance": 2.3950292179806114,
+    "reverse_distance": 2.923262955860945,
+    "adversarial_distance": 4.526693937895915,
+    "max_metric_corr": 0.9959295328716805,
+    "gate_open": false,
+    "contradictions": [
+      "METRIC REDUNDANCY"
+    ]
+  },
+  {
+    "domain": "chaotic_logistic",
+    "replay_distance": 2.711821004435131,
+    "stitched_distance": 2.2804833768583337,
+    "reverse_distance": 3.1807085852159402,
+    "adversarial_distance": 4.590299647871676,
+    "max_metric_corr": 0.8795457384516427,
+    "gate_open": true,
+    "contradictions": []
+  },
+  {
+    "domain": "coupled_oscillator",
+    "replay_distance": 0.002378856981306105,
+    "stitched_distance": 1.0206262974130054,
+    "reverse_distance": 2.0412414578065645,
+    "adversarial_distance": 4.330462974120669,
+    "max_metric_corr": 0.9999996597541521,
+    "gate_open": false,
+    "contradictions": [
+      "REPLAY COLLAPSE",
+      "METRIC REDUNDANCY"
+    ]
+  }
+]

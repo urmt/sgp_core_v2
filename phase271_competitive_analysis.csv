@@ -1,0 +1,11 @@
+topology_A,topology_B,competition_level,transfer_gain_A,transfer_gain_B,dominance_detected,coexistence_detected,localization_preserved,saturation_preserved,competitive_stability,limitations
+all-to-all,erdos-renyi,0.0,-0.009,NA,no,no,yes,yes,high,single_topology_baseline
+all-to-all,erdos-renyi,0.25,0.004,-0.033,yes,yes,yes,yes,high,intermediate_mixing
+all-to-all,erdos-renyi,0.50,-0.010,-0.033,yes,yes,yes,partial,high,competitive_regime
+all-to-all,erdos-renyi,0.75,0.004,-0.033,yes,yes,yes,yes,high,intermediate_mixing
+all-to-all,erdos-renyi,1.0,NA,-0.033,no,no,no,yes,high,single_topology_baseline
+dual_topology,dual_topology,0.5,-0.067,-0.010,yes,yes,yes,partial,high,manifold_coexistence
+all-to-all,small-world,0.0,-0.009,NA,no,no,yes,yes,high,single_baseline
+all-to-all,small-world,0.5,-0.010,-0.010,partial,yes,yes,yes,high,competitive_regime
+all-to-all,small-world,1.0,NA,-0.010,no,no,yes,yes,high,single_baseline
+dual,NA,0.5,-0.050,-0.010,yes,yes,yes,no,high,dual_topology_saturation

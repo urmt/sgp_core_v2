@@ -1,0 +1,320 @@
+{
+  "protocol": "V2_048_ASYMPTOTIC_ORTHOGONALITY_AUDIT",
+  "results": [
+    {
+      "seed": 1,
+      "N": 100,
+      "raw_max_corr": 0.9729148450164355,
+      "detrended_max_corr": 0.9465364228712835,
+      "low_freq_max_corr": 0.999975054086571,
+      "high_freq_max_corr": 0.9524920387420678,
+      "raw_min_corr": 0.22317998237909553
+    },
+    {
+      "seed": 1,
+      "N": 250,
+      "raw_max_corr": 0.8629023394584325,
+      "detrended_max_corr": 0.9422881612068514,
+      "low_freq_max_corr": 0.9245573730129124,
+      "high_freq_max_corr": 0.8436868696005203,
+      "raw_min_corr": 0.2504289206959759
+    },
+    {
+      "seed": 1,
+      "N": 500,
+      "raw_max_corr": 0.8437251882589458,
+      "detrended_max_corr": 0.8211302504798188,
+      "low_freq_max_corr": 0.9792072706477828,
+      "high_freq_max_corr": 0.9904726402131113,
+      "raw_min_corr": 0.037264484701389725
+    },
+    {
+      "seed": 1,
+      "N": 1000,
+      "raw_max_corr": 0.9516425669296726,
+      "detrended_max_corr": 0.9241295375798562,
+      "low_freq_max_corr": 0.9900669491823866,
+      "high_freq_max_corr": 0.8611970839919407,
+      "raw_min_corr": 0.15139491547934414
+    },
+    {
+      "seed": 1,
+      "N": 2000,
+      "raw_max_corr": 0.9832939656354655,
+      "detrended_max_corr": 0.9912370335418984,
+      "low_freq_max_corr": 0.99795930698201,
+      "high_freq_max_corr": 0.9849351972010528,
+      "raw_min_corr": 0.06107771533998721
+    },
+    {
+      "seed": 1,
+      "N": 4000,
+      "raw_max_corr": 0.9885743178204935,
+      "detrended_max_corr": 0.9934952635140243,
+      "low_freq_max_corr": 0.9986245114011282,
+      "high_freq_max_corr": 0.9032041420064485,
+      "raw_min_corr": 0.04101714129095746
+    },
+    {
+      "seed": 1,
+      "N": 8000,
+      "raw_max_corr": 0.9986660387328605,
+      "detrended_max_corr": 0.9987251456415367,
+      "low_freq_max_corr": 0.9999962601019821,
+      "high_freq_max_corr": 0.8980551972121097,
+      "raw_min_corr": 0.004287370926739008
+    },
+    {
+      "seed": 2,
+      "N": 100,
+      "raw_max_corr": 0.9590864705193479,
+      "detrended_max_corr": 0.8266493025254643,
+      "low_freq_max_corr": 0.5984940208894692,
+      "high_freq_max_corr": 0.9121671195567651,
+      "raw_min_corr": 0.19685851367563478
+    },
+    {
+      "seed": 2,
+      "N": 250,
+      "raw_max_corr": 0.9267992670192865,
+      "detrended_max_corr": 0.8941101101227928,
+      "low_freq_max_corr": 0.9461457025114487,
+      "high_freq_max_corr": 0.9534054557788653,
+      "raw_min_corr": 0.37949285479876127
+    },
+    {
+      "seed": 2,
+      "N": 500,
+      "raw_max_corr": 0.8098659412364565,
+      "detrended_max_corr": 0.979852774661365,
+      "low_freq_max_corr": 0.9752266552203267,
+      "high_freq_max_corr": 0.9906123264346619,
+      "raw_min_corr": 0.01492694202926865
+    },
+    {
+      "seed": 2,
+      "N": 1000,
+      "raw_max_corr": 0.6330694271435816,
+      "detrended_max_corr": 0.9378981186487644,
+      "low_freq_max_corr": 0.9904504912312572,
+      "high_freq_max_corr": 0.9808388236193925,
+      "raw_min_corr": 0.042458186357141124
+    },
+    {
+      "seed": 2,
+      "N": 2000,
+      "raw_max_corr": 0.9418527061450368,
+      "detrended_max_corr": 0.9658800216834195,
+      "low_freq_max_corr": 0.9917558686428494,
+      "high_freq_max_corr": 0.9710014205705266,
+      "raw_min_corr": 0.09181675974538447
+    },
+    {
+      "seed": 2,
+      "N": 4000,
+      "raw_max_corr": 0.9974981759206806,
+      "detrended_max_corr": 0.9984069481548334,
+      "low_freq_max_corr": 0.9998925941538379,
+      "high_freq_max_corr": 0.900392156784998,
+      "raw_min_corr": 0.23119743854639765
+    },
+    {
+      "seed": 2,
+      "N": 8000,
+      "raw_max_corr": 0.9823038522883982,
+      "detrended_max_corr": 0.9973025886279944,
+      "low_freq_max_corr": 0.9972117523089327,
+      "high_freq_max_corr": 0.838803634781026,
+      "raw_min_corr": 0.04522723182440161
+    },
+    {
+      "seed": 3,
+      "N": 100,
+      "raw_max_corr": 0.6934355069573417,
+      "detrended_max_corr": 0.6192362238753523,
+      "low_freq_max_corr": 0.7440065030486217,
+      "high_freq_max_corr": 0.7150074221712334,
+      "raw_min_corr": 0.0
+    },
+    {
+      "seed": 3,
+      "N": 250,
+      "raw_max_corr": 0.6321054910076982,
+      "detrended_max_corr": 0.9455203990480702,
+      "low_freq_max_corr": 0.8722844903132652,
+      "high_freq_max_corr": 0.7718430387460604,
+      "raw_min_corr": 0.00026360542250250735
+    },
+    {
+      "seed": 3,
+      "N": 500,
+      "raw_max_corr": 0.8409216671000708,
+      "detrended_max_corr": 0.9635096955043633,
+      "low_freq_max_corr": 0.9391129120580691,
+      "high_freq_max_corr": 0.9845904245567993,
+      "raw_min_corr": 0.058311264208388405
+    },
+    {
+      "seed": 3,
+      "N": 1000,
+      "raw_max_corr": 0.7937253185354777,
+      "detrended_max_corr": 0.8535774835697163,
+      "low_freq_max_corr": 0.991558819077574,
+      "high_freq_max_corr": 0.9784100373864957,
+      "raw_min_corr": 0.010276486812186575
+    },
+    {
+      "seed": 3,
+      "N": 2000,
+      "raw_max_corr": 0.929424461663167,
+      "detrended_max_corr": 0.9585734990855652,
+      "low_freq_max_corr": 0.9912293097756082,
+      "high_freq_max_corr": 0.8966326411271839,
+      "raw_min_corr": 0.10444538067106174
+    },
+    {
+      "seed": 3,
+      "N": 4000,
+      "raw_max_corr": 0.998190528676411,
+      "detrended_max_corr": 0.9963009028254057,
+      "low_freq_max_corr": 0.9996303859684061,
+      "high_freq_max_corr": 0.8994006155155848,
+      "raw_min_corr": 0.005952416371205771
+    },
+    {
+      "seed": 3,
+      "N": 8000,
+      "raw_max_corr": 0.9997356600738353,
+      "detrended_max_corr": 0.9997447379997324,
+      "low_freq_max_corr": 0.9999460248691606,
+      "high_freq_max_corr": 0.9220952672326672,
+      "raw_min_corr": 0.020970814367834656
+    },
+    {
+      "seed": 4,
+      "N": 100,
+      "raw_max_corr": 0.6140340266724793,
+      "detrended_max_corr": 0.7684795380817117,
+      "low_freq_max_corr": 0.5846617263012714,
+      "high_freq_max_corr": 0.5282214092053228,
+      "raw_min_corr": 0.003240696335573397
+    },
+    {
+      "seed": 4,
+      "N": 250,
+      "raw_max_corr": 0.6020916654740709,
+      "detrended_max_corr": 0.8904790628671604,
+      "low_freq_max_corr": 0.804849601512578,
+      "high_freq_max_corr": 0.919380601565518,
+      "raw_min_corr": 0.04815349464535738
+    },
+    {
+      "seed": 4,
+      "N": 500,
+      "raw_max_corr": 0.6776888383713797,
+      "detrended_max_corr": 0.8168013812912661,
+      "low_freq_max_corr": 0.9603496834072031,
+      "high_freq_max_corr": 0.9415875629797361,
+      "raw_min_corr": 0.09805642081000462
+    },
+    {
+      "seed": 4,
+      "N": 1000,
+      "raw_max_corr": 0.9651496275774993,
+      "detrended_max_corr": 0.9450410026811181,
+      "low_freq_max_corr": 0.998016036207761,
+      "high_freq_max_corr": 0.964832537460045,
+      "raw_min_corr": 0.002332633058978219
+    },
+    {
+      "seed": 4,
+      "N": 2000,
+      "raw_max_corr": 0.9933835642194704,
+      "detrended_max_corr": 0.9960870201729859,
+      "low_freq_max_corr": 0.9987193243006828,
+      "high_freq_max_corr": 0.8822699611777184,
+      "raw_min_corr": 0.15985062710418382
+    },
+    {
+      "seed": 4,
+      "N": 4000,
+      "raw_max_corr": 0.9978426892200414,
+      "detrended_max_corr": 0.9976916649626238,
+      "low_freq_max_corr": 0.9993070203023918,
+      "high_freq_max_corr": 0.9992174342270779,
+      "raw_min_corr": 0.25156817633024975
+    },
+    {
+      "seed": 4,
+      "N": 8000,
+      "raw_max_corr": 0.9960652078296539,
+      "detrended_max_corr": 0.9978047425628046,
+      "low_freq_max_corr": 0.9992281304956415,
+      "high_freq_max_corr": 0.8297488372086276,
+      "raw_min_corr": 0.03021547433474407
+    },
+    {
+      "seed": 5,
+      "N": 100,
+      "raw_max_corr": 0.8833045048861469,
+      "detrended_max_corr": 0.9267818484560948,
+      "low_freq_max_corr": 0.7814657872985807,
+      "high_freq_max_corr": 0.9710073511499064,
+      "raw_min_corr": 0.05388032140444662
+    },
+    {
+      "seed": 5,
+      "N": 250,
+      "raw_max_corr": 0.8169769071682097,
+      "detrended_max_corr": 0.9307990924175359,
+      "low_freq_max_corr": 0.9398070073895876,
+      "high_freq_max_corr": 0.9906758007988169,
+      "raw_min_corr": 0.017766430763063844
+    },
+    {
+      "seed": 5,
+      "N": 500,
+      "raw_max_corr": 0.9691053803243722,
+      "detrended_max_corr": 0.9830803785936174,
+      "low_freq_max_corr": 0.9839792260096204,
+      "high_freq_max_corr": 0.8583551890375524,
+      "raw_min_corr": 0.09555541168274692
+    },
+    {
+      "seed": 5,
+      "N": 1000,
+      "raw_max_corr": 0.9616286427550276,
+      "detrended_max_corr": 0.9871040388161579,
+      "low_freq_max_corr": 0.9984023861928533,
+      "high_freq_max_corr": 0.9612685084854495,
+      "raw_min_corr": 0.032561520476603656
+    },
+    {
+      "seed": 5,
+      "N": 2000,
+      "raw_max_corr": 0.9294206213004896,
+      "detrended_max_corr": 0.9754834610616322,
+      "low_freq_max_corr": 0.9971482899325276,
+      "high_freq_max_corr": 0.8788106771359809,
+      "raw_min_corr": 0.0022741456485848143
+    },
+    {
+      "seed": 5,
+      "N": 4000,
+      "raw_max_corr": 0.9628433060625683,
+      "detrended_max_corr": 0.9945299552569146,
+      "low_freq_max_corr": 0.9974522108839611,
+      "high_freq_max_corr": 0.9271006758962756,
+      "raw_min_corr": 0.07970840207479934
+    },
+    {
+      "seed": 5,
+      "N": 8000,
+      "raw_max_corr": 0.9936944806255565,
+      "detrended_max_corr": 0.9949449178109696,
+      "low_freq_max_corr": 0.999129340748556,
+      "high_freq_max_corr": 0.8378521910432276,
+      "raw_min_corr": 0.014414177314575595
+    }
+  ]
+}

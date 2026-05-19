@@ -1,0 +1,223 @@
+{
+  "depths": {
+    "1": {
+      "projection-neutral": {
+        "composite_strength": 0.07940129036724575,
+        "composite_variability": 0.22416564064235334,
+        "retention_strength": 0.7493280428656632,
+        "metastability": 0.6653412424755322,
+        "sector_bias": 0.8236966891244972,
+        "recursive_consistency": 0.7493280428656632,
+        "boundedness": 0.7758343593576467
+      },
+      "projection-antisymmetry": {
+        "composite_strength": 0.227798640632759,
+        "composite_variability": 0.2490042665254876,
+        "retention_strength": 0.49573658276486837,
+        "metastability": 0.4340163206742595,
+        "sector_bias": 0.39822751076900287,
+        "recursive_consistency": 0.49573658276486837,
+        "boundedness": 0.7509957334745124
+      },
+      "neutral-antisymmetry": {
+        "composite_strength": 0.18072909430533704,
+        "composite_variability": 0.24393811276261515,
+        "retention_strength": 0.5503935126081404,
+        "metastability": 0.4832625352369322,
+        "sector_bias": 0.16424006427654161,
+        "recursive_consistency": 0.5503935126081404,
+        "boundedness": 0.7560618872373849
+      }
+    },
+    "3": {
+      "projection-neutral": {
+        "composite_strength": 0.2792262231126107,
+        "composite_variability": 0.22642042703149426,
+        "retention_strength": 0.8389652269882407,
+        "metastability": 0.7439857945086148,
+        "sector_bias": 0.5634451187993574,
+        "recursive_consistency": 0.8389652269882407,
+        "boundedness": 0.7735795729685058
+      },
+      "projection-antisymmetry": {
+        "composite_strength": 0.5337318469976299,
+        "composite_variability": 0.2530307017300031,
+        "retention_strength": 0.5100232439580643,
+        "metastability": 0.4454974742994035,
+        "sector_bias": 0.1591042394226968,
+        "recursive_consistency": 0.5100232439580643,
+        "boundedness": 0.7469692982699969
+      },
+      "neutral-antisymmetry": {
+        "composite_strength": 0.24809562382402936,
+        "composite_variability": 0.2407464900177806,
+        "retention_strength": 0.5429086325829854,
+        "metastability": 0.47755695873563203,
+        "sector_bias": 0.5419407672553023,
+        "recursive_consistency": 0.5429086325829854,
+        "boundedness": 0.7592535099822194
+      }
+    },
+    "6": {
+      "projection-neutral": {
+        "composite_strength": 0.3808613484142657,
+        "composite_variability": 0.23962227270849387,
+        "retention_strength": 0.9959046777821271,
+        "metastability": 0.8765842066365404,
+        "sector_bias": 0.44837133562541864,
+        "recursive_consistency": 0.9959046777821271,
+        "boundedness": 0.7603777272915061
+      },
+      "projection-antisymmetry": {
+        "composite_strength": 0.6842416286250508,
+        "composite_variability": 0.2647933890352355,
+        "retention_strength": 0.5,
+        "metastability": 0.4338016527411911,
+        "sector_bias": 0.10416409342188608,
+        "recursive_consistency": 0.5,
+        "boundedness": 0.7352066109647645
+      },
+      "neutral-antisymmetry": {
+        "composite_strength": 0.28375688715112435,
+        "composite_variability": 0.2391221420308318,
+        "retention_strength": 0.5,
+        "metastability": 0.44021946449229205,
+        "sector_bias": 0.17582275189214683,
+        "recursive_consistency": 0.5,
+        "boundedness": 0.7608778579691682
+      }
+    },
+    "9": {
+      "projection-neutral": {
+        "composite_strength": 0.42460580167378303,
+        "composite_variability": 0.2448850827102975,
+        "retention_strength": 0.8389652269882407,
+        "metastability": 0.7362401924872013,
+        "sector_bias": 0.40389712972613867,
+        "recursive_consistency": 0.8389652269882407,
+        "boundedness": 0.7551149172897025
+      },
+      "projection-antisymmetry": {
+        "composite_strength": 0.7487710655232719,
+        "composite_variability": 0.2692279480972616,
+        "retention_strength": 0.5100232439580643,
+        "metastability": 0.44136698823169496,
+        "sector_bias": 0.0865124328087784,
+        "recursive_consistency": 0.5100232439580643,
+        "boundedness": 0.7307720519027384
+      },
+      "neutral-antisymmetry": {
+        "composite_strength": 0.2978377936340662,
+        "composite_variability": 0.23877708785898555,
+        "retention_strength": 0.5429086325829854,
+        "metastability": 0.47809156145215076,
+        "sector_bias": 0.08231989714887934,
+        "recursive_consistency": 0.5429086325829854,
+        "boundedness": 0.7612229121410145
+      }
+    },
+    "12": {
+      "projection-neutral": {
+        "composite_strength": 0.44914610984165587,
+        "composite_variability": 0.2472706290080791,
+        "retention_strength": 0.9959046777821271,
+        "metastability": 0.8727756897284896,
+        "sector_bias": 0.38012308256294713,
+        "recursive_consistency": 0.9959046777821271,
+        "boundedness": 0.7527293709919209
+      },
+      "projection-antisymmetry": {
+        "composite_strength": 0.7851270935082065,
+        "composite_variability": 0.2711566268049898,
+        "retention_strength": 0.5,
+        "metastability": 0.43221084329875253,
+        "sector_bias": 0.07758830937749005,
+        "recursive_consistency": 0.5,
+        "boundedness": 0.7288433731950101
+      },
+      "neutral-antisymmetry": {
+        "composite_strength": 0.305651749303907,
+        "composite_variability": 0.23857252782494912,
+        "retention_strength": 0.5,
+        "metastability": 0.44035686804376273,
+        "sector_bias": 0.03931789031738428,
+        "recursive_consistency": 0.5,
+        "boundedness": 0.7614274721750509
+      }
+    },
+    "15": {
+      "projection-neutral": {
+        "composite_strength": 0.4647006743574043,
+        "composite_variability": 0.248645123827012,
+        "retention_strength": 0.8389652269882407,
+        "metastability": 0.7346629206127165,
+        "sector_bias": 0.3654667000291893,
+        "recursive_consistency": 0.8389652269882407,
+        "boundedness": 0.751354876172988
+      },
+      "projection-antisymmetry": {
+        "composite_strength": 0.8080197935519458,
+        "composite_variability": 0.27224993144072834,
+        "retention_strength": 0.5100232439580643,
+        "metastability": 0.4405963473576839,
+        "sector_bias": 0.07241123427326746,
+        "recursive_consistency": 0.5100232439580643,
+        "boundedness": 0.7277500685592717
+      },
+      "neutral-antisymmetry": {
+        "composite_strength": 0.3103673262056672,
+        "composite_variability": 0.2385218708933101,
+        "retention_strength": 0.5429086325829854,
+        "metastability": 0.4781608411990742,
+        "sector_bias": 0.014221628630043363,
+        "recursive_consistency": 0.5429086325829854,
+        "boundedness": 0.7614781291066899
+      }
+    },
+    "20": {
+      "projection-neutral": {
+        "composite_strength": 0.4811435340603167,
+        "composite_variability": 0.2498840294354282,
+        "retention_strength": 0.9954274197600532,
+        "metastability": 0.8710567124299765,
+        "sector_bias": 0.35030802248735576,
+        "recursive_consistency": 0.9954274197600532,
+        "boundedness": 0.7501159705645718
+      },
+      "projection-antisymmetry": {
+        "composite_strength": 0.8323415372360317,
+        "composite_variability": 0.273121410328182,
+        "retention_strength": 0.5,
+        "metastability": 0.4317196474179545,
+        "sector_bias": 0.066590323372087,
+        "recursive_consistency": 0.5,
+        "boundedness": 0.726878589671818
+      },
+      "neutral-antisymmetry": {
+        "composite_strength": 0.3153354224182634,
+        "composite_variability": 0.23849536246639488,
+        "retention_strength": 0.5,
+        "metastability": 0.4403761593834013,
+        "sector_bias": 0.010262010214534408,
+        "recursive_consistency": 0.5,
+        "boundedness": 0.7615046375336051
+      }
+    }
+  },
+  "answers": {
+    "H1_composite_structure": true,
+    "H2_bounded_variability": true,
+    "H3_sector_bias": true,
+    "H4_recursive_retention": true,
+    "H5_rg_stability": true,
+    "verdict": "STABLE",
+    "pair_classifications": {
+      "projection-neutral": "COMPOSITE-NEUTRAL",
+      "projection-antisymmetry": "COMPOSITE-PRESERVING",
+      "neutral-antisymmetry": "COMPOSITE-NEUTRAL"
+    },
+    "mean_composite_strength": 0.5429401645715373,
+    "mean_variability": 0.253833600743335,
+    "mean_bias": 0.1423867853579924
+  }
+}

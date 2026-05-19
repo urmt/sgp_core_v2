@@ -1,0 +1,21 @@
+{
+  "scores": {
+    "evolving": 0.018022466236619506,
+    "static": 0.004807073029047322,
+    "random": 0.005096761861504783,
+    "replay": 0.021630291520723523,
+    "stitched": 0.014907537163935657,
+    "time_reversed": 0.01818241889406776,
+    "cyclic_loop": 0.00406873410017542
+  },
+  "control_mean": 0.011448802761575743,
+  "ratio": 1.5741777433120503,
+  "replay_distance": 0.0036078252841040166,
+  "stitched_distance": 0.003114929072683849,
+  "reverse_distance": 0.0001599526574482535,
+  "replay_pass": false,
+  "stitched_pass": false,
+  "reverse_pass": false,
+  "collapse_detected": true,
+  "gate_open": false
+}

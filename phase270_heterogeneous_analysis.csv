@@ -1,0 +1,13 @@
+topology,heterogeneity_level,delay_level,asymmetry_level,transfer_gain,amplification_efficiency,localization_stability,saturation_boundary,propagation_stability,geometry_preserved,limitations
+sparse,0.0,0,0.0,-0.058,0.000,0.058,0.6,high,preserved,homogeneous_reference
+sparse,0.2,0,0.0,-0.053,0.012,0.053,0.6,high,preserved,mild_heterogeneity
+sparse,0.4,0,0.0,-0.039,0.022,0.039,0.6,high,preserved,moderate_heterogeneity
+sparse,0.6,0,0.0,-0.041,0.018,0.041,0.6,high,preserved,high_heterogeneity
+sparse,0.0,0,0.0,-0.082,0.000,0.082,0.6,high,preserved,symmetric_baseline
+sparse,0.0,0,0.3,-0.075,0.008,0.075,0.6,high,preserved,mild_asymmetry
+sparse,0.0,0,0.6,-0.077,0.006,0.077,0.6,high,preserved,moderate_asymmetry
+sparse,0.0,0,1.0,-0.075,0.008,0.075,0.6,high,preserved,strong_asymmetry
+sparse,0.0,0,0.0,-0.053,0.000,0.053,0.6,high,preserved,no_delay_baseline
+sparse,0.0,1,0.0,-0.047,0.008,0.047,0.6,high,preserved,mild_delay
+sparse,0.0,2,0.0,-0.046,0.010,0.046,0.6,high,preserved,moderate_delay
+sparse,0.0,3,0.0,-0.046,0.010,0.046,0.6,high,preserved,strong_delay

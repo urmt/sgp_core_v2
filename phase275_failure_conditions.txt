@@ -1,0 +1,73 @@
+# PHASE 275: FAILURE CONDITIONS
+# Explicit FAIL Criteria for Recursive Recovery Analysis
+# NO PARAMETER RETUNING | NO THRESHOLD MODIFICATION
+
+================================================================================
+SECTION 1: EXPLICIT FAIL CONDITIONS
+================================================================================
+
+The Phase 275 recursive recovery analysis FAILS if ANY of the
+following conditions are met:
+
+FAIL CONDITION 1: Rollback Diverges
+-----------------------------------
+Criterion: |T_rollback(0) - T_forward(0)| >= 0.10
+Evidence required: Recovery delta >= 0.10
+Current status: Recovery delta = 0.0023 < 0.10 → NOT FAILING
+
+FAIL CONDITION 2: Localization Exceeds 0.10
+------------------------------------------
+Criterion: max(|ΔP(k=1)|) >= 0.10 at any depth
+Evidence required: Localization exceeds threshold
+Current status: max localization = 0.043 < 0.10 → NOT FAILING
+
+FAIL CONDITION 3: Topology Classes Undefined
+-------------------------------------------
+Criterion: Cannot classify topology at any depth
+Evidence required: Classification undefined
+Current status: All topologies classified → NOT FAILING
+
+FAIL CONDITION 4: Variance Non-Finite
+-------------------------------------
+Criterion: Var(T) is NaN or Inf at any depth
+Evidence required: Non-finite variance
+Current status: All variances finite → NOT FAILING
+
+FAIL CONDITION 5: Fracture Irreversible
+--------------------------------------
+Criterion: Recovery delta >= 0.01
+Evidence required: R >= ε for recovery test
+Current status: R = 0.0023 < 0.01 → NOT FAILING
+
+================================================================================
+SECTION 2: OBSERVED STATUS
+================================================================================
+
+All fail conditions: NOT TRIGGERED
+
+STOP CONDITIONS:
+- rollback_diverges: False
+- localization_exceeds: False
+- variance_non_finite: False
+
+All STOP conditions: NOT TRIGGERED
+
+================================================================================
+SECTION 3: QUESTION RESULTS
+================================================================================
+
+Q1: Does localization fracture persist after rollback?
+RESULT: PASS (recoverable deformation)
+
+Q2: Is fracture topology-dependent?
+RESULT: PASS (fracture depths vary)
+
+Q3: Does recursive destabilization accumulate monotonically?
+RESULT: FAIL (oscillatory stabilization)
+
+Q4: Does rollback restore topology class?
+RESULT: PASS (no permanent mutation)
+
+================================================================================
+END OF FAILURE CONDITIONS
+================================================================================

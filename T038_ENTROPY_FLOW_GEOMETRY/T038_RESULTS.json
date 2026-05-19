@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "projection": {
+      "dH": 0.011523395893127486,
+      "dLV": 0.0032365526821830867,
+      "dSE": 0.05298614018034627,
+      "dC": -0.028125
+    },
+    "antisymmetry": {
+      "dH": 0.0,
+      "dLV": 0.001989139095985662,
+      "dSE": -5.551115123125783e-17,
+      "dC": 0.0
+    }
+  },
+  "tau_information_axis": [
+    0.011864425975780076,
+    0.015296591037535556,
+    0.999230828169857,
+    0.03410281123130118
+  ],
+  "flow_pc1": 0.9878194635381953,
+  "checks": {
+    "H1_compression_without_entropy_loss": true,
+    "H2_local_variation_growth": true,
+    "H3_flow_lowrank": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "tau": [
+    3.106291388162663e-05,
+    0.9999934444644747,
+    -0.0016647706167487453,
+    -0.0032153696466192816
+  ],
+  "tau_variance": 0.9988033661188214,
+  "alignments": {
+    "chirp": 0.9998000014270397,
+    "rw_trend": 0.9997523953010908,
+    "telegraph": 0.9999946101582399,
+    "spikes": 0.9999900711103589,
+    "pink_noise": 0.9999435564480424,
+    "sawtooth": 0.9999934444644748,
+    "square": 0.8902413344089273,
+    "chaotic_logistic": 0.9998936400945713
+  },
+  "worst_domain": "square",
+  "worst_alignment": 0.8902413344089273,
+  "alignment_mean": 0.9862011316765931,
+  "alignment_std": 0.03626949564149535,
+  "H1_tau_survives": true,
+  "H2_low_variation": true,
+  "H3_global_tau": true,
+  "interpretation": "\u03c4 survives diverse signal families \u2014 likely intrinsic to embedding."
+}

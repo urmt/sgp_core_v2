@@ -1,0 +1,97 @@
+# PHASE 280: TOPOLOGY FRAGILITY TABLE
+# Classification and Robustness Ranking
+
+================================================================================
+SECTION 1: FRAGILITY CLASSIFICATION BY TOPOLOGY
+================================================================================
+
+TOPOLOGY: all-to-all
+  Min delta: 0.0046
+  Max delta: 0.0176
+  Delta range: 0.0130
+  Final classification (8x): FRAGILE
+  Gradual: YES (range > 0.005)
+  Robustness rank: 3
+
+TOPOLOGY: erdos-renyi
+  Min delta: 0.0026
+  Max delta: 0.0098
+  Delta range: 0.0072
+  Final classification (8x): RECOVERABLE
+  Gradual: YES (range > 0.005)
+  Robustness rank: 2
+
+TOPOLOGY: small-world
+  Min delta: 0.0059
+  Max delta: 0.0287
+  Delta range: 0.0228
+  Final classification (8x): RECOVERABLE
+  Gradual: YES (range > 0.005)
+  Robustness rank: 1
+
+TOPOLOGY: scale-free
+  Min delta: 0.0020
+  Max delta: 0.0254
+  Delta range: 0.0234
+  Final classification (8x): RECOVERABLE
+  Gradual: YES (range > 0.005)
+  Robustness rank: 5
+
+TOPOLOGY: modular
+  Min delta: 0.0052
+  Max delta: 0.0209
+  Delta range: 0.0157
+  Final classification (8x): DEGRADED
+  Gradual: YES (range > 0.005)
+  Robustness rank: 4
+
+================================================================================
+SECTION 2: ROBUSTNESS RANKING
+================================================================================
+
+Ranked by minimum delta (most robust first):
+
+1. small-world: min_delta=0.0059
+2. modular: min_delta=0.0052
+3. all-to-all: min_delta=0.0046
+4. erdos-renyi: min_delta=0.0026
+5. scale-free: min_delta=0.0020
+
+OBSERVATION:
+- Most robust: small-world (but shows high max)
+- Least robust: scale-free (but has low max)
+- All topologies show gradual degradation (range > 0.005)
+
+================================================================================
+SECTION 3: Q4 STATUS: STABLE RANKING
+================================================================================
+
+Ranking stability check:
+- small-world (0.0059) > modular (0.0052): YES
+- modular (0.0052) > all-to-all (0.0046): YES
+- all-to-all (0.0046) > erdos-renyi (0.0026): YES
+- erdos-renyi (0.0026) > scale-free (0.0020): YES
+
+Q4 STATUS: PASS (stable ranking maintained)
+
+================================================================================
+SECTION 4: Q2 STATUS: RECOVERABLE AT 8x
+================================================================================
+
+Classification at 8x rollback:
+  all-to-all: FRAGILE
+  erdos-renyi: RECOVERABLE
+  small-world: RECOVERABLE
+  scale-free: RECOVERABLE
+  modular: DEGRADED
+
+Non-recoverable (FRAGILE or DEGRADED): 2/5
+At least one DEGRADED: YES
+
+Q2 STATUS: FAIL
+
+Some topologies remain non-recoverable at maximum rollback duration.
+
+================================================================================
+END OF TOPOLOGY FRAGILITY TABLE
+================================================================================

@@ -1,0 +1,16 @@
+{
+  "stable": {
+    "hardened_score": 0.5414363649622721,
+    "raw_ensemble": 0.6601814659448442,
+    "spoof_penalty": 0.1187451009825721,
+    "memory": 0.4471028623437679,
+    "consensus": 0.6845930643089121
+  },
+  "replay_spoof": {
+    "hardened_score": 0.9835295670412414,
+    "raw_ensemble": 0.9884188668157321,
+    "spoof_penalty": 0.004889299774490652,
+    "memory": 0.979191749799335,
+    "consensus": 0.9889703493483163
+  }
+}

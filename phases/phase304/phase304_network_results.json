@@ -1,0 +1,68 @@
+{
+  "phase": 304,
+  "verdict": "WELL_STRUCTURED",
+  "hypotheses": {
+    "H1_network_coherence": {
+      "passed": false,
+      "value": 0.0763980579729958,
+      "threshold": 0.5
+    },
+    "H2_coordination_stability": {
+      "passed": true,
+      "value": 0.8398123038220507,
+      "threshold": 0.5
+    },
+    "H3_boundedness": {
+      "passed": true,
+      "value": 0.19611306094308556,
+      "threshold": 1.0
+    },
+    "H4_recursive_retention": {
+      "passed": true,
+      "value": 0.8585665620384271,
+      "threshold": 0.0
+    },
+    "H5_rg_stability": {
+      "passed": true,
+      "value": 0.92,
+      "threshold": 0.9
+    }
+  },
+  "region_classifications": {
+    "core": {
+      "classification": "COHERENCE-NEUTRAL",
+      "avg_coherence_strength": 0.08968610736681248,
+      "avg_coordination_stability": 0.9684785772118131,
+      "avg_network_coupling": 0.5157016978560396
+    },
+    "boundary": {
+      "classification": "COHERENCE-NEUTRAL",
+      "avg_coherence_strength": 0.08789252118976197,
+      "avg_coordination_stability": 0.9491090056675766,
+      "avg_network_coupling": 0.5157016978560396
+    },
+    "interface": {
+      "classification": "COHERENCE-NEUTRAL",
+      "avg_coherence_strength": 0.08520201976784503,
+      "avg_coordination_stability": 0.9200546483512222,
+      "avg_network_coupling": 0.5157016978560396
+    },
+    "transitional": {
+      "classification": "COHERENCE-NEUTRAL",
+      "avg_coherence_strength": 0.08251154949461893,
+      "avg_coordination_stability": 0.8910002910348681,
+      "avg_network_coupling": 0.5157016978560396
+    },
+    "peripheral": {
+      "classification": "COHERENCE-NEUTRAL",
+      "avg_coherence_strength": 0.07892428370863429,
+      "avg_coordination_stability": 0.8522611479463954,
+      "avg_network_coupling": 0.5157016978560396
+    }
+  },
+  "rg_stability": {
+    "rg_correlation": 0.93,
+    "coherence_preserved": true
+  },
+  "n_measurements": 35
+}

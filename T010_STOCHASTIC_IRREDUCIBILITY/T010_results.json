@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-05-15T21:28:38.354224Z",
+  "phase": "T010_STOCHASTIC_IRREDUCIBILITY",
+  "domains": {
+    "chirp": {
+      "within": 5.960464477539063e-09,
+      "between": 0.4401438178503744,
+      "separation": 73843879.03140385,
+      "type": "deterministic"
+    },
+    "rw_trend": {
+      "within": 0.3513158321090816,
+      "between": 0.7539090012230976,
+      "separation": 2.1459579452969626,
+      "type": "stochastic"
+    },
+    "regime_switch": {
+      "within": 0.32638391229693536,
+      "between": 0.8535653666372944,
+      "separation": 2.615218871023102,
+      "type": "stochastic"
+    },
+    "chaotic_logistic": {
+      "within": 9.5367431640625e-08,
+      "between": 0.481616544849601,
+      "separation": 5050115.501322152,
+      "type": "deterministic"
+    },
+    "coupled_osc": {
+      "within": 4.214684851089403e-09,
+      "between": 0.7465580868503073,
+      "separation": 177132600.23637083,
+      "type": "deterministic"
+    }
+  },
+  "aggregate": {
+    "stochastic_mean_separation": 2.3805884081600324,
+    "deterministic_mean_separation": 85342198.25636561,
+    "irreducible_overlap_ratio": 2.1459579452969626,
+    "interpretation": "stochastic signals have finite irreducible overlap (~2.1-2.6x), deterministic have infinite (perfectly separable)"
+  }
+}

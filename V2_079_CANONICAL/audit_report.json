@@ -1,0 +1,21 @@
+{
+  "lineage": "V2_079_CANONICAL",
+  "validity": "CANONICAL",
+  "mean_pc1": 0.9714936317197729,
+  "mean_dim95": 1.0,
+  "lda_accuracy": 0.408,
+  "nn_accuracy": 0.712,
+  "gate_pass_rate": 0.0,
+  "dead_metric_analysis": {
+    "m4_known_dead_domains": [
+      "chirp",
+      "coupled_osc"
+    ]
+  },
+  "contamination_status": {
+    "silent_transform_changes_removed": true,
+    "silent_metric_changes_removed": true,
+    "silent_normalization_removed": true,
+    "canonical_seed_policy_restored": true
+  }
+}

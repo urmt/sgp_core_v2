@@ -1,0 +1,636 @@
+{
+  "protocol": "V2_049_HIGH_FREQUENCY_ISOLATED_REPLAY_AUDIT",
+  "gate_open_rate": 0.22857142857142856,
+  "results": [
+    {
+      "seed": 1,
+      "N": 100,
+      "replay_distance": 101.24426194769785,
+      "stitched_distance": 101.88716062661153,
+      "reverse_distance": 150.72688078242376,
+      "max_metric_corr": 0.7766372147814105,
+      "gate_open": true
+    },
+    {
+      "seed": 1,
+      "N": 250,
+      "replay_distance": 323.00653613869525,
+      "stitched_distance": 24.856845014722875,
+      "reverse_distance": 456.52864964523326,
+      "max_metric_corr": 0.6394686613154482,
+      "gate_open": true
+    },
+    {
+      "seed": 1,
+      "N": 500,
+      "replay_distance": 433.04895338227266,
+      "stitched_distance": 54.86873374110295,
+      "reverse_distance": 12.68797172093582,
+      "max_metric_corr": 0.9936607918964554,
+      "gate_open": false
+    },
+    {
+      "seed": 1,
+      "N": 1000,
+      "replay_distance": 177.61442219625528,
+      "stitched_distance": 145.77941245130796,
+      "reverse_distance": 764.4366598449368,
+      "max_metric_corr": 0.9586334697472311,
+      "gate_open": false
+    },
+    {
+      "seed": 1,
+      "N": 2000,
+      "replay_distance": 462.93107629134437,
+      "stitched_distance": 199.49874093546268,
+      "reverse_distance": 331.23524010409005,
+      "max_metric_corr": 0.8457170060342656,
+      "gate_open": true
+    },
+    {
+      "seed": 1,
+      "N": 4000,
+      "replay_distance": 171.16614423193198,
+      "stitched_distance": 27.779262112900952,
+      "reverse_distance": 1319.0133378561468,
+      "max_metric_corr": 0.9719729650478289,
+      "gate_open": false
+    },
+    {
+      "seed": 1,
+      "N": 8000,
+      "replay_distance": 54.24244619819399,
+      "stitched_distance": 1040.8836518067144,
+      "reverse_distance": 996.2690498009456,
+      "max_metric_corr": 0.9993400368533558,
+      "gate_open": false
+    },
+    {
+      "seed": 2,
+      "N": 100,
+      "replay_distance": 119.74563719371976,
+      "stitched_distance": 28.353180919973084,
+      "reverse_distance": 246.22855472350633,
+      "max_metric_corr": 0.6893181390939253,
+      "gate_open": true
+    },
+    {
+      "seed": 2,
+      "N": 250,
+      "replay_distance": 20.706338324806893,
+      "stitched_distance": 3.23601488499277,
+      "reverse_distance": 194.0629484995631,
+      "max_metric_corr": 0.6360180747194787,
+      "gate_open": true
+    },
+    {
+      "seed": 2,
+      "N": 500,
+      "replay_distance": 199.82824967377795,
+      "stitched_distance": 33.69593574760816,
+      "reverse_distance": 139.00720868770654,
+      "max_metric_corr": 0.8193356098283424,
+      "gate_open": true
+    },
+    {
+      "seed": 2,
+      "N": 1000,
+      "replay_distance": 112.88388342402315,
+      "stitched_distance": 378.8547211323539,
+      "reverse_distance": 703.8762123156722,
+      "max_metric_corr": 0.999645941985571,
+      "gate_open": false
+    },
+    {
+      "seed": 2,
+      "N": 2000,
+      "replay_distance": 1292.5981599513325,
+      "stitched_distance": 331.2627093411251,
+      "reverse_distance": 557.8158756629701,
+      "max_metric_corr": 0.9906210296643762,
+      "gate_open": false
+    },
+    {
+      "seed": 2,
+      "N": 4000,
+      "replay_distance": 612.9898610125023,
+      "stitched_distance": 218.5248230331437,
+      "reverse_distance": 326.48075632778966,
+      "max_metric_corr": 0.9355349263875116,
+      "gate_open": false
+    },
+    {
+      "seed": 2,
+      "N": 8000,
+      "replay_distance": 1468.2554323092684,
+      "stitched_distance": 952.8476355214048,
+      "reverse_distance": 1333.8777815551696,
+      "max_metric_corr": 0.9786724031549696,
+      "gate_open": false
+    },
+    {
+      "seed": 3,
+      "N": 100,
+      "replay_distance": 3.179201518075938,
+      "stitched_distance": 57.80590782738171,
+      "reverse_distance": 153.37023607246977,
+      "max_metric_corr": 0.9923715268250626,
+      "gate_open": false
+    },
+    {
+      "seed": 3,
+      "N": 250,
+      "replay_distance": 123.14836073406475,
+      "stitched_distance": 133.69262489995188,
+      "reverse_distance": 126.65142835433812,
+      "max_metric_corr": 0.9784115428706128,
+      "gate_open": false
+    },
+    {
+      "seed": 3,
+      "N": 500,
+      "replay_distance": 582.1729326775194,
+      "stitched_distance": 165.3439778920109,
+      "reverse_distance": 460.4347534886569,
+      "max_metric_corr": 0.8059290723794936,
+      "gate_open": true
+    },
+    {
+      "seed": 3,
+      "N": 1000,
+      "replay_distance": 271.27805466650057,
+      "stitched_distance": 70.9415082210685,
+      "reverse_distance": 182.82583577283265,
+      "max_metric_corr": 0.9629105477936735,
+      "gate_open": false
+    },
+    {
+      "seed": 3,
+      "N": 2000,
+      "replay_distance": 99.04649104686148,
+      "stitched_distance": 258.9937683812478,
+      "reverse_distance": 21.74870297753761,
+      "max_metric_corr": 0.9938584873272229,
+      "gate_open": false
+    },
+    {
+      "seed": 3,
+      "N": 4000,
+      "replay_distance": 2433.6719984529186,
+      "stitched_distance": 257.9883592392919,
+      "reverse_distance": 1579.0337238705492,
+      "max_metric_corr": 0.9940846213366198,
+      "gate_open": false
+    },
+    {
+      "seed": 3,
+      "N": 8000,
+      "replay_distance": 563.5397114817115,
+      "stitched_distance": 45.551688548312974,
+      "reverse_distance": 1091.8842878718842,
+      "max_metric_corr": 0.9994740856165973,
+      "gate_open": false
+    },
+    {
+      "seed": 4,
+      "N": 100,
+      "replay_distance": 291.4639990690193,
+      "stitched_distance": 32.15944589039287,
+      "reverse_distance": 298.05207986544156,
+      "max_metric_corr": 0.911770085526449,
+      "gate_open": false
+    },
+    {
+      "seed": 4,
+      "N": 250,
+      "replay_distance": 315.33101812972217,
+      "stitched_distance": 61.52289948510461,
+      "reverse_distance": 544.339002663163,
+      "max_metric_corr": 0.9454431589974538,
+      "gate_open": false
+    },
+    {
+      "seed": 4,
+      "N": 500,
+      "replay_distance": 214.97634133463131,
+      "stitched_distance": 49.72338753406347,
+      "reverse_distance": 453.58966297602433,
+      "max_metric_corr": 0.5921979874724498,
+      "gate_open": true
+    },
+    {
+      "seed": 4,
+      "N": 1000,
+      "replay_distance": 711.864280631956,
+      "stitched_distance": 69.35122135375768,
+      "reverse_distance": 92.50491052371537,
+      "max_metric_corr": 0.9803585728549937,
+      "gate_open": false
+    },
+    {
+      "seed": 4,
+      "N": 2000,
+      "replay_distance": 1048.6785427819577,
+      "stitched_distance": 399.77632090979813,
+      "reverse_distance": 1063.1461690139843,
+      "max_metric_corr": 0.9611851617538593,
+      "gate_open": false
+    },
+    {
+      "seed": 4,
+      "N": 4000,
+      "replay_distance": 724.4578571645762,
+      "stitched_distance": 296.1478311300337,
+      "reverse_distance": 470.063740343129,
+      "max_metric_corr": 0.7762670350518064,
+      "gate_open": true
+    },
+    {
+      "seed": 4,
+      "N": 8000,
+      "replay_distance": 1714.392498362453,
+      "stitched_distance": 550.2054138413077,
+      "reverse_distance": 2651.565970007961,
+      "max_metric_corr": 0.9713965142380157,
+      "gate_open": false
+    },
+    {
+      "seed": 5,
+      "N": 100,
+      "replay_distance": 85.31191333051028,
+      "stitched_distance": 255.3474293039884,
+      "reverse_distance": 110.02317880721353,
+      "max_metric_corr": 0.9801234342386592,
+      "gate_open": false
+    },
+    {
+      "seed": 5,
+      "N": 250,
+      "replay_distance": 74.90886589978815,
+      "stitched_distance": 122.72818918072197,
+      "reverse_distance": 112.02563521132186,
+      "max_metric_corr": 0.9805803201919627,
+      "gate_open": false
+    },
+    {
+      "seed": 5,
+      "N": 500,
+      "replay_distance": 95.92142933734397,
+      "stitched_distance": 9.949042429694206,
+      "reverse_distance": 46.069410895717915,
+      "max_metric_corr": 0.7815468280635622,
+      "gate_open": true
+    },
+    {
+      "seed": 5,
+      "N": 1000,
+      "replay_distance": 334.90994849578306,
+      "stitched_distance": 198.9856714915725,
+      "reverse_distance": 158.5344548355475,
+      "max_metric_corr": 0.9545713148277025,
+      "gate_open": false
+    },
+    {
+      "seed": 5,
+      "N": 2000,
+      "replay_distance": 992.4748056640904,
+      "stitched_distance": 223.80467000807786,
+      "reverse_distance": 1047.5204093694092,
+      "max_metric_corr": 0.9633298345368626,
+      "gate_open": false
+    },
+    {
+      "seed": 5,
+      "N": 4000,
+      "replay_distance": 593.4161327953606,
+      "stitched_distance": 336.4476773911414,
+      "reverse_distance": 1970.3726236060927,
+      "max_metric_corr": 0.8992571253604247,
+      "gate_open": true
+    },
+    {
+      "seed": 5,
+      "N": 8000,
+      "replay_distance": 856.5229874301904,
+      "stitched_distance": 348.2357186587581,
+      "reverse_distance": 3004.74851915019,
+      "max_metric_corr": 0.9948375524078564,
+      "gate_open": false
+    },
+    {
+      "seed": 6,
+      "N": 100,
+      "replay_distance": 56.45419469210752,
+      "stitched_distance": 34.96512697784662,
+      "reverse_distance": 94.52442027741134,
+      "max_metric_corr": 0.8183436998901049,
+      "gate_open": true
+    },
+    {
+      "seed": 6,
+      "N": 250,
+      "replay_distance": 201.08030402701965,
+      "stitched_distance": 4.764181517920939,
+      "reverse_distance": 234.04572439852575,
+      "max_metric_corr": 0.9975052243832839,
+      "gate_open": false
+    },
+    {
+      "seed": 6,
+      "N": 500,
+      "replay_distance": 6.407846576260795,
+      "stitched_distance": 290.3812309598705,
+      "reverse_distance": 143.67478104153022,
+      "max_metric_corr": 0.9123687638851489,
+      "gate_open": false
+    },
+    {
+      "seed": 6,
+      "N": 1000,
+      "replay_distance": 392.6709504949285,
+      "stitched_distance": 4.0807811649725805,
+      "reverse_distance": 171.7100363808962,
+      "max_metric_corr": 0.9783294055275786,
+      "gate_open": false
+    },
+    {
+      "seed": 6,
+      "N": 2000,
+      "replay_distance": 204.6214135116882,
+      "stitched_distance": 173.11784096913544,
+      "reverse_distance": 376.35119028969365,
+      "max_metric_corr": 0.986476583211968,
+      "gate_open": false
+    },
+    {
+      "seed": 6,
+      "N": 4000,
+      "replay_distance": 290.5310361026276,
+      "stitched_distance": 153.82338690676815,
+      "reverse_distance": 469.7138613740094,
+      "max_metric_corr": 0.9485143628365929,
+      "gate_open": false
+    },
+    {
+      "seed": 6,
+      "N": 8000,
+      "replay_distance": 1927.1232554926955,
+      "stitched_distance": 329.8269698417129,
+      "reverse_distance": 310.6444251247674,
+      "max_metric_corr": 0.9855471364613452,
+      "gate_open": false
+    },
+    {
+      "seed": 7,
+      "N": 100,
+      "replay_distance": 49.24006839094614,
+      "stitched_distance": 111.41374098084167,
+      "reverse_distance": 124.86925498624669,
+      "max_metric_corr": 0.9752767557961093,
+      "gate_open": false
+    },
+    {
+      "seed": 7,
+      "N": 250,
+      "replay_distance": 172.09637664672536,
+      "stitched_distance": 93.2340710705724,
+      "reverse_distance": 196.95231265002798,
+      "max_metric_corr": 0.8549567381819796,
+      "gate_open": true
+    },
+    {
+      "seed": 7,
+      "N": 500,
+      "replay_distance": 478.59370639990294,
+      "stitched_distance": 10.158232994109584,
+      "reverse_distance": 788.7543184497617,
+      "max_metric_corr": 0.8600475903479341,
+      "gate_open": true
+    },
+    {
+      "seed": 7,
+      "N": 1000,
+      "replay_distance": 354.70844810838213,
+      "stitched_distance": 138.48434542816597,
+      "reverse_distance": 173.63029998564562,
+      "max_metric_corr": 0.9909924533561014,
+      "gate_open": false
+    },
+    {
+      "seed": 7,
+      "N": 2000,
+      "replay_distance": 219.85683225659952,
+      "stitched_distance": 63.18042089255844,
+      "reverse_distance": 1164.269486110603,
+      "max_metric_corr": 0.9319475898415992,
+      "gate_open": false
+    },
+    {
+      "seed": 7,
+      "N": 4000,
+      "replay_distance": 2106.662796064523,
+      "stitched_distance": 104.8014343838532,
+      "reverse_distance": 2523.1875119945744,
+      "max_metric_corr": 0.9920240806279139,
+      "gate_open": false
+    },
+    {
+      "seed": 7,
+      "N": 8000,
+      "replay_distance": 1835.425391337365,
+      "stitched_distance": 651.6241393302877,
+      "reverse_distance": 1348.526288882074,
+      "max_metric_corr": 0.9963588691076889,
+      "gate_open": false
+    },
+    {
+      "seed": 8,
+      "N": 100,
+      "replay_distance": 188.81415087790376,
+      "stitched_distance": 9.124448823249399,
+      "reverse_distance": 57.24167338155564,
+      "max_metric_corr": 0.9569608458833216,
+      "gate_open": false
+    },
+    {
+      "seed": 8,
+      "N": 250,
+      "replay_distance": 131.10884657180512,
+      "stitched_distance": 86.85409590755046,
+      "reverse_distance": 221.23377369091926,
+      "max_metric_corr": 0.9258270768415022,
+      "gate_open": false
+    },
+    {
+      "seed": 8,
+      "N": 500,
+      "replay_distance": 496.19452264693786,
+      "stitched_distance": 99.54109732213959,
+      "reverse_distance": 333.1739040458389,
+      "max_metric_corr": 0.9956536189534162,
+      "gate_open": false
+    },
+    {
+      "seed": 8,
+      "N": 1000,
+      "replay_distance": 389.0911748881194,
+      "stitched_distance": 160.04367622731098,
+      "reverse_distance": 79.56150590924186,
+      "max_metric_corr": 0.98095993762999,
+      "gate_open": false
+    },
+    {
+      "seed": 8,
+      "N": 2000,
+      "replay_distance": 187.88603953205757,
+      "stitched_distance": 153.82979982406053,
+      "reverse_distance": 170.10925759361174,
+      "max_metric_corr": 0.9917053510373582,
+      "gate_open": false
+    },
+    {
+      "seed": 8,
+      "N": 4000,
+      "replay_distance": 260.6195173413858,
+      "stitched_distance": 509.924498113141,
+      "reverse_distance": 311.1261425216812,
+      "max_metric_corr": 0.9932516376650462,
+      "gate_open": false
+    },
+    {
+      "seed": 8,
+      "N": 8000,
+      "replay_distance": 5247.1784747567835,
+      "stitched_distance": 1300.6186207187639,
+      "reverse_distance": 4365.79893669488,
+      "max_metric_corr": 0.995800241282777,
+      "gate_open": false
+    },
+    {
+      "seed": 9,
+      "N": 100,
+      "replay_distance": 286.0394636753765,
+      "stitched_distance": 134.4513130844397,
+      "reverse_distance": 26.31152124324533,
+      "max_metric_corr": 0.940845249807943,
+      "gate_open": false
+    },
+    {
+      "seed": 9,
+      "N": 250,
+      "replay_distance": 389.1763008762627,
+      "stitched_distance": 215.0264559970085,
+      "reverse_distance": 755.1205854982566,
+      "max_metric_corr": 0.7276612473877488,
+      "gate_open": true
+    },
+    {
+      "seed": 9,
+      "N": 500,
+      "replay_distance": 428.5241287112332,
+      "stitched_distance": 404.8016729174186,
+      "reverse_distance": 27.25921755456996,
+      "max_metric_corr": 0.9999889832081094,
+      "gate_open": false
+    },
+    {
+      "seed": 9,
+      "N": 1000,
+      "replay_distance": 629.9230765978549,
+      "stitched_distance": 146.6925456770336,
+      "reverse_distance": 109.28485646654849,
+      "max_metric_corr": 0.999912103937227,
+      "gate_open": false
+    },
+    {
+      "seed": 9,
+      "N": 2000,
+      "replay_distance": 334.9053167690658,
+      "stitched_distance": 154.28697057706813,
+      "reverse_distance": 63.41285829322113,
+      "max_metric_corr": 0.999501943659549,
+      "gate_open": false
+    },
+    {
+      "seed": 9,
+      "N": 4000,
+      "replay_distance": 827.5035857187428,
+      "stitched_distance": 485.9985920325808,
+      "reverse_distance": 1020.0926632014806,
+      "max_metric_corr": 0.9996875805874432,
+      "gate_open": false
+    },
+    {
+      "seed": 9,
+      "N": 8000,
+      "replay_distance": 1750.844957088274,
+      "stitched_distance": 809.5808231368237,
+      "reverse_distance": 1261.8110943023364,
+      "max_metric_corr": 0.9997973211108364,
+      "gate_open": false
+    },
+    {
+      "seed": 10,
+      "N": 100,
+      "replay_distance": 132.41464252242167,
+      "stitched_distance": 73.0217489207479,
+      "reverse_distance": 126.79899012946417,
+      "max_metric_corr": 0.937902014456322,
+      "gate_open": false
+    },
+    {
+      "seed": 10,
+      "N": 250,
+      "replay_distance": 1.8164015180782638,
+      "stitched_distance": 58.07884883505254,
+      "reverse_distance": 489.3575610665984,
+      "max_metric_corr": 0.9796942014678902,
+      "gate_open": false
+    },
+    {
+      "seed": 10,
+      "N": 500,
+      "replay_distance": 228.48843967287527,
+      "stitched_distance": 76.56460099089175,
+      "reverse_distance": 1272.6018375770066,
+      "max_metric_corr": 0.961462466049056,
+      "gate_open": false
+    },
+    {
+      "seed": 10,
+      "N": 1000,
+      "replay_distance": 188.51482470517507,
+      "stitched_distance": 113.85517838965089,
+      "reverse_distance": 834.5446665429597,
+      "max_metric_corr": 0.5395760777759178,
+      "gate_open": true
+    },
+    {
+      "seed": 10,
+      "N": 2000,
+      "replay_distance": 2059.4471837549863,
+      "stitched_distance": 962.1150214024508,
+      "reverse_distance": 45.00258036371758,
+      "max_metric_corr": 0.9854481699822479,
+      "gate_open": false
+    },
+    {
+      "seed": 10,
+      "N": 4000,
+      "replay_distance": 286.3943939310291,
+      "stitched_distance": 498.30171552019436,
+      "reverse_distance": 1733.5791855724742,
+      "max_metric_corr": 0.9467458334112285,
+      "gate_open": false
+    },
+    {
+      "seed": 10,
+      "N": 8000,
+      "replay_distance": 1096.5225447633609,
+      "stitched_distance": 474.66216736211385,
+      "reverse_distance": 770.5737979974507,
+      "max_metric_corr": 0.9487023607187328,
+      "gate_open": false
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+# PHASE 271: BOUNDARY COMPETITION ANALYSIS
+# Interaction Between Propagation Boundaries Under Competition
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: AMPLIFICATION BOUNDARY INTERACTION
+================================================================================
+
+SINGLE TOPOLOGY AMPLIFICATION REGIME:
+- all-to-all: k ∈ [0.0, 0.6] (AE = 0.028)
+- Erdős–Rényi: k ∈ [0.0, 0.6] (AE ≈ 0)
+- small-world: k ∈ [0.0, 0.6] (AE = 0.013)
+
+COMPETITIVE AMPLIFICATION:
+- Dual topology shows reduced AE
+- Range: [-0.067, -0.010] vs [-0.033, +0.001]
+- Earlier saturation onset
+
+FINDING: Competition SHIFTS amplification boundary earlier.
+
+================================================================================
+SECTION 2: SATURATION BOUNDARY INTERACTION
+================================================================================
+
+SINGLE TOPOLOGY SATURATION:
+- k_s ≈ 0.6 for all topologies (universal)
+
+DUAL TOPOLOGY SATURATION:
+- k=0.4: ΔP = -0.045
+- k=0.5: ΔP = -0.047
+- k=0.6: ΔP = -0.029
+- k=0.7: ΔP = -0.008
+
+SATURATION BOUNDARY SHIFT:
+- Single: k_s ≈ 0.6
+- Dual: k_s ≈ 0.4
+- Shift: Δk_s = 0.2 (EARLIER ONSET)
+
+MECHANISM: Dual topology creates interference that accelerates
+saturation, causing plateau to begin at lower coupling.
+
+================================================================================
+SECTION 3: LOCALIZATION REGIME INTERACTION
+================================================================================
+
+SINGLE TOPOLOGY LOCALIZATION:
+- all-to-all: |ΔP| < 0.01 at k ≥ 0.7 (strong)
+- Erdős–Rényi: |ΔP| > 0.03 at k=1.0 (weak)
+- small-world: |ΔP| = 0 at k=1.0 (perfect)
+
+COMPETITIVE LOCALIZATION:
+- alpha=0.0 (AA): |ΔP| = 0.004 → LOCALIZED
+- alpha=0.5 (mixed): |ΔP| = 0.004 → LOCALIZED
+- alpha=1.0 (ER): |ΔP| = 0.039 → NOT LOCALIZED
+
+FINDING: Competition preserves localization for AA-dominated systems
+but allows localization loss for ER-dominated systems.
+
+================================================================================
+SECTION 4: BOUNDARY STABILITY UNDER COMPETITION
+================================================================================
+
+STABILITY METRICS:
+- Variance across seeds: 0.000000
+- Boundary consistency: HIGH
+- Shift reproducibility: VERIFIED
+
+BOUNDARY STABILITY:
+- Amplification: reduced but present
+- Saturation: shifted but present
+- Localization: altered but detectable
+
+CONCLUSION: All boundaries survive competition but shift.
+
+================================================================================
+SECTION 5: BOUNDARY COMPETITION SUMMARY
+================================================================================
+
+INTERACTION EFFECTS:
+
+1. AMPLIFICATION BOUNDARY
+   - Shifted earlier under competition
+   - Reduced efficiency
+   - Still present
+
+2. SATURATION BOUNDARY
+   - k_s shifts from 0.6 to 0.4
+   - Earlier onset
+   - Still universal (not eliminated)
+
+3. LOCALIZATION REGIME
+   - Preserved for dominant topology
+   - Lost for non-dominant topology
+   - Alpha-dependent
+
+================================================================================
+END OF BOUNDARY COMPETITION ANALYSIS
+================================================================================

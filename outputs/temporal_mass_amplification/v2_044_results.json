@@ -1,0 +1,88 @@
+{
+  "results": {
+    "evolving": {
+      "amplified_temporal_mass": 19.646203858248974,
+      "directional_accumulation_gradient": 45.79138938266911,
+      "forward_path_density": 77.42270468407658,
+      "temporal_energy_skew": 0.1811604085099879
+    },
+    "replay": {
+      "amplified_temporal_mass": 9.527216649552045,
+      "directional_accumulation_gradient": 26.27049405552801,
+      "forward_path_density": 36.04675150833604,
+      "temporal_energy_skew": 0.04630406253256549
+    },
+    "stitched": {
+      "amplified_temporal_mass": 12.858981953306431,
+      "directional_accumulation_gradient": 38.86132690734683,
+      "forward_path_density": 58.67158958782543,
+      "temporal_energy_skew": 0.12383147254071682
+    },
+    "time_reversed": {
+      "amplified_temporal_mass": 3.005889228773518,
+      "directional_accumulation_gradient": 10.85517413266452,
+      "forward_path_density": 18.673537301594937,
+      "temporal_energy_skew": 0.18116040850998735
+    },
+    "static": {
+      "amplified_temporal_mass": 0.2555331436008036,
+      "directional_accumulation_gradient": 4.146721046674731,
+      "forward_path_density": 1.191278677863173,
+      "temporal_energy_skew": 3.552574440891067e-16
+    },
+    "random": {
+      "amplified_temporal_mass": 12.623509766410999,
+      "directional_accumulation_gradient": 30.324472481522907,
+      "forward_path_density": 57.68563965061767,
+      "temporal_energy_skew": 0.018241420513696188
+    },
+    "cyclic_loop": {
+      "amplified_temporal_mass": 0.5716985711707011,
+      "directional_accumulation_gradient": 6.199319291057046,
+      "forward_path_density": 2.6593423613106313,
+      "temporal_energy_skew": 3.047377679113081e-07
+    }
+  },
+  "distances": {
+    "replay": 46.8555967194752,
+    "stitched": 21.111602285439137,
+    "time_reversed": 70.34844614557903
+  },
+  "correlation_matrix": [
+    [
+      1.0,
+      0.985902704348436,
+      0.9900382914490987,
+      0.4911903341933242
+    ],
+    [
+      0.9859027043484359,
+      0.9999999999999998,
+      0.9838224728559499,
+      0.5040131946407619
+    ],
+    [
+      0.9900382914490987,
+      0.9838224728559499,
+      1.0,
+      0.5160926807147681
+    ],
+    [
+      0.4911903341933242,
+      0.5040131946407618,
+      0.5160926807147681,
+      0.9999999999999998
+    ]
+  ],
+  "max_metric_corr": 0.9900382914490987,
+  "success": {
+    "replay_distance": true,
+    "stitched_distance": true,
+    "reverse_distance": true,
+    "metric_corr": false
+  },
+  "contradictions": [
+    "METRIC REDUNDANCY DETECTED"
+  ],
+  "gate_open": false
+}

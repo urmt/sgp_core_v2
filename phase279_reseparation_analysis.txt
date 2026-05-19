@@ -1,0 +1,74 @@
+# PHASE 279: RESEPARATION ANALYSIS
+# Does Topology Reseparation Reappear Under High Perturbation?
+
+================================================================================
+SECTION 1: VARIANCE ACROSS STRESS LEVELS
+================================================================================
+
+STRESS LEVEL: d0_h0_t0_s0 (baseline)
+  variance: 0.000000
+  max_loc: 0.0235
+  Status: CONVERGED
+
+STRESS LEVEL: d1_h1_t1_s1 (medium)
+  variance: 0.000014
+  max_loc: 0.0312
+  Status: BOUNDED
+
+STRESS LEVEL: d2_h2_t2_s1 (high)
+  variance: 0.000012
+  max_loc: 0.0328
+  Status: BOUNDED
+
+STRESS LEVEL: d3_h3_t3_s2 (maximum)
+  variance: 0.000017
+  max_loc: 0.0333
+  Status: BOUNDED
+
+================================================================================
+SECTION 2: TOPOLOGY SPREAD AT MAXIMUM STRESS
+================================================================================
+
+Maximum stress values (d3_h3_t3_s2):
+  all-to-all: 0.0333
+  erdos-renyi: 0.0320
+  small-world: 0.0312
+  scale-free: 0.0258
+  modular: 0.0299
+
+SPREAD:
+  Min: 0.0258 (scale-free)
+  Max: 0.0333 (all-to-all)
+  Range: 0.0075
+
+VARIANCE: 0.000017
+  Threshold: 0.01
+  Status: NOT SIGNIFICANT
+
+================================================================================
+SECTION 3: Q3 STATUS
+================================================================================
+
+Q3: Does topology reseparation reappear?
+
+Answer: NO
+
+- Variance = 0.000017 < 0.01
+- Spread bounded in narrow range
+- No significant reseparation
+
+RESULT: PASS
+
+================================================================================
+SECTION 4: FAILURE CONTEXT
+================================================================================
+
+Although Q2 fails (rollback), Q3 passes (no reseparation).
+This indicates rollback failure is not due to topology divergence,
+but due to absolute localization change under stress.
+
+Some topologies fail rollback but remain in convergence band.
+
+================================================================================
+END OF RESEPARATION ANALYSIS
+================================================================================

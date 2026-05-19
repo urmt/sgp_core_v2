@@ -1,0 +1,62 @@
+{
+  "depths": {
+    "1": {
+      "neighbor_preservation": 0.02,
+      "local_propagation_ratio": 0.9494766324926832,
+      "sector_locality": 0.74
+    },
+    "2": {
+      "neighbor_preservation": 0.005,
+      "local_propagation_ratio": 1.02812541840454,
+      "sector_locality": 0.71
+    },
+    "3": {
+      "neighbor_preservation": 0.010833333333333334,
+      "local_propagation_ratio": 1.0760132574643264,
+      "sector_locality": 0.74
+    },
+    "4": {
+      "neighbor_preservation": 0.009166666666666667,
+      "local_propagation_ratio": 0.943887305639007,
+      "sector_locality": 0.57
+    },
+    "5": {
+      "neighbor_preservation": 0.0125,
+      "local_propagation_ratio": 1.0458021795433339,
+      "sector_locality": 0.67
+    },
+    "6": {
+      "neighbor_preservation": 0.0125,
+      "local_propagation_ratio": 0.9757788841656158,
+      "sector_locality": 0.84
+    },
+    "7": {
+      "neighbor_preservation": 0.009166666666666667,
+      "local_propagation_ratio": 0.9706569448929225,
+      "sector_locality": 0.54
+    },
+    "8": {
+      "neighbor_preservation": 0.015833333333333335,
+      "local_propagation_ratio": 1.0652104064952932,
+      "sector_locality": 0.65
+    },
+    "9": {
+      "neighbor_preservation": 0.010833333333333334,
+      "local_propagation_ratio": 0.9916622335740444,
+      "sector_locality": 0.73
+    },
+    "10": {
+      "neighbor_preservation": 0.008333333333333333,
+      "local_propagation_ratio": 1.0455441428099077,
+      "sector_locality": 0.6
+    }
+  },
+  "answers": {
+    "H1": false,
+    "H2": false,
+    "H3": true,
+    "H4": true,
+    "verdict": "NO_LOCALITY",
+    "rg_correlation": 1.0
+  }
+}

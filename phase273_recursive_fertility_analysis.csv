@@ -1,0 +1,5 @@
+depth,recursion_level,mean_transfer,variance,localization,saturation_k,new_class_detected,bounded_pass,variance_pass,localization_pass,saturation_pass
+0,0,-0.0125,0.000389,0.005,0.2,no,yes,yes,yes,no
+1,1,-0.0234,0.000454,0.043,0.5,no,yes,yes,no,yes
+2,2,-0.0338,0.000193,0.043,0.8,yes,yes,yes,no,no
+3,3,-0.0447,0.000133,0.063,0.1,yes,yes,yes,no,no

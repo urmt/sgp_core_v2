@@ -1,0 +1,13 @@
+{
+  "fixedpoint_error_mean": 0.0,
+  "base_to_replay_mean": 1.2783313738325897,
+  "replay_to_rereplay_mean": 0.0,
+  "replay_covariance": 0.3639646226996364,
+  "other_covariance": 0.4958892540734604,
+  "compression_ratio": 0.7339635205035501,
+  "replay_cluster_radius": 0.6791154936487558,
+  "pc1_explained_variance": 0.629328542081191,
+  "H1_fixedpoint": true,
+  "H2_projection": true,
+  "H3_attractor": false
+}

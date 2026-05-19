@@ -1,0 +1,27 @@
+{
+  "tau": [
+    0.0009286836974655964,
+    0.9999995524847825,
+    0.00017022912019078098,
+    5.99905991315354e-05
+  ],
+  "tau_variance": 0.9988802567388562,
+  "projection_energy": {
+    "reverse": 0.9999991049697657,
+    "swap": 7.407009738734435e-07,
+    "replay": 0.9990502514596611,
+    "stitch": 0.999991206306069
+  },
+  "alignment_scores": {
+    "reverse": 1.1038338693411102e-16,
+    "swap": 0.00043286497290021236,
+    "replay": 0.9987946824092284,
+    "stitch": 0.9998524818715628
+  },
+  "domain_pc1": 0.7287202651492652,
+  "domain_dim95": 2,
+  "H1_transform_axis": true,
+  "H2_projection_capture": false,
+  "H3_alignment": false,
+  "interpretation": "FINAL P1 REFINEMENT: Domain variation spans multiple directions. Transform variation collapses onto single axis \u03c4."
+}

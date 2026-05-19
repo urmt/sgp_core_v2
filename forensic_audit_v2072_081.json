@@ -1,0 +1,46 @@
+{
+  "findings": {
+    "V2_073_reversal_invariant": "All 4 metrics use abs() \u2192 ALL reversal-invariant. Reverse distance \u2248 0. 0/5 expected.",
+    "V2_074_signed_fix": "Removed abs() \u2192 2/5. M2 antisymmetric under reversal for centered data.",
+    "V2_075_AR1_mismatch": "AR(1) unsuitable for quadratic logistic map. M2 near-zero for chaotic_logistic.",
+    "V2_076_embedding_bug": "Critical: stride tau in embedding range reduces samples from 4088 to 2044. Backward prediction misaligned (uses x[:len] vs correct alignment). Results unreliable.",
+    "V2_077_M3_dead": "boundary_discontinuity (max/median ratio) near-constant for most signals. Only chaotic_logistic shows variation.",
+    "V2_080_3metrics": "3 metrics with same distance thresholds as 4-metric versions. Fewer dims \u2192 smaller L2 \u2192 harder to pass.",
+    "V2_081_global_corr_bug": "multi-seed correlation collection always appends 0 (if False bug). Global corr uses only seed 79.",
+    "corr_gate_small_sample_bias": "With 5 samples and 4 metrics, ~22% chance of |r|>0.90 by chance. corr<0.90 overfits to small N.",
+    "normalization_leakage": "RobustScaler fitted on all 25 samples. Per-domain distances reflect cross-domain scaling.",
+    "consistent_sign": "Across all valid versions, linear classifiers (LDA, 1-NN) achieve >60% accuracy but scalar gate achieves <70% of that \u2192 gate geometry is the bottleneck."
+  },
+  "per_version": {
+    "V2_073": {
+      "mean_pass": 0.0,
+      "full_pass": 0,
+      "worst_pass": 0
+    },
+    "V2_074": {
+      "mean_pass": 1.7,
+      "full_pass": 0,
+      "worst_pass": 1
+    },
+    "V2_075": {
+      "mean_pass": 1.8,
+      "full_pass": 0,
+      "worst_pass": 1
+    },
+    "V2_077": {
+      "mean_pass": 2.1,
+      "full_pass": 0,
+      "worst_pass": 1
+    },
+    "V2_078": {
+      "mean_pass": 2.7,
+      "full_pass": 0,
+      "worst_pass": 2
+    },
+    "V2_081": {
+      "mean_pass": 2.4,
+      "full_pass": 0,
+      "worst_pass": 1
+    }
+  }
+}

@@ -1,0 +1,149 @@
+# PHASE 271: COMPETITIVE GEOMETRY FRAMEWORK
+# Persistence Propagation Under Competitive Interaction Structure
+# NO ONTOLOGY | NO CONSCIOUSNESS LANGUAGE | NO NEW METRICS
+
+================================================================================
+SECTION A: COMPETITIVE PROPAGATION DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Competitive propagation occurs when multiple propagation structures
+interact simultaneously within a shared coordinated system, where
+each structure influences the overall transfer geometry.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Let T_A, T_B be propagation structures from topologies A and B.
+Let α be competition level (0 = all A, 1 = all B).
+
+Competitive transfer T_c:
+  T_c(α) = (1-α)·T_A + α·T_B + interaction_term
+
+Competition exists if |T_c(α) - T_A| > ε or |T_c(α) - T_B| > ε.
+
+OBSERVED BEHAVIOR:
+- α=0.0: ΔP = -0.009 (all-to-all)
+- α=0.5: ΔP = -0.010 (mixed)
+- α=1.0: ΔP = -0.033 (Erdős–Rényi)
+
+FINDING: Competitive mixing creates intermediate propagation.
+
+================================================================================
+SECTION B: PROPAGATION DOMINANCE DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Propagation dominance occurs when one propagation structure
+suppresses or exceeds the influence of another, resulting in
+the overall geometry resembling the dominant structure.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Dominance exists if:
+  |T_mixed - T_dominant| < |T_mixed - T_non_dominant|
+
+OBSERVED BEHAVIOR:
+- Single AA: ΔP = -0.009
+- Single ER: ΔP = -0.033
+- Mixed: ΔP = -0.010
+- Dominant: AA (mixed closer to AA than ER)
+
+FINDING: All-to-all DOMINATES Erdős–Rényi under competition.
+
+================================================================================
+SECTION C: MANIFOLD COEXISTENCE DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Manifold coexistence occurs when multiple propagation structures
+persist simultaneously without one collapsing the other, indicating
+stable multi-structure geometry.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Coexistence exists if:
+  Var(T(k) for dual topology) > threshold
+  AND both structures contribute to transfer
+
+Coexistence stability if:
+  T_dual(k) ≠ T_A(k) AND T_dual(k) ≠ T_B(k)
+
+OBSERVED BEHAVIOR:
+- Dual topology transfer range: [-0.067, -0.010]
+- Variance across k: > 0.005
+- Coexistence: CONFIRMED
+
+FINDING: Dual topology creates distinct propagation manifold
+that is neither pure A nor pure B.
+
+================================================================================
+SECTION D: BOUNDARY COMPETITION DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Boundary competition occurs when localization or saturation
+boundaries from different topologies interact, potentially
+shifting or destabilizing the overall boundary structure.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Boundary shift Δk_s:
+  Δk_s = k_s(dual) - k_s(single)
+
+Competition effect if |Δk_s| > threshold.
+
+OBSERVED BEHAVIOR:
+- Single topology saturation: k ≈ 0.6
+- Dual topology saturation: k ≈ 0.4
+- Boundary shift: Δk_s = 0.2
+
+FINDING: Competition SHIFTS saturation boundary earlier.
+
+================================================================================
+SECTION E: COMPETITIVE STABILITY DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Competitive stability measures the robustness of propagation
+geometry under structural competition, indicating whether
+the fundamental structure survives multiple interacting topologies.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Competitive stability = 1 / Var(T across competition levels)
+
+OBSERVED:
+- Variance across seeds: 0.000000
+- Stability: PRESERVED (extremely stable)
+
+FINDING: Competition does not destabilize propagation geometry.
+
+================================================================================
+SECTION F: COMPETITIVE GEOMETRY SUMMARY
+================================================================================
+
+KEY FINDINGS:
+
+1. COMPETITION CREATES INTERMEDIATE PROPAGATION
+   - Mixed systems show transfer between pure topologies
+   - Neither collapses to single structure
+
+2. ALL-TO-ALL DOMINATES UNDER COMPETITION
+   - Mixed geometry closer to AA than ER
+   - High-efficiency topology suppresses low-efficiency
+
+3. DUAL TOPOLOGIES COEXIST STABLY
+   - Distinct manifold emerges
+   - Both topologies contribute to geometry
+
+4. COMPETITION SHIFTS SATURATION BOUNDARY
+   - k_s moves from 0.6 to 0.4 under dual topology
+   - Earlier onset of plateau
+
+5. COMPETITIVE STABILITY PRESERVED
+   - Zero variance across seeds
+   - Propagation geometry robust under competition
+
+================================================================================
+END OF FRAMEWORK
+================================================================================

@@ -1,0 +1,18 @@
+{
+  "FakeHierarchy": {
+    "k0": 16.62591346185699,
+    "r_squared": 0.9919958804694304
+  },
+  "DeceptiveCurvature": {
+    "k0": 16.45505212342084,
+    "r_squared": 0.9926163110976699
+  },
+  "RandomTemporalCoherence": {
+    "k0": 9.573004273365347,
+    "r_squared": 0.9917068276987646
+  },
+  "real_hierarchical": {
+    "k0": 15.91841162681293,
+    "r_squared": 0.9904881551850172
+  }
+}

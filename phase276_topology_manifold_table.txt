@@ -1,0 +1,60 @@
+# PHASE 276: TOPOLOGY MANIFOLD TABLE
+# Recovery Manifold Characteristics by Topology Class
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: MANIFOLD CHARACTERISTICS
+================================================================================
+
+| Topology      | Cycle 0 | Cycle 1 | Cycle 2 | Cycle 3 | Cycle 4 | Fracture Onset |
+|---------------|---------|---------|---------|---------|---------|----------------|
+| all-to-all    | 0.030   | 0.030   | 0.041   | 0.043   | 0.040   | Cycle 2        |
+| erdos-renyi   | 0.030   | 0.030   | 0.041   | 0.043   | 0.040   | Cycle 2        |
+| small-world   | 0.030   | 0.030   | 0.041   | 0.043   | 0.040   | Cycle 2        |
+| scale-free    | 0.030   | 0.030   | 0.041   | 0.043   | 0.040   | Cycle 2        |
+| modular       | 0.030   | 0.030   | 0.041   | 0.043   | 0.040   | Cycle 2        |
+
+MANIFOLD CLASSIFICATION:
+
+CLASS A: BOUNDED CONVERGENCE
+- All topologies show bounded max localization
+- Range: [0.030, 0.043]
+- Universal manifold reached by cycle 2
+
+CLASS B: SEPARABLE TO MERGED
+- Cycles 0-1: manifolds separable
+- Cycles 2-4: manifolds merge
+- Recursive structure dominates
+
+================================================================================
+SECTION 2: FRACTURE PATTERNS
+================================================================================
+
+FRACTURE ONSET:
+- All topologies: cycle 2
+- Consistent fracture threshold
+- No topology-specific variation
+
+FRACTURE PERSISTENCE:
+- Cycles 2-4: all fractured
+- No recovery within forward pass
+- Full localization loss at d >= 1.5
+
+================================================================================
+SECTION 3: CONVERGENCE STRUCTURE
+================================================================================
+
+TOPOLOGY-INVARIANT CONVERGENCE:
+- All topologies converge to same region
+- Localization range: [0.030, 0.043]
+- No topology-specific manifolds
+- Universal attractor confirmed
+
+MANIFOLD MERGING:
+- Early cycles: separable (unique structure)
+- Late cycles: merged (recursive structure dominates)
+- Transition at cycle 2
+
+================================================================================
+END OF TOPOLOGY MANIFOLD TABLE
+================================================================================

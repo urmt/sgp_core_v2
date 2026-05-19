@@ -1,0 +1,66 @@
+{
+  "legitimate": {
+    "stable_hierarchy": {
+      "memory_mean": 0.4197371297934378,
+      "memory_std": 0.056705233827414186,
+      "persistence_mean": 0.6046491228070175,
+      "persistence_std": 0.029066210065284547,
+      "frag_var_mean": 0.03147860461682743,
+      "consensus_mean": 0.6744451480577144,
+      "consensus_std": 0.026611933368911843,
+      "cv": 0.03945752066213815
+    },
+    "random_temporal": {
+      "memory_mean": 0.08269775166401842,
+      "memory_std": 0.0022678565565320144,
+      "persistence_mean": 0.13280701754385965,
+      "persistence_std": 0.0041367810956321385,
+      "frag_var_mean": 0.04526664989637491,
+      "consensus_mean": 0.40447551585173097,
+      "consensus_std": 0.0020570998090834467,
+      "cv": 0.00508584507085204
+    },
+    "perturb_recover": {
+      "memory_mean": 0.405311059511524,
+      "memory_std": 0.01524259153128377,
+      "persistence_mean": 0.5042105263157894,
+      "persistence_std": 0.015396173772095473,
+      "frag_var_mean": 0.032988027496261084,
+      "consensus_mean": 0.6361196124432709,
+      "consensus_std": 0.010186039338011581,
+      "cv": 0.016012773599742916
+    }
+  },
+  "adversarial": {
+    "replay_memory_spoof": {
+      "memory_mean": 0.9770942409127394,
+      "memory_std": 0.008175819057417705,
+      "persistence_mean": 0.9855263157894736,
+      "persistence_std": 0.005277757528593447,
+      "frag_var_mean": 0.00951227531395622,
+      "consensus_mean": 0.9874881637328852,
+      "consensus_std": 0.004468265024123791,
+      "cv": 0.00452487957605532
+    },
+    "delayed_random_coherence": {
+      "memory_mean": 0.08180304587722026,
+      "memory_std": 0.001209832488866883,
+      "persistence_mean": 0.13535087719298247,
+      "persistence_std": 0.007858591720850882,
+      "frag_var_mean": 0.04142921396779781,
+      "consensus_mean": 0.40513060861915157,
+      "consensus_std": 0.0024024838769391758,
+      "cv": 0.005930146538507161
+    },
+    "temporal_camouflage": {
+      "memory_mean": 0.08504278192758583,
+      "memory_std": 0.0015900501477654708,
+      "persistence_mean": 0.14377192982456138,
+      "persistence_std": 0.0034131713084813702,
+      "frag_var_mean": 0.03859891116493564,
+      "consensus_mean": 0.4090977865473068,
+      "consensus_std": 0.0015710064009721572,
+      "cv": 0.003840173308800031
+    }
+  }
+}

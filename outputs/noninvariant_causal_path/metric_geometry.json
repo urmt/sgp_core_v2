@@ -1,0 +1,11 @@
+{
+  "pairwise_correlations": {
+    "directional_prediction_asymmetry__temporal_operator_noncommutativity": 0.3673047151812327,
+    "directional_prediction_asymmetry__causal_path_divergence": -0.22490627002399532,
+    "directional_prediction_asymmetry__stitching_discontinuity": -0.3426663586013998,
+    "temporal_operator_noncommutativity__causal_path_divergence": -0.7109896256839564,
+    "temporal_operator_noncommutativity__stitching_discontinuity": -0.5658002163459669,
+    "causal_path_divergence__stitching_discontinuity": 0.12354894780702018
+  },
+  "max_correlation": 0.7109896256839564
+}

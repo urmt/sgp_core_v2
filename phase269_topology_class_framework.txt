@@ -1,0 +1,153 @@
+# PHASE 269: TOPOLOGY CLASS FRAMEWORK
+# Classification of Persistence Geometry by Interaction Topology
+# NO ONTOLOGY | NO CONSCIOUSNESS LANGUAGE | NO NEW METRICS
+
+================================================================================
+SECTION A: PERSISTENCE TOPOLOGY CLASS DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+A persistence topology class is a family of network structures that
+produce characteristic propagation geometry patterns, classified by
+their transfer behavior across coupling range.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Let T(topo, k) be transfer as function of topology and coupling.
+Let G(topo) be the geometry class of topology.
+
+Two topologies belong to same class if:
+  |T(topo_1, k) - T(topo_2, k)| < ε for all k ∈ [0, 1]
+
+where ε is classification threshold.
+
+OBSERVED TOPOLOGY CLASSES:
+
+1. Fully-connected class: all-to-all
+2. Random sparse class: Erdős–Rényi
+3. Short-path class: small-world
+4. Heterogeneous degree class: scale-free
+5. Clustered class: modular
+
+================================================================================
+SECTION B: AMPLIFICATION EFFICIENCY DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Amplification efficiency measures transfer gain per unit increase
+in coupling, indicating how effectively topology propagates persistence.
+
+MATHEMATICAL CHARACTERIZATION:
+
+AE = mean(dT/dk) for k ∈ [0, 0.6]
+
+Higher AE indicates:
+  - Faster approach to saturation
+  - More efficient propagation
+  - Stronger coupling response
+
+OBSERVED VALUES:
+
+all-to-all:     AE = 0.028
+erdos-renyi:    AE = 0.000
+small-world:    AE = 0.013
+scale-free:     AE = 0.016
+modular:        AE = 0.024
+
+RANKING: all-to-all > modular > scale-free > small-world > erdos-renyi
+
+================================================================================
+SECTION C: SATURATION BOUNDARY DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Saturation boundary is the coupling region where propagation plateaus,
+indicating the onset of localized persistence confinement.
+
+MATHEMATICAL CHARACTERIZATION:
+
+Saturation at k_s if:
+  Var(T(k > k_s)) < ε for ε = 0.001
+
+OBSERVED: All topologies show saturation at k ≈ 0.6
+UNIFORMITY: Saturation boundary is TOPOLOGY-INVARIANT
+
+================================================================================
+SECTION D: LOCALIZATION STABILITY DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Localization stability measures the robustness of persistence
+confinement at high coupling, indicating how well transfer
+remains bounded near zero.
+
+MATHEMATICAL CHARACTERIZATION:
+
+L = |T(k=1.0)|
+
+Lower L indicates stronger localization (more stable).
+Higher L indicates weaker localization (transfer escapes).
+
+OBSERVED VALUES:
+
+all-to-all:     L = 0.006 (strong localization)
+erdos-renyi:    L = 0.039 (weak localization)
+small-world:    L = 0.000 (perfect localization)
+scale-free:     L = 0.020 (moderate localization)
+modular:        L = 0.020 (moderate localization)
+
+================================================================================
+SECTION E: PROPAGATION STABILITY DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Propagation stability measures the sensitivity of transfer geometry
+to topology perturbation, indicating consistency across conditions.
+
+MATHEMATICAL CHARACTERIZATION:
+
+PS = 1 / (std(T(k)) + ε)
+
+Higher PS indicates more stable propagation geometry.
+Lower PS indicates higher variance across coupling range.
+
+OBSERVED VALUES:
+
+all-to-all:     PS = 44.0
+erdos-renyi:    PS = 68.0
+small-world:    PS = 58.8
+scale-free:     PS = 42.3
+modular:        PS = 30.1
+
+================================================================================
+SECTION F: TOPOLOGY CLASS SUMMARY
+================================================================================
+
+CLASS A: HIGH EFFICIENCY + STRONG LOCALIZATION
+  - all-to-all
+  - High AE (0.028), strong L (0.006)
+  - Fast propagation, stable confinement
+
+CLASS B: LOW EFFICIENCY + WEAK LOCALIZATION
+  - Erdős–Rényi
+  - Low AE (0.000), weak L (0.039)
+  - Slow propagation, unstable confinement
+
+CLASS C: MODERATE EFFICIENCY + PERFECT LOCALIZATION
+  - small-world
+  - Moderate AE (0.013), perfect L (0.000)
+  - Balanced propagation, zero escape
+
+CLASS D: MODERATE EFFICIENCY + MODERATE LOCALIZATION
+  - scale-free
+  - Moderate AE (0.016), moderate L (0.020)
+  - Heterogeneous propagation
+
+CLASS E: HIGH EFFICIENCY + MODERATE LOCALIZATION
+  - modular
+  - High AE (0.024), moderate L (0.020)
+  - Cluster-dependent propagation
+
+================================================================================
+END OF FRAMEWORK
+================================================================================

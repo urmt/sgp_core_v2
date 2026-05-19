@@ -1,0 +1,15 @@
+{
+  "sector_counts": {
+    "projection": 1073,
+    "antisymmetry": 140,
+    "mixed": 27,
+    "neutral": 120
+  },
+  "terminal_projection": 855,
+  "terminal_antisymmetry": 60,
+  "checks": {
+    "H1_replay_terminal": true,
+    "H2_antisymmetry_closed": false,
+    "H3_sectorization": true
+  }
+}

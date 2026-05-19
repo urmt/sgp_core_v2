@@ -1,0 +1,37 @@
+{
+  "seed": 79,
+  "max_steps": 12,
+  "global_geometry": {
+    "pc1": 0.5089866649826356,
+    "dim95": 4
+  },
+  "flow_geometry": {
+    "flow_pc1": 0.9980810136255905,
+    "flow_dim95": 1
+  },
+  "basin_summary": {
+    "R": {
+      "mean_final_distance": 0.0,
+      "std": 0.0
+    },
+    "S": {
+      "mean_final_distance": 0.8139183192657518,
+      "std": 0.4008213874553642
+    },
+    "W": {
+      "mean_final_distance": 1.1539923666241887,
+      "std": 0.6091653043881633
+    },
+    "V": {
+      "mean_final_distance": 1.1538812859351923,
+      "std": 0.6094070294631604
+    }
+  },
+  "checks": {
+    "H1_replay_attractor": true,
+    "H2_stitch_flows_to_replay": false,
+    "H3_swap_metastable": true,
+    "H4_lowrank_flow": true,
+    "H5_phase_portrait": false
+  }
+}

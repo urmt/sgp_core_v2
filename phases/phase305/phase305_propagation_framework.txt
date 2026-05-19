@@ -1,0 +1,127 @@
+# PHASE 305: PROPAGATION FRAMEWORK
+# Emergent Relational Recursive Propagation Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+A. RECURSIVE PROPAGATION
+================================================================================
+
+DEFINITION:
+Persistent recursive transmission of organizational structure across
+relational geometry.
+
+OPERATIONAL MEASURE:
+The degree to which organizational patterns propagate through recursive
+geometry while maintaining structure.
+
+QUANTIFICATION:
+Propagation strength measures the persistence of organizational patterns
+during recursive transmission.
+
+================================================================================
+B. PROPAGATION STABILITY
+================================================================================
+
+DEFINITION:
+Retention of bounded propagation organization under recursive evolution.
+
+OPERATIONAL MEASURE:
+The degree to which propagation pathways maintain structure through
+recursive transformation.
+
+QUANTIFICATION:
+Pathway stability measures the preservation of propagation organization.
+
+================================================================================
+C. PROPAGATION RETENTION
+================================================================================
+
+DEFINITION:
+Persistence of identifiable propagation structure across recursive depth.
+
+OPERATIONAL MEASURE:
+The degree to which propagation patterns remain identifiable as
+recursion increases.
+
+QUANTIFICATION:
+Recursive retention measures the persistence of propagation identity.
+
+================================================================================
+D. PROPAGATION PATHWAY
+================================================================================
+
+DEFINITION:
+Stable recursive organizational route across relational structure.
+
+OPERATIONAL MEASURE:
+The degree to which recursive geometry supports identifiable propagation
+routes between organizational structures.
+
+QUANTIFICATION:
+Pathway stability measures the coherence of propagation routes.
+
+================================================================================
+E. PROPAGATION BOUNDEDNESS
+================================================================================
+
+DEFINITION:
+Constraint on unbounded recursive dispersion during propagation.
+
+OPERATIONAL MEASURE:
+The degree to which propagation remains contained rather than dispersing
+infinitely through recursive geometry.
+
+QUANTIFICATION:
+Boundedness measures containment of propagation structure.
+Dispersion measures unbounded spread during propagation.
+
+================================================================================
+F. PROPAGATION RG STABILITY
+================================================================================
+
+DEFINITION:
+Scale-stable preservation of recursive propagation organization.
+
+OPERATIONAL MEASURE:
+The degree to which propagation structure survives coarse-graining.
+
+QUANTIFICATION:
+RG stability measures the correlation between fine and coarse propagation metrics.
+
+================================================================================
+PROPAGATION STRUCTURE FORMALIZATION
+================================================================================
+
+PROPAGATION = (P_str, P_stab, P_ret, Bound, Disp, RG_stab)
+
+Where:
+- P_str: Propagation strength
+- P_stab: Pathway stability
+- P_ret: Propagation retention
+- Bound: Boundedness
+- Disp: Dispersion
+- RG_stab: RG stability
+
+================================================================================
+HYPOTHESES
+================================================================================
+
+H1: Propagation strength > 0.50
+H2: Pathway stability > 0.50
+H3: Dispersion < 1.00 (bounded)
+H4: Recursive retention > 0 across all sectors
+H5: RG stability > 0.90
+
+================================================================================
+SECTOR PROPAGATION CLASSIFICATIONS
+================================================================================
+
+PROPAGATION-PRESERVING: Strong propagation (strength > 0.60, stability > 0.60)
+PROPAGATION-NEUTRAL: Moderate propagation (strength > 0.40, stability > 0.40)
+METASTABLE-PROPAGATION: Marginal propagation (strength > 0.25, stability > 0.25)
+DIFFUSE: Weak propagation (strength < 0.25)
+PROPAGATION-SUPPRESSING: No propagation (strength < 0.10)
+
+================================================================================
+END OF PROPAGATION FRAMEWORK
+================================================================================

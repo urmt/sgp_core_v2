@@ -1,0 +1,11 @@
+{
+  "replay_mean_null_distance": 0.011532648560350252,
+  "other_mean_null_distance": 1.1311308214519087,
+  "fisher_ratio": 5.642573895590245,
+  "variance_collapse": 0.002347957612644913,
+  "lda_accuracy": 0.976,
+  "H1_replay_manifold": true,
+  "H2_variance_collapse": true,
+  "H3_perfect_detection": false,
+  "theory": "Replay classification emerges because replay projects onto invariant manifold M={x:m2=m3}, retaining zero null-distance N(x)=m2-m3 while ordinary transforms have nonzero values."
+}

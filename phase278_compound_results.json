@@ -1,0 +1,132 @@
+{
+  "conditions": {
+    "recursion_only": {
+      "topologies": {
+        "all-to-all": {
+          "max_loc": 0.0254,
+          "variance": 7.7e-05
+        },
+        "erdos-renyi": {
+          "max_loc": 0.0254,
+          "variance": 7.7e-05
+        },
+        "small-world": {
+          "max_loc": 0.0254,
+          "variance": 7.7e-05
+        },
+        "scale-free": {
+          "max_loc": 0.0254,
+          "variance": 7.7e-05
+        },
+        "modular": {
+          "max_loc": 0.0254,
+          "variance": 7.7e-05
+        }
+      }
+    },
+    "recursion_delay": {
+      "topologies": {
+        "all-to-all": {
+          "max_loc": 0.0248,
+          "variance": 7e-05
+        },
+        "erdos-renyi": {
+          "max_loc": 0.0248,
+          "variance": 7e-05
+        },
+        "small-world": {
+          "max_loc": 0.0248,
+          "variance": 7e-05
+        },
+        "scale-free": {
+          "max_loc": 0.0248,
+          "variance": 7e-05
+        },
+        "modular": {
+          "max_loc": 0.0248,
+          "variance": 7e-05
+        }
+      }
+    },
+    "recursion_hetero": {
+      "topologies": {
+        "all-to-all": {
+          "max_loc": 0.0202,
+          "variance": 4.1e-05
+        },
+        "erdos-renyi": {
+          "max_loc": 0.0254,
+          "variance": 7.6e-05
+        },
+        "small-world": {
+          "max_loc": 0.0104,
+          "variance": 5e-06
+        },
+        "scale-free": {
+          "max_loc": 0.0124,
+          "variance": 1e-05
+        },
+        "modular": {
+          "max_loc": 0.0144,
+          "variance": 1.2e-05
+        }
+      }
+    },
+    "compound": {
+      "topologies": {
+        "all-to-all": {
+          "max_loc": 0.0196,
+          "variance": 2.6e-05
+        },
+        "erdos-renyi": {
+          "max_loc": 0.0215,
+          "variance": 4.9e-05
+        },
+        "small-world": {
+          "max_loc": 0.0065,
+          "variance": 3e-06
+        },
+        "scale-free": {
+          "max_loc": 0.0176,
+          "variance": 2.6e-05
+        },
+        "modular": {
+          "max_loc": 0.0117,
+          "variance": 1.1e-05
+        }
+      }
+    },
+    "rollback_compound": {
+      "topologies": {
+        "all-to-all": {
+          "forward_max": 0.0117,
+          "delta": 0.0039
+        },
+        "erdos-renyi": {
+          "forward_max": 0.0176,
+          "delta": 0.0013
+        },
+        "small-world": {
+          "forward_max": 0.015,
+          "delta": 0.0026
+        },
+        "scale-free": {
+          "forward_max": 0.013,
+          "delta": 0.0013
+        },
+        "modular": {
+          "forward_max": 0.0091,
+          "delta": 0.0026
+        }
+      }
+    }
+  },
+  "answers": {
+    "Q1_bounded": true,
+    "Q2_convergence": true,
+    "Q3_separation": true,
+    "Q4_rollback": true,
+    "Q5_irreversible": true,
+    "verdict": "UNIVERSAL_MANIFOLD_PRESERVED"
+  }
+}

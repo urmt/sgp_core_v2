@@ -1,0 +1,17 @@
+{
+  "stable_hierarchy": {
+    "pre_memory": 0.3963288926681783,
+    "post_memory": 0.5247941861929957,
+    "recovery_ratio": 1.3241380978498574
+  },
+  "random_temporal": {
+    "pre_memory": 0.08137613378684806,
+    "post_memory": 0.07782470395565631,
+    "recovery_ratio": 0.9563578439824884
+  },
+  "perturb_recover": {
+    "pre_memory": 0.7346850592088688,
+    "post_memory": 0.6502573066263543,
+    "recovery_ratio": 0.8850830684348784
+  }
+}

@@ -1,0 +1,68 @@
+# PHASE 280: RECOVERY FRAGILITY BOUNDARY FRAMEWORK
+# Recovery vs Non-Recoverable Deformation Boundaries
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: FRAMEWORK DEFINITIONS
+================================================================================
+
+DEFINITION 1: Recovery Fragility Boundary
+----------------------------------------
+A boundary exists where rollback recovery transitions from
+recoverable to non-recoverable under compounded stress.
+
+Classification thresholds:
+  RECOVERABLE: delta < 0.01
+  FRAGILE: 0.01 <= delta < 0.02
+  DEGRADED: 0.02 <= delta < 0.05
+  IRREVERSIBLE: delta >= 0.05
+
+DEFINITION 2: Thresholded vs Gradual Failure
+-------------------------------------------
+Thresholded: sharp transition, delta change < 0.01 across durations
+Gradual: progressive degradation, delta change >= 0.01 across durations
+
+DEFINITION 3: Path Dependence
+------------------------------
+Path dependence occurs when recovery outcome depends on the
+specific sequence of stress and rollback operations.
+
+Path A: forward → rollback
+Path B: forward → additional stress → rollback
+Path C: forward → partial rollback → re-stress → rollback
+
+DEFINITION 4: Topology Fragility
+--------------------------------
+Fragility measures how close a topology is to boundary crossing
+under extended rollback duration.
+
+More fragile = lower min_delta
+
+DEFINITION 5: Propagating Degradation
+-------------------------------------
+Degradation propagates when previously stable topologies become
+fragile or degraded after extended rollback on failed topologies.
+
+================================================================================
+SECTION 2: VERDICT CRITERIA
+================================================================================
+
+VERDICT: IRREVERSIBLE_MANIFOLD_DEGRADATION
+  - Any topology reaches IRREVERSIBLE classification
+  - Propagation to stable topologies
+
+VERDICT: PATH_DEPENDENT_FAILURE
+  - Q3 PASS (path dependent = YES)
+  - Recovery depends on history
+
+VERDICT: THRESHOLD_BIFURCATION
+  - Q1 PASS (thresholded = YES)
+  - Sharp transition, not gradual
+
+VERDICT: TOPOLOGY_FRAGILITY
+  - Topology-sensitive but no path dependence
+  - Stable ranking maintained
+
+================================================================================
+END OF FRAMEWORK
+================================================================================

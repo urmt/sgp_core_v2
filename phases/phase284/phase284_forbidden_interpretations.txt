@@ -1,0 +1,83 @@
+# PHASE 284: FORBIDDEN INTERPRETATIONS
+# Explicit Prohibited Claims
+# STRICTLY MATHEMATICAL | NO PHYSICS | NO ONTOLOGY
+
+================================================================================
+SECTION 1: EXPLICITLY FORBIDDEN
+================================================================================
+
+The following interpretations are PROHIBITED and will NOT
+be made regardless of experimental results:
+
+1. "Dominant eigenmodes are physical fields"
+   - Eigenmodes are mathematical constructs only
+   - They represent constraint organization patterns
+   - No physical field interpretation
+
+2. "Constraint spectrum implies quantum structure"
+   - Spectral decomposition is linear algebra
+   - No quantum mechanics involved
+   - No wave function interpretation
+
+3. "Eigenmodes imply spacetime geometry"
+   - Modes describe constraint propagation
+   - No spatial or temporal structure implied
+   - No spacetime emergence claim
+
+4. "Absorption proves reality generation"
+   - Absorption is sector transition behavior
+   - No physical "creation" implied
+   - No ontological status
+
+5. "Distributed coupling proves observer structure"
+   - Distributed coordination is mathematical
+   - No observer or measurement implied
+   - No conscious system claim
+
+6. "Neutral sector is a vacuum state"
+   - Neutral sector is mathematical classification
+   - No physical vacuum implied
+   - No field theory interpretation
+
+7. "Low-rank modes indicate consciousness"
+   - Mode structure is linear algebra
+   - No consciousness connection
+   - No sentience claim
+
+8. "RG stability implies physics laws"
+   - Scale invariance is mathematical
+   - No physical law interpretation
+   - No natural law claim
+
+================================================================================
+SECTION 2: ALLOWED INTERPRETATIONS
+================================================================================
+
+ONLY the following mathematical language is permitted:
+
+- "Low-rank spectral structure"
+- "Constraint propagation modes"
+- "Sector transition dynamics"
+- "Neutral sector persistence"
+- "Distributed coordination"
+- "Scale-invariant modes"
+- "Metastable constraint organization"
+- "Weakly absorbing transition structure"
+
+================================================================================
+SECTION 3: EMPIRICAL BOUNDARY
+================================================================================
+
+Results reported:
+- Transition matrices
+- Eigenvalue spectra
+- Variance explained
+- Absorption rates
+- Neutral persistence
+
+No claims beyond mathematical description of
+constraint propagation organization.
+
+================================================================================
+END OF FORBIDDEN INTERPRETATIONS
+================================================================================

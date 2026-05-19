@@ -1,0 +1,32 @@
+{
+  "summary": {
+    "discrimination_ratio": 11.857025381726785,
+    "gate": "OPEN"
+  },
+  "results": {
+    "financial": {
+      "coherence": 0.3650667345726324,
+      "fertility": 1.147061227103568,
+      "antispoof": 0.9298083702507121,
+      "reality": 0.3893608780720199
+    },
+    "weather": {
+      "coherence": 0.5738195315902387,
+      "fertility": 0.3706340449256301,
+      "antispoof": 0.6489527466629789,
+      "reality": 0.13801735837834103
+    },
+    "network": {
+      "coherence": 0.3650667345726324,
+      "fertility": 1.147061227103568,
+      "antispoof": 0.9298083702507121,
+      "reality": 0.3893608780720199
+    },
+    "random": {
+      "coherence": 0.11262108834579027,
+      "fertility": 0.25863294763755706,
+      "antispoof": 1.127386924802838,
+      "reality": 0.03283798976023747
+    }
+  }
+}

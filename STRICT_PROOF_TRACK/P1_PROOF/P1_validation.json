@@ -1,0 +1,17 @@
+{
+  "proposition": "P1: Effective_1D_Manifold",
+  "numerical_validation": {
+    "pc1_variance": 0.9925697923725806,
+    "dim95": 1,
+    "mean_curvature": 0.05896447554040371,
+    "geo_euclidean_corr": 0.9989321005005155,
+    "mean_alignment": -0.013565295245283092,
+    "condition_number": 11176.579602369598,
+    "transform_collinearity": false,
+    "principal_dominance": true,
+    "low_curvature": true,
+    "manifold_linearity": true
+  },
+  "all_checks_pass": false,
+  "conclusion": "Empirically supported. PC1 captures 99.3% variance, transforms are collinear, manifold is flat and linear."
+}

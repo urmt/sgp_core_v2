@@ -1,0 +1,113 @@
+# PHASE 290: METASTABLE REGION REPORT
+# Sector-Specific Fixed Structure Analysis
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: PROJECTION-REGION STABILITY
+================================================================================
+
+PROJECTION SECTOR (Terminal Depth 20):
+- Local retention: 0.0444
+- Bounded radius: 0.5
+- Drift rate: 0.0368
+- Recurrence density: nonzero
+- Trajectory escape: 0.9667
+
+CLASSIFICATION: DIFFUSE
+
+OBSERVATION:
+- Low retention (<0.05) indicates no fixed structure
+- Bounded drift present but insufficient
+- High escape rate (96.7%)
+
+================================================================================
+SECTION 2: NEUTRAL-REGION METASTABILITY
+================================================================================
+
+NEUTRAL SECTOR (Terminal Depth 20):
+- Local retention: 0.1365
+- Bounded radius: 0.5
+- Drift rate: 0.0158
+- Recurrence density: nonzero
+- Trajectory escape: 0.8667
+
+CLASSIFICATION: WEAKLY_STABLE
+
+OBSERVATION:
+- Higher retention than projection (0.14 vs 0.04)
+- Drift rate bounded (0.016)
+- Moderate escape rate (86.7%)
+
+================================================================================
+SECTION 3: ANTISYMMETRY-REGION PERSISTENCE
+================================================================================
+
+ANTISYMMETRY SECTOR (Terminal Depth 20):
+- Local retention: 0.2000
+- Bounded radius: 0.5
+- Drift rate: 0.0000
+- Recurrence density: nonzero
+- Trajectory escape: 0.8000
+
+CLASSIFICATION: FIXED
+
+OBSERVATION:
+- Highest retention (0.20)
+- Zero drift rate
+- Lowest escape rate (80.0%)
+- Exhibits fixed region characteristics
+
+================================================================================
+SECTION 4: BOUNDED RECURRENCE
+================================================================================
+
+RECURRENCE COMPARISON (Terminal):
+
+| Sector       | Retention | Drift   | Escape |
+|--------------|-----------|---------|--------|
+| projection   | 0.0444    | 0.0368  | 0.9667 |
+| antisymmetry | 0.2000    | 0.0000  | 0.8000 |
+| neutral      | 0.1365    | 0.0158  | 0.8667 |
+
+PATTERN:
+- Antisymmetry highest retention, lowest escape
+- Projection lowest retention, highest escape
+- Neutral intermediate behavior
+
+================================================================================
+SECTION 5: RECURSIVE ESCAPE DYNAMICS
+================================================================================
+
+ESCAPE TREND (Projection):
+
+| Depth | Escape | Status |
+|-------|--------|--------|
+| 1     | 0.900  | HIGH   |
+| 3     | 0.967  | HIGH   |
+| 6     | 0.967  | HIGH   |
+| 20    | 0.967  | HIGH   |
+
+OBSERVATION:
+- Escape rate stabilizes at 96.7%
+- No systematic decrease
+- High divergence dominates
+
+================================================================================
+SECTION 6: OVERALL METASTABILITY
+================================================================================
+
+METASTABLE CLASSIFICATION:
+- Projection: DIFFUSE
+- Neutral: WEAKLY_STABLE
+- Antisymmetry: FIXED
+
+OVERALL VERDICT: DIFFUSE
+
+The system shows sector differentiation in local stability:
+- Antisymmetry exhibits fixed behavior
+- Neutral exhibits metastable behavior
+- Projection exhibits diffuse behavior
+
+================================================================================
+END OF METASTABLE REGION REPORT
+================================================================================

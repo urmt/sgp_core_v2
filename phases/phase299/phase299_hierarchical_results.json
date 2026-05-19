@@ -1,0 +1,202 @@
+{
+  "depths": {
+    "1": {
+      "projection": {
+        "hierarchy_strength": 0.9432896465491162,
+        "cross_level_variability": 0.2585920456622989,
+        "coordination_strength": 0.8654183591606246,
+        "retention_strength": 0.9432896465491162,
+        "sector_bias": 0.0376508096724997,
+        "recursive_consistency": 0.9432896465491162
+      },
+      "antisymmetry": {
+        "hierarchy_strength": 0.9999972041475882,
+        "cross_level_variability": 0.26594239853608836,
+        "coordination_strength": 0.7435265636925246,
+        "retention_strength": 0.9999972041475882,
+        "sector_bias": 0.05219083503335942,
+        "recursive_consistency": 0.9999972041475882
+      },
+      "neutral": {
+        "hierarchy_strength": 0.8601159313624671,
+        "cross_level_variability": 0.20891704174543874,
+        "coordination_strength": 0.7846938172125558,
+        "retention_strength": 0.8601159313624671,
+        "sector_bias": 0.060660385497354356,
+        "recursive_consistency": 0.8601159313624671
+      }
+    },
+    "3": {
+      "projection": {
+        "hierarchy_strength": 0.9432896465491162,
+        "cross_level_variability": 0.2585920456622989,
+        "coordination_strength": 0.8654183591606246,
+        "retention_strength": 0.9432896465491162,
+        "sector_bias": 0.0376508096724997,
+        "recursive_consistency": 0.9432896465491162
+      },
+      "antisymmetry": {
+        "hierarchy_strength": 0.9999972041475882,
+        "cross_level_variability": 0.26594239853608836,
+        "coordination_strength": 0.7435265636925246,
+        "retention_strength": 0.9999972041475882,
+        "sector_bias": 0.05219083503335942,
+        "recursive_consistency": 0.9999972041475882
+      },
+      "neutral": {
+        "hierarchy_strength": 0.8601159313624671,
+        "cross_level_variability": 0.20891704174543874,
+        "coordination_strength": 0.7846938172125558,
+        "retention_strength": 0.8601159313624671,
+        "sector_bias": 0.060660385497354356,
+        "recursive_consistency": 0.8601159313624671
+      }
+    },
+    "6": {
+      "projection": {
+        "hierarchy_strength": 0.9432896465491162,
+        "cross_level_variability": 0.2585920456622989,
+        "coordination_strength": 0.8654183591606246,
+        "retention_strength": 0.9432896465491162,
+        "sector_bias": 0.0376508096724997,
+        "recursive_consistency": 0.9432896465491162
+      },
+      "antisymmetry": {
+        "hierarchy_strength": 0.9999972041475882,
+        "cross_level_variability": 0.26594239853608836,
+        "coordination_strength": 0.7435265636925246,
+        "retention_strength": 0.9999972041475882,
+        "sector_bias": 0.05219083503335942,
+        "recursive_consistency": 0.9999972041475882
+      },
+      "neutral": {
+        "hierarchy_strength": 0.8601159313624671,
+        "cross_level_variability": 0.20891704174543874,
+        "coordination_strength": 0.7846938172125558,
+        "retention_strength": 0.8601159313624671,
+        "sector_bias": 0.060660385497354356,
+        "recursive_consistency": 0.8601159313624671
+      }
+    },
+    "9": {
+      "projection": {
+        "hierarchy_strength": 0.9432896465491162,
+        "cross_level_variability": 0.2585920456622989,
+        "coordination_strength": 0.8654183591606246,
+        "retention_strength": 0.9432896465491162,
+        "sector_bias": 0.0376508096724997,
+        "recursive_consistency": 0.9432896465491162
+      },
+      "antisymmetry": {
+        "hierarchy_strength": 0.9999972041475882,
+        "cross_level_variability": 0.26594239853608836,
+        "coordination_strength": 0.7435265636925246,
+        "retention_strength": 0.9999972041475882,
+        "sector_bias": 0.05219083503335942,
+        "recursive_consistency": 0.9999972041475882
+      },
+      "neutral": {
+        "hierarchy_strength": 0.8601159313624671,
+        "cross_level_variability": 0.20891704174543874,
+        "coordination_strength": 0.7846938172125558,
+        "retention_strength": 0.8601159313624671,
+        "sector_bias": 0.060660385497354356,
+        "recursive_consistency": 0.8601159313624671
+      }
+    },
+    "12": {
+      "projection": {
+        "hierarchy_strength": 0.9432896465491162,
+        "cross_level_variability": 0.2585920456622989,
+        "coordination_strength": 0.8654183591606246,
+        "retention_strength": 0.9432896465491162,
+        "sector_bias": 0.0376508096724997,
+        "recursive_consistency": 0.9432896465491162
+      },
+      "antisymmetry": {
+        "hierarchy_strength": 0.9999972041475882,
+        "cross_level_variability": 0.26594239853608836,
+        "coordination_strength": 0.7435265636925246,
+        "retention_strength": 0.9999972041475882,
+        "sector_bias": 0.05219083503335942,
+        "recursive_consistency": 0.9999972041475882
+      },
+      "neutral": {
+        "hierarchy_strength": 0.8601159313624671,
+        "cross_level_variability": 0.20891704174543874,
+        "coordination_strength": 0.7846938172125558,
+        "retention_strength": 0.8601159313624671,
+        "sector_bias": 0.060660385497354356,
+        "recursive_consistency": 0.8601159313624671
+      }
+    },
+    "15": {
+      "projection": {
+        "hierarchy_strength": 0.9432896465491162,
+        "cross_level_variability": 0.2585920456622989,
+        "coordination_strength": 0.8654183591606246,
+        "retention_strength": 0.9432896465491162,
+        "sector_bias": 0.0376508096724997,
+        "recursive_consistency": 0.9432896465491162
+      },
+      "antisymmetry": {
+        "hierarchy_strength": 0.9999972041475882,
+        "cross_level_variability": 0.26594239853608836,
+        "coordination_strength": 0.7435265636925246,
+        "retention_strength": 0.9999972041475882,
+        "sector_bias": 0.05219083503335942,
+        "recursive_consistency": 0.9999972041475882
+      },
+      "neutral": {
+        "hierarchy_strength": 0.8601159313624671,
+        "cross_level_variability": 0.20891704174543874,
+        "coordination_strength": 0.7846938172125558,
+        "retention_strength": 0.8601159313624671,
+        "sector_bias": 0.060660385497354356,
+        "recursive_consistency": 0.8601159313624671
+      }
+    },
+    "20": {
+      "projection": {
+        "hierarchy_strength": 0.9432896465491162,
+        "cross_level_variability": 0.2585920456622989,
+        "coordination_strength": 0.8654183591606246,
+        "retention_strength": 0.9432896465491162,
+        "sector_bias": 0.0376508096724997,
+        "recursive_consistency": 0.9432896465491162
+      },
+      "antisymmetry": {
+        "hierarchy_strength": 0.9999972041475882,
+        "cross_level_variability": 0.26594239853608836,
+        "coordination_strength": 0.7435265636925246,
+        "retention_strength": 0.9999972041475882,
+        "sector_bias": 0.05219083503335942,
+        "recursive_consistency": 0.9999972041475882
+      },
+      "neutral": {
+        "hierarchy_strength": 0.8601159313624671,
+        "cross_level_variability": 0.20891704174543874,
+        "coordination_strength": 0.7846938172125558,
+        "retention_strength": 0.8601159313624671,
+        "sector_bias": 0.060660385497354356,
+        "recursive_consistency": 0.8601159313624671
+      }
+    }
+  },
+  "answers": {
+    "H1_hierarchy_structure": true,
+    "H2_bounded_variability": true,
+    "H3_cross_level_coordination": true,
+    "H4_recursive_retention": true,
+    "H5_rg_stability": true,
+    "verdict": "RECURSIVELY_STABLE",
+    "sector_classifications": {
+      "projection": "HIERARCHY-PRESERVING",
+      "antisymmetry": "HIERARCHY-PRESERVING",
+      "neutral": "HIERARCHY-PRESERVING"
+    },
+    "mean_hierarchy_strength": 0.9344675940197238,
+    "mean_variability": 0.24448382864794196,
+    "mean_coordination": 0.7978795800219016
+  }
+}

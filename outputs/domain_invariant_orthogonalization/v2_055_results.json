@@ -1,0 +1,74 @@
+{
+  "protocol": "V2_055_DOMAIN_INVARIANT_ORTHOGONALIZATION",
+  "max_metric_corr": 1.218917927244084e-15,
+  "gate_open_rate": 0.4,
+  "domain_results": {
+    "chirp": {
+      "replay_distance": 1.3826595942788087,
+      "stitched_distance": 3.594042832098087,
+      "reverse_distance": 5.245020157611276,
+      "adversarial_distance": 3.524839429343181,
+      "gate": true
+    },
+    "random_walk_trend": {
+      "replay_distance": 0.2773537041276757,
+      "stitched_distance": 1.5046459654661348,
+      "reverse_distance": 0.08724690777559202,
+      "adversarial_distance": 3.522895128107074,
+      "gate": false
+    },
+    "regime_switching": {
+      "replay_distance": 3.7395050301120256,
+      "stitched_distance": 3.486928425520541,
+      "reverse_distance": 6.788956592119414,
+      "adversarial_distance": 3.7858133871601183,
+      "gate": true
+    },
+    "chaotic_logistic": {
+      "replay_distance": 0.04207109668572681,
+      "stitched_distance": 0.06665953259780702,
+      "reverse_distance": 0.1368746688772129,
+      "adversarial_distance": 2.608012779204822,
+      "gate": false
+    },
+    "coupled_oscillator": {
+      "replay_distance": 0.7026074874640891,
+      "stitched_distance": 0.3691064304889644,
+      "reverse_distance": 0.13932578128508188,
+      "adversarial_distance": 2.2831890055065878,
+      "gate": false
+    }
+  },
+  "correlation_matrix": [
+    [
+      1.0,
+      4.81114410415255e-17,
+      -2.0751168071086313e-17,
+      8.132752308407966e-16
+    ],
+    [
+      4.81114410415255e-17,
+      1.0,
+      1.218917927244084e-15,
+      -4.64307385590558e-16
+    ],
+    [
+      -2.0751168071086313e-17,
+      1.218917927244084e-15,
+      1.0,
+      3.638560976848023e-16
+    ],
+    [
+      8.132752308407966e-16,
+      -4.64307385590558e-16,
+      3.638560976848023e-16,
+      1.0
+    ]
+  ],
+  "explained_variance": [
+    0.4434667584269884,
+    0.2641683164502938,
+    0.23581940246635774,
+    0.05654552265636013
+  ]
+}

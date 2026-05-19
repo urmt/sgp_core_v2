@@ -1,0 +1,199 @@
+{
+  "invertibility": {
+    "identity": {
+      "invertible": true,
+      "inverse": "identity"
+    },
+    "reverse": {
+      "invertible": true,
+      "inverse": "reverse"
+    },
+    "swap": {
+      "invertible": true,
+      "inverse": "swap"
+    },
+    "replay": {
+      "invertible": false,
+      "inverse": null
+    },
+    "stitch": {
+      "invertible": false,
+      "inverse": null
+    }
+  },
+  "idempotency": {
+    "identity": {
+      "idempotent": true,
+      "mse": 0.0
+    },
+    "reverse": {
+      "idempotent": false,
+      "mse": 2.330622034348367
+    },
+    "swap": {
+      "idempotent": false,
+      "mse": 2.329911839337994
+    },
+    "replay": {
+      "idempotent": true,
+      "mse": 0.0
+    },
+    "stitch": {
+      "idempotent": false,
+      "mse": 1.7626690248037031
+    }
+  },
+  "subgroup_closure": {
+    "identity\u2218identity": {
+      "closed": true,
+      "maps_to": "identity"
+    },
+    "identity\u2218reverse": {
+      "closed": true,
+      "maps_to": "reverse"
+    },
+    "identity\u2218swap": {
+      "closed": true,
+      "maps_to": "swap"
+    },
+    "reverse\u2218identity": {
+      "closed": true,
+      "maps_to": "reverse"
+    },
+    "reverse\u2218reverse": {
+      "closed": true,
+      "maps_to": "identity"
+    },
+    "reverse\u2218swap": {
+      "closed": false,
+      "maps_to": null
+    },
+    "swap\u2218identity": {
+      "closed": true,
+      "maps_to": "swap"
+    },
+    "swap\u2218reverse": {
+      "closed": false,
+      "maps_to": null
+    },
+    "swap\u2218swap": {
+      "closed": true,
+      "maps_to": "identity"
+    }
+  },
+  "replay_projection": {
+    "projection_like": true,
+    "mse": 0.0
+  },
+  "equivalence": {
+    "identity,identity": {
+      "distance": 0.0
+    },
+    "identity,reverse": {
+      "distance": 2.330622034348367
+    },
+    "identity,swap": {
+      "distance": 2.329911839337994
+    },
+    "identity,replay": {
+      "distance": 1.164955919668997
+    },
+    "identity,stitch": {
+      "distance": 1.7626690248037031
+    },
+    "reverse,identity": {
+      "distance": 2.330622034348367
+    },
+    "reverse,reverse": {
+      "distance": 0.0
+    },
+    "reverse,swap": {
+      "distance": 0.004933619605049362
+    },
+    "reverse,replay": {
+      "distance": 1.1676670737988093
+    },
+    "reverse,stitch": {
+      "distance": 0.5699694231330751
+    },
+    "swap,identity": {
+      "distance": 2.329911839337994
+    },
+    "swap,reverse": {
+      "distance": 0.004933619605049362
+    },
+    "swap,swap": {
+      "distance": 0.0
+    },
+    "swap,replay": {
+      "distance": 1.164955919668997
+    },
+    "swap,stitch": {
+      "distance": 0.5729940890206976
+    },
+    "replay,identity": {
+      "distance": 1.164955919668997
+    },
+    "replay,reverse": {
+      "distance": 1.1676670737988093
+    },
+    "replay,swap": {
+      "distance": 1.164955919668997
+    },
+    "replay,replay": {
+      "distance": 0.0
+    },
+    "replay,stitch": {
+      "distance": 1.1763029178144528
+    },
+    "stitch,identity": {
+      "distance": 1.7626690248037031
+    },
+    "stitch,reverse": {
+      "distance": 0.5699694231330751
+    },
+    "stitch,swap": {
+      "distance": 0.5729940890206976
+    },
+    "stitch,replay": {
+      "distance": 1.1763029178144528
+    },
+    "stitch,stitch": {
+      "distance": 0.0
+    }
+  },
+  "conservation": {
+    "identity": {
+      "variance_ratio": 1.0,
+      "energy_ratio": 1.0,
+      "mean_shift": 0.0
+    },
+    "reverse": {
+      "variance_ratio": 1.0,
+      "energy_ratio": 1.0,
+      "mean_shift": 0.0
+    },
+    "swap": {
+      "variance_ratio": 1.0,
+      "energy_ratio": 1.0,
+      "mean_shift": 0.0
+    },
+    "replay": {
+      "variance_ratio": 0.9746206236487233,
+      "energy_ratio": 1.0102090123864862,
+      "mean_shift": 0.14241230362213217
+    },
+    "stitch": {
+      "variance_ratio": 0.9999999999999998,
+      "energy_ratio": 1.0,
+      "mean_shift": -1.3877787807814457e-17
+    }
+  },
+  "classification": {
+    "identity": "identity_element",
+    "reverse": "invertible_involution",
+    "swap": "invertible_permutation",
+    "stitch": "invertible_localized_permutation",
+    "replay": "noninvertible_projection_like_operator"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "depths": {
+    "1": {
+      "projection": {
+        "count": 600,
+        "coherence_strength": 0.0,
+        "transfer_retention": 0.938806940019324,
+        "degradation_rate": 0.0,
+        "boundary_transfer": 0.0,
+        "recursive_stability": 1.0,
+        "sector_coupling": 11.52129556988804,
+        "dispersion": 0.31580895473043974
+      },
+      "antisymmetry": {
+        "count": 600,
+        "coherence_strength": 0.0,
+        "transfer_retention": 0.5999897388503543,
+        "degradation_rate": 0.0,
+        "boundary_transfer": 0.0,
+        "recursive_stability": 1.0,
+        "sector_coupling": 11.684816419976707,
+        "dispersion": 0.25623530522482335
+      },
+      "neutral": {
+        "count": 600,
+        "coherence_strength": 0.0,
+        "transfer_retention": 0.7000258875831874,
+        "degradation_rate": 0.0,
+        "boundary_transfer": 0.0,
+        "recursive_stability": 1.0,
+        "sector_coupling": 11.540837360063357,
+        "dispersion": 0.2782734947759024
+      }
+    },
+    "3": {
+      "projection": {
+        "count": 600,
+        "coherence_strength": 0.023789885614487548,
+        "transfer_retention": 0.46998020539236807,
+        "degradation_rate": 0.0,
+        "boundary_transfer": 0.0,
+        "recursive_stability": 0.8748982687346374,
+        "sector_coupling": 11.227009053881408,
+        "dispersion": 0.34187878520929693
+      },
+      "antisymmetry": {
+        "count": 600,
+        "coherence_strength": -0.42,
+        "transfer_retention": 0.5999897377390472,
+        "degradation_rate": 0.21,
+        "boundary_transfer": -0.0,
+        "recursive_stability": 0.7564,
+        "sector_coupling": 11.289562181001303,
+        "dispersion": 0.25623530522482335
+      },
+      "neutral": {
+        "count": 600,
+        "coherence_strength": -0.36346568638137733,
+        "transfer_retention": 0.5000254174286289,
+        "degradation_rate": 0.18173284319068866,
+        "boundary_transfer": -0.0,
+        "recursive_stability": 0.7736119680459606,
+        "sector_coupling": 11.352128020061182,
+        "dispersion": 0.2877825355465829
+      }
+    },
+    "6": {
+      "projection": {
+        "count": 600,
+        "coherence_strength": 0.023789885614487548,
+        "transfer_retention": 0.2144309617712131,
+        "degradation_rate": 0.0,
+        "boundary_transfer": 0.0,
+        "recursive_stability": 0.8748982687346374,
+        "sector_coupling": 11.09462896093592,
+        "dispersion": 0.34154992954108226
+      },
+      "antisymmetry": {
+        "count": 600,
+        "coherence_strength": -0.42,
+        "transfer_retention": 0.5999880285382018,
+        "degradation_rate": 0.08399999999999999,
+        "boundary_transfer": -0.0,
+        "recursive_stability": 0.7564,
+        "sector_coupling": 11.085754292390824,
+        "dispersion": 0.2561989044491874
+      },
+      "neutral": {
+        "count": 600,
+        "coherence_strength": -0.34594851913543834,
+        "transfer_retention": 0.45002071861462645,
+        "degradation_rate": 0.06918970382708767,
+        "boundary_transfer": 0.5,
+        "recursive_stability": 0.7993791339455854,
+        "sector_coupling": 11.238976699799773,
+        "dispersion": 0.2870500111517211
+      }
+    },
+    "9": {
+      "projection": {
+        "count": 600,
+        "coherence_strength": 0.023789885614487548,
+        "transfer_retention": 0.13943031369244469,
+        "degradation_rate": 0.0,
+        "boundary_transfer": 0.0,
+        "recursive_stability": 0.8748982687346374,
+        "sector_coupling": 11.037323728350376,
+        "dispersion": 0.34000390711661005
+      },
+      "antisymmetry": {
+        "count": 600,
+        "coherence_strength": -0.42,
+        "transfer_retention": 0.5999897394065461,
+        "degradation_rate": 0.0525,
+        "boundary_transfer": -0.0,
+        "recursive_stability": 0.7564,
+        "sector_coupling": 11.001831431726366,
+        "dispersion": 0.25623530522482335
+      },
+      "neutral": {
+        "count": 600,
+        "coherence_strength": -0.34156922732395356,
+        "transfer_retention": 0.4333588577949685,
+        "degradation_rate": 0.042696153415494195,
+        "boundary_transfer": 0.5,
+        "recursive_stability": 0.8024072410536247,
+        "sector_coupling": 11.187565633823528,
+        "dispersion": 0.2864285377429454
+      }
+    },
+    "12": {
+      "projection": {
+        "count": 600,
+        "coherence_strength": 0.023789885614487548,
+        "transfer_retention": 0.10336774008582732,
+        "degradation_rate": 0.0,
+        "boundary_transfer": 0.0,
+        "recursive_stability": 0.8748982687346374,
+        "sector_coupling": 11.00744729457498,
+        "dispersion": 0.33879220390925413
+      },
+      "antisymmetry": {
+        "count": 600,
+        "coherence_strength": -0.42,
+        "transfer_retention": 0.5999888859073723,
+        "degradation_rate": 0.03818181818181818,
+        "boundary_transfer": -0.0,
+        "recursive_stability": 0.7564,
+        "sector_coupling": 10.957303579723831,
+        "dispersion": 0.2562169528922873
+      },
+      "neutral": {
+        "count": 600,
+        "coherence_strength": -0.3395786401369151,
+        "transfer_retention": 0.4250229875387027,
+        "degradation_rate": 0.03087078546699228,
+        "boundary_transfer": 0.5,
+        "recursive_stability": 0.8033322570955443,
+        "sector_coupling": 11.16198622919481,
+        "dispersion": 0.285960590638468
+      }
+    },
+    "15": {
+      "projection": {
+        "count": 600,
+        "coherence_strength": 0.023789885614487548,
+        "transfer_retention": 0.08214265239737539,
+        "degradation_rate": 0.0,
+        "boundary_transfer": 0.0,
+        "recursive_stability": 0.8748982687346374,
+        "sector_coupling": 10.987100035380633,
+        "dispersion": 0.33788529880175455
+      },
+      "antisymmetry": {
+        "count": 600,
+        "coherence_strength": -0.42,
+        "transfer_retention": 0.5999897418508116,
+        "degradation_rate": 0.03,
+        "boundary_transfer": -0.0,
+        "recursive_stability": 0.7564,
+        "sector_coupling": 10.928925286323853,
+        "dispersion": 0.25623530522482335
+      },
+      "neutral": {
+        "count": 600,
+        "coherence_strength": -0.3384411617443216,
+        "transfer_retention": 0.4200255471628678,
+        "degradation_rate": 0.02417436869602297,
+        "boundary_transfer": 0.5,
+        "recursive_stability": 0.8037341703674812,
+        "sector_coupling": 11.143772318415204,
+        "dispersion": 0.2856432195460155
+      }
+    },
+    "20": {
+      "projection": {
+        "count": 600,
+        "coherence_strength": 0.023789885614487548,
+        "transfer_retention": 0.061207552025233355,
+        "degradation_rate": 0.0,
+        "boundary_transfer": 0.0,
+        "recursive_stability": 0.8748982687346374,
+        "sector_coupling": 10.96722114505149,
+        "dispersion": 0.3368177407703844
+      },
+      "antisymmetry": {
+        "count": 600,
+        "coherence_strength": -0.42,
+        "transfer_retention": 0.5999892309993963,
+        "degradation_rate": 0.022105263157894735,
+        "boundary_transfer": -0.0,
+        "recursive_stability": 0.7564,
+        "sector_coupling": 10.90027687894514,
+        "dispersion": 0.25622429250140516
+      },
+      "neutral": {
+        "count": 600,
+        "coherence_strength": -0.33525441430054753,
+        "transfer_retention": 0.4150244766479136,
+        "degradation_rate": 0.017644969173713027,
+        "boundary_transfer": 0.5,
+        "recursive_stability": 0.8042048045600454,
+        "sector_coupling": 11.126870942288233,
+        "dispersion": 0.28533924622735773
+      }
+    }
+  },
+  "answers": {
+    "H1_coherence_retention": false,
+    "H2_bounded_degradation": true,
+    "H3_sector_transfer": true,
+    "H4_recursive_stability": true,
+    "H5_rg_stability": true,
+    "verdict": "DIFFUSE",
+    "sector_classifications": {
+      "projection": "COHERENCE-NEUTRAL",
+      "antisymmetry": "COHERENCE-PRESERVING",
+      "neutral": "COHERENCE-PRESERVING"
+    },
+    "mean_coherence": -0.24382150956201998,
+    "mean_transfer": 0.3587404198908477,
+    "mean_degradation": 0.038242662148081516
+  }
+}

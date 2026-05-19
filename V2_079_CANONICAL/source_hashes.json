@@ -1,0 +1,10 @@
+{
+  "make_signals": "cf8e6de31ac00e0081fe632e6da2c7de5e972b13cf1a938a4a45a0fea5b99723",
+  "make_variants": "d92c96ef755d3710d837be6d5f7c0d697b9c3d11f0872539020f00d6a9dd599a",
+  "signed_compressibility": "e00ed5a1120b9ea67b1e1b10a190c7625275f05e5c3c2140b309efab4b8f7a1b",
+  "half_corr": "4bdff6f6636bec68ff09ccf6711a100fad4f99708c5fd22a181a54eddc2fb495",
+  "ordinal_transition_asymmetry": "1234ef9138e73b40122892f6d315febf3f9c87f1726cbdbfccb18e4625ad1ded",
+  "amp_transition_asymmetry": "902adb42a65b349215ab3936853a388d226316dc9a65c34516bc31ca863ff9d1",
+  "embed_signal": "4e40b906104d7c555cc3fdd37836d1bbc311914a0371048ec6084311f89b77e5",
+  "evaluate_gate": "d4ce36bd105f8d894b202a65fd159d29d52b20e6006ee7d845762486b590b196"
+}

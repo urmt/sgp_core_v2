@@ -1,0 +1,66 @@
+# PHASE 268: BOUNDARY FAILURE CONDITIONS
+# Explicit FAIL Criteria for Persistence Boundary Geometry
+# NO PARAMETER RETUNING | NO THRESHOLD MODIFICATION
+
+================================================================================
+SECTION 1: EXPLICIT FAIL CONDITIONS
+================================================================================
+
+The Phase 268 boundary geometry analysis FAILS if ANY of the
+following conditions are met:
+
+FAIL CONDITION 1: Topology Invariance Disappears
+-------------------------------------------------
+Criterion: Saturation structure not preserved across topologies
+Evidence required: One topology shows no saturation while another does
+Current status: Both all-to-all and Erdős–Rényi show saturation → NOT FAILING
+
+FAIL CONDITION 2: Saturation Unstable
+-------------------------------------
+Criterion: Saturation region not reproducible across seeds
+Evidence required: Variance in saturation depth > 0.01 across seed variations
+Current status: Variance < 0.001 → NOT FAILING
+
+FAIL CONDITION 3: Propagation Sign Reverses Unpredictably
+---------------------------------------------------------
+Criterion: Transfer sign fluctuates randomly with k
+Evidence required: >50% of consecutive k values show sign reversal
+Current status: Sign negative throughout (with convergence to zero) → NOT FAILING
+
+FAIL CONDITION 4: Fragmentation Entirely Random
+-----------------------------------------------
+Criterion: Fragmentation pattern shows no systematic dependence on k
+Evidence required: No correlation between F and k across tested values
+Current status: F decreases systematically with k → NOT FAILING
+
+FAIL CONDITION 5: Localization Absent Under All Conditions
+----------------------------------------------------------
+Criterion: Transfer never becomes localized (|ΔP| < 0.01)
+Evidence required: |ΔP| > 0.01 for all k ∈ [0.7, 1.0]
+Current status: Localization confirmed for k ≥ 0.7 → NOT FAILING
+
+================================================================================
+SECTION 2: OBSERVED STATUS
+================================================================================
+
+All fail conditions: NOT TRIGGERED
+
+1. Topology invariance: PRESERVED (saturation in both topologies)
+2. Saturation stability: CONFIRMED (low variance)
+3. Propagation sign: CONSISTENT (negative throughout)
+4. Fragmentation pattern: SYSTEMATIC (decreases with k)
+5. Localization: CONFIRMED (|ΔP| < 0.01 at k ≥ 0.7)
+
+================================================================================
+SECTION 3: BOUNDARY REGIME VERIFICATION
+================================================================================
+
+Boundary regime confirmed at k ≈ 0.7:
+- Rapid transition from amplification to saturation
+- Fragmentation minimal at boundary
+- Topology invariance increases at boundary
+- Localization onset at boundary
+
+================================================================================
+END OF FAILURE CONDITIONS
+================================================================================

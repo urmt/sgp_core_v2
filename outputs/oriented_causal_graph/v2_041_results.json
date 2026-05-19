@@ -1,0 +1,93 @@
+{
+  "results": {
+    "evolving": {
+      "transition_imbalance": 0.14,
+      "cycle_flow": 0.017074981440224887,
+      "prediction_gain": 0.031707390999811236,
+      "flow_divergence": 0.0
+    },
+    "replay": {
+      "transition_imbalance": 0.1375,
+      "cycle_flow": 0.007578779417627611,
+      "prediction_gain": 0.13213082798411152,
+      "flow_divergence": 0.0005
+    },
+    "stitched": {
+      "transition_imbalance": 0.139,
+      "cycle_flow": 0.017074981440224887,
+      "prediction_gain": 0.03185222678709025,
+      "flow_divergence": 0.0
+    },
+    "time_reversed": {
+      "transition_imbalance": 0.14,
+      "cycle_flow": 0.017074981440224887,
+      "prediction_gain": 0.031707390999811236,
+      "flow_divergence": 0.0
+    },
+    "static": {
+      "transition_imbalance": 0.0065,
+      "cycle_flow": 0.00079808459696696,
+      "prediction_gain": 7.179428046120306e-05,
+      "flow_divergence": 0.0005
+    },
+    "random": {
+      "transition_imbalance": 0.0835,
+      "cycle_flow": 0.017127799736472823,
+      "prediction_gain": 0.0800516626735628,
+      "flow_divergence": 0.0
+    },
+    "cyclic_loop": {
+      "transition_imbalance": 0.0175,
+      "cycle_flow": 0.0028328611897996936,
+      "prediction_gain": 0.0024777493509107983,
+      "flow_divergence": 0.0005
+    }
+  },
+  "distances": {
+    "replay": 0.10090363991746636,
+    "stitched": 0.0010104342656881416,
+    "time_reversed": 0.0,
+    "static": 0.13816022709389056,
+    "random": 0.07436007929956716,
+    "cyclic_loop": 0.12674269186091444
+  },
+  "metric_correlations": [
+    [
+      1.0,
+      0.796665657248043,
+      0.5195651618195414,
+      -0.6371734675806254
+    ],
+    [
+      0.796665657248043,
+      1.0,
+      0.23165038685257602,
+      -0.9625885198220346
+    ],
+    [
+      0.5195651618195414,
+      0.23165038685257602,
+      1.0,
+      0.012136913164322223
+    ],
+    [
+      -0.6371734675806255,
+      -0.9625885198220345,
+      0.012136913164322225,
+      0.9999999999999998
+    ]
+  ],
+  "max_metric_corr": 0.9625885198220346,
+  "conditions": {
+    "replay_distance_pass": false,
+    "stitched_distance_pass": false,
+    "reverse_distance_pass": false,
+    "metric_corr_pass": false
+  },
+  "collapse_detected": true,
+  "contradictions": [
+    "TIME REVERSAL COLLAPSE",
+    "METRIC REDUNDANCY DETECTED",
+    "REPLAY COLLAPSE"
+  ]
+}

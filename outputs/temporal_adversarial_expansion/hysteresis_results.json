@@ -1,0 +1,11 @@
+{
+  "stable_hierarchy": {
+    "error": "HysteresisLoopArea.compute() missing 2 required positional arguments: 'forward_structure' and 'reverse_structure'"
+  },
+  "random_temporal": {
+    "error": "HysteresisLoopArea.compute() missing 2 required positional arguments: 'forward_structure' and 'reverse_structure'"
+  },
+  "perturb_recover": {
+    "error": "HysteresisLoopArea.compute() missing 2 required positional arguments: 'forward_structure' and 'reverse_structure'"
+  }
+}

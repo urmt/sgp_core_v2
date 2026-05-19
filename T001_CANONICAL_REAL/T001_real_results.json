@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-05-16T03:06:43.998607Z",
+  "architecture": "V2_079_FROZEN",
+  "real_embeddings": true,
+  "n_rows": 250,
+  "pca": {
+    "dim95": 1,
+    "explained": [
+      0.9925697923725806,
+      0.0046533645792174805,
+      0.0026880350392271698,
+      8.880800897490426e-05
+    ]
+  },
+  "neighbor_purity": 0.8032,
+  "geodesic_correlation": 0.9989321005003373,
+  "replay_distance": 1.102067039450215,
+  "domain_overlap": {
+    "chirp": {
+      "within_mean": 5.960464477539063e-09,
+      "between_mean": 0.4401438178503745,
+      "separation_ratio": 73843879.03140388
+    },
+    "rw_trend": {
+      "within_mean": 0.35131583210908174,
+      "between_mean": 0.7539090012230977,
+      "separation_ratio": 2.1459579452969626
+    },
+    "regime_switch": {
+      "within_mean": 0.32638391229693525,
+      "between_mean": 0.8535653666372944,
+      "separation_ratio": 2.615218871023103
+    },
+    "chaotic_logistic": {
+      "within_mean": 0.0,
+      "between_mean": 0.4816165448476288,
+      "separation_ratio": Infinity
+    },
+    "coupled_osc": {
+      "within_mean": 4.214684851089403e-09,
+      "between_mean": 0.7465580868503076,
+      "separation_ratio": 177132600.23637086
+    }
+  }
+}

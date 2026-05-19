@@ -1,0 +1,10 @@
+{
+  "contradictions": [
+    "COLLAPSE DETECTED",
+    "NULL FAILURE",
+    "ADVERSARIAL FAILURE",
+    "METRIC REDUNDANCY"
+  ],
+  "null_separation": 0.13378998626044192,
+  "detection_rate": 0.6666666666666666
+}

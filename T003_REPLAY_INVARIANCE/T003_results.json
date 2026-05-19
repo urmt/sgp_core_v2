@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-05-15T21:07:21.151218Z",
+  "phase": "T003_REPLAY_INVARIANCE",
+  "displacement_vector": [
+    0.005666829506594945,
+    1.0579069275069326,
+    -0.010142450142450132,
+    0.016345136345136457
+  ],
+  "displacement_magnitude": 1.0580969771248987,
+  "metric_invariants": [
+    {
+      "metric": "m1",
+      "base_replay_corr": 0.999898975436496,
+      "base_mean": 0.23989578244585574,
+      "replay_mean": 0.2455626119524507
+    },
+    {
+      "metric": "m2",
+      "base_replay_corr": -0.12415195878359785,
+      "base_mean": -0.057906927506932666,
+      "replay_mean": 1.0
+    },
+    {
+      "metric": "m3",
+      "base_replay_corr": 0.9570104511465357,
+      "base_mean": 0.10223850223850223,
+      "replay_mean": 0.0920960520960521
+    },
+    {
+      "metric": "m4",
+      "base_replay_corr": 0.9988522859243268,
+      "base_mean": 0.2936263736263735,
+      "replay_mean": 0.30997150997150996
+    }
+  ],
+  "analysis": {
+    "replay_robustness": "duplicate halves \u2192 exact metric symmetry",
+    "m1_ordinal_flow": "invariant to temporal duplication",
+    "m2_half_corr": "depends on first half only \u2192 preserved",
+    "m3_compress": "duplication increases redundancy \u2192 lower entropy",
+    "m4_amp_transition": "depends on amplitude distribution \u2192 preserved"
+  }
+}

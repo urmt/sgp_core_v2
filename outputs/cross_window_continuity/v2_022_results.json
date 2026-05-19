@@ -1,0 +1,9 @@
+{
+  "results": {
+    "stable_hierarchy": 0.741420370714919,
+    "random_temporal": 0.08591049307272515,
+    "perturb_recover": 0.8487548293943176,
+    "shuffled": 0.7383264387475196
+  },
+  "ratio": 8.630148168115023
+}

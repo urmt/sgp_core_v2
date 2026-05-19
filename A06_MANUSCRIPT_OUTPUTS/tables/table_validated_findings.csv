@@ -1,0 +1,6 @@
+id,finding,evidence,status
+F001,V2_079 embeddings are separable,1NN accuracy = 0.80 vs chance = 0.20,VALIDATED
+F002,LDA recovers more information than scalar gate,LDA AUC = 0.905 vs gate ≈ 0.76,VALIDATED
+F003,Scalar gate destroys separable information,regime_switch gate = 30% vs LDA = 90%,VALIDATED
+F004,M4 dead in oscillatory domains,zero variance across chirp/coupled_osc,VALIDATED
+F005,Cross-version contamination existed,different random signal realizations,VALIDATED

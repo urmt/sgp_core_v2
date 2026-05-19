@@ -1,0 +1,176 @@
+{
+  "depths": {
+    "1": {
+      "projection-neutral": {
+        "compatibility_strength": 0.07940129036724575,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.5354166666666667,
+        "divergence_rate": 0.04371889856135791,
+        "transition_instability": 0.46458333333333335
+      },
+      "projection-antisymmetry": {
+        "compatibility_strength": 0.227798640632759,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.5816666666666667,
+        "divergence_rate": 0.15424992655227354,
+        "transition_instability": 0.41833333333333333
+      },
+      "neutral-antisymmetry": {
+        "compatibility_strength": 0.18072909430533704,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.5583333333333333,
+        "divergence_rate": 0.2131294583969685,
+        "transition_instability": 0.44166666666666665
+      }
+    },
+    "3": {
+      "projection-neutral": {
+        "compatibility_strength": 0.2792262231126107,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.6114583333333333,
+        "divergence_rate": 0.12815665168625012,
+        "transition_instability": 0.3885416666666667
+      },
+      "projection-antisymmetry": {
+        "compatibility_strength": 0.5337318469976299,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.6889583333333333,
+        "divergence_rate": 0.041849233948486275,
+        "transition_instability": 0.31104166666666666
+      },
+      "neutral-antisymmetry": {
+        "compatibility_strength": 0.24809562382402936,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.5800000000000001,
+        "divergence_rate": 0.1724509166563747,
+        "transition_instability": 0.42
+      }
+    },
+    "6": {
+      "projection-neutral": {
+        "compatibility_strength": 0.3808613484142657,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.6504761904761904,
+        "divergence_rate": 0.23102802773794495,
+        "transition_instability": 0.34952380952380957
+      },
+      "projection-antisymmetry": {
+        "compatibility_strength": 0.6842416286250508,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.7376190476190476,
+        "divergence_rate": 0.029881853753072618,
+        "transition_instability": 0.2623809523809524
+      },
+      "neutral-antisymmetry": {
+        "compatibility_strength": 0.28375688715112435,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.5914285714285714,
+        "divergence_rate": 0.15487581022785302,
+        "transition_instability": 0.4085714285714286
+      }
+    },
+    "9": {
+      "projection-neutral": {
+        "compatibility_strength": 0.42460580167378303,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.6644166666666667,
+        "divergence_rate": 0.271122560061809,
+        "transition_instability": 0.33558333333333334
+      },
+      "projection-antisymmetry": {
+        "compatibility_strength": 0.7487710655232719,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.7558333333333334,
+        "divergence_rate": 0.05934954402192627,
+        "transition_instability": 0.24416666666666667
+      },
+      "neutral-antisymmetry": {
+        "compatibility_strength": 0.2978377936340662,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.59575,
+        "divergence_rate": 0.14880111880286984,
+        "transition_instability": 0.40425
+      }
+    },
+    "12": {
+      "projection-neutral": {
+        "compatibility_strength": 0.44914610984165587,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.6744230769230769,
+        "divergence_rate": 0.29668720714232055,
+        "transition_instability": 0.3255769230769231
+      },
+      "projection-antisymmetry": {
+        "compatibility_strength": 0.7851270935082065,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.7702564102564102,
+        "divergence_rate": 0.08050221948902825,
+        "transition_instability": 0.22974358974358974
+      },
+      "neutral-antisymmetry": {
+        "compatibility_strength": 0.305651749303907,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.6002564102564103,
+        "divergence_rate": 0.15515822364003884,
+        "transition_instability": 0.39974358974358976
+      }
+    },
+    "15": {
+      "projection-neutral": {
+        "compatibility_strength": 0.4647006743574043,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.6791666666666667,
+        "divergence_rate": 0.3111751426099463,
+        "transition_instability": 0.3208333333333333
+      },
+      "projection-antisymmetry": {
+        "compatibility_strength": 0.8080197935519458,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.7764583333333333,
+        "divergence_rate": 0.0911677874884459,
+        "transition_instability": 0.22354166666666667
+      },
+      "neutral-antisymmetry": {
+        "compatibility_strength": 0.3103673262056672,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.6018229166666667,
+        "divergence_rate": 0.15328323936555954,
+        "transition_instability": 0.39817708333333335
+      }
+    },
+    "20": {
+      "projection-neutral": {
+        "compatibility_strength": 0.4811435340603167,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.684047619047619,
+        "divergence_rate": 0.32659735869619066,
+        "transition_instability": 0.31595238095238093
+      },
+      "projection-antisymmetry": {
+        "compatibility_strength": 0.8323415372360317,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.7828571428571429,
+        "divergence_rate": 0.10327490315961319,
+        "transition_instability": 0.21714285714285714
+      },
+      "neutral-antisymmetry": {
+        "compatibility_strength": 0.3153354224182634,
+        "overlap_stability": 1.0,
+        "coexistence_retention": 0.603373015873016,
+        "divergence_rate": 0.15046620059520355,
+        "transition_instability": 0.39662698412698416
+      }
+    }
+  },
+  "answers": {
+    "H1_compatibility_strength": true,
+    "H2_overlap_stability": true,
+    "H3_divergence_control": true,
+    "H4_rg_stability": true,
+    "H5_coexistence_retention": true,
+    "verdict": "COMPATIBLE",
+    "best_compatibility_strength": 0.8323415372360317,
+    "mean_divergence": 0.15794887059969204,
+    "mean_overlap_stability": 1.0
+  }
+}

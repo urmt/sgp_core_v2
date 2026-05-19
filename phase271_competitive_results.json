@@ -1,0 +1,106 @@
+{
+  "competition_results": [
+    {
+      "alpha": 0.0,
+      "transfer": -0.00925382860866731
+    },
+    {
+      "alpha": 0.25,
+      "transfer": 0.003910068426197455
+    },
+    {
+      "alpha": 0.5,
+      "transfer": -0.009775171065493637
+    },
+    {
+      "alpha": 0.75,
+      "transfer": 0.003910068426197455
+    },
+    {
+      "alpha": 1.0,
+      "transfer": -0.03323558162267837
+    }
+  ],
+  "localization_results": [
+    {
+      "alpha": 0.0,
+      "transfer": -0.003910068426197455,
+      "localized": "True"
+    },
+    {
+      "alpha": 0.5,
+      "transfer": -0.003910068426197455,
+      "localized": "True"
+    },
+    {
+      "alpha": 1.0,
+      "transfer": -0.03910068426197455,
+      "localized": "False"
+    }
+  ],
+  "dual_topology_results": [
+    {
+      "k": 0.0,
+      "transfer": -0.050830889540567026
+    },
+    {
+      "k": 0.2,
+      "transfer": -0.06647116324535673
+    },
+    {
+      "k": 0.4,
+      "transfer": -0.04496578690127073
+    },
+    {
+      "k": 0.6,
+      "transfer": -0.029325513196480912
+    },
+    {
+      "k": 0.8,
+      "transfer": -0.009775171065493637
+    },
+    {
+      "k": 1.0,
+      "transfer": -0.01564027370478982
+    }
+  ],
+  "dominance_results": {
+    "single_aa": -0.009384164222873892,
+    "single_er": -0.03323558162267837,
+    "mixed": -0.009775171065493637,
+    "dominant": "AA"
+  },
+  "saturation_boundary": 0.4,
+  "saturation_k_values": [
+    [
+      0.4,
+      -0.04496578690127073
+    ],
+    [
+      0.5,
+      -0.04692082111436946
+    ],
+    [
+      0.6,
+      -0.029325513196480912
+    ],
+    [
+      0.7,
+      -0.00782013685239491
+    ]
+  ],
+  "stability_results": [
+    -0.029325513196480912,
+    -0.029325513196480912,
+    -0.029325513196480912,
+    -0.029325513196480912
+  ],
+  "stability_variance": 0.0,
+  "answers": {
+    "Q1_competition_destab": "True",
+    "Q2_localization_alt": "True",
+    "Q3_coexistence": "True",
+    "Q4_dominance": "True",
+    "Q5_saturation_survive": "False"
+  }
+}

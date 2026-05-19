@@ -1,0 +1,82 @@
+# PHASE 287: FORBIDDEN INTERPRETATIONS
+# Explicit Prohibited Claims
+# STRICTLY MATHEMATICAL | NO PHYSICS | NO ONTOLOGY
+
+================================================================================
+SECTION 1: EXPLICITLY FORBIDDEN
+================================================================================
+
+The following interpretations are PROHIBITED and will NOT
+be made regardless of experimental results:
+
+1. "Conservation implies physical law"
+   - Conservation is mathematical boundedness
+   - No physical law interpretation
+   - No natural law claim
+
+2. "Invariants prove spacetime"
+   - Invariants are persistence properties
+   - No spatial or temporal structure
+   - No spacetime emergence
+
+3. "Recursive persistence implies observers"
+   - Persistence is sector retention
+   - No observer interpretation
+   - No consciousness connection
+
+4. "Constraint preservation proves reality"
+   - Preservation is bounded variance
+   - No "reality generation"
+   - No ontological status
+
+5. "RG stability implies quantum structure"
+   - RG stability is scale invariance
+   - No quantum mechanics
+   - No wave function interpretation
+
+6. "Metastable conservation proves persistence of matter"
+   - Metastability is probability structure
+   - No matter or energy
+   - No physical persistence
+
+7. "Sector-stable quantity indicates physical field"
+   - Sector stability is persistence rate
+   - No field interpretation
+   - No physical field claim
+
+8. "Bounded variance proves fundamental constant"
+   - Bounded variance is mathematical
+   - No constant or law
+   - No physical interpretation
+
+================================================================================
+SECTION 2: ALLOWED INTERPRETATIONS
+================================================================================
+
+ONLY the following mathematical language is permitted:
+
+- "Bounded variance under recursion"
+- "Sector persistence stability"
+- "Conservation-like relational structure"
+- "Metastable sector preservation"
+- "RG-invariant persistence"
+- "Recursive retention bounded"
+- "Entropy drift bounded"
+- "Attractor-dominated basin structure"
+
+================================================================================
+SECTION 3: EMPIRICAL BOUNDARY
+================================================================================
+
+Results reported:
+- Sector persistence rates
+- Variance boundedness
+- Entropy drift magnitude
+- RG correlations
+
+No claims beyond mathematical description of
+conservation-like structure in persistence geometry.
+
+================================================================================
+END OF FORBIDDEN INTERPRETATIONS
+================================================================================

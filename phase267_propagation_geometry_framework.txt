@@ -1,0 +1,126 @@
+# PHASE 267: PROPAGATION GEOMETRY FRAMEWORK
+# Characterization of Persistence Propagation Under Interaction Coupling
+# NO ONTOLOGY | NO CONSCIOUSNESS LANGUAGE | NO NEW CLAIMS
+
+================================================================================
+SECTION A: PERSISTENCE PROPAGATION DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Persistence propagation is the change in future coordinated persistence
+caused by interaction with another partially organized structure.
+
+MATHEMATICAL FORMULATION:
+
+Let P(S) be the persistence metric of structure S.
+Let I(S_A, S_B, k) be the interaction between structures A and B at coupling k.
+
+Propagation ΔP:
+  ΔP(k) = P(I(S_A, S_B, k)) - max(P(S_A), P(S_B))
+
+ΔP > 0 indicates positive propagation (persistence transfer).
+ΔP < 0 indicates negative propagation (persistence loss).
+ΔP ≈ 0 indicates neutral propagation.
+
+OBSERVED: ΔP(k) is negative for all k in multi-node systems, but
+approaches zero as coupling increases. This indicates reduced
+persistence loss at higher coupling.
+
+================================================================================
+SECTION B: AMPLIFICATION REGIME DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+An amplification regime exists where d(transfer)/dk > 0 consistently
+across the coupling range, meaning higher coupling increases persistence transfer.
+
+OBSERVED BEHAVIOR:
+- d(ΔP)/dk > 0 for k > threshold
+- Transfer becomes less negative as coupling increases
+- Amplification regime begins around k = 0.4-0.6
+
+MATHEMATICAL CHARACTERIZATION:
+  Amplification regime: ∀ k ∈ [k_min, k_max]: d(ΔP)/dk > 0
+
+================================================================================
+SECTION C: SATURATION REGIME DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+A saturation regime exists where transfer plateaus despite increasing
+coupling, indicating no further change in propagation geometry.
+
+OBSERVED BEHAVIOR:
+- Variance of ΔP in high-k region < threshold
+- Transfer values cluster near a constant value
+- Saturation confirmed at both topologies tested
+
+MATHEMATICAL CHARACTERIZATION:
+  Saturation regime: Var(ΔP[k_high]) < ε for ε = 0.0005
+
+================================================================================
+SECTION D: COLLAPSE REGIME DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+A collapse regime exists where increasing coupling reduces persistence
+organization, causing ΔP to become more negative.
+
+OBSERVED BEHAVIOR:
+- No collapse detected in current experiment
+- ΔP at k=1.0 > ΔP at k=0.0 (less negative)
+- Collapse threshold not reached
+
+MATHEMATICAL CHARACTERIZATION:
+  Collapse regime: ΔP(k=1.0) < ΔP(k=0.0) AND ΔP(k) < 0
+
+STATUS: No collapse regime observed.
+
+================================================================================
+SECTION E: RECURSIVE AMPLIFICATION DEFINITION
+================================================================================
+
+OPERATIONAL DEFINITION:
+Recursive amplification exists when transfer-enhanced organization
+increases future transfer capacity, meaning transfer at stage n+1
+exceeds transfer at stage n.
+
+OBSERVED BEHAVIOR:
+- Recursive amplification NOT confirmed
+- Transfer values remain constant across stages
+- No evidence of self-reinforcing propagation
+
+MATHEMATICAL CHARACTERIZATION:
+  Recursive amplification: ∃ n: ΔP[n+1] > ΔP[n]
+
+STATUS: No recursive amplification observed.
+
+================================================================================
+SECTION F: EMPIRICAL CONSTRAINTS
+================================================================================
+
+This phase:
+- Extends Phase 266 persistence-transfer framework
+- Uses only validated observables (persistence_metric, synchronization)
+- No new synchronization metrics introduced
+- No FFT/Hilbert transforms added
+
+Key observation: Multi-node propagation differs from two-signal case.
+Phase 266 showed positive transfer; Phase 267 shows negative transfer
+approaching zero. This may indicate implementation sensitivity.
+
+================================================================================
+SECTION G: INTERPRETATION BOUNDARIES
+================================================================================
+
+ALLOWED: "Persistence propagation shows saturation at high coupling"
+ALLOWED: "Amplification regime exists before saturation"
+ALLOWED: "Transfer approaches zero rather than collapsing"
+
+FORBIDDEN: "Propagation creates awareness"
+FORBIDDEN: "Recursive amplification indicates learning"
+FORBIDDEN: "Transfer proves cognition"
+
+================================================================================
+END OF FRAMEWORK
+================================================================================

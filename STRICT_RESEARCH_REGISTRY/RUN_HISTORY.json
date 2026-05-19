@@ -1,0 +1,9 @@
+[
+  {
+    "timestamp": "2026-05-16T02:43:11.304555Z",
+    "action_id": "A01",
+    "action": "Replace scalar gate with LDA readout",
+    "goal": "recover separable information already present",
+    "status": "AUTHORIZED"
+  }
+]

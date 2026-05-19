@@ -1,0 +1,198 @@
+{
+  "depths": {
+    "1": {
+      "projection": {
+        "count": 2400,
+        "transport_strength": 0.9975,
+        "directional_bias": 0.0,
+        "path_dispersion": 1.255128288170464e-17,
+        "channel_persistence": 0.0,
+        "escape_transport_ratio": 0.33916666666666667
+      },
+      "antisymmetry": {
+        "count": 2400,
+        "transport_strength": 0.415,
+        "directional_bias": 0.0,
+        "path_dispersion": 1.0486791992239938e-17,
+        "channel_persistence": 0.0,
+        "escape_transport_ratio": 0.0
+      },
+      "neutral": {
+        "count": 2400,
+        "transport_strength": 0.7354166666666667,
+        "directional_bias": 0.0,
+        "path_dispersion": 1.725444185971686e-17,
+        "channel_persistence": 0.0,
+        "escape_transport_ratio": 0.19958333333333333
+      }
+    },
+    "3": {
+      "projection": {
+        "count": 2400,
+        "transport_strength": 0.9324957262771459,
+        "directional_bias": 0.017579353725663605,
+        "path_dispersion": 0.12945535509672998,
+        "channel_persistence": 0.09145833333333334,
+        "escape_transport_ratio": 0.30395833333333333
+      },
+      "antisymmetry": {
+        "count": 2400,
+        "transport_strength": 0.13833333333333334,
+        "directional_bias": -0.415,
+        "path_dispersion": 1.1772574195620825e-17,
+        "channel_persistence": 0.0,
+        "escape_transport_ratio": 0.0
+      },
+      "neutral": {
+        "count": 2400,
+        "transport_strength": 0.4255555555555555,
+        "directional_bias": -0.35542789967711175,
+        "path_dispersion": 0.07439175818473497,
+        "channel_persistence": 0.024375,
+        "escape_transport_ratio": 0.07760416666666667
+      }
+    },
+    "6": {
+      "projection": {
+        "count": 2400,
+        "transport_strength": 0.9324957262771459,
+        "directional_bias": 0.017579353725663605,
+        "path_dispersion": 0.1874069329832765,
+        "channel_persistence": 0.036583333333333336,
+        "escape_transport_ratio": 0.13648809523809524
+      },
+      "antisymmetry": {
+        "count": 2400,
+        "transport_strength": 0.0,
+        "directional_bias": -0.415,
+        "path_dispersion": 0.0006992857255633315,
+        "channel_persistence": 0.0,
+        "escape_transport_ratio": 0.0
+      },
+      "neutral": {
+        "count": 2400,
+        "transport_strength": 0.33333333333333326,
+        "directional_bias": -0.3425148323926688,
+        "path_dispersion": 0.08382160538226287,
+        "channel_persistence": 0.03300000000000001,
+        "escape_transport_ratio": 0.05720238095238095
+      }
+    },
+    "9": {
+      "projection": {
+        "count": 2400,
+        "transport_strength": 0.9324957262771459,
+        "directional_bias": 0.017579353725663605,
+        "path_dispersion": 0.19336078728554787,
+        "channel_persistence": 0.022864583333333334,
+        "escape_transport_ratio": 0.09295833333333334
+      },
+      "antisymmetry": {
+        "count": 2400,
+        "transport_strength": 0.04611111111111111,
+        "directional_bias": -0.415,
+        "path_dispersion": 1.8768167744470526e-17,
+        "channel_persistence": 0.0,
+        "escape_transport_ratio": 0.0
+      },
+      "neutral": {
+        "count": 2400,
+        "transport_strength": 0.3640740740740739,
+        "directional_bias": -0.33845323223822477,
+        "path_dispersion": 0.08046176543218732,
+        "channel_persistence": 0.03515625,
+        "escape_transport_ratio": 0.04795833333333333
+      }
+    },
+    "12": {
+      "projection": {
+        "count": 2400,
+        "transport_strength": 0.9324957262771459,
+        "directional_bias": 0.017579353725663605,
+        "path_dispersion": 0.1879094936310666,
+        "channel_persistence": 0.01662878787878788,
+        "escape_transport_ratio": 0.07189102564102565
+      },
+      "antisymmetry": {
+        "count": 2400,
+        "transport_strength": 0.0,
+        "directional_bias": -0.415,
+        "path_dispersion": 0.0003793132911995862,
+        "channel_persistence": 0.0,
+        "escape_transport_ratio": 0.0
+      },
+      "neutral": {
+        "count": 2400,
+        "transport_strength": 0.33333333333333315,
+        "directional_bias": -0.3366070503498411,
+        "path_dispersion": 0.07659323339454098,
+        "channel_persistence": 0.03613636363636363,
+        "escape_transport_ratio": 0.042852564102564106
+      }
+    },
+    "15": {
+      "projection": {
+        "count": 2400,
+        "transport_strength": 0.9324957262771459,
+        "directional_bias": 0.017579353725663605,
+        "path_dispersion": 0.1800165069600695,
+        "channel_persistence": 0.01306547619047619,
+        "escape_transport_ratio": 0.05875
+      },
+      "antisymmetry": {
+        "count": 2400,
+        "transport_strength": 0.02766666666666667,
+        "directional_bias": -0.415,
+        "path_dispersion": 2.7152128244893848e-17,
+        "channel_persistence": 0.0,
+        "escape_transport_ratio": 0.0
+      },
+      "neutral": {
+        "count": 2400,
+        "transport_strength": 0.3517777777777776,
+        "directional_bias": -0.3355520892707647,
+        "path_dispersion": 0.07248214423788107,
+        "channel_persistence": 0.03669642857142857,
+        "escape_transport_ratio": 0.040130208333333334
+      }
+    },
+    "20": {
+      "projection": {
+        "count": 2400,
+        "transport_strength": 0.9324957262771459,
+        "directional_bias": 0.017579353725663605,
+        "path_dispersion": 0.1669250239741963,
+        "channel_persistence": 0.00962719298245614,
+        "escape_transport_ratio": 0.045
+      },
+      "antisymmetry": {
+        "count": 2400,
+        "transport_strength": 0.0,
+        "directional_bias": -0.415,
+        "path_dispersion": 0.0002352436305130166,
+        "channel_persistence": 0.0,
+        "escape_transport_ratio": 0.0
+      },
+      "neutral": {
+        "count": 2400,
+        "transport_strength": 0.33967112670821503,
+        "directional_bias": -0.33265492549081926,
+        "path_dispersion": 0.06701685208472341,
+        "channel_persistence": 0.03822368421052631,
+        "escape_transport_ratio": 0.03775793650793651
+      }
+    }
+  },
+  "answers": {
+    "H1_transport_strength": true,
+    "H2_directional_bias": false,
+    "H3_bounded_dispersion": true,
+    "H4_rg_stability": true,
+    "H5_channel_persistence": false,
+    "verdict": "DIFFUSE",
+    "proj_transport": 0.9324957262771459,
+    "proj_bias": 0.017579353725663605,
+    "proj_dispersion": 0.1669250239741963,
+    "proj_persistence": 0.00962719298245614
+  }
+}

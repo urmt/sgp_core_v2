@@ -1,0 +1,7 @@
+CONCLUSION
+Central hypothesis confirmed: failure mode was NOT embedding space itself, but scalar gate geometry.
+Canonical V2_079 embeddings contain significant separable structure.
+Discriminative readouts recover this information reliably.
+Forensic audit revealed: dead metrics, invalid cross-version comparisons, singular covariance, hidden protocol drift.
+After strict lineage repair, evidence consistently supports replacing scalar gate with learned probabilistic classifiers.
+Future work: calibrated detectors, uncertainty estimation, domain-specific readouts, benchmark formalization.

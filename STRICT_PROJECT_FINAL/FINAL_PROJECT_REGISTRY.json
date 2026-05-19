@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-05-16T02:52:32.190407Z",
+  "project": "STRICT_1SCRIPT_TEMPORAL_GEOMETRY",
+  "architecture": "V2_079_FROZEN",
+  "status": "FINALIZED",
+  "approved_actions_completed": [
+    "A01_LDA_GATE_REPLACEMENT",
+    "A04_CANONICAL_CONFUSION",
+    "A06_MANUSCRIPT_OUTPUTS"
+  ],
+  "invalidated_runs": [
+    "noncanonical_A04",
+    "signal_standardized_V2_082",
+    "modified_metric_variants"
+  ],
+  "final_conclusions": [
+    {
+      "id": "C001",
+      "statement": "V2_079 embeddings contain substantial separable information."
+    },
+    {
+      "id": "C002",
+      "statement": "Scalar threshold gates destroy recoverable embedding geometry."
+    },
+    {
+      "id": "C003",
+      "statement": "LDA/probabilistic readouts substantially outperform scalar gates."
+    },
+    {
+      "id": "C004",
+      "statement": "regime_switch failure was gate-induced, not embedding-induced."
+    },
+    {
+      "id": "C005",
+      "statement": "rw_trend exhibits genuine geometric overlap."
+    },
+    {
+      "id": "C006",
+      "statement": "replay is universally robust across all domains."
+    },
+    {
+      "id": "C007",
+      "statement": "Canonical lineage repair was necessary and successful."
+    }
+  ],
+  "artifact_verification": {
+    "A06_MANUSCRIPT_OUTPUTS/text/abstract.txt": {
+      "exists": true,
+      "sha256": "35e0b3035f786e0a4befa1c4fc8d34fe78f25cae7f071f86b5c61545b8ad2104"
+    },
+    "A06_MANUSCRIPT_OUTPUTS/text/conclusion.txt": {
+      "exists": true,
+      "sha256": "ddc4184d159517514429f88854f6060fbf688159e94278ba8924077016bcfb60"
+    },
+    "A06_MANUSCRIPT_OUTPUTS/json/canonical_snapshot.json": {
+      "exists": true,
+      "sha256": "fba321ce5ca6984ddbd99786cf371e70b9269abeb2edb22ffce5e3aedbb2654a"
+    },
+    "A04_CANONICAL_CONFUSION/canonical_confusion_summary.json": {
+      "exists": true,
+      "sha256": "3b97e8d9fc90fc73eae4595f491cc0b68aad6b439f0108aef1cd3f5c733def8b"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "tau_full_variance": 0.9982858303010651,
+  "tau_nom2_variance": 0.7433460492441176,
+  "mean_align_full": 0.9834626470004478,
+  "mean_align_nom2": 0.6260863235686189,
+  "tau_collapse": 0.2549397810569475,
+  "align_collapse": 0.3573763234318289,
+  "H1_tau_destroyed": true,
+  "H2_alignment_destroyed": true,
+  "H3_m2_critical": true,
+  "interpretation": "If removing m2 destroys \u03c4, theorem validated. If \u03c4 survives, theorem incomplete."
+}

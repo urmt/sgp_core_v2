@@ -1,0 +1,9 @@
+{
+  "projection_curvature": 1.2618132992321085,
+  "antisymmetry_curvature": 0.4363323125846612,
+  "projection_displacement": 0.5859970305376119,
+  "antisymmetry_displacement": 0.007089955172916696,
+  "H1_projection_low_curvature": false,
+  "H2_projection_absorbing": false,
+  "H3_sector_differentiation": true
+}

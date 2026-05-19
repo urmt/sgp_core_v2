@@ -1,0 +1,62 @@
+{
+  "legitimate": {
+    "stable_hierarchy": {
+      "is_adversarial": false,
+      "attack_type": "legitimate",
+      "drift": 0.9793981368765037,
+      "transition_variance": 0.25359775833797304,
+      "coherence_collapse": 0.7857754402504572,
+      "is_suspicious": false,
+      "is_engineered": "False"
+    },
+    "random_temporal": {
+      "is_adversarial": false,
+      "attack_type": "legitimate",
+      "drift": 1.1929369951698998,
+      "transition_variance": 0.06575250619974066,
+      "coherence_collapse": 0.3405087896501663,
+      "is_suspicious": false,
+      "is_engineered": "True"
+    },
+    "perturb_recover": {
+      "is_adversarial": false,
+      "attack_type": "legitimate",
+      "drift": 0.11559104200309314,
+      "transition_variance": 0.006632856782660966,
+      "coherence_collapse": 0.004167195912059163,
+      "is_suspicious": false,
+      "is_engineered": "False"
+    }
+  },
+  "adversarial": {
+    "delayed_random_coherence": {
+      "is_adversarial": false,
+      "attack_type": "legitimate",
+      "drift": 1.1849514558600758,
+      "transition_variance": 0.05572678088786149,
+      "coherence_collapse": 0.3244006531208377,
+      "is_suspicious": false,
+      "is_engineered": "True"
+    },
+    "temporal_camouflage": {
+      "is_adversarial": true,
+      "attack_type": "non_replay",
+      "drift": 1.1981148418602063,
+      "transition_variance": 0.13799227237525985,
+      "coherence_collapse": 0.2983656063626574,
+      "is_suspicious": true,
+      "is_engineered": "True"
+    },
+    "phase_shift_replay": {
+      "is_adversarial": false,
+      "attack_type": "legitimate",
+      "drift": 1.1781851758068949,
+      "transition_variance": 0.03974987951002469,
+      "coherence_collapse": 0.24627548047043463,
+      "is_suspicious": false,
+      "is_engineered": "True"
+    }
+  },
+  "false_positive_rate": 0.0,
+  "detection_rate": 0.3333333333333333
+}

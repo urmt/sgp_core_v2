@@ -1,0 +1,83 @@
+# PHASE 290: FORBIDDEN INTERPRETATIONS
+# Explicit Prohibited Claims
+# STRICTLY MATHEMATICAL | NO PHYSICS | NO ONTOLOGY
+
+================================================================================
+SECTION 1: EXPLICITLY FORBIDDEN
+================================================================================
+
+The following interpretations are PROHIBITED and will NOT
+be made regardless of experimental results:
+
+1. "Fixed regions imply particles"
+   - Fixed structures are bounded relational configurations
+   - No particle interpretation
+   - No physical objects
+
+2. "Bounded recurrence proves matter"
+   - Recurrence is revisit frequency measure
+   - No matter interpretation
+   - No physical substance
+
+3. "Recursive geometry creates spacetime"
+   - Geometry is mathematical structure
+   - No spatial or temporal structure
+   - No spacetime emergence
+
+4. "Metastability implies observers"
+   - Metastability is persistence under perturbation
+   - No observer interpretation
+   - No consciousness connection
+
+5. "Local stability proves physics"
+   - Local stability is mathematical boundedness
+   - No physical theory
+   - No physics derivation
+
+6. "Drift rate indicates motion"
+   - Drift rate is displacement per depth
+   - No motion interpretation
+   - No physical velocity
+
+7. "Escape rate indicates energy escape"
+   - Escape rate is trajectory boundary crossing
+   - No energy interpretation
+   - No physical process
+
+8. "Fixed structure persistence implies reality"
+   - Persistence is mathematical property
+   - No reality claim
+   - No ontological status
+
+================================================================================
+SECTION 2: ALLOWED INTERPRETATIONS
+================================================================================
+
+ONLY the following mathematical language is permitted:
+
+- "bounded relational configuration"
+- "locally persistent region"
+- "recurrence density"
+- "drift rate bounded"
+- "trajectory escape stabilized"
+- "RG-stable local structure"
+- "sector differentiation in retention"
+- "metastable region classification"
+
+================================================================================
+SECTION 3: EMPIRICAL BOUNDARY
+================================================================================
+
+Results reported:
+- Local retention values
+- Drift rates across depths
+- Escape rate stability
+- Recurrence densities
+- RG correlations
+
+No claims beyond mathematical description of
+local fixed structure in persistence geometry.
+
+================================================================================
+END OF FORBIDDEN INTERPRETATIONS
+================================================================================

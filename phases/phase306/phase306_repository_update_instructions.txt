@@ -1,0 +1,361 @@
+# PHASE 306: REPOSITORY UPDATE INSTRUCTIONS
+# Scientific Repository Organization Standards
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: REPOSITORY STRUCTURE
+================================================================================
+
+The sgp_core_v2 repository follows this mandatory structure:
+
+sgp_core_v2/
+|
+├── README.md                    # Project overview
+├── LICENSE                      # MIT License
+├── requirements.txt             # Python dependencies
+├── .gitignore                   # Git ignore rules
+│
+├── docs/                        # Documentation
+│   ├── theory/                  # Theory documents
+│   ├── glossary/                # Term definitions
+│   ├── methodology/             # Methodology documents
+│   ├── phase_summaries/        # Phase summary documents
+│   └── publication_notes/       # Publication preparation
+│
+├── phases/                      # Phase analysis artifacts
+│   ├── phase265/
+│   ├── phase280/
+│   ├── phase281/
+│   ├── ...
+│   └── phase306/
+│   └── (all phases follow same structure)
+│
+├── datasets/                    # Data storage
+│   ├── raw/                    # Raw data
+│   ├── processed/              # Processed data
+│   └── validation/             # Validation data
+│
+├── analysis/                    # Analysis tools
+│   ├── scripts/                # Python scripts
+│   ├── notebooks/              # Jupyter notebooks
+│   ├── utilities/              # Utility functions
+│   └── rg_analysis/           # RG analysis tools
+│
+├── figures/                    # Figure storage
+│   ├── publication/           # Publication-ready figures
+│   ├── exploratory/            # Exploratory figures
+│   └── archived/              # Archived figures
+│
+├── results/                    # Results storage
+│   ├── summaries/             # Result summaries
+│   ├── metrics/               # Metrics data
+│   ├── stability/             # Stability results
+│   └── cross_phase/           # Cross-phase analysis
+│
+├── papers/                     # Publication materials
+│   ├── drafts/                # Paper drafts
+│   ├── submitted/             # Submitted papers
+│   ├── published/             # Published papers
+│   └── references/            # References
+│
+└── archive/                   # Archive storage
+    ├── deprecated/            # Deprecated materials
+    ├── legacy_tests/           # Legacy test materials
+    └── frozen_snapshots/      # Version snapshots
+
+================================================================================
+SECTION 2: PHASE DIRECTORY STRUCTURE
+================================================================================
+
+Each phase (phaseXXX/) MUST contain exactly these files:
+
+phaseXXX/
+├── phaseXXX_framework.txt           # Theoretical framework
+├── phaseXXX_metrics.csv             # Numerical data
+├── phaseXXX_results.json            # Hypothesis results
+├── phaseXXX_analysis.txt            # Analysis results
+├── phaseXXX_sector_report.txt       # Sector-specific analysis
+├── phaseXXX_rg_stability.txt        # RG stability analysis
+├── phaseXXX_geometry_summary.txt    # Summary document
+├── phaseXXX_forbidden_interpretations.txt  # Prohibited interpretations
+└── phaseXXX_update_summary.txt      # Phase update summary
+
+COMPUTATION SCRIPTS (optional):
+├── phaseXXX_compute.py              # Main computation
+├── phaseXXX_analysis.py            # Analysis script
+└── (any additional scripts)
+
+ARCHIVED FILES:
+├── phaseXXX_archived/               # Archived artifacts
+└── (old versions if needed)
+
+RULE: NO loose files in root directory. All phase artifacts
+MUST be placed in phases/phaseXXX/ directory.
+
+================================================================================
+SECTION 3: FILE NAMING CONVENTIONS
+================================================================================
+
+MANDATORY FILE PATTERNS:
+
+Phase artifacts:
+- phaseXXX_framework.txt
+- phaseXXX_metrics.csv
+- phaseXXX_results.json
+- phaseXXX_analysis.txt
+- phaseXXX_sector_report.txt
+- phaseXXX_rg_stability.txt
+- phaseXXX_geometry_summary.txt
+- phaseXXX_forbidden_interpretations.txt
+- phaseXXX_update_summary.txt
+
+Computation scripts:
+- phaseXXX_compute.py
+- phaseXXX_analysis.py
+
+Cross-phase files:
+- cross_phase_framework.txt
+- cross_phase_metrics.csv
+- cross_phase_analysis.txt
+- cross_phase_summary.txt
+
+INDEX FILES:
+- docs/phase_summaries/master_phase_index.csv
+- results/cross_phase/cross_phase_stability_table.csv
+
+RULE: Use lowercase with underscores. No spaces. No special characters.
+
+================================================================================
+SECTION 4: COMMIT STANDARDS
+================================================================================
+
+MANDATORY COMMIT FORMAT:
+
+PHASE XXX COMPLETE — [VERDICT]
+
+Example commits:
+- PHASE 305 COMPLETE — RECURSIVELY_STABLE
+- PHASE 306 COMPLETE — RECURSIVELY_STABLE
+
+PUSH RULES:
+1. ONLY push when entire phase is complete
+2. All required files must be present
+3. Validation must pass
+4. Summaries must be finalized
+5. forbidden_interpretations must be included
+
+NEVER push:
+- Partial phases
+- Untested code
+- Incomplete summaries
+- Missing required files
+
+COMMIT MESSAGE FORMAT:
+[Phase] - [Brief Description] - [Status]
+
+Example:
+PHASE 305 - Recursive Propagation Geometry - COMPLETE
+
+================================================================================
+SECTION 5: PUBLICATION PREPARATION STANDARDS
+================================================================================
+
+FOR JOURNAL PUBLICATION:
+
+1. Phase Summaries
+   - Compile final phase summaries
+   - Verify all hypotheses documented
+   - Ensure reproducibility
+
+2. Figure Preparation
+   - Export figures to figures/publication/
+   - Use publication-ready formats (PDF, SVG)
+   - Include figure captions
+
+3. Metrics Documentation
+   - Complete metrics CSV files
+   - Include data provenance
+   - Document validation procedures
+
+4. Theory Documentation
+   - Update docs/theory/
+   - Include mathematical formalization
+   - Document constraints and limitations
+
+5. Reproducibility Package
+   - Ensure all scripts are documented
+   - Include requirements.txt
+   - Provide usage instructions
+
+================================================================================
+SECTION 6: FUTURE PHASE ADDITIONS
+================================================================================
+
+ADDING NEW PHASES:
+
+1. Create directory:
+   mkdir -p phases/phaseXXX
+
+2. Create required files:
+   - phaseXXX_framework.txt
+   - phaseXXX_metrics.csv
+   - phaseXXX_results.json
+   - phaseXXX_analysis.txt
+   - phaseXXX_sector_report.txt
+   - phaseXXX_rg_stability.txt
+   - phaseXXX_geometry_summary.txt
+   - phaseXXX_forbidden_interpretations.txt
+   - phaseXXX_update_summary.txt
+
+3. Create computation script (optional):
+   - phaseXXX_compute.py
+
+4. Update index files:
+   - docs/phase_summaries/master_phase_index.csv
+   - results/cross_phase/cross_phase_stability_table.csv
+
+5. Commit with standard format:
+   git add .
+   git commit -m "PHASE XXX COMPLETE — [VERDICT]"
+   git push
+
+================================================================================
+SECTION 7: REPOSITORY MAINTENANCE
+================================================================================
+
+MAINTENANCE TASKS:
+
+1. Weekly:
+   - Verify all phase directories have required files
+   - Update master_phase_index.csv for new phases
+   - Update cross_phase_stability_table.csv
+
+2. Monthly:
+   - Run full validation on all phases
+   - Update requirements.txt if needed
+   - Verify figure publication readiness
+
+3. Quarterly:
+   - Archive deprecated materials
+   - Update documentation
+   - Review publication notes
+
+VALIDATION CHECKLIST:
+□ All required files present in each phase directory
+□ All hypothesis results documented
+□ All forbidden interpretations included
+□ All update summaries complete
+□ All index files updated
+□ All figures in correct subdirectory
+
+================================================================================
+SECTION 8: REPRODUCIBILITY STANDARDS
+================================================================================
+
+REPRODUCIBILITY REQUIREMENTS:
+
+1. Code Documentation:
+   - All scripts include docstrings
+   - All functions have type hints
+   - All parameters documented
+
+2. Data Provenance:
+   - Raw data sources documented
+   - Processing steps recorded
+   - Validation procedures specified
+
+3. Environment:
+   - requirements.txt complete
+   - Version information recorded
+   - Environment reproducibility verified
+
+4. Results:
+   - Numerical results reproducible
+   - Statistical tests documented
+   - Uncertainty quantified
+
+================================================================================
+SECTION 9: SCIENTIFIC TRACEABILITY
+================================================================================
+
+TRACEABILITY REQUIREMENTS:
+
+1. Version Control:
+   - All changes tracked
+   - Commit messages descriptive
+   - Version tags for releases
+
+2. Data Tracking:
+   - All datasets versioned
+   - Processing steps recorded
+   - Results linked to inputs
+
+3. Analysis Documentation:
+   - All analysis steps documented
+   - Parameter choices justified
+   - Assumptions stated
+
+4. Results Validation:
+   - All results independently verified
+   - Statistical significance documented
+   - Limitations acknowledged
+
+================================================================================
+SECTION 10: REPOSITORY GITIGNORE
+================================================================================
+
+MANDATORY .gitignore ENTRIES:
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+datastore/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (large files)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+================================================================================
+END OF REPOSITORY UPDATE INSTRUCTIONS
+================================================================================

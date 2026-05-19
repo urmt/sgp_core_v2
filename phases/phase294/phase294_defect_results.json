@@ -1,0 +1,244 @@
+{
+  "depths": {
+    "1": {
+      "projection": {
+        "count": 600,
+        "defect_density": 0.25,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.26843369161274805,
+        "boundary_concentration": 0.75,
+        "transport_strength": 0.6096850620448147,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.041592854704649504
+      },
+      "antisymmetry": {
+        "count": 600,
+        "defect_density": 0.13166666666666665,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.3016952509030905,
+        "boundary_concentration": 0.735,
+        "transport_strength": 0.011840982486553972,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.04103467649953776
+      },
+      "neutral": {
+        "count": 600,
+        "defect_density": 0.23833333333333334,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.2586335037590201,
+        "boundary_concentration": 0.6283333333333333,
+        "transport_strength": 0.3225779290462149,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.041525351190140905
+      }
+    },
+    "3": {
+      "projection": {
+        "count": 600,
+        "defect_density": 0.25,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.27256117854521567,
+        "boundary_concentration": 0.75,
+        "transport_strength": 0.2593140163770248,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.042636617546953276
+      },
+      "antisymmetry": {
+        "count": 600,
+        "defect_density": 0.115,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.25373751510697684,
+        "boundary_concentration": 0.735,
+        "transport_strength": 0.003946994162184658,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.042410395935291154
+      },
+      "neutral": {
+        "count": 600,
+        "defect_density": 0.24791666666666667,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.2637985662765015,
+        "boundary_concentration": 0.7470833333333333,
+        "transport_strength": 0.09535162087433972,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.04218651698274678
+      }
+    },
+    "6": {
+      "projection": {
+        "count": 600,
+        "defect_density": 0.23,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.2256251854168694,
+        "boundary_concentration": 0.7414285714285714,
+        "transport_strength": 0.1296570081885124,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.04312341530587797
+      },
+      "antisymmetry": {
+        "count": 600,
+        "defect_density": 0.11285714285714285,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.26067437876250943,
+        "boundary_concentration": 0.73,
+        "transport_strength": 0.0,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.043156447770378234
+      },
+      "neutral": {
+        "count": 600,
+        "defect_density": 0.24952380952380954,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.28015336926216067,
+        "boundary_concentration": 0.7497619047619047,
+        "transport_strength": 0.04636014571644163,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.042593150390061535
+      }
+    },
+    "9": {
+      "projection": {
+        "count": 600,
+        "defect_density": 0.2405,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.2009984931817601,
+        "boundary_concentration": 0.7395,
+        "transport_strength": 0.08643800545900826,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.043337606863831216
+      },
+      "antisymmetry": {
+        "count": 600,
+        "defect_density": 0.13166666666666665,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.3016952509030897,
+        "boundary_concentration": 0.735,
+        "transport_strength": 0.001315664720728219,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.0434713378445812
+      },
+      "neutral": {
+        "count": 600,
+        "defect_density": 0.24783333333333332,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.27716500657583487,
+        "boundary_concentration": 0.7491666666666666,
+        "transport_strength": 0.031783873624779906,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.04278050841939336
+      }
+    },
+    "12": {
+      "projection": {
+        "count": 600,
+        "defect_density": 0.25,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.20510178019416575,
+        "boundary_concentration": 0.75,
+        "transport_strength": 0.0648285040942562,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.04345012296825533
+      },
+      "antisymmetry": {
+        "count": 600,
+        "defect_density": 0.11384615384615385,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.25743151719216956,
+        "boundary_concentration": 0.7323076923076923,
+        "transport_strength": 0.0,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.04364028556290136
+      },
+      "neutral": {
+        "count": 600,
+        "defect_density": 0.24666666666666667,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.27713755570939747,
+        "boundary_concentration": 0.7497435897435898,
+        "transport_strength": 0.023180072858220813,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.04287434320135722
+      }
+    },
+    "15": {
+      "projection": {
+        "count": 600,
+        "defect_density": 0.24864583333333334,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.1889006678438724,
+        "boundary_concentration": 0.7497916666666666,
+        "transport_strength": 0.051862803275404955,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.043527086772116905
+      },
+      "antisymmetry": {
+        "count": 600,
+        "defect_density": 0.13166666666666665,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.3016952509030924,
+        "boundary_concentration": 0.735,
+        "transport_strength": 0.0007893988324369315,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.043748645430232436
+      },
+      "neutral": {
+        "count": 600,
+        "defect_density": 0.24822916666666667,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.27956607271883976,
+        "boundary_concentration": 0.7494791666666667,
+        "transport_strength": 0.019070324174867943,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.042941409907957855
+      }
+    },
+    "20": {
+      "projection": {
+        "count": 600,
+        "defect_density": 0.24825396825396825,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.17292381608620977,
+        "boundary_concentration": 0.7485714285714286,
+        "transport_strength": 0.038897102456553714,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.04360254273248822
+      },
+      "antisymmetry": {
+        "count": 600,
+        "defect_density": 0.11428571428571428,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.25601303198996805,
+        "boundary_concentration": 0.7333333333333333,
+        "transport_strength": 0.0,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.043858583901890694
+      },
+      "neutral": {
+        "count": 600,
+        "defect_density": 0.24944444444444444,
+        "defect_persistence": 0.5,
+        "defect_dispersion": 0.2823629703802063,
+        "boundary_concentration": 0.7481746031746032,
+        "transport_strength": 0.01677944331780861,
+        "recursive_retention": 0.5,
+        "compatibility_disruption": 0.043003831596809414
+      }
+    }
+  },
+  "answers": {
+    "H1_defect_persistence": true,
+    "H2_bounded_dispersion": true,
+    "H3_boundary_localization": true,
+    "H4_recursive_retention": true,
+    "H5_rg_stability": true,
+    "verdict": "STABLE",
+    "sector_classifications": {
+      "projection": "DEFECT-SUPPRESSING",
+      "antisymmetry": "DEFECT-SUPPRESSING",
+      "neutral": "DEFECT-AMPLIFYING"
+    },
+    "mean_defect_density": 0.20399470899470898,
+    "mean_defect_persistence": 0.5,
+    "mean_dispersion": 0.2564906692058904
+  }
+}

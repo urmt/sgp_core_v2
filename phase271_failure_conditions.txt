@@ -1,0 +1,80 @@
+# PHASE 271: FAILURE CONDITIONS
+# Explicit FAIL Criteria for Competitive Geometry Analysis
+# NO PARAMETER RETUNING | NO THRESHOLD MODIFICATION
+
+================================================================================
+SECTION 1: EXPLICIT FAIL CONDITIONS
+================================================================================
+
+The Phase 271 competitive geometry analysis FAILS if ANY of the
+following conditions are met:
+
+FAIL CONDITION 1: Propagation Geometry Randomizes
+--------------------------------------------------
+Criterion: Transfer values show no systematic k-dependence under competition
+Evidence required: |dT/dk| < 0.01 for k ∈ [0, 1]
+Current status: Clear k-dependence in dual topology → NOT FAILING
+
+FAIL CONDITION 2: Competition Destroys All Topology Classes
+-------------------------------------------------------------
+Criterion: All topology classes become indistinguishable under competition
+Evidence required: |T_A - T_B| < ε for all A, B pairs
+Current status: AA (-0.009) vs ER (-0.033) remain distinguishable → NOT FAILING
+
+FAIL CONDITION 3: Saturation Unstable Under Competition
+-------------------------------------------------------
+Criterion: Saturation boundary shifts non-systematically or disappears
+Evidence required: k_s varies by >0.3 across competition conditions
+Current status: k_s shifts from 0.6 to 0.4 (0.2 shift, systematic) → NOT FAILING
+
+FAIL CONDITION 4: Localization Collapses Inconsistently
+------------------------------------------------------
+Criterion: Localization appears/disappears randomly with alpha
+Evidence required: Non-monotonic |ΔP| with respect to alpha
+Current status: |ΔP| decreases with alpha until alpha=1.0 → NOT FAILING
+
+FAIL CONDITION 5: Coexistence Irreproducible
+-------------------------------------------
+Criterion: Dual topology manifold not reproducible across seeds
+Evidence required: Var(T_dual) across seeds > 0.01
+Current status: Variance = 0.000000 → NOT FAILING
+
+================================================================================
+SECTION 2: OBSERVED STATUS
+================================================================================
+
+All fail conditions: NOT TRIGGERED
+
+1. Propagation geometry: SYSTEMATIC (clear k-dependence)
+2. Topology classes: DISTINGUISHABLE (AA vs ER distinguishable)
+3. Saturation boundary: SHIFTED BUT STABLE (k_s: 0.6→0.4)
+4. Localization: ALPHA-DEPENDENT (preserved for AA, lost for ER)
+5. Coexistence: REPRODUCIBLE (zero variance)
+
+================================================================================
+SECTION 3: KEY OBSERVATIONS
+================================================================================
+
+A. COMPETITION DOES NOT DESTROY PROPAGATION
+   - Clear geometry maintained
+   - K-dependence preserved
+   - Structure survives
+
+B. DOMINANCE HIERARCHY EMERGES
+   - All-to-all dominates
+   - Mixed geometry closer to dominant
+   - Non-dominant topology suppressed
+
+C. BOUNDARIES SHIFT BUT SURVIVE
+   - Saturation earlier (k_s: 0.6→0.4)
+   - Amplification reduced
+   - Localization altered
+
+D. COEXISTENCE IS STABLE
+   - Dual topology manifold reproducible
+   - Zero variance across seeds
+   - Distinct from pure topologies
+
+================================================================================
+END OF FAILURE CONDITIONS
+================================================================================

@@ -1,0 +1,40 @@
+{
+  "tau": [
+    0.0009286836974655924,
+    0.9999995524847825,
+    0.00017022912019078098,
+    5.999059913154234e-05
+  ],
+  "phase_coords": {
+    "reverse": {
+      "tau_alignment": 7.374604351725691e-17,
+      "magnitude": 7.37460765197484e-17,
+      "orthogonal_magnitude": 6.976824089039333e-20
+    },
+    "swap": {
+      "tau_alignment": 0.0009044436979961214,
+      "magnitude": 0.00013894968115665094,
+      "orthogonal_magnitude": 0.00013894962432494117
+    },
+    "replay": {
+      "tau_alignment": 0.9999919447032147,
+      "magnitude": 1.2005273760052815,
+      "orthogonal_magnitude": 0.00481866754597789
+    },
+    "stitch": {
+      "tau_alignment": 0.9999986163613538,
+      "magnitude": 0.22952561823747433,
+      "orthogonal_magnitude": 0.00038181884128142725
+    }
+  },
+  "phase_labels": {
+    "reverse": "symmetry_phase",
+    "swap": "symmetry_phase",
+    "replay": "projection_phase",
+    "stitch": "projection_phase"
+  },
+  "H1_replay_projection": true,
+  "H2_reverse_symmetry": true,
+  "H3_swap_orthogonal": false,
+  "interpretation": "Three phases: symmetry (reverse), projection (replay/stitch), orthogonal (swap). Transform behavior is NOT arbitrary."
+}

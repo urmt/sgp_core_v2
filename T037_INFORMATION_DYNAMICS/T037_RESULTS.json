@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "projection": {
+      "entropy_change": 0.0042266118290773536,
+      "diversity_change": 0.049389625358468504,
+      "compressibility_change": -0.0478515625
+    },
+    "antisymmetry": {
+      "entropy_change": 0.0,
+      "diversity_change": 0.04396983423318322,
+      "compressibility_change": 0.0
+    }
+  },
+  "checks": {
+    "H1_projection_compresses": true,
+    "H2_projection_reduces_diversity": false,
+    "H3_antisymmetry_preserves": true
+  }
+}

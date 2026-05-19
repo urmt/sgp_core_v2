@@ -1,0 +1,113 @@
+# PHASE 282: NEIGHBOR FLOW ANALYSIS
+# Locality Emergence Under Recursive Propagation
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: NEIGHBOR PERSISTENCE CURVES
+================================================================================
+
+Depth,Neighbor Preservation,Classification
+1,0.0200,LOW
+2,0.0050,LOW
+3,0.0108,LOW
+4,0.0092,LOW
+5,0.0125,LOW
+6,0.0125,LOW
+7,0.0092,LOW
+8,0.0158,LOW
+9,0.0108,LOW
+10,0.0083,LOW
+
+OBSERVATION:
+Neighbor preservation remains low across all depths (0.005 - 0.020).
+No trend toward higher preservation.
+
+Baseline random: 0.012 (K=12 / N=1000)
+Observed range: 0.005 - 0.020
+
+================================================================================
+SECTION 2: LOCAL PROPAGATION RATIO
+================================================================================
+
+Depth,Local Propagation Ratio,Classification
+1,0.9495,NONLOCAL
+2,1.0281,NONLOCAL
+3,1.0760,NONLOCAL
+4,0.9439,NONLOCAL
+5,1.0458,NONLOCAL
+6,0.9758,NONLOCAL
+7,0.9707,NONLOCAL
+8,1.0652,NONLOCAL
+9,0.9917,NONLOCAL
+10,1.0455,NONLOCAL
+
+OBSERVATION:
+Local propagation ratio oscillates around 1.0.
+No clear trend toward locality (ratio < 1.0).
+
+Interpretation:
+Neighbors do NOT preferentially evolve into neighbors.
+Distances propagate equivalently for neighbors and random pairs.
+
+================================================================================
+SECTION 3: SECTOR LOCALITY
+================================================================================
+
+Depth,Sector Locality,Classification
+1,0.7400,CLUSTERED
+2,0.7100,CLUSTERED
+3,0.7400,CLUSTERED
+4,0.5700,MODERATE
+5,0.6700,CLUSTERED
+6,0.8400,STRONGLY_LOCAL
+7,0.5400,MODERATE
+8,0.6500,CLUSTERED
+9,0.7300,CLUSTERED
+10,0.6000,CLUSTERED
+
+OBSERVATION:
+Sector locality remains high (0.54 - 0.84) across depths.
+Mean: 0.67 (> 0.33 threshold)
+
+Interpretation:
+Sector membership clusters locally.
+States with same sector tend to remain neighbors.
+
+================================================================================
+SECTION 4: LOCALITY DECAY RATES
+================================================================================
+
+Neighbor preservation decay:
+- Initial (d=1): 0.0200
+- Final (d=10): 0.0083
+- Change: -0.0117 (58% decrease)
+
+Local propagation decay:
+- No systematic decay observed
+- Oscillatory pattern
+
+Sector locality decay:
+- No systematic decay observed
+- Stable around 0.67
+
+================================================================================
+SECTION 5: PROPAGATION CLASSIFICATION
+================================================================================
+
+Classification: SECTOR_LOCALIZED_ONLY
+
+Evidence:
+1. Neighbor preservation: LOW (below baseline)
+2. Local propagation: NONLOCAL (ratio >= 1.0)
+3. Sector locality: HIGH (> 0.33)
+
+Interpretation:
+While sector membership clusters locally, the embedding
+space does NOT exhibit locality in the sense of neighbor
+preservation or local propagation.
+
+Sector structure is stable, but embeddings are not local.
+
+================================================================================
+END OF NEIGHBOR FLOW ANALYSIS
+================================================================================

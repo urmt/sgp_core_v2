@@ -1,0 +1,64 @@
+# PHASE 284: SECTOR TRANSITION MATRIX
+# Constraint Sector Transition Structure
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTION 1: FINE-SCALE TRANSITION MATRIX (Depth 12)
+================================================================================
+
+                    TO
+                proj    antisym    neutral
+FROM    proj    0.5875    0.0000    0.4125
+        antisym 0.0000    0.0000    1.0000
+        neutral 0.0000    0.0000    1.0000
+
+Eigenvalues: [0.5924, 0.0188, 0.0000]
+
+================================================================================
+SECTION 2: COARSE-SCALE TRANSITION MATRIX (Depth 6)
+================================================================================
+
+                    TO
+                proj    antisym    neutral
+FROM    proj    0.5455    0.0000    0.4545
+        antisym 0.0000    0.0000    1.0000
+        neutral 0.0000    0.0000    1.0000
+
+Eigenvalues: [0.5904, 0.0058, 0.0000]
+
+================================================================================
+SECTION 3: FINE vs COARSE COMPARISON
+================================================================================
+
+EIGENVALUE STABILITY:
+- Mode 1: 0.5904 (d=6) → 0.5924 (d=12), change +0.0020
+- Mode 2: 0.0058 (d=6) → 0.0188 (d=12), change +0.0130
+- Mode 3: 0.0000 → 0.0000 (degenerate)
+
+RG Correlation: 0.9998
+
+================================================================================
+SECTION 4: INTERPRETATION
+================================================================================
+
+TRANSITION STRUCTURE:
+1. Projection sector partially absorbs to neutral (~41%)
+2. Antisymmetry sector fully absorbs to neutral (100%)
+3. Neutral sector persists (100% stay)
+
+ABSORPTION PATTERN:
+- Projection → Neutral: 41.25%
+- Antisymmetry → Neutral: 100%
+- Neutral → Neutral: 100%
+
+The transition structure shows:
+- Partial absorption from projection
+- Complete absorption from antisymmetry
+- Neutral sector as terminal attractor
+
+This explains H4 FAIL: absorption rate 22.6% (< 50%)
+because only projection sector has non-trivial outflow.
+
+================================================================================
+END OF SECTOR TRANSITION MATRIX
+================================================================================
