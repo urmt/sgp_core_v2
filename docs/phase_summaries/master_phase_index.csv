@@ -40,3 +40,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 319,METASTABLE,TRUE,FALSE,TRUE,FALSE,TRUE,0.75,0.76,0.89,0.89,0.15,constraint_network_geometry,COMPLETE
 320,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.62,0.68,0.83,0.83,0.23,stability_boundary_geometry,COMPLETE
 321,METASTABLE,TRUE,TRUE,FALSE,TRUE,TRUE,0.60,0.69,0.82,0.82,0.29,core_periphery_geometry,COMPLETE
+322,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.64,0.70,0.83,0.83,0.21,hierarchical_stabilization_geometry,COMPLETE

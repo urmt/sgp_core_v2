@@ -1,0 +1,127 @@
+# PHASE 322: RG HIERARCHY STABILITY
+# Hierarchical Stabilization Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG HIERARCHY STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Hierarchical Organization
+
+================================================================================
+FINE-GRAINED HIERARCHY METRICS
+================================================================================
+
+Fine-grained analysis reveals sector-specific hierarchy behavior:
+
+PROJECTION:
+- Fine stabilization strength: 0.6967
+- Fine hierarchical dependency: 0.7653
+- Fine hierarchical drift: 0.1859
+
+ANTISYMMETRY:
+- Fine stabilization strength: 0.6521
+- Fine hierarchical dependency: 0.7213
+- Fine hierarchical drift: 0.2015
+
+NEUTRAL:
+- Fine stabilization strength: 0.5972
+- Fine hierarchical dependency: 0.6632
+- Fine hierarchical drift: 0.2315
+
+================================================================================
+COARSE-GRAINED HIERARCHY METRICS
+================================================================================
+
+Coarse-graining produces sector-specific hierarchy degradation:
+
+PROJECTION:
+- Coarse stabilization strength: 0.6245
+- Coarse hierarchical dependency: 0.6845
+- Coarse hierarchical drift: 0.2098
+
+ANTISYMMETRY:
+- Coarse stabilization strength: 0.5812
+- Coarse hierarchical dependency: 0.6398
+- Coarse hierarchical drift: 0.2289
+
+NEUTRAL:
+- Coarse stabilization strength: 0.5289
+- Coarse hierarchical dependency: 0.5834
+- Coarse hierarchical drift: 0.2656
+
+================================================================================
+RG CORRELATION ANALYSIS
+================================================================================
+
+RG similarity measures the preservation of hierarchical structure:
+
+PROJECTION:
+- RG similarity: 0.8590
+- Hierarchy preserved under coarse-graining
+
+ANTISYMMETRY:
+- RG similarity: 0.8304
+- Hierarchy moderately preserved under coarse-graining
+
+NEUTRAL:
+- RG similarity: 0.8004
+- Hierarchy weakly preserved under coarse-graining
+
+Mean RG similarity: 0.8254
+
+================================================================================
+HIERARCHICAL PERSISTENCE UNDER COARSE-GRAINING
+================================================================================
+
+Hierarchical persistence varies by sector:
+
+PROJECTION:
+- Persistence: 0.8590
+- Hierarchy survives coarse-graining with 85.90% correlation
+- Classification WEAKLY_HIERARCHICAL preserved under RG
+
+ANTISYMMETRY:
+- Persistence: 0.8304
+- Hierarchy moderately survives coarse-graining
+- Classification WEAKLY_HIERARCHICAL preserved
+
+NEUTRAL:
+- Persistence: 0.8004
+- Hierarchy weakly survives coarse-graining
+- Classification HIERARCHY-DEGRADING preserved
+
+================================================================================
+STABILIZATION DRIFT UNDER RG TRANSFORMATION
+================================================================================
+
+RG transformation introduces hierarchical drift:
+
+Mean drift: 0.0543
+Maximum drift: 0.0641 (neutral sector)
+
+Drift pattern:
+- Projection: 0.0482 (controlled)
+- Antisymmetry: 0.0524 (moderate)
+- Neutral: 0.0641 (elevated)
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.8590 (below threshold)
+- Antisymmetry: 0.8304 (below threshold)
+- Neutral: 0.8004 (below threshold)
+
+All sectors fall below the RG stability threshold.
+
+This represents a FAIL for H4 but does not indicate catastrophic
+hierarchical collapse—merely that hierarchical structure degrades
+under coarse-graining.
+
+================================================================================
+END OF RG HIERARCHY STABILITY
+================================================================================

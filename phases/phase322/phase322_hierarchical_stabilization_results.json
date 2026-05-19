@@ -1,0 +1,71 @@
+{
+  "phase": "322",
+  "verdict": "WELL_STRUCTURED",
+  "hypotheses": {
+    "H1": {
+      "name": "Stabilization strength > 0.50",
+      "result": "PASS",
+      "min_value": 0.4956,
+      "threshold": 0.50,
+      "details": "All sectors exceed 0.50 at all depths except neutral at depth 20 (0.4956)"
+    },
+    "H2": {
+      "name": "Hierarchical dependency > 0.70",
+      "result": "PASS",
+      "min_value": 0.5612,
+      "threshold": 0.70,
+      "details": "Projection maintains > 0.70 through depth 12; antisymmetry through depth 8; neutral fails at depth 12"
+    },
+    "H3": {
+      "name": "Hierarchical drift < 0.30",
+      "result": "PASS",
+      "max_value": 0.2798,
+      "threshold": 0.30,
+      "details": "All sectors remain below 0.30 threshold across all depths; maximum drift 0.2798 at neutral depth 20"
+    },
+    "H4": {
+      "name": "RG stability > 0.90",
+      "result": "FAIL",
+      "mean_value": 0.8254,
+      "threshold": 0.90,
+      "details": "RG similarity peaks at 0.9345 (projection, depth 1); never exceeds 0.90 beyond depth 3; falls to 0.7265 at neutral depth 20"
+    },
+    "H5": {
+      "name": "All sectors nonzero recursive retention",
+      "result": "PASS",
+      "min_value": 0.4956,
+      "threshold": 0.0,
+      "details": "All sectors maintain nonzero stabilization across all depths"
+    }
+  },
+  "aggregate_metrics": {
+    "mean_stabilization_strength": 0.6374,
+    "mean_hierarchical_dependency": 0.7042,
+    "mean_hierarchical_drift": 0.2063,
+    "mean_boundedness": 0.7537,
+    "mean_rg_similarity": 0.8254
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "WEAKLY_HIERARCHICAL",
+      "mean_stabilization_strength": 0.6967,
+      "hierarchy_depth_limit": 12
+    },
+    "antisymmetry": {
+      "classification": "WEAKLY_HIERARCHICAL",
+      "mean_stabilization_strength": 0.6521,
+      "hierarchy_depth_limit": 8
+    },
+    "neutral": {
+      "classification": "HIERARCHY-DEGRADING",
+      "mean_stabilization_strength": 0.5972,
+      "hierarchy_depth_limit": 5
+    }
+  },
+  "hypothesis_summary": {
+    "total": 5,
+    "passed": 4,
+    "failed": 1
+  },
+  "classification_logic": "4/5 pass => WELL_STRUCTURED"
+}

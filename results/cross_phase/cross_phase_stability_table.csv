@@ -96,3 +96,9 @@ phase321_periphery_drift,0.292,NA,0.18,0.42,NA,0,0.0%,0.18
 phase321_boundedness,0.739,NA,0.63,0.87,NA,0,0.0%,0.63
 phase321_rg_similarity,0.816,NA,0.73,0.92,NA,0,0.0%,0.73
 phase321_verdict,METASTABLE,NA,NA,NA,NA,NA,NA,NA
+phase322_stabilization_strength,0.637,NA,0.50,0.78,NA,0,0.0%,0.50
+phase322_hierarchical_dependency,0.704,NA,0.56,0.85,NA,0,0.0%,0.56
+phase322_hierarchical_drift,0.206,NA,0.14,0.28,NA,0,0.0%,0.14
+phase322_boundedness,0.754,NA,0.65,0.87,NA,0,0.0%,0.65
+phase322_rg_similarity,0.825,NA,0.73,0.93,NA,0,0.0%,0.73
+phase322_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
