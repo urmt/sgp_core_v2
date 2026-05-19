@@ -24,3 +24,9 @@ phase309_recursive_retention,0.920,NA,0.84,0.97,NA,0,0.0%,0.84
 phase309_rg_stability,0.972,NA,0.91,0.98,NA,0,0.0%,0.91
 phase309_dispersion,0.140,NA,0.14,0.14,NA,0,0.0%,0.14
 phase309_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NA
+phase310_closure_persistence,0.957,NA,0.86,1.00,NA,0,0.0%,0.86
+phase310_closure_stability,0.909,NA,0.81,0.94,NA,0,0.0%,0.81
+phase310_recursive_retention,0.906,NA,0.83,0.96,NA,0,0.0%,0.83
+phase310_rg_stability,0.970,NA,0.91,0.98,NA,0,0.0%,0.91
+phase310_dispersion,0.150,NA,0.15,0.15,NA,0,0.0%,0.15
+phase310_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NA
