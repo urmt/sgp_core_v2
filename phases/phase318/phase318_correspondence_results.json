@@ -1,0 +1,58 @@
+{
+  "phase": 318,
+  "verdict": "RECURSIVELY_STABLE",
+  "hypotheses": {
+    "H1_correspondence_strength": {
+      "passed": true,
+      "value": 0.7011929619499638,
+      "threshold": 0.5
+    },
+    "H2_compatibility": {
+      "passed": true,
+      "value": 0.7298987126584696,
+      "threshold": 0.7
+    },
+    "H3_relational_drift": {
+      "passed": true,
+      "value": 0.18767058134336995,
+      "threshold": 0.3
+    },
+    "H4_rg_stability": {
+      "passed": true,
+      "value": 0.9110325336083915,
+      "threshold": 0.9
+    },
+    "H5_pair_retention": {
+      "passed": true,
+      "value": 0.7505351871868075,
+      "threshold": 0.0
+    }
+  },
+  "pair_classifications": {
+    "projection-antisymmetry": {
+      "classification": "CORRESPONDENCE-PRESERVING",
+      "avg_correspondence_strength": 0.8512570635141081,
+      "avg_compatibility": 0.852880894530463,
+      "avg_relational_drift": 0.17461414692188953,
+      "avg_boundedness": 0.9339698391028255,
+      "avg_rg_similarity": 0.9556285317570541
+    },
+    "projection-neutral": {
+      "classification": "CORRESPONDENCE-PRESERVING",
+      "avg_correspondence_strength": 0.7491062158924151,
+      "avg_compatibility": 0.7675928050774167,
+      "avg_relational_drift": 0.16064501516813837,
+      "avg_boundedness": 0.8779316487566557,
+      "avg_rg_similarity": 0.8982908198516307
+    },
+    "antisymmetry-neutral": {
+      "classification": "CORRESPONDENCE-PRESERVING",
+      "avg_correspondence_strength": 0.7235685039869919,
+      "avg_compatibility": 0.7505351871868075,
+      "avg_relational_drift": 0.15715273222970058,
+      "avg_boundedness": 0.8592522519745993,
+      "avg_rg_similarity": 0.8791782492164898
+    }
+  },
+  "n_measurements": 21
+}

@@ -72,3 +72,9 @@ phase317_scale_drift,0.124,NA,0.11,0.17,NA,0,0.0%,0.11
 phase317_boundedness,0.900,NA,0.82,0.96,NA,0,0.0%,0.82
 phase317_rg_similarity,0.917,NA,0.84,0.96,NA,0,0.0%,0.84
 phase317_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase318_correspondence_strength,0.771,NA,0.70,0.82,NA,0,0.0%,0.70
+phase318_compatibility,0.802,NA,0.73,0.83,NA,0,0.0%,0.73
+phase318_relational_drift,0.153,NA,0.15,0.19,NA,0,0.0%,0.15
+phase318_boundedness,0.879,NA,0.84,0.92,NA,0,0.0%,0.84
+phase318_rg_similarity,0.911,NA,0.87,0.94,NA,0,0.0%,0.87
+phase318_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NA

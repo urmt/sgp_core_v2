@@ -36,3 +36,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 315,RECURSIVELY_STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.95,0.90,0.97,0.97,0.14,differentiation_geometry,COMPLETE
 316,WELL_STRUCTURED,TRUE,TRUE,TRUE,TRUE,FALSE,0.66,0.84,0.89,0.89,0.24,generator_structure,COMPLETE
 317,WELL_STRUCTURED,TRUE,FALSE,TRUE,TRUE,TRUE,0.80,0.79,0.92,0.92,0.12,scaling_consistency_geometry,COMPLETE
+318,RECURSIVELY_STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.77,0.80,0.91,0.91,0.15,correspondence_geometry,COMPLETE
