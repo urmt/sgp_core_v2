@@ -126,3 +126,9 @@ phase327_curvature_drift,0.174,NA,0.12,0.23,NA,0,0.0%,0.12
 phase327_boundedness,0.796,NA,0.71,0.90,NA,0,0.0%,0.71
 phase327_rg_similarity,0.850,NA,0.77,0.95,NA,0,0.0%,0.77
 phase327_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase328_integration_strength,0.720,NA,0.63,0.85,NA,0,0.0%,0.63
+phase328_coordination_retention,0.781,NA,0.67,0.88,NA,0,0.0%,0.67
+phase328_integration_drift,0.169,NA,0.11,0.22,NA,0,0.0%,0.11
+phase328_boundedness,0.807,NA,0.71,0.91,NA,0,0.0%,0.71
+phase328_rg_similarity,0.855,NA,0.79,0.96,NA,0,0.0%,0.79
+phase328_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
