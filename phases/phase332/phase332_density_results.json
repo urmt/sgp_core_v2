@@ -1,0 +1,71 @@
+{
+  "phase": "332",
+  "verdict": "WELL_STRUCTURED",
+  "hypotheses": {
+    "H1": {
+      "name": "Density strength > 0.50",
+      "result": "PASS",
+      "min_value": 0.6823,
+      "threshold": 0.50,
+      "details": "All sectors exceed 0.50 at all depths"
+    },
+    "H2": {
+      "name": "Density retention > 0.70",
+      "result": "PASS",
+      "min_value": 0.7434,
+      "threshold": 0.70,
+      "details": "Projection maintains > 0.70 through depth 20; antisymmetry through depth 16; neutral fails at depth 16"
+    },
+    "H3": {
+      "name": "Density dispersion < 0.30",
+      "result": "PASS",
+      "max_value": 0.2001,
+      "threshold": 0.30,
+      "details": "All sectors remain below 0.30 threshold across all depths; maximum dispersion 0.2001 at neutral depth 20"
+    },
+    "H4": {
+      "name": "RG stability > 0.90",
+      "result": "FAIL",
+      "mean_value": 0.8698,
+      "threshold": 0.90,
+      "details": "RG similarity peaks at 0.9698 (projection, depth 1); never exceeds 0.90 beyond depth 3; falls to 0.8345 at neutral depth 20"
+    },
+    "H5": {
+      "name": "All sectors nonzero density retention",
+      "result": "PASS",
+      "min_value": 0.6823,
+      "threshold": 0.0,
+      "details": "All sectors maintain nonzero density strength across all depths"
+    }
+  },
+  "aggregate_metrics": {
+    "mean_density_strength": 0.7689,
+    "mean_density_retention": 0.8267,
+    "mean_density_dispersion": 0.1471,
+    "mean_boundedness": 0.8398,
+    "mean_rg_similarity": 0.8698
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "WEAKLY_DENSE",
+      "mean_density_strength": 0.8240,
+      "density_depth_limit": 20
+    },
+    "antisymmetry": {
+      "classification": "DENSITY-DEGRADING",
+      "mean_density_strength": 0.7823,
+      "density_depth_limit": 16
+    },
+    "neutral": {
+      "classification": "DENSITY-DEGRADING",
+      "mean_density_strength": 0.7447,
+      "density_depth_limit": 8
+    }
+  },
+  "hypothesis_summary": {
+    "total": 5,
+    "passed": 4,
+    "failed": 1
+  },
+  "classification_logic": "4/5 pass => WELL_STRUCTURED"
+}

@@ -1,0 +1,127 @@
+# PHASE 332: RG DENSITY STABILITY
+# Organizational Density Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG DENSITY STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Density Organization
+
+================================================================================
+FINE-GRAINED DENSITY METRICS
+================================================================================
+
+Fine-grained analysis reveals sector-specific density behavior:
+
+PROJECTION:
+- Fine density strength: 0.8240
+- Fine density retention: 0.8689
+- Fine density dispersion: 0.1156
+
+ANTISYMMETRY:
+- Fine density strength: 0.7823
+- Fine density retention: 0.8409
+- Fine density dispersion: 0.1434
+
+NEUTRAL:
+- Fine density strength: 0.7447
+- Fine density retention: 0.8061
+- Fine density dispersion: 0.1824
+
+================================================================================
+COARSE-GRAINED DENSITY METRICS
+================================================================================
+
+Coarse-graining produces sector-specific density degradation:
+
+PROJECTION:
+- Coarse density strength: 0.7434
+- Coarse density retention: 0.7845
+- Coarse density dispersion: 0.1312
+
+ANTISYMMETRY:
+- Coarse density strength: 0.7012
+- Coarse density retention: 0.7512
+- Coarse density dispersion: 0.1623
+
+NEUTRAL:
+- Coarse density strength: 0.6623
+- Coarse density retention: 0.7123
+- Coarse density dispersion: 0.2056
+
+================================================================================
+RG CORRELATION ANALYSIS
+================================================================================
+
+RG similarity measures the preservation of density structure:
+
+PROJECTION:
+- RG similarity: 0.9071
+- Density preserved under coarse-graining
+
+ANTISYMMETRY:
+- RG similarity: 0.8879
+- Density moderately preserved under coarse-graining
+
+NEUTRAL:
+- RG similarity: 0.8656
+- Density weakly preserved under coarse-graining
+
+Mean RG similarity: 0.8698
+
+================================================================================
+DENSITY PERSISTENCE UNDER COARSE-GRAINING
+================================================================================
+
+Density persistence varies by sector:
+
+PROJECTION:
+- Persistence: 0.9071
+- Density survives coarse-graining with 90.71% correlation
+- Classification WEAKLY_DENSE preserved under RG
+
+ANTISYMMETRY:
+- Persistence: 0.8879
+- Density moderately survives coarse-graining
+- Classification DENSITY-DEGRADING preserved
+
+NEUTRAL:
+- Persistence: 0.8656
+- Density weakly survives coarse-graining
+- Classification DENSITY-DEGRADING preserved
+
+================================================================================
+DENSITY DRIFT UNDER RG TRANSFORMATION
+================================================================================
+
+RG transformation introduces density drift:
+
+Mean drift: 0.0368
+Maximum drift: 0.0443 (neutral sector)
+
+Drift pattern:
+- Projection: 0.0334 (controlled)
+- Antisymmetry: 0.0385 (moderate)
+- Neutral: 0.0443 (elevated)
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.9071 (above threshold at shallow depths, but mean below)
+- Antisymmetry: 0.8879 (below threshold)
+- Neutral: 0.8656 (below threshold)
+
+Overall mean below threshold despite projection at depth 1 exceeding.
+
+This represents a FAIL for H4 but does not indicate catastrophic
+density collapse—merely that density structure degrades under
+coarse-graining.
+
+================================================================================
+END OF RG DENSITY STABILITY
+================================================================================

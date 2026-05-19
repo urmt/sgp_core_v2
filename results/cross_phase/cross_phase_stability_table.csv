@@ -150,3 +150,9 @@ phase331_recursion_drift,0.152,NA,0.11,0.21,NA,0,0.0%,0.11
 phase331_boundedness,0.831,NA,0.75,0.92,NA,0,0.0%,0.75
 phase331_rg_similarity,0.867,NA,0.83,0.97,NA,0,0.0%,0.83
 phase331_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase332_density_strength,0.769,NA,0.68,0.88,NA,0,0.0%,0.68
+phase332_density_retention,0.827,NA,0.74,0.91,NA,0,0.0%,0.74
+phase332_density_dispersion,0.147,NA,0.10,0.20,NA,0,0.0%,0.10
+phase332_boundedness,0.840,NA,0.76,0.92,NA,0,0.0%,0.76
+phase332_rg_similarity,0.870,NA,0.83,0.97,NA,0,0.0%,0.83
+phase332_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
