@@ -138,3 +138,9 @@ phase329_flow_drift,0.163,NA,0.11,0.22,NA,0,0.0%,0.11
 phase329_boundedness,0.820,NA,0.73,0.91,NA,0,0.0%,0.73
 phase329_rg_similarity,0.860,NA,0.80,0.96,NA,0,0.0%,0.80
 phase329_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase330_coupling_strength,0.752,NA,0.67,0.87,NA,0,0.0%,0.67
+phase330_coupling_retention,0.810,NA,0.73,0.90,NA,0,0.0%,0.73
+phase330_coupling_drift,0.157,NA,0.10,0.21,NA,0,0.0%,0.10
+phase330_boundedness,0.827,NA,0.75,0.92,NA,0,0.0%,0.75
+phase330_rg_similarity,0.862,NA,0.84,0.97,NA,0,0.0%,0.84
+phase330_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA

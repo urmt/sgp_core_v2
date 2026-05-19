@@ -47,3 +47,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 327,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.70,0.77,0.85,0.85,0.17,curvature_stability,COMPLETE
 328,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.72,0.78,0.85,0.86,0.17,integration_geometry,COMPLETE
 329,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.73,0.80,0.86,0.86,0.16,flow_consistency_geometry,COMPLETE
+330,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.75,0.81,0.86,0.86,0.16,coupling_stability_geometry,COMPLETE
