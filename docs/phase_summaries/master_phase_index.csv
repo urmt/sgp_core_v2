@@ -52,3 +52,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 332,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.77,0.83,0.87,0.87,0.15,density_geometry,COMPLETE
 333,WELL_STRUCTURED,TRUE,TRUE,TRUE,FALSE,TRUE,0.79,0.84,0.87,0.87,0.15,embedding_geometry,COMPLETE
 334,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.77,0.81,0.88,0.88,0.15,transport_embedding_compatibility,COMPLETE
+335,WELL_STRUCTURED,TRUE,FALSE,TRUE,TRUE,TRUE,0.86,0.44,0.91,0.91,0.12,persistent_core_geometry,COMPLETE

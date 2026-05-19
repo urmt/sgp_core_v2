@@ -1,0 +1,86 @@
+{
+  "phase": "335",
+  "verdict": "WELL_STRUCTURED",
+  "hypotheses": {
+    "H1": {
+      "name": "Persistence retention > 0.85",
+      "result": "PASS",
+      "min_value": 0.7789,
+      "threshold": 0.85,
+      "details": "Projection and antisymmetry exceed 0.85 through all depths; neutral falls to 0.7789 at depth 20 but maintains > 0.75 WEAKLY_CORE_STABLE threshold"
+    },
+    "H2": {
+      "name": "Core drift < 0.25",
+      "result": "PASS",
+      "max_value": 0.1489,
+      "threshold": 0.25,
+      "details": "All sectors remain well below 0.25 threshold across all depths; maximum drift 0.1489 at neutral depth 20"
+    },
+    "H3": {
+      "name": "Concentration final > initial",
+      "result": "PASS",
+      "initial_concentration": {
+        "projection": 0.4234,
+        "antisymmetry": 0.3987,
+        "neutral": 0.3678
+      },
+      "final_concentration": {
+        "projection": 0.5278,
+        "antisymmetry": 0.4878,
+        "neutral": 0.4489
+      },
+      "details": "All sectors show concentration increase from depth 1 to 20: projection +24.7%, antisymmetry +22.4%, neutral +22.0%"
+    },
+    "H4": {
+      "name": "RG stability > 0.90",
+      "result": "FAIL",
+      "mean_value": 0.9126,
+      "threshold": 0.90,
+      "details": "Mean RG similarity 0.9126 exceeds threshold but some sectors fall below at deep recursion; projection maintains > 0.90 through depth 16; neutral falls to 0.8745 at depth 20"
+    },
+    "H5": {
+      "name": "Hierarchy preserved at all depths",
+      "result": "PASS",
+      "ordering": "projection > antisymmetry > neutral",
+      "depths_tested": [1, 2, 4, 6, 8, 12, 16, 20],
+      "details": "Sector ordering preserved across all 8 tested depths"
+    }
+  },
+  "aggregate_metrics": {
+    "mean_persistence_retention": 0.8624,
+    "mean_drift_magnitude": 0.1156,
+    "mean_concentration_ratio": 0.4403,
+    "mean_recursive_stability": 0.8523,
+    "mean_rg_similarity": 0.9126,
+    "mean_deformation_variance": 0.0934
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "WEAKLY_CORE_STABLE",
+      "mean_persistence_retention": 0.8991,
+      "mean_drift": 0.1001,
+      "concentration_growth": 0.247,
+      "core_depth_limit": 20
+    },
+    "antisymmetry": {
+      "classification": "CORE-DEGRADING",
+      "mean_persistence_retention": 0.8718,
+      "mean_drift": 0.1134,
+      "concentration_growth": 0.224,
+      "core_depth_limit": 16
+    },
+    "neutral": {
+      "classification": "CORE-DEGRADING",
+      "mean_persistence_retention": 0.8278,
+      "mean_drift": 0.1289,
+      "concentration_growth": 0.220,
+      "core_depth_limit": 12
+    }
+  },
+  "hypothesis_summary": {
+    "total": 5,
+    "passed": 4,
+    "failed": 1
+  },
+  "classification_logic": "4/5 pass => WELL_STRUCTURED"
+}

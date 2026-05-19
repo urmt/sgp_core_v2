@@ -169,3 +169,9 @@ phase334_transport_strength,0.759,NA,0.67,0.85,NA,0,0.0%,0.67
 phase334_embedding_strength,0.788,NA,0.70,0.89,NA,0,0.0%,0.70
 phase334_rg_similarity,0.879,NA,0.85,0.97,NA,0,0.0%,0.85
 phase334_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase335_persistence_retention,0.862,NA,0.78,0.95,NA,0,0.0%,0.78
+phase335_drift_magnitude,0.116,NA,0.08,0.15,NA,0,0.0%,0.08
+phase335_concentration_ratio,0.440,NA,0.37,0.53,NA,0,0.0%,0.37
+phase335_recursive_stability,0.852,NA,0.77,0.92,NA,0,0.0%,0.77
+phase335_rg_similarity,0.913,NA,0.87,0.98,NA,0,0.0%,0.87
+phase335_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
