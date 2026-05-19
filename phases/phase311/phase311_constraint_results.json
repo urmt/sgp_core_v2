@@ -1,0 +1,56 @@
+{
+  "phase": 311,
+  "verdict": "RECURSIVELY_STABLE",
+  "hypotheses": {
+    "H1_propagation_strength": {
+      "passed": true,
+      "value": 0.85,
+      "threshold": 0.5
+    },
+    "H2_propagation_consistency": {
+      "passed": true,
+      "value": 0.7962327364876414,
+      "threshold": 0.5
+    },
+    "H3_boundedness": {
+      "passed": true,
+      "value": 0.14,
+      "threshold": 1.0
+    },
+    "H4_recursive_retention": {
+      "passed": true,
+      "value": 0.8153756390063568,
+      "threshold": 0.0
+    },
+    "H5_rg_stability": {
+      "passed": true,
+      "value": 0.9681602771335887,
+      "threshold": 0.9
+    }
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "PROPAGATION-PRESERVING",
+      "avg_propagation_strength": 1.0,
+      "avg_propagation_consistency": 0.9524098644453906,
+      "avg_retention": 0.9691323949074199
+    },
+    "antisymmetry": {
+      "classification": "PROPAGATION-PRESERVING",
+      "avg_propagation_strength": 0.9499999999999997,
+      "avg_propagation_consistency": 0.9047893712231211,
+      "avg_retention": 0.9206757751620488
+    },
+    "neutral": {
+      "classification": "PROPAGATION-PRESERVING",
+      "avg_propagation_strength": 0.8500000000000003,
+      "avg_propagation_consistency": 0.809548384778582,
+      "avg_retention": 0.8237625356713069
+    }
+  },
+  "rg_stability": {
+    "rg_correlation": 0.91,
+    "propagation_preserved": true
+  },
+  "n_measurements": 93
+}
