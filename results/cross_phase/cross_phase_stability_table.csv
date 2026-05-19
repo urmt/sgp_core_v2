@@ -114,3 +114,9 @@ phase324_basin_drift,0.186,NA,0.13,0.25,NA,0,0.0%,0.13
 phase324_boundedness,0.780,NA,0.69,0.89,NA,0,0.0%,0.69
 phase324_rg_similarity,0.840,NA,0.76,0.95,NA,0,0.0%,0.76
 phase324_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase326_channel_strength,0.691,NA,0.58,0.82,NA,0,0.0%,0.58
+phase326_propagation_retention,0.756,NA,0.63,0.87,NA,0,0.0%,0.63
+phase326_channel_drift,0.179,NA,0.12,0.24,NA,0,0.0%,0.12
+phase326_boundedness,0.790,NA,0.70,0.89,NA,0,0.0%,0.70
+phase326_rg_similarity,0.847,NA,0.77,0.95,NA,0,0.0%,0.77
+phase326_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
