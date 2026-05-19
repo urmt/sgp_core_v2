@@ -36,3 +36,9 @@ phase311_recursive_retention,0.895,NA,0.82,0.96,NA,0,0.0%,0.82
 phase311_rg_stability,0.968,NA,0.91,0.98,NA,0,0.0%,0.91
 phase311_dispersion,0.140,NA,0.14,0.14,NA,0,0.0%,0.14
 phase311_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NA
+phase312_equilibrium_persistence,0.960,NA,0.86,1.00,NA,0,0.0%,0.86
+phase312_equilibrium_stability,0.912,NA,0.81,0.94,NA,0,0.0%,0.81
+phase312_recursive_retention,0.906,NA,0.83,0.96,NA,0,0.0%,0.83
+phase312_rg_stability,0.971,NA,0.91,0.98,NA,0,0.0%,0.91
+phase312_dispersion,0.130,NA,0.13,0.13,NA,0,0.0%,0.13
+phase312_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NA
