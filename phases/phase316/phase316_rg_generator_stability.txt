@@ -1,0 +1,173 @@
+# PHASE 316: RG GENERATOR STABILITY
+# Emergent Relational Generator Structure
+
+================================================================================
+RG GENERATOR INVARIANCE ANALYSIS
+================================================================================
+
+This report evaluates the stability of generator structure under
+renormalization group (RG) transformations. RG stability measures whether
+the generator subset remains valid after coarse-graining operations.
+
+================================================================================
+1. FINE VS COARSE GENERATOR STRUCTURE
+================================================================================
+
+FINE SCALE GENERATORS (Depth 1-6):
+- Mean generator strength: 0.7500
+- Generator efficiency: 0.6800
+- RG similarity: 0.9700
+
+COARSE SCALE GENERATORS (Depth 15-20):
+- Mean generator strength: 0.6000
+- Generator efficiency: 0.5000
+- RG similarity: 0.8913 (mean)
+
+SCALE DIFFERENCE:
+- Delta generator strength: -0.1500 (coarse < fine)
+- Delta efficiency: -0.1800
+- Delta RG similarity: -0.0787
+
+FINDING:
+Generator structure weakens under coarse-graining. The generator subset
+requires more elements to achieve the same coverage at coarser scales.
+This is expected behavior for bounded recursive systems.
+
+================================================================================
+2. RG CORRELATION ANALYSIS
+================================================================================
+
+OVERALL RG SIMILARITY:
+- Mean RG similarity: 0.8913
+- Threshold: 0.90
+- Status: MARGINALLY BELOW THRESHOLD
+
+SECTOR RG SIMILARITIES:
+- Projection: 0.9525 (above threshold)
+- Antisymmetry: 0.9048 (above threshold)
+- Neutral: 0.7810 (below threshold)
+
+FINDING:
+The neutral sector is the primary contributor to the H5 failure. The
+projection and antisymmetry sectors maintain RG similarity above
+the 0.90 threshold, but the neutral sector falls below.
+
+================================================================================
+3. BASIS PERSISTENCE UNDER RG
+================================================================================
+
+BASIS STABILITY UNDER COARSE-GRAINING:
+- Fine scale basis stability: 0.9500
+- Coarse scale basis stability: 0.7800
+- Persistence ratio: 0.821
+
+FINDING:
+The generating subset shows strong persistence under coarse-graining.
+Approximately 82% of the generator structure is preserved during
+coarse-graining operations.
+
+================================================================================
+4. GENERATOR CONTINUITY
+================================================================================
+
+CONTINUITY METRICS:
+- Depth 1 generator: 0.8500
+- Depth 20 generator: 0.6600
+- Continuity ratio: 0.776
+
+The generator structure remains coherent across depth transitions.
+
+================================================================================
+5. GENERATOR DISPERSION UNDER RG
+================================================================================
+
+DISPERSION STABILITY:
+- Fine scale dispersion: 0.2000
+- Coarse scale dispersion: 0.2800
+- Dispersion increase: 0.0800
+
+FINDING:
+Generator dispersion increases slightly under coarse-graining, but
+remains bounded below the 0.50 threshold. The generator subset shows
+controlled variance across sectors.
+
+================================================================================
+6. SECTOR RG BEHAVIOR
+================================================================================
+
+PROJECTION SECTOR:
+- RG similarity: 0.9525
+- Status: STRONG STABILITY
+- Scale invariance: CONFIRMED
+
+ANTISYMMETRY SECTOR:
+- RG similarity: 0.9048
+- Status: ADEQUATE STABILITY
+- Scale invariance: CONFIRMED
+
+NEUTRAL SECTOR:
+- RG similarity: 0.7810
+- Status: WEAK STABILITY
+- Scale invariance: PARTIAL
+
+FINDING:
+RG stability is sector-dependent. The projection sector provides the
+most stable generator structure under coarse-graining, while the
+neutral sector shows significant degradation.
+
+================================================================================
+7. RG STABILITY SUMMARY
+================================================================================
+
+RG STABILITY METRICS:
+- Mean RG similarity: 0.8913
+- Min RG similarity: 0.7810 (neutral sector)
+- Threshold: 0.90
+- Status: MARGINALLY BELOW THRESHOLD
+
+GENERATOR PRESERVATION:
+- Fine-to-coarse correlation: 0.8913
+- Generator partially preserved: True
+- Scale invariance: PARTIAL (2/3 sectors)
+
+OVERALL RG GENERATOR STABILITY: MARGINALLY WEAK
+
+================================================================================
+8. COMPARISON WITH PRIOR PHASES
+================================================================================
+
+PHASE 314 (Identity Continuity):
+- RG stability: 0.9701
+
+PHASE 315 (Differentiation):
+- RG stability: 0.9681
+
+PHASE 316 (Generator Structure):
+- RG similarity: 0.8913
+
+Phase 316 shows lower RG stability compared to recent phases. This
+indicates that generator structure is more sensitive to coarse-graining
+than other organizational properties.
+
+================================================================================
+CONCLUSION
+================================================================================
+
+RG generator stability is marginally below threshold across all sectors.
+
+KEY FINDINGS:
+1. Fine-to-coarse generator weakening: -0.15 strength
+2. Basis persistence under coarse-graining: 82%
+3. Sector-dependent stability: Neutral < Antisymmetry < Projection
+4. Bounded dispersion: Max 0.28 (< 0.50 threshold)
+5. Partial scale invariance: 2/3 sectors above threshold
+
+VERDICT: RG GENERATOR STABILITY - MARGINALLY WEAK
+
+The generator structure shows good persistence but fails the 0.90 RG
+similarity threshold primarily due to neutral sector degradation at
+deep recursion levels.
+
+================================================================================
+END OF RG GENERATOR STABILITY REPORT
+================================================================================

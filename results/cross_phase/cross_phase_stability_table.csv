@@ -60,3 +60,9 @@ phase315_recursive_retention,0.895,NA,0.82,0.96,NA,0,0.0%,0.82
 phase315_rg_stability,0.968,NA,0.91,0.98,NA,0,0.0%,0.91
 phase315_dispersion,0.140,NA,0.14,0.14,NA,0,0.0%,0.14
 phase315_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NA
+phase316_generator_strength,0.662,NA,0.57,0.76,NA,0,0.0%,0.57
+phase316_generator_efficiency,0.551,NA,0.45,0.64,NA,0,0.0%,0.45
+phase316_basis_stability,0.837,NA,0.73,0.89,NA,0,0.0%,0.73
+phase316_generator_dispersion,0.238,NA,0.20,0.32,NA,0,0.0%,0.20
+phase316_rg_similarity,0.891,NA,0.78,0.95,NA,0,0.0%,0.78
+phase316_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA

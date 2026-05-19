@@ -1,0 +1,58 @@
+{
+  "phase": 316,
+  "verdict": "WELL_STRUCTURED",
+  "hypotheses": {
+    "H1_generator_strength": {
+      "passed": true,
+      "value": 0.5663864371317873,
+      "threshold": 0.3
+    },
+    "H2_basis_stability": {
+      "passed": true,
+      "value": 0.7338449750576121,
+      "threshold": 0.7
+    },
+    "H3_bounded_dispersion": {
+      "passed": true,
+      "value": 0.32384930771093084,
+      "threshold": 0.5
+    },
+    "H4_recursive_retention": {
+      "passed": true,
+      "value": 0.772499668505635,
+      "threshold": 0.0
+    },
+    "H5_rg_stability": {
+      "passed": false,
+      "value": 0.8913394247914708,
+      "threshold": 0.9
+    }
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "GENERATOR-PRESERVING",
+      "avg_generator_strength": 0.7981308872121946,
+      "avg_generator_efficiency": 0.6728910077323426,
+      "avg_basis_stability": 0.9206991150717779,
+      "avg_generator_dispersion": 0.29230015395544307,
+      "avg_recursive_retention": 0.9592523548848779
+    },
+    "antisymmetry": {
+      "classification": "GENERATOR-PRESERVING",
+      "avg_generator_strength": 0.734280416235219,
+      "avg_generator_efficiency": 0.6056019069591082,
+      "avg_basis_stability": 0.874664159318189,
+      "avg_generator_dispersion": 0.2630701385598988,
+      "avg_recursive_retention": 0.9112897371406339
+    },
+    "neutral": {
+      "classification": "GENERATOR-PRESERVING",
+      "avg_generator_strength": 0.598598165409146,
+      "avg_generator_efficiency": 0.4710237054126397,
+      "avg_basis_stability": 0.7549732743588577,
+      "avg_generator_dispersion": 0.21922511546658235,
+      "avg_recursive_retention": 0.7865869310055997
+    }
+  },
+  "n_measurements": 21
+}
