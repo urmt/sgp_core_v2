@@ -78,3 +78,9 @@ phase318_relational_drift,0.153,NA,0.15,0.19,NA,0,0.0%,0.15
 phase318_boundedness,0.879,NA,0.84,0.92,NA,0,0.0%,0.84
 phase318_rg_similarity,0.911,NA,0.87,0.94,NA,0,0.0%,0.87
 phase318_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NA
+phase319_network_strength,0.751,NA,0.65,0.81,NA,0,0.0%,0.65
+phase319_constraint_coherence,0.764,NA,0.63,0.81,NA,0,0.0%,0.63
+phase319_network_drift,0.146,NA,0.14,0.19,NA,0,0.0%,0.14
+phase319_boundedness,0.847,NA,0.78,0.90,NA,0,0.0%,0.78
+phase319_rg_similarity,0.892,NA,0.81,0.94,NA,0,0.0%,0.81
+phase319_verdict,METASTABLE,NA,NA,NA,NA,NA,NA,NA

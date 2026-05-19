@@ -1,0 +1,58 @@
+{
+  "phase": 319,
+  "verdict": "METASTABLE",
+  "hypotheses": {
+    "H1_network_strength": {
+      "passed": true,
+      "value": 0.6475409488423156,
+      "threshold": 0.5
+    },
+    "H2_constraint_coherence": {
+      "passed": false,
+      "value": 0.6260940452731809,
+      "threshold": 0.7
+    },
+    "H3_network_drift": {
+      "passed": true,
+      "value": 0.18708822667921246,
+      "threshold": 0.3
+    },
+    "H4_rg_stability": {
+      "passed": false,
+      "value": 0.8924131363615954,
+      "threshold": 0.9
+    },
+    "H5_sector_retention": {
+      "passed": true,
+      "value": 0.6464080748870135,
+      "threshold": 0.0
+    }
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "NETWORK-PRESERVING",
+      "avg_network_strength": 0.8383827698655189,
+      "avg_constraint_coherence": 0.8394910063467709,
+      "avg_network_drift": 0.17076768365236192,
+      "avg_boundedness": 0.9216798161175148,
+      "avg_rg_similarity": 0.9527542381084648
+    },
+    "antisymmetry": {
+      "classification": "NETWORK-PRESERVING",
+      "avg_network_strength": 0.7796959759749326,
+      "avg_constraint_coherence": 0.7639368157755614,
+      "avg_network_drift": 0.1605216226332202,
+      "avg_boundedness": 0.8755958253116389,
+      "avg_rg_similarity": 0.9051165262030415
+    },
+    "neutral": {
+      "classification": "NETWORK-PRESERVING",
+      "avg_network_strength": 0.6707062158924152,
+      "avg_constraint_coherence": 0.6464080748870135,
+      "avg_network_drift": 0.15027556161407848,
+      "avg_boundedness": 0.7926446418610629,
+      "avg_rg_similarity": 0.8193686447732798
+    }
+  },
+  "n_measurements": 21
+}
