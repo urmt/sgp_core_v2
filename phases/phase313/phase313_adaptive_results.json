@@ -1,0 +1,56 @@
+{
+  "phase": 313,
+  "verdict": "RECURSIVELY_STABLE",
+  "hypotheses": {
+    "H1_adaptive_strength": {
+      "passed": true,
+      "value": 0.85,
+      "threshold": 0.5
+    },
+    "H2_reconfiguration_stability": {
+      "passed": true,
+      "value": 0.7967055691546778,
+      "threshold": 0.5
+    },
+    "H3_boundedness": {
+      "passed": true,
+      "value": 0.14,
+      "threshold": 1.0
+    },
+    "H4_recursive_retention": {
+      "passed": true,
+      "value": 0.8162759621391996,
+      "threshold": 0.0
+    },
+    "H5_rg_stability": {
+      "passed": true,
+      "value": 0.9687218323443039,
+      "threshold": 0.9
+    }
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "RECONFIGURATION-PRESERVING",
+      "avg_adaptive_strength": 1.0,
+      "avg_reconfiguration_stability": 0.9526066833697229,
+      "avg_retention": 0.9696386056686724
+    },
+    "antisymmetry": {
+      "classification": "RECONFIGURATION-PRESERVING",
+      "avg_adaptive_strength": 0.96,
+      "avg_reconfiguration_stability": 0.9145024160349341,
+      "avg_retention": 0.9308530614419254
+    },
+    "neutral": {
+      "classification": "RECONFIGURATION-PRESERVING",
+      "avg_adaptive_strength": 0.8500000000000001,
+      "avg_reconfiguration_stability": 0.8097156808642644,
+      "avg_retention": 0.8241928148183715
+    }
+  },
+  "rg_stability": {
+    "rg_correlation": 0.92,
+    "adaptive_preserved": true
+  },
+  "n_measurements": 102
+}

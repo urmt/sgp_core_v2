@@ -42,3 +42,9 @@ phase312_recursive_retention,0.906,NA,0.83,0.96,NA,0,0.0%,0.83
 phase312_rg_stability,0.971,NA,0.91,0.98,NA,0,0.0%,0.91
 phase312_dispersion,0.130,NA,0.13,0.13,NA,0,0.0%,0.13
 phase312_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NA
+phase313_adaptive_persistence,0.957,NA,0.85,1.00,NA,0,0.0%,0.85
+phase313_reconfiguration_stability,0.906,NA,0.80,0.94,NA,0,0.0%,0.80
+phase313_recursive_retention,0.900,NA,0.82,0.96,NA,0,0.0%,0.82
+phase313_rg_stability,0.969,NA,0.91,0.98,NA,0,0.0%,0.91
+phase313_dispersion,0.140,NA,0.14,0.14,NA,0,0.0%,0.14
+phase313_verdict,RECURSIVELY_STABLE,NA,NA,NA,NA,NA,NA,NA

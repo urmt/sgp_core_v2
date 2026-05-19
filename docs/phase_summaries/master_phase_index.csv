@@ -31,3 +31,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 310,RECURSIVELY_STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.96,0.91,0.97,0.97,0.15,closure_geometry,COMPLETE
 311,RECURSIVELY_STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.95,0.90,0.97,0.97,0.14,constraint_propagation_consistency,COMPLETE
 312,RECURSIVELY_STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.96,0.91,0.97,0.97,0.13,relational_equilibrium_geometry,COMPLETE
+313,RECURSIVELY_STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.96,0.91,0.97,0.97,0.14,adaptive_reconfiguration_geometry,COMPLETE
