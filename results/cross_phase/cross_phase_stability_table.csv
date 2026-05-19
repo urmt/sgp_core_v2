@@ -162,3 +162,10 @@ phase333_embedding_retention,0.816,NA,0.73,0.91,NA,0,0.0%,0.73
 phase333_deformation_bound,0.848,NA,0.78,0.92,NA,0,0.0%,0.78
 phase333_rg_similarity,0.872,NA,0.85,0.97,NA,0,0.0%,0.85
 phase333_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase334_compatibility_strength,0.771,NA,0.68,0.87,NA,0,0.0%,0.68
+phase334_interference_drift,0.151,NA,0.10,0.20,NA,0,0.0%,0.10
+phase334_compatibility_retention,0.813,NA,0.73,0.90,NA,0,0.0%,0.73
+phase334_transport_strength,0.759,NA,0.67,0.85,NA,0,0.0%,0.67
+phase334_embedding_strength,0.788,NA,0.70,0.89,NA,0,0.0%,0.70
+phase334_rg_similarity,0.879,NA,0.85,0.97,NA,0,0.0%,0.85
+phase334_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
