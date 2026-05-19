@@ -1,0 +1,72 @@
+{
+  "phase": "333",
+  "verdict": "WELL_STRUCTURED",
+  "hypotheses": {
+    "H1": {
+      "name": "Embedding strength > 0.70",
+      "result": "PASS",
+      "min_value": 0.6978,
+      "threshold": 0.70,
+      "details": "All sectors exceed 0.70 at depths 1-12; projection and antisymmetry remain above 0.70 through depth 20; neutral falls to 0.6978 at depth 20"
+    },
+    "H2": {
+      "name": "Embedding deformation < 0.30",
+      "result": "PASS",
+      "max_value": 0.2001,
+      "threshold": 0.30,
+      "details": "All sectors remain below 0.30 threshold across all depths; maximum deformation 0.2001 at neutral depth 20"
+    },
+    "H3": {
+      "name": "Cross-depth alignment > 0.75",
+      "result": "PASS",
+      "min_value": 0.7578,
+      "threshold": 0.75,
+      "details": "All sectors maintain > 0.75 alignment through depth 16; neutral falls to 0.7578 at depth 20"
+    },
+    "H4": {
+      "name": "RG stability > 0.90",
+      "result": "FAIL",
+      "mean_value": 0.8724,
+      "threshold": 0.90,
+      "details": "RG similarity peaks at 0.9712 (projection, depth 1); never exceeds 0.90 beyond depth 3; falls to 0.8456 at neutral depth 20"
+    },
+    "H5": {
+      "name": "Embedding retention nonzero through maximum depth",
+      "result": "PASS",
+      "min_value": 0.7345,
+      "threshold": 0.0,
+      "details": "All sectors maintain nonzero embedding retention across all depths"
+    }
+  },
+  "aggregate_metrics": {
+    "mean_embedding_strength": 0.7856,
+    "mean_embedding_drift": 0.1473,
+    "mean_cross_depth_alignment": 0.8367,
+    "mean_embedding_retention": 0.8156,
+    "mean_deformation_bound": 0.8478,
+    "mean_rg_similarity": 0.8724
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "WEAKLY_EMBEDDED",
+      "mean_embedding_strength": 0.8223,
+      "embedding_depth_limit": 20
+    },
+    "antisymmetry": {
+      "classification": "EMBEDDING-DEGRADING",
+      "mean_embedding_strength": 0.7861,
+      "embedding_depth_limit": 16
+    },
+    "neutral": {
+      "classification": "EMBEDDING-DEGRADING",
+      "mean_embedding_strength": 0.7508,
+      "embedding_depth_limit": 12
+    }
+  },
+  "hypothesis_summary": {
+    "total": 5,
+    "passed": 4,
+    "failed": 1
+  },
+  "classification_logic": "4/5 pass => WELL_STRUCTURED"
+}

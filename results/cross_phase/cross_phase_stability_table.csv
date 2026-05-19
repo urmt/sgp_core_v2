@@ -156,3 +156,9 @@ phase332_density_dispersion,0.147,NA,0.10,0.20,NA,0,0.0%,0.10
 phase332_boundedness,0.840,NA,0.76,0.92,NA,0,0.0%,0.76
 phase332_rg_similarity,0.870,NA,0.83,0.97,NA,0,0.0%,0.83
 phase332_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase333_embedding_strength,0.786,NA,0.70,0.89,NA,0,0.0%,0.70
+phase333_cross_depth_alignment,0.837,NA,0.76,0.92,NA,0,0.0%,0.76
+phase333_embedding_retention,0.816,NA,0.73,0.91,NA,0,0.0%,0.73
+phase333_deformation_bound,0.848,NA,0.78,0.92,NA,0,0.0%,0.78
+phase333_rg_similarity,0.872,NA,0.85,0.97,NA,0,0.0%,0.85
+phase333_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA

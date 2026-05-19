@@ -1,0 +1,113 @@
+# PHASE 333: RG EMBEDDING STABILITY
+# Recursive Organizational Embedding Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG EMBEDDING STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Embedding Organization
+
+================================================================================
+FINE-GRAINED EMBEDDING METRICS
+================================================================================
+
+Fine-grained analysis reveals sector-specific embedding behavior:
+
+PROJECTION:
+- Fine embedding strength: 0.8223
+- Fine embedding deformation: 0.1312
+- Fine cross-depth alignment: 0.8712
+
+ANTISYMMETRY:
+- Fine embedding strength: 0.7861
+- Fine embedding deformation: 0.1498
+- Fine cross-depth alignment: 0.8467
+
+NEUTRAL:
+- Fine embedding strength: 0.7508
+- Fine embedding deformation: 0.1698
+- Fine cross-depth alignment: 0.8201
+
+================================================================================
+COARSE-GRAINED EMBEDDING METRICS
+================================================================================
+
+Coarse-graining produces sector-specific embedding degradation:
+
+PROJECTION:
+- Coarse embedding strength: 0.7412
+- Coarse embedding deformation: 0.1489
+- Coarse cross-depth alignment: 0.7889
+
+ANTISYMMETRY:
+- Coarse embedding strength: 0.7034
+- Coarse embedding deformation: 0.1701
+- Coarse cross-depth alignment: 0.7589
+
+NEUTRAL:
+- Coarse embedding strength: 0.6689
+- Coarse embedding deformation: 0.1945
+- Coarse cross-depth alignment: 0.7289
+
+================================================================================
+RG CORRELATION ANALYSIS
+================================================================================
+
+RG similarity measures the preservation of embedding structure:
+
+PROJECTION:
+- RG similarity: 0.9176
+- Embedding preserved under coarse-graining
+
+ANTISYMMETRY:
+- RG similarity: 0.8934
+- Embedding moderately preserved under coarse-graining
+
+NEUTRAL:
+- RG similarity: 0.8712
+- Embedding weakly preserved under coarse-graining
+
+Mean RG similarity: 0.8724
+
+================================================================================
+EMBEDDING PERSISTENCE UNDER COARSE-GRAINING
+================================================================================
+
+Embedding persistence varies by sector:
+
+PROJECTION:
+- Persistence: 0.9176
+- Embedding survives coarse-graining with 91.76% correlation
+- Classification WEAKLY_EMBEDDED preserved under RG
+
+ANTISYMMETRY:
+- Persistence: 0.8934
+- Embedding moderately survives coarse-graining
+- Classification EMBEDDING-DEGRADING preserved
+
+NEUTRAL:
+- Persistence: 0.8712
+- Embedding weakly survives coarse-graining
+- Classification EMBEDDING-DEGRADING preserved
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.9176 (above threshold at shallow depths, but mean below)
+- Antisymmetry: 0.8934 (below threshold)
+- Neutral: 0.8712 (below threshold)
+
+Overall mean below threshold despite projection at depth 1 exceeding.
+
+This represents a FAIL for H4 but does not indicate catastrophic
+embedding collapse—merely that embedding structure degrades under
+coarse-graining.
+
+================================================================================
+END OF RG EMBEDDING STABILITY
+================================================================================
