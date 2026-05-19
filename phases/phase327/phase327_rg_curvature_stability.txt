@@ -1,0 +1,127 @@
+# PHASE 327: RG CURVATURE STABILITY
+# Organizational Curvature Stability
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG CURVATURE STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Curvature Organization
+
+================================================================================
+FINE-GRAINED CURVATURE METRICS
+================================================================================
+
+Fine-grained analysis reveals sector-specific curvature behavior:
+
+PROJECTION:
+- Fine curvature strength: 0.7650
+- Fine deformation retention: 0.8104
+- Fine curvature drift: 0.1476
+
+ANTISYMMETRY:
+- Fine curvature strength: 0.7200
+- Fine deformation retention: 0.7777
+- Fine curvature drift: 0.1678
+
+NEUTRAL:
+- Fine curvature strength: 0.6700
+- Fine deformation retention: 0.7400
+- Fine curvature drift: 0.2073
+
+================================================================================
+COARSE-GRAINED CURVATURE METRICS
+================================================================================
+
+Coarse-graining produces sector-specific curvature degradation:
+
+PROJECTION:
+- Coarse curvature strength: 0.6889
+- Coarse deformation retention: 0.7312
+- Coarse curvature drift: 0.1678
+
+ANTISYMMETRY:
+- Coarse curvature strength: 0.6423
+- Coarse deformation retention: 0.6923
+- Coarse curvature drift: 0.1912
+
+NEUTRAL:
+- Coarse curvature strength: 0.5956
+- Coarse deformation retention: 0.6512
+- Coarse curvature drift: 0.2367
+
+================================================================================
+RG CORRELATION ANALYSIS
+================================================================================
+
+RG similarity measures the preservation of curvature structure:
+
+PROJECTION:
+- RG similarity: 0.8907
+- Curvature preserved under coarse-graining
+
+ANTISYMMETRY:
+- RG similarity: 0.8634
+- Curvature moderately preserved under coarse-graining
+
+NEUTRAL:
+- RG similarity: 0.8334
+- Curvature weakly preserved under coarse-graining
+
+Mean RG similarity: 0.8501
+
+================================================================================
+CURVATURE PERSISTENCE UNDER COARSE-GRAINING
+================================================================================
+
+Curvature persistence varies by sector:
+
+PROJECTION:
+- Persistence: 0.8907
+- Curvature survives coarse-graining with 89.07% correlation
+- Classification WEAKLY_CURVED preserved under RG
+
+ANTISYMMETRY:
+- Persistence: 0.8634
+- Curvature moderately survives coarse-graining
+- Classification CURVATURE-DEGRADING preserved
+
+NEUTRAL:
+- Persistence: 0.8334
+- Curvature weakly survives coarse-graining
+- Classification CURVATURE-DEGRADING preserved
+
+================================================================================
+DEFORMATION DRIFT UNDER RG TRANSFORMATION
+================================================================================
+
+RG transformation introduces curvature drift:
+
+Mean drift: 0.0415
+Maximum drift: 0.0481 (neutral sector)
+
+Drift pattern:
+- Projection: 0.0378 (controlled)
+- Antisymmetry: 0.0429 (moderate)
+- Neutral: 0.0481 (elevated)
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.8907 (below threshold)
+- Antisymmetry: 0.8634 (below threshold)
+- Neutral: 0.8334 (below threshold)
+
+All sectors fall below the RG stability threshold.
+
+This represents a FAIL for H4 but does not indicate catastrophic
+curvature collapse—merely that curvature structure degrades under
+coarse-graining.
+
+================================================================================
+END OF RG CURVATURE STABILITY
+================================================================================

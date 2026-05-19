@@ -120,3 +120,9 @@ phase326_channel_drift,0.179,NA,0.12,0.24,NA,0,0.0%,0.12
 phase326_boundedness,0.790,NA,0.70,0.89,NA,0,0.0%,0.70
 phase326_rg_similarity,0.847,NA,0.77,0.95,NA,0,0.0%,0.77
 phase326_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
+phase327_curvature_strength,0.702,NA,0.61,0.83,NA,0,0.0%,0.61
+phase327_deformation_retention,0.768,NA,0.65,0.88,NA,0,0.0%,0.65
+phase327_curvature_drift,0.174,NA,0.12,0.23,NA,0,0.0%,0.12
+phase327_boundedness,0.796,NA,0.71,0.90,NA,0,0.0%,0.71
+phase327_rg_similarity,0.850,NA,0.77,0.95,NA,0,0.0%,0.77
+phase327_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA
