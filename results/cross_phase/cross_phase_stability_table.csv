@@ -84,3 +84,9 @@ phase319_network_drift,0.146,NA,0.14,0.19,NA,0,0.0%,0.14
 phase319_boundedness,0.847,NA,0.78,0.90,NA,0,0.0%,0.78
 phase319_rg_similarity,0.892,NA,0.81,0.94,NA,0,0.0%,0.81
 phase319_verdict,METASTABLE,NA,NA,NA,NA,NA,NA,NA
+phase320_stability_strength,0.619,NA,0.50,0.73,NA,0,0.0%,0.50
+phase320_boundary_coherence,0.675,NA,0.56,0.78,NA,0,0.0%,0.56
+phase320_degradation_rate,0.229,NA,0.15,0.31,NA,0,0.0%,0.15
+phase320_boundedness,0.730,NA,0.64,0.82,NA,0,0.0%,0.64
+phase320_rg_similarity,0.830,NA,0.76,0.92,NA,0,0.0%,0.76
+phase320_verdict,WELL_STRUCTURED,NA,NA,NA,NA,NA,NA,NA

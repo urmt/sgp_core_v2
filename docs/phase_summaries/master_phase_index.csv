@@ -38,3 +38,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 317,WELL_STRUCTURED,TRUE,FALSE,TRUE,TRUE,TRUE,0.80,0.79,0.92,0.92,0.12,scaling_consistency_geometry,COMPLETE
 318,RECURSIVELY_STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.77,0.80,0.91,0.91,0.15,correspondence_geometry,COMPLETE
 319,METASTABLE,TRUE,FALSE,TRUE,FALSE,TRUE,0.75,0.76,0.89,0.89,0.15,constraint_network_geometry,COMPLETE
+320,WELL_STRUCTURED,TRUE,TRUE,FALSE,TRUE,TRUE,0.62,0.68,0.83,0.83,0.23,stability_boundary_geometry,COMPLETE

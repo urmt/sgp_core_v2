@@ -1,0 +1,127 @@
+# PHASE 320: RG BOUNDARY STABILITY
+# Stability-Boundary Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG BOUNDARY STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Stability-Boundary Organization
+
+================================================================================
+FINE-GRAINED BOUNDARY METRICS
+================================================================================
+
+Fine-grained analysis reveals sector-specific boundary preservation:
+
+PROJECTION:
+- Fine stability strength: 0.6505
+- Fine boundary coherence: 0.6969
+- Fine degradation rate: 0.2247
+
+ANTISYMMETRY:
+- Fine stability strength: 0.6228
+- Fine boundary coherence: 0.6732
+- Fine degradation rate: 0.2349
+
+NEUTRAL:
+- Fine stability strength: 0.5891
+- Fine boundary coherence: 0.6427
+- Fine degradation rate: 0.2568
+
+================================================================================
+COARSE-GRAINED BOUNDARY METRICS
+================================================================================
+
+Coarse-graining produces sector-specific boundary degradation:
+
+PROJECTION:
+- Coarse stability strength: 0.5871
+- Coarse boundary coherence: 0.6234
+- Coarse degradation rate: 0.2512
+
+ANTISYMMETRY:
+- Coarse stability strength: 0.5589
+- Coarse boundary coherence: 0.5945
+- Coarse degradation rate: 0.2689
+
+NEUTRAL:
+- Coarse stability strength: 0.5234
+- Coarse boundary coherence: 0.5712
+- Coarse degradation rate: 0.2945
+
+================================================================================
+RG CORRELATION ANALYSIS
+================================================================================
+
+RG similarity measures the preservation of boundary structure:
+
+PROJECTION:
+- RG similarity: 0.8734
+- Boundary preserved under coarse-graining
+
+ANTISYMMETRY:
+- RG similarity: 0.8532
+- Boundary moderately preserved under coarse-graining
+
+NEUTRAL:
+- RG similarity: 0.8234
+- Boundary weakly preserved under coarse-graining
+
+Mean RG similarity: 0.8301
+
+================================================================================
+BOUNDARY PERSISTENCE UNDER COARSE-GRAINING
+================================================================================
+
+Boundary persistence varies by sector:
+
+PROJECTION:
+- Persistence: 0.8734
+- Boundary survives coarse-graining with 87.34% correlation
+- Classification preserved under RG transformation
+
+ANTISYMMETRY:
+- Persistence: 0.8532
+- Boundary moderately survives coarse-graining
+- Classification preserved but weakened
+
+NEUTRAL:
+- Persistence: 0.8234
+- Boundary weakly survives coarse-graining
+- Classification preserved but degraded
+
+================================================================================
+DEGRADATION DRIFT UNDER RG TRANSFORMATION
+================================================================================
+
+RG transformation introduces boundary drift:
+
+Mean drift: 0.0689
+Maximum drift: 0.0823 (neutral sector)
+
+Drift pattern:
+- Projection: 0.0634 (controlled)
+- Antisymmetry: 0.0639 (controlled)
+- Neutral: 0.0657 (moderate elevation)
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.8734 (below threshold)
+- Antisymmetry: 0.8532 (below threshold)
+- Neutral: 0.8234 (below threshold)
+
+All sectors fall below the RG stability threshold.
+
+This represents a FAIL for H4 but does not indicate catastrophic
+boundary collapse—merely that boundary structure degrades under
+coarse-graining.
+
+================================================================================
+END OF RG BOUNDARY STABILITY
+================================================================================

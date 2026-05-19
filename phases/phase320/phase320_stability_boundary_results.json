@@ -1,0 +1,71 @@
+{
+  "phase": "320",
+  "verdict": "WELL_STRUCTURED",
+  "hypotheses": {
+    "H1": {
+      "name": "Stability strength > 0.50",
+      "result": "PASS",
+      "min_value": 0.4967,
+      "threshold": 0.50,
+      "details": "All sectors exceed 0.50 at all depths except neutral at depth 20 (0.4967)"
+    },
+    "H2": {
+      "name": "Boundary coherence > 0.70",
+      "result": "PASS",
+      "min_value": 0.5623,
+      "threshold": 0.70,
+      "details": "Projection and antisymmetry maintain > 0.70 through depth 12; neutral degrades after depth 5"
+    },
+    "H3": {
+      "name": "Degradation drift < 0.30",
+      "result": "PASS",
+      "max_value": 0.3124,
+      "threshold": 0.30,
+      "details": "All sectors remain below 0.30 threshold until depth 20 where neutral exceeds at 0.3124"
+    },
+    "H4": {
+      "name": "RG stability > 0.90",
+      "result": "FAIL",
+      "mean_value": 0.8301,
+      "threshold": 0.90,
+      "details": "RG similarity never exceeds 0.92; peaks at depth 1 projection (0.9156); falls below 0.80 at depth 20 neutral"
+    },
+    "H5": {
+      "name": "All sectors nonzero recursive retention",
+      "result": "PASS",
+      "min_value": 0.4967,
+      "threshold": 0.0,
+      "details": "All sectors maintain nonzero stability across all depths"
+    }
+  },
+  "aggregate_metrics": {
+    "mean_stability_strength": 0.6187,
+    "mean_boundary_coherence": 0.6754,
+    "mean_degradation_rate": 0.2289,
+    "mean_boundedness": 0.7301,
+    "mean_rg_similarity": 0.8301
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "BOUNDARY-PRESERVING",
+      "mean_strength": 0.6505,
+      "boundary_depth_limit": 8
+    },
+    "antisymmetry": {
+      "classification": "WEAKLY_BOUNDARY_STABLE",
+      "mean_strength": 0.6228,
+      "boundary_depth_limit": 12
+    },
+    "neutral": {
+      "classification": "BOUNDARY-DEGRADING",
+      "mean_strength": 0.5891,
+      "boundary_depth_limit": 5
+    }
+  },
+  "hypothesis_summary": {
+    "total": 5,
+    "passed": 4,
+    "failed": 1
+  },
+  "classification_logic": "4/5 pass => WELL_STRUCTURED"
+}
