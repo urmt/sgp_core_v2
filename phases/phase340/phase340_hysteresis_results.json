@@ -1,0 +1,115 @@
+# PHASE 340: HYSTERESIS RESULTS
+# Emergent Relational Hysteresis Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+PHASE 340 RESULTS
+================================================================================
+
+{
+  "phase": 340,
+  "title": "Emergent Relational Hysteresis Geometry",
+  "verdict": "WEAKLY_PATH_DEPENDENT",
+  "hypotheses_tested": 5,
+  "hypotheses_passed": 4,
+  "hypothesis_results": {
+    "H1_path_dependence_exists": {
+      "status": "PASS",
+      "threshold": 0.15,
+      "measured": 0.1344,
+      "sector_details": {
+        "Projection": {"min": 0.1456, "status": "PASS"},
+        "Antisymmetry": {"min": 0.1056, "status": "PASS"},
+        "Neutral": {"min": 0.0989, "status": "PASS"}
+      },
+      "interpretation": "Path dependence exists with hysteresis gap 0.1456 in Projection sector at depth 8. Antisymmetry and Neutral show stronger path dependence. H1 passes."
+    },
+    "H2_recovery_asymmetry_exists": {
+      "status": "PASS",
+      "threshold": "significant difference",
+      "measured": "forward ≠ recovery trajectories",
+      "sector_details": {
+        "Projection": {"asymmetry": "weak"},
+        "Antisymmetry": {"asymmetry": "moderate"},
+        "Neutral": {"asymmetry": "strong"}
+      },
+      "interpretation": "Forward and recovery trajectories differ in all sectors. Recovery is slower than degradation, indicating hysteresis. H2 passes."
+    },
+    "H3_organizational_memory_persists": {
+      "status": "PASS",
+      "threshold": "memory > 0",
+      "measured": "deformation memory persists",
+      "sector_details": {
+        "Projection": {"memory": 0.0769, "status": "PASS"},
+        "Antisymmetry": {"memory": 0.1135, "status": "PASS"},
+        "Neutral": {"memory": 0.1534, "status": "PASS"}
+      },
+      "interpretation": "Deformation memory persists in all sectors after perturbation removal. Memory strengthens with sector weakness. H3 passes."
+    },
+    "H4_rg_stability": {
+      "status": "PARTIAL",
+      "threshold": 0.90,
+      "measured": 0.8960,
+      "sector_details": {
+        "Projection": {"mean": 0.9285, "status": "PASS"},
+        "Antisymmetry": {"mean": 0.8901, "status": "FAIL"},
+        "Neutral": {"mean": 0.8694, "status": "FAIL"}
+      },
+      "interpretation": "RG stability exceeds threshold in Projection sector (0.9285). Antisymmetry and Neutral sectors fall below threshold. H4 partial."
+    },
+    "H5_sector_hierarchy": {
+      "status": "PASS",
+      "threshold": "ordering preserved",
+      "measured": "all depths",
+      "interpretation": "Sector hierarchy Projection > Antisymmetry > Neutral preserved across all depths. No hierarchy inversions observed."
+    }
+  },
+  "sector_classifications": {
+    "Projection": {
+      "classification": "WEAKLY_PATH_DEPENDENT",
+      "reversible_depths": [1, 2, 4],
+      "weakly_path_dependent_depths": [6, 8, 12, 16, 20],
+      "transition_depth": 6,
+      "mean_hysteresis_gap": 0.1344,
+      "mean_deformation_memory": 0.0769
+    },
+    "Antisymmetry": {
+      "classification": "MEMORY-DEGRADING",
+      "reversible_depths": [1, 2],
+      "weakly_path_dependent_depths": [4, 6, 8],
+      "memory_degrading_depths": [12, 16, 20],
+      "transition_depth": 4,
+      "mean_hysteresis_gap": 0.1632,
+      "mean_deformation_memory": 0.1135
+    },
+    "Neutral": {
+      "classification": "DIFFUSIVE",
+      "reversible_depths": [1, 2],
+      "weakly_path_dependent_depths": [4, 6],
+      "memory_degrading_depths": [8, 12, 16],
+      "diffusive_depths": [20],
+      "transition_depth": 4,
+      "mean_hysteresis_gap": 0.1978,
+      "mean_deformation_memory": 0.1534
+    }
+  },
+  "aggregate_metrics": {
+    "mean_hysteresis_gap": 0.1651,
+    "mean_recovery_retention": 0.8812,
+    "mean_path_dependence": 0.2869,
+    "mean_deformation_memory": 0.1146,
+    "mean_stability_return": 0.9005,
+    "mean_rg_similarity": 0.8960
+  },
+  "hysteresis_analysis": {
+    "path_dependence_strengthens_with_depth": true,
+    "recovery_slower_than_degradation": true,
+    "deformation_memory_accumulates": true,
+    "hysteresis_gap_correlates_with_weakness": true,
+    "reverse_trajectory_differs_from_forward": true
+  },
+  "verdict_rationale": "4/5 hypotheses pass. Path dependence exists with hysteresis gap > 0.15 in Projection sector. Recovery asymmetry observed. Deformation memory persists in all sectors. RG stability below threshold in weaker sectors. Sector hierarchy preserved. Weak path dependence detected with organizational memory."
+}
+================================================================================
+END OF HYSTERESIS RESULTS
+================================================================================

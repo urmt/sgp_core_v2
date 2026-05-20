@@ -1,0 +1,267 @@
+# PHASE 340: RG HYSTERESIS STABILITY
+# Emergent Relational Hysteresis Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG HYSTERESIS STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Recursive Organization
+
+================================================================================
+FINE-GRAINED HYSTERESIS METRICS
+================================================================================
+
+Fine-grained analysis reveals sector-specific hysteresis behavior:
+
+PROJECTION:
+- Fine hysteresis_gap: 0.1344
+- Fine recovery_retention: 0.9231
+- Fine deformation_memory: 0.0769
+- Fine stability_return: 0.9403
+
+ANTISYMMETRY:
+- Fine hysteresis_gap: 0.1632
+- Fine recovery_retention: 0.8863
+- Fine deformation_memory: 0.1135
+- Fine stability_return: 0.8994
+
+NEUTRAL:
+- Fine hysteresis_gap: 0.1978
+- Fine recovery_retention: 0.8341
+- Fine deformation_memory: 0.1534
+- Fine stability_return: 0.8617
+
+================================================================================
+COARSE-GRAINED HYSTERESIS METRICS
+================================================================================
+
+Coarse-graining produces sector-specific hysteresis amplification:
+
+PROJECTION:
+- Coarse hysteresis_gap: 0.1689
+- Coarse recovery_retention: 0.8512
+- Coarse deformation_memory: 0.1023
+- Coarse stability_return: 0.8789
+
+ANTISYMMETRY:
+- Coarse hysteresis_gap: 0.2089
+- Coarse recovery_retention: 0.8134
+- Coarse deformation_memory: 0.1489
+- Coarse stability_return: 0.8367
+
+NEUTRAL:
+- Coarse hysteresis_gap: 0.2589
+- Coarse recovery_retention: 0.7612
+- Coarse deformation_memory: 0.2089
+- Coarse stability_return: 0.7989
+
+================================================================================
+RG SIMILARITY ANALYSIS
+================================================================================
+
+RG similarity measures hysteresis structure preservation:
+
+PROJECTION:
+- RG similarity: 0.9285
+- Hysteresis structure preserved under coarse-graining
+
+ANTISYMMETRY:
+- RG similarity: 0.8901
+- Hysteresis structure moderately preserved
+
+NEUTRAL:
+- RG similarity: 0.8694
+- Hysteresis structure weakly preserved
+
+Mean RG similarity: 0.8960
+
+================================================================================
+HYSTERESIS GAP PRESERVATION
+================================================================================
+
+Hysteresis gap preservation under coarse-graining:
+
+PROJECTION:
+- Fine gap: 0.1344
+- Coarse gap: 0.1689
+- Amplification ratio: 1.257
+
+ANTISYMMETRY:
+- Fine gap: 0.1632
+- Coarse gap: 0.2089
+- Amplification ratio: 1.280
+
+NEUTRAL:
+- Fine gap: 0.1978
+- Coarse gap: 0.2589
+- Amplification ratio: 1.309
+
+Mean amplification ratio: 1.282
+
+Observation: Hysteresis gap AMPLIFIES under coarse-graining.
+Path dependence becomes more pronounced at coarse scales.
+
+================================================================================
+DEFORMATION MEMORY PERSISTENCE
+================================================================================
+
+Deformation memory persistence under coarse-graining:
+
+PROJECTION:
+- Fine memory: 0.0769
+- Coarse memory: 0.1023
+- Amplification ratio: 1.330
+
+ANTISYMMETRY:
+- Fine memory: 0.1135
+- Coarse memory: 0.1489
+- Amplification ratio: 1.312
+
+NEUTRAL:
+- Fine memory: 0.1534
+- Coarse memory: 0.2089
+- Amplification ratio: 1.362
+
+Mean amplification ratio: 1.335
+
+Observation: Deformation memory AMPLIFIES under coarse-graining.
+Organizational memory becomes more persistent at coarse scales.
+
+================================================================================
+RECOVERY RETENTION STABILITY
+================================================================================
+
+Recovery retention stability under coarse-graining:
+
+PROJECTION:
+- Fine retention: 0.9231
+- Coarse retention: 0.8512
+- Degradation ratio: 0.922
+
+ANTISYMMETRY:
+- Fine retention: 0.8863
+- Coarse retention: 0.8134
+- Degradation ratio: 0.918
+
+NEUTRAL:
+- Fine retention: 0.8341
+- Coarse retention: 0.7612
+- Degradation ratio: 0.913
+
+Mean degradation ratio: 0.918
+
+Observation: Recovery retention degrades under coarse-graining.
+Ability to recover decreases at coarse scales.
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.9285 (above threshold)
+- Antisymmetry: 0.8901 (below threshold)
+- Neutral: 0.8694 (below threshold)
+
+Mean RG similarity: 0.8960 (below 0.90 threshold)
+
+This represents a PARTIAL FAIL for H4 but indicates that hysteresis
+structure remains coherent under coarse-graining.
+
+================================================================================
+FINE VS COARSE HYSTERESIS COMPARISON
+================================================================================
+
+                        Fine      Coarse    Change
+PROJECTION
+  Hysteresis gap:       0.1344    0.1689    +25.7%
+  Deformation memory:   0.0769    0.1023    +33.0%
+  Recovery retention:   0.9231    0.8512    -7.8%
+  Stability return:     0.9403    0.8789    -6.5%
+  RG:                  0.9285    0.9285    0.0%
+
+ANTISYMMETRY
+  Hysteresis gap:       0.1632    0.2089    +28.0%
+  Deformation memory:   0.1135    0.1489    +31.2%
+  Recovery retention:   0.8863    0.8134    -8.2%
+  Stability return:     0.8994    0.8367    -7.0%
+  RG:                  0.8901    0.8901    0.0%
+
+NEUTRAL
+  Hysteresis gap:       0.1978    0.2589    +30.9%
+  Deformation memory:   0.1534    0.2089    +36.2%
+  Recovery retention:   0.8341    0.7612    -8.7%
+  Stability return:     0.8617    0.7989    -7.3%
+  RG:                  0.8694    0.8694    0.0%
+
+Observation: RG similarity remains constant. Hysteresis gap and
+deformation memory amplify under coarse-graining (25-36%).
+Recovery metrics degrade (7-9%).
+
+================================================================================
+PATH-DEPENDENT DEFORMATION PERSISTENCE
+================================================================================
+
+Path-dependent deformation under scale reduction:
+
+PROJECTION:
+  Fine irreversible component: 0.1210
+  Coarse irreversible component: 0.1589
+  Amplification: 31.3%
+
+ANTISYMMETRY:
+  Fine irreversible component: 0.1790
+  Coarse irreversible component: 0.2367
+  Amplification: 32.2%
+
+NEUTRAL:
+  Fine irreversible component: 0.2488
+  Coarse irreversible component: 0.3389
+  Amplification: 36.2%
+
+Observation: Irreversible deformation amplifies under coarse-graining.
+Path dependence becomes more permanent at coarse scales.
+
+================================================================================
+HYSTERESIS STRUCTURE UNDER SCALE REDUCTION
+================================================================================
+
+Hysteresis classification shifts under coarse-graining:
+
+PROJECTION:
+  Fine: WEAKLY_PATH_DEPENDENT
+  Coarse: WEAKLY_PATH_DEPENDENT
+  Assessment: Classification preserved
+
+ANTISYMMETRY:
+  Fine: MEMORY-DEGRADING
+  Coarse: HYSTERETIC
+  Assessment: Classification worsens under coarse-graining
+
+NEUTRAL:
+  Fine: DIFFUSIVE
+  Coarse: DIFFUSIVE (deeper degradation)
+  Assessment: Classification preserved
+
+================================================================================
+CONCLUSION
+================================================================================
+
+RG hysteresis stability analysis reveals:
+- Hysteresis structure degrades under coarse-graining
+- Sector hierarchy INVERTED (weaker sectors more hysteretic)
+- Hysteresis gap amplifies at coarse scales (25-36%)
+- Deformation memory amplifies at coarse scales (31-36%)
+- Recovery retention degrades at coarse scales (7-9%)
+- RG similarity below threshold (0.8960 < 0.90)
+- H4 partial fail
+
+The partial fail of H4 indicates that hysteresis structure, while
+present, degrades under scale reduction. Path dependence becomes more
+pronounced but recovery becomes more difficult at coarse scales.
+
+================================================================================
+END OF RG HYSTERESIS STABILITY
+================================================================================

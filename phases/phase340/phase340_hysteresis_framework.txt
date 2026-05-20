@@ -1,0 +1,190 @@
+# PHASE 340: HYSTERESIS FRAMEWORK
+# Emergent Relational Hysteresis Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+HYSTERESIS FRAMEWORK
+================================================================================
+
+This framework establishes operational definitions for analyzing whether
+recursive organizational structure exhibits path dependence, hysteresis,
+memory of prior regime transitions, irreversible recursive deformation,
+or history-sensitive stability behavior.
+
+================================================================================
+CORE CONCEPT
+================================================================================
+
+A hysteresis structure exists if:
+
+recursive organization depends on prior transition history, not solely
+on current recursive state.
+
+Key phenomena tested:
+- TRANSITION ORDER MATTERS
+  Forward and reverse trajectories differ at same depth
+- RECOVERY DIFFERS FROM DEGRADATION
+  Recovery paths differ from forward degradation paths
+- ORGANIZATIONAL RETURN PATHS DIFFER
+  Path from A→B differs from B→A
+- RECURSIVE MEMORY PERSISTS
+  Past perturbations leave lasting deformation
+- STABILIZATION EXHIBITS PATH-SENSITIVE GEOMETRY
+  Stability depends on traversal history
+
+================================================================================
+EXPERIMENTAL DESIGN
+================================================================================
+
+For each sector, three trajectories are computed:
+
+1. FORWARD TRAJECTORY (F→)
+   - Start at depth 0
+   - Progressively increase depth: 0→1→2→4→6→8→12→16→20
+   - Measure organizational state at each depth
+
+2. REVERSE TRAJECTORY (←R)
+   - Start at maximum depth (20)
+   - Progressively decrease depth: 20→16→12→8→6→4→2→1→0
+   - Measure organizational state at each depth
+   - Compare with forward values at same depth
+
+3. PERTURBATION RECOVERY (P→R)
+   - Progress to depth 8 (or 12)
+   - Introduce bounded perturbation
+   - Measure recovery trajectory back to stable state
+   - Compare with unperturbed forward trajectory
+
+================================================================================
+KEY HYPOTHESES
+================================================================================
+
+H1: PATH DEPENDENCE EXISTS
+   Forward and reverse trajectories diverge.
+   PASS if hysteresis_gap > 0.15 for at least one sector.
+
+H2: RECOVERY ASYMMETRY EXISTS
+   Forward and recovery trajectories differ.
+   PASS if forward ≠ recovery significantly (quantified).
+
+H3: ORGANIZATIONAL MEMORY PERSISTS
+   Deformation remains after perturbation removal.
+   PASS if deformation_memory > 0 after recovery.
+
+H4: RG STABILITY
+   Hysteresis structure preserved under coarse-graining.
+   PASS if rg_similarity > 0.90.
+
+H5: SECTOR HIERARCHY PERSISTS
+   Sector ordering preserved across paths.
+   PASS if Projection > Antisymmetry > Neutral.
+
+================================================================================
+OPERATIONAL DEFINITIONS
+================================================================================
+
+1. HYSTERESIS GAP (h)
+   Forward/reverse divergence at same depth.
+   h = |F(depth) - R(depth)|
+   Range: [0, 1]
+   h > 0.15 indicates path dependence.
+
+2. RECOVERY RETENTION (r)
+   Retained organization after perturbation.
+   r = final_recovery / initial_organization
+   Range: [0, 1]
+   Higher values indicate better recovery.
+
+3. PATH DEPENDENCE (p)
+   Sensitivity to prior trajectory.
+   p = d(stability) / d(history)
+   Range: [0, 1]
+   Higher values indicate stronger path dependence.
+
+4. DEFORMATION MEMORY (m)
+   Persistent post-transition deformation.
+   m = residual_deformation after recovery
+   Range: [0, 1]
+   m > 0 indicates organizational memory.
+
+5. STABILITY RETURN (s)
+   Ability to recover prior organization.
+   s = final_stability / baseline_stability
+   Range: [0, 1]
+   s < 1 indicates irreversible deformation.
+
+6. RG SIMILARITY (g)
+   Fine/coarse hysteresis preservation.
+   Range: [0, 1]
+   g > 0.90 indicates stable hysteresis.
+
+7. CLASSIFICATION (cls)
+   HYSTERETIC: Strong hysteresis, persistent memory
+   WEAKLY_PATH_DEPENDENT: Moderate hysteresis
+   MEMORY-DEGRADING: Memory degrades over time
+   REVERSIBLE: Minimal hysteresis, full recovery
+   DIFFUSIVE: No path dependence
+
+================================================================================
+SECTOR DEFINITIONS
+================================================================================
+
+PROJECTION:
+- Role: Strongest recursive structure
+- Expected: HYSTERETIC or WEAKLY_PATH_DEPENDENT
+- Path dependence should be pronounced
+
+ANTISYMMETRY:
+- Role: Moderate recursive structure
+- Expected: WEAKLY_PATH_DEPENDENT or MEMORY-DEGRADING
+- Path dependence moderate
+
+NEUTRAL:
+- Role: Weakest recursive structure
+- Expected: MEMORY-DEGRADING or REVERSIBLE
+- Path dependence weak or absent
+
+================================================================================
+DEPTH ANALYSIS
+================================================================================
+
+Analyzed depths: [1, 2, 4, 6, 8, 12, 16, 20]
+
+Depth behavior:
+- Shallow depths (1-4): Initial path establishment
+- Middle depths (6-12): Hysteresis accumulation
+- Deep recursion (16-20): Maximum path dependence
+
+Expected: Hysteresis should increase with depth accumulation.
+
+================================================================================
+VERDICT CRITERIA
+================================================================================
+
+VERDICT: HYSTERETIC
+  - At least 4/5 hypotheses pass
+  - Hysteresis gap > 0.20
+  - Persistent memory observed
+
+VERDICT: WEAKLY_PATH_DEPENDENT
+  - 3/5 hypotheses pass
+  - Hysteresis gap > 0.15
+  - Partial memory
+
+VERDICT: MEMORY-DEGRADING
+  - 2/5 hypotheses pass
+  - Weak hysteresis
+  - Memory fades with time
+
+VERDICT: REVERSIBLE
+  - 1-2/5 hypotheses pass
+  - Minimal hysteresis
+  - Full recovery observed
+
+VERDICT: DIFFUSIVE
+  - No hysteresis detected
+  - Organization independent of history
+
+================================================================================
+END OF HYSTERESIS FRAMEWORK
+================================================================================

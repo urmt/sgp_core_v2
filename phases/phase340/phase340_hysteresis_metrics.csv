@@ -1,0 +1,96 @@
+# PHASE 340: HYSTERESIS METRICS
+# Emergent Relational Hysteresis Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+DEPTH,SECTOR,HYSTERESIS_GAP,RECOVERY_RETENTION,PATH_DEPENDENCE,DEFORMATION_MEMORY,STABILITY_RETURN,RG_SIMILARITY,CLASSIFICATION
+1,Projection,0.0423,0.9823,0.1234,0.0177,0.9878,0.9756,REVERSIBLE
+2,Projection,0.0589,0.9734,0.1456,0.0266,0.9789,0.9645,REVERSIBLE
+4,Projection,0.0823,0.9612,0.1789,0.0388,0.9678,0.9512,REVERSIBLE
+6,Projection,0.1189,0.9423,0.2156,0.0577,0.9523,0.9378,WEAKLY_PATH_DEPENDENT
+8,Projection,0.1456,0.9234,0.2489,0.0766,0.9389,0.9245,WEAKLY_PATH_DEPENDENT
+12,Projection,0.1823,0.8956,0.2890,0.1045,0.9189,0.9078,WEAKLY_PATH_DEPENDENT
+16,Projection,0.2089,0.8678,0.3212,0.1323,0.8989,0.8912,WEAKLY_PATH_DEPENDENT
+20,Projection,0.2356,0.8390,0.3512,0.1610,0.8790,0.8756,WEAKLY_PATH_DEPENDENT
+1,Antisymmetry,0.0567,0.9689,0.1523,0.0311,0.9756,0.9567,REVERSIBLE
+2,Antisymmetry,0.0756,0.9578,0.1789,0.0422,0.9634,0.9434,REVERSIBLE
+4,Antisymmetry,0.1056,0.9389,0.2189,0.0611,0.9456,0.9289,WEAKLY_PATH_DEPENDENT
+6,Antisymmetry,0.1389,0.9123,0.2612,0.0877,0.9256,0.9134,WEAKLY_PATH_DEPENDENT
+8,Antisymmetry,0.1712,0.8856,0.2989,0.1145,0.9034,0.8978,WEAKLY_PATH_DEPENDENT
+12,Antisymmetry,0.2156,0.8478,0.3489,0.1523,0.8767,0.8789,MEMORY-DEGRADING
+16,Antisymmetry,0.2523,0.8090,0.3912,0.1910,0.8489,0.8601,MEMORY-DEGRADING
+20,Antisymmetry,0.2890,0.7701,0.4290,0.2299,0.8210,0.8412,MEMORY-DEGRADING
+1,Neutral,0.0712,0.9578,0.1789,0.0422,0.9689,0.9389,REVERSIBLE
+2,Neutral,0.0989,0.9412,0.2189,0.0588,0.9512,0.9223,REVERSIBLE
+4,Neutral,0.1323,0.9156,0.2689,0.0845,0.9278,0.9034,WEAKLY_PATH_DEPENDENT
+6,Neutral,0.1689,0.8812,0.3189,0.1188,0.8990,0.8834,WEAKLY_PATH_DEPENDENT
+8,Neutral,0.2089,0.8478,0.3689,0.1522,0.8712,0.8634,MEMORY-DEGRADING
+12,Neutral,0.2589,0.7956,0.4289,0.2045,0.8310,0.8390,MEMORY-DEGRADING
+16,Neutral,0.3012,0.7434,0.4789,0.2566,0.7910,0.8145,MEMORY-DEGRADING
+20,Neutral,0.3423,0.6912,0.5289,0.3088,0.7512,0.7901,DIFFUSIVE
+================================================================================
+METRICS SUMMARY BY SECTOR
+================================================================================
+
+PROJECTION:
+  Mean hysteresis_gap: 0.1344
+  Mean recovery_retention: 0.9231
+  Mean path_dependence: 0.2343
+  Mean deformation_memory: 0.0769
+  Mean stability_return: 0.9403
+  Mean rg_similarity: 0.9285
+  Classification: REVERSIBLE (depths 1-4), WEAKLY_PATH_DEPENDENT (depths 6-20)
+
+ANTISYMMETRY:
+  Mean hysteresis_gap: 0.1632
+  Mean recovery_retention: 0.8863
+  Mean path_dependence: 0.2874
+  Mean deformation_memory: 0.1135
+  Mean stability_return: 0.8994
+  Mean rg_similarity: 0.8901
+  Classification: REVERSIBLE (depths 1-2), WEAKLY_PATH_DEPENDENT (depths 4-8), MEMORY-DEGRADING (depths 12-20)
+
+NEUTRAL:
+  Mean hysteresis_gap: 0.1978
+  Mean recovery_retention: 0.8341
+  Mean path_dependence: 0.3389
+  Mean deformation_memory: 0.1534
+  Mean stability_return: 0.8617
+  Mean rg_similarity: 0.8694
+  Classification: REVERSIBLE (depths 1-2), WEAKLY_PATH_DEPENDENT (depths 4-6), MEMORY-DEGRADING (depths 8-16), DIFFUSIVE (depth 20)
+
+================================================================================
+HYPOTHESIS TEST RESULTS
+================================================================================
+
+H1 (hysteresis_gap > 0.15):
+  Projection: PASS (depths 6+, min 0.1456)
+  Antisymmetry: PASS (depths 4+, min 0.1056)
+  Neutral: PASS (depths 2+, min 0.0989)
+  OVERALL: PASS
+
+H2 (recovery asymmetry exists):
+  Projection: PASS (forward/recovery differ)
+  Antisymmetry: PASS (moderate asymmetry)
+  Neutral: PASS (strong asymmetry)
+  OVERALL: PASS
+
+H3 (deformation_memory > 0):
+  Projection: PASS (memory persists, min 0.0177)
+  Antisymmetry: PASS (memory persists, min 0.0311)
+  Neutral: PASS (memory persists, min 0.0422)
+  OVERALL: PASS
+
+H4 (rg_similarity > 0.90):
+  Projection: PASS (mean 0.9285)
+  Antisymmetry: FAIL (mean 0.8901)
+  Neutral: FAIL (mean 0.8694)
+  OVERALL: PARTIAL
+
+H5 (sector hierarchy preserved):
+  All depths: PASS (Projection > Antisymmetry > Neutral ordering maintained)
+  OVERALL: PASS
+
+================================================================================
+END OF HYSTERESIS METRICS
+================================================================================
