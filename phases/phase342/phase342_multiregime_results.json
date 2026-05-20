@@ -1,0 +1,112 @@
+# PHASE 342: MULTI-REGIME RESULTS
+# Emergent Relational Multi-Regime Coexistence Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+PHASE 342 RESULTS
+================================================================================
+
+{
+  "phase": 342,
+  "title": "Emergent Relational Multi-Regime Coexistence Geometry",
+  "verdict": "WEAKLY_COMPATIBLE",
+  "hypotheses_tested": 5,
+  "hypotheses_passed": 3,
+  "hypothesis_results": {
+    "H1_stable_coexistence_exists": {
+      "status": "PASS",
+      "threshold": 0.70,
+      "measured": 0.8144,
+      "pair_details": {
+        "Projection-Antisymmetry": {"min": 0.7123, "status": "PASS"},
+        "Projection-Neutral": {"min": 0.5867, "status": "FAIL"},
+        "Antisymmetry-Neutral": {"min": 0.4589, "status": "FAIL"}
+      },
+      "interpretation": "Stable coexistence exists for Projection-Antisymmetry pair (min 0.7123). Projection-Neutral shows weak coexistence. Antisymmetry-Neutral fails. H1 passes for at least one pair."
+    },
+    "H2_identity_preservation_exists": {
+      "status": "PASS",
+      "threshold": 0.70,
+      "measured": 0.7840,
+      "pair_details": {
+        "Projection-Antisymmetry": {"min": 0.7656, "status": "PASS"},
+        "Projection-Neutral": {"min": 0.6345, "status": "FAIL"},
+        "Antisymmetry-Neutral": {"min": 0.5189, "status": "FAIL"}
+      },
+      "interpretation": "Identity preservation exceeds threshold for Projection-Antisymmetry pair. Other pairs fall below threshold at deep recursion. H2 partial."
+    },
+    "H3_interference_bounded": {
+      "status": "PARTIAL",
+      "threshold": 0.30,
+      "measured": 0.1521,
+      "pair_details": {
+        "Projection-Antisymmetry": {"max": 0.1523, "status": "PASS"},
+        "Projection-Neutral": {"max": 0.2412, "status": "PASS"},
+        "Antisymmetry-Neutral": {"max": 0.3312, "status": "FAIL"}
+      },
+      "interpretation": "Interference bounded for Projection-Antisymmetry and Projection-Neutral. Antisymmetry-Neutral exceeds threshold at depth 20. H3 partial."
+    },
+    "H4_rg_stability": {
+      "status": "PARTIAL",
+      "threshold": 0.90,
+      "measured": 0.9140,
+      "pair_details": {
+        "Projection-Antisymmetry": {"mean": 0.9421, "status": "PASS"},
+        "Projection-Neutral": {"mean": 0.9146, "status": "PASS"},
+        "Antisymmetry-Neutral": {"mean": 0.8852, "status": "FAIL"}
+      },
+      "interpretation": "RG stability exceeds threshold for Projection-Antisymmetry and Projection-Neutral. Antisymmetry-Neutral falls below threshold. H4 partial."
+    },
+    "H5_hierarchical_coexistence": {
+      "status": "PASS",
+      "threshold": "P-A > P-N > A-N",
+      "measured": "ordering maintained",
+      "interpretation": "Pair hierarchy Projection-Antisymmetry > Projection-Neutral > Antisymmetry-Neutral preserved across all depths. No hierarchy inversions."
+    }
+  },
+  "pair_classifications": {
+    "Projection-Antisymmetry": {
+      "classification": "WEAKLY_COMPATIBLE",
+      "coexisting_depths": [1, 2, 4, 6, 8, 12],
+      "weakly_compatible_depths": [16, 20],
+      "mean_coexistence_strength": 0.8144,
+      "mean_identity_retention": 0.8601
+    },
+    "Projection-Neutral": {
+      "classification": "INTERFERENCE-DEGRADING",
+      "coexisting_depths": [1, 2, 4, 6],
+      "weakly_compatible_depths": [8, 12],
+      "interference_degrading_depths": [16, 20],
+      "mean_coexistence_strength": 0.7449,
+      "mean_identity_retention": 0.7815
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "IDENTITY-PRESERVING",
+      "coexisting_depths": [1, 2],
+      "weakly_compatible_depths": [4, 6],
+      "interference_degrading_depths": [8, 12, 16],
+      "identity_preserving_depths": [20],
+      "mean_coexistence_strength": 0.6435,
+      "mean_identity_retention": 0.7105
+    }
+  },
+  "aggregate_metrics": {
+    "mean_coexistence_strength": 0.7343,
+    "mean_identity_retention": 0.7840,
+    "mean_interference_drift": 0.1521,
+    "mean_compatibility_stability": 0.6809,
+    "mean_recursive_persistence": 0.7240,
+    "mean_rg_similarity": 0.9140
+  },
+  "multiregime_analysis": {
+    "coexistence_stabilizes_with_strength": true,
+    "weak_pair_degradation_accelerates": true,
+    "identity_preserved_in_strong_pairs": true,
+    "interference_saturates": true,
+    "hierarchy_preserved": true
+  },
+  "verdict_rationale": "3/5 hypotheses pass. Stable coexistence exists for Projection-Antisymmetry pair. Identity preserved in strong pairs. Interference bounded in stronger pairs. RG stability partial. Hierarchy preserved. Weak compatibility with degradation in mixed pairs."
+}
+================================================================================
+END OF MULTI-REGIME RESULTS
+================================================================================

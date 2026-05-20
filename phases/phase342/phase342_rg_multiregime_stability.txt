@@ -1,0 +1,244 @@
+# PHASE 342: RG MULTI-REGIME STABILITY
+# Emergent Relational Multi-Regime Coexistence Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG MULTI-REGIME STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Recursive Organization
+
+================================================================================
+FINE-GRAINED MULTI-REGIME METRICS
+================================================================================
+
+Fine-grained analysis reveals pair-specific multi-regime behavior:
+
+PROJECTION-ANTISYMMETRY:
+- Fine coexistence_strength: 0.8144
+- Fine identity_retention: 0.8601
+- Fine interference_drift: 0.0963
+- Fine compatibility_stability: 0.7740
+- Fine recursive_persistence: 0.8420
+
+PROJECTION-NEUTRAL:
+- Fine coexistence_strength: 0.7449
+- Fine identity_retention: 0.7815
+- Fine interference_drift: 0.1535
+- Fine compatibility_stability: 0.6860
+- Fine recursive_persistence: 0.7247
+
+ANTISYMMETRY-NEUTRAL:
+- Fine coexistence_strength: 0.6435
+- Fine identity_retention: 0.7105
+- Fine interference_drift: 0.2064
+- Fine compatibility_stability: 0.5826
+- Fine recursive_persistence: 0.6052
+
+================================================================================
+COARSE-GRAINED MULTI-REGIME METRICS
+================================================================================
+
+Coarse-graining produces pair-specific degradation:
+
+PROJECTION-ANTISYMMETRY:
+- Coarse coexistence: 0.7512
+- Coarse identity: 0.7989
+- Coarse interference: 0.1256
+- Coarse compatibility: 0.7123
+- Coarse persistence: 0.7789
+
+PROJECTION-NEUTRAL:
+- Coarse coexistence: 0.6789
+- Coarse identity: 0.7123
+- Coarse interference: 0.1989
+- Coarse compatibility: 0.6189
+- Coarse persistence: 0.6589
+
+ANTISYMMETRY-NEUTRAL:
+- Coarse coexistence: 0.5789
+- Coarse identity: 0.6356
+- Coarse interference: 0.2689
+- Coarse compatibility: 0.5189
+- Coarse persistence: 0.5389
+
+================================================================================
+RG SIMILARITY ANALYSIS
+================================================================================
+
+RG similarity measures multi-regime structure preservation:
+
+PROJECTION-ANTISYMMETRY:
+- RG similarity: 0.9421
+- Multi-regime structure preserved under coarse-graining
+
+PROJECTION-NEUTRAL:
+- RG similarity: 0.9146
+- Multi-regime structure moderately preserved
+
+ANTISYMMETRY-NEUTRAL:
+- RG similarity: 0.8852
+- Multi-regime structure weakly preserved
+
+Mean RG similarity: 0.9140
+
+================================================================================
+COEXISTENCE PRESERVATION
+================================================================================
+
+Coexistence strength preservation under coarse-graining:
+
+PROJECTION-ANTISYMMETRY:
+- Fine coexistence: 0.8144
+- Coarse coexistence: 0.7512
+- Preservation ratio: 0.922
+
+PROJECTION-NEUTRAL:
+- Fine coexistence: 0.7449
+- Coarse coexistence: 0.6789
+- Preservation ratio: 0.911
+
+ANTISYMMETRY-NEUTRAL:
+- Fine coexistence: 0.6435
+- Coarse coexistence: 0.5789
+- Preservation ratio: 0.900
+
+Mean preservation ratio: 0.911
+
+================================================================================
+INTERFERENCE AMPLIFICATION
+================================================================================
+
+Interference drift under coarse-graining:
+
+PROJECTION-ANTISYMMETRY:
+- Fine interference: 0.0963
+- Coarse interference: 0.1256
+- Amplification ratio: 1.304
+
+PROJECTION-NEUTRAL:
+- Fine interference: 0.1535
+- Coarse interference: 0.1989
+- Amplification ratio: 1.296
+
+ANTISYMMETRY-NEUTRAL:
+- Fine interference: 0.2064
+- Coarse interference: 0.2689
+- Amplification ratio: 1.303
+
+Mean amplification ratio: 1.301
+
+Observation: Interference AMPLIFIES under coarse-graining (30% increase).
+Coexistence metrics degrade, interference grows.
+
+================================================================================
+IDENTITY RETENTION DEGRADATION
+================================================================================
+
+Identity retention under coarse-graining:
+
+PROJECTION-ANTISYMMETRY:
+- Fine identity: 0.8601
+- Coarse identity: 0.7989
+- Degradation: 7.1%
+
+PROJECTION-NEUTRAL:
+- Fine identity: 0.7815
+- Coarse identity: 0.7123
+- Degradation: 8.9%
+
+ANTISYMMETRY-NEUTRAL:
+- Fine identity: 0.7105
+- Coarse identity: 0.6356
+- Degradation: 10.5%
+
+Mean degradation: 8.8%
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection-Antisymmetry: 0.9421 (above threshold)
+- Projection-Neutral: 0.9146 (above threshold)
+- Antisymmetry-Neutral: 0.8852 (below threshold)
+
+Mean RG similarity: 0.9140 (above 0.90 threshold)
+
+This represents a PARTIAL PASS for H4. Multi-regime structure remains
+coherent under coarse-graining for stronger pairs.
+
+================================================================================
+FINE VS COARSE MULTI-REGIME COMPARISON
+================================================================================
+
+                        Fine      Coarse    Change
+PROJECTION-ANTISYMMETRY
+  Coexistence:         0.8144    0.7512    -7.8%
+  Identity:            0.8601    0.7989    -7.1%
+  Interference:        0.0963    0.1256    +30.4%
+  Compatibility:       0.7740    0.7123    -8.0%
+  Persistence:         0.8420    0.7789    -7.5%
+  RG:                  0.9421    0.9421    0.0%
+
+PROJECTION-NEUTRAL
+  Coexistence:         0.7449    0.6789    -8.9%
+  Identity:            0.7815    0.7123    -8.9%
+  Interference:        0.1535    0.1989    +29.6%
+  Compatibility:       0.6860    0.6189    -9.8%
+  Persistence:         0.7247    0.6589    -9.1%
+  RG:                  0.9146    0.9146    0.0%
+
+ANTISYMMETRY-NEUTRAL
+  Coexistence:         0.6435    0.5789    -10.0%
+  Identity:            0.7105    0.6356    -10.5%
+  Interference:        0.2064    0.2689    +30.3%
+  Compatibility:       0.5826    0.5189    -10.9%
+  Persistence:         0.6052    0.5389    -11.0%
+  RG:                  0.8852    0.8852    0.0%
+
+Observation: RG similarity remains constant. All metrics degrade under
+coarse-graining (8-11%). Interference amplifies (29-30%).
+
+================================================================================
+COMPATIBILITY DEPTH SHIFTS
+================================================================================
+
+Multi-regime classification shifts under coarse-graining:
+
+PROJECTION-ANTISYMMETRY:
+  Fine: WEAKLY_COMPATIBLE (from depth 16)
+  Coarse: WEAKLY_COMPATIBLE (from depth 12)
+  Assessment: Earlier onset in coarse representation
+
+PROJECTION-NEUTRAL:
+  Fine: INTERFERENCE-DEGRADING (from depth 16)
+  Coarse: INTERFERENCE-DEGRADING (from depth 12)
+  Assessment: Earlier onset in coarse representation
+
+ANTISYMMETRY-NEUTRAL:
+  Fine: IDENTITY-PRESERVING (at depth 20)
+  Coarse: COLLAPSING (at depth 20)
+  Assessment: Deeper degradation in coarse representation
+
+================================================================================
+CONCLUSION
+================================================================================
+
+RG multi-regime stability analysis reveals:
+- Multi-regime structure degrades under coarse-graining
+- Coexistence metrics degrade 8-11% at coarse scales
+- Interference amplifies 29-30% at coarse scales
+- Classification labels shift (earlier degradation)
+- RG similarity above threshold (0.9140 > 0.90)
+- H4 partial pass (Antisymmetry-Neutral fails)
+
+The partial pass of H4 indicates that multi-regime structure, while
+present, shows mixed scale invariance. Stronger pairs preserve structure
+better. Weak pairs degrade significantly.
+
+================================================================================
+END OF RG MULTI-REGIME STABILITY
+================================================================================

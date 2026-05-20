@@ -1,0 +1,198 @@
+# PHASE 342: SECTOR MULTI-REGIME REPORT
+# Emergent Relational Multi-Regime Coexistence Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTOR PAIR MULTI-REGIME CLASSIFICATIONS
+================================================================================
+
+CLASSIFICATION CRITERIA:
+- COEXISTING: coexistence > 0.75, identity > 0.80, interference < 0.15
+- WEAKLY_COMPATIBLE: coexistence > 0.65, identity > 0.70, interference < 0.25
+- INTERFERENCE-DEGRADING: coexistence > 0.50, interference > 0.20
+- IDENTITY-PRESERVING: identity > 0.50, coexistence > 0.45
+- COLLAPSING: coexistence < 0.45 or identity < 0.50
+
+================================================================================
+PROJECTION-ANTISYMMETRY PAIR
+================================================================================
+
+CLASSIFICATION: WEAKLY_COMPATIBLE
+
+COEXISTENCE CHARACTERISTICS:
+- Coexistence strength: Strong, 0.8144 mean
+- Identity retention: High, 0.8601 mean
+- Interference: Bounded, 0.0963 mean
+- Classification trajectory: COEXISTING (1-12), WEAKLY_COMPATIBLE (16-20)
+
+METRICS:
+- Mean coexistence_strength: 0.8144
+- Mean identity_retention: 0.8601
+- Mean interference_drift: 0.0963
+- Mean compatibility_stability: 0.7740
+- Mean recursive_persistence: 0.8420
+- Mean rg_similarity: 0.9421
+
+COEXISTENCE TRAJECTORY:
+- Depth 1: 0.9234
+- Depth 12: 0.7856
+- Depth 20: 0.7123
+- Degradation: 22.9%
+
+INTERFERENCE TRAJECTORY:
+- Depth 1: 0.0467
+- Depth 12: 0.1189
+- Depth 20: 0.1523
+- Growth: 226%
+
+IDENTITY TRAJECTORY:
+- Depth 1: 0.9512
+- Depth 12: 0.8367
+- Depth 20: 0.7656
+- Degradation: 19.5%
+
+ASSESSMENT:
+Projection-Antisymmetry pair exhibits strongest multi-regime coexistence.
+Classification WEAKLY_COMPATIBLE reflects degradation at deep recursion while
+maintaining viable coexistence. Interference remains bounded. Strong
+compatibility maintained.
+
+================================================================================
+PROJECTION-NEUTRAL PAIR
+================================================================================
+
+CLASSIFICATION: INTERFERENCE-DEGRADING
+
+COEXISTENCE CHARACTERISTICS:
+- Coexistence strength: Moderate, 0.7449 mean
+- Identity retention: Moderate, 0.7815 mean
+- Interference: Growing, 0.1535 mean
+- Classification trajectory: COEXISTING (1-8), WEAKLY_COMPATIBLE (12), INTERFERENCE-DEGRADING (16-20)
+
+METRICS:
+- Mean coexistence_strength: 0.7449
+- Mean identity_retention: 0.7815
+- Mean interference_drift: 0.1535
+- Mean compatibility_stability: 0.6860
+- Mean recursive_persistence: 0.7247
+- Mean rg_similarity: 0.9146
+
+COEXISTENCE TRAJECTORY:
+- Depth 1: 0.8756
+- Depth 12: 0.6845
+- Depth 20: 0.5867
+- Degradation: 33.0%
+
+INTERFERENCE TRAJECTORY:
+- Depth 1: 0.0823
+- Depth 12: 0.1856
+- Depth 20: 0.2412
+- Growth: 193%
+
+IDENTITY TRAJECTORY:
+- Depth 1: 0.9156
+- Depth 12: 0.7323
+- Depth 20: 0.6345
+- Degradation: 30.7%
+
+ASSESSMENT:
+Projection-Neutral pair exhibits moderate coexistence with significant
+degradation. Classification INTERFERENCE-DEGRADING reflects interference
+growth exceeding stable bounds at deep recursion. Identity preservation
+fails at depth 20. Mixed compatibility.
+
+================================================================================
+ANTISYMMETRY-NEUTRAL PAIR
+================================================================================
+
+CLASSIFICATION: IDENTITY-PRESERVING
+
+COEXISTENCE CHARACTERISTICS:
+- Coexistence strength: Weak, 0.6435 mean
+- Identity retention: Weak, 0.7105 mean
+- Interference: High, 0.2064 mean
+- Classification trajectory: COEXISTING (1-2), WEAKLY_COMPATIBLE (4-6), INTERFERENCE-DEGRADING (8-16), IDENTITY-PRESERVING (20)
+
+METRICS:
+- Mean coexistence_strength: 0.6435
+- Mean identity_retention: 0.7105
+- Mean interference_drift: 0.2064
+- Mean compatibility_stability: 0.5826
+- Mean recursive_persistence: 0.6052
+- Mean rg_similarity: 0.8852
+
+COEXISTENCE TRAJECTORY:
+- Depth 1: 0.8256
+- Depth 12: 0.5789
+- Depth 20: 0.4589
+- Degradation: 44.4%
+
+INTERFERENCE TRAJECTORY:
+- Depth 1: 0.1056
+- Depth 12: 0.2512
+- Depth 20: 0.3312
+- Growth: 214%
+
+IDENTITY TRAJECTORY:
+- Depth 1: 0.8723
+- Depth 12: 0.6389
+- Depth 20: 0.5189
+- Degradation: 40.5%
+
+ASSESSMENT:
+Antisymmetry-Neutral pair exhibits weakest coexistence. Classification
+IDENTITY-PRESERVING at depth 20 reflects surviving identity despite
+near-collapse coexistence. Strongest degradation among pairs.
+Approaching regime collapse at depth 20.
+
+================================================================================
+CROSS-PAIR MULTI-REGIME ANALYSIS
+================================================================================
+
+PAIR HIERARCHY (coexistence strength):
+1. Projection-Antisymmetry: WEAKLY_COMPATIBLE (strongest)
+2. Projection-Neutral: INTERFERENCE-DEGRADING (moderate)
+3. Antisymmetry-Neutral: IDENTITY-PRESERVING (weakest)
+
+COEXISTENCE HIERARCHY:
+P-A (0.814) > P-N (0.745) > A-N (0.644)
+
+INTERFERENCE HIERARCHY (inverted):
+P-A (0.096) < P-N (0.154) < A-N (0.206)
+
+Stronger pairs show better coexistence and lower interference.
+Weak pairs show degraded coexistence and higher interference.
+
+================================================================================
+MULTI-REGIME COMPATIBILITY COMPARISON
+================================================================================
+
+                        P-A          P-N          A-N
+Coexistence strength:   0.814        0.745        0.644
+Identity retention:     0.860        0.782        0.711
+Interference drift:     0.096        0.154        0.206
+Compatibility:          0.774        0.686        0.583
+Persistence:            0.842        0.725        0.605
+RG similarity:          0.942        0.915        0.885
+
+Degradation (depth 1-20):
+- Coexistence: 22.9%      33.0%       44.4%
+- Identity:   19.5%      30.7%       40.5%
+- Interference: +226%     +193%       +214%
+
+================================================================================
+CONCLUSION
+================================================================================
+
+Classification summary:
+- Projection-Antisymmetry: WEAKLY_COMPATIBLE (stable coexistence)
+- Projection-Neutral: INTERFERENCE-DEGRADING (moderate degradation)
+- Antisymmetry-Neutral: IDENTITY-PRESERVING (weak coexistence)
+
+Multi-regime coexistence exists but with hierarchy. Stronger pairs maintain
+better coexistence. Weak pairs degrade significantly toward collapse.
+Hierarchy preserved with P-A > P-N > A-N ordering.
+
+================================================================================
+END OF SECTOR MULTI-REGIME REPORT
+================================================================================
