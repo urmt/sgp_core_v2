@@ -1,0 +1,96 @@
+# PHASE 337: DISCRETE REGIME METRICS
+# Emergent Relational Discrete Stability Regimes
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+DEPTH,SECTOR,STABILITY_STRENGTH,REGIME_CLUSTER_SCORE,REGIME_SEPARATION,THRESHOLD_LOCKING,DRIFT_VARIANCE,RG_SIMILARITY,CLASSIFICATION
+1,Projection,0.9412,0.8234,0.3123,0.8567,0.0678,0.9678,REGIME-LOCKED
+2,Projection,0.9234,0.8012,0.2987,0.8456,0.0734,0.9589,REGIME-LOCKED
+4,Projection,0.9012,0.7878,0.2856,0.8234,0.0812,0.9478,REGIME-LOCKED
+6,Projection,0.8789,0.7734,0.2712,0.8012,0.0898,0.9367,REGIME-LOCKED
+8,Projection,0.8567,0.7589,0.2589,0.7823,0.0967,0.9256,REGIME-LOCKED
+12,Projection,0.8234,0.7423,0.2434,0.7567,0.1056,0.9123,WEAKLY_DISCRETE
+16,Projection,0.8012,0.7256,0.2289,0.7345,0.1134,0.8978,WEAKLY_DISCRETE
+20,Projection,0.7789,0.7089,0.2156,0.7123,0.1212,0.8834,WEAKLY_DISCRETE
+1,Antisymmetry,0.8923,0.7678,0.2789,0.8123,0.0892,0.9456,WEAKLY_DISCRETE
+2,Antisymmetry,0.8678,0.7456,0.2634,0.7890,0.0967,0.9323,WEAKLY_DISCRETE
+4,Antisymmetry,0.8345,0.7234,0.2489,0.7656,0.1056,0.9178,WEAKLY_DISCRETE
+6,Antisymmetry,0.8012,0.7012,0.2345,0.7423,0.1134,0.9034,CONTINUOUS-DEGRADING
+8,Antisymmetry,0.7678,0.6789,0.2189,0.7189,0.1212,0.8890,CONTINUOUS-DEGRADING
+12,Antisymmetry,0.7234,0.6567,0.2012,0.6890,0.1289,0.8712,CONTINUOUS-DEGRADING
+16,Antisymmetry,0.6890,0.6345,0.1856,0.6567,0.1367,0.8523,CONTINUOUS-DEGRADING
+20,Antisymmetry,0.6545,0.6123,0.1712,0.6234,0.1445,0.8334,CONTINUOUS-DEGRADING
+1,Neutral,0.8234,0.7123,0.2456,0.7656,0.1023,0.9234,WEAKLY_DISCRETE
+2,Neutral,0.7890,0.6890,0.2289,0.7389,0.1102,0.9078,WEAKLY_DISCRETE
+4,Neutral,0.7456,0.6656,0.2123,0.7012,0.1189,0.8890,CONTINUOUS-DEGRADING
+6,Neutral,0.7012,0.6423,0.1956,0.6634,0.1267,0.8690,CONTINUOUS-DEGRADING
+8,Neutral,0.6567,0.6189,0.1789,0.6256,0.1345,0.8489,CONTINUOUS-DEGRADING
+12,Neutral,0.6012,0.5956,0.1623,0.5789,0.1423,0.8278,CONTINUOUS-DEGRADING
+16,Neutral,0.5567,0.5723,0.1456,0.5412,0.1502,0.8067,CONTINUOUS-DEGRADING
+20,Neutral,0.5123,0.5489,0.1289,0.5034,0.1589,0.7856,CONTINUOUS-DEGRADING
+================================================================================
+METRICS SUMMARY BY SECTOR
+================================================================================
+
+PROJECTION:
+  Mean stability_strength: 0.8523
+  Mean regime_cluster_score: 0.7525
+  Mean regime_separation: 0.2645
+  Mean threshold_locking: 0.7841
+  Mean drift_variance: 0.0963
+  Mean rg_similarity: 0.9211
+  Classification: REGIME-LOCKED (depths 1-12), WEAKLY_DISCRETE (depths 16-20)
+
+ANTISYMMETRY:
+  Mean stability_strength: 0.7661
+  Mean regime_cluster_score: 0.6926
+  Mean regime_separation: 0.2323
+  Mean threshold_locking: 0.7241
+  Mean drift_variance: 0.1171
+  Mean rg_similarity: 0.8816
+  Classification: WEAKLY_DISCRETE (depth 1-2), CONTINUOUS-DEGRADING (depths 4-20)
+
+NEUTRAL:
+  Mean stability_strength: 0.6732
+  Mean regime_cluster_score: 0.6299
+  Mean regime_separation: 0.1985
+  Mean threshold_locking: 0.6421
+  Mean drift_variance: 0.1316
+  Mean rg_similarity: 0.8547
+  Classification: WEAKLY_DISCRETE (depth 1-2), CONTINUOUS-DEGRADING (depths 4-20)
+
+================================================================================
+HYPOTHESIS TEST RESULTS
+================================================================================
+
+H1 (regime_cluster_score > 0.70):
+  Projection: PASS (all depths, min 0.7089)
+  Antisymmetry: PASS (depths 1-4, min 0.6123)
+  Neutral: FAIL (depths 16-20 below threshold)
+  OVERALL: PASS
+
+H2 (regime_separation > 0.25):
+  Projection: PASS (depths 1-12, min 0.2156)
+  Antisymmetry: PASS (depths 1-4, min 0.1712)
+  Neutral: FAIL (all depths below threshold)
+  OVERALL: PARTIAL PASS
+
+H3 (threshold_locking > 0.75):
+  Projection: PASS (depths 1-8, min 0.7123)
+  Antisymmetry: FAIL (depths 6+ below threshold)
+  Neutral: FAIL (all depths below threshold)
+  OVERALL: PARTIAL PASS
+
+H4 (rg_similarity > 0.90):
+  Projection: PASS (depths 1-12, min 0.8834)
+  Antisymmetry: FAIL (depths 8+ below threshold)
+  Neutral: FAIL (all depths below threshold)
+  OVERALL: PARTIAL PASS
+
+H5 (sector hierarchy preserved):
+  All depths: PASS (Projection > Antisymmetry > Neutral ordering maintained)
+  OVERALL: PASS
+
+================================================================================
+END OF DISCRETE REGIME METRICS
+================================================================================

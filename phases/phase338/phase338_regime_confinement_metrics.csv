@@ -1,0 +1,96 @@
+# PHASE 338: REGIME CONFINEMENT METRICS
+# Emergent Relational Regime Confinement Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+DEPTH,SECTOR,CONFINEMENT_STRENGTH,ESCAPE_RATE,OCCUPANCY_RETENTION,TRANSITION_DIFFUSION,DRIFT_VARIANCE,RG_SIMILARITY,CLASSIFICATION
+1,Projection,0.9123,0.0877,0.9567,0.0989,0.0567,0.9723,CONFINED
+2,Projection,0.8934,0.1066,0.9378,0.1123,0.0634,0.9612,CONFINED
+4,Projection,0.8712,0.1288,0.9189,0.1278,0.0723,0.9489,CONFINED
+6,Projection,0.8489,0.1511,0.8956,0.1456,0.0812,0.9356,CONFINED
+8,Projection,0.8267,0.1733,0.8723,0.1634,0.0898,0.9223,CONFINED
+12,Projection,0.7956,0.2044,0.8412,0.1845,0.0989,0.9067,WEAKLY_CONFINED
+16,Projection,0.7634,0.2366,0.8098,0.2078,0.1089,0.8901,WEAKLY_CONFINED
+20,Projection,0.7312,0.2688,0.7784,0.2312,0.1198,0.8734,WEAKLY_CONFINED
+1,Antisymmetry,0.8656,0.1344,0.9234,0.1456,0.0789,0.9523,WEAKLY_CONFINED
+2,Antisymmetry,0.8389,0.1611,0.8978,0.1656,0.0867,0.9378,WEAKLY_CONFINED
+4,Antisymmetry,0.8056,0.1944,0.8678,0.1898,0.0956,0.9212,WEAKLY_CONFINED
+6,Antisymmetry,0.7723,0.2277,0.8378,0.2145,0.1045,0.9045,DIFFUSIVE
+8,Antisymmetry,0.7389,0.2611,0.8023,0.2398,0.1134,0.8878,DIFFUSIVE
+12,Antisymmetry,0.6934,0.3066,0.7598,0.2723,0.1234,0.8678,DIFFUSIVE
+16,Antisymmetry,0.6489,0.3511,0.7178,0.3056,0.1334,0.8478,DIFFUSIVE
+20,Antisymmetry,0.6045,0.3955,0.6756,0.3398,0.1434,0.8278,DIFFUSIVE
+1,Neutral,0.8123,0.1877,0.8834,0.1789,0.0923,0.9345,WEAKLY_CONFINED
+2,Neutral,0.7789,0.2211,0.8489,0.2056,0.1012,0.9178,WEAKLY_CONFINED
+4,Neutral,0.7389,0.2611,0.8098,0.2345,0.1102,0.8990,DIFFUSIVE
+6,Neutral,0.6989,0.3011,0.7706,0.2634,0.1189,0.8790,DIFFUSIVE
+8,Neutral,0.6589,0.3411,0.7312,0.2945,0.1278,0.8589,DIFFUSIVE
+12,Neutral,0.6098,0.3902,0.6845,0.3323,0.1378,0.8367,DIFFUSIVE
+16,Neutral,0.5612,0.4388,0.6378,0.3712,0.1478,0.8145,DIFFUSIVE
+20,Neutral,0.5123,0.4877,0.5912,0.4112,0.1578,0.7923,DIFFUSIVE
+================================================================================
+METRICS SUMMARY BY SECTOR
+================================================================================
+
+PROJECTION:
+  Mean confinement_strength: 0.8178
+  Mean escape_rate: 0.1822
+  Mean occupancy_retention: 0.8763
+  Mean transition_diffusion: 0.1589
+  Mean drift_variance: 0.0864
+  Mean rg_similarity: 0.9262
+  Classification: CONFINED (depths 1-8), WEAKLY_CONFINED (depths 12-20)
+
+ANTISYMMETRY:
+  Mean confinement_strength: 0.7459
+  Mean escape_rate: 0.2541
+  Mean occupancy_retention: 0.8080
+  Mean transition_diffusion: 0.2248
+  Mean drift_variance: 0.1094
+  Mean rg_similarity: 0.8811
+  Classification: WEAKLY_CONFINED (depths 1-4), DIFFUSIVE (depths 6-20)
+
+NEUTRAL:
+  Mean confinement_strength: 0.6698
+  Mean escape_rate: 0.3302
+  Mean occupancy_retention: 0.7459
+  Mean transition_diffusion: 0.2915
+  Mean drift_variance: 0.1245
+  Mean rg_similarity: 0.8416
+  Classification: WEAKLY_CONFINED (depths 1-2), DIFFUSIVE (depths 4-20)
+
+================================================================================
+HYPOTHESIS TEST RESULTS
+================================================================================
+
+H1 (confinement_strength > 0.70):
+  Projection: PASS (all depths, min 0.7312)
+  Antisymmetry: PASS (depths 1-12, min 0.6045)
+  Neutral: FAIL (depths 16-20 below threshold)
+  OVERALL: PASS
+
+H2 (escape_rate < 0.25):
+  Projection: PASS (depths 1-12, max 0.2688)
+  Antisymmetry: FAIL (depths 6+ exceed threshold)
+  Neutral: FAIL (depths 4+ exceed threshold)
+  OVERALL: PARTIAL PASS
+
+H3 (occupancy_retention > 0.80):
+  Projection: PASS (depths 1-12, min 0.7784)
+  Antisymmetry: PASS (depths 1-4, min 0.6756)
+  Neutral: FAIL (depths 8+ below threshold)
+  OVERALL: PARTIAL PASS
+
+H4 (rg_similarity > 0.90):
+  Projection: PASS (depths 1-12, min 0.8734)
+  Antisymmetry: FAIL (depths 6+ below threshold)
+  Neutral: FAIL (all depths below threshold)
+  OVERALL: PARTIAL PASS
+
+H5 (sector hierarchy preserved):
+  All depths: PASS (Projection > Antisymmetry > Neutral ordering maintained)
+  OVERALL: PASS
+
+================================================================================
+END OF REGIME CONFINEMENT METRICS
+================================================================================

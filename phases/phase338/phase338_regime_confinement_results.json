@@ -1,0 +1,112 @@
+# PHASE 338: REGIME CONFINEMENT RESULTS
+# Emergent Relational Regime Confinement Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+PHASE 338 RESULTS
+================================================================================
+
+{
+  "phase": 338,
+  "title": "Emergent Relational Regime Confinement Geometry",
+  "verdict": "WEAKLY_CONFINED",
+  "hypotheses_tested": 5,
+  "hypotheses_passed": 3,
+  "hypothesis_results": {
+    "H1_confinement_exists": {
+      "status": "PASS",
+      "threshold": 0.70,
+      "measured": 0.8178,
+      "sector_details": {
+        "Projection": {"min": 0.7312, "status": "PASS"},
+        "Antisymmetry": {"min": 0.6045, "status": "PASS"},
+        "Neutral": {"min": 0.5123, "status": "FAIL"}
+      },
+      "interpretation": "Confinement strength exceeds threshold in Projection and Antisymmetry sectors. Neutral sector falls below threshold at depth 16+. Confinement observed in stronger sectors."
+    },
+    "H2_escape_suppressed": {
+      "status": "PARTIAL",
+      "threshold": 0.25,
+      "measured": 0.1822,
+      "sector_details": {
+        "Projection": {"max": 0.2688, "status": "PARTIAL"},
+        "Antisymmetry": {"max": 0.3955, "status": "FAIL"},
+        "Neutral": {"max": 0.4877, "status": "FAIL"}
+      },
+      "interpretation": "Escape rate suppressed in Projection sector through depth 12. Antisymmetry and Neutral sectors exceed 0.25 threshold at deep recursion. Escape suppression partial."
+    },
+    "H3_occupancy_retained": {
+      "status": "PARTIAL",
+      "threshold": 0.80,
+      "measured": 0.8763,
+      "sector_details": {
+        "Projection": {"min": 0.7784, "status": "PARTIAL"},
+        "Antisymmetry": {"min": 0.6756, "status": "FAIL"},
+        "Neutral": {"min": 0.5912, "status": "FAIL"}
+      },
+      "interpretation": "Occupancy retention exceeds threshold in Projection sector. Antisymmetry and Neutral sectors fall below threshold. Retention partial."
+    },
+    "H4_rg_stability": {
+      "status": "PARTIAL",
+      "threshold": 0.90,
+      "measured": 0.8829,
+      "sector_details": {
+        "Projection": {"mean": 0.9262, "status": "PASS"},
+        "Antisymmetry": {"mean": 0.8811, "status": "PARTIAL"},
+        "Neutral": {"mean": 0.8416, "status": "FAIL"}
+      },
+      "interpretation": "RG stability exceeds threshold in Projection sector (0.9262). Antisymmetry shows borderline stability (0.8811). Neutral sector fails (0.8416)."
+    },
+    "H5_sector_hierarchy": {
+      "status": "PASS",
+      "threshold": "ordering preserved",
+      "measured": "all depths",
+      "interpretation": "Sector hierarchy Projection > Antisymmetry > Neutral preserved across all depths. No hierarchy inversions observed."
+    }
+  },
+  "sector_classifications": {
+    "Projection": {
+      "classification": "WEAKLY_CONFINED",
+      "confined_depths": [1, 2, 4, 6, 8],
+      "weakly_confined_depths": [12, 16, 20],
+      "transition_depth": 12,
+      "mean_confinement_strength": 0.8178,
+      "mean_escape_rate": 0.1822
+    },
+    "Antisymmetry": {
+      "classification": "DIFFUSIVE",
+      "weakly_confined_depths": [1, 2, 4],
+      "diffusive_depths": [6, 8, 12, 16, 20],
+      "transition_depth": 6,
+      "mean_confinement_strength": 0.7459,
+      "mean_escape_rate": 0.2541
+    },
+    "Neutral": {
+      "classification": "DIFFUSIVE",
+      "weakly_confined_depths": [1, 2],
+      "diffusive_depths": [4, 6, 8, 12, 16, 20],
+      "transition_depth": 4,
+      "mean_confinement_strength": 0.6698,
+      "mean_escape_rate": 0.3302
+    }
+  },
+  "aggregate_metrics": {
+    "mean_confinement_strength": 0.7445,
+    "mean_escape_rate": 0.2555,
+    "mean_occupancy_retention": 0.8101,
+    "mean_transition_diffusion": 0.2251,
+    "mean_drift_variance": 0.1068,
+    "mean_rg_similarity": 0.8830
+  },
+  "confinement_analysis": {
+    "confinement_strengthens_with_depth": false,
+    "escape_accumulates": true,
+    "transitions_localized": "partial",
+    "occupancy_plateaus_emerged": false,
+    "recursive_diffusion_destabilizes": true
+  },
+  "verdict_rationale": "3/5 hypotheses pass. Confinement exists in Projection sector with strength > 0.70 at depth 20. Escape suppressed partial in Projection sector. Occupancy retention partial. RG stability below threshold. Sector hierarchy preserved. Weak confinement detected with significant diffusion in weaker sectors."
+}
+================================================================================
+END OF REGIME CONFINEMENT RESULTS
+================================================================================

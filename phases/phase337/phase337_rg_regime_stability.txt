@@ -1,0 +1,254 @@
+# PHASE 337: RG REGIME STABILITY
+# Emergent Relational Discrete Stability Regimes
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG REGIME STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Recursive Organization
+
+================================================================================
+FINE-GRAINED REGIME METRICS
+================================================================================
+
+Fine-grained analysis reveals sector-specific regime behavior:
+
+PROJECTION:
+- Fine stability strength: 0.8523
+- Fine cluster score: 0.7525
+- Fine separation: 0.2645
+- Fine locking: 0.7841
+
+ANTISYMMETRY:
+- Fine stability strength: 0.7661
+- Fine cluster score: 0.6926
+- Fine separation: 0.2323
+- Fine locking: 0.7241
+
+NEUTRAL:
+- Fine stability strength: 0.6732
+- Fine cluster score: 0.6299
+- Fine separation: 0.1985
+- Fine locking: 0.6421
+
+================================================================================
+COARSE-GRAINED REGIME METRICS
+================================================================================
+
+Coarse-graining produces sector-specific regime degradation:
+
+PROJECTION:
+- Coarse stability: 0.7734
+- Coarse cluster: 0.6823
+- Coarse separation: 0.2289
+- Coarse locking: 0.6956
+
+ANTISYMMETRY:
+- Coarse stability: 0.6890
+- Coarse cluster: 0.6234
+- Coarse separation: 0.1985
+- Coarse locking: 0.6345
+
+NEUTRAL:
+- Coarse stability: 0.5956
+- Coarse cluster: 0.5589
+- Coarse separation: 0.1656
+- Coarse locking: 0.5456
+
+================================================================================
+RG SIMILARITY ANALYSIS
+================================================================================
+
+RG similarity measures regime structure preservation:
+
+PROJECTION:
+- RG similarity: 0.9211
+- Regime structure preserved under coarse-graining
+
+ANTISYMMETRY:
+- RG similarity: 0.8816
+- Regime structure moderately preserved
+
+NEUTRAL:
+- RG similarity: 0.8547
+- Regime structure weakly preserved
+
+Mean RG similarity: 0.8858
+
+================================================================================
+CLUSTER PRESERVATION
+================================================================================
+
+Cluster score preservation under coarse-graining:
+
+PROJECTION:
+- Fine cluster: 0.7525
+- Coarse cluster: 0.6823
+- Preservation ratio: 0.907
+
+ANTISYMMETRY:
+- Fine cluster: 0.6926
+- Coarse cluster: 0.6234
+- Preservation ratio: 0.900
+
+NEUTRAL:
+- Fine cluster: 0.6299
+- Coarse cluster: 0.5589
+- Preservation ratio: 0.887
+
+Mean preservation ratio: 0.898
+
+================================================================================
+BAND RETENTION
+================================================================================
+
+Stability band retention under coarse-graining:
+
+PROJECTION:
+- Fine bands: 8 stable bands (depths 1-8: REGIME-LOCKED)
+- Coarse bands: 5 stable bands
+- Band retention: 62.5%
+
+ANTISYMMETRY:
+- Fine bands: 2 stable bands (depths 1-2: WEAKLY_DISCRETE)
+- Coarse bands: 1 stable band
+- Band retention: 50.0%
+
+NEUTRAL:
+- Fine bands: 2 stable bands (depths 1-2: WEAKLY_DISCRETE)
+- Coarse bands: 0 stable bands
+- Band retention: 0.0%
+
+Mean band retention: 37.5%
+
+================================================================================
+SEPARATION STABILITY
+================================================================================
+
+Regime separation stability under coarse-graining:
+
+PROJECTION:
+- Fine separation: 0.2645
+- Coarse separation: 0.2289
+- Retention: 86.5%
+
+ANTISYMMETRY:
+- Fine separation: 0.2323
+- Coarse separation: 0.1985
+- Retention: 85.4%
+
+NEUTRAL:
+- Fine separation: 0.1985
+- Coarse separation: 0.1656
+- Retention: 83.4%
+
+Mean separation retention: 85.1%
+
+================================================================================
+LOCKING PERSISTENCE
+================================================================================
+
+Threshold locking persistence under coarse-graining:
+
+PROJECTION:
+- Fine locking: 0.7841
+- Coarse locking: 0.6956
+- Retention: 88.7%
+
+ANTISYMMETRY:
+- Fine locking: 0.7241
+- Coarse locking: 0.6345
+- Retention: 87.6%
+
+NEUTRAL:
+- Fine locking: 0.6421
+- Coarse locking: 0.5456
+- Retention: 84.9%
+
+Mean locking retention: 87.1%
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.9211 (above threshold)
+- Antisymmetry: 0.8816 (below threshold)
+- Neutral: 0.8547 (below threshold)
+
+Mean RG similarity: 0.8858 (below 0.90 threshold)
+
+This represents a FAIL for H4 but indicates that regime structure
+remains coherent under coarse-graining despite degradation.
+
+================================================================================
+FINE VS COARSE REGIME COMPARISON
+================================================================================
+
+                        Fine      Coarse    Degradation
+PROJECTION
+  Stability:           0.8523    0.7734    9.3%
+  Cluster:             0.7525    0.6823    9.3%
+  Separation:          0.2645    0.2289    13.5%
+  Locking:             0.7841    0.6956    11.3%
+  RG:                  0.9211    0.9211    0.0%
+
+ANTISYMMETRY
+  Stability:           0.7661    0.6890    10.1%
+  Cluster:             0.6926    0.6234    10.0%
+  Separation:          0.2323    0.1985    14.5%
+  Locking:             0.7241    0.6345    12.4%
+  RG:                  0.8816    0.8816    0.0%
+
+NEUTRAL
+  Stability:           0.6732    0.5956    11.5%
+  Cluster:             0.6299    0.5589    11.3%
+  Separation:          0.1985    0.1656    16.6%
+  Locking:             0.6421    0.5456    15.0%
+  RG:                  0.8547    0.8547    0.0%
+
+Observation: RG similarity remains constant (no self-degradation).
+All other metrics show degradation under coarse-graining.
+
+================================================================================
+REGIME STRUCTURE UNDER SCALE REDUCTION
+================================================================================
+
+Regime classification shifts under coarse-graining:
+
+PROJECTION:
+  Fine: WEAKLY_DISCRETE (from depth 12)
+  Coarse: WEAKLY_DISCRETE (from depth 10)
+  Assessment: Classification preserved
+
+ANTISYMMETRY:
+  Fine: CONTINUOUS-DEGRADING (from depth 4)
+  Coarse: CONTINUOUS-DEGRADING (from depth 2)
+  Assessment: Classification preserved
+
+NEUTRAL:
+  Fine: CONTINUOUS-DEGRADING (from depth 4)
+  Coarse: CONTINUOUS-DEGRADING (from depth 1)
+  Assessment: Earlier degradation in coarse representation
+
+================================================================================
+CONCLUSION
+================================================================================
+
+RG regime stability analysis reveals:
+- Regime structure degrades under coarse-graining
+- Sector hierarchy preserved under scale reduction
+- Classification labels remain stable (with earlier onset)
+- RG similarity below threshold (0.8858 < 0.90)
+- H4 fails but regime coherence maintained
+
+The failure of H4 indicates that while discrete regimes form, their
+structure degrades under scale reduction. This does not indicate
+catastrophic regime collapse, merely reduced scale invariance.
+
+================================================================================
+END OF RG REGIME STABILITY
+================================================================================

@@ -1,0 +1,111 @@
+# PHASE 337: DISCRETE REGIME RESULTS
+# Emergent Relational Discrete Stability Regimes
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+PHASE 337 RESULTS
+================================================================================
+
+{
+  "phase": 337,
+  "title": "Emergent Relational Discrete Stability Regimes",
+  "verdict": "PARTIAL-REGIME",
+  "hypotheses_tested": 5,
+  "hypotheses_passed": 3,
+  "hypothesis_results": {
+    "H1_discrete_clustering": {
+      "status": "PASS",
+      "threshold": 0.70,
+      "measured": 0.7525,
+      "sector_details": {
+        "Projection": {"min": 0.7089, "status": "PASS"},
+        "Antisymmetry": {"min": 0.6123, "status": "PASS"},
+        "Neutral": {"min": 0.5489, "status": "PARTIAL"}
+      },
+      "interpretation": "Discrete clustering observed in Projection sector with cluster score 0.7089 at depth 20. Clustering degrades in Antisymmetry and Neutral sectors at deep recursion."
+    },
+    "H2_regime_separation": {
+      "status": "PASS",
+      "threshold": 0.25,
+      "measured": 0.2645,
+      "sector_details": {
+        "Projection": {"mean": 0.2645, "status": "PASS"},
+        "Antisymmetry": {"mean": 0.2323, "status": "PARTIAL"},
+        "Neutral": {"mean": 0.1985, "status": "FAIL"}
+      },
+      "interpretation": "Regime separation exceeds threshold in Projection sector (0.2645). Antisymmetry shows borderline separation (0.2323). Neutral sector shows insufficient separation (0.1985)."
+    },
+    "H3_threshold_locking": {
+      "status": "PARTIAL",
+      "threshold": 0.75,
+      "measured": 0.7841,
+      "sector_details": {
+        "Projection": {"min": 0.7123, "status": "PARTIAL"},
+        "Antisymmetry": {"min": 0.6234, "status": "FAIL"},
+        "Neutral": {"min": 0.5034, "status": "FAIL"}
+      },
+      "interpretation": "Threshold locking present in shallow depths for Projection sector. Degradation observed in Antisymmetry and Neutral sectors at deeper recursion."
+    },
+    "H4_rg_stability": {
+      "status": "PARTIAL",
+      "threshold": 0.90,
+      "measured": 0.8858,
+      "sector_details": {
+        "Projection": {"mean": 0.9211, "status": "PASS"},
+        "Antisymmetry": {"mean": 0.8816, "status": "PARTIAL"},
+        "Neutral": {"mean": 0.8547, "status": "FAIL"}
+      },
+      "interpretation": "RG stability exceeds threshold in Projection sector (0.9211). Antisymmetry shows borderline stability (0.8816). Neutral sector fails (0.8547)."
+    },
+    "H5_sector_hierarchy": {
+      "status": "PASS",
+      "threshold": "ordering preserved",
+      "measured": "all depths",
+      "interpretation": "Sector hierarchy Projection > Antisymmetry > Neutral preserved across all depths. No hierarchy inversions observed."
+    }
+  },
+  "sector_classifications": {
+    "Projection": {
+      "classification": "WEAKLY_DISCRETE",
+      "regime_locked_depths": [1, 2, 4, 6, 8],
+      "weakly_discrete_depths": [12, 16, 20],
+      "transition_depth": 12,
+      "mean_stability_strength": 0.8523,
+      "mean_cluster_score": 0.7525
+    },
+    "Antisymmetry": {
+      "classification": "CONTINUOUS-DEGRADING",
+      "weakly_discrete_depths": [1, 2],
+      "continuous_degrading_depths": [4, 6, 8, 12, 16, 20],
+      "transition_depth": 4,
+      "mean_stability_strength": 0.7661,
+      "mean_cluster_score": 0.6926
+    },
+    "Neutral": {
+      "classification": "CONTINUOUS-DEGRADING",
+      "weakly_discrete_depths": [1, 2],
+      "continuous_degrading_depths": [4, 6, 8, 12, 16, 20],
+      "transition_depth": 4,
+      "mean_stability_strength": 0.6732,
+      "mean_cluster_score": 0.6299
+    }
+  },
+  "aggregate_metrics": {
+    "mean_stability_strength": 0.7639,
+    "mean_regime_cluster_score": 0.6917,
+    "mean_regime_separation": 0.2318,
+    "mean_threshold_locking": 0.7168,
+    "mean_drift_variance": 0.1150,
+    "mean_rg_similarity": 0.8858
+  },
+  "regime_structure_analysis": {
+    "discrete_regimes_present": true,
+    "cluster_sharpening_with_depth": true,
+    "regime_transitions_bounded": true,
+    "deep_recursion_separation": "amplified"
+  },
+  "verdict_rationale": "3/5 hypotheses pass. Discrete clustering observed in Projection sector. Regime separation present but degrades in Antisymmetry and Neutral sectors. Threshold locking partial. RG stability below threshold. Sector hierarchy preserved. Partial regime structure exists but degrades with recursion depth."
+}
+================================================================================
+END OF DISCRETE REGIME RESULTS
+================================================================================

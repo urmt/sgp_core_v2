@@ -1,0 +1,77 @@
+{
+  "phase": "336",
+  "verdict": "WELL_STRUCTURED",
+  "hypotheses": {
+    "H1": {
+      "name": "Protection strength > 0.70",
+      "result": "PASS",
+      "min_value": 0.7234,
+      "threshold": 0.70,
+      "details": "All sectors exceed 0.70 protection strength at all depths; minimum 0.7234 at neutral depth 20"
+    },
+    "H2": {
+      "name": "Deformation drift < 0.25",
+      "result": "PASS",
+      "max_value": 0.1567,
+      "threshold": 0.25,
+      "details": "All sectors remain well below 0.25 threshold; maximum drift 0.1567 at neutral depth 20"
+    },
+    "H3": {
+      "name": "Class preservation > 0.75",
+      "result": "PASS",
+      "min_value": 0.7623,
+      "threshold": 0.75,
+      "details": "All sectors maintain > 0.75 class preservation through depth 20; minimum 0.7623 at neutral depth 20"
+    },
+    "H4": {
+      "name": "RG stability > 0.90",
+      "result": "FAIL",
+      "mean_value": 0.8934,
+      "threshold": 0.90,
+      "details": "RG similarity peaks at 0.9756 (projection, depth 1); all sectors fall below 0.90 by depth 5; mean 0.8934 below threshold"
+    },
+    "H5": {
+      "name": "Sector hierarchy preserved across depths",
+      "result": "PASS",
+      "ordering": "projection > antisymmetry > neutral",
+      "depths_tested": [1, 3, 5, 8, 12, 16, 20],
+      "details": "Sector ordering preserved across all 7 tested depths"
+    }
+  },
+  "aggregate_metrics": {
+    "mean_protection_strength": 0.8096,
+    "mean_deformation_drift": 0.1223,
+    "mean_class_preservation": 0.8345,
+    "mean_perturbation_stability": 0.7945,
+    "mean_rg_similarity": 0.8934
+  },
+  "sector_classifications": {
+    "projection": {
+      "classification": "WEAKLY_PROTECTED",
+      "mean_protection_strength": 0.8606,
+      "mean_deformation_drift": 0.1096,
+      "mean_class_preservation": 0.8829,
+      "protection_depth_limit": 20
+    },
+    "antisymmetry": {
+      "classification": "PROTECTION-DEGRADING",
+      "mean_protection_strength": 0.8211,
+      "mean_deformation_drift": 0.1233,
+      "mean_class_preservation": 0.8511,
+      "protection_depth_limit": 16
+    },
+    "neutral": {
+      "classification": "PROTECTION-DEGRADING",
+      "mean_protection_strength": 0.7756,
+      "mean_deformation_drift": 0.1356,
+      "mean_class_preservation": 0.8167,
+      "protection_depth_limit": 12
+    }
+  },
+  "hypothesis_summary": {
+    "total": 5,
+    "passed": 4,
+    "failed": 1
+  },
+  "classification_logic": "4/5 pass => WELL_STRUCTURED"
+}

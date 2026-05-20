@@ -1,0 +1,196 @@
+# PHASE 338: REGIME CONFINEMENT FRAMEWORK
+# Emergent Relational Regime Confinement Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+REGIME CONFINEMENT FRAMEWORK
+================================================================================
+
+This framework establishes operational definitions for analyzing whether
+recursively stabilized organizational regimes exhibit confinement persistence,
+transition resistance, bounded escape behavior, and protected recursive
+occupancy.
+
+================================================================================
+CORE CONCEPT
+================================================================================
+
+A recursive regime is considered "confined" if:
+
+1. PERSISTENCE INSIDE REGIME
+   Recursive trajectories preferentially remain inside bounded stability
+   regions rather than diffusing outward.
+
+2. ESCAPE FREQUENCY SUPPRESSION
+   The probability of leaving the regime remains low across recursion depths.
+
+3. OCCUPANCY PERSISTENCE
+   Regime occupancy persists across depth without significant depletion.
+
+4. BOUNDED TRANSITIONS
+   Regime transitions remain bounded rather than diffusive, meaning
+   transitions occur within limited regions of state space.
+
+================================================================================
+KEY HYPOTHESES
+================================================================================
+
+H1: CONFINEMENT EXISTS
+   Recursive trajectories remain inside stability regions.
+   PASS if confinement_strength > 0.70 for at least one sector at deep recursion.
+
+H2: ESCAPE SUPPRESSED
+   Transitions between regimes remain rare.
+   PASS if escape_rate < 0.25.
+
+H3: OCCUPANCY RETAINED
+   Recursive occupancy maintains stability.
+   PASS if occupancy_retention > 0.80 through maximum depth.
+
+H4: RG STABILITY
+   Confinement structure preserved under coarse-graining.
+   PASS if rg_similarity > 0.90.
+
+H5: SECTOR HIERARCHY PERSISTS
+   Sector ordering preserved across depths.
+   PASS if Projection > Antisymmetry > Neutral ordering maintained.
+
+================================================================================
+OPERATIONAL DEFINITIONS
+================================================================================
+
+1. CONFINEMENT STRENGTH (c)
+   Measures persistence inside regime.
+   Computed via:
+   - Trajectory retention probability
+   - Boundary crossing frequency
+   - State space localization
+   Range: [0, 1]
+   c > 0.70 indicates strong confinement.
+
+2. ESCAPE RATE (e)
+   Probability of leaving regime per recursion step.
+   Computed via:
+   - Transition frequency measurement
+   - Boundary escape probability
+   - Diffusive loss rate
+   Range: [0, 1]
+   e < 0.25 indicates suppressed escape.
+
+3. OCCUPANCY RETENTION (o)
+   Recursive occupancy persistence.
+   Computed via:
+   - Occupancy decay rate
+   - Retention probability
+   - Stability maintenance
+   Range: [0, 1]
+   o > 0.80 indicates high retention.
+
+4. TRANSITION DIFFUSION (d)
+   Regime transition spread measurement.
+   Computed via:
+   - Transition variance
+   - Diffusive spread
+   - State space dispersion
+   Range: [0, 1]
+   Lower values indicate bounded transitions.
+
+5. DRIFT VARIANCE (v)
+   Bounded deformation under recursion.
+   Range: [0, 1]
+   Lower values indicate more stable organization.
+
+6. RG SIMILARITY (r)
+   Fine/coarse preservation of confinement structure.
+   Range: [0, 1]
+   r > 0.90 indicates stable confinement persistence.
+
+7. CLASSIFICATION (cls)
+   CONFINED: Strong confinement, low escape, high retention
+   WEAKLY_CONFINED: Moderate confinement, some escape
+   DIFFUSIVE: Weak confinement, significant diffusion
+   UNSTABLE: No confinement detected
+
+================================================================================
+SECTOR DEFINITIONS
+================================================================================
+
+PROJECTION:
+- Role: Strongest confinement preservation
+- Expected: CONFINED or WEAKLY_CONFINED
+- Confinement should be most pronounced
+
+ANTISYMMETRY:
+- Role: Moderate confinement with degradation
+- Expected: WEAKLY_CONFINED or DIFFUSIVE
+- Confinement degradation moderate
+
+NEUTRAL:
+- Role: Weakest confinement, more diffusion
+- Expected: DIFFUSIVE or UNSTABLE
+- Confinement may be absent
+
+================================================================================
+DEPTH ANALYSIS
+================================================================================
+
+Analyzed depths: [1, 2, 4, 6, 8, 12, 16, 20]
+
+Depth behavior:
+- Shallow depths (1-4): Initial confinement formation
+- Middle depths (6-12): Confinement stabilization
+- Deep recursion (16-20): Confinement persistence or degradation
+
+Expected pattern:
+- Confinement should strengthen with depth (trajectories settle)
+- Escape should remain suppressed (H2)
+- Occupancy should remain stable (H3)
+
+================================================================================
+CONFINEMENT GEOMETRY
+================================================================================
+
+Confinement geometry describes how organizational trajectories remain
+localized within bounded regions of state space:
+
+1. TRAJECTORY LOCALIZATION
+   Recursive trajectories cluster around stable configurations rather
+   than spreading across the state space.
+
+2. BOUNDED TRANSITIONS
+   When transitions occur, they remain within limited regions rather
+   than diffusing broadly.
+
+3. ESCAPE SUPPRESSION
+   The probability of escaping the confined region remains low.
+
+4. OCCUPANCY PERSISTENCE
+   The confined region maintains its occupancy over recursion depth.
+
+================================================================================
+VERDICT CRITERIA
+================================================================================
+
+VERDICT: HIGHLY_CONFINED
+  - At least 4/5 hypotheses pass
+  - Confinement strength > 0.75 at depth 20
+  - Escape rate < 0.20 maintained
+
+VERDICT: WEAKLY_CONFINED
+  - 3/5 hypotheses pass
+  - Confinement strength > 0.70 at depth 16
+  - Some escape suppression observed
+
+VERDICT: DIFFUSIVE
+  - At most 2/5 hypotheses pass
+  - Confinement degrades significantly
+  - Diffusive transitions observed
+
+VERDICT: UNSTABLE
+  - No hypotheses pass
+  - No confinement detected
+  - Organization spreads without retention
+
+================================================================================
+END OF REGIME CONFINEMENT FRAMEWORK
+================================================================================

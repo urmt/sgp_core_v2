@@ -1,0 +1,190 @@
+# PHASE 337: DISCRETE REGIME FRAMEWORK
+# Emergent Relational Discrete Stability Regimes
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+DISCRETE REGIME FRAMEWORK
+================================================================================
+
+This framework establishes operational definitions for analyzing whether
+recursively stable organizational structures preferentially organize into
+discrete stability bands, separated persistence classes, protected
+organizational regimes, or threshold-stabilized recursive states.
+
+================================================================================
+CORE CONCEPT
+================================================================================
+
+A "discrete regime" exists if recursive organization preferentially
+stabilizes into:
+
+1. BOUNDED CLUSTERS
+   Stability metrics cluster around specific values rather than varying
+   continuously across the stability range.
+
+2. PERSISTENT STABILITY PLATEAUS
+   Organization maintains stable configurations across multiple depths,
+   forming plateaus in the stability landscape.
+
+3. SEPARATED ORGANIZATIONAL CLASSES
+   Distinct stability classes emerge with clear boundaries between them,
+   rather than a continuous spectrum.
+
+4. THRESHOLD-PROTECTED RETENTION BANDS
+   Stability is protected by threshold boundaries that prevent degradation
+   below minimum stability levels.
+
+================================================================================
+KEY HYPOTHESES
+================================================================================
+
+H1: DISCRETE CLUSTERING
+   Regimes cluster into bounded stability bands.
+   PASS if regime_cluster_score > 0.70 for at least one sector.
+
+H2: REGIME SEPARATION
+   Stable classes are separated by bounded gaps.
+   PASS if regime_separation > 0.25 between stable classes.
+
+H3: THRESHOLD LOCKING
+   Organization locks into stable plateaus.
+   PASS if threshold_locking > 0.75 through maximum depth.
+
+H4: RG STABILITY
+   Regime structure preserved under coarse-graining.
+   PASS if rg_similarity > 0.90.
+
+H5: SECTOR HIERARCHY PERSISTENCE
+   Sector ordering preserved across depths.
+   PASS if Projection > Antisymmetry > Neutral ordering maintained.
+
+================================================================================
+OPERATIONAL DEFINITIONS
+================================================================================
+
+1. STABILITY STRENGTH (s)
+   Measures recursive persistence magnitude.
+   Range: [0, 1]
+   Higher values indicate stronger persistence.
+
+2. REGIME CLUSTER SCORE (c)
+   Degree of clustering into stable bands.
+   Computed via:
+   - Variance reduction from continuous distribution
+   - Gap detection between stability values
+   - Cluster boundary sharpness
+   Range: [0, 1]
+   c > 0.70 indicates discrete clustering.
+
+3. REGIME SEPARATION (sep)
+   Separation between stability classes.
+   Computed via:
+   - Distance between cluster centers
+   - Gap magnitude between classes
+   - Boundary width measurement
+   Range: [0, 1]
+   sep > 0.25 indicates separated regimes.
+
+4. THRESHOLD LOCKING (L)
+   Persistence near stable plateaus.
+   Computed via:
+   - Distance to nearest threshold boundary
+   - Stability of plateau maintenance
+   - Lock-in probability measurement
+   Range: [0, 1]
+   L > 0.75 indicates threshold-locked organization.
+
+5. DRIFT VARIANCE (dv)
+   Bounded deformation under recursion.
+   Range: [0, 1]
+   Lower values indicate more stable organization.
+
+6. RG SIMILARITY (r)
+   Fine/coarse preservation of regime structure.
+   Range: [0, 1]
+   r > 0.90 indicates stable regime persistence.
+
+7. CLASSIFICATION (cls)
+   REGIME-LOCKED: Strong clustering, high separation, locked plateaus
+   WEAKLY_DISCRETE: Moderate clustering, some separation
+   CONTINUOUS-DEGRADING: Weak clustering, continuous variation
+   UNSTABLE: No stable regimes detected
+
+================================================================================
+SECTOR DEFINITIONS
+================================================================================
+
+PROJECTION:
+- Role: Strongest stability preservation
+- Expected: REGIME-LOCKED or WEAKLY_DISCRETE
+- Regime structure should be most pronounced
+
+ANTISYMMETRY:
+- Role: Moderate stability with degradation
+- Expected: WEAKLY_DISCRETE or CONTINUOUS-DEGRADING
+- Regime separation should be moderate
+
+NEUTRAL:
+- Role: Weakest stability, continuous degradation
+- Expected: CONTINUOUS-DEGRADING or UNSTABLE
+- Regime structure may be absent
+
+================================================================================
+DEPTH ANALYSIS
+================================================================================
+
+Analyzed depths: [1, 2, 4, 6, 8, 12, 16, 20]
+
+Depth behavior:
+- Shallow depths (1-4): Initial regime formation
+- Middle depths (6-12): Regime stabilization and sharpening
+- Deep recursion (16-20): Regime persistence or degradation
+
+Expected pattern:
+- Clustering should sharpen with depth (H1)
+- Separation should increase with depth (H2)
+- Locking should remain stable (H3)
+
+================================================================================
+COMPUTATION APPROACH
+================================================================================
+
+For each depth × sector:
+1. Compute stability_strength from recursive analysis
+2. Compute regime_cluster_score from clustering analysis
+3. Compute regime_separation from class boundary analysis
+4. Compute threshold_locking from plateau detection
+5. Compute drift_variance from deformation measurement
+6. Compute rg_similarity from fine/coarse comparison
+
+Cluster analysis uses k-means with k=3 to detect regime bands.
+Separation computed as distance between cluster centroids.
+Locking computed from proximity to cluster centers.
+
+================================================================================
+VERDICT CRITERIA
+================================================================================
+
+VERDICT: REGIME-STRUCTURED
+  - At least 4/5 hypotheses pass
+  - Cluster score > 0.70 in Projection sector
+  - Regime separation > 0.25 maintained
+
+VERDICT: PARTIAL-REGIME
+  - 3/5 hypotheses pass
+  - Weak clustering detected
+  - Regime boundaries present but soft
+
+VERDICT: CONTINUOUS
+  - At most 2/5 hypotheses pass
+  - No clear clustering
+  - Continuous stability variation
+
+VERDICT: UNSTABLE
+  - No hypotheses pass
+  - No stable regimes detected
+  - Organization degrades continuously
+
+================================================================================
+END OF DISCRETE REGIME FRAMEWORK
+================================================================================
