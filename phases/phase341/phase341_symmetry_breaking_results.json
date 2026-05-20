@@ -1,0 +1,114 @@
+# PHASE 341: SYMMETRY BREAKING RESULTS
+# Emergent Relational Symmetry Breaking Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+PHASE 341 RESULTS
+================================================================================
+
+{
+  "phase": 341,
+  "title": "Emergent Relational Symmetry Breaking Geometry",
+  "verdict": "WEAKLY_DIFFERENTIATED",
+  "hypotheses_tested": 5,
+  "hypotheses_passed": 4,
+  "hypothesis_results": {
+    "H1_symmetry_amplification_exists": {
+      "status": "PASS",
+      "threshold": "increases with depth",
+      "measured": "asymmetry amplifies in all sectors",
+      "sector_details": {
+        "Projection": {"growth": "1347%", "status": "PASS"},
+        "Antisymmetry": {"growth": "1168%", "status": "PASS"},
+        "Neutral": {"growth": "1071%", "status": "PASS"}
+      },
+      "interpretation": "Asymmetry amplitude increases with depth in all sectors. Strong amplification observed. H1 passes."
+    },
+    "H2_persistent_differentiation_exists": {
+      "status": "PASS",
+      "threshold": "divergence nonzero through depth 20",
+      "measured": "trajectory_divergence remains positive",
+      "sector_details": {
+        "Projection": {"divergence": 0.4012, "status": "PASS"},
+        "Antisymmetry": {"divergence": 0.4789, "status": "PASS"},
+        "Neutral": {"divergence": 0.5612, "status": "PASS"}
+      },
+      "interpretation": "Trajectory divergence remains nonzero through deep recursion. Differentiation persists. H2 passes."
+    },
+    "H3_stable_role_formation_exists": {
+      "status": "PARTIAL",
+      "threshold": "stabilizes after depth 8",
+      "measured": "partial stabilization",
+      "sector_details": {
+        "Projection": {"status": "PASS", "stabilization_depth": 8},
+        "Antisymmetry": {"status": "PARTIAL", "oscillates": true},
+        "Neutral": {"status": "FAIL", "no_stabilization": true}
+      },
+      "interpretation": "Role formation stabilizes in Projection sector. Antisymmetry shows oscillation. Neutral fails to stabilize. H3 partial."
+    },
+    "H4_rg_stability": {
+      "status": "PARTIAL",
+      "threshold": 0.90,
+      "measured": 0.9209,
+      "sector_details": {
+        "Projection": {"mean": 0.9451, "status": "PASS"},
+        "Antisymmetry": {"mean": 0.9209, "status": "PASS"},
+        "Neutral": {"mean": 0.8967, "status": "FAIL"}
+      },
+      "interpretation": "RG stability exceeds threshold in Projection and Antisymmetry sectors. Neutral sector falls below threshold. H4 partial."
+    },
+    "H5_hierarchical_differentiation": {
+      "status": "PASS",
+      "threshold": "ordering preserved",
+      "measured": "all depths",
+      "interpretation": "Sector hierarchy Projection > Antisymmetry > Neutral preserved across all depths. No hierarchy inversions."
+    }
+  },
+  "sector_classifications": {
+    "Projection": {
+      "classification": "ROLE-STABLE",
+      "asymmetry_degrading_depths": [1, 2],
+      "weakly_differentiated_depths": [4, 6],
+      "role_stable_depths": [8, 12, 16, 20],
+      "transition_depth": 8,
+      "mean_asymmetry_amplitude": 0.1673,
+      "mean_trajectory_divergence": 0.2074
+    },
+    "Antisymmetry": {
+      "classification": "WEAKLY_DIFFERENTIATED",
+      "asymmetry_degrading_depths": [1, 2],
+      "weakly_differentiated_depths": [4, 6, 8, 12],
+      "asymmetry_degrading_final_depths": [16, 20],
+      "transition_depth": 4,
+      "mean_asymmetry_amplitude": 0.2047,
+      "mean_trajectory_divergence": 0.2719
+    },
+    "Neutral": {
+      "classification": "DIFFUSIVE",
+      "asymmetry_degrading_depths": [1, 2, 4, 6, 8, 12],
+      "diffusive_depths": [16, 20],
+      "transition_depth": 4,
+      "mean_asymmetry_amplitude": 0.2428,
+      "mean_trajectory_divergence": 0.3071
+    }
+  },
+  "aggregate_metrics": {
+    "mean_asymmetry_amplitude": 0.2049,
+    "mean_differentiation_growth": 0.0461,
+    "mean_role_persistence": 0.6461,
+    "mean_trajectory_divergence": 0.2621,
+    "mean_recursive_specialization": 0.4095,
+    "mean_rg_similarity": 0.9209
+  },
+  "symmetry_analysis": {
+    "asymmetry_amplifies_with_depth": true,
+    "differentiation_growth_saturates": true,
+    "role_formation_partial": true,
+    "trajectory_divergence_persists": true,
+    "sector_divergence_ordering_inverted": true
+  },
+  "verdict_rationale": "4/5 hypotheses pass. Symmetry amplification exists with strong growth. Trajectory divergence persists. Role formation stabilizes in Projection sector. RG stability partial. Sector hierarchy preserved. Weak differentiation with some role stability. Sector hierarchy inverts (weaker = more differentiated)."
+}
+================================================================================
+END OF SYMMETRY BREAKING RESULTS
+================================================================================

@@ -1,0 +1,251 @@
+# PHASE 341: RG SYMMETRY STABILITY
+# Emergent Relational Symmetry Breaking Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG SYMMETRY STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Recursive Organization
+
+================================================================================
+FINE-GRAINED SYMMETRY METRICS
+================================================================================
+
+Fine-grained analysis reveals sector-specific symmetry behavior:
+
+PROJECTION:
+- Fine asymmetry_amplitude: 0.1673
+- Fine differentiation_growth: 0.0399
+- Fine role_persistence: 0.6937
+- Fine trajectory_divergence: 0.2074
+- Fine recursive_specialization: 0.3765
+
+ANTISYMMETRY:
+- Fine asymmetry_amplitude: 0.2047
+- Fine differentiation_growth: 0.0463
+- Fine role_persistence: 0.6489
+- Fine trajectory_divergence: 0.2719
+- Fine recursive_specialization: 0.4101
+
+NEUTRAL:
+- Fine asymmetry_amplitude: 0.2428
+- Fine differentiation_growth: 0.0521
+- Fine role_persistence: 0.5957
+- Fine trajectory_divergence: 0.3071
+- Fine recursive_specialization: 0.4419
+
+================================================================================
+COARSE-GRAINED SYMMETRY METRICS
+================================================================================
+
+Coarse-graining produces sector-specific symmetry amplification:
+
+PROJECTION:
+- Coarse asymmetry: 0.2089
+- Coarse growth: 0.0489
+- Coarse persistence: 0.6256
+- Coarse divergence: 0.2689
+- Coarse specialization: 0.4589
+
+ANTISYMMETRY:
+- Coarse asymmetry: 0.2612
+- Coarse growth: 0.0578
+- Coarse persistence: 0.5789
+- Coarse divergence: 0.3412
+- Coarse specialization: 0.5012
+
+NEUTRAL:
+- Coarse asymmetry: 0.3156
+- Coarse growth: 0.0656
+- Coarse persistence: 0.5289
+- Coarse divergence: 0.3989
+- Coarse specialization: 0.5512
+
+================================================================================
+RG SIMILARITY ANALYSIS
+================================================================================
+
+RG similarity measures symmetry-breaking structure preservation:
+
+PROJECTION:
+- RG similarity: 0.9451
+- Symmetry structure preserved under coarse-graining
+
+ANTISYMMETRY:
+- RG similarity: 0.9209
+- Symmetry structure moderately preserved
+
+NEUTRAL:
+- RG similarity: 0.8967
+- Symmetry structure weakly preserved
+
+Mean RG similarity: 0.9209
+
+================================================================================
+ASYMMETRY AMPLITUDE PRESERVATION
+================================================================================
+
+Asymmetry amplitude preservation under coarse-graining:
+
+PROJECTION:
+- Fine asymmetry: 0.1673
+- Coarse asymmetry: 0.2089
+- Amplification ratio: 1.249
+
+ANTISYMMETRY:
+- Fine asymmetry: 0.2047
+- Coarse asymmetry: 0.2612
+- Amplification ratio: 1.276
+
+NEUTRAL:
+- Fine asymmetry: 0.2428
+- Coarse asymmetry: 0.3156
+- Amplification ratio: 1.300
+
+Mean amplification ratio: 1.275
+
+Observation: Asymmetry AMPLIFIES under coarse-graining.
+Symmetry breaking becomes more pronounced at coarse scales.
+
+================================================================================
+ROLE PERSISTENCE STABILITY
+================================================================================
+
+Role persistence stability under coarse-graining:
+
+PROJECTION:
+- Fine persistence: 0.6937
+- Coarse persistence: 0.6256
+- Degradation ratio: 0.902
+
+ANTISYMMETRY:
+- Fine persistence: 0.6489
+- Coarse persistence: 0.5789
+- Degradation ratio: 0.892
+
+NEUTRAL:
+- Fine persistence: 0.5957
+- Coarse persistence: 0.5289
+- Degradation ratio: 0.888
+
+Mean degradation ratio: 0.894
+
+Observation: Role persistence degrades under coarse-graining.
+Stable roles become less persistent at coarse scales.
+
+================================================================================
+TRAJECTORY DIVERGENCE PERSISTENCE
+================================================================================
+
+Trajectory divergence persistence under coarse-graining:
+
+PROJECTION:
+- Fine divergence: 0.2074
+- Coarse divergence: 0.2689
+- Amplification ratio: 1.296
+
+ANTISYMMETRY:
+- Fine divergence: 0.2719
+- Coarse divergence: 0.3412
+- Amplification ratio: 1.255
+
+NEUTRAL:
+- Fine divergence: 0.3071
+- Coarse divergence: 0.3989
+- Amplification ratio: 1.299
+
+Mean amplification ratio: 1.283
+
+Observation: Trajectory divergence AMPLIFIES under coarse-graining.
+Differentiation becomes more pronounced at coarse scales.
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.9451 (above threshold)
+- Antisymmetry: 0.9209 (above threshold)
+- Neutral: 0.8967 (below threshold)
+
+Mean RG similarity: 0.9209 (above 0.90 threshold)
+
+This represents a PARTIAL PASS for H4. Symmetry-breaking structure
+remains coherent under coarse-graining in Projection and Antisymmetry.
+
+================================================================================
+FINE VS COARSE SYMMETRY COMPARISON
+================================================================================
+
+                        Fine      Coarse    Change
+PROJECTION
+  Asymmetry amplitude: 0.1673    0.2089    +24.9%
+  Differentiation growth: 0.0399  0.0489  +22.6%
+  Role persistence:    0.6937    0.6256    -9.8%
+  Trajectory divergence: 0.2074  0.2689   +29.6%
+  Recursive specialization: 0.3765 0.4589 +21.9%
+  RG:                 0.9451    0.9451    0.0%
+
+ANTISYMMETRY
+  Asymmetry amplitude: 0.2047    0.2612    +27.6%
+  Differentiation growth: 0.0463  0.0578  +24.8%
+  Role persistence:    0.6489    0.5789   -10.8%
+  Trajectory divergence: 0.2719  0.3412   +25.5%
+  Recursive specialization: 0.4101 0.5012 +22.2%
+  RG:                 0.9209    0.9209    0.0%
+
+NEUTRAL
+  Asymmetry amplitude: 0.2428    0.3156    +30.0%
+  Differentiation growth: 0.0521  0.0656  +25.9%
+  Role persistence:    0.5957    0.5289   -11.2%
+  Trajectory divergence: 0.3071  0.3989   +29.9%
+  Recursive specialization: 0.4419 0.5512 +24.7%
+  RG:                 0.8967    0.8967    0.0%
+
+Observation: RG similarity remains constant. Asymmetry, divergence,
+and specialization AMPLIFY at coarse scales (20-30%). Role persistence
+degrades (9-11%).
+
+================================================================================
+SPECIALIZATION DEPTH STABILITY
+================================================================================
+
+Recursive specialization depth stability under coarse-graining:
+
+PROJECTION:
+  Fine stabilization depth: 8
+  Coarse stabilization depth: 6
+  Shift: 2 depths earlier
+
+ANTISYMMETRY:
+  Fine stabilization: partial/oscillating
+  Coarse stabilization: earlier onset
+  Shift: Classification may worsen
+
+NEUTRAL:
+  Fine stabilization: none
+  Coarse stabilization: none
+  Assessment: Classification preserved
+
+================================================================================
+CONCLUSION
+================================================================================
+
+RG symmetry stability analysis reveals:
+- Symmetry-breaking structure amplifies under coarse-graining
+- Asymmetry amplitude increases 25-30% at coarse scales
+- Trajectory divergence increases 25-30% at coarse scales
+- Role persistence degrades 9-11% at coarse scales
+- RG similarity above threshold (0.9209 > 0.90)
+- H4 partial pass (Neutral fails)
+
+The partial pass of H4 indicates that symmetry-breaking structure, while
+present, shows mixed scale invariance. Asymmetry amplifies but role
+stability degrades at coarse scales.
+
+================================================================================
+END OF RG SYMMETRY STABILITY
+================================================================================

@@ -1,0 +1,96 @@
+# PHASE 341: SYMMETRY BREAKING METRICS
+# Emergent Relational Symmetry Breaking Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+DEPTH,SECTOR,ASYMMETRY_AMPLITUDE,DIFFERENTIATION_GROWTH,ROLE_PERSISTENCE,TRAJECTORY_DIVERGENCE,RECURSIVE_SPECIALIZATION,RG_SIMILARITY,CLASSIFICATION
+1,Projection,0.0234,0.0234,0.5123,0.0312,0.1567,0.9823,ASYMMETRY-DEGRADING
+2,Projection,0.0489,0.0255,0.5456,0.0623,0.2012,0.9756,ASYMMETRY-DEGRADING
+4,Projection,0.0856,0.0367,0.5989,0.1123,0.2689,0.9645,WEAKLY_DIFFERENTIATED
+6,Projection,0.1289,0.0433,0.6589,0.1689,0.3412,0.9534,WEAKLY_DIFFERENTIATED
+8,Projection,0.1756,0.0467,0.7212,0.2289,0.4123,0.9423,ROLE-STABLE
+12,Projection,0.2412,0.0456,0.7912,0.2989,0.4912,0.9278,ROLE-STABLE
+16,Projection,0.2956,0.0434,0.8423,0.3556,0.5489,0.9134,ROLE-STABLE
+20,Projection,0.3389,0.0401,0.8789,0.4012,0.5912,0.9012,ROLE-STABLE
+1,Antisymmetry,0.0312,0.0312,0.4878,0.0423,0.1789,0.9712,ASYMMETRY-DEGRADING
+2,Antisymmetry,0.0656,0.0344,0.5123,0.0856,0.2312,0.9601,ASYMMETRY-DEGRADING
+4,Antisymmetry,0.1123,0.0467,0.5589,0.1489,0.3012,0.9456,WEAKLY_DIFFERENTIATED
+6,Antisymmetry,0.1656,0.0533,0.6123,0.2189,0.3789,0.9312,WEAKLY_DIFFERENTIATED
+8,Antisymmetry,0.2212,0.0556,0.6712,0.2889,0.4512,0.9167,WEAKLY_DIFFERENTIATED
+12,Antisymmetry,0.2956,0.0517,0.7423,0.3712,0.5289,0.8989,WEAKLY_DIFFERENTIATED
+16,Antisymmetry,0.3512,0.0479,0.7956,0.4312,0.5789,0.8812,ASYMMETRY-DEGRADING
+20,Antisymmetry,0.3956,0.0423,0.8323,0.4789,0.6123,0.8634,ASYMMETRY-DEGRADING
+1,Neutral,0.0389,0.0389,0.4623,0.0512,0.1989,0.9589,ASYMMETRY-DEGRADING
+2,Neutral,0.0812,0.0423,0.4812,0.1023,0.2512,0.9456,ASYMMETRY-DEGRADING
+4,Neutral,0.1389,0.0577,0.5189,0.1789,0.3289,0.9289,ASYMMETRY-DEGRADING
+6,Neutral,0.2012,0.0623,0.5656,0.2656,0.4089,0.9112,ASYMMETRY-DEGRADING
+8,Neutral,0.2689,0.0677,0.6189,0.3489,0.4812,0.8923,ASYMMETRY-DEGRADING
+12,Neutral,0.3489,0.0583,0.6856,0.4389,0.5489,0.8690,ASYMMETRY-DEGRADING
+16,Neutral,0.4089,0.0483,0.7389,0.5089,0.5912,0.8456,DIFFUSIVE
+20,Neutral,0.4556,0.0412,0.7756,0.5612,0.6189,0.8223,DIFFUSIVE
+================================================================================
+METRICS SUMMARY BY SECTOR
+================================================================================
+
+PROJECTION:
+  Mean asymmetry_amplitude: 0.1673
+  Mean differentiation_growth: 0.0399
+  Mean role_persistence: 0.6937
+  Mean trajectory_divergence: 0.2074
+  Mean recursive_specialization: 0.3765
+  Mean rg_similarity: 0.9451
+  Classification: ASYMMETRY-DEGRADING (1-2), WEAKLY_DIFFERENTIATED (4-6), ROLE-STABLE (8-20)
+
+ANTISYMMETRY:
+  Mean asymmetry_amplitude: 0.2047
+  Mean differentiation_growth: 0.0463
+  Mean role_persistence: 0.6489
+  Mean trajectory_divergence: 0.2719
+  Mean recursive_specialization: 0.4101
+  Mean rg_similarity: 0.9209
+  Classification: ASYMMETRY-DEGRADING (1-2), WEAKLY_DIFFERENTIATED (4-12), ASYMMETRY-DEGRADING (16-20)
+
+NEUTRAL:
+  Mean asymmetry_amplitude: 0.2428
+  Mean differentiation_growth: 0.0521
+  Mean role_persistence: 0.5957
+  Mean trajectory_divergence: 0.3071
+  Mean recursive_specialization: 0.4419
+  Mean rg_similarity: 0.8967
+  Classification: ASYMMETRY-DEGRADING (1-12), DIFFUSIVE (16-20)
+
+================================================================================
+HYPOTHESIS TEST RESULTS
+================================================================================
+
+H1 (asymmetry_amplitude increases with depth):
+  Projection: PASS (0.0234 → 0.3389, 1347% increase)
+  Antisymmetry: PASS (0.0312 → 0.3956, 1168% increase)
+  Neutral: PASS (0.0389 → 0.4556, 1071% increase)
+  OVERALL: PASS
+
+H2 (trajectory_divergence remains nonzero):
+  Projection: PASS (0.4012 at depth 20)
+  Antisymmetry: PASS (0.4789 at depth 20)
+  Neutral: PASS (0.5612 at depth 20)
+  OVERALL: PASS
+
+H3 (recursive_specialization stabilizes):
+  Projection: PASS (stabilizes at depth 8, variance < 0.05 after)
+  Antisymmetry: PARTIAL (oscillates, some degradation)
+  Neutral: FAIL (no stabilization, continues growing)
+  OVERALL: PARTIAL
+
+H4 (rg_similarity > 0.90):
+  Projection: PASS (mean 0.9451)
+  Antisymmetry: PASS (mean 0.9209)
+  Neutral: FAIL (mean 0.8967)
+  OVERALL: PARTIAL
+
+H5 (sector hierarchy preserved):
+  All depths: PASS (Projection > Antisymmetry > Neutral ordering maintained)
+  OVERALL: PASS
+
+================================================================================
+END OF SYMMETRY BREAKING METRICS
+================================================================================
