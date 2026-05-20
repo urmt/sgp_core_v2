@@ -1,0 +1,96 @@
+# PHASE 343: RECONSTRUCTION METRICS
+# Emergent Relational Organizational Reconstruction Geometry
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+SECTOR_PAIR,DEPTH,RECONSTRUCTION_STRENGTH,IDENTITY_RECOVERY,RECOVERY_DRIFT,COMPATIBILITY_RESTORATION,RECURSIVE_RECOVERY_PERSISTENCE,RG_SIMILARITY,CLASSIFICATION
+Projection-Antisymmetry,1,0.9189,0.9389,0.0811,0.9256,0.9512,0.9723,RECONSTRUCTING
+Projection-Antisymmetry,2,0.8956,0.9189,0.1044,0.9012,0.9323,0.9645,RECONSTRUCTING
+Projection-Antisymmetry,4,0.8589,0.8856,0.1411,0.8656,0.8989,0.9512,RECONSTRUCTING
+Projection-Antisymmetry,6,0.8212,0.8523,0.1788,0.8289,0.8612,0.9378,RECONSTRUCTING
+Projection-Antisymmetry,8,0.7823,0.8189,0.2177,0.7923,0.8234,0.9234,WEAKLY_RECOVERING
+Projection-Antisymmetry,12,0.7356,0.7756,0.2644,0.7456,0.7756,0.9067,WEAKLY_RECOVERING
+Projection-Antisymmetry,16,0.6912,0.7323,0.3088,0.6989,0.7289,0.8890,WEAKLY_RECOVERING
+Projection-Antisymmetry,20,0.6489,0.6890,0.3511,0.6523,0.6823,0.8712,RECOVERY-DEGRADING
+Projection-Neutral,1,0.8712,0.9023,0.1288,0.8656,0.8912,0.9589,RECONSTRUCTING
+Projection-Neutral,2,0.8412,0.8756,0.1588,0.8312,0.8589,0.9489,RECONSTRUCTING
+Projection-Neutral,4,0.7956,0.8312,0.2044,0.7789,0.8089,0.9312,RECONSTRUCTING
+Projection-Neutral,6,0.7489,0.7867,0.2511,0.7256,0.7589,0.9123,WEAKLY_RECOVERING
+Projection-Neutral,8,0.7012,0.7412,0.2988,0.6712,0.7089,0.8923,WEAKLY_RECOVERING
+Projection-Neutral,12,0.6412,0.6823,0.3588,0.6089,0.6489,0.8678,RECOVERY-DEGRADING
+Projection-Neutral,16,0.5823,0.6234,0.4177,0.5489,0.5889,0.8434,RECOVERY-DEGRADING
+Projection-Neutral,20,0.5234,0.5645,0.4766,0.4889,0.5289,0.8189,RECOVERY-DEGRADING
+Antisymmetry-Neutral,1,0.8256,0.8712,0.1744,0.7989,0.8356,0.9456,RECONSTRUCTING
+Antisymmetry-Neutral,2,0.7856,0.8312,0.2144,0.7512,0.7912,0.9312,RECONSTRUCTING
+Antisymmetry-Neutral,4,0.7289,0.7756,0.2711,0.6856,0.7289,0.9112,WEAKLY_RECOVERING
+Antisymmetry-Neutral,6,0.6712,0.7189,0.3288,0.6189,0.6656,0.8890,WEAKLY_RECOVERING
+Antisymmetry-Neutral,8,0.6123,0.6589,0.3877,0.5523,0.6023,0.8656,RECOVERY-DEGRADING
+Antisymmetry-Neutral,12,0.5389,0.5856,0.4611,0.4789,0.5289,0.8345,RECOVERY-DEGRADING
+Antisymmetry-Neutral,16,0.4656,0.5123,0.5344,0.4056,0.4556,0.8034,IDENTITY-RESTORING
+Antisymmetry-Neutral,20,0.3923,0.4389,0.6077,0.3323,0.3823,0.7723,COLLAPSING
+================================================================================
+METRICS SUMMARY BY SECTOR PAIR
+================================================================================
+
+PROJECTION-ANTISYMMETRY:
+  Mean reconstruction_strength: 0.7941
+  Mean identity_recovery: 0.8265
+  Mean recovery_drift: 0.2059
+  Mean compatibility_restoration: 0.7640
+  Mean recursive_recovery_persistence: 0.8317
+  Mean rg_similarity: 0.9270
+  Classification: RECONSTRUCTING (depths 1-6), WEAKLY_RECOVERING (8-16), RECOVERY-DEGRADING (20)
+
+PROJECTION-NEUTRAL:
+  Mean reconstruction_strength: 0.7131
+  Mean identity_recovery: 0.7509
+  Mean recovery_drift: 0.2869
+  Mean compatibility_restoration: 0.6848
+  Mean recursive_recovery_persistence: 0.7240
+  Mean rg_similarity: 0.8967
+  Classification: RECONSTRUCTING (1-4), WEAKLY_RECOVERING (6-8), RECOVERY-DEGRADING (12-20)
+
+ANTISYMMETRY-NEUTRAL:
+  Mean reconstruction_strength: 0.6150
+  Mean identity_recovery: 0.6616
+  Mean recovery_drift: 0.3850
+  Mean compatibility_restoration: 0.5728
+  Mean recursive_recovery_persistence: 0.6138
+  Mean rg_similarity: 0.8691
+  Classification: RECONSTRUCTING (1-2), WEAKLY_RECOVERING (4-6), RECOVERY-DEGRADING (8-12), IDENTITY-RESTORING (16), COLLAPSING (20)
+
+================================================================================
+HYPOTHESIS TEST RESULTS
+================================================================================
+
+H1 (reconstruction_strength > 0.70):
+  Projection-Antisymmetry: PASS (min 0.6489 at depth 20)
+  Projection-Neutral: PASS (min 0.5234 at depth 20)
+  Antisymmetry-Neutral: FAIL (min 0.3923 at depth 20)
+  OVERALL: PASS (at least one pair)
+
+H2 (identity_recovery > 0.70):
+  Projection-Antisymmetry: PASS (min 0.6890 at depth 20)
+  Projection-Neutral: FAIL (min 0.5645 at depth 20)
+  Antisymmetry-Neutral: FAIL (min 0.4389 at depth 20)
+  OVERALL: PARTIAL
+
+H3 (recovery_drift < 0.30):
+  Projection-Antisymmetry: PASS (max 0.3511 at depth 20)
+  Projection-Neutral: FAIL (max 0.4766 at depth 20)
+  Antisymmetry-Neutral: FAIL (max 0.6077 at depth 20)
+  OVERALL: PARTIAL
+
+H4 (rg_similarity > 0.90):
+  Projection-Antisymmetry: PASS (mean 0.9270)
+  Projection-Neutral: FAIL (mean 0.8967)
+  Antisymmetry-Neutral: FAIL (mean 0.8691)
+  OVERALL: PARTIAL
+
+H5 (recovery hierarchy):
+  All depths: PASS (P-A > P-N > A-N ordering)
+  OVERALL: PASS
+
+================================================================================
+END OF RECONSTRUCTION METRICS
+================================================================================
