@@ -1,0 +1,57 @@
+# Phase 375 Framework: Topological Flow and Attractor Circulation
+
+## Purpose
+Determine whether connected recursive attractor topologies support stable large-scale organizational flow dynamics.
+
+## Structure
+
+### 1. Topological Flow Mapping
+- Map flow pathways across attractor topology
+- Identify flow directionality and magnitude
+- Measure circulation stability (CS)
+
+### 2. Circulation Loop Detection
+- Identify closed circulation loops in topology
+- Measure loop frequency and stability
+- Map loop hierarchy
+
+### 3. Flow Bottleneck Analysis
+- Identify flow bottlenecks in topology
+- Measure bottleneck resilience (BR)
+- Map bottleneck impact on stability
+
+### 4. Attractor Source/Sink Characterization
+- Classify attractors as sources or sinks
+- Measure source/sink balance (SSB)
+- Identify flow-generating vs. flow-absorbing basins
+
+### 5. Recursive Transport Stability
+- Track transport trajectories across topology
+- Measure recursive transport coherence (RTC)
+- Identify transport degradation patterns
+
+### 6. Perturbation Flow Recovery
+- Apply perturbations to disrupt flow
+- Measure flow recovery trajectories
+- Identify flow resilience
+
+### 7. Null Circulation Controls
+- Randomized circulation baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- circulation_stability (CS)
+- flow_persistence (FP)
+- bottleneck_resilience (BR)
+- source_sink_balance (SSB)
+- recursive_transport_coherence (RTC)
+- rg_similarity (RGS)
+- circulation_hierarchy_index (CHI)
+
+## Classification Thresholds
+- FLOW-STABLE: CS > 0.75, FP > 0.75, RTC > 0.70
+- FLOW-BOUNDED: CS > 0.65, FP > 0.65, RTC > 0.60
+- FLOW-PARTIAL: CS > 0.55, FP > 0.55, RTC > 0.50
+- FLOW-DEGRADING: CS > 0.40
+- FLOW-FAILED: CS <= 0.40

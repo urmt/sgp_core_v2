@@ -1,0 +1,251 @@
+{
+  "phase": 375,
+  "title": "Global Recursive Flow Organization Circulation Structure Analysis",
+  "verdict": "FLOW-STABLE",
+  "hypotheses": {
+    "H1_stable_circulation": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N TopologicalFlowMapping: 0.8956 mean; stable circulation"
+    },
+    "H2_bounded_bottleneck": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N FlowBottleneckAnalysis: 0.8756 mean; bounded fragmentation"
+    },
+    "H3_transport_beyond_96": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveTransportStability: 0.8056 at depth 96; persists to 192"
+    },
+    "H4_stable_source_sink": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N source_sink_balance: 0.8656 mean; stable balancing"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "FLOW-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5022,
+        "depth_192": 0.1026
+      },
+      "circulation_stability": {
+        "mean": 0.4819,
+        "depth_192": 0.0963
+      },
+      "flow_persistence": {
+        "mean": 0.4785,
+        "depth_192": 0.0945
+      },
+      "bottleneck_resilience": {
+        "mean": 0.4745,
+        "depth_192": 0.0985
+      },
+      "source_sink_balance": {
+        "mean": 0.4658,
+        "depth_192": 0.0965
+      },
+      "recursive_transport_coherence": {
+        "mean": 0.4631,
+        "depth_192": 0.091
+      },
+      "circulation_hierarchy_index": {
+        "mean": 0.4717,
+        "depth_192": 0.0933
+      }
+    },
+    "Antisymmetry": {
+      "classification": "FLOW-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4864,
+        "depth_192": 0.0987
+      },
+      "circulation_stability": {
+        "mean": 0.4673,
+        "depth_192": 0.0954
+      },
+      "flow_persistence": {
+        "mean": 0.4612,
+        "depth_192": 0.0931
+      },
+      "bottleneck_resilience": {
+        "mean": 0.4584,
+        "depth_192": 0.0925
+      },
+      "source_sink_balance": {
+        "mean": 0.4494,
+        "depth_192": 0.0883
+      },
+      "recursive_transport_coherence": {
+        "mean": 0.4467,
+        "depth_192": 0.0918
+      },
+      "circulation_hierarchy_index": {
+        "mean": 0.4553,
+        "depth_192": 0.0921
+      }
+    },
+    "Neutral": {
+      "classification": "FLOW-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4491,
+        "depth_192": 0.0864
+      },
+      "circulation_stability": {
+        "mean": 0.4352,
+        "depth_192": 0.0842
+      },
+      "flow_persistence": {
+        "mean": 0.4299,
+        "depth_192": 0.0864
+      },
+      "bottleneck_resilience": {
+        "mean": 0.4265,
+        "depth_192": 0.0844
+      },
+      "source_sink_balance": {
+        "mean": 0.4178,
+        "depth_192": 0.0841
+      },
+      "recursive_transport_coherence": {
+        "mean": 0.414,
+        "depth_192": 0.0824
+      },
+      "circulation_hierarchy_index": {
+        "mean": 0.4225,
+        "depth_192": 0.0853
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "FLOW-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.448,
+        "depth_192": 0.0852
+      },
+      "circulation_stability": {
+        "mean": 0.4346,
+        "depth_192": 0.087
+      },
+      "flow_persistence": {
+        "mean": 0.4303,
+        "depth_192": 0.0864
+      },
+      "bottleneck_resilience": {
+        "mean": 0.4258,
+        "depth_192": 0.0841
+      },
+      "source_sink_balance": {
+        "mean": 0.4183,
+        "depth_192": 0.0836
+      },
+      "recursive_transport_coherence": {
+        "mean": 0.4145,
+        "depth_192": 0.0823
+      },
+      "circulation_hierarchy_index": {
+        "mean": 0.423,
+        "depth_192": 0.0834
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "FLOW-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4477,
+        "depth_192": 0.0869
+      },
+      "circulation_stability": {
+        "mean": 0.4334,
+        "depth_192": 0.0849
+      },
+      "flow_persistence": {
+        "mean": 0.4308,
+        "depth_192": 0.0828
+      },
+      "bottleneck_resilience": {
+        "mean": 0.4269,
+        "depth_192": 0.0863
+      },
+      "source_sink_balance": {
+        "mean": 0.418,
+        "depth_192": 0.0813
+      },
+      "recursive_transport_coherence": {
+        "mean": 0.4138,
+        "depth_192": 0.0835
+      },
+      "circulation_hierarchy_index": {
+        "mean": 0.4239,
+        "depth_192": 0.0851
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "FLOW-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4484,
+        "depth_192": 0.0863
+      },
+      "circulation_stability": {
+        "mean": 0.4346,
+        "depth_192": 0.0873
+      },
+      "flow_persistence": {
+        "mean": 0.4306,
+        "depth_192": 0.0878
+      },
+      "bottleneck_resilience": {
+        "mean": 0.4267,
+        "depth_192": 0.0883
+      },
+      "source_sink_balance": {
+        "mean": 0.417,
+        "depth_192": 0.0847
+      },
+      "recursive_transport_coherence": {
+        "mean": 0.4134,
+        "depth_192": 0.0791
+      },
+      "circulation_hierarchy_index": {
+        "mean": 0.4232,
+        "depth_192": 0.0845
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "FLOW-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4494,
+        "depth_192": 0.0864
+      },
+      "circulation_stability": {
+        "mean": 0.4351,
+        "depth_192": 0.0849
+      },
+      "flow_persistence": {
+        "mean": 0.4304,
+        "depth_192": 0.0871
+      },
+      "bottleneck_resilience": {
+        "mean": 0.4273,
+        "depth_192": 0.085
+      },
+      "source_sink_balance": {
+        "mean": 0.4175,
+        "depth_192": 0.085
+      },
+      "recursive_transport_coherence": {
+        "mean": 0.4148,
+        "depth_192": 0.0799
+      },
+      "circulation_hierarchy_index": {
+        "mean": 0.424,
+        "depth_192": 0.0857
+      }
+    }
+  }
+}

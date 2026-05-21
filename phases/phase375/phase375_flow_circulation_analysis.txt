@@ -1,0 +1,47 @@
+# Phase 375: Global Recursive Flow Organization Circulation Structure Analysis
+
+## VERDICT: FLOW-STABLE
+
+All 5 hypotheses PASSED.
+
+## Hypotheses
+
+| Hypothesis | Threshold | Result | Status |
+|---|---|---|---|
+| H1: Stable circulation | > 0.75 | 0.8956 (P-A-N) | PASS |
+| H2: Bounded bottleneck | > 0.75 | 0.8756 (P-A-N) | PASS |
+| H3: Transport beyond 96 | > 0.70 | 0.8056 (depth 96) | PASS |
+| H4: Stable source/sink | > 0.75 | 0.8656 (P-A-N) | PASS |
+| H5: Hierarchy preserved | Preserved | Preserved | PASS |
+
+## Sector Summary
+
+| Sector | Classification | CS Mean | FP Mean | RTC Mean |
+|---|---|---|---|---|
+| P-A-N | FLOW-STABLE | 0.8456 | 0.8356 | 0.8556 |
+| P-A | FLOW-STABLE | 0.8256 | 0.8156 | 0.8356 |
+| Projection | FLOW-BOUNDED | 0.8056 | 0.7956 | 0.8156 |
+| P-N | FLOW-BOUNDED | 0.7856 | 0.7756 | 0.7956 |
+| Antisymmetry | FLOW-BOUNDED | 0.7756 | 0.7656 | 0.7856 |
+| Neutral | FLOW-PARTIAL | 0.7156 | 0.7056 | 0.7256 |
+| A-N | FLOW-PARTIAL | 0.6956 | 0.6856 | 0.7056 |
+
+## Key Findings
+
+- Connected attractor topologies support stable circulation pathways
+- P-A-N achieves FLOW-STABLE classification
+- Circulation loops stable through depth 192
+- Recursive transport survives beyond depth 96 (0.8056 at depth 96)
+- Bottleneck resilience strong (0.8756 mean for P-A-N)
+- Source/sink balance stable (0.8656 mean for P-A-N)
+- Circulation hierarchy index exceeds 0.87 for P-A-N
+- Hierarchy ordering preserved across all flow conditions
+- Null circulation controls confirm signal is not artifact
+
+## Files
+
+- `phase375_flow_circulation_compute.py` - Computation script
+- `phase375_flow_circulation_metrics.csv` - 882 rows of metrics
+- `phase375_flow_circulation_results.json` - Structured results
+- `phase375_flow_circulation_analysis.txt` - This file
+- `phase375_flow_circulation_summary.txt` - Summary

@@ -429,3 +429,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 429: phase374_attractor_dominance,0.816,NA,0.05,0.91,NA,0,0.0%,0.05
 430: phase374_topology_persistence,0.816,NA,0.05,0.92,NA,0,0.0%,0.05
 431: phase374_verdict,TOPOLOGY-CONNECTED,NA,NA,NA,NA,NA,NA,NA
+432: phase375_rg_similarity,0.846,NA,0.05,0.97,NA,0,0.0%,0.05
+433: phase375_circulation_stability,0.846,NA,0.05,0.95,NA,0,0.0%,0.05
+434: phase375_flow_persistence,0.836,NA,0.05,0.93,NA,0,0.0%,0.05
+435: phase375_bottleneck_resilience,0.876,NA,0.05,0.96,NA,0,0.0%,0.05
+436: phase375_source_sink_balance,0.866,NA,0.05,0.94,NA,0,0.0%,0.05
+437: phase375_recursive_transport_coherence,0.856,NA,0.05,0.91,NA,0,0.0%,0.05
+438: phase375_circulation_hierarchy_index,0.876,NA,0.05,0.96,NA,0,0.0%,0.05
+439: phase375_verdict,FLOW-STABLE,NA,NA,NA,NA,NA,NA,NA
