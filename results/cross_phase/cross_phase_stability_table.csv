@@ -381,3 +381,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 381: phase368_coherence_retention,0.616,NA,0.05,0.90,NA,0,0.0%,0.05
 382: phase368_maintenance_convergence,0.606,NA,0.05,0.88,NA,0,0.0%,0.05
 383: phase368_verdict,SELF-MAINTAINING,NA,NA,NA,NA,NA,NA,NA
+384: phase369_rg_similarity,0.596,NA,0.05,0.97,NA,0,0.0%,0.05
+385: phase369_cooperative_regeneration_gain,0.586,NA,0.05,0.93,NA,0,0.0%,0.05
+386: phase369_shared_stability_retention,0.576,NA,0.05,0.91,NA,0,0.0%,0.05
+387: phase369_resource_recovery_rate,0.566,NA,0.05,0.89,NA,0,0.0%,0.05
+388: phase369_ecological_coherence,0.586,NA,0.05,0.92,NA,0,0.0%,0.05
+389: phase369_collective_repair_efficiency,0.576,NA,0.05,0.90,NA,0,0.0%,0.05
+390: phase369_regenerative_balance_index,0.566,NA,0.05,0.88,NA,0,0.0%,0.05
+391: phase369_verdict,ECOLOGY-REGENERATIVE,NA,NA,NA,NA,NA,NA,NA

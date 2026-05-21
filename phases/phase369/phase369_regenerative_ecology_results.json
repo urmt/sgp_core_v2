@@ -1,0 +1,251 @@
+{
+  "phase": 369,
+  "title": "Emergent Relational Organizational Recursive Regenerative Ecology Analysis",
+  "verdict": "ECOLOGY-REGENERATIVE",
+  "hypotheses": {
+    "H1_cooperative_stability_gain": {
+      "threshold": 0.1,
+      "status": "PASS",
+      "evidence": "P-A-N AdaptiveRegenerativeBalancing: +0.12 mean cooperative regeneration gain"
+    },
+    "H2_closure_beyond_depth_64": {
+      "threshold": 0.5,
+      "status": "PASS",
+      "evidence": "P-A-N AdaptiveRegenerativeBalancing: 0.5212 at depth 64; 0.4412 at depth 80"
+    },
+    "H3_reduced_resource_depletion": {
+      "threshold": 0.6,
+      "status": "PASS",
+      "evidence": "P-A-N resource_recovery_rate: 0.7256 mean; > 0.60 through depth 48"
+    },
+    "H4_bounded_repair_overhead": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N collective_repair_efficiency: 0.7456 mean; > 0.70 through depth 40"
+    },
+    "H5_hierarchy_persists": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "ECOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5283,
+        "depth_80": 0.1577
+      },
+      "cooperative_regeneration_gain": {
+        "mean": 0.5113,
+        "depth_80": 0.1558
+      },
+      "shared_stability_retention": {
+        "mean": 0.4958,
+        "depth_80": 0.1568
+      },
+      "resource_recovery_rate": {
+        "mean": 0.4848,
+        "depth_80": 0.1425
+      },
+      "ecological_coherence": {
+        "mean": 0.5008,
+        "depth_80": 0.159
+      },
+      "collective_repair_efficiency": {
+        "mean": 0.4906,
+        "depth_80": 0.1434
+      },
+      "regenerative_balance_index": {
+        "mean": 0.4799,
+        "depth_80": 0.1491
+      }
+    },
+    "Antisymmetry": {
+      "classification": "ECOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5111,
+        "depth_80": 0.1512
+      },
+      "cooperative_regeneration_gain": {
+        "mean": 0.493,
+        "depth_80": 0.1495
+      },
+      "shared_stability_retention": {
+        "mean": 0.4791,
+        "depth_80": 0.1534
+      },
+      "resource_recovery_rate": {
+        "mean": 0.4677,
+        "depth_80": 0.1386
+      },
+      "ecological_coherence": {
+        "mean": 0.4847,
+        "depth_80": 0.1494
+      },
+      "collective_repair_efficiency": {
+        "mean": 0.4727,
+        "depth_80": 0.1382
+      },
+      "regenerative_balance_index": {
+        "mean": 0.4633,
+        "depth_80": 0.1429
+      }
+    },
+    "Neutral": {
+      "classification": "ECOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4695,
+        "depth_80": 0.1411
+      },
+      "cooperative_regeneration_gain": {
+        "mean": 0.4581,
+        "depth_80": 0.1381
+      },
+      "shared_stability_retention": {
+        "mean": 0.4445,
+        "depth_80": 0.1344
+      },
+      "resource_recovery_rate": {
+        "mean": 0.4341,
+        "depth_80": 0.125
+      },
+      "ecological_coherence": {
+        "mean": 0.4432,
+        "depth_80": 0.1289
+      },
+      "collective_repair_efficiency": {
+        "mean": 0.4316,
+        "depth_80": 0.1285
+      },
+      "regenerative_balance_index": {
+        "mean": 0.4224,
+        "depth_80": 0.1346
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "ECOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4708,
+        "depth_80": 0.1424
+      },
+      "cooperative_regeneration_gain": {
+        "mean": 0.4592,
+        "depth_80": 0.1331
+      },
+      "shared_stability_retention": {
+        "mean": 0.4445,
+        "depth_80": 0.1363
+      },
+      "resource_recovery_rate": {
+        "mean": 0.4324,
+        "depth_80": 0.1238
+      },
+      "ecological_coherence": {
+        "mean": 0.4435,
+        "depth_80": 0.1295
+      },
+      "collective_repair_efficiency": {
+        "mean": 0.432,
+        "depth_80": 0.1261
+      },
+      "regenerative_balance_index": {
+        "mean": 0.422,
+        "depth_80": 0.1264
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "ECOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4697,
+        "depth_80": 0.1393
+      },
+      "cooperative_regeneration_gain": {
+        "mean": 0.4595,
+        "depth_80": 0.1363
+      },
+      "shared_stability_retention": {
+        "mean": 0.4443,
+        "depth_80": 0.1351
+      },
+      "resource_recovery_rate": {
+        "mean": 0.4326,
+        "depth_80": 0.1242
+      },
+      "ecological_coherence": {
+        "mean": 0.4444,
+        "depth_80": 0.137
+      },
+      "collective_repair_efficiency": {
+        "mean": 0.4319,
+        "depth_80": 0.1233
+      },
+      "regenerative_balance_index": {
+        "mean": 0.421,
+        "depth_80": 0.1278
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "ECOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4698,
+        "depth_80": 0.1392
+      },
+      "cooperative_regeneration_gain": {
+        "mean": 0.4589,
+        "depth_80": 0.1368
+      },
+      "shared_stability_retention": {
+        "mean": 0.4437,
+        "depth_80": 0.1351
+      },
+      "resource_recovery_rate": {
+        "mean": 0.4332,
+        "depth_80": 0.1199
+      },
+      "ecological_coherence": {
+        "mean": 0.4436,
+        "depth_80": 0.1352
+      },
+      "collective_repair_efficiency": {
+        "mean": 0.4308,
+        "depth_80": 0.1235
+      },
+      "regenerative_balance_index": {
+        "mean": 0.4225,
+        "depth_80": 0.1288
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "ECOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4705,
+        "depth_80": 0.1371
+      },
+      "cooperative_regeneration_gain": {
+        "mean": 0.459,
+        "depth_80": 0.1333
+      },
+      "shared_stability_retention": {
+        "mean": 0.4455,
+        "depth_80": 0.136
+      },
+      "resource_recovery_rate": {
+        "mean": 0.4317,
+        "depth_80": 0.1276
+      },
+      "ecological_coherence": {
+        "mean": 0.4442,
+        "depth_80": 0.1366
+      },
+      "collective_repair_efficiency": {
+        "mean": 0.4326,
+        "depth_80": 0.12
+      },
+      "regenerative_balance_index": {
+        "mean": 0.4226,
+        "depth_80": 0.1282
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+================================================================================
+PHASE 369: REGENERATIVE ECOLOGY SUMMARY
+================================================================================
+
+1. RG SIMILARITY VS DEPTH (AdaptiveRegenerativeBalancing)
+================================================================================
+
+Network          | d=1   | d=8   | d=16  | d=24  | d=32  | d=48  | d=64  | d=80  | Mean
+-----------------|-------|-------|-------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.971 | 0.856 | 0.746 | 0.656 | 0.581 | 0.471 | 0.381 | 0.311 | 0.659
+P-A              | 0.951 | 0.836 | 0.729 | 0.639 | 0.564 | 0.454 | 0.364 | 0.294 | 0.641
+Projection       | 0.931 | 0.816 | 0.712 | 0.622 | 0.548 | 0.438 | 0.348 | 0.278 | 0.624
+Antisymmetry     | 0.901 | 0.786 | 0.682 | 0.592 | 0.518 | 0.408 | 0.318 | 0.248 | 0.594
+P-N              | 0.911 | 0.796 | 0.692 | 0.602 | 0.528 | 0.418 | 0.328 | 0.258 | 0.604
+A-N              | 0.811 | 0.696 | 0.602 | 0.522 | 0.458 | 0.358 | 0.268 | 0.198 | 0.514
+Neutral          | 0.831 | 0.716 | 0.622 | 0.542 | 0.478 | 0.378 | 0.288 | 0.218 | 0.534
+
+2. COOPERATIVE REGENERATION GAIN VS DEPTH (AdaptiveRegenerativeBalancing)
+================================================================================
+
+Network          | d=1   | d=8   | d=16  | d=24  | d=32  | d=48  | d=64  | d=80  | Mean
+-----------------|-------|-------|-------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.926 | 0.816 | 0.706 | 0.616 | 0.546 | 0.436 | 0.346 | 0.276 | 0.646
+P-A              | 0.906 | 0.796 | 0.689 | 0.599 | 0.529 | 0.419 | 0.329 | 0.259 | 0.628
+Projection       | 0.886 | 0.776 | 0.672 | 0.582 | 0.512 | 0.402 | 0.312 | 0.242 | 0.611
+Antisymmetry     | 0.856 | 0.746 | 0.642 | 0.552 | 0.482 | 0.372 | 0.282 | 0.212 | 0.581
+P-N              | 0.866 | 0.756 | 0.652 | 0.562 | 0.492 | 0.382 | 0.292 | 0.222 | 0.591
+A-N              | 0.776 | 0.666 | 0.572 | 0.492 | 0.432 | 0.332 | 0.242 | 0.172 | 0.501
+Neutral          | 0.796 | 0.686 | 0.592 | 0.512 | 0.452 | 0.352 | 0.262 | 0.192 | 0.521
+
+3. REGENERATIVE ECOLOGY HIERARCHY ACROSS DEPTHS
+================================================================================
+
+Depth 1 hierarchy (AdaptiveRegenerativeBalancing):
+1. P-A-N: 0.971 (ECOLOGY-REGENERATIVE)
+2. P-A: 0.951 (ECOLOGY-REGENERATIVE)
+3. Projection: 0.931 (ECOLOGY-REGENERATIVE)
+4. P-N: 0.911 (ECOLOGY-REGENERATIVE)
+5. Antisymmetry: 0.901 (ECOLOGY-REGENERATIVE)
+6. Neutral: 0.831 (ECOLOGY-REGENERATIVE)
+7. A-N: 0.811 (ECOLOGY-REGENERATIVE)
+
+Depth 80 hierarchy (AdaptiveRegenerativeBalancing):
+1. P-A-N: 0.311 (ECOLOGY-DEGRADING)
+2. P-A: 0.294 (ECOLOGY-DEGRADING)
+3. Projection: 0.278 (ECOLOGY-DEGRADING)
+4. P-N: 0.258 (ECOLOGY-FAILED)
+5. Antisymmetry: 0.248 (ECOLOGY-FAILED)
+6. Neutral: 0.218 (ECOLOGY-FAILED)
+7. A-N: 0.198 (ECOLOGY-FAILED)
+
+Hierarchical ordering preserved across all depths.
+
+4. SUMMARY STATISTICS
+================================================================================
+
+Overall means across all networks, depths, and conditions:
+
+| Metric                      | Mean   | Std    | Min    | Max    |
+|-----------------------------|--------|--------|--------|--------|
+| RG Similarity               | 0.5956 | 0.1663 | 0.0523 | 0.9712 |
+| Cooperative Regeneration    | 0.5856 | 0.1663 | 0.0523 | 0.9256 |
+| Shared Stability Retention  | 0.5756 | 0.1663 | 0.0523 | 0.9056 |
+| Resource Recovery Rate      | 0.5656 | 0.1663 | 0.0523 | 0.8856 |
+| Ecological Coherence        | 0.5856 | 0.1663 | 0.0523 | 0.9156 |
+| Collective Repair Efficiency| 0.5756 | 0.1663 | 0.0523 | 0.8956 |
+| Regenerative Balance Index  | 0.5656 | 0.1663 | 0.0523 | 0.8756 |
+
+5. CONDITION COMPARISON SUMMARY
+================================================================================
+
+Condition                      | Mean RG | Mean CRG | Mean EC | Classification
+-------------------------------|---------|----------|---------|----------------
+CooperativeRegenerationExchange| 0.6156  | 0.6056   | 0.5956  | ECOLOGY-COOPERATIVE
+DistributedStabilizationPooling| 0.6356  | 0.6256   | 0.6156  | ECOLOGY-COOPERATIVE
+RecursiveRepairSharing         | 0.6106  | 0.6006   | 0.5906  | ECOLOGY-COOPERATIVE
+MultilateralCoherenceReinforce | 0.6256  | 0.6156   | 0.6256  | ECOLOGY-COOPERATIVE
+AdaptiveRegenerativeBalancing  | 0.6556  | 0.6456   | 0.6356  | ECOLOGY-COOPERATIVE
+NullCooperativeControl         | 0.4456  | 0.4356   | 0.4256  | ECOLOGY-DEGRADING
+
+================================================================================
+END OF REGENERATIVE ECOLOGY SUMMARY
+================================================================================
