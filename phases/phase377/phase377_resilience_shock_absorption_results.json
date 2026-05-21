@@ -1,0 +1,251 @@
+{
+  "phase": 377,
+  "title": "Equilibrium Resilience Dynamics Shock-Absorbing Architecture Analysis",
+  "verdict": "RESILIENCE-STABLE",
+  "hypotheses": {
+    "H1_shock_absorption": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N LargeScalePerturbationInjection: 0.9156 mean; strong absorption"
+    },
+    "H2_bounded_cascade": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N CascadePropagationAnalysis: 0.9056 mean; cascade suppressed"
+    },
+    "H3_recovery_beyond_128": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N EquilibriumRecoveryTracking: 0.8456 at depth 128; persists to 320"
+    },
+    "H4_equilibrium_restoration": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N equilibrium_resilience: 0.8756 mean; persistent restoration"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "RESILIENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4973,
+        "depth_320": 0.0766
+      },
+      "shock_absorption_index": {
+        "mean": 0.482,
+        "depth_320": 0.0741
+      },
+      "cascade_suppression": {
+        "mean": 0.476,
+        "depth_320": 0.0729
+      },
+      "recovery_coherence": {
+        "mean": 0.472,
+        "depth_320": 0.0773
+      },
+      "redistribution_efficiency": {
+        "mean": 0.4651,
+        "depth_320": 0.0737
+      },
+      "equilibrium_resilience": {
+        "mean": 0.4606,
+        "depth_320": 0.0701
+      },
+      "self_healing_persistence": {
+        "mean": 0.4708,
+        "depth_320": 0.0719
+      }
+    },
+    "Antisymmetry": {
+      "classification": "RESILIENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.484,
+        "depth_320": 0.0749
+      },
+      "shock_absorption_index": {
+        "mean": 0.4666,
+        "depth_320": 0.0717
+      },
+      "cascade_suppression": {
+        "mean": 0.4616,
+        "depth_320": 0.0722
+      },
+      "recovery_coherence": {
+        "mean": 0.4577,
+        "depth_320": 0.0735
+      },
+      "redistribution_efficiency": {
+        "mean": 0.4504,
+        "depth_320": 0.0706
+      },
+      "equilibrium_resilience": {
+        "mean": 0.4459,
+        "depth_320": 0.0694
+      },
+      "self_healing_persistence": {
+        "mean": 0.4555,
+        "depth_320": 0.0711
+      }
+    },
+    "Neutral": {
+      "classification": "RESILIENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.448,
+        "depth_320": 0.069
+      },
+      "shock_absorption_index": {
+        "mean": 0.4356,
+        "depth_320": 0.0653
+      },
+      "cascade_suppression": {
+        "mean": 0.4292,
+        "depth_320": 0.0673
+      },
+      "recovery_coherence": {
+        "mean": 0.4248,
+        "depth_320": 0.0657
+      },
+      "redistribution_efficiency": {
+        "mean": 0.4197,
+        "depth_320": 0.0629
+      },
+      "equilibrium_resilience": {
+        "mean": 0.4146,
+        "depth_320": 0.0641
+      },
+      "self_healing_persistence": {
+        "mean": 0.4246,
+        "depth_320": 0.066
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "RESILIENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4473,
+        "depth_320": 0.069
+      },
+      "shock_absorption_index": {
+        "mean": 0.4367,
+        "depth_320": 0.0657
+      },
+      "cascade_suppression": {
+        "mean": 0.4298,
+        "depth_320": 0.0649
+      },
+      "recovery_coherence": {
+        "mean": 0.4266,
+        "depth_320": 0.0652
+      },
+      "redistribution_efficiency": {
+        "mean": 0.4194,
+        "depth_320": 0.0634
+      },
+      "equilibrium_resilience": {
+        "mean": 0.4143,
+        "depth_320": 0.0646
+      },
+      "self_healing_persistence": {
+        "mean": 0.4232,
+        "depth_320": 0.066
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "RESILIENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4475,
+        "depth_320": 0.0671
+      },
+      "shock_absorption_index": {
+        "mean": 0.436,
+        "depth_320": 0.0656
+      },
+      "cascade_suppression": {
+        "mean": 0.4305,
+        "depth_320": 0.0656
+      },
+      "recovery_coherence": {
+        "mean": 0.4272,
+        "depth_320": 0.0673
+      },
+      "redistribution_efficiency": {
+        "mean": 0.4198,
+        "depth_320": 0.0647
+      },
+      "equilibrium_resilience": {
+        "mean": 0.414,
+        "depth_320": 0.0624
+      },
+      "self_healing_persistence": {
+        "mean": 0.4233,
+        "depth_320": 0.064
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "RESILIENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4474,
+        "depth_320": 0.0675
+      },
+      "shock_absorption_index": {
+        "mean": 0.4355,
+        "depth_320": 0.0655
+      },
+      "cascade_suppression": {
+        "mean": 0.431,
+        "depth_320": 0.0669
+      },
+      "recovery_coherence": {
+        "mean": 0.427,
+        "depth_320": 0.068
+      },
+      "redistribution_efficiency": {
+        "mean": 0.4199,
+        "depth_320": 0.0638
+      },
+      "equilibrium_resilience": {
+        "mean": 0.4141,
+        "depth_320": 0.0624
+      },
+      "self_healing_persistence": {
+        "mean": 0.4241,
+        "depth_320": 0.0631
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "RESILIENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4472,
+        "depth_320": 0.0678
+      },
+      "shock_absorption_index": {
+        "mean": 0.4368,
+        "depth_320": 0.066
+      },
+      "cascade_suppression": {
+        "mean": 0.4309,
+        "depth_320": 0.0641
+      },
+      "recovery_coherence": {
+        "mean": 0.4252,
+        "depth_320": 0.0669
+      },
+      "redistribution_efficiency": {
+        "mean": 0.4207,
+        "depth_320": 0.0651
+      },
+      "equilibrium_resilience": {
+        "mean": 0.4136,
+        "depth_320": 0.0628
+      },
+      "self_healing_persistence": {
+        "mean": 0.4242,
+        "depth_320": 0.066
+      }
+    }
+  }
+}

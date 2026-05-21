@@ -1,0 +1,57 @@
+# Phase 377 Framework: Recursive Equilibrium Resilience and Shock Absorption
+
+## Purpose
+Determine whether recursive transport equilibrium systems can absorb, redistribute, and recover from large-scale perturbations without losing global organizational coherence.
+
+## Structure
+
+### 1. Large-Scale Perturbation Injection
+- Inject structured perturbations into equilibrium systems
+- Measure shock absorption index (SAI)
+- Identify shock magnitude thresholds
+
+### 2. Cascade Propagation Analysis
+- Track cascade propagation pathways
+- Measure cascade suppression (CS)
+- Identify cascade containment patterns
+
+### 3. Equilibrium Recovery Tracking
+- Track recovery trajectories post-perturbation
+- Measure recovery coherence (RC)
+- Identify recovery time scales
+
+### 4. Adaptive Redistribution Response
+- Track adaptive transport redistribution
+- Measure redistribution efficiency (RE)
+- Identify redistribution pathways
+
+### 5. Shock Absorption Basin Mapping
+- Map basins that absorb shocks effectively
+- Identify shock-absorbing attractor regions
+- Measure basin absorption capacity
+
+### 6. Recursive Self-Healing Dynamics
+- Track self-healing trajectories
+- Measure self-healing persistence (SHP)
+- Identify healing rate patterns
+
+### 7. Null Resilience Controls
+- Randomized resilience baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- shock_absorption_index (SAI)
+- cascade_suppression (CS)
+- recovery_coherence (RC)
+- redistribution_efficiency (RE)
+- equilibrium_resilience (ER)
+- rg_similarity (RGS)
+- self_healing_persistence (SHP)
+
+## Classification Thresholds
+- RESILIENCE-STABLE: SAI > 0.75, CS > 0.75, RE > 0.70
+- RESILIENCE-BOUNDED: SAI > 0.65, CS > 0.65, RE > 0.60
+- RESILIENCE-PARTIAL: SAI > 0.55, CS > 0.55, RE > 0.50
+- RESILIENCE-DEGRADING: SAI > 0.40
+- RESILIENCE-FAILED: SAI <= 0.40
