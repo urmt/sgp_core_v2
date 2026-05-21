@@ -1,0 +1,30 @@
+# Phase 378 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Learning, adaptation, memory, recognition
+- Meaning, significance, interpretation, representation
+- Agency, autonomy, self-organization (beyond structural description)
+- Evolution, emergence (beyond structural pattern description)
+- Intelligence, wisdom, knowledge
+- Identity, self, personality, character
+
+## PROHIBITED CONCEPTS
+- Universality as "truth" or "fundamental law"
+- Scale-invariance as "timeless" or "eternal"
+- Renormalization as "simplification" or "abstraction"
+- Attractor universality as "destiny" or "inevitability"
+- Perturbation universality as "universal vulnerability"
+- Resilience scaling as "universal strength"
+- Scale-independent organization as "perfect design"
+
+## REQUIRED LANGUAGE
+- Structural, geometric, topological, algebraic
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 378 analyzes recursive universality and scale-independent organization as structural patterns in recursive computational systems. All descriptions must remain strictly mathematical and geometric.

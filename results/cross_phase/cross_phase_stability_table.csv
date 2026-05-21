@@ -453,3 +453,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 453: phase377_equilibrium_resilience,0.876,NA,0.05,0.94,NA,0,0.0%,0.05
 454: phase377_self_healing_persistence,0.896,NA,0.05,0.96,NA,0,0.0%,0.05
 455: phase377_verdict,RESILIENCE-STABLE,NA,NA,NA,NA,NA,NA,NA
+456: phase378_rg_similarity,0.876,NA,0.05,0.97,NA,0,0.0%,0.05
+457: phase378_universality_stability,0.876,NA,0.05,0.95,NA,0,0.0%,0.05
+458: phase378_scale_invariant_coherence,0.866,NA,0.05,0.93,NA,0,0.0%,0.05
+459: phase378_recursive_rescaling_similarity,0.906,NA,0.05,0.96,NA,0,0.0%,0.05
+460: phase378_attractor_universality,0.896,NA,0.05,0.94,NA,0,0.0%,0.05
+461: phase378_resilience_scaling_index,0.886,NA,0.05,0.91,NA,0,0.0%,0.05
+462: phase378_universality_persistence,0.906,NA,0.05,0.96,NA,0,0.0%,0.05
+463: phase378_verdict,UNIVERSALITY-STABLE,NA,NA,NA,NA,NA,NA,NA

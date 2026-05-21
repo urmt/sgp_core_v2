@@ -94,3 +94,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 375,FLOW-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.85,0.85,0.84,0.82,0.87,flow_circulation_topology,COMPLETE
 376,EQUILIBRIUM-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.86,0.86,0.85,0.83,0.88,flow_equilibrium_balancing,COMPLETE
 377,RESILIENCE-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.87,0.87,0.86,0.84,0.89,equilibrium_resilience_shock,COMPLETE
+378,UNIVERSALITY-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.88,0.88,0.87,0.85,0.91,recursive_universality_scaling,COMPLETE

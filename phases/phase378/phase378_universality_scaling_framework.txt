@@ -1,0 +1,57 @@
+# Phase 378 Framework: Recursive Universality and Scale-Independent Organization
+
+## Purpose
+Determine whether deeply stabilized recursive organizational systems converge toward universal scale-independent organizational behavior.
+
+## Structure
+
+### 1. Scale-Rescaling Invariance
+- Apply recursive rescaling transformations
+- Measure universality stability (US)
+- Identify scale-invariant patterns
+
+### 2. Universality Class Extraction
+- Extract universality classes from organizational behavior
+- Measure scale-invariant coherence (SIC)
+- Identify universal organizational archetypes
+
+### 3. Recursive Renormalization Analysis
+- Apply recursive renormalization procedures
+- Measure recursive rescaling similarity (RRS)
+- Identify renormalization fixed points
+
+### 4. Attractor Topology Scaling
+- Track attractor topology under scale transformation
+- Measure attractor universality (AU)
+- Identify scale-invariant topological forms
+
+### 5. Perturbation Universality Testing
+- Apply perturbations across scales
+- Measure cross-scale perturbation response
+- Identify universal perturbation signatures
+
+### 6. Resilience Scaling Persistence
+- Track resilience under scale transformation
+- Measure resilience scaling index (RSI)
+- Identify scale-independent resilience patterns
+
+### 7. Null Universality Controls
+- Randomized universality baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- universality_stability (US)
+- scale_invariant_coherence (SIC)
+- recursive_rescaling_similarity (RRS)
+- attractor_universality (AU)
+- resilience_scaling_index (RSI)
+- rg_similarity (RGS)
+- universality_persistence (UP)
+
+## Classification Thresholds
+- UNIVERSALITY-STABLE: US > 0.80, SIC > 0.80, RRS > 0.75
+- UNIVERSALITY-BOUNDED: US > 0.70, SIC > 0.70, RRS > 0.65
+- UNIVERSALITY-PARTIAL: US > 0.60, SIC > 0.60, RRS > 0.55
+- UNIVERSALITY-DEGRADING: US > 0.45
+- UNIVERSALITY-FAILED: US <= 0.45
