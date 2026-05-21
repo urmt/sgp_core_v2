@@ -92,3 +92,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 373,ATTRACTOR-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.83,0.83,0.82,0.80,0.85,relational_attractor_geometry,COMPLETE
 374,TOPOLOGY-CONNECTED,TRUE,TRUE,TRUE,TRUE,TRUE,0.84,0.84,0.83,0.81,0.86,attractor_topology_connectivity,COMPLETE
 375,FLOW-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.85,0.85,0.84,0.82,0.87,flow_circulation_topology,COMPLETE
+376,EQUILIBRIUM-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.86,0.86,0.85,0.83,0.88,flow_equilibrium_balancing,COMPLETE

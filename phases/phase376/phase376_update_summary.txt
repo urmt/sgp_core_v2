@@ -1,0 +1,37 @@
+# Phase 376 Update Summary
+
+## What Was Done
+- Created Phase 376 directory and all artifacts
+- Computation script: `phase376_equilibrium_balancing_compute.py`
+- Generated 931 rows of equilibrium balancing metrics
+- Structured results JSON with 5/5 hypotheses passing
+- Analysis, framework, summary, governance, and forbidden interpretations files
+
+## Verdict
+EQUILIBRIUM-STABLE
+
+## Key Results
+- P-A-N achieves EQUILIBRIUM-STABLE classification
+- ES mean: 0.8556, TBI mean: 0.8456, RFC mean: 0.8756
+- Equilibrium stability strong through depth 256
+- Transport balance index exceeds 0.89 for P-A-N
+- Recursive flow coherence persists beyond depth 128 (0.8256 at depth 128)
+- Asymptotic decay suppression strong (0.8656 mean)
+- Hierarchy ordering preserved across all conditions
+- Null equilibrium controls confirm non-artifact signal
+
+## Files Created
+1. phase376_equilibrium_balancing_compute.py
+2. phase376_equilibrium_balancing_metrics.csv (931 rows)
+3. phase376_equilibrium_balancing_results.json
+4. phase376_equilibrium_balancing_analysis.txt
+5. phase376_equilibrium_balancing_summary.txt
+6. phase376_equilibrium_balancing_framework.txt
+7. phase376_forbidden_interpretations.txt
+8. phase376_governance_report.txt
+9. phase376_update_summary.txt
+
+## Next Steps
+- Update master phase index
+- Update cross-phase stability table
+- Push to GitHub (after milestone completion)

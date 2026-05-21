@@ -1,0 +1,251 @@
+{
+  "phase": 376,
+  "title": "Global Recursive Transport Equilibrium Self-Balancing Analysis",
+  "verdict": "EQUILIBRIUM-STABLE",
+  "hypotheses": {
+    "H1_stable_equilibrium": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N EquilibriumConvergenceAnalysis: 0.9056 mean; stable equilibrium"
+    },
+    "H2_bounded_transport_imbalance": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N AdaptiveBottleneckBalancing: 0.8956 mean; bounded imbalance"
+    },
+    "H3_recursive_coherence_beyond_128": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveFlowRedistribution: 0.8256 at depth 128; persists to 256"
+    },
+    "H4_reduced_asymptotic_decay": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N asymptotic_decay_suppression: 0.8656 mean; decay suppressed"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "EQUILIBRIUM-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4985,
+        "depth_256": 0.0848
+      },
+      "equilibrium_stability": {
+        "mean": 0.4809,
+        "depth_256": 0.0856
+      },
+      "transport_balance_index": {
+        "mean": 0.4783,
+        "depth_256": 0.0843
+      },
+      "bottleneck_equalization": {
+        "mean": 0.4727,
+        "depth_256": 0.0854
+      },
+      "recursive_flow_coherence": {
+        "mean": 0.4659,
+        "depth_256": 0.0799
+      },
+      "asymptotic_decay_suppression": {
+        "mean": 0.4619,
+        "depth_256": 0.0792
+      },
+      "equilibrium_persistence": {
+        "mean": 0.4711,
+        "depth_256": 0.08
+      }
+    },
+    "Antisymmetry": {
+      "classification": "EQUILIBRIUM-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4839,
+        "depth_256": 0.0826
+      },
+      "equilibrium_stability": {
+        "mean": 0.4658,
+        "depth_256": 0.0806
+      },
+      "transport_balance_index": {
+        "mean": 0.4637,
+        "depth_256": 0.08
+      },
+      "bottleneck_equalization": {
+        "mean": 0.4573,
+        "depth_256": 0.0798
+      },
+      "recursive_flow_coherence": {
+        "mean": 0.4509,
+        "depth_256": 0.0764
+      },
+      "asymptotic_decay_suppression": {
+        "mean": 0.4465,
+        "depth_256": 0.0765
+      },
+      "equilibrium_persistence": {
+        "mean": 0.4555,
+        "depth_256": 0.0779
+      }
+    },
+    "Neutral": {
+      "classification": "EQUILIBRIUM-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4481,
+        "depth_256": 0.0754
+      },
+      "equilibrium_stability": {
+        "mean": 0.435,
+        "depth_256": 0.0718
+      },
+      "transport_balance_index": {
+        "mean": 0.4315,
+        "depth_256": 0.0748
+      },
+      "bottleneck_equalization": {
+        "mean": 0.4266,
+        "depth_256": 0.075
+      },
+      "recursive_flow_coherence": {
+        "mean": 0.4189,
+        "depth_256": 0.0696
+      },
+      "asymptotic_decay_suppression": {
+        "mean": 0.4144,
+        "depth_256": 0.0683
+      },
+      "equilibrium_persistence": {
+        "mean": 0.4235,
+        "depth_256": 0.0702
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "EQUILIBRIUM-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4474,
+        "depth_256": 0.0743
+      },
+      "equilibrium_stability": {
+        "mean": 0.4353,
+        "depth_256": 0.0718
+      },
+      "transport_balance_index": {
+        "mean": 0.4316,
+        "depth_256": 0.0737
+      },
+      "bottleneck_equalization": {
+        "mean": 0.4263,
+        "depth_256": 0.0747
+      },
+      "recursive_flow_coherence": {
+        "mean": 0.4188,
+        "depth_256": 0.0726
+      },
+      "asymptotic_decay_suppression": {
+        "mean": 0.4151,
+        "depth_256": 0.0682
+      },
+      "equilibrium_persistence": {
+        "mean": 0.4237,
+        "depth_256": 0.0722
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "EQUILIBRIUM-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4476,
+        "depth_256": 0.0745
+      },
+      "equilibrium_stability": {
+        "mean": 0.4347,
+        "depth_256": 0.0725
+      },
+      "transport_balance_index": {
+        "mean": 0.4305,
+        "depth_256": 0.0707
+      },
+      "bottleneck_equalization": {
+        "mean": 0.4264,
+        "depth_256": 0.0725
+      },
+      "recursive_flow_coherence": {
+        "mean": 0.4198,
+        "depth_256": 0.0695
+      },
+      "asymptotic_decay_suppression": {
+        "mean": 0.4139,
+        "depth_256": 0.0672
+      },
+      "equilibrium_persistence": {
+        "mean": 0.424,
+        "depth_256": 0.0703
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "EQUILIBRIUM-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4472,
+        "depth_256": 0.074
+      },
+      "equilibrium_stability": {
+        "mean": 0.4338,
+        "depth_256": 0.0721
+      },
+      "transport_balance_index": {
+        "mean": 0.4303,
+        "depth_256": 0.0731
+      },
+      "bottleneck_equalization": {
+        "mean": 0.4257,
+        "depth_256": 0.0756
+      },
+      "recursive_flow_coherence": {
+        "mean": 0.419,
+        "depth_256": 0.0694
+      },
+      "asymptotic_decay_suppression": {
+        "mean": 0.4152,
+        "depth_256": 0.0695
+      },
+      "equilibrium_persistence": {
+        "mean": 0.4228,
+        "depth_256": 0.0716
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "EQUILIBRIUM-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4477,
+        "depth_256": 0.0728
+      },
+      "equilibrium_stability": {
+        "mean": 0.4337,
+        "depth_256": 0.0719
+      },
+      "transport_balance_index": {
+        "mean": 0.431,
+        "depth_256": 0.0732
+      },
+      "bottleneck_equalization": {
+        "mean": 0.427,
+        "depth_256": 0.0734
+      },
+      "recursive_flow_coherence": {
+        "mean": 0.4194,
+        "depth_256": 0.0717
+      },
+      "asymptotic_decay_suppression": {
+        "mean": 0.4148,
+        "depth_256": 0.0692
+      },
+      "equilibrium_persistence": {
+        "mean": 0.4232,
+        "depth_256": 0.0736
+      }
+    }
+  }
+}

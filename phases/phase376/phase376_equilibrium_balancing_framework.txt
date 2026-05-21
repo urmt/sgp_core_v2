@@ -1,0 +1,57 @@
+# Phase 376 Framework: Recursive Flow Equilibrium and Transport Balancing
+
+## Purpose
+Determine whether persistent recursive circulation systems can self-balance transport dynamics into stable long-horizon equilibrium regimes.
+
+## Structure
+
+### 1. Equilibrium Convergence Analysis
+- Track convergence toward equilibrium states
+- Measure equilibrium stability (ES)
+- Identify equilibrium convergence thresholds
+
+### 2. Adaptive Bottleneck Balancing
+- Track adaptive bottleneck equalization
+- Measure bottleneck equalization (BE)
+- Identify bottleneck self-regulation patterns
+
+### 3. Recursive Flow Redistribution
+- Track flow redistribution across topology
+- Measure recursive flow coherence (RFC)
+- Identify redistribution stability patterns
+
+### 4. Source/Sink Self-Correction
+- Track source/sink imbalance correction
+- Measure transport balance index (TBI)
+- Identify self-correction dynamics
+
+### 5. Transport Load Equalization
+- Track load distribution across transport pathways
+- Measure load equalization efficiency
+- Identify load balancing patterns
+
+### 6. Perturbation Equilibrium Recovery
+- Apply perturbations to disrupt equilibrium
+- Measure equilibrium recovery trajectories
+- Identify equilibrium resilience
+
+### 7. Null Equilibrium Controls
+- Randomized equilibrium baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- equilibrium_stability (ES)
+- transport_balance_index (TBI)
+- bottleneck_equalization (BE)
+- recursive_flow_coherence (RFC)
+- asymptotic_decay_suppression (ADS)
+- rg_similarity (RGS)
+- equilibrium_persistence (EP)
+
+## Classification Thresholds
+- EQUILIBRIUM-STABLE: ES > 0.75, TBI > 0.75, RFC > 0.70
+- EQUILIBRIUM-BOUNDED: ES > 0.65, TBI > 0.65, RFC > 0.60
+- EQUILIBRIUM-PARTIAL: ES > 0.55, TBI > 0.55, RFC > 0.50
+- EQUILIBRIUM-DEGRADING: ES > 0.40
+- EQUILIBRIUM-FAILED: ES <= 0.40

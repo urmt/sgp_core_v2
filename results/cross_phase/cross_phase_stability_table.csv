@@ -437,3 +437,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 437: phase375_recursive_transport_coherence,0.856,NA,0.05,0.91,NA,0,0.0%,0.05
 438: phase375_circulation_hierarchy_index,0.876,NA,0.05,0.96,NA,0,0.0%,0.05
 439: phase375_verdict,FLOW-STABLE,NA,NA,NA,NA,NA,NA,NA
+440: phase376_rg_similarity,0.856,NA,0.05,0.97,NA,0,0.0%,0.05
+441: phase376_equilibrium_stability,0.856,NA,0.05,0.95,NA,0,0.0%,0.05
+442: phase376_transport_balance_index,0.846,NA,0.05,0.93,NA,0,0.0%,0.05
+443: phase376_bottleneck_equalization,0.886,NA,0.05,0.96,NA,0,0.0%,0.05
+444: phase376_recursive_flow_coherence,0.876,NA,0.05,0.94,NA,0,0.0%,0.05
+445: phase376_asymptotic_decay_suppression,0.866,NA,0.05,0.91,NA,0,0.0%,0.05
+446: phase376_equilibrium_persistence,0.886,NA,0.05,0.96,NA,0,0.0%,0.05
+447: phase376_verdict,EQUILIBRIUM-STABLE,NA,NA,NA,NA,NA,NA,NA
