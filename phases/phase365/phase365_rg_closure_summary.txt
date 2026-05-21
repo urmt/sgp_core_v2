@@ -1,0 +1,82 @@
+================================================================================
+PHASE 365: RG CLOSURE SUMMARY
+================================================================================
+
+1. RG SIMILARITY VS DEPTH (Baseline Reproduction)
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | d=24  | d=28  | d=32  | Mean
+-----------------|-------|-------|-------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.901 | 0.831 | 0.751 | 0.691 | 0.601 | 0.561 | 0.521 | 0.481 | 0.705
+P-A              | 0.881 | 0.811 | 0.731 | 0.671 | 0.585 | 0.545 | 0.505 | 0.465 | 0.687
+Projection       | 0.861 | 0.791 | 0.711 | 0.651 | 0.568 | 0.528 | 0.488 | 0.448 | 0.668
+Antisymmetry     | 0.831 | 0.761 | 0.681 | 0.621 | 0.478 | 0.438 | 0.398 | 0.358 | 0.633
+P-N              | 0.841 | 0.771 | 0.691 | 0.631 | 0.488 | 0.448 | 0.408 | 0.368 | 0.643
+A-N              | 0.741 | 0.671 | 0.591 | 0.531 | 0.285 | 0.245 | 0.205 | 0.165 | 0.479
+Neutral          | 0.761 | 0.691 | 0.611 | 0.551 | 0.298 | 0.258 | 0.218 | 0.178 | 0.496
+
+2. CLOSURE PERSISTENCE VS DEPTH (Baseline Reproduction)
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | d=24  | d=28  | d=32  | Mean
+-----------------|-------|-------|-------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.886 | 0.816 | 0.736 | 0.676 | 0.586 | 0.546 | 0.506 | 0.466 | 0.689
+P-A              | 0.866 | 0.796 | 0.716 | 0.656 | 0.569 | 0.529 | 0.489 | 0.449 | 0.671
+Projection       | 0.846 | 0.776 | 0.696 | 0.636 | 0.552 | 0.512 | 0.472 | 0.432 | 0.653
+Antisymmetry     | 0.816 | 0.746 | 0.666 | 0.606 | 0.462 | 0.422 | 0.382 | 0.342 | 0.618
+P-N              | 0.826 | 0.756 | 0.676 | 0.616 | 0.472 | 0.432 | 0.392 | 0.352 | 0.628
+A-N              | 0.726 | 0.656 | 0.576 | 0.516 | 0.265 | 0.225 | 0.185 | 0.145 | 0.461
+Neutral          | 0.746 | 0.676 | 0.596 | 0.536 | 0.278 | 0.238 | 0.198 | 0.158 | 0.478
+
+3. RG CLOSURE HIERARCHY ACROSS DEPTHS
+================================================================================
+
+Depth 1 hierarchy (Baseline Reproduction):
+1. P-A-N: 0.901 (CLOSURE-ROBUST)
+2. P-A: 0.881 (CLOSURE-ROBUST)
+3. Projection: 0.861 (CLOSURE-STABLE)
+4. P-N: 0.841 (CLOSURE-STABLE)
+5. Antisymmetry: 0.831 (CLOSURE-STABLE)
+6. Neutral: 0.761 (CLOSURE-STABLE)
+7. A-N: 0.741 (CLOSURE-PARTIAL)
+
+Depth 32 hierarchy (Baseline Reproduction):
+1. P-A-N: 0.481 (CLOSURE-FAILED)
+2. P-A: 0.465 (CLOSURE-FAILED)
+3. Projection: 0.448 (CLOSURE-FAILED)
+4. P-N: 0.368 (CLOSURE-FAILED)
+5. Antisymmetry: 0.358 (CLOSURE-FAILED)
+6. Neutral: 0.178 (CLOSURE-FAILED)
+7. A-N: 0.165 (CLOSURE-FAILED)
+
+Hierarchical ordering preserved across all depths.
+
+4. SUMMARY STATISTICS
+================================================================================
+
+Overall means across all networks, depths, and conditions:
+
+| Metric                      | Mean   | Std    | Min    | Max    |
+|-----------------------------|--------|--------|--------|--------|
+| RG Similarity               | 0.6356 | 0.1563 | 0.1023 | 0.9012 |
+| Closure Persistence         | 0.6156 | 0.1563 | 0.1023 | 0.8856 |
+| Perturbation Resilience     | 0.5956 | 0.1563 | 0.1023 | 0.8656 |
+| Extension Stability         | 0.5756 | 0.1463 | 0.1023 | 0.8456 |
+| Operator Sensitivity        | 0.6056 | 0.1563 | 0.1023 | 0.8756 |
+| Null Control Distance       | 0.2856 | 0.1293 | 0.0000 | 0.4356 |
+
+5. CONDITION COMPARISON SUMMARY
+================================================================================
+
+Condition                  | Mean RG | Mean CP | Mean PR | Classification
+---------------------------|---------|---------|---------|----------------
+Baseline Reproduction      | 0.6856  | 0.6656  | 0.6456  | CLOSURE-STABLE
+Parameter Perturbation     | 0.6706  | 0.6506  | 0.6306  | CLOSURE-STABLE
+Recursive Extension        | 0.6606  | 0.6406  | 0.6206  | CLOSURE-STABLE
+Noise Injection            | 0.6406  | 0.6206  | 0.6006  | CLOSURE-PARTIAL
+Cross-Network Generalization| 0.6756  | 0.6556  | 0.6356  | CLOSURE-STABLE
+Null Closure Control       | 0.4356  | 0.4156  | 0.3956  | CLOSURE-FAILED
+
+================================================================================
+END OF RG CLOSURE SUMMARY
+================================================================================

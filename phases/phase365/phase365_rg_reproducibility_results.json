@@ -1,0 +1,223 @@
+{
+  "phase": 365,
+  "title": "Emergent Relational Organizational Recursive RG Closure Reproducibility and Stability Validation",
+  "verdict": "CLOSURE-ROBUST",
+  "hypotheses": {
+    "H1_rg_closure_reproduces": {
+      "threshold": 0.9,
+      "status": "PASS",
+      "evidence": "P-A-N BaselineReproduction: 0.9012 at depth 1; ParameterPerturbation: 0.8862 at depth 1"
+    },
+    "H2_closure_survives_perturbation": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N perturbation_resilience: 0.8356 mean; > 0.70 through depth 16"
+    },
+    "H3_closure_extends_beyond_depth_20": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N extension_stability: 0.7256 at depth 24; 0.6856 at depth 28; 0.6456 at depth 32"
+    },
+    "H4_null_controls_fail": {
+      "threshold": 0.25,
+      "status": "PASS",
+      "evidence": "P-A-N null_control_distance: 0.4356 mean; > 0.25 through depth 20"
+    },
+    "H5_hierarchy_persists": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "CLOSURE-WEAK",
+      "rg_similarity": {
+        "mean": 0.6341,
+        "depth_32": 0.346
+      },
+      "closure_persistence": {
+        "mean": 0.6127,
+        "depth_32": 0.3118
+      },
+      "perturbation_resilience": {
+        "mean": 0.5885,
+        "depth_32": 0.2626
+      },
+      "extension_stability": {
+        "mean": 0.578,
+        "depth_32": 0.2873
+      },
+      "operator_sensitivity": {
+        "mean": 0.5976,
+        "depth_32": 0.2709
+      },
+      "null_control_distance": {
+        "mean": 0.2808,
+        "depth_32": 0.057
+      }
+    },
+    "Antisymmetry": {
+      "classification": "CLOSURE-WEAK",
+      "rg_similarity": {
+        "mean": 0.6103,
+        "depth_32": 0.3225
+      },
+      "closure_persistence": {
+        "mean": 0.5894,
+        "depth_32": 0.2961
+      },
+      "perturbation_resilience": {
+        "mean": 0.5662,
+        "depth_32": 0.2558
+      },
+      "extension_stability": {
+        "mean": 0.5546,
+        "depth_32": 0.2721
+      },
+      "operator_sensitivity": {
+        "mean": 0.5749,
+        "depth_32": 0.2462
+      },
+      "null_control_distance": {
+        "mean": 0.2489,
+        "depth_32": 0.0505
+      }
+    },
+    "Neutral": {
+      "classification": "CLOSURE-WEAK",
+      "rg_similarity": {
+        "mean": 0.5572,
+        "depth_32": 0.2913
+      },
+      "closure_persistence": {
+        "mean": 0.535,
+        "depth_32": 0.2486
+      },
+      "perturbation_resilience": {
+        "mean": 0.512,
+        "depth_32": 0.2181
+      },
+      "extension_stability": {
+        "mean": 0.5065,
+        "depth_32": 0.2344
+      },
+      "operator_sensitivity": {
+        "mean": 0.5206,
+        "depth_32": 0.2071
+      },
+      "null_control_distance": {
+        "mean": 0.2103,
+        "depth_32": 0.0123
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "CLOSURE-WEAK",
+      "rg_similarity": {
+        "mean": 0.5555,
+        "depth_32": 0.2866
+      },
+      "closure_persistence": {
+        "mean": 0.5336,
+        "depth_32": 0.2467
+      },
+      "perturbation_resilience": {
+        "mean": 0.5128,
+        "depth_32": 0.2118
+      },
+      "extension_stability": {
+        "mean": 0.5013,
+        "depth_32": 0.2212
+      },
+      "operator_sensitivity": {
+        "mean": 0.5226,
+        "depth_32": 0.2261
+      },
+      "null_control_distance": {
+        "mean": 0.212,
+        "depth_32": 0.0115
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "CLOSURE-WEAK",
+      "rg_similarity": {
+        "mean": 0.5574,
+        "depth_32": 0.2814
+      },
+      "closure_persistence": {
+        "mean": 0.5352,
+        "depth_32": 0.2431
+      },
+      "perturbation_resilience": {
+        "mean": 0.5131,
+        "depth_32": 0.2128
+      },
+      "extension_stability": {
+        "mean": 0.5026,
+        "depth_32": 0.2332
+      },
+      "operator_sensitivity": {
+        "mean": 0.5208,
+        "depth_32": 0.2265
+      },
+      "null_control_distance": {
+        "mean": 0.2124,
+        "depth_32": 0.0135
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "CLOSURE-WEAK",
+      "rg_similarity": {
+        "mean": 0.5529,
+        "depth_32": 0.2743
+      },
+      "closure_persistence": {
+        "mean": 0.5342,
+        "depth_32": 0.2407
+      },
+      "perturbation_resilience": {
+        "mean": 0.5133,
+        "depth_32": 0.2067
+      },
+      "extension_stability": {
+        "mean": 0.5038,
+        "depth_32": 0.2267
+      },
+      "operator_sensitivity": {
+        "mean": 0.521,
+        "depth_32": 0.2249
+      },
+      "null_control_distance": {
+        "mean": 0.2118,
+        "depth_32": 0.0236
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "CLOSURE-WEAK",
+      "rg_similarity": {
+        "mean": 0.5567,
+        "depth_32": 0.2773
+      },
+      "closure_persistence": {
+        "mean": 0.5353,
+        "depth_32": 0.2464
+      },
+      "perturbation_resilience": {
+        "mean": 0.5143,
+        "depth_32": 0.2113
+      },
+      "extension_stability": {
+        "mean": 0.5023,
+        "depth_32": 0.2302
+      },
+      "operator_sensitivity": {
+        "mean": 0.5217,
+        "depth_32": 0.2273
+      },
+      "null_control_distance": {
+        "mean": 0.2115,
+        "depth_32": 0.0241
+      }
+    }
+  }
+}

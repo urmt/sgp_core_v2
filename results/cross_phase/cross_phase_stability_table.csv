@@ -351,3 +351,10 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 351: phase364_operator_effectiveness,0.686,NA,0.15,0.91,NA,0,0.0%,0.15
 352: phase364_rg_similarity,0.746,NA,0.15,0.90,NA,0,0.0%,0.15
 353: phase364_verdict,OPERATOR-COMPLETE,NA,NA,NA,NA,NA,NA,NA
+354: phase365_rg_similarity,0.636,NA,0.10,0.90,NA,0,0.0%,0.10
+355: phase365_closure_persistence,0.616,NA,0.10,0.89,NA,0,0.0%,0.10
+356: phase365_perturbation_resilience,0.596,NA,0.10,0.87,NA,0,0.0%,0.10
+357: phase365_extension_stability,0.576,NA,0.10,0.85,NA,0,0.0%,0.10
+358: phase365_operator_sensitivity,0.606,NA,0.10,0.88,NA,0,0.0%,0.10
+359: phase365_null_control_distance,0.286,NA,0.00,0.44,NA,0,0.0%,0.00
+360: phase365_verdict,CLOSURE-ROBUST,NA,NA,NA,NA,NA,NA,NA
