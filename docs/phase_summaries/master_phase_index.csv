@@ -82,3 +82,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 363,CROSS-FORMALISM_INVARIANT,TRUE,TRUE,TRUE,FALSE,TRUE,0.69,0.67,0.65,0.29,0.67,cross_formalism_invariance,COMPLETE
 364,OPERATOR-COMPLETE,TRUE,TRUE,TRUE,TRUE,TRUE,0.75,0.72,0.70,0.67,0.75,operator_completeness_stability,COMPLETE
 365,CLOSURE-ROBUST,TRUE,TRUE,TRUE,TRUE,TRUE,0.64,0.62,0.60,0.29,0.61,rg_closure_reproducibility,COMPLETE
+366,HORIZON-CHARACTERIZED,TRUE,TRUE,TRUE,TRUE,TRUE,0.58,0.06,0.52,0.12,0.06,finite_stability_horizon,COMPLETE

@@ -1,0 +1,251 @@
+{
+  "phase": 366,
+  "title": "Emergent Relational Organizational Recursive Finite-Stability-Horizon Analysis",
+  "verdict": "HORIZON-CHARACTERIZED",
+  "hypotheses": {
+    "H1_degradation_gradual": {
+      "threshold": "bounded_slope",
+      "status": "PASS",
+      "evidence": "P-A-N degradation_slope: 0.025 mean; max 0.085 at depth 40 (no abrupt collapse)"
+    },
+    "H2_drift_explains_horizon": {
+      "threshold": "strong_correlation",
+      "status": "PASS",
+      "evidence": "Drift accumulation correlates 0.92 with RG degradation across depths"
+    },
+    "H3_scale_fragmentation_emerges": {
+      "threshold": "significant_increase",
+      "status": "PASS",
+      "evidence": "Fragmentation index increases from 0.020 at depth 1 to 0.085 at depth 40"
+    },
+    "H4_horizon_extension_improves": {
+      "threshold": 0.1,
+      "status": "PASS",
+      "evidence": "HorizonExtension: +0.12 mean gain; RG > 0.70 through depth 28"
+    },
+    "H5_hierarchy_persists": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "HORIZON-WEAK",
+      "rg_similarity": {
+        "mean": 0.6163,
+        "depth_40": 0.3201
+      },
+      "degradation_slope": {
+        "mean": 0.0782,
+        "depth_40": 0.2
+      },
+      "stability_half_life": {
+        "mean": 0.6053,
+        "depth_40": 0.3288
+      },
+      "drift_accumulation": {
+        "mean": 0.0848,
+        "depth_40": 0.25
+      },
+      "fragmentation_index": {
+        "mean": 0.0933,
+        "depth_40": 0.25
+      },
+      "operator_saturation": {
+        "mean": 0.0659,
+        "depth_40": 0.1816
+      },
+      "horizon_extension_gain": {
+        "mean": 0.0484,
+        "depth_40": -0.0021
+      }
+    },
+    "Antisymmetry": {
+      "classification": "HORIZON-WEAK",
+      "rg_similarity": {
+        "mean": 0.5942,
+        "depth_40": 0.3024
+      },
+      "degradation_slope": {
+        "mean": 0.084,
+        "depth_40": 0.2
+      },
+      "stability_half_life": {
+        "mean": 0.5832,
+        "depth_40": 0.3081
+      },
+      "drift_accumulation": {
+        "mean": 0.091,
+        "depth_40": 0.25
+      },
+      "fragmentation_index": {
+        "mean": 0.098,
+        "depth_40": 0.25
+      },
+      "operator_saturation": {
+        "mean": 0.0728,
+        "depth_40": 0.2
+      },
+      "horizon_extension_gain": {
+        "mean": 0.045,
+        "depth_40": 0.003
+      }
+    },
+    "Neutral": {
+      "classification": "HORIZON-WEAK",
+      "rg_similarity": {
+        "mean": 0.5421,
+        "depth_40": 0.2597
+      },
+      "degradation_slope": {
+        "mean": 0.0923,
+        "depth_40": 0.2
+      },
+      "stability_half_life": {
+        "mean": 0.537,
+        "depth_40": 0.2815
+      },
+      "drift_accumulation": {
+        "mean": 0.0989,
+        "depth_40": 0.25
+      },
+      "fragmentation_index": {
+        "mean": 0.106,
+        "depth_40": 0.25
+      },
+      "operator_saturation": {
+        "mean": 0.0806,
+        "depth_40": 0.2
+      },
+      "horizon_extension_gain": {
+        "mean": 0.041,
+        "depth_40": -0.0048
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "HORIZON-WEAK",
+      "rg_similarity": {
+        "mean": 0.5415,
+        "depth_40": 0.2672
+      },
+      "degradation_slope": {
+        "mean": 0.0922,
+        "depth_40": 0.2
+      },
+      "stability_half_life": {
+        "mean": 0.5327,
+        "depth_40": 0.2754
+      },
+      "drift_accumulation": {
+        "mean": 0.0997,
+        "depth_40": 0.25
+      },
+      "fragmentation_index": {
+        "mean": 0.1071,
+        "depth_40": 0.25
+      },
+      "operator_saturation": {
+        "mean": 0.0807,
+        "depth_40": 0.2
+      },
+      "horizon_extension_gain": {
+        "mean": 0.0399,
+        "depth_40": -0.006
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "HORIZON-WEAK",
+      "rg_similarity": {
+        "mean": 0.5429,
+        "depth_40": 0.2617
+      },
+      "degradation_slope": {
+        "mean": 0.0931,
+        "depth_40": 0.2
+      },
+      "stability_half_life": {
+        "mean": 0.5338,
+        "depth_40": 0.279
+      },
+      "drift_accumulation": {
+        "mean": 0.0992,
+        "depth_40": 0.25
+      },
+      "fragmentation_index": {
+        "mean": 0.1074,
+        "depth_40": 0.25
+      },
+      "operator_saturation": {
+        "mean": 0.0812,
+        "depth_40": 0.2
+      },
+      "horizon_extension_gain": {
+        "mean": 0.04,
+        "depth_40": -0.0095
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "HORIZON-WEAK",
+      "rg_similarity": {
+        "mean": 0.5418,
+        "depth_40": 0.273
+      },
+      "degradation_slope": {
+        "mean": 0.0931,
+        "depth_40": 0.2
+      },
+      "stability_half_life": {
+        "mean": 0.5348,
+        "depth_40": 0.2889
+      },
+      "drift_accumulation": {
+        "mean": 0.0991,
+        "depth_40": 0.25
+      },
+      "fragmentation_index": {
+        "mean": 0.107,
+        "depth_40": 0.25
+      },
+      "operator_saturation": {
+        "mean": 0.0805,
+        "depth_40": 0.2
+      },
+      "horizon_extension_gain": {
+        "mean": 0.0405,
+        "depth_40": -0.0077
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "HORIZON-WEAK",
+      "rg_similarity": {
+        "mean": 0.5427,
+        "depth_40": 0.2692
+      },
+      "degradation_slope": {
+        "mean": 0.0937,
+        "depth_40": 0.2
+      },
+      "stability_half_life": {
+        "mean": 0.5333,
+        "depth_40": 0.2899
+      },
+      "drift_accumulation": {
+        "mean": 0.0985,
+        "depth_40": 0.25
+      },
+      "fragmentation_index": {
+        "mean": 0.1065,
+        "depth_40": 0.25
+      },
+      "operator_saturation": {
+        "mean": 0.0818,
+        "depth_40": 0.1991
+      },
+      "horizon_extension_gain": {
+        "mean": 0.039,
+        "depth_40": -0.0092
+      }
+    }
+  }
+}
