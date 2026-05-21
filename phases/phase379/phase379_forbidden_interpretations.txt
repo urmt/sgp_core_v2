@@ -1,0 +1,30 @@
+# Phase 379 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Learning, adaptation, memory, recognition
+- Meaning, significance, interpretation, representation
+- Agency, autonomy, self-organization (beyond structural description)
+- Evolution, emergence (beyond structural pattern description)
+- Intelligence, wisdom, knowledge
+- Identity, self, personality, character
+
+## PROHIBITED CONCEPTS
+- Conservation as "protection" or "preservation" with intent
+- Invariant preservation as "memory" or "legacy"
+- Redistribution as "sharing" or "fairness"
+- Perturbation recovery as "healing" or "resilience"
+- Transport conservation as "delivery guarantee"
+- Attractor-linked conservation as "anchoring" or "grounding"
+- Scale-independent conservation as "eternal truth" or "universal law"
+
+## REQUIRED LANGUAGE
+- Structural, geometric, topological, algebraic
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 379 analyzes organizational conservation structure as structural patterns in recursive computational systems. All descriptions must remain strictly mathematical and geometric.

@@ -461,3 +461,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 461: phase378_resilience_scaling_index,0.886,NA,0.05,0.91,NA,0,0.0%,0.05
 462: phase378_universality_persistence,0.906,NA,0.05,0.96,NA,0,0.0%,0.05
 463: phase378_verdict,UNIVERSALITY-STABLE,NA,NA,NA,NA,NA,NA,NA
+464: phase379_rg_similarity,0.886,NA,0.05,0.97,NA,0,0.0%,0.05
+465: phase379_conservation_stability,0.886,NA,0.05,0.95,NA,0,0.0%,0.05
+466: phase379_invariant_preservation_index,0.876,NA,0.05,0.93,NA,0,0.0%,0.05
+467: phase379_redistribution_coherence,0.916,NA,0.05,0.96,NA,0,0.0%,0.05
+468: phase379_recursive_conservation_persistence,0.906,NA,0.05,0.94,NA,0,0.0%,0.05
+469: phase379_attractor_conservation_alignment,0.896,NA,0.05,0.91,NA,0,0.0%,0.05
+470: phase379_universality_conservation_score,0.916,NA,0.05,0.96,NA,0,0.0%,0.05
+471: phase379_verdict,CONSERVATION-STABLE,NA,NA,NA,NA,NA,NA,NA
