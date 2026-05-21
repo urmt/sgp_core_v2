@@ -1,0 +1,30 @@
+# Phase 373 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Learning, adaptation, memory, recognition
+- Meaning, significance, interpretation, representation
+- Agency, autonomy, self-organization (beyond structural description)
+- Evolution, emergence (beyond structural pattern description)
+- Intelligence, wisdom, knowledge
+- Identity, self, personality, character
+
+## PROHIBITED CONCEPTS
+- Attractors as "preferences" or "goals"
+- Basin formation as "attraction" with agency
+- Hysteresis as "memory" or "habit"
+- Collapse avoidance as "fear" or "protection"
+- Trajectory convergence as "intentional movement"
+- Perturbation recovery as "resilience" or "recovery"
+- Attractor persistence as "stability preference"
+
+## REQUIRED LANGUAGE
+- Structural, geometric, topological, algebraic
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 373 analyzes recursive relational attractor geometry as structural patterns in recursive computational systems. All descriptions must remain strictly mathematical and geometric.

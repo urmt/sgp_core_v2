@@ -1,0 +1,57 @@
+# Phase 373 Framework: Recursive Relational Attractor Geometry
+
+## Purpose
+Determine whether invariant relational classes and their transition pathways converge toward stable higher-order attractor geometries.
+
+## Structure
+
+### 1. Attractor Basin Mapping
+- Identify attractor basins in relational class space
+- Map basin boundaries and volumes
+- Measure attractor convergence (AC)
+
+### 2. Recursive Trajectory Convergence
+- Track recursive trajectories toward attractors
+- Measure convergence rate and stability
+- Identify convergence thresholds
+
+### 3. Hysteresis Analysis
+- Measure hysteresis in attractor transitions
+- Identify reversible vs. irreversible transitions
+- Quantify hysteresis gap (HG)
+
+### 4. Collapse Avoidance Dynamics
+- Map collapse pathways relative to attractor basins
+- Measure collapse avoidance index (CAI)
+- Identify attractor shielding effects
+
+### 5. Attractor Persistence Tracking
+- Track attractor stability across recursive depths
+- Measure attractor persistence (AP)
+- Identify attractor degradation patterns
+
+### 6. Perturbation Displacement Recovery
+- Apply perturbations to displace from attractors
+- Measure recovery trajectories
+- Identify basin depth and resilience
+
+### 7. Null Attractor Controls
+- Randomized attractor baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- attractor_convergence (AC)
+- basin_stability (BS)
+- hysteresis_gap (HG)
+- trajectory_coherence (TC)
+- collapse_avoidance_index (CAI)
+- rg_similarity (RGS)
+- attractor_persistence (AP)
+
+## Classification Thresholds
+- ATTRACTOR-STABLE: AC > 0.75, BS > 0.75, CAI > 0.75
+- ATTRACTOR-BOUNDED: AC > 0.65, BS > 0.65, CAI > 0.65
+- ATTRACTOR-PARTIAL: AC > 0.55, BS > 0.55, CAI > 0.55
+- ATTRACTOR-DEGRADING: AC > 0.40
+- ATTRACTOR-FAILED: AC <= 0.40

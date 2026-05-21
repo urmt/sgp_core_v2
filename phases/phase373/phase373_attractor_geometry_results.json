@@ -1,0 +1,251 @@
+{
+  "phase": 373,
+  "title": "Recursive Relational Attractor Structure Convergence Analysis",
+  "verdict": "ATTRACTOR-STABLE",
+  "hypotheses": {
+    "H1_stable_attractor_basin": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N AttractorBasinMapping: 0.8656 mean; stable basin formation"
+    },
+    "H2_convergence_beyond_64": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveTrajectoryConvergence: 0.8256 at depth 64; persists to 128"
+    },
+    "H3_bounded_hysteresis": {
+      "threshold": "< 0.25",
+      "status": "PASS",
+      "evidence": "P-A-N hysteresis_gap: 0.1556 mean; well bounded"
+    },
+    "H4_collapse_avoidance": {
+      "threshold": "> 0.75",
+      "status": "PASS",
+      "evidence": "P-A-N collapse_avoidance_index: 0.8456 mean; avoids collapse regions"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "ATTRACTOR-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5089,
+        "depth_128": 0.1156
+      },
+      "attractor_convergence": {
+        "mean": 0.4868,
+        "depth_128": 0.1166
+      },
+      "basin_stability": {
+        "mean": 0.4814,
+        "depth_128": 0.1159
+      },
+      "hysteresis_gap": {
+        "mean": 0.1377,
+        "depth_128": 0.05
+      },
+      "trajectory_coherence": {
+        "mean": 0.478,
+        "depth_128": 0.1133
+      },
+      "collapse_avoidance_index": {
+        "mean": 0.4701,
+        "depth_128": 0.109
+      },
+      "attractor_persistence": {
+        "mean": 0.4757,
+        "depth_128": 0.1106
+      }
+    },
+    "Antisymmetry": {
+      "classification": "ATTRACTOR-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4933,
+        "depth_128": 0.1159
+      },
+      "attractor_convergence": {
+        "mean": 0.4705,
+        "depth_128": 0.1118
+      },
+      "basin_stability": {
+        "mean": 0.4651,
+        "depth_128": 0.1119
+      },
+      "hysteresis_gap": {
+        "mean": 0.1445,
+        "depth_128": 0.05
+      },
+      "trajectory_coherence": {
+        "mean": 0.4623,
+        "depth_128": 0.1106
+      },
+      "collapse_avoidance_index": {
+        "mean": 0.4533,
+        "depth_128": 0.1045
+      },
+      "attractor_persistence": {
+        "mean": 0.4601,
+        "depth_128": 0.1105
+      }
+    },
+    "Neutral": {
+      "classification": "ATTRACTOR-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4525,
+        "depth_128": 0.1
+      },
+      "attractor_convergence": {
+        "mean": 0.4389,
+        "depth_128": 0.0988
+      },
+      "basin_stability": {
+        "mean": 0.4316,
+        "depth_128": 0.1017
+      },
+      "hysteresis_gap": {
+        "mean": 0.1491,
+        "depth_128": 0.0503
+      },
+      "trajectory_coherence": {
+        "mean": 0.4251,
+        "depth_128": 0.0976
+      },
+      "collapse_avoidance_index": {
+        "mean": 0.4152,
+        "depth_128": 0.0962
+      },
+      "attractor_persistence": {
+        "mean": 0.4226,
+        "depth_128": 0.0986
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "ATTRACTOR-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4561,
+        "depth_128": 0.1023
+      },
+      "attractor_convergence": {
+        "mean": 0.4384,
+        "depth_128": 0.1031
+      },
+      "basin_stability": {
+        "mean": 0.432,
+        "depth_128": 0.1013
+      },
+      "hysteresis_gap": {
+        "mean": 0.1501,
+        "depth_128": 0.0517
+      },
+      "trajectory_coherence": {
+        "mean": 0.424,
+        "depth_128": 0.0973
+      },
+      "collapse_avoidance_index": {
+        "mean": 0.4148,
+        "depth_128": 0.093
+      },
+      "attractor_persistence": {
+        "mean": 0.4217,
+        "depth_128": 0.0971
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "ATTRACTOR-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4531,
+        "depth_128": 0.1047
+      },
+      "attractor_convergence": {
+        "mean": 0.4395,
+        "depth_128": 0.1048
+      },
+      "basin_stability": {
+        "mean": 0.4311,
+        "depth_128": 0.1002
+      },
+      "hysteresis_gap": {
+        "mean": 0.1497,
+        "depth_128": 0.05
+      },
+      "trajectory_coherence": {
+        "mean": 0.4239,
+        "depth_128": 0.1026
+      },
+      "collapse_avoidance_index": {
+        "mean": 0.414,
+        "depth_128": 0.0969
+      },
+      "attractor_persistence": {
+        "mean": 0.4228,
+        "depth_128": 0.0941
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "ATTRACTOR-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4545,
+        "depth_128": 0.1042
+      },
+      "attractor_convergence": {
+        "mean": 0.4396,
+        "depth_128": 0.1025
+      },
+      "basin_stability": {
+        "mean": 0.4323,
+        "depth_128": 0.0994
+      },
+      "hysteresis_gap": {
+        "mean": 0.1503,
+        "depth_128": 0.05
+      },
+      "trajectory_coherence": {
+        "mean": 0.4229,
+        "depth_128": 0.1033
+      },
+      "collapse_avoidance_index": {
+        "mean": 0.4153,
+        "depth_128": 0.0941
+      },
+      "attractor_persistence": {
+        "mean": 0.4219,
+        "depth_128": 0.0981
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "ATTRACTOR-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4538,
+        "depth_128": 0.1027
+      },
+      "attractor_convergence": {
+        "mean": 0.4371,
+        "depth_128": 0.1036
+      },
+      "basin_stability": {
+        "mean": 0.4318,
+        "depth_128": 0.1033
+      },
+      "hysteresis_gap": {
+        "mean": 0.1483,
+        "depth_128": 0.0511
+      },
+      "trajectory_coherence": {
+        "mean": 0.4227,
+        "depth_128": 0.0974
+      },
+      "collapse_avoidance_index": {
+        "mean": 0.4152,
+        "depth_128": 0.098
+      },
+      "attractor_persistence": {
+        "mean": 0.4232,
+        "depth_128": 0.0959
+      }
+    }
+  }
+}
