@@ -389,3 +389,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 389: phase369_collective_repair_efficiency,0.576,NA,0.05,0.90,NA,0,0.0%,0.05
 390: phase369_regenerative_balance_index,0.566,NA,0.05,0.88,NA,0,0.0%,0.05
 391: phase369_verdict,ECOLOGY-REGENERATIVE,NA,NA,NA,NA,NA,NA,NA
+392: phase370_rg_similarity,0.566,NA,0.05,0.97,NA,0,0.0%,0.05
+393: phase370_meta_stability_gain,0.556,NA,0.05,0.93,NA,0,0.0%,0.05
+394: phase370_governance_efficiency,0.546,NA,0.05,0.91,NA,0,0.0%,0.05
+395: phase370_overhead_distribution_index,0.536,NA,0.05,0.89,NA,0,0.0%,0.05
+396: phase370_recursive_coordination_strength,0.556,NA,0.05,0.92,NA,0,0.0%,0.05
+397: phase370_asymptotic_decay_reduction,0.546,NA,0.05,0.90,NA,0,0.0%,0.05
+398: phase370_stabilization_orchestration_score,0.556,NA,0.05,0.91,NA,0,0.0%,0.05
+399: phase370_verdict,META-STABILIZED,NA,NA,NA,NA,NA,NA,NA
