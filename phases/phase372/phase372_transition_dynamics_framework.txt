@@ -1,0 +1,57 @@
+# Phase 372 Framework: Relational-Class Transition Dynamics
+
+## Purpose
+Determine how invariant relational classes emerge, stabilize, transition, fragment, merge, and collapse across recursive organizational evolution.
+
+## Structure
+
+### 1. Transition Pathway Tracking
+- Track class transitions across recursive depths
+- Identify continuous vs. discrete transition patterns
+- Measure class transition stability (CTS)
+
+### 2. Class Bifurcation Analysis
+- Identify bifurcation points in class evolution
+- Measure bifurcation strength (BS)
+- Map bifurcation trees across depths
+
+### 3. Merge/Split Dynamics
+- Track class merging and splitting events
+- Measure merge coherence (MC)
+- Identify merge/split frequency patterns
+
+### 4. Recursive Class Evolution
+- Track class evolution through recursive application
+- Measure relational class persistence (RCP)
+- Identify evolutionary attractors
+
+### 5. Collapse Transition Mapping
+- Map collapse pathways across classes
+- Measure collapse predictability (CP)
+- Identify class-dependent collapse signatures
+
+### 6. Perturbation-Driven Migration
+- Apply perturbations to induce class migration
+- Track migration pathways
+- Measure migration stability
+
+### 7. Null Transition Controls
+- Randomized transition baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- class_transition_stability (CTS)
+- bifurcation_strength (BS)
+- merge_coherence (MC)
+- collapse_predictability (CP)
+- relational_class_persistence (RCP)
+- rg_similarity (RGS)
+- transition_entropy (TE)
+
+## Classification Thresholds
+- TRANSITION-STABLE: CTS > 0.75, MC > 0.75, RCP > 0.75
+- TRANSITION-BOUNDED: CTS > 0.65, MC > 0.65, RCP > 0.65
+- TRANSITION-PARTIAL: CTS > 0.55, MC > 0.55, RCP > 0.55
+- TRANSITION-DEGRADING: CTS > 0.40
+- TRANSITION-FAILED: CTS <= 0.40

@@ -1,0 +1,30 @@
+# Phase 372 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Learning, adaptation, memory, recognition
+- Meaning, significance, interpretation, representation
+- Agency, autonomy, self-organization (beyond structural description)
+- Evolution, emergence (beyond structural pattern description)
+- Intelligence, wisdom, knowledge
+- Identity, self, personality, character
+
+## PROHIBITED CONCEPTS
+- Class transitions as "decisions" or "choices"
+- Bifurcation as "branching paths" with agency
+- Merge/split as "social" or "cooperative" behavior
+- Collapse as "failure" with emotional valence
+- Perturbation migration as "escape" or "avoidance"
+- Transition entropy as "disorder" or "chaos"
+- Class attractors as "preferences" or "goals"
+
+## REQUIRED LANGUAGE
+- Structural, geometric, topological, algebraic
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 372 analyzes relational class transition dynamics as structural patterns in recursive computational systems. All descriptions must remain strictly mathematical and geometric.

@@ -88,3 +88,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 369,ECOLOGY-REGENERATIVE,TRUE,TRUE,TRUE,TRUE,TRUE,0.60,0.59,0.58,0.57,0.58,regenerative_ecology,COMPLETE
 370,META-STABILIZED,TRUE,TRUE,TRUE,TRUE,TRUE,0.57,0.56,0.55,0.54,0.56,meta_stabilization_network,COMPLETE
 371,INVARIANT-CLASS,TRUE,TRUE,TRUE,TRUE,TRUE,0.81,0.80,0.80,0.77,0.84,relational_invariant_class,COMPLETE
+372,TRANSITION-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.82,0.82,0.81,0.79,0.84,relational_class_transition,COMPLETE

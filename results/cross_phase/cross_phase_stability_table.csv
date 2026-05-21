@@ -405,3 +405,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 405: phase371_collapse_path_dependence,0.766,NA,0.05,0.90,NA,0,0.0%,0.05
 406: phase371_invariant_survival_rate,0.836,NA,0.05,0.94,NA,0,0.0%,0.05
 407: phase371_verdict,INVARIANT-CLASS,NA,NA,NA,NA,NA,NA,NA
+408: phase372_rg_similarity,0.816,NA,0.05,0.97,NA,0,0.0%,0.05
+409: phase372_class_transition_stability,0.816,NA,0.05,0.95,NA,0,0.0%,0.05
+410: phase372_bifurcation_strength,0.806,NA,0.05,0.93,NA,0,0.0%,0.05
+411: phase372_merge_coherence,0.856,NA,0.05,0.96,NA,0,0.0%,0.05
+412: phase372_collapse_predictability,0.796,NA,0.05,0.91,NA,0,0.0%,0.05
+413: phase372_relational_class_persistence,0.836,NA,0.05,0.94,NA,0,0.0%,0.05
+414: phase372_transition_entropy,0.126,NA,0.05,0.15,NA,0,0.0%,0.05
+415: phase372_verdict,TRANSITION-STABLE,NA,NA,NA,NA,NA,NA,NA
