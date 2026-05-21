@@ -366,3 +366,10 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 366: phase366_operator_saturation,0.046,NA,0.01,0.14,NA,0,0.0%,0.01
 367: phase366_horizon_extension_gain,0.038,NA,-0.05,0.17,NA,0,0.0%,-0.05
 368: phase366_verdict,HORIZON-CHARACTERIZED,NA,NA,NA,NA,NA,NA,NA
+369: phase367_rg_similarity,0.646,NA,0.05,0.97,NA,0,0.0%,0.05
+370: phase367_cross_scale_alignment,0.636,NA,0.05,0.96,NA,0,0.0%,0.05
+371: phase367_fragmentation_suppression,0.046,NA,0.01,0.17,NA,0,0.0%,0.01
+372: phase367_closure_extension_gain,0.046,NA,-0.05,0.13,NA,0,0.0%,-0.05
+373: phase367_drift_compensation_efficiency,0.636,NA,0.05,0.89,NA,0,0.0%,0.05
+374: phase367_recursive_coherence_retention,0.646,NA,0.05,0.90,NA,0,0.0%,0.05
+375: phase367_verdict,DRIFT-CORRECTED,NA,NA,NA,NA,NA,NA,NA
