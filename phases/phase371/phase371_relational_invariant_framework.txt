@@ -1,0 +1,57 @@
+# Phase 371 Framework: Relational-Invariant Class Analysis
+
+## Purpose
+Determine whether stable recursive organizational systems contain invariant relational classes that persist across operators, scales, ecologies, and meta-stabilization regimes.
+
+## Structure
+
+### 1. Relational Motif Extraction
+- Identify recurring relational patterns within each sector
+- Extract motif signatures from RG trajectories
+- Measure motif frequency and stability across depths
+
+### 2. Invariant Class Clustering
+- Cluster sectors by relational similarity
+- Identify invariant classes that persist across conditions
+- Measure cluster stability under perturbation
+
+### 3. Operator-Independent Pattern Analysis
+- Test whether patterns persist across operator types
+- Measure cross-operator similarity (COS)
+- Identify operator-independent archetypes
+
+### 4. Recursive Motif Persistence
+- Track motif survival through recursive application
+- Measure recursive relational coherence (RRC)
+- Identify motifs that survive recursion
+
+### 5. Perturbation Survival Testing
+- Apply perturbations to relational structures
+- Measure invariant survival rate (ISR)
+- Identify robust vs. fragile classes
+
+### 6. Collapse Pathway Classification
+- Classify collapse pathways by relational class
+- Measure collapse path dependence (CPD)
+- Identify class-dependent collapse signatures
+
+### 7. Null Invariant Controls
+- Randomized relational baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- invariant_class_stability (ICS)
+- motif_persistence (MP)
+- cross_operator_similarity (COS)
+- recursive_relational_coherence (RRC)
+- collapse_path_dependence (CPD)
+- rg_similarity (RGS)
+- invariant_survival_rate (ISR)
+
+## Classification Thresholds
+- INVARIANT-CLASS: ICS > 0.75, COS > 0.75, ISR > 0.75
+- RELATIONAL-STABLE: ICS > 0.65, COS > 0.65, ISR > 0.65
+- RELATIONAL-PARTIAL: ICS > 0.55, COS > 0.55, ISR > 0.55
+- RELATIONAL-DEGRADING: ICS > 0.40
+- RELATIONAL-FAILED: ICS <= 0.40

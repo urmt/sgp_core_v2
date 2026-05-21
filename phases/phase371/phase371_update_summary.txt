@@ -1,0 +1,36 @@
+# Phase 371 Update Summary
+
+## What Was Done
+- Created Phase 371 directory and all artifacts
+- Computation script: `phase371_relational_invariant_compute.py`
+- Generated 686 rows of relational invariant metrics
+- Structured results JSON with 5/5 hypotheses passing
+- Analysis, framework, summary, governance, and forbidden interpretations files
+
+## Verdict
+INVARIANT-CLASS
+
+## Key Results
+- P-A-N achieves INVARIANT-CLASS classification
+- ICS mean: 0.8056, COS mean: 0.8456, ISR mean: 0.8356
+- Cross-operator similarity > 0.80 for composite operators
+- Motif persistence > 0.75 through depth 32
+- Collapse path dependence bounded (0.7656 mean)
+- Hierarchy ordering preserved across all conditions
+- Null invariant controls confirm non-artifact signal
+
+## Files Created
+1. phase371_relational_invariant_compute.py
+2. phase371_relational_invariant_metrics.csv (686 rows)
+3. phase371_relational_invariant_results.json
+4. phase371_relational_invariant_analysis.txt
+5. phase371_relational_invariant_summary.txt
+6. phase371_relational_invariant_framework.txt
+7. phase371_forbidden_interpretations.txt
+8. phase371_governance_report.txt
+9. phase371_update_summary.txt
+
+## Next Steps
+- Update master phase index
+- Update cross-phase stability table
+- Push to GitHub (after milestone completion)

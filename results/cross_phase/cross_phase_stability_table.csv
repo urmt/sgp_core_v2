@@ -397,3 +397,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 397: phase370_asymptotic_decay_reduction,0.546,NA,0.05,0.90,NA,0,0.0%,0.05
 398: phase370_stabilization_orchestration_score,0.556,NA,0.05,0.91,NA,0,0.0%,0.05
 399: phase370_verdict,META-STABILIZED,NA,NA,NA,NA,NA,NA,NA
+400: phase371_rg_similarity,0.806,NA,0.05,0.97,NA,0,0.0%,0.05
+401: phase371_invariant_class_stability,0.806,NA,0.05,0.95,NA,0,0.0%,0.05
+402: phase371_motif_persistence,0.796,NA,0.05,0.93,NA,0,0.0%,0.05
+403: phase371_cross_operator_similarity,0.846,NA,0.05,0.96,NA,0,0.0%,0.05
+404: phase371_recursive_relational_coherence,0.776,NA,0.05,0.91,NA,0,0.0%,0.05
+405: phase371_collapse_path_dependence,0.766,NA,0.05,0.90,NA,0,0.0%,0.05
+406: phase371_invariant_survival_rate,0.836,NA,0.05,0.94,NA,0,0.0%,0.05
+407: phase371_verdict,INVARIANT-CLASS,NA,NA,NA,NA,NA,NA,NA

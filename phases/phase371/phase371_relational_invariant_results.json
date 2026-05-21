@@ -1,0 +1,251 @@
+{
+  "phase": 371,
+  "title": "Emergent Relational Organizational Recursive Relational-Invariant Class Analysis",
+  "verdict": "INVARIANT-CLASS",
+  "hypotheses": {
+    "H1_invariant_class_persistence": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N OperatorIndependentPattern: 0.8156 mean; > 0.75 through depth 24"
+    },
+    "H2_cross_operator_similarity": {
+      "threshold": 0.8,
+      "status": "PASS",
+      "evidence": "P-A-N OperatorIndependentPattern: 0.8456 mean; > 0.80 through depth 20"
+    },
+    "H3_stable_motif_recurrence": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveMotifPersistence: 0.7956 mean; motifs recur through depth 32"
+    },
+    "H4_bounded_collapse_variance": {
+      "threshold": 0.65,
+      "status": "PASS",
+      "evidence": "P-A-N collapse_path_dependence: 0.7656 mean; bounded variance across depths"
+    },
+    "H5_hierarchy_persists": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "RELATIONAL-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5003,
+        "depth_80": 0.136
+      },
+      "invariant_class_stability": {
+        "mean": 0.4823,
+        "depth_80": 0.133
+      },
+      "motif_persistence": {
+        "mean": 0.4712,
+        "depth_80": 0.1358
+      },
+      "cross_operator_similarity": {
+        "mean": 0.4786,
+        "depth_80": 0.1348
+      },
+      "recursive_relational_coherence": {
+        "mean": 0.4664,
+        "depth_80": 0.132
+      },
+      "collapse_path_dependence": {
+        "mean": 0.4605,
+        "depth_80": 0.135
+      },
+      "invariant_survival_rate": {
+        "mean": 0.4677,
+        "depth_80": 0.1291
+      }
+    },
+    "Antisymmetry": {
+      "classification": "RELATIONAL-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4837,
+        "depth_80": 0.1282
+      },
+      "invariant_class_stability": {
+        "mean": 0.4659,
+        "depth_80": 0.1281
+      },
+      "motif_persistence": {
+        "mean": 0.456,
+        "depth_80": 0.1297
+      },
+      "cross_operator_similarity": {
+        "mean": 0.4617,
+        "depth_80": 0.1231
+      },
+      "recursive_relational_coherence": {
+        "mean": 0.4507,
+        "depth_80": 0.1273
+      },
+      "collapse_path_dependence": {
+        "mean": 0.4454,
+        "depth_80": 0.131
+      },
+      "invariant_survival_rate": {
+        "mean": 0.4497,
+        "depth_80": 0.1247
+      }
+    },
+    "Neutral": {
+      "classification": "RELATIONAL-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4456,
+        "depth_80": 0.1185
+      },
+      "invariant_class_stability": {
+        "mean": 0.4339,
+        "depth_80": 0.1161
+      },
+      "motif_persistence": {
+        "mean": 0.4217,
+        "depth_80": 0.1192
+      },
+      "cross_operator_similarity": {
+        "mean": 0.4226,
+        "depth_80": 0.1103
+      },
+      "recursive_relational_coherence": {
+        "mean": 0.411,
+        "depth_80": 0.1115
+      },
+      "collapse_path_dependence": {
+        "mean": 0.406,
+        "depth_80": 0.1147
+      },
+      "invariant_survival_rate": {
+        "mean": 0.4126,
+        "depth_80": 0.1102
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "RELATIONAL-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.446,
+        "depth_80": 0.1194
+      },
+      "invariant_class_stability": {
+        "mean": 0.432,
+        "depth_80": 0.1134
+      },
+      "motif_persistence": {
+        "mean": 0.4218,
+        "depth_80": 0.1147
+      },
+      "cross_operator_similarity": {
+        "mean": 0.4222,
+        "depth_80": 0.1098
+      },
+      "recursive_relational_coherence": {
+        "mean": 0.4112,
+        "depth_80": 0.1144
+      },
+      "collapse_path_dependence": {
+        "mean": 0.4053,
+        "depth_80": 0.114
+      },
+      "invariant_survival_rate": {
+        "mean": 0.411,
+        "depth_80": 0.1103
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "RELATIONAL-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4454,
+        "depth_80": 0.1209
+      },
+      "invariant_class_stability": {
+        "mean": 0.433,
+        "depth_80": 0.1159
+      },
+      "motif_persistence": {
+        "mean": 0.4228,
+        "depth_80": 0.1146
+      },
+      "cross_operator_similarity": {
+        "mean": 0.4224,
+        "depth_80": 0.1101
+      },
+      "recursive_relational_coherence": {
+        "mean": 0.4104,
+        "depth_80": 0.1168
+      },
+      "collapse_path_dependence": {
+        "mean": 0.405,
+        "depth_80": 0.1164
+      },
+      "invariant_survival_rate": {
+        "mean": 0.4123,
+        "depth_80": 0.1089
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "RELATIONAL-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4451,
+        "depth_80": 0.121
+      },
+      "invariant_class_stability": {
+        "mean": 0.4326,
+        "depth_80": 0.1164
+      },
+      "motif_persistence": {
+        "mean": 0.4223,
+        "depth_80": 0.1179
+      },
+      "cross_operator_similarity": {
+        "mean": 0.4215,
+        "depth_80": 0.1165
+      },
+      "recursive_relational_coherence": {
+        "mean": 0.4114,
+        "depth_80": 0.1157
+      },
+      "collapse_path_dependence": {
+        "mean": 0.4048,
+        "depth_80": 0.1173
+      },
+      "invariant_survival_rate": {
+        "mean": 0.412,
+        "depth_80": 0.1124
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "RELATIONAL-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4463,
+        "depth_80": 0.118
+      },
+      "invariant_class_stability": {
+        "mean": 0.4319,
+        "depth_80": 0.1196
+      },
+      "motif_persistence": {
+        "mean": 0.4228,
+        "depth_80": 0.1136
+      },
+      "cross_operator_similarity": {
+        "mean": 0.423,
+        "depth_80": 0.1109
+      },
+      "recursive_relational_coherence": {
+        "mean": 0.4117,
+        "depth_80": 0.1107
+      },
+      "collapse_path_dependence": {
+        "mean": 0.4048,
+        "depth_80": 0.1158
+      },
+      "invariant_survival_rate": {
+        "mean": 0.4124,
+        "depth_80": 0.1095
+      }
+    }
+  }
+}

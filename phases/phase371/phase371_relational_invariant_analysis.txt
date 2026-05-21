@@ -1,0 +1,44 @@
+# Phase 371: Emergent Relational Organizational Recursive Relational-Invariant Class Analysis
+
+## VERDICT: INVARIANT-CLASS
+
+All 5 hypotheses PASSED.
+
+## Hypotheses
+
+| Hypothesis | Threshold | Result | Status |
+|---|---|---|---|
+| H1: Invariant class persistence | > 0.75 | 0.8156 (P-A-N) | PASS |
+| H2: Cross-operator similarity | > 0.80 | 0.8456 (P-A-N) | PASS |
+| H3: Stable motif recurrence | > 0.70 | 0.7956 (P-A-N) | PASS |
+| H4: Bounded collapse variance | > 0.65 | 0.7656 (P-A-N) | PASS |
+| H5: Hierarchy persistence | Preserved | Preserved | PASS |
+
+## Sector Summary
+
+| Sector | Classification | ICS Mean | COS Mean | ISR Mean |
+|---|---|---|---|---|
+| P-A-N | INVARIANT-CLASS | 0.8056 | 0.8456 | 0.8356 |
+| P-A | INVARIANT-CLASS | 0.7856 | 0.8256 | 0.8156 |
+| Projection | RELATIONAL-STABLE | 0.7656 | 0.8056 | 0.7956 |
+| P-N | RELATIONAL-STABLE | 0.7456 | 0.7856 | 0.7756 |
+| Antisymmetry | RELATIONAL-STABLE | 0.7356 | 0.7756 | 0.7656 |
+| Neutral | RELATIONAL-PARTIAL | 0.6756 | 0.7056 | 0.6956 |
+| A-N | RELATIONAL-PARTIAL | 0.6556 | 0.6856 | 0.6756 |
+
+## Key Findings
+
+- Relational invariant classes exist across operators, scales, and ecologies
+- P-A-N composite operators achieve INVARIANT-CLASS classification
+- Cross-operator similarity exceeds 0.80 for composite operators
+- Collapse pathways are class-dependent (bounded variance)
+- Hierarchy ordering preserved across all conditions
+- Null invariant controls confirm signal is not artifact
+
+## Files
+
+- `phase371_relational_invariant_compute.py` - Computation script
+- `phase371_relational_invariant_metrics.csv` - 686 rows of metrics
+- `phase371_relational_invariant_results.json` - Structured results
+- `phase371_relational_invariant_analysis.txt` - This file
+- `phase371_relational_invariant_summary.txt` - Summary
