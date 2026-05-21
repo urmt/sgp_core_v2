@@ -1,0 +1,241 @@
+# PHASE 345: RG CORRELATION STABILITY
+# Emergent Relational Recursive Correlation Structure
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG CORRELATION STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Recursive Organization
+
+================================================================================
+FINE-GRAINED CORRELATION METRICS
+================================================================================
+
+Fine-grained analysis reveals entity-specific correlation behavior:
+
+PROJECTION:
+- Fine correlation_strength: 0.8781
+- Fine synchronization_retention: 0.9113
+- Fine relational_drift: 0.1453
+- Fine perturbation_transfer: 0.8019
+- Fine recursive_correlation: 0.8655
+
+ANTISYMMETRY:
+- Fine correlation_strength: 0.7658
+- Fine synchronization_retention: 0.7958
+- Fine relational_drift: 0.2489
+- Fine perturbation_transfer: 0.7086
+- Fine recursive_correlation: 0.7441
+
+NEUTRAL:
+- Fine correlation_strength: 0.6461
+- Fine synchronization_retention: 0.6761
+- Fine relational_drift: 0.3835
+- Fine perturbation_transfer: 0.5520
+- Fine recursive_correlation: 0.6087
+
+PROJECTION-ANTISYMMETRY:
+- Fine correlation_strength: 0.7827
+- Fine synchronization_retention: 0.8094
+- Fine relational_drift: 0.2663
+- Fine perturbation_transfer: 0.7118
+- Fine recursive_correlation: 0.7604
+
+PROJECTION-NEUTRAL:
+- Fine correlation_strength: 0.6485
+- Fine synchronization_retention: 0.6763
+- Fine relational_drift: 0.3899
+- Fine perturbation_transfer: 0.5664
+- Fine recursive_correlation: 0.6327
+
+ANTISYMMETRY-NEUTRAL:
+- Fine correlation_strength: 0.5337
+- Fine synchronization_retention: 0.5614
+- Fine relational_drift: 0.5032
+- Fine perturbation_transfer: 0.4549
+- Fine recursive_correlation: 0.5085
+
+================================================================================
+COARSE-GRAINED CORRELATION METRICS
+================================================================================
+
+Coarse-graining produces entity-specific degradation:
+
+PROJECTION:
+- Coarse correlation: 0.8212
+- Coarse synchronization: 0.8545
+- Coarse drift: 0.1834
+- Coarse transfer: 0.7456
+- Coarse persistence: 0.8089
+
+ANTISYMMETRY:
+- Coarse correlation: 0.6989
+- Coarse synchronization: 0.7289
+- Coarse drift: 0.2878
+- Coarse transfer: 0.6323
+- Coarse persistence: 0.6778
+
+NEUTRAL:
+- Coarse correlation: 0.5789
+- Coarse synchronization: 0.6089
+- Coarse drift: 0.4217
+- Coarse transfer: 0.4789
+- Coarse persistence: 0.5412
+
+PROJECTION-ANTISYMMETRY:
+- Coarse correlation: 0.7156
+- Coarse synchronization: 0.7423
+- Coarse drift: 0.3045
+- Coarse transfer: 0.6456
+- Coarse persistence: 0.6934
+
+PROJECTION-NEUTRAL:
+- Coarse correlation: 0.5812
+- Coarse synchronization: 0.6090
+- Coarse drift: 0.4289
+- Coarse transfer: 0.4934
+- Coarse persistence: 0.5656
+
+ANTISYMMETRY-NEUTRAL:
+- Coarse correlation: 0.4678
+- Coarse synchronization: 0.4956
+- Coarse drift: 0.5412
+- Coarse transfer: 0.3878
+- Coarse persistence: 0.4412
+
+================================================================================
+RG SIMILARITY ANALYSIS
+================================================================================
+
+RG similarity measures correlation structure preservation:
+
+PROJECTION: 0.8466
+ANTISYMMETRY: 0.7141
+NEUTRAL: 0.5797
+PROJECTION-ANTISYMMETRY: 0.7559
+PROJECTION-NEUTRAL: 0.6139
+ANTISYMMETRY-NEUTRAL: 0.5085
+
+Mean RG similarity: 0.6698
+
+================================================================================
+CORRELATION PRESERVATION
+================================================================================
+
+Correlation strength preservation under coarse-graining:
+
+PROJECTION:
+- Fine: 0.8781, Coarse: 0.8212, Ratio: 0.935
+
+ANTISYMMETRY:
+- Fine: 0.7658, Coarse: 0.6989, Ratio: 0.913
+
+NEUTRAL:
+- Fine: 0.6461, Coarse: 0.5789, Ratio: 0.896
+
+PROJECTION-ANTISYMMETRY:
+- Fine: 0.7827, Coarse: 0.7156, Ratio: 0.914
+
+PROJECTION-NEUTRAL:
+- Fine: 0.6485, Coarse: 0.5812, Ratio: 0.896
+
+ANTISYMMETRY-NEUTRAL:
+- Fine: 0.5337, Coarse: 0.4678, Ratio: 0.876
+
+Mean preservation ratio: 0.905
+
+================================================================================
+SYNCHRONIZATION DEGRADATION
+================================================================================
+
+Synchronization under coarse-graining:
+
+PROJECTION:
+- Fine: 0.9113, Coarse: 0.8545, Ratio: 0.938
+
+ANTISYMMETRY:
+- Fine: 0.7958, Coarse: 0.7289, Ratio: 0.916
+
+NEUTRAL:
+- Fine: 0.6761, Coarse: 0.6089, Ratio: 0.901
+
+PROJECTION-ANTISYMMETRY:
+- Fine: 0.8094, Coarse: 0.7423, Ratio: 0.917
+
+PROJECTION-NEUTRAL:
+- Fine: 0.6763, Coarse: 0.6090, Ratio: 0.901
+
+ANTISYMMETRY-NEUTRAL:
+- Fine: 0.5614, Coarse: 0.4956, Ratio: 0.883
+
+Mean degradation ratio: 0.909
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.8466 (below threshold)
+- Antisymmetry: 0.7141 (below threshold)
+- Neutral: 0.5797 (below threshold)
+- Projection-Antisymmetry: 0.7559 (below threshold)
+- Projection-Neutral: 0.6139 (below threshold)
+- Antisymmetry-Neutral: 0.5085 (below threshold)
+
+Mean RG similarity: 0.6698 (below 0.90 threshold)
+
+This represents a FAIL for H4.
+
+================================================================================
+FINE VS COARSE CORRELATION COMPARISON
+================================================================================
+
+                        Fine      Coarse    Change
+PROJECTION
+  Correlation:         0.8781    0.8212    -6.5%
+  Synchronization:     0.9113    0.8545    -6.2%
+  Drift:              0.1453    0.1834    +26.2%
+  Transfer:          0.8019    0.7456    -7.0%
+  Persistence:        0.8655    0.8089    -6.5%
+  RG:               0.8466    0.8466    0.0%
+
+ANTISYMMETRY
+  Correlation:         0.7658    0.6989    -8.7%
+  Synchronization:     0.7958    0.7289    -8.4%
+  Drift:              0.2489    0.2878    +15.6%
+  Transfer:          0.7086    0.6323    -10.8%
+  Persistence:        0.7441    0.6778    -8.9%
+  RG:               0.7141    0.7141    0.0%
+
+NEUTRAL
+  Correlation:         0.6461    0.5789    -10.4%
+  Synchronization:     0.6761    0.6089    -9.9%
+  Drift:              0.3835    0.4217    +10.0%
+  Transfer:          0.5520    0.4789    -13.2%
+  Persistence:        0.6087    0.5412    -11.1%
+  RG:               0.5797    0.5797    0.0%
+
+Observation: RG similarity below threshold for all entities. All metrics
+degrade under coarse-graining (6-13%). Correlation structure insufficiently
+stable.
+
+================================================================================
+CONCLUSION
+================================================================================
+
+RG correlation stability analysis reveals:
+- Correlation structure degrades under coarse-graining
+- Correlation metrics degrade 6-11% at coarse scales
+- RG similarity below threshold (0.6698 < 0.90)
+- Classification shifts significantly (earlier collapse)
+- H4 FAIL
+
+The failure of H4 indicates that correlation structure lacks sufficient
+scale invariance. No entity achieves RG similarity above 0.90.
+
+================================================================================
+END OF RG CORRELATION STABILITY
+================================================================================

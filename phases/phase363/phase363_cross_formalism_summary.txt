@@ -1,0 +1,80 @@
+================================================================================
+PHASE 363: CROSS-FORMALISM SUMMARY
+================================================================================
+
+1. HIERARCHY CONSISTENCY VS DEPTH (Baseline Formalism)
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.896 | 0.826 | 0.746 | 0.686 | 0.586 | 0.786
+P-A              | 0.876 | 0.806 | 0.726 | 0.666 | 0.569 | 0.769
+Projection       | 0.856 | 0.786 | 0.706 | 0.646 | 0.552 | 0.749
+Antisymmetry     | 0.816 | 0.746 | 0.666 | 0.606 | 0.462 | 0.716
+P-N              | 0.826 | 0.756 | 0.676 | 0.616 | 0.476 | 0.726
+A-N              | 0.722 | 0.652 | 0.572 | 0.512 | 0.219 | 0.596
+Neutral          | 0.746 | 0.676 | 0.596 | 0.536 | 0.336 | 0.632
+
+2. STRUCTURAL OVERLAP VS DEPTH (Baseline Formalism)
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.846 | 0.776 | 0.696 | 0.636 | 0.486 | 0.746
+P-A              | 0.826 | 0.756 | 0.676 | 0.616 | 0.469 | 0.729
+Projection       | 0.806 | 0.736 | 0.656 | 0.596 | 0.452 | 0.709
+Antisymmetry     | 0.766 | 0.696 | 0.616 | 0.556 | 0.412 | 0.676
+P-N              | 0.776 | 0.706 | 0.626 | 0.566 | 0.426 | 0.686
+A-N              | 0.672 | 0.602 | 0.522 | 0.462 | 0.172 | 0.546
+Neutral          | 0.696 | 0.626 | 0.546 | 0.486 | 0.286 | 0.586
+
+3. CROSS-FORMALISM HIERARCHY ACROSS DEPTHS
+================================================================================
+
+Depth 1 hierarchy (Baseline):
+1. P-A-N: 0.896 (CROSS-FORMALISM_INVARIANT)
+2. P-A: 0.876 (CROSS-FORMALISM_INVARIANT)
+3. Projection: 0.856 (CROSS-FORMALISM_INVARIANT)
+4. P-N: 0.826 (FORMALISM-ROBUST)
+5. Antisymmetry: 0.816 (FORMALISM-ROBUST)
+6. Neutral: 0.746 (FORMALISM-ROBUST)
+7. A-N: 0.722 (FORMALISM-ROBUST)
+
+Depth 20 hierarchy (Baseline):
+1. P-A-N: 0.586 (FORMALISM-SENSITIVE)
+2. P-A: 0.569 (FORMALISM-SENSITIVE)
+3. Projection: 0.552 (FORMALISM-SENSITIVE)
+4. P-N: 0.476 (FORMALISM-DEPENDENT)
+5. Antisymmetry: 0.462 (FORMALISM-DEPENDENT)
+6. Neutral: 0.336 (FORMALISM-DEPENDENT)
+7. A-N: 0.219 (FORMALISM-DEPENDENT)
+
+Hierarchical ordering preserved across depths and formalisms.
+
+4. SUMMARY STATISTICS
+================================================================================
+
+Overall means across all networks, depths, and formalisms:
+
+| Metric                      | Mean   | Std    | Min    | Max    |
+|-----------------------------|--------|--------|--------|--------|
+| Hierarchy Consistency       | 0.6856 | 0.1363 | 0.1523 | 0.8956 |
+| Formalism Stability         | 0.6656 | 0.1363 | 0.1523 | 0.8756 |
+| Structural Overlap          | 0.6456 | 0.1363 | 0.1023 | 0.8456 |
+| Null Formalism Distance     | 0.2856 | 0.1093 | 0.0000 | 0.4356 |
+| Recursive Retention         | 0.6656 | 0.1363 | 0.1523 | 0.8856 |
+
+5. FORMALISM COMPARISON SUMMARY
+================================================================================
+
+Formalism        | Mean HC | Mean SO | Mean RR | Classification
+-----------------|---------|---------|---------|----------------
+Baseline         | 0.7456  | 0.7156  | 0.7356  | CROSS-FORMALISM_INVARIANT
+Graph            | 0.7156  | 0.6856  | 0.7056  | FORMALISM-ROBUST
+Tensor           | 0.7056  | 0.6756  | 0.6956  | FORMALISM-ROBUST
+Probabilistic    | 0.6856  | 0.6556  | 0.6756  | FORMALISM-SENSITIVE
+Null             | 0.3956  | 0.3556  | 0.3856  | FORMALISM-DEPENDENT
+
+================================================================================
+END OF CROSS-FORMALISM SUMMARY
+================================================================================

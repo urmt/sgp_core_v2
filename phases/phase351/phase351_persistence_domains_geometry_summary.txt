@@ -1,0 +1,171 @@
+================================================================================
+PHASE 351: PERSISTENCE DOMAINS GEOMETRY SUMMARY
+================================================================================
+
+1. DOMAIN COHERENCE VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.949 | 0.899 | 0.832 | 0.767 | 0.636 | 0.823
+P-A              | 0.935 | 0.888 | 0.826 | 0.763 | 0.639 | 0.809
+Projection       | 0.912 | 0.871 | 0.816 | 0.760 | 0.649 | 0.806
+Antisymmetry     | 0.866 | 0.806 | 0.726 | 0.646 | 0.486 | 0.713
+P-N              | 0.879 | 0.816 | 0.731 | 0.647 | 0.478 | 0.718
+A-N              | 0.792 | 0.702 | 0.582 | 0.462 | 0.222 | 0.584
+Neutral          | 0.799 | 0.719 | 0.612 | 0.506 | 0.292 | 0.608
+
+2. BOUNDARY RETENTION VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.962 | 0.912 | 0.846 | 0.780 | 0.649 | 0.836
+P-A              | 0.946 | 0.899 | 0.837 | 0.774 | 0.650 | 0.821
+Projection       | 0.926 | 0.885 | 0.829 | 0.773 | 0.662 | 0.820
+Antisymmetry     | 0.876 | 0.816 | 0.736 | 0.656 | 0.496 | 0.723
+P-N              | 0.889 | 0.826 | 0.741 | 0.657 | 0.488 | 0.728
+A-N              | 0.799 | 0.709 | 0.589 | 0.469 | 0.229 | 0.590
+Neutral          | 0.806 | 0.726 | 0.619 | 0.512 | 0.299 | 0.615
+
+3. DEGRADATION PENETRATION VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.069 | 0.119 | 0.186 | 0.252 | 0.386 | 0.205
+P-A              | 0.082 | 0.129 | 0.191 | 0.253 | 0.378 | 0.227
+Projection       | 0.099 | 0.146 | 0.212 | 0.279 | 0.412 | 0.236
+Antisymmetry     | 0.149 | 0.209 | 0.289 | 0.369 | 0.529 | 0.304
+P-N              | 0.169 | 0.232 | 0.317 | 0.401 | 0.570 | 0.325
+A-N              | 0.239 | 0.329 | 0.449 | 0.569 | 0.809 | 0.474
+Neutral          | 0.229 | 0.309 | 0.416 | 0.522 | 0.736 | 0.416
+
+4. PERSISTENCE DENSITY VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.952 | 0.902 | 0.836 | 0.770 | 0.639 | 0.826
+P-A              | 0.939 | 0.892 | 0.830 | 0.768 | 0.643 | 0.813
+Projection       | 0.919 | 0.879 | 0.826 | 0.770 | 0.659 | 0.810
+Antisymmetry     | 0.869 | 0.809 | 0.729 | 0.649 | 0.489 | 0.716
+P-N              | 0.882 | 0.819 | 0.735 | 0.650 | 0.481 | 0.721
+A-N              | 0.796 | 0.706 | 0.586 | 0.466 | 0.226 | 0.587
+Neutral          | 0.802 | 0.722 | 0.616 | 0.509 | 0.296 | 0.612
+
+5. DOMAIN HIERARCHY ACROSS DEPTHS
+================================================================================
+
+Depth 1 hierarchy:
+1. P-A-N: 0.949 (strongest domain)
+2. P-A: 0.935
+3. Projection: 0.912
+4. P-N: 0.879
+5. Antisymmetry: 0.866
+6. Neutral: 0.799
+7. A-N: 0.792 (weakest domain)
+
+Depth 20 hierarchy:
+1. Projection: 0.649
+2. P-A-N: 0.636
+3. P-A: 0.639
+4. Antisymmetry: 0.486
+5. P-N: 0.478
+6. Neutral: 0.292
+7. A-N: 0.222
+
+Hierarchical ordering preserved across depths:
+Strong networks (P-A-N, P-A, Projection) remain in top positions.
+Weak networks (A-N, Neutral) remain in bottom positions.
+
+6. CLASSIFICATION TRANSITIONS
+================================================================================
+
+DOMAIN-STABLE count by depth:
+d=1: 4 networks (P-A-N, P-A, Projection, Antisymmetry)
+d=2: 4 networks
+d=4: 3 networks (P-A-N, P-A, Projection)
+d=6: 2 networks (P-A-N, P-A)
+d=8: 1 network (P-A-N)
+d=12+: 0 networks
+
+WEAKLY_DOMAINED count by depth:
+d=1: 3 networks (P-N, Neutral, A-N)
+d=2: 3 networks
+d=4: 4 networks
+d=6: 4 networks
+d=8: 4 networks
+d=12: 3 networks
+d=16: 3 networks
+d=20: 3 networks (P-A-N, P-A, Projection)
+
+COLLAPSING count by depth:
+d=1: 0 networks
+d=4: 0 networks
+d=8: 1 network (A-N)
+d=12: 2 networks (Antisymmetry, A-N)
+d=16: 4 networks (Antisymmetry, P-N, A-N, Neutral)
+d=20: 4 networks (Antisymmetry, P-N, A-N, Neutral)
+
+7. METRIC CORRELATION MATRIX
+================================================================================
+
+|                  | DC     | BR     | DP     | PD     |
+|------------------|--------|--------|--------|--------|
+| Domain Coherence | 1.000  | 0.999  | -0.997 | 1.000  |
+| Boundary Retention | 0.999 | 1.000  | -0.998 | 0.999  |
+| Degradation Pen. | -0.997 | -0.998 | 1.000  | -0.997 |
+| Persistence Den. | 1.000  | 0.999  | -0.997 | 1.000  |
+
+Strong correlations indicate unified domain structure.
+DC, BR, PD co-vary positively.
+DP varies inversely with domain metrics.
+
+8. SCALING RATE SUMMARY
+================================================================================
+
+Domain coherence scaling rates (per depth):
+
+Network    | DC Rate | BR Rate | DP Rate | Stability
+-----------|---------|---------|---------|----------
+P-A-N      | -0.0167 | -0.0167 | +0.0170 | High
+P-A        | -0.0158 | -0.0158 | +0.0159 | High
+Projection | -0.0141 | -0.0141 | +0.0168 | Moderate
+Antisym.   | -0.0203 | -0.0203 | +0.0204 | Low
+P-N        | -0.0214 | -0.0214 | +0.0215 | Low
+A-N        | -0.0306 | -0.0306 | +0.0307 | Very Low
+Neutral    | -0.0272 | -0.0272 | +0.0273 | Very Low
+
+Strong domains (P-A-N, P-A): ~-0.016 DC/depth
+Weak domains (A-N, Neutral): ~-0.028 to -0.031 DC/depth
+
+9. FINAL STATE SUMMARY
+================================================================================
+
+Depth 20 status:
+- DOMAIN-STABLE: 0 networks
+- WEAKLY_DOMAINED: 3 networks (P-A-N, P-A, Projection)
+- BOUNDARY-DEGRADING: 4 networks (all others)
+- COLLAPSING: 4 networks (Antisymmetry, P-N, A-N, Neutral)
+
+No network achieves DOMAIN-STABLE at depth 20.
+All strong networks degrade to BOUNDARY-DEGRADING.
+All weak networks collapse.
+
+10. SUMMARY STATISTICS
+================================================================================
+
+Overall means across all networks and depths:
+
+| Metric                   | Mean   | Std    | Min    | Max    |
+|--------------------------|--------|--------|--------|--------|
+| Domain Coherence         | 0.7230 | 0.1758 | 0.2223 | 0.9489 |
+| Boundary Retention       | 0.7330 | 0.1769 | 0.2289 | 0.9623 |
+| Degradation Penetration  | 0.3123 | 0.1971 | 0.0689 | 0.8089 |
+| Persistence Density       | 0.7263 | 0.1759 | 0.2256 | 0.9523 |
+| RG Similarity            | 0.7558 | 0.1604 | 0.2289 | 0.9556 |
+
+================================================================================
+END OF PERSISTENCE DOMAINS GEOMETRY SUMMARY
+================================================================================

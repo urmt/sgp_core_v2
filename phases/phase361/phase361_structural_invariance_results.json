@@ -1,0 +1,216 @@
+{
+  "phase": 361,
+  "title": "Emergent Relational Organizational Recursive Structural Invariance Stability",
+  "verdict": "WEAKLY_INVARIANT",
+  "hypotheses": {
+    "H1_structural_invariance_exists": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N: 0.9123 at depth 1, mean 0.7856; P-A: 0.8989 at depth 1"
+    },
+    "H2_deformation_bounded": {
+      "threshold": 0.3,
+      "status": "PARTIAL",
+      "evidence": "P-A-N maintains < 0.30 through depth 8; A-N exceeds at depth 4"
+    },
+    "H3_recursive_structure_persists": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N maintains > 0.70 through depth 20; P-A through depth 16"
+    },
+    "H4_rg_structural_invariance_stability": {
+      "threshold": 0.9,
+      "status": "FAIL",
+      "evidence": "Mean RG: 0.7389; P-A-N: 0.8156; Maximum achieved: 0.9089"
+    },
+    "H5_structural_hierarchy_persists": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "WEAKLY_INVARIANT",
+      "invariance_retention": {
+        "mean": 0.8036,
+        "depth_20": 0.6624
+      },
+      "deformation_bound": {
+        "mean": 0.2562,
+        "depth_20": 0.277
+      },
+      "cooperative_invariance_gain": {
+        "mean": 0.0842,
+        "depth_20": 0.0
+      },
+      "recursive_structure_retention": {
+        "mean": 0.772,
+        "depth_20": 0.6623
+      },
+      "remapping_resistance": {
+        "mean": 0.7533,
+        "depth_20": 0.6377
+      },
+      "rg_similarity": {
+        "mean": 0.7914
+      }
+    },
+    "Antisymmetry": {
+      "classification": "WEAKLY_INVARIANT",
+      "invariance_retention": {
+        "mean": 0.7595,
+        "depth_20": 0.6426
+      },
+      "deformation_bound": {
+        "mean": 0.2971,
+        "depth_20": 0.329
+      },
+      "cooperative_invariance_gain": {
+        "mean": 0.0615,
+        "depth_20": 0.0
+      },
+      "recursive_structure_retention": {
+        "mean": 0.7352,
+        "depth_20": 0.6052
+      },
+      "remapping_resistance": {
+        "mean": 0.7037,
+        "depth_20": 0.5957
+      },
+      "rg_similarity": {
+        "mean": 0.7882
+      }
+    },
+    "Neutral": {
+      "classification": "DEFORMATION-DEGRADING",
+      "invariance_retention": {
+        "mean": 0.6926,
+        "depth_20": 0.5777
+      },
+      "deformation_bound": {
+        "mean": 0.3324,
+        "depth_20": 0.364
+      },
+      "cooperative_invariance_gain": {
+        "mean": 0.0453,
+        "depth_20": 0.0
+      },
+      "recursive_structure_retention": {
+        "mean": 0.6725,
+        "depth_20": 0.5641
+      },
+      "remapping_resistance": {
+        "mean": 0.6452,
+        "depth_20": 0.5375
+      },
+      "rg_similarity": {
+        "mean": 0.7826
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "DEFORMATION-DEGRADING",
+      "invariance_retention": {
+        "mean": 0.6956,
+        "depth_20": 0.575
+      },
+      "deformation_bound": {
+        "mean": 0.3402,
+        "depth_20": 0.3698
+      },
+      "cooperative_invariance_gain": {
+        "mean": 0.0408,
+        "depth_20": 0.0
+      },
+      "recursive_structure_retention": {
+        "mean": 0.6733,
+        "depth_20": 0.5739
+      },
+      "remapping_resistance": {
+        "mean": 0.6488,
+        "depth_20": 0.5472
+      },
+      "rg_similarity": {
+        "mean": 0.7718
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "DEFORMATION-DEGRADING",
+      "invariance_retention": {
+        "mean": 0.6907,
+        "depth_20": 0.5707
+      },
+      "deformation_bound": {
+        "mean": 0.3317,
+        "depth_20": 0.3676
+      },
+      "cooperative_invariance_gain": {
+        "mean": 0.0423,
+        "depth_20": 0.0
+      },
+      "recursive_structure_retention": {
+        "mean": 0.6759,
+        "depth_20": 0.5737
+      },
+      "remapping_resistance": {
+        "mean": 0.6443,
+        "depth_20": 0.5407
+      },
+      "rg_similarity": {
+        "mean": 0.7833
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "DEFORMATION-DEGRADING",
+      "invariance_retention": {
+        "mean": 0.6995,
+        "depth_20": 0.5848
+      },
+      "deformation_bound": {
+        "mean": 0.3346,
+        "depth_20": 0.3695
+      },
+      "cooperative_invariance_gain": {
+        "mean": 0.0404,
+        "depth_20": 0.0
+      },
+      "recursive_structure_retention": {
+        "mean": 0.669,
+        "depth_20": 0.5519
+      },
+      "remapping_resistance": {
+        "mean": 0.6428,
+        "depth_20": 0.5502
+      },
+      "rg_similarity": {
+        "mean": 0.7861
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "DEFORMATION-DEGRADING",
+      "invariance_retention": {
+        "mean": 0.698,
+        "depth_20": 0.5842
+      },
+      "deformation_bound": {
+        "mean": 0.337,
+        "depth_20": 0.3761
+      },
+      "cooperative_invariance_gain": {
+        "mean": 0.0425,
+        "depth_20": 0.0
+      },
+      "recursive_structure_retention": {
+        "mean": 0.6678,
+        "depth_20": 0.551
+      },
+      "remapping_resistance": {
+        "mean": 0.6509,
+        "depth_20": 0.5531
+      },
+      "rg_similarity": {
+        "mean": 0.7837
+      }
+    }
+  }
+}

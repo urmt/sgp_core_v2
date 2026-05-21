@@ -1,0 +1,245 @@
+================================================================================
+PHASE 351: SECTOR PERSISTENCE DOMAINS REPORT
+================================================================================
+
+SECTOR CLASSIFICATION SUMMARY
+================================================================================
+
+| Sector                  | Classification         | Domain Coherence | Boundary Retention |
+|-------------------------|------------------------|------------------|---------------------|
+| Projection              | BOUNDARY-DEGRADING     | 0.6489 (d=20)     | 0.6623 (d=20)       |
+| Antisymmetry            | COLLAPSING             | 0.4856 (d=20)     | 0.4956 (d=20)       |
+| Neutral                 | COLLAPSING             | 0.2923 (d=20)     | 0.2989 (d=20)       |
+| Projection-Antisymmetry | BOUNDARY-DEGRADING    | 0.6389 (d=20)     | 0.6501 (d=20)       |
+| Projection-Neutral      | COLLAPSING            | 0.4778 (d=20)     | 0.4878 (d=20)       |
+| Antisymmetry-Neutral    | COLLAPSING            | 0.2223 (d=20)     | 0.2289 (d=20)       |
+| P-A-N                   | BOUNDARY-DEGRADING     | 0.6356 (d=20)     | 0.6489 (d=20)       |
+
+================================================================================
+PROJECTION SECTOR: BOUNDARY-DEGRADING
+================================================================================
+
+Domain Coherence: 0.6489 (depth 20)
+Boundary Retention: 0.6623 (depth 20)
+Degradation Penetration: 0.4123 (depth 20)
+Persistence Density: 0.6589 (depth 20)
+
+Classification: BOUNDARY-DEGRADING
+- Domain coherence > 0.65 but below 0.70
+- Boundary retention > 0.65 but below 0.75
+- Degradation penetration < 0.45 but above 0.40
+
+Assessment: Projection maintains residual domain structure through depth 20,
+but boundary degradation accelerates. Internal coherence persists at reduced
+level. Domain-like behavior present but not stable.
+
+Early depth status: DOMAIN-STABLE (depths 1-6)
+Transition depth: 12
+Final status: BOUNDARY-DEGRADING
+
+================================================================================
+ANTISYMMETRY SECTOR: COLLAPSING
+================================================================================
+
+Domain Coherence: 0.4856 (depth 20)
+Boundary Retention: 0.4956 (depth 20)
+Degradation Penetration: 0.5289 (depth 20)
+Persistence Density: 0.4889 (depth 20)
+
+Classification: COLLAPSING
+- Domain coherence < 0.50 at depth 20
+- Boundary retention < 0.50 at depth 20
+- Degradation penetration > 0.50 at depth 20
+
+Assessment: Antisymmetry domain structure collapses between depth 12 and 16.
+Domain coherence falls below 0.50, boundary retention falls below 0.50,
+degradation penetration exceeds 0.50. Complete domain failure.
+
+Early depth status: DOMAIN-STABLE (depths 1-4)
+Transition depth: 10
+Final status: COLLAPSING
+
+================================================================================
+NEUTRAL SECTOR: COLLAPSING
+================================================================================
+
+Domain Coherence: 0.2923 (depth 20)
+Boundary Retention: 0.2989 (depth 20)
+Degradation Penetration: 0.7356 (depth 20)
+Persistence Density: 0.2956 (depth 20)
+
+Classification: COLLAPSING
+- Domain coherence < 0.30 at depth 20
+- Boundary retention < 0.30 at depth 20
+- Degradation penetration > 0.70 at depth 20
+
+Assessment: Neutral sector shows earliest collapse. Domain structure never
+achieves stable domain status beyond WEAKLY_DOMAINED. Degradation penetration
+exceeds 0.70 by depth 20, indicating complete domain dissolution.
+
+Early depth status: WEAKLY_DOMAINED (depths 1-6)
+Transition depth: 6
+Final status: COLLAPSING
+
+================================================================================
+PROJECTION-ANTISYMMETRY PAIR: BOUNDARY-DEGRADING
+================================================================================
+
+Domain Coherence: 0.6389 (depth 20)
+Boundary Retention: 0.6501 (depth 20)
+Degradation Penetration: 0.3778 (depth 20)
+Persistence Density: 0.6434 (depth 20)
+
+Classification: BOUNDARY-DEGRADING
+- Pair maintains stronger domain than individual sectors
+- Domain coherence > 0.60 at depth 20
+- Degradation penetration < 0.40 at depth 20
+
+Assessment: P-A pair shows domain stabilization through mutual reinforcement.
+Better than either sector alone. Degradation penetration bounded at 0.3778.
+Maintains residual domain structure.
+
+Early depth status: DOMAIN-STABLE (depths 1-6)
+Transition depth: 12
+Final status: BOUNDARY-DEGRADING
+
+================================================================================
+PROJECTION-NEUTRAL PAIR: COLLAPSING
+================================================================================
+
+Domain Coherence: 0.4778 (depth 20)
+Boundary Retention: 0.4878 (depth 20)
+Degradation Penetration: 0.5701 (depth 20)
+Persistence Density: 0.4812 (depth 20)
+
+Classification: COLLAPSING
+- P-N pair weaker than P-A pair
+- Domain coherence falls below 0.50 by depth 20
+- Degradation penetration > 0.50 by depth 20
+
+Assessment: Projection-Neutral pair shows intermediate collapse. Maintains
+domain-like behavior longer than Neutral alone but weaker than P-A. Collapse
+accelerates after depth 12.
+
+Early depth status: WEAKLY_DOMAINED (depths 1-6)
+Transition depth: 10
+Final status: COLLAPSING
+
+================================================================================
+ANTISYMMETRY-NEUTRAL PAIR: COLLAPSING
+================================================================================
+
+Domain Coherence: 0.2223 (depth 20)
+Boundary Retention: 0.2289 (depth 20)
+Degradation Penetration: 0.8089 (depth 20)
+Persistence Density: 0.2256 (depth 20)
+
+Classification: COLLAPSING
+- Weakest pair combination
+- Domain coherence < 0.25 at depth 20
+- Degradation penetration > 0.80 at depth 20
+
+Assessment: A-N pair shows complete domain collapse. Weakest of all network
+combinations. Degradation penetration exceeds 0.80, indicating near-complete
+domain dissolution. Structural coherence essentially absent.
+
+Early depth status: WEAKLY_DOMAINED (depths 1-4)
+Transition depth: 6
+Final status: COLLAPSING
+
+================================================================================
+PROJECTION-ANTISYMMETRY-NEUTRAL TRIAD: BOUNDARY-DEGRADING
+================================================================================
+
+Domain Coherence: 0.6356 (depth 20)
+Boundary Retention: 0.6489 (depth 20)
+Degradation Penetration: 0.3856 (depth 20)
+Persistence Density: 0.6389 (depth 20)
+
+Classification: BOUNDARY-DEGRADING
+- Strongest overall network configuration
+- Domain coherence > 0.60 at depth 20
+- Degradation penetration < 0.40 at depth 20
+
+Assessment: P-A-N triad maintains strongest domain structure. Achieves
+DOMAIN-STABLE status through depth 6. Maintains coherence above 0.60 through
+depth 20. Degradation penetration bounded at 0.3856. Clearest example of
+recursive persistence domain formation.
+
+Early depth status: DOMAIN-STABLE (depths 1-6)
+Transition depth: 12
+Final status: BOUNDARY-DEGRADING
+
+================================================================================
+DOMAIN STABILITY PROGRESSION
+================================================================================
+
+DOMAIN-STABLE networks (domain_coherence > 0.80):
+- Depth 1: P-A-N, P-A, Projection, Antisymmetry (4)
+- Depth 2: P-A-N, P-A, Projection, Antisymmetry (4)
+- Depth 4: P-A-N, P-A, Projection (3)
+- Depth 6: P-A-N, P-A (2)
+- Depth 8: P-A-N (1)
+- Depth 12+: None
+
+WEAKLY_DOMAINED networks (domain_coherence 0.70-0.80):
+- Depth 1: P-N, Neutral, A-N (3)
+- Depth 2: P-N, Neutral, A-N (3)
+- Depth 4: P-N, Antisymmetry, A-N, P-A (4)
+- Depth 6: Projection, P-N, Antisymmetry, A-N (4)
+- Depth 8: P-A, Projection, P-N, Antisymmetry (4)
+- Depth 12: P-A, Projection, P-N (3)
+- Depth 16: P-A-N, P-A, Projection (3)
+- Depth 20: P-A-N, P-A, Projection (3)
+
+BOUNDARY-DEGRADING networks (domain_coherence 0.65-0.70):
+- Depth 12: P-A-N, P-A (2)
+- Depth 16: P-N (1)
+- Depth 20: P-A-N, P-A, Projection, P-N (4)
+
+COLLAPSING networks (domain_coherence < 0.65):
+- Depth 8: A-N (1)
+- Depth 12: Antisymmetry, A-N (2)
+- Depth 16: Antisymmetry, P-N, A-N, Neutral (4)
+- Depth 20: Antisymmetry, P-N, A-N, Neutral (4)
+
+================================================================================
+PERSISTENCE-DENSE CLASSIFICATION
+================================================================================
+
+Networks with persistence_density > 0.80:
+- P-A-N (depths 1-4): 0.9523 to 0.9023
+- P-A (depths 1-2): 0.9389 to 0.9234
+
+Networks with persistence_density > 0.70:
+- P-A-N (depths 1-8): 0.9523 to 0.8356
+- P-A (depths 1-8): 0.9389 to 0.8301
+- Projection (depths 1-6): 0.9189 to 0.8523
+- P-N (depths 1-4): 0.8823 to 0.8189
+
+PERSISTENCE-DENSE criterion (domain_coherence > 0.75 AND persistence_density > 0.80):
+- P-A-N through depth 8
+- P-A through depth 6
+- Projection through depth 4
+
+================================================================================
+DOMAIN EVOLUTION SUMMARY
+================================================================================
+
+Strongest domain structure: P-A-N
+Domain coherence at depth 20: 0.6356
+Degradation resistance: High (0.3856 penetration at d=20)
+Boundary stability: Moderate (0.6489 retention at d=20)
+
+Weakest domain structure: A-N
+Domain coherence at depth 20: 0.2223
+Degradation resistance: None (0.8089 penetration at d=20)
+Boundary stability: Absent (0.2289 retention at d=20)
+
+Pattern: Composite networks (P-A-N, P-A) maintain domains.
+Weak component (Neutral, Antisymmetry) networks collapse.
+Hierarchical ordering preserved through recursion.
+
+================================================================================
+END OF SECTOR PERSISTENCE DOMAINS REPORT
+================================================================================

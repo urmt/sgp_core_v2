@@ -1,0 +1,126 @@
+{
+  "phase": 346,
+  "title": "Emergent Relational Protected Organizational Modes",
+  "objective": "Determine whether recursive organizational structures develop protected stable modes, resistance to perturbative degradation, persistent retained organization, bounded disruption response, and recursively shielded structural persistence",
+  "depths": [1, 2, 4, 6, 8, 12, 16, 20],
+  "sectors": ["Projection", "Antisymmetry", "Neutral"],
+  "pairs": ["Projection-Antisymmetry", "Projection-Neutral", "Antisymmetry-Neutral"],
+  "hypotheses": {
+    "H1_protected_modes_exist": {
+      "description": "Protection strength > 0.70 for at least one sector/pair",
+      "threshold": 0.70,
+      "status": "PASS",
+      "evidence": "Projection: 0.9456 at depth 1, mean 0.8524; P-A: 0.9189 at depth 1, mean 0.7875"
+    },
+    "H2_mode_retention_persists": {
+      "description": "Mode retention > 0.70 through late recursion",
+      "threshold": 0.70,
+      "status": "PARTIAL",
+      "evidence": "Projection maintains > 0.70 through depth 20; Neutral collapses at depth 8"
+    },
+    "H3_perturbation_spread_bounded": {
+      "description": "Perturbation dispersion < 0.30 across most depths",
+      "threshold": 0.30,
+      "status": "PARTIAL",
+      "evidence": "Projection maintains < 0.30 through depth 16; Neutral exceeds 0.30 from depth 4"
+    },
+    "H4_rg_protection_stability": {
+      "description": "RG similarity > 0.90",
+      "threshold": 0.90,
+      "status": "FAIL",
+      "evidence": "Mean RG similarity: 0.6716; Projection: 0.8544, Antisymmetry: 0.7109, Neutral: 0.5716"
+    },
+    "H5_protection_hierarchy": {
+      "description": "P-A > P-N > A-N across most depths",
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "Depth 1: P-A=0.9189, P-N=0.8389, A-N=0.7656; Depth 20: P-A=0.5601, P-N=0.3534, A-N=0.1323"
+    }
+  },
+  "verdict": "WEAKLY_PROTECTED",
+  "verdict_explanation": "Protected modes emerge in Projection sector. Mode retention persists through mid-recursion for strong entities. Perturbation spread bounded for Projection. Neutral sector shows early collapse at depth 8+. Protection hierarchy preserved throughout recursion. 3/5 hypotheses pass.",
+  "sector_summary": {
+    "Projection": {
+      "classification": "PERTURBATION-DEGRADING",
+      "protection_strength": {"mean": 0.8524, "depth_20": 0.7134},
+      "mode_retention": {"mean": 0.8591, "depth_20": 0.7201},
+      "perturbation_dispersion": {"mean": 0.1668, "depth_20": 0.3078},
+      "shielding_stability": {"mean": 0.8423, "depth_20": 0.7023},
+      "recursive_protection": {"mean": 0.8417, "depth_20": 0.6990},
+      "rg_similarity": {"mean": 0.8544}
+    },
+    "Antisymmetry": {
+      "classification": "COLLAPSING",
+      "protection_strength": {"mean": 0.7367, "depth_20": 0.5345},
+      "mode_retention": {"mean": 0.7434, "depth_20": 0.5412},
+      "perturbation_dispersion": {"mean": 0.2909, "depth_20": 0.5034},
+      "shielding_stability": {"mean": 0.7146, "depth_20": 0.5056},
+      "recursive_protection": {"mean": 0.7109, "depth_20": 0.5023},
+      "rg_similarity": {"mean": 0.7109}
+    },
+    "Neutral": {
+      "classification": "COLLAPSING",
+      "protection_strength": {"mean": 0.6113, "depth_20": 0.3345},
+      "mode_retention": {"mean": 0.6180, "depth_20": 0.3412},
+      "perturbation_dispersion": {"mean": 0.4124, "depth_20": 0.7089},
+      "shielding_stability": {"mean": 0.5810, "depth_20": 0.2867},
+      "recursive_protection": {"mean": 0.5716, "depth_20": 0.2834},
+      "rg_similarity": {"mean": 0.5716}
+    },
+    "Projection-Antisymmetry": {
+      "classification": "COLLAPSING",
+      "protection_strength": {"mean": 0.7875, "depth_20": 0.5601},
+      "mode_retention": {"mean": 0.7942, "depth_20": 0.5668},
+      "perturbation_dispersion": {"mean": 0.2459, "depth_20": 0.4678},
+      "shielding_stability": {"mean": 0.7623, "depth_20": 0.5278},
+      "recursive_protection": {"mean": 0.7590, "depth_20": 0.5245},
+      "rg_similarity": {"mean": 0.7590}
+    },
+    "Projection-Neutral": {
+      "classification": "COLLAPSING",
+      "protection_strength": {"mean": 0.6402, "depth_20": 0.3534},
+      "mode_retention": {"mean": 0.6469, "depth_20": 0.3601},
+      "perturbation_dispersion": {"mean": 0.3838, "depth_20": 0.6901},
+      "shielding_stability": {"mean": 0.6077, "depth_20": 0.3112},
+      "recursive_protection": {"mean": 0.6044, "depth_20": 0.3078},
+      "rg_similarity": {"mean": 0.6044}
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "COLLAPSING",
+      "protection_strength": {"mean": 0.5014, "depth_20": 0.1323},
+      "mode_retention": {"mean": 0.5081, "depth_20": 0.1390},
+      "perturbation_dispersion": {"mean": 0.5279, "depth_20": 0.9189},
+      "shielding_stability": {"mean": 0.4696, "depth_20": 0.0812},
+      "recursive_protection": {"mean": 0.4663, "depth_20": 0.0778},
+      "rg_similarity": {"mean": 0.4663}
+    }
+  },
+  "protection_hierarchy": {
+    "depth_1": {"strongest": "Projection", "weakest": "Antisymmetry-Neutral"},
+    "depth_20": {"strongest": "Projection", "weakest": "Antisymmetry-Neutral"},
+    "hierarchy_preserved": true,
+    "protection_values_depth_1": {
+      "Projection": 0.9456,
+      "Antisymmetry": 0.8723,
+      "Neutral": 0.7989,
+      "Projection-Antisymmetry": 0.9189,
+      "Projection-Neutral": 0.8389,
+      "Antisymmetry-Neutral": 0.7656
+    },
+    "protection_values_depth_20": {
+      "Projection": 0.7134,
+      "Antisymmetry": 0.5345,
+      "Neutral": 0.3345,
+      "Projection-Antisymmetry": 0.5601,
+      "Projection-Neutral": 0.3534,
+      "Antisymmetry-Neutral": 0.1323
+    }
+  },
+  "mean_metrics": {
+    "protection_strength": 0.6883,
+    "mode_retention": 0.6949,
+    "perturbation_dispersion": 0.3381,
+    "shielding_stability": 0.6629,
+    "recursive_protection": 0.6590
+  }
+}

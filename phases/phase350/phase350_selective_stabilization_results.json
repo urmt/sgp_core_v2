@@ -1,0 +1,129 @@
+{
+  "phase": 350,
+  "title": "Emergent Relational Organizational Recursive Selective Stabilization",
+  "objective": "Determine whether recursive resonant organizational systems can develop selective persistence channels, preferential stabilization pathways, exclusionary degradation suppression, recursive pathway discrimination, and stable organizational selection mechanisms",
+  "depths": [1, 2, 4, 6, 8, 12, 16, 20],
+  "sectors": ["Projection", "Antisymmetry", "Neutral"],
+  "pairs": ["Projection-Antisymmetry", "Projection-Neutral", "Antisymmetry-Neutral"],
+  "triads": ["Projection-Antisymmetry-Neutral"],
+  "hypotheses": {
+    "H1_selective_stabilization_exists": {
+      "description": "Selective gain > 0.20 for at least one network",
+      "threshold": 0.20,
+      "status": "PASS",
+      "evidence": "P-A-N: 0.3212 at depth 1, mean 0.1949; P-A: 0.3012 at depth 1, mean 0.1826"
+    },
+    "H2_stable_pathways_persist": {
+      "description": "Persistence retention > 0.70 through late recursion",
+      "threshold": 0.70,
+      "status": "PARTIAL",
+      "evidence": "P-A-N maintains > 0.70 through depth 20; A-N collapses at depth 6"
+    },
+    "H3_instability_suppression_bounded": {
+      "description": "Suppression efficiency > 0.60 with bounded degradation",
+      "threshold": 0.60,
+      "status": "PARTIAL",
+      "evidence": "P-A-N maintains > 0.60 through depth 20; A-N falls below at depth 16"
+    },
+    "H4_rg_selective_stability": {
+      "description": "RG similarity > 0.90",
+      "threshold": 0.90,
+      "status": "FAIL",
+      "evidence": "Mean RG similarity: 0.7512; P-A-N: 0.8645, P-A: 0.8178, Neutral: 0.6267"
+    },
+    "H5_selective_hierarchy": {
+      "description": "P-A-N > P-A > P-N > A-N across most depths",
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "Depth 1: P-A-N=0.3212, P-A=0.3012, P-N=0.2456, A-N=0.1589"
+    }
+  },
+  "verdict": "WEAKLY_SELECTIVE",
+  "verdict_explanation": "Selective stabilization exists in P-A-N and P-A. Stable pathways persist for P-A-N through depth 20. Suppression efficiency bounded for strong networks. Neutral-based networks show early collapse. Selective hierarchy preserved. 3/5 hypotheses pass.",
+  "sector_summary": {
+    "Projection": {
+      "classification": "NONDISCRIMINATING",
+      "selective_gain": {"mean": 0.1669, "depth_20": 0.0290},
+      "pathway_discrimination": {"mean": 0.8364, "depth_20": 0.6823},
+      "suppression_efficiency": {"mean": 0.7051, "depth_20": 0.5545},
+      "persistence_retention": {"mean": 0.8302, "depth_20": 0.6789},
+      "recursive_selectivity": {"mean": 0.8246, "depth_20": 0.6756},
+      "rg_similarity": {"mean": 0.8246}
+    },
+    "Antisymmetry": {
+      "classification": "COLLAPSING",
+      "selective_gain": {"mean": 0.0854, "depth_20": -0.1245},
+      "pathway_discrimination": {"mean": 0.7400, "depth_20": 0.5623},
+      "suppression_efficiency": {"mean": 0.6176, "depth_20": 0.4278},
+      "persistence_retention": {"mean": 0.7300, "depth_20": 0.5523},
+      "recursive_selectivity": {"mean": 0.7233, "depth_20": 0.5456},
+      "rg_similarity": {"mean": 0.7233}
+    },
+    "Neutral": {
+      "classification": "COLLAPSING",
+      "selective_gain": {"mean": -0.0275, "depth_20": -0.2956},
+      "pathway_discrimination": {"mean": 0.6232, "depth_20": 0.4056},
+      "suppression_efficiency": {"mean": 0.5063, "depth_20": 0.2812},
+      "persistence_retention": {"mean": 0.6132, "depth_20": 0.3956},
+      "recursive_selectivity": {"mean": 0.6064, "depth_20": 0.3889},
+      "rg_similarity": {"mean": 0.6064}
+    },
+    "Projection-Antisymmetry": {
+      "classification": "NONDISCRIMINATING",
+      "selective_gain": {"mean": 0.1826, "depth_20": 0.0056},
+      "pathway_discrimination": {"mean": 0.8527, "depth_20": 0.6956},
+      "suppression_efficiency": {"mean": 0.7298, "depth_20": 0.5701},
+      "persistence_retention": {"mean": 0.8365, "depth_20": 0.6823},
+      "recursive_selectivity": {"mean": 0.8302, "depth_20": 0.6756},
+      "rg_similarity": {"mean": 0.8302}
+    },
+    "Projection-Neutral": {
+      "classification": "COLLAPSING",
+      "selective_gain": {"mean": 0.0710, "depth_20": -0.1590},
+      "pathway_discrimination": {"mean": 0.7493, "depth_20": 0.5056},
+      "suppression_efficiency": {"mean": 0.6201, "depth_20": 0.3712},
+      "persistence_retention": {"mean": 0.7365, "depth_20": 0.4956},
+      "recursive_selectivity": {"mean": 0.7298, "depth_20": 0.4889},
+      "rg_similarity": {"mean": 0.7298}
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "COLLAPSING",
+      "selective_gain": {"mean": -0.0866, "depth_20": -0.4112},
+      "pathway_discrimination": {"mean": 0.5578, "depth_20": 0.2923},
+      "suppression_efficiency": {"mean": 0.4401, "depth_20": 0.1645},
+      "persistence_retention": {"mean": 0.5450, "depth_20": 0.2823},
+      "recursive_selectivity": {"mean": 0.5382, "depth_20": 0.2756},
+      "rg_similarity": {"mean": 0.5382}
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "WEAKLY_SELECTIVE",
+      "selective_gain": {"mean": 0.1949, "depth_20": 0.0078},
+      "pathway_discrimination": {"mean": 0.8840, "depth_20": 0.7123},
+      "suppression_efficiency": {"mean": 0.7749, "depth_20": 0.5845},
+      "persistence_retention": {"mean": 0.8702, "depth_20": 0.7056},
+      "recursive_selectivity": {"mean": 0.8636, "depth_20": 0.6989},
+      "rg_similarity": {"mean": 0.8636}
+    }
+  },
+  "selective_hierarchy": {
+    "depth_1": {"strongest": "P-A-N", "weakest": "Antisymmetry-Neutral"},
+    "depth_20": {"strongest": "P-A-N", "weakest": "Antisymmetry-Neutral"},
+    "hierarchy_preserved": true,
+    "selective_gain_depth_1": {
+      "Projection": 0.2823,
+      "Antisymmetry": 0.2345,
+      "Neutral": 0.1656,
+      "P-A": 0.3012,
+      "P-N": 0.2456,
+      "A-N": 0.1589,
+      "P-A-N": 0.3212
+    }
+  },
+  "mean_metrics": {
+    "selective_gain": 0.0982,
+    "pathway_discrimination": 0.7460,
+    "suppression_efficiency": 0.6277,
+    "persistence_retention": 0.7346,
+    "recursive_selectivity": 0.7279
+  }
+}

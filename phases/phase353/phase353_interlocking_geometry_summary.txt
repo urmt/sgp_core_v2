@@ -1,0 +1,175 @@
+================================================================================
+PHASE 353: INTERLOCKING GEOMETRY SUMMARY
+================================================================================
+
+1. INTERLOCK STRENGTH VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.946 | 0.896 | 0.829 | 0.761 | 0.626 | 0.833
+P-A              | 0.929 | 0.879 | 0.812 | 0.746 | 0.612 | 0.817
+Projection       | 0.916 | 0.866 | 0.799 | 0.732 | 0.599 | 0.789
+Antisymmetry     | 0.862 | 0.802 | 0.722 | 0.642 | 0.482 | 0.733
+P-N              | 0.872 | 0.809 | 0.725 | 0.640 | 0.471 | 0.761
+A-N              | 0.779 | 0.699 | 0.592 | 0.486 | 0.272 | 0.638
+Neutral          | 0.786 | 0.716 | 0.622 | 0.529 | 0.342 | 0.670
+
+2. COOPERATIVE AMPLIFICATION VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.279 | 0.249 | 0.209 | 0.169 | 0.089 | 0.205
+P-A              | 0.259 | 0.229 | 0.189 | 0.149 | 0.069 | 0.183
+Projection       | 0.229 | 0.199 | 0.159 | 0.119 | 0.039 | 0.153
+Antisymmetry     | 0.186 | 0.156 | 0.116 | 0.076 | 0.000 | 0.112
+P-N              | 0.179 | 0.149 | 0.109 | 0.069 | 0.000 | 0.104
+A-N              | 0.119 | 0.089 | 0.049 | 0.000 | 0.000 | 0.041
+Neutral          | 0.142 | 0.112 | 0.072 | 0.032 | 0.000 | 0.065
+
+3. DESTABILIZATION ISOLATION VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.832 | 0.782 | 0.716 | 0.649 | 0.516 | 0.727
+P-A              | 0.816 | 0.766 | 0.699 | 0.632 | 0.499 | 0.709
+Projection       | 0.786 | 0.742 | 0.685 | 0.626 | 0.508 | 0.662
+Antisymmetry     | 0.742 | 0.682 | 0.602 | 0.522 | 0.362 | 0.590
+P-N              | 0.749 | 0.686 | 0.601 | 0.517 | 0.348 | 0.623
+A-N              | 0.666 | 0.586 | 0.479 | 0.372 | 0.159 | 0.475
+Neutral          | 0.679 | 0.609 | 0.516 | 0.422 | 0.236 | 0.501
+
+4. PERSISTENCE DEPENDENCY VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.942 | 0.892 | 0.826 | 0.759 | 0.623 | 0.831
+P-A              | 0.926 | 0.876 | 0.809 | 0.742 | 0.609 | 0.814
+Projection       | 0.912 | 0.862 | 0.796 | 0.729 | 0.596 | 0.786
+Antisymmetry     | 0.859 | 0.799 | 0.719 | 0.639 | 0.479 | 0.729
+P-N              | 0.869 | 0.806 | 0.721 | 0.637 | 0.468 | 0.759
+A-N              | 0.776 | 0.696 | 0.589 | 0.482 | 0.269 | 0.635
+Neutral          | 0.782 | 0.712 | 0.619 | 0.526 | 0.339 | 0.667
+
+5. INTERLOCKING HIERARCHY ACROSS DEPTHS
+================================================================================
+
+Depth 1 hierarchy:
+1. P-A-N: 0.946 (strongest interlock)
+2. P-A: 0.929
+3. Projection: 0.916
+4. P-N: 0.872
+5. Antisymmetry: 0.862
+6. Neutral: 0.786
+7. A-N: 0.779 (weakest interlock)
+
+Depth 20 hierarchy:
+1. P-A-N: 0.626
+2. P-A: 0.612
+3. Projection: 0.599
+4. Antisymmetry: 0.482
+5. P-N: 0.471
+6. Neutral: 0.342
+7. A-N: 0.272
+
+Hierarchical ordering preserved across depths:
+Strong networks (P-A-N, P-A, Projection) remain in top positions.
+Weak networks (A-N, Neutral) remain in bottom positions.
+
+6. CLASSIFICATION TRANSITIONS
+================================================================================
+
+INTERLOCKED count by depth:
+d=1: 4 networks (P-A-N, P-A, Projection, Antisymmetry)
+d=2: 4 networks
+d=4: 3 networks (P-A-N, P-A, Projection)
+d=6: 2 networks (P-A-N, P-A)
+d=8: 1 network (P-A-N)
+d=12+: 0 networks
+
+WEAKLY_INTERLOCKED count by depth:
+d=1: 3 networks (P-N, Neutral, A-N)
+d=2: 3 networks
+d=4: 4 networks
+d=6: 4 networks
+d=8: 4 networks
+d=12: 3 networks
+d=16: 3 networks
+d=20: 3 networks (P-A-N, P-A, Projection)
+
+DEPENDENCY-DEGRADING count by depth:
+d=12: 1 network (P-A-N)
+d=16: 2 networks (P-A-N, P-N)
+d=20: 4 networks (P-A-N, P-A, Projection, P-N)
+
+COLLAPSING count by depth:
+d=1: 0 networks
+d=8: 1 network (A-N)
+d=12: 2 networks (Antisymmetry, A-N)
+d=16: 4 networks (Antisymmetry, P-N, A-N, Neutral)
+d=20: 4 networks (Antisymmetry, P-N, A-N, Neutral)
+
+7. METRIC CORRELATION MATRIX
+================================================================================
+
+|                           | IS     | CA     | DI     | PD     |
+|---------------------------|--------|--------|--------|--------|
+| Interlock Strength        | 1.000  | 0.989  | 0.997  | 0.999  |
+| Cooperative Amplification | 0.989  | 1.000  | 0.985  | 0.988  |
+| Destabilization Isolation | 0.997  | 0.985  | 1.000  | 0.997  |
+| Persistence Dependency     | 0.999  | 0.988  | 0.997  | 1.000  |
+
+Strong correlations indicate unified interlock structure.
+IS, DI, PD co-vary positively.
+CA correlates with strong interlock networks.
+
+8. SCALING RATE SUMMARY
+================================================================================
+
+Interlock strength scaling rates (per depth):
+
+Network    | IS Rate | CA Rate | DI Rate | Stability
+-----------|---------|---------|---------|----------
+P-A-N      | -0.0171 | -0.0102 | -0.0170 | High
+P-A        | -0.0169 | -0.0102 | -0.0170 | High
+Projection | -0.0170 | -0.0102 | -0.0148 | Moderate
+Antisym.   | -0.0203 | -0.0100 | -0.0203 | Low
+P-N        | -0.0214 | -0.0096 | -0.0214 | Low
+A-N        | -0.0272 | -0.0064 | -0.0272 | Very Low
+Neutral    | -0.0238 | -0.0076 | -0.0238 | Very Low
+
+Strong networks (P-A-N, P-A): ~-0.017 IS/depth
+Weak networks (A-N, Neutral): ~-0.024 to -0.027 IS/depth
+
+9. FINAL STATE SUMMARY
+================================================================================
+
+Depth 20 status:
+- INTERLOCKED: 0 networks
+- WEAKLY_INTERLOCKED: 3 networks (P-A-N, P-A, Projection)
+- DEPENDENCY-DEGRADING: 4 networks (all others)
+- COLLAPSING: 4 networks (Antisymmetry, P-N, A-N, Neutral)
+
+No network achieves INTERLOCKED at depth 20.
+All strong networks degrade to DEPENDENCY-DEGRADING.
+All weak networks collapse.
+
+10. SUMMARY STATISTICS
+================================================================================
+
+Overall means across all networks and depths:
+
+| Metric                        | Mean   | Std    | Min    | Max    |
+|-------------------------------|--------|--------|--------|--------|
+| Interlock Strength            | 0.7487 | 0.1640 | 0.2723 | 0.9456 |
+| Cooperative Amplification     | 0.1232 | 0.0840 | 0.0000 | 0.2789 |
+| Destabilization Isolation     | 0.6126 | 0.1552 | 0.1589 | 0.8323 |
+| Persistence Dependency        | 0.7458 | 0.1636 | 0.2689 | 0.9423 |
+| Recursive Interlock Stability | 0.7425 | 0.1638 | 0.2656 | 0.9389 |
+
+================================================================================
+END OF INTERLOCKING GEOMETRY SUMMARY
+================================================================================

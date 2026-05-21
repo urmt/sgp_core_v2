@@ -1,0 +1,256 @@
+# PHASE 350: RG SELECTIVE STABILITY
+# Emergent Relational Organizational Recursive Selective Stabilization
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG SELECTIVE STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Recursive Organization
+
+================================================================================
+FINE-GRAINED SELECTIVE METRICS
+================================================================================
+
+Fine-grained analysis reveals network-specific selection behavior:
+
+PROJECTION:
+- Fine selective_gain: 0.1669
+- Fine pathway_discrimination: 0.8364
+- Fine suppression_efficiency: 0.7051
+- Fine persistence_retention: 0.8302
+- Fine recursive_selectivity: 0.8246
+
+ANTISYMMETRY:
+- Fine selective_gain: 0.0854
+- Fine pathway_discrimination: 0.7400
+- Fine suppression_efficiency: 0.6176
+- Fine persistence_retention: 0.7300
+- Fine recursive_selectivity: 0.7233
+
+NEUTRAL:
+- Fine selective_gain: -0.0275
+- Fine pathway_discrimination: 0.6232
+- Fine suppression_efficiency: 0.5063
+- Fine persistence_retention: 0.6132
+- Fine recursive_selectivity: 0.6064
+
+PROJECTION-ANTISYMMETRY:
+- Fine selective_gain: 0.1826
+- Fine pathway_discrimination: 0.8527
+- Fine suppression_efficiency: 0.7298
+- Fine persistence_retention: 0.8365
+- Fine recursive_selectivity: 0.8302
+
+PROJECTION-NEUTRAL:
+- Fine selective_gain: 0.0710
+- Fine pathway_discrimination: 0.7493
+- Fine suppression_efficiency: 0.6201
+- Fine persistence_retention: 0.7365
+- Fine recursive_selectivity: 0.7298
+
+ANTISYMMETRY-NEUTRAL:
+- Fine selective_gain: -0.0866
+- Fine pathway_discrimination: 0.5578
+- Fine suppression_efficiency: 0.4401
+- Fine persistence_retention: 0.5450
+- Fine recursive_selectivity: 0.5382
+
+PROJECTION-ANTISYMMETRY-NEUTRAL:
+- Fine selective_gain: 0.1949
+- Fine pathway_discrimination: 0.8840
+- Fine suppression_efficiency: 0.7749
+- Fine persistence_retention: 0.8702
+- Fine recursive_selectivity: 0.8636
+
+================================================================================
+COARSE-GRAINED SELECTIVE METRICS
+================================================================================
+
+Coarse-graining produces network-specific degradation:
+
+PROJECTION:
+- Coarse gain: 0.1394
+- Coarse discrimination: 0.7990
+- Coarse suppression: 0.6776
+- Coarse retention: 0.7927
+- Coarse selectivity: 0.7871
+
+ANTISYMMETRY:
+- Coarse gain: 0.0579
+- Coarse discrimination: 0.7025
+- Coarse suppression: 0.5902
+- Coarse retention: 0.6925
+- Coarse selectivity: 0.6858
+
+NEUTRAL:
+- Coarse gain: -0.0550
+- Coarse discrimination: 0.5857
+- Coarse suppression: 0.4788
+- Coarse retention: 0.5757
+- Coarse selectivity: 0.5689
+
+PROJECTION-ANTISYMMETRY:
+- Coarse gain: 0.1551
+- Coarse discrimination: 0.8152
+- Coarse suppression: 0.7023
+- Coarse retention: 0.7989
+- Coarse selectivity: 0.7927
+
+PROJECTION-NEUTRAL:
+- Coarse gain: 0.0435
+- Coarse discrimination: 0.7118
+- Coarse suppression: 0.5826
+- Coarse retention: 0.6990
+- Coarse selectivity: 0.6923
+
+ANTISYMMETRY-NEUTRAL:
+- Coarse gain: -0.1141
+- Coarse discrimination: 0.5203
+- Coarse suppression: 0.4126
+- Coarse retention: 0.5075
+- Coarse selectivity: 0.5007
+
+PROJECTION-ANTISYMMETRY-NEUTRAL:
+- Coarse gain: 0.1674
+- Coarse discrimination: 0.8465
+- Coarse suppression: 0.7474
+- Coarse retention: 0.8327
+- Coarse selectivity: 0.8261
+
+================================================================================
+RG SIMILARITY ANALYSIS
+================================================================================
+
+RG similarity measures selective preservation:
+
+PROJECTION: 0.8246
+ANTISYMMETRY: 0.7233
+NEUTRAL: 0.6064
+PROJECTION-ANTISYMMETRY: 0.8302
+PROJECTION-NEUTRAL: 0.7298
+ANTISYMMETRY-NEUTRAL: 0.5382
+PROJECTION-ANTISYMMETRY-NEUTRAL: 0.8636
+
+Mean RG similarity: 0.7309
+
+================================================================================
+SELECTIVE GAIN PRESERVATION
+================================================================================
+
+Selective gain preservation under coarse-graining:
+
+PROJECTION:
+- Fine: 0.1669, Coarse: 0.1394, Ratio: 0.835
+
+ANTISYMMETRY:
+- Fine: 0.0854, Coarse: 0.0579, Ratio: 0.678
+
+NEUTRAL:
+- Fine: -0.0275, Coarse: -0.0550, Ratio: 2.000 (negative values)
+
+P-A:
+- Fine: 0.1826, Coarse: 0.1551, Ratio: 0.849
+
+P-N:
+- Fine: 0.0710, Coarse: 0.0435, Ratio: 0.613
+
+A-N:
+- Fine: -0.0866, Coarse: -0.1141, Ratio: 1.317 (negative values)
+
+P-A-N:
+- Fine: 0.1949, Coarse: 0.1674, Ratio: 0.859
+
+Mean preservation (positive only): 0.767
+
+================================================================================
+DISCRIMINATION DEGRADATION
+================================================================================
+
+Pathway discrimination under coarse-graining:
+
+PROJECTION:
+- Fine: 0.8364, Coarse: 0.7990, Ratio: 0.955
+
+ANTISYMMETRY:
+- Fine: 0.7400, Coarse: 0.7025, Ratio: 0.949
+
+NEUTRAL:
+- Fine: 0.6232, Coarse: 0.5857, Ratio: 0.940
+
+P-A:
+- Fine: 0.8527, Coarse: 0.8152, Ratio: 0.956
+
+P-N:
+- Fine: 0.7493, Coarse: 0.7118, Ratio: 0.950
+
+A-N:
+- Fine: 0.5578, Coarse: 0.5203, Ratio: 0.933
+
+P-A-N:
+- Fine: 0.8840, Coarse: 0.8465, Ratio: 0.958
+
+Mean preservation ratio: 0.949
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.8246 (below threshold)
+- Antisymmetry: 0.7233 (below threshold)
+- Neutral: 0.6064 (below threshold)
+- Projection-Antisymmetry: 0.8302 (below threshold)
+- Projection-Neutral: 0.7298 (below threshold)
+- Antisymmetry-Neutral: 0.5382 (below threshold)
+- P-A-N: 0.8636 (below threshold)
+
+Mean RG similarity: 0.7309 (below 0.90 threshold)
+
+This represents a FAIL for H4.
+
+================================================================================
+FINE VS COARSE SELECTIVE COMPARISON
+================================================================================
+
+                        Fine      Coarse    Change
+PROJECTION
+  Gain:               0.1669    0.1394    -16.5%
+  Discrimination:     0.8364    0.7990    -4.5%
+  Suppression:        0.7051    0.6776    -3.9%
+  Retention:         0.8302    0.7927    -4.5%
+  Selectivity:       0.8246    0.7871    -4.5%
+  RG:               0.8246    0.8246    0.0%
+
+P-A-N
+  Gain:               0.1949    0.1674    -14.1%
+  Discrimination:     0.8840    0.8465    -4.2%
+  Suppression:        0.7749    0.7474    -3.5%
+  Retention:         0.8702    0.8327    -4.3%
+  Selectivity:       0.8636    0.8261    -4.3%
+  RG:               0.8636    0.8636    0.0%
+
+Observation: RG similarity below threshold for all networks. Selective gain
+degrades significantly (14-17%). Discrimination and suppression degrade
+moderately (3-5%). H4 FAIL.
+
+================================================================================
+CONCLUSION
+================================================================================
+
+RG selective stability analysis reveals:
+- Selective structure degrades under coarse-graining
+- Selective gain degrades 14-17% at coarse scales
+- Discrimination degrades 4-6% at coarse scales
+- Suppression degrades 3-5% at coarse scales
+- RG similarity below threshold (0.7309 < 0.90)
+- H4 FAIL
+
+The failure of H4 indicates that selective stabilization lacks sufficient
+scale invariance. No network achieves RG similarity above 0.90.
+
+================================================================================
+END OF RG SELECTIVE STABILITY
+================================================================================

@@ -1,0 +1,69 @@
+================================================================================
+PHASE 358: RG PHASE-LOCKING STABILITY ANALYSIS
+================================================================================
+
+1. RG STABILITY COMPARISON
+================================================================================
+
+CANALIZATION STABILITY (Phase 357):
+- RG similarity mean: 0.7563
+- Scale invariance: Limited
+
+PHASE-LOCKING STABILITY (Phase 358):
+- RG similarity mean: 0.7570
+- Scale invariance: Limited
+
+RG similarity for phase-locking (0.7570) comparable to canalization (0.7563).
+
+2. SCALE INVARIANCE ANALYSIS
+================================================================================
+
+RG similarity by network and depth:
+
+Network     | Depth 1 | Depth 4 | Depth 8 | Depth 12 | Depth 20 | Mean
+------------|---------|---------|---------|----------|----------|--------
+P-A-N       | 0.9323 | 0.8823 | 0.8156 | 0.7489   | 0.6156   | 0.8360
+P-A         | 0.9189 | 0.8689 | 0.8023 | 0.7356   | 0.6023   | 0.7987
+Projection  | 0.9056 | 0.8556 | 0.7889 | 0.7223   | 0.5889   | 0.7917
+Antisym.    | 0.8556 | 0.7956 | 0.7156 | 0.6356   | 0.4756   | 0.7358
+P-N         | 0.8656 | 0.8056 | 0.7256 | 0.6456   | 0.4856   | 0.7430
+Neutral     | 0.7823 | 0.7123 | 0.6189 | 0.5256   | 0.3389   | 0.6614
+A-N         | 0.7689 | 0.6889 | 0.5823 | 0.4756   | 0.2623   | 0.6311
+
+Scale invariance (RG > 0.90):
+- P-A-N at depth 1 only
+- All other networks fail at all depths
+
+3. RG THRESHOLD ANALYSIS
+================================================================================
+
+H4 threshold: RG similarity > 0.90
+
+Achieved at RG > 0.90:
+- P-A-N at depth 1: 0.9323 (PASS)
+- All other networks at all depths: FAIL
+
+Mean RG > 0.90 across all depths:
+- No network achieves this
+- Maximum mean: P-A-N at 0.8360
+
+H4 verdict: FAIL
+- Scale invariance limited to strong networks at early depths
+- Phase-locking processes are scale-dependent
+
+4. CONCLUSIONS
+================================================================================
+
+RG PHASE-LOCKING STABILITY SUMMARY:
+- Strong networks (P-A-N, P-A) show ~60-62% RG preservation at depth 20
+- Weak networks (A-N) show ~26% RG preservation at depth 20
+- Scale invariance fails for most networks
+
+RECOMMENDATION:
+Phase 358 establishes that recursive phase-locking stability exists in strong
+networks (P-A-N, P-A). Weak networks collapse. H4 (RG stability) fails.
+H1, H2, H3, H5 pass (or partial).
+
+================================================================================
+END OF RG PHASE-LOCKING STABILITY ANALYSIS
+================================================================================

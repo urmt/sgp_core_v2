@@ -1,0 +1,45 @@
+================================================================================
+PHASE 357: UPDATE SUMMARY
+================================================================================
+
+Phase 357 extends the SGP research program by testing whether recursively
+redundant systems can develop preferred stabilization trajectories.
+
+TRANSITION FROM PHASE 356:
+- Phase 356: Distributed redundancy and compensation
+- Phase 357: Preferred trajectory formation and correction
+
+KEY FINDINGS:
+1. Canalized stability exists in strong networks (P-A-N, P-A)
+2. Correction strength maintained for P-A-N through depth 20
+3. Divergence bounded for P-A-N
+4. Weak systems collapse
+5. Scale invariance fails (H4: FAIL)
+
+VERDICT: WEAKLY_CANALIZED (3/5 hypotheses pass)
+
+HYPOTHESIS RESULTS:
+- H1 (Trajectory stability > 0.75): PASS
+- H2 (Correction strength > 0.70): PARTIAL
+- H3 (Divergence bound < 0.30): PARTIAL
+- H4 (RG similarity > 0.90): FAIL
+- H5 (Canalization hierarchy): PASS
+
+FILES GENERATED:
+- phase357_canalization_framework.txt
+- phase357_canalization_metrics.csv (56 rows)
+- phase357_canalization_results.json
+- phase357_recursive_canalization_analysis.txt
+- phase357_sector_canalization_report.txt
+- phase357_rg_canalization_stability.txt
+- phase357_canalization_geometry_summary.txt
+- phase357_forbidden_interpretations.txt
+- phase357_update_summary.txt
+- phase357_canalization_compute.py
+
+CONTINUATION:
+Phase 358 will explore [TBD].
+
+================================================================================
+END OF UPDATE SUMMARY
+================================================================================

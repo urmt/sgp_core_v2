@@ -1,0 +1,147 @@
+# PHASE 350: FORBIDDEN INTERPRETATIONS
+# Emergent Relational Organizational Recursive Selective Stabilization
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+EXPLICITLY PROHIBITED INTERPRETATIONS
+================================================================================
+
+This document lists interpretations that are NOT supported by Phase 350
+and must not be inferred from any results or metrics.
+
+================================================================================
+EVOLUTIONARY PROHIBITIONS
+================================================================================
+
+FORBIDDEN: Evolutionary claims
+- Do NOT claim selective stabilization resembles natural selection
+- Do NOT reference fitness landscapes or selection pressure
+- Do NOT claim pathways are "selected for"
+- Do NOT reference adaptation or evolution
+
+FORBIDDEN: Darwinian analogies
+- Do NOT claim selection mimics Darwinian selection
+- Do NOT reference survival of the fittest
+- Do NOT claim recursive structures "compete" biologically
+- Do NOT reference reproduction or inheritance
+
+================================================================================
+INTELLIGENCE CLAIMS PROHIBITIONS
+================================================================================
+
+FORBIDDEN: Intelligence claims
+- Do NOT claim recursive selection implies intelligence
+- Do NOT reference optimization algorithms
+- Do NOT claim selective pathways are "optimal"
+- Do NOT reference search or planning
+
+FORBIDDEN: Learning claims
+- Do NOT claim recursive selection resembles learning
+- Do NOT reference reinforcement learning
+- Do NOT claim pathways strengthen through "practice"
+- Do NOT reference memory or adaptation
+
+================================================================================
+OPTIMIZATION PROHIBITIONS
+================================================================================
+
+FORBIDDEN: Optimization claims
+- Do NOT claim selective stabilization optimizes organization
+- Do NOT reference cost functions or objective functions
+- Do NOT claim pathways minimize or maximize anything
+- Do NOT reference gradient descent or hill climbing
+
+FORBIDDEN: Utility claims
+- Do NOT claim recursive selection maximizes utility
+- Do NOT reference decision theory
+- Do NOT claim preferential pathways have higher "value"
+- Do NOT reference rational agents
+
+================================================================================
+CONSCIOUSNESS SELECTION PROHIBITIONS
+================================================================================
+
+FORBIDDEN: Consciousness-selection claims
+- Do NOT claim selective stabilization implies awareness
+- Do NOT reference qualia or subjective experience
+- Do NOT claim recursive discrimination is "conscious"
+- Do NOT reference intentional selection
+
+FORBIDDEN: Mind filtering claims
+- Do NOT claim recursive selection filters like consciousness
+- Do NOT reference attention or awareness
+- Do NOT claim selection resembles cognitive filtering
+- Do NOT reference phenomenology
+
+================================================================================
+SEMANTIC FILTERING PROHIBITIONS
+================================================================================
+
+FORBIDDEN: Semantic filtering claims
+- Do NOT claim recursive selection performs semantic filtering
+- Do NOT reference meaning or interpretation
+- Do NOT claim pathways encode "meaning"
+- Do NOT reference information semantics
+
+FORBIDDEN: Content-based selection claims
+- Do NOT claim selection filters by content
+- Do NOT reference representation or encoding
+- Do NOT claim selective retention preserves "information content"
+- Do NOT reference data structures or formats
+
+================================================================================
+PHYSICAL FORCE SELECTION PROHIBITIONS
+================================================================================
+
+FORBIDDEN: Physical force-selection claims
+- Do NOT claim selection resembles force-based selection
+- Do NOT reference particle physics selection
+- Do NOT claim selective pathways are like force carriers
+- Do NOT reference electromagnetic or gravitational selection
+
+================================================================================
+COMPUTATION PROHIBITIONS
+================================================================================
+
+FORBIDDEN: Filter algorithm claims
+- Do NOT claim recursive selection resembles filtering algorithms
+- Do NOT reference Kalman filters or particle filters
+- Do NOT claim selective stabilization is like signal processing
+- Do NOT reference noise filtering
+
+================================================================================
+ALLOWED INTERPRETATIONS ONLY
+================================================================================
+
+The ONLY allowed interpretations are:
+
+1. "Selective gain" = mathematical persistence advantage of preferred pathways
+2. "Pathway discrimination" = separation between stable and unstable configurations
+3. "Suppression efficiency" = degradation filtering effectiveness
+4. "Persistence retention" = retained organization in selected pathways
+5. "Recursive selectivity" = persistence of selective structure across depths
+6. "Preferential stabilization" = mathematical pathway preference
+7. "Bounded suppression" = degradation filtering within limits
+8. "Selection hierarchy" = ordered relationship between network selectivities
+9. "Selection collapse" = selectivity falling below threshold
+10. "Recursive filtering" = mathematical separation of configurations
+
+================================================================================
+EXAMPLES OF PROHIBITED STATEMENTS
+================================================================================
+
+PROHIBITED: "The recursive system performs natural selection"
+ALLOWED: "Selective gain measures 0.32 for P-A-N"
+
+PROHIBITED: "Pathways are optimized through selection pressure"
+ALLOWED: "Pathway discrimination exceeds 0.88 for P-A-N"
+
+PROHIBITED: "Selection implies intelligence or goal-directedness"
+ALLOWED: "Suppression efficiency exceeds 0.70 for P-A-N"
+
+PROHIBITED: "The system learns which pathways to keep"
+ALLOWED: "Selective gain decreases with recursion depth"
+
+================================================================================
+END OF FORBIDDEN INTERPRETATIONS
+================================================================================

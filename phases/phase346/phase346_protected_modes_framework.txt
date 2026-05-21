@@ -1,0 +1,191 @@
+# PHASE 346: PROTECTED MODES FRAMEWORK
+# Emergent Relational Protected Organizational Modes
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+PHASE 346: RESEARCH QUESTIONS
+================================================================================
+
+1. Do protected recursive organizational modes emerge?
+2. Do stable modes resist perturbative degradation?
+3. Does perturbation spread remain bounded?
+4. Do weaker sectors lose protection while strong sectors maintain it?
+5. Does recursive shielding persist through deep recursion?
+
+================================================================================
+THEORETICAL FRAMEWORK: PROTECTED MODES
+================================================================================
+
+Protected recursive organizational mode:
+- Certain recursive structures remain stable despite perturbation
+- Resistance to recursive degradation pressure
+- Bounded perturbation spread
+- Recursive shielding mechanism
+
+Key distinction from prior phases:
+- STABILITY (Phase 280+): Baseline maintenance
+- LOCALIZATION (Phase 344): Regional concentration
+- CORRELATION (Phase 345): Cross-domain co-variation
+- PROTECTION (Phase 346): Active resistance to degradation
+
+Protection measures resistance to disruption.
+Stability measures return to equilibrium.
+Localization measures regional concentration.
+Correlation measures cross-domain co-variation.
+
+================================================================================
+EXPERIMENTAL DESIGN
+================================================================================
+
+1. Initialize stable recursive organizational modes
+   - Establish baseline structural configuration
+   - Define mode characteristics
+   - Initialize shielding parameters
+
+2. Introduce controlled perturbations
+   - Local disruption: targeted structural interference
+   - Recursive noise: depth-dependent perturbation
+   - Bounded interference: constrained disruption spread
+   - Degradation pulses: recursive weakening events
+
+3. Recursive evolution after perturbation
+   - Observe mode survival
+   - Measure degradation propagation
+   - Track shielding effectiveness
+
+4. Comparison: perturbed vs unperturbed
+   - Quantify protection effectiveness
+   - Measure mode retention
+   - Assess long-term stability
+
+================================================================================
+METRIC DEFINITIONS
+================================================================================
+
+PROTECTION_STRENGTH:
+- Degree of resistance to perturbative degradation
+- Range: [0, 1]
+- High values indicate strong protection
+- Values > 0.70 indicate protected modes
+
+MODE_RETENTION:
+- Fraction of organizational mode surviving perturbation
+- Measures persistence under disruption
+- Values > 0.70 indicate good retention
+
+PERTURBATION_DISPERSION:
+- Spread of disruption across recursive structure
+- Range: [0, 1]
+- Low values indicate bounded spread
+- Values < 0.30 indicate good containment
+
+SHIELDING_STABILITY:
+- Consistency of degradation propagation bounding
+- Measures recursive shielding effectiveness
+- Values > 0.70 indicate stable shielding
+
+RECURSIVE_PROTECTION:
+- Protection persistence across recursive depths
+- Measures depth-dependent protection
+- Values > 0.70 indicate persistent protection
+
+RG_SIMILARITY:
+- Fine-grained vs coarse-grained protection preservation
+- > 0.90 indicates stable scale invariance
+
+================================================================================
+SECTOR-SPECIFIC PREDICTIONS
+================================================================================
+
+PROJECTION:
+- Strong protection
+- High mode retention
+- Bounded perturbation spread
+- Stable shielding
+- Projection forms protected anchor
+
+ANTISYMMETRY:
+- Moderate protection
+- Partial retention
+- Some dispersion
+- Moderate shielding
+- Antisymmetry shows mixed protection
+
+NEUTRAL:
+- Weak protection
+- Low retention
+- High dispersion
+- Unstable shielding
+- Neutral sector loses protection
+
+PROJECTION-ANTISYMMETRY:
+- Strong protection pair
+- Best retention among pairs
+- Bounded dispersion
+
+PROJECTION-NEUTRAL:
+- Moderate protection
+- Some degradation
+- Partial shielding
+
+ANTISYMMETRY-NEUTRAL:
+- Weak protection
+- Low retention
+- High dispersion
+
+================================================================================
+HYPOTHESIS FRAMEWORK
+================================================================================
+
+H1: Protected Modes Exist
+- threshold: protection_strength > 0.70
+- measures: whether protection emerges
+
+H2: Mode Retention Persists
+- threshold: mode_retention > 0.70
+- measures: whether modes survive perturbation
+
+H3: Perturbation Spread Bounded
+- threshold: perturbation_dispersion < 0.30
+- measures: whether disruption remains contained
+
+H4: RG Protection Stability
+- threshold: rg_similarity > 0.90
+- measures: scale invariance of protection
+
+H5: Protection Hierarchy Persists
+- threshold: P-A > P-N > A-N
+- measures: hierarchy preservation in protection
+
+================================================================================
+CLASSIFICATION CRITERIA
+================================================================================
+
+PROTECTED:
+- protection_strength > 0.75
+- mode_retention > 0.75
+- perturbation_dispersion < 0.20
+
+WEAKLY_PROTECTED:
+- protection_strength > 0.60
+- mode_retention > 0.60
+- perturbation_dispersion < 0.30
+
+PERTURBATION-DEGRADING:
+- protection_strength > 0.50
+- mode_retention > 0.50
+- perturbation_dispersion < 0.40
+
+SHIELDED:
+- protection_strength > 0.70
+- mode_retention > 0.80
+- perturbation_dispersion < 0.25
+
+COLLAPSING:
+- protection_strength < 0.50
+- OR perturbation_dispersion > 0.45
+- OR mode_retention < 0.45
+
+================================================================================
+END OF PROTECTED MODES FRAMEWORK
+================================================================================

@@ -1,0 +1,216 @@
+{
+  "phase": 360,
+  "title": "Emergent Relational Organizational Recursive Self-Maintenance Stability",
+  "verdict": "DEGRADATION-DEGRADING",
+  "hypotheses": {
+    "H1_self_maintenance_exists": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N: 0.9356 at depth 1, mean 0.8213; P-A: 0.9223 at depth 1"
+    },
+    "H2_repair_persists": {
+      "threshold": 0.7,
+      "status": "PARTIAL",
+      "evidence": "P-A-N maintains > 0.70 through depth 20; A-N collapses at depth 8"
+    },
+    "H3_degradation_contained": {
+      "threshold": 0.7,
+      "status": "PARTIAL",
+      "evidence": "P-A-N maintains > 0.70 through depth 8; Neutral drops below at depth 2"
+    },
+    "H4_rg_self_maintenance_stability": {
+      "threshold": 0.9,
+      "status": "FAIL",
+      "evidence": "Mean RG: 0.7577; P-A-N: 0.8360; Maximum achieved: 0.9289"
+    },
+    "H5_self_maintenance_hierarchy": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "SELF-MAINTAINING",
+      "persistence_renewal": {
+        "mean": 0.8313,
+        "depth_20": 0.7081
+      },
+      "repair_strength": {
+        "mean": 0.8268,
+        "depth_20": 0.6995
+      },
+      "degradation_containment": {
+        "mean": 0.7473,
+        "depth_20": 0.6437
+      },
+      "cooperative_maintenance_gain": {
+        "mean": 0.1017,
+        "depth_20": 0.0
+      },
+      "recursive_retention_regeneration": {
+        "mean": 0.8291,
+        "depth_20": 0.7038
+      },
+      "rg_similarity": {
+        "mean": 0.8122
+      }
+    },
+    "Antisymmetry": {
+      "classification": "WEAKLY_SELF-MAINTAINING",
+      "persistence_renewal": {
+        "mean": 0.7953,
+        "depth_20": 0.693
+      },
+      "repair_strength": {
+        "mean": 0.7819,
+        "depth_20": 0.6788
+      },
+      "degradation_containment": {
+        "mean": 0.7103,
+        "depth_20": 0.6165
+      },
+      "cooperative_maintenance_gain": {
+        "mean": 0.074,
+        "depth_20": 0.0
+      },
+      "recursive_retention_regeneration": {
+        "mean": 0.7886,
+        "depth_20": 0.6859
+      },
+      "rg_similarity": {
+        "mean": 0.814
+      }
+    },
+    "Neutral": {
+      "classification": "WEAKLY_SELF-MAINTAINING",
+      "persistence_renewal": {
+        "mean": 0.7329,
+        "depth_20": 0.626
+      },
+      "repair_strength": {
+        "mean": 0.711,
+        "depth_20": 0.6086
+      },
+      "degradation_containment": {
+        "mean": 0.6391,
+        "depth_20": 0.552
+      },
+      "cooperative_maintenance_gain": {
+        "mean": 0.0603,
+        "depth_20": 0.0
+      },
+      "recursive_retention_regeneration": {
+        "mean": 0.7219,
+        "depth_20": 0.6173
+      },
+      "rg_similarity": {
+        "mean": 0.8081
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "WEAKLY_SELF-MAINTAINING",
+      "persistence_renewal": {
+        "mean": 0.7323,
+        "depth_20": 0.6326
+      },
+      "repair_strength": {
+        "mean": 0.714,
+        "depth_20": 0.6058
+      },
+      "degradation_containment": {
+        "mean": 0.6452,
+        "depth_20": 0.5559
+      },
+      "cooperative_maintenance_gain": {
+        "mean": 0.0558,
+        "depth_20": 0.0
+      },
+      "recursive_retention_regeneration": {
+        "mean": 0.7231,
+        "depth_20": 0.6192
+      },
+      "rg_similarity": {
+        "mean": 0.811
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "WEAKLY_SELF-MAINTAINING",
+      "persistence_renewal": {
+        "mean": 0.7292,
+        "depth_20": 0.6305
+      },
+      "repair_strength": {
+        "mean": 0.709,
+        "depth_20": 0.6012
+      },
+      "degradation_containment": {
+        "mean": 0.6382,
+        "depth_20": 0.5544
+      },
+      "cooperative_maintenance_gain": {
+        "mean": 0.0573,
+        "depth_20": 0.0
+      },
+      "recursive_retention_regeneration": {
+        "mean": 0.7191,
+        "depth_20": 0.6159
+      },
+      "rg_similarity": {
+        "mean": 0.8138
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "WEAKLY_SELF-MAINTAINING",
+      "persistence_renewal": {
+        "mean": 0.7319,
+        "depth_20": 0.6418
+      },
+      "repair_strength": {
+        "mean": 0.7179,
+        "depth_20": 0.616
+      },
+      "degradation_containment": {
+        "mean": 0.6401,
+        "depth_20": 0.5557
+      },
+      "cooperative_maintenance_gain": {
+        "mean": 0.0554,
+        "depth_20": 0.0
+      },
+      "recursive_retention_regeneration": {
+        "mean": 0.7249,
+        "depth_20": 0.6289
+      },
+      "rg_similarity": {
+        "mean": 0.8022
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "WEAKLY_SELF-MAINTAINING",
+      "persistence_renewal": {
+        "mean": 0.7334,
+        "depth_20": 0.6159
+      },
+      "repair_strength": {
+        "mean": 0.7164,
+        "depth_20": 0.6153
+      },
+      "degradation_containment": {
+        "mean": 0.6422,
+        "depth_20": 0.5602
+      },
+      "cooperative_maintenance_gain": {
+        "mean": 0.0575,
+        "depth_20": 0.0
+      },
+      "recursive_retention_regeneration": {
+        "mean": 0.7249,
+        "depth_20": 0.6156
+      },
+      "rg_similarity": {
+        "mean": 0.8004
+      }
+    }
+  }
+}

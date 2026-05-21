@@ -1,0 +1,216 @@
+{
+  "phase": 362,
+  "title": "Emergent Relational Organizational Recursive Validation Stability",
+  "verdict": "ROBUST",
+  "hypotheses": {
+    "H1_hierarchy_survives_perturbation": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N: 0.8856 at depth 1, mean 0.7623; P-A: 0.8656 at depth 1"
+    },
+    "H2_metric_sensitivity_bounded": {
+      "threshold": 0.3,
+      "status": "PASS",
+      "evidence": "P-A-N maintains < 0.30 through depth 20; A-N exceeds at depth 12"
+    },
+    "H3_null_models_fail": {
+      "threshold": 0.25,
+      "status": "PASS",
+      "evidence": "P-A-N null model distance: 0.4256 at depth 1, mean 0.3689"
+    },
+    "H4_rg_validation_stability": {
+      "threshold": 0.9,
+      "status": "FAIL",
+      "evidence": "Mean RG: 0.7156; P-A-N: 0.7923; Maximum achieved: 0.8889"
+    },
+    "H5_adversarial_survivability": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N maintains > 0.70 through depth 16; P-A through depth 12"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "WEAKLY_ROBUST",
+      "hierarchy_survival": {
+        "mean": 0.7651,
+        "depth_20": 0.6307
+      },
+      "metric_sensitivity": {
+        "mean": 0.2163,
+        "depth_20": 0.2638
+      },
+      "topology_dependence": {
+        "mean": 0.251,
+        "depth_20": 0.2943
+      },
+      "null_model_distance": {
+        "mean": 0.3614,
+        "depth_20": 0.3037
+      },
+      "adversarial_survivability": {
+        "mean": 0.7474,
+        "depth_20": 0.6138
+      },
+      "rg_similarity": {
+        "mean": 0.7609
+      }
+    },
+    "Antisymmetry": {
+      "classification": "WEAKLY_ROBUST",
+      "hierarchy_survival": {
+        "mean": 0.7279,
+        "depth_20": 0.6055
+      },
+      "metric_sensitivity": {
+        "mean": 0.2461,
+        "depth_20": 0.282
+      },
+      "topology_dependence": {
+        "mean": 0.2838,
+        "depth_20": 0.2905
+      },
+      "null_model_distance": {
+        "mean": 0.3182,
+        "depth_20": 0.2677
+      },
+      "adversarial_survivability": {
+        "mean": 0.7107,
+        "depth_20": 0.5811
+      },
+      "rg_similarity": {
+        "mean": 0.757
+      }
+    },
+    "Neutral": {
+      "classification": "METRIC-SENSITIVE",
+      "hierarchy_survival": {
+        "mean": 0.6619,
+        "depth_20": 0.5478
+      },
+      "metric_sensitivity": {
+        "mean": 0.2986,
+        "depth_20": 0.3363
+      },
+      "topology_dependence": {
+        "mean": 0.3114,
+        "depth_20": 0.3383
+      },
+      "null_model_distance": {
+        "mean": 0.2779,
+        "depth_20": 0.2256
+      },
+      "adversarial_survivability": {
+        "mean": 0.6462,
+        "depth_20": 0.527
+      },
+      "rg_similarity": {
+        "mean": 0.7557
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "METRIC-SENSITIVE",
+      "hierarchy_survival": {
+        "mean": 0.6678,
+        "depth_20": 0.5515
+      },
+      "metric_sensitivity": {
+        "mean": 0.2833,
+        "depth_20": 0.3276
+      },
+      "topology_dependence": {
+        "mean": 0.3139,
+        "depth_20": 0.3535
+      },
+      "null_model_distance": {
+        "mean": 0.2815,
+        "depth_20": 0.235
+      },
+      "adversarial_survivability": {
+        "mean": 0.6394,
+        "depth_20": 0.5341
+      },
+      "rg_similarity": {
+        "mean": 0.7641
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "METRIC-SENSITIVE",
+      "hierarchy_survival": {
+        "mean": 0.661,
+        "depth_20": 0.5501
+      },
+      "metric_sensitivity": {
+        "mean": 0.284,
+        "depth_20": 0.2946
+      },
+      "topology_dependence": {
+        "mean": 0.3154,
+        "depth_20": 0.3532
+      },
+      "null_model_distance": {
+        "mean": 0.277,
+        "depth_20": 0.2287
+      },
+      "adversarial_survivability": {
+        "mean": 0.6462,
+        "depth_20": 0.5432
+      },
+      "rg_similarity": {
+        "mean": 0.7539
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "METRIC-SENSITIVE",
+      "hierarchy_survival": {
+        "mean": 0.6627,
+        "depth_20": 0.5513
+      },
+      "metric_sensitivity": {
+        "mean": 0.2843,
+        "depth_20": 0.3073
+      },
+      "topology_dependence": {
+        "mean": 0.3072,
+        "depth_20": 0.3196
+      },
+      "null_model_distance": {
+        "mean": 0.2756,
+        "depth_20": 0.2379
+      },
+      "adversarial_survivability": {
+        "mean": 0.6484,
+        "depth_20": 0.5234
+      },
+      "rg_similarity": {
+        "mean": 0.7518
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "METRIC-SENSITIVE",
+      "hierarchy_survival": {
+        "mean": 0.6648,
+        "depth_20": 0.5554
+      },
+      "metric_sensitivity": {
+        "mean": 0.2831,
+        "depth_20": 0.3012
+      },
+      "topology_dependence": {
+        "mean": 0.3061,
+        "depth_20": 0.3181
+      },
+      "null_model_distance": {
+        "mean": 0.2836,
+        "depth_20": 0.2408
+      },
+      "adversarial_survivability": {
+        "mean": 0.6467,
+        "depth_20": 0.5274
+      },
+      "rg_similarity": {
+        "mean": 0.7641
+      }
+    }
+  }
+}

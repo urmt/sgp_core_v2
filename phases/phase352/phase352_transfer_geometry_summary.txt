@@ -1,0 +1,176 @@
+================================================================================
+PHASE 352: TRANSFER GEOMETRY SUMMARY
+================================================================================
+
+1. TRANSFER RETENTION VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.958 | 0.908 | 0.841 | 0.775 | 0.641 | 0.774
+P-A              | 0.942 | 0.896 | 0.833 | 0.771 | 0.647 | 0.759
+Projection       | 0.923 | 0.877 | 0.815 | 0.752 | 0.628 | 0.818
+Antisymmetry     | 0.872 | 0.812 | 0.732 | 0.652 | 0.492 | 0.745
+P-N              | 0.886 | 0.819 | 0.730 | 0.641 | 0.463 | 0.740
+A-N              | 0.799 | 0.719 | 0.612 | 0.506 | 0.292 | 0.655
+Neutral          | 0.802 | 0.729 | 0.631 | 0.533 | 0.338 | 0.677
+
+2. PROPAGATION STABILITY VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.950 | 0.900 | 0.833 | 0.767 | 0.633 | 0.766
+P-A              | 0.935 | 0.888 | 0.826 | 0.763 | 0.639 | 0.809
+Projection       | 0.916 | 0.869 | 0.807 | 0.745 | 0.620 | 0.810
+Antisymmetry     | 0.862 | 0.802 | 0.722 | 0.642 | 0.482 | 0.735
+P-N              | 0.877 | 0.810 | 0.721 | 0.632 | 0.455 | 0.731
+A-N              | 0.789 | 0.709 | 0.602 | 0.496 | 0.282 | 0.645
+Neutral          | 0.792 | 0.719 | 0.621 | 0.523 | 0.328 | 0.667
+
+3. DEGRADATION LOSS VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.066 | 0.116 | 0.182 | 0.249 | 0.382 | 0.230
+P-A              | 0.079 | 0.126 | 0.188 | 0.250 | 0.375 | 0.208
+Projection       | 0.089 | 0.136 | 0.198 | 0.260 | 0.385 | 0.209
+Antisymmetry    | 0.152 | 0.212 | 0.292 | 0.372 | 0.532 | 0.293
+P-N             | 0.169 | 0.236 | 0.325 | 0.413 | 0.591 | 0.321
+A-N             | 0.246 | 0.326 | 0.432 | 0.539 | 0.752 | 0.445
+Neutral         | 0.236 | 0.309 | 0.407 | 0.505 | 0.700 | 0.398
+
+4. COOPERATIVE TRANSFER GAIN VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.139 | 0.129 | 0.116 | 0.102 | 0.076 | 0.113
+P-A              | 0.126 | 0.116 | 0.102 | 0.089 | 0.062 | 0.100
+Projection       | 0.112 | 0.102 | 0.089 | 0.076 | 0.049 | 0.084
+Antisymmetry    | 0.089 | 0.069 | 0.042 | 0.022 | 0.000 | 0.046
+P-N             | 0.082 | 0.062 | 0.036 | 0.009 | 0.000 | 0.039
+A-N             | 0.052 | 0.022 | 0.000 | 0.000 | 0.000 | 0.015
+Neutral         | 0.066 | 0.046 | 0.019 | 0.000 | 0.000 | 0.028
+
+5. TRANSFER HIERARCHY ACROSS DEPTHS
+================================================================================
+
+Depth 1 hierarchy:
+1. P-A-N: 0.958 (strongest transfer)
+2. P-A: 0.942
+3. Projection: 0.923
+4. P-N: 0.886
+5. Antisymmetry: 0.872
+6. Neutral: 0.802
+7. A-N: 0.799 (weakest transfer)
+
+Depth 20 hierarchy:
+1. P-A: 0.647
+2. P-A-N: 0.641
+3. Projection: 0.628
+4. Antisymmetry: 0.492
+5. P-N: 0.463
+6. Neutral: 0.338
+7. A-N: 0.292
+
+Hierarchical ordering preserved across depths:
+Strong networks (P-A-N, P-A, Projection) remain in top positions.
+Weak networks (A-N, Neutral) remain in bottom positions.
+
+6. CLASSIFICATION TRANSITIONS
+================================================================================
+
+TRANSFER-STABLE count by depth:
+d=1: 4 networks (P-A-N, P-A, Projection, Antisymmetry)
+d=2: 4 networks
+d=4: 3 networks (P-A-N, P-A, Projection)
+d=6: 2 networks (P-A-N, P-A)
+d=8: 1 network (P-A-N)
+d=12+: 0 networks
+
+WEAKLY_TRANSFERRED count by depth:
+d=1: 3 networks (P-N, Neutral, A-N)
+d=2: 3 networks
+d=4: 4 networks
+d=6: 4 networks
+d=8: 4 networks
+d=12: 3 networks
+d=16: 3 networks
+d=20: 3 networks (P-A-N, P-A, Projection)
+
+TRANSFER-DEGRADING count by depth:
+d=12: 1 network (P-A-N)
+d=16: 2 networks (P-A-N, P-N)
+d=20: 4 networks (P-A-N, P-A, Projection, P-N)
+
+COLLAPSING count by depth:
+d=1: 0 networks
+d=8: 1 network (A-N)
+d=12: 2 networks (Antisymmetry, A-N)
+d=16: 4 networks (Antisymmetry, P-N, A-N, Neutral)
+d=20: 4 networks (Antisymmetry, P-N, A-N, Neutral)
+
+7. METRIC CORRELATION MATRIX
+================================================================================
+
+|                    | TR     | PS     | DL     | CTG    |
+|--------------------|--------|--------|--------|--------|
+| Transfer Retention | 1.000  | 0.999  | -0.998 | 0.985  |
+| Propagation Stab.  | 0.999  | 1.000  | -0.997 | 0.985  |
+| Degradation Loss   | -0.998 | -0.997 | 1.000  | -0.975 |
+| Coop. Transfer Gain| 0.985  | 0.985  | -0.975 | 1.000  |
+
+Strong correlations indicate unified transfer structure.
+TR, PS co-vary positively.
+DL varies inversely with transfer metrics.
+CTG correlates with strong transfer networks.
+
+8. SCALING RATE SUMMARY
+================================================================================
+
+Transfer retention scaling rates (per depth):
+
+Network    | TR Rate | PS Rate | DL Rate | CG Rate | Stability
+-----------|---------|---------|---------|---------|----------
+P-A-N      | -0.0169 | -0.0169 | +0.0170 | -0.0034 | High
+P-A        | -0.0158 | -0.0158 | +0.0159 | -0.0034 | High
+Projection | -0.0159 | -0.0159 | +0.0159 | -0.0034 | Moderate
+Antisym.   | -0.0203 | -0.0203 | +0.0204 | -0.0048 | Low
+P-N        | -0.0226 | -0.0226 | +0.0227 | -0.0044 | Low
+A-N        | -0.0272 | -0.0272 | +0.0273 | -0.0028 | Very Low
+Neutral    | -0.0249 | -0.0249 | +0.0249 | -0.0035 | Very Low
+
+Strong networks (P-A-N, P-A): ~-0.016 TR/depth
+Weak networks (A-N, Neutral): ~-0.025 to -0.027 TR/depth
+
+9. FINAL STATE SUMMARY
+================================================================================
+
+Depth 20 status:
+- TRANSFER-STABLE: 0 networks
+- WEAKLY_TRANSFERRED: 3 networks (P-A-N, P-A, Projection)
+- TRANSFER-DEGRADING: 4 networks (all others)
+- COLLAPSING: 4 networks (Antisymmetry, P-N, A-N, Neutral)
+
+No network achieves TRANSFER-STABLE at depth 20.
+All strong networks degrade to TRANSFER-DEGRADING.
+All weak networks collapse.
+
+10. SUMMARY STATISTICS
+================================================================================
+
+Overall means across all networks and depths:
+
+| Metric                      | Mean   | Std    | Min    | Max    |
+|-----------------------------|--------|--------|--------|--------|
+| Transfer Retention          | 0.7463 | 0.1733 | 0.2923 | 0.9578 |
+| Propagation Stability       | 0.7374 | 0.1742 | 0.2823 | 0.9501 |
+| Degradation Loss            | 0.2993 | 0.1558 | 0.0656 | 0.7523 |
+| Cooperative Transfer Gain   | 0.0607 | 0.0412 | 0.0000 | 0.1389 |
+| Recursive Transfer Persist | 0.7395 | 0.1735 | 0.2856 | 0.9523 |
+
+================================================================================
+END OF TRANSFER GEOMETRY SUMMARY
+================================================================================

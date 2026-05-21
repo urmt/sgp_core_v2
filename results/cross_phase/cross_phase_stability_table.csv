@@ -194,3 +194,160 @@ phase339_confinement_breakdown,0.208,NA,0.06,0.47,NA,0,0.0%,0.06
 phase339_transition_sensitivity,0.223,NA,0.09,0.48,NA,0,0.0%,0.09
 phase339_rg_similarity,0.883,NA,0.79,0.97,NA,0,0.0%,0.79
 phase339_verdict,WEAKLY_CRITICAL,NA,NA,NA,NA,NA,NA,NA
+phase340_hysteresis_gap,0.165,NA,0.04,0.34,NA,0,0.0%,0.04
+phase340_recovery_retention,0.881,NA,0.69,0.98,NA,0,0.0%,0.69
+phase340_path_dependence,0.287,NA,0.12,0.53,NA,0,0.0%,0.12
+phase340_deformation_memory,0.115,NA,0.02,0.31,NA,0,0.0%,0.02
+phase340_stability_return,0.901,NA,0.75,0.99,NA,0,0.0%,0.75
+phase340_rg_similarity,0.896,NA,0.79,0.98,NA,0,0.0%,0.79
+phase340_verdict,WEAKLY_PATH_DEPENDENT,NA,NA,NA,NA,NA,NA,NA
+phase341_asymmetry_amplitude,0.205,NA,0.02,0.46,NA,0,0.0%,0.02
+phase341_differentiation_growth,0.046,NA,0.02,0.07,NA,0,0.0%,0.02
+phase341_role_persistence,0.646,NA,0.46,0.88,NA,0,0.0%,0.46
+phase341_trajectory_divergence,0.262,NA,0.03,0.56,NA,0,0.0%,0.03
+phase341_recursive_specialization,0.410,NA,0.16,0.62,NA,0,0.0%,0.16
+phase341_rg_similarity,0.921,NA,0.82,0.98,NA,0,0.0%,0.82
+phase341_verdict,WEAKLY_DIFFERENTIATED,NA,NA,NA,NA,NA,NA,NA
+phase342_coexistence_strength,0.734,NA,0.46,0.92,NA,0,0.0%,0.46
+phase342_identity_retention,0.784,NA,0.52,0.95,NA,0,0.0%,0.52
+phase342_interference_drift,0.152,NA,0.05,0.33,NA,0,0.0%,0.05
+phase342_compatibility_stability,0.681,NA,0.39,0.89,NA,0,0.0%,0.39
+phase342_recursive_persistence,0.724,NA,0.39,0.95,NA,0,0.0%,0.39
+phase342_rg_similarity,0.914,NA,0.81,0.98,NA,0,0.0%,0.81
+phase342_verdict,WEAKLY_COMPATIBLE,NA,NA,NA,NA,NA,NA,NA
+phase343_reconstruction_strength,0.707,NA,0.39,0.92,NA,0,0.0%,0.39
+phase343_identity_recovery,0.746,NA,0.44,0.94,NA,0,0.0%,0.44
+phase343_recovery_drift,0.293,NA,0.08,0.61,NA,0,0.0%,0.08
+phase343_compatibility_restoration,0.674,NA,0.33,0.93,NA,0,0.0%,0.33
+phase343_recursive_recovery_persistence,0.723,NA,0.38,0.95,NA,0,0.0%,0.38
+phase343_rg_similarity,0.898,NA,0.77,0.97,NA,0,0.0%,0.77
+phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
+225: phase345_correlation_strength,0.709,NA,0.37,0.94,NA,0,0.0%,0.37
+226: phase345_synchronization_retention,0.739,NA,0.40,0.97,NA,0,0.0%,0.40
+227: phase345_relational_drift,0.323,NA,0.09,0.89,NA,0,0.0%,0.09
+228: phase345_perturbation_transfer,0.633,NA,0.19,0.89,NA,0,0.0%,0.19
+229: phase345_recursive_correlation,0.687,NA,0.34,0.93,NA,0,0.0%,0.34
+230: phase345_rg_similarity,0.670,NA,0.51,0.85,NA,0,0.0%,0.51
+231: phase345_verdict,WEAKLY_CORRELATED,NA,NA,NA,NA,NA,NA,NA
+232: phase346_protection_strength,0.688,NA,0.33,0.95,NA,0,0.0%,0.33
+233: phase346_mode_retention,0.695,NA,0.34,0.95,NA,0,0.0%,0.34
+234: phase346_perturbation_dispersion,0.338,NA,0.07,0.92,NA,0,0.0%,0.07
+235: phase346_shielding_stability,0.663,NA,0.28,0.94,NA,0,0.0%,0.28
+236: phase346_recursive_protection,0.659,NA,0.28,0.94,NA,0,0.0%,0.28
+237: phase346_rg_similarity,0.644,NA,0.47,0.85,NA,0,0.0%,0.47
+238: phase346_verdict,WEAKLY_PROTECTED,NA,NA,NA,NA,NA,NA,NA
+239: phase347_binding_strength,0.710,NA,0.37,0.95,NA,0,0.0%,0.37
+240: phase347_fragmentation_resistance,0.703,NA,0.36,0.95,NA,0,0.0%,0.36
+241: phase347_internal_drift,0.303,NA,0.06,0.81,NA,0,0.0%,0.06
+242: phase347_composite_coherence,0.697,NA,0.35,0.94,NA,0,0.0%,0.35
+243: phase347_recursive_binding,0.699,NA,0.35,0.94,NA,0,0.0%,0.35
+244: phase347_rg_similarity,0.699,NA,0.54,0.86,NA,0,0.0%,0.54
+245: phase347_verdict,WEAKLY_BOUND,NA,NA,NA,NA,NA,NA,NA
+246: phase348_stabilization_gain,0.063,NA,-0.27,0.21,NA,0,0.0%,-0.27
+247: phase348_degradation_compensation,0.702,NA,0.24,0.92,NA,0,0.0%,0.24
+248: phase348_network_retention,0.717,NA,0.18,0.94,NA,0,0.0%,0.18
+249: phase348_propagation_bound,0.342,NA,0.09,0.97,NA,0,0.0%,0.09
+250: phase348_recursive_network_stability,0.704,NA,0.18,0.94,NA,0,0.0%,0.18
+251: phase348_rg_similarity,0.652,NA,0.41,0.82,NA,0,0.0%,0.41
+252: phase348_verdict,WEAKLY_NETWORKED,NA,NA,NA,NA,NA,NA,NA
+253: phase349_resonant_gain,0.083,NA,-0.33,0.27,NA,0,0.0%,-0.33
+254: phase349_synchronization_retention,0.767,NA,0.42,0.96,NA,0,0.0%,0.42
+255: phase349_cooperative_amplification,0.745,NA,0.39,0.95,NA,0,0.0%,0.39
+256: phase349_desynchronization_drift,0.265,NA,0.07,0.64,NA,0,0.0%,0.07
+257: phase349_recursive_resonance,0.757,NA,0.39,0.95,NA,0,0.0%,0.39
+258: phase349_rg_similarity,0.757,NA,0.65,0.85,NA,0,0.0%,0.65
+259: phase349_verdict,WEAKLY_SYNCHRONIZED,NA,NA,NA,NA,NA,NA,NA
+260: phase350_selective_gain,0.098,NA,-0.41,0.32,NA,0,0.0%,-0.41
+261: phase350_pathway_discrimination,0.746,NA,0.29,0.97,NA,0,0.0%,0.29
+262: phase350_suppression_efficiency,0.628,NA,0.16,0.86,NA,0,0.0%,0.16
+263: phase350_persistence_retention,0.735,NA,0.28,0.96,NA,0,0.0%,0.28
+264: phase350_recursive_selectivity,0.728,NA,0.28,0.95,NA,0,0.0%,0.28
+265: phase350_rg_similarity,0.731,NA,0.54,0.86,NA,0,0.0%,0.54
+266: phase350_verdict,WEAKLY_SELECTIVE,NA,NA,NA,NA,NA,NA,NA
+267: phase351_domain_coherence,0.723,NA,0.65,0.95,NA,0,0.0%,0.65
+268: phase351_boundary_retention,0.733,NA,0.23,0.96,NA,0,0.0%,0.23
+269: phase351_degradation_penetration,0.312,NA,0.07,0.81,NA,0,0.0%,0.81
+270: phase351_persistence_density,0.726,NA,0.23,0.95,NA,0,0.0%,0.23
+271: phase351_rg_similarity,0.756,NA,0.23,0.96,NA,0,0.0%,0.23
+272: phase351_verdict,WEAKLY_DOMAINED,NA,NA,NA,NA,NA,NA,NA
+273: phase352_transfer_retention,0.746,NA,0.29,0.96,NA,0,0.0%,0.29
+274: phase352_propagation_stability,0.737,NA,0.28,0.95,NA,0,0.0%,0.28
+275: phase352_degradation_loss,0.299,NA,0.07,0.75,NA,0,0.0%,0.75
+276: phase352_cooperative_transfer_gain,0.061,NA,0.00,0.14,NA,0,0.0%,0.00
+277: phase352_rg_similarity,0.769,NA,0.29,0.96,NA,0,0.0%,0.29
+278: phase352_verdict,WEAKLY_TRANSFERRED,NA,NA,NA,NA,NA,NA,NA
+279: phase353_interlock_strength,0.749,NA,0.27,0.95,NA,0,0.0%,0.27
+280: phase353_cooperative_amplification,0.123,NA,0.00,0.28,NA,0,0.0%,0.00
+281: phase353_destabilization_isolation,0.613,NA,0.16,0.83,NA,0,0.0%,0.16
+282: phase353_persistence_dependency,0.746,NA,0.27,0.94,NA,0,0.0%,0.27
+283: phase353_rg_similarity,0.761,NA,0.27,0.94,NA,0,0.0%,0.27
+284: phase353_verdict,WEAKLY_INTERLOCKED,NA,NA,NA,NA,NA,NA,NA
+285: phase354_modular_coherence,0.734,NA,0.27,0.94,NA,0,0.0%,0.27
+286: phase354_module_independence,0.713,NA,0.24,0.92,NA,0,0.0%,0.24
+287: phase354_cross_module_degradation,0.275,NA,0.08,0.73,NA,0,0.0%,0.73
+288: phase354_cooperative_modular_gain,0.056,NA,0.00,0.17,NA,0,0.0%,0.00
+289: phase354_rg_similarity,0.760,NA,0.26,0.93,NA,0,0.0%,0.26
+290: phase354_verdict,WEAKLY_MODULAR,NA,NA,NA,NA,NA,NA,NA
+291: phase355_adaptive_retention,0.731,NA,0.26,0.93,NA,0,0.0%,0.26
+292: phase355_recovery_efficiency,0.717,NA,0.24,0.92,NA,0,0.0%,0.24
+293: phase355_adaptive_drift,0.284,NA,0.08,0.74,NA,0,0.0%,0.74
+294: phase355_cooperative_adaptive_gain,0.044,NA,0.00,0.16,NA,0,0.0%,0.00
+295: phase355_rg_similarity,0.754,NA,0.25,0.93,NA,0,0.0%,0.25
+296: phase355_verdict,WEAKLY_ADAPTIVE,NA,NA,NA,NA,NA,NA,NA
+297: phase356_redundancy_retention,0.737,NA,0.26,0.93,NA,0,0.0%,0.26
+298: phase356_compensation_strength,0.724,NA,0.25,0.92,NA,0,0.0%,0.25
+299: phase356_failure_containment,0.641,NA,0.17,0.83,NA,0,0.0%,0.17
+300: phase356_distributed_support_gain,0.040,NA,0.00,0.15,NA,0,0.0%,0.00
+301: phase356_rg_similarity,0.756,NA,0.26,0.93,NA,0,0.0%,0.26
+302: phase356_verdict,WEAKLY_REDUNDANT,NA,NA,NA,NA,NA,NA,NA
+303: phase357_trajectory_stability,0.737,NA,0.27,0.94,NA,0,0.0%,0.27
+304: phase357_correction_strength,0.724,NA,0.25,0.92,NA,0,0.0%,0.25
+305: phase357_divergence_bound,0.275,NA,0.08,0.73,NA,0,0.0%,0.73
+306: phase357_cooperative_pathway_gain,0.042,NA,0.00,0.15,NA,0,0.0%,0.00
+307: phase357_rg_similarity,0.756,NA,0.26,0.93,NA,0,0.0%,0.26
+308: phase357_verdict,WEAKLY_CANALIZED,NA,NA,NA,NA,NA,NA,NA
+309: phase358_synchronization_stability,0.738,NA,0.27,0.94,NA,0,0.0%,0.27
+310: phase358_desynchronization_resistance,0.725,NA,0.26,0.93,NA,0,0.0%,0.26
+311: phase358_coherence_drift,0.271,NA,0.07,0.72,NA,0,0.0%,0.72
+312: phase358_cooperative_phase_gain,0.044,NA,0.00,0.16,NA,0,0.0%,0.00
+313: phase358_rg_similarity,0.757,NA,0.26,0.93,NA,0,0.0%,0.26
+314: phase358_verdict,WEAKLY_SYNCHRONIZED,NA,NA,NA,NA,NA,NA,NA
+315: phase359_reinforcement_amplification,0.741,NA,0.27,0.94,NA,0,0.0%,0.27
+316: phase359_cooperative_enhancement,0.727,NA,0.26,0.93,NA,0,0.0%,0.26
+317: phase359_resonance_spread,0.267,NA,0.07,0.72,NA,0,0.0%,0.72
+318: phase359_coordinated_persistence_gain,0.046,NA,0.00,0.16,NA,0,0.0%,0.00
+319: phase359_rg_similarity,0.758,NA,0.27,0.94,NA,0,0.0%,0.27
+320: phase359_verdict,WEAKLY_RESONANT,NA,NA,NA,NA,NA,NA,NA
+321: phase360_persistence_renewal,0.737,NA,0.27,0.94,NA,0,0.0%,0.27
+322: phase360_repair_strength,0.724,NA,0.26,0.93,NA,0,0.0%,0.26
+323: phase360_degradation_containment,0.636,NA,0.17,0.83,NA,0,0.0%,0.17
+324: phase360_cooperative_maintenance_gain,0.042,NA,0.00,0.15,NA,0,0.0%,0.00
+325: phase360_rg_similarity,0.758,NA,0.26,0.93,NA,0,0.0%,0.26
+326: phase360_verdict,WEAKLY_SELF-MAINTAINING,NA,NA,NA,NA,NA,NA,NA
+327: phase361_invariance_retention,0.736,NA,0.25,0.91,NA,0,0.0%,0.25
+328: phase361_deformation_bound,0.326,NA,0.18,0.45,NA,0,0.0%,0.18
+329: phase361_cooperative_invariance_gain,0.039,NA,0.00,0.13,NA,0,0.0%,0.00
+330: phase361_recursive_structure_retention,0.716,NA,0.24,0.89,NA,0,0.0%,0.24
+331: phase361_rg_similarity,0.739,NA,0.24,0.91,NA,0,0.0%,0.24
+332: phase361_verdict,WEAKLY_INVARIANT,NA,NA,NA,NA,NA,NA,NA
+333: phase362_hierarchy_survival,0.716,NA,0.21,0.89,NA,0,0.0%,0.21
+334: phase362_metric_sensitivity,0.246,NA,0.15,0.41,NA,0,0.0%,0.15
+335: phase362_topology_dependence,0.266,NA,0.18,0.40,NA,0,0.0%,0.18
+336: phase362_null_model_distance,0.326,NA,0.12,0.43,NA,0,0.0%,0.12
+337: phase362_adversarial_survivability,0.692,NA,0.18,0.87,NA,0,0.0%,0.18
+338: phase362_rg_similarity,0.716,NA,0.22,0.89,NA,0,0.0%,0.22
+339: phase362_verdict,ROBUST,NA,NA,NA,NA,NA,NA,NA
+340: phase363_hierarchy_consistency,0.686,NA,0.15,0.90,NA,0,0.0%,0.15
+341: phase363_formalism_stability,0.666,NA,0.15,0.88,NA,0,0.0%,0.15
+342: phase363_structural_overlap,0.646,NA,0.10,0.85,NA,0,0.0%,0.10
+343: phase363_null_formalism_distance,0.286,NA,0.00,0.44,NA,0,0.0%,0.00
+344: phase363_recursive_retention,0.666,NA,0.15,0.89,NA,0,0.0%,0.15
+345: phase363_rg_similarity,0.692,NA,0.20,0.87,NA,0,0.0%,0.20
+346: phase363_verdict,CROSS-FORMALISM_INVARIANT,NA,NA,NA,NA,NA,NA,NA
+347: phase364_rg_improvement,0.020,NA,-0.15,0.08,NA,0,0.0%,-0.15
+348: phase364_closure_retention,0.716,NA,0.15,0.93,NA,0,0.0%,0.15
+349: phase364_multiscale_consistency,0.696,NA,0.15,0.91,NA,0,0.0%,0.15
+350: phase364_degradation_reduction,0.666,NA,0.15,0.83,NA,0,0.0%,0.15
+351: phase364_operator_effectiveness,0.686,NA,0.15,0.91,NA,0,0.0%,0.15
+352: phase364_rg_similarity,0.746,NA,0.15,0.90,NA,0,0.0%,0.15
+353: phase364_verdict,OPERATOR-COMPLETE,NA,NA,NA,NA,NA,NA,NA

@@ -1,0 +1,242 @@
+# PHASE 347: RG BINDING STABILITY
+# Emergent Relational Organizational Binding Structure
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+RG BINDING STABILITY ANALYSIS
+================================================================================
+
+COMPARISON: Fine vs Coarse Recursive Organization
+
+================================================================================
+FINE-GRAINED BINDING METRICS
+================================================================================
+
+Fine-grained analysis reveals entity-specific binding behavior:
+
+PROJECTION:
+- Fine binding_strength: 0.8644
+- Fine fragmentation_resistance: 0.8577
+- Fine internal_drift: 0.1696
+- Fine composite_coherence: 0.8510
+- Fine recursive_binding: 0.8533
+
+ANTISYMMETRY:
+- Fine binding_strength: 0.7334
+- Fine fragmentation_resistance: 0.7267
+- Fine internal_drift: 0.2620
+- Fine composite_coherence: 0.7200
+- Fine recursive_binding: 0.7223
+
+NEUTRAL:
+- Fine binding_strength: 0.6195
+- Fine fragmentation_resistance: 0.6128
+- Fine internal_drift: 0.3831
+- Fine composite_coherence: 0.6061
+- Fine recursive_binding: 0.6084
+
+PROJECTION-ANTISYMMETRY:
+- Fine binding_strength: 0.8097
+- Fine fragmentation_resistance: 0.8030
+- Fine internal_drift: 0.2177
+- Fine composite_coherence: 0.7963
+- Fine recursive_binding: 0.7985
+
+PROJECTION-NEUTRAL:
+- Fine binding_strength: 0.6826
+- Fine fragmentation_resistance: 0.6760
+- Fine internal_drift: 0.3351
+- Fine composite_coherence: 0.6693
+- Fine recursive_binding: 0.6715
+
+ANTISYMMETRY-NEUTRAL:
+- Fine binding_strength: 0.5501
+- Fine fragmentation_resistance: 0.5434
+- Fine internal_drift: 0.4489
+- Fine composite_coherence: 0.5368
+- Fine recursive_binding: 0.5390
+
+================================================================================
+COARSE-GRAINED BINDING METRICS
+================================================================================
+
+Coarse-graining produces entity-specific degradation:
+
+PROJECTION:
+- Coarse binding: 0.8123
+- Coarse resistance: 0.8056
+- Coarse drift: 0.2078
+- Coarse coherence: 0.7989
+- Coarse persistence: 0.8012
+
+ANTISYMMETRY:
+- Coarse binding: 0.6756
+- Coarse resistance: 0.6689
+- Coarse drift: 0.3001
+- Coarse coherence: 0.6623
+- Coarse persistence: 0.6645
+
+NEUTRAL:
+- Coarse binding: 0.5512
+- Coarse resistance: 0.5445
+- Coarse drift: 0.4212
+- Coarse coherence: 0.5378
+- Coarse persistence: 0.5401
+
+PROJECTION-ANTISYMMETRY:
+- Coarse binding: 0.7478
+- Coarse resistance: 0.7412
+- Coarse drift: 0.2556
+- Coarse coherence: 0.7345
+- Coarse persistence: 0.7367
+
+PROJECTION-NEUTRAL:
+- Coarse binding: 0.6145
+- Coarse resistance: 0.6078
+- Coarse drift: 0.3734
+- Coarse coherence: 0.6012
+- Coarse persistence: 0.6034
+
+ANTISYMMETRY-NEUTRAL:
+- Coarse binding: 0.4812
+- Coarse resistance: 0.4745
+- Coarse drift: 0.4878
+- Coarse coherence: 0.4689
+- Coarse persistence: 0.4712
+
+================================================================================
+RG SIMILARITY ANALYSIS
+================================================================================
+
+RG similarity measures binding structure preservation:
+
+PROJECTION: 0.8644
+ANTISYMMETRY: 0.7338
+NEUTRAL: 0.5849
+PROJECTION-ANTISYMMETRY: 0.7985
+PROJECTION-NEUTRAL: 0.6715
+ANTISYMMETRY-NEUTRAL: 0.5390
+
+Mean RG similarity: 0.6987
+
+================================================================================
+BINDING PRESERVATION
+================================================================================
+
+Binding strength preservation under coarse-graining:
+
+PROJECTION:
+- Fine: 0.8644, Coarse: 0.8123, Ratio: 0.940
+
+ANTISYMMETRY:
+- Fine: 0.7334, Coarse: 0.6756, Ratio: 0.921
+
+NEUTRAL:
+- Fine: 0.6195, Coarse: 0.5512, Ratio: 0.890
+
+PROJECTION-ANTISYMMETRY:
+- Fine: 0.8097, Coarse: 0.7478, Ratio: 0.924
+
+PROJECTION-NEUTRAL:
+- Fine: 0.6826, Coarse: 0.6145, Ratio: 0.900
+
+ANTISYMMETRY-NEUTRAL:
+- Fine: 0.5501, Coarse: 0.4812, Ratio: 0.875
+
+Mean preservation ratio: 0.908
+
+================================================================================
+DRIFT AMPLIFICATION
+================================================================================
+
+Internal drift under coarse-graining:
+
+PROJECTION:
+- Fine: 0.1696, Coarse: 0.2078, Ratio: 1.225
+
+ANTISYMMETRY:
+- Fine: 0.2620, Coarse: 0.3001, Ratio: 1.145
+
+NEUTRAL:
+- Fine: 0.3831, Coarse: 0.4212, Ratio: 1.099
+
+PROJECTION-ANTISYMMETRY:
+- Fine: 0.2177, Coarse: 0.2556, Ratio: 1.174
+
+PROJECTION-NEUTRAL:
+- Fine: 0.3351, Coarse: 0.3734, Ratio: 1.114
+
+ANTISYMMETRY-NEUTRAL:
+- Fine: 0.4489, Coarse: 0.4878, Ratio: 1.087
+
+Mean amplification ratio: 0.891 (inverse)
+
+================================================================================
+SCALE INVARIANCE ASSESSMENT
+================================================================================
+
+RG stability threshold: 0.90
+
+Results:
+- Projection: 0.8644 (below threshold)
+- Antisymmetry: 0.7338 (below threshold)
+- Neutral: 0.5849 (below threshold)
+- Projection-Antisymmetry: 0.7985 (below threshold)
+- Projection-Neutral: 0.6715 (below threshold)
+- Antisymmetry-Neutral: 0.5390 (below threshold)
+
+Mean RG similarity: 0.6987 (below 0.90 threshold)
+
+This represents a FAIL for H4.
+
+================================================================================
+FINE VS COARSE BINDING COMPARISON
+================================================================================
+
+                        Fine      Coarse    Change
+PROJECTION
+  Binding:             0.8644    0.8123    -6.0%
+  Fragmentation:       0.8577    0.8056    -6.1%
+  Drift:              0.1696    0.2078    +22.5%
+  Coherence:          0.8510    0.7989    -6.1%
+  Persistence:        0.8533    0.8012    -6.1%
+  RG:               0.8644    0.8644    0.0%
+
+ANTISYMMETRY
+  Binding:             0.7334    0.6756    -7.9%
+  Fragmentation:       0.7267    0.6689    -8.0%
+  Drift:              0.2620    0.3001    +14.5%
+  Coherence:          0.7200    0.6623    -8.0%
+  Persistence:        0.7223    0.6645    -8.0%
+  RG:               0.7338    0.7338    0.0%
+
+NEUTRAL
+  Binding:             0.6195    0.5512    -11.0%
+  Fragmentation:       0.6128    0.5445    -11.1%
+  Drift:              0.3831    0.4212    +9.9%
+  Coherence:          0.6061    0.5378    -11.3%
+  Persistence:        0.6084    0.5401    -11.2%
+  RG:               0.5849    0.5849    0.0%
+
+Observation: RG similarity below threshold for all entities. All metrics
+degrade under coarse-graining (6-11%). Binding structure insufficiently
+stable at coarse scales.
+
+================================================================================
+CONCLUSION
+================================================================================
+
+RG binding stability analysis reveals:
+- Binding structure degrades under coarse-graining
+- Binding metrics degrade 6-11% at coarse scales
+- Drift amplifies 10-23% at coarse scales
+- RG similarity below threshold (0.6987 < 0.90)
+- Classification shifts significantly (earlier collapse)
+- H4 FAIL
+
+The failure of H4 indicates that binding structure lacks sufficient
+scale invariance. No entity achieves RG similarity above 0.90.
+
+================================================================================
+END OF RG BINDING STABILITY
+================================================================================

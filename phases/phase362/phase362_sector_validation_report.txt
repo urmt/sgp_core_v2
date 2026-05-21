@@ -1,0 +1,121 @@
+================================================================================
+PHASE 362: SECTOR VALIDATION REPORT
+================================================================================
+
+SECTOR CLASSIFICATION SUMMARY
+================================================================================
+
+| Sector                   | Classification     | Hierarchy Survival | Metric Sensitivity |
+|--------------------------|--------------------|--------------------|--------------------|
+| Projection               | METRIC-SENSITIVE   | 0.5423 (d=20)      | 0.3456 (d=20)      |
+| Antisymmetry             | COLLAPSING         | 0.4523 (d=20)      | 0.3756 (d=20)      |
+| Neutral                  | COLLAPSING         | 0.3256 (d=20)      | 0.4056 (d=20)      |
+| Projection-Antisymmetry  | METRIC-SENSITIVE   | 0.5589 (d=20)      | 0.3323 (d=20)      |
+| Projection-Neutral       | METRIC-SENSITIVE   | 0.4656 (d=20)      | 0.3556 (d=20)      |
+| Antisymmetry-Neutral     | COLLAPSING         | 0.2089 (d=20)      | 0.4056 (d=20)      |
+| P-A-N                    | METRIC-SENSITIVE   | 0.5756 (d=20)      | 0.2956 (d=20)      |
+
+================================================================================
+PROJECTION SECTOR: METRIC-SENSITIVE
+================================================================================
+
+Hierarchy Survival: 0.5423 (depth 20)
+Metric Sensitivity: 0.3456 (depth 20)
+Adversarial Survivability: 0.5323 (depth 20)
+Null Model Distance: 0.2323 (depth 20)
+
+Early depth status: ROBUST (depths 1-4)
+Final status: METRIC-SENSITIVE
+
+================================================================================
+ANTISYMMETRY SECTOR: COLLAPSING
+================================================================================
+
+Hierarchy Survival: 0.4523 (depth 20)
+Metric Sensitivity: 0.3756 (depth 20)
+Adversarial Survivability: 0.4389 (depth 20)
+Null Model Distance: 0.1756 (depth 20)
+
+Early depth status: WEAKLY_ROBUST (depths 1-4)
+Final status: COLLAPSING
+
+================================================================================
+NEUTRAL SECTOR: COLLAPSING
+================================================================================
+
+Hierarchy Survival: 0.3256 (depth 20)
+Metric Sensitivity: 0.4056 (depth 20)
+Adversarial Survivability: 0.3056 (depth 20)
+Null Model Distance: 0.1456 (depth 20)
+
+Early depth status: WEAKLY_ROBUST (depths 1-4)
+Final status: COLLAPSING
+
+================================================================================
+PROJECTION-ANTISYMMETRY PAIR: METRIC-SENSITIVE
+================================================================================
+
+Hierarchy Survival: 0.5589 (depth 20)
+Metric Sensitivity: 0.3323 (depth 20)
+Adversarial Survivability: 0.5423 (depth 20)
+Null Model Distance: 0.2456 (depth 20)
+
+Early depth status: ROBUST (depths 1-4)
+Final status: METRIC-SENSITIVE
+
+================================================================================
+PROJECTION-NEUTRAL PAIR: METRIC-SENSITIVE
+================================================================================
+
+Hierarchy Survival: 0.4656 (depth 20)
+Metric Sensitivity: 0.3556 (depth 20)
+Adversarial Survivability: 0.4523 (depth 20)
+Null Model Distance: 0.2056 (depth 20)
+
+Early depth status: WEAKLY_ROBUST (depths 1-4)
+Final status: METRIC-SENSITIVE
+
+================================================================================
+ANTISYMMETRY-NEUTRAL PAIR: COLLAPSING
+================================================================================
+
+Hierarchy Survival: 0.2089 (depth 20)
+Metric Sensitivity: 0.4056 (depth 20)
+Adversarial Survivability: 0.1756 (depth 20)
+Null Model Distance: 0.1156 (depth 20)
+
+Early depth status: WEAKLY_ROBUST (depths 1-4)
+Final status: COLLAPSING
+
+================================================================================
+PROJECTION-ANTISYMMETRY-NEUTRAL TRIAD: METRIC-SENSITIVE
+================================================================================
+
+Hierarchy Survival: 0.5756 (depth 20)
+Metric Sensitivity: 0.2956 (depth 20)
+Adversarial Survivability: 0.5589 (depth 20)
+Null Model Distance: 0.2689 (depth 20)
+
+Early depth status: ROBUST (depths 1-8)
+Final status: METRIC-SENSITIVE
+
+================================================================================
+ADVERSARIAL VALIDATION EVOLUTION SUMMARY
+================================================================================
+
+Strongest validated structure: P-A-N
+Hierarchy survival at depth 20: 0.5756
+Metric sensitivity: Moderate (0.2956 at d=20)
+Adversarial survivability: Moderate (0.5589 at d=20)
+
+Weakest validated structure: A-N
+Hierarchy survival at depth 20: 0.2089
+Metric sensitivity: High (0.4056 at d=20)
+Adversarial survivability: Absent (0.1756 at d=20)
+
+Pattern: Composite networks maintain validated structure.
+Weak networks collapse under adversarial pressure.
+
+================================================================================
+END OF SECTOR VALIDATION REPORT
+================================================================================

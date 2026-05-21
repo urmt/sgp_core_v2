@@ -1,0 +1,69 @@
+================================================================================
+PHASE 360: SELF-MAINTENANCE GEOMETRY SUMMARY
+================================================================================
+
+1. PERSISTENCE RENEWAL VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.936 | 0.886 | 0.819 | 0.752 | 0.619 | 0.821
+P-A              | 0.922 | 0.872 | 0.806 | 0.739 | 0.606 | 0.804
+Projection       | 0.909 | 0.859 | 0.792 | 0.726 | 0.592 | 0.782
+Antisymmetry     | 0.859 | 0.799 | 0.719 | 0.639 | 0.479 | 0.730
+P-N              | 0.869 | 0.809 | 0.729 | 0.649 | 0.489 | 0.750
+A-N              | 0.776 | 0.696 | 0.589 | 0.482 | 0.269 | 0.618
+Neutral          | 0.786 | 0.716 | 0.622 | 0.529 | 0.342 | 0.656
+
+2. DEGRADATION CONTAINMENT VS DEPTH
+================================================================================
+
+Network          | d=1   | d=4   | d=8   | d=12  | d=20  | Mean
+-----------------|-------|-------|-------|-------|-------|------
+P-A-N            | 0.829 | 0.786 | 0.732 | 0.666 | 0.532 | 0.728
+P-A              | 0.816 | 0.772 | 0.719 | 0.656 | 0.522 | 0.713
+Projection       | 0.802 | 0.759 | 0.706 | 0.652 | 0.546 | 0.698
+Antisymmetry     | 0.762 | 0.702 | 0.622 | 0.542 | 0.382 | 0.610
+P-N              | 0.766 | 0.706 | 0.626 | 0.546 | 0.386 | 0.632
+A-N              | 0.676 | 0.596 | 0.489 | 0.382 | 0.169 | 0.517
+Neutral          | 0.689 | 0.619 | 0.526 | 0.432 | 0.246 | 0.557
+
+3. SELF-MAINTENANCE HIERARCHY ACROSS DEPTHS
+================================================================================
+
+Depth 1 hierarchy:
+1. P-A-N: 0.936 (SELF-MAINTAINING)
+2. P-A: 0.922 (SELF-MAINTAINING)
+3. Projection: 0.909 (SELF-MAINTAINING)
+4. P-N: 0.869 (SELF-MAINTAINING)
+5. Antisymmetry: 0.859 (SELF-MAINTAINING)
+6. Neutral: 0.786 (WEAKLY_SELF-MAINTAINING)
+7. A-N: 0.776 (WEAKLY_SELF-MAINTAINING)
+
+Depth 20 hierarchy:
+1. P-A-N: 0.619 (DEGRADATION-DEGRADING)
+2. P-A: 0.606 (DEGRADATION-DEGRADING)
+3. Projection: 0.592 (DEGRADATION-DEGRADING)
+4. P-N: 0.489 (COLLAPSING)
+5. Antisymmetry: 0.479 (COLLAPSING)
+6. Neutral: 0.342 (COLLAPSING)
+7. A-N: 0.269 (COLLAPSING)
+
+Hierarchical ordering preserved across depths.
+
+4. SUMMARY STATISTICS
+================================================================================
+
+Overall means across all networks and depths:
+
+| Metric                           | Mean   | Std    | Min    | Max    |
+|----------------------------------|--------|--------|--------|--------|
+| Persistence Renewal              | 0.7373 | 0.1163 | 0.2689 | 0.9356 |
+| Repair Strength                  | 0.7240 | 0.1163 | 0.2556 | 0.9223 |
+| Degradation Containment          | 0.6364 | 0.1163 | 0.1689 | 0.8289 |
+| Cooperative Maintenance Gain     | 0.0418 | 0.0399 | 0.0000 | 0.1523 |
+| Recursive Retention Regeneration | 0.7306 | 0.1163 | 0.2623 | 0.9289 |
+
+================================================================================
+END OF SELF-MAINTENANCE GEOMETRY SUMMARY
+================================================================================

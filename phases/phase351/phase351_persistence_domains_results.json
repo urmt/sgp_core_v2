@@ -1,0 +1,216 @@
+{
+  "phase": 351,
+  "title": "Emergent Relational Organizational Recursive Persistence Domains",
+  "verdict": "BOUNDARY-DEGRADING",
+  "hypotheses": {
+    "H1_persistence_domains_exist": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N: 0.9489 at depth 1, mean 0.8230; P-A: 0.9345 at depth 1"
+    },
+    "H2_domain_boundaries_persist": {
+      "threshold": 0.7,
+      "status": "PARTIAL",
+      "evidence": "P-A-N maintains > 0.70 through depth 12; A-N collapses at depth 8"
+    },
+    "H3_degradation_penetration_bounded": {
+      "threshold": 0.3,
+      "status": "PARTIAL",
+      "evidence": "P-A-N maintains < 0.30 through depth 16; Neutral exceeds from depth 8"
+    },
+    "H4_rg_domain_stability": {
+      "threshold": 0.9,
+      "status": "FAIL",
+      "evidence": "Mean RG: 0.7558; P-A-N: 0.8466; Maximum achieved: 0.9556"
+    },
+    "H5_domain_hierarchy": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "DOMAIN-STABLE",
+      "domain_coherence": {
+        "mean": 0.8398,
+        "depth_20": 0.7203
+      },
+      "boundary_retention": {
+        "mean": 0.8589,
+        "depth_20": 0.7448
+      },
+      "degradation_penetration": {
+        "mean": 0.1481,
+        "depth_20": 0.1846
+      },
+      "persistence_density": {
+        "mean": 0.8485,
+        "depth_20": 0.7387
+      },
+      "recursive_domain_stability": {
+        "mean": 0.849,
+        "depth_20": 0.7346
+      },
+      "rg_similarity": {
+        "mean": 0.8015
+      }
+    },
+    "Antisymmetry": {
+      "classification": "WEAKLY_DOMAINED",
+      "domain_coherence": {
+        "mean": 0.7968,
+        "depth_20": 0.6837
+      },
+      "boundary_retention": {
+        "mean": 0.8061,
+        "depth_20": 0.7006
+      },
+      "degradation_penetration": {
+        "mean": 0.1924,
+        "depth_20": 0.2283
+      },
+      "persistence_density": {
+        "mean": 0.8014,
+        "depth_20": 0.7002
+      },
+      "recursive_domain_stability": {
+        "mean": 0.8014,
+        "depth_20": 0.6948
+      },
+      "rg_similarity": {
+        "mean": 0.8116
+      }
+    },
+    "Neutral": {
+      "classification": "WEAKLY_DOMAINED",
+      "domain_coherence": {
+        "mean": 0.742,
+        "depth_20": 0.6442
+      },
+      "boundary_retention": {
+        "mean": 0.7485,
+        "depth_20": 0.6356
+      },
+      "degradation_penetration": {
+        "mean": 0.2786,
+        "depth_20": 0.3207
+      },
+      "persistence_density": {
+        "mean": 0.7375,
+        "depth_20": 0.629
+      },
+      "recursive_domain_stability": {
+        "mean": 0.7427,
+        "depth_20": 0.6363
+      },
+      "rg_similarity": {
+        "mean": 0.8155
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "WEAKLY_DOMAINED",
+      "domain_coherence": {
+        "mean": 0.7346,
+        "depth_20": 0.6271
+      },
+      "boundary_retention": {
+        "mean": 0.7457,
+        "depth_20": 0.6402
+      },
+      "degradation_penetration": {
+        "mean": 0.2745,
+        "depth_20": 0.3017
+      },
+      "persistence_density": {
+        "mean": 0.7463,
+        "depth_20": 0.6528
+      },
+      "recursive_domain_stability": {
+        "mean": 0.7422,
+        "depth_20": 0.64
+      },
+      "rg_similarity": {
+        "mean": 0.8099
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "WEAKLY_DOMAINED",
+      "domain_coherence": {
+        "mean": 0.7417,
+        "depth_20": 0.6321
+      },
+      "boundary_retention": {
+        "mean": 0.7424,
+        "depth_20": 0.642
+      },
+      "degradation_penetration": {
+        "mean": 0.2745,
+        "depth_20": 0.3083
+      },
+      "persistence_density": {
+        "mean": 0.7436,
+        "depth_20": 0.6365
+      },
+      "recursive_domain_stability": {
+        "mean": 0.7426,
+        "depth_20": 0.6369
+      },
+      "rg_similarity": {
+        "mean": 0.8176
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "WEAKLY_DOMAINED",
+      "domain_coherence": {
+        "mean": 0.7429,
+        "depth_20": 0.6373
+      },
+      "boundary_retention": {
+        "mean": 0.745,
+        "depth_20": 0.65
+      },
+      "degradation_penetration": {
+        "mean": 0.2762,
+        "depth_20": 0.305
+      },
+      "persistence_density": {
+        "mean": 0.745,
+        "depth_20": 0.6279
+      },
+      "recursive_domain_stability": {
+        "mean": 0.7443,
+        "depth_20": 0.6384
+      },
+      "rg_similarity": {
+        "mean": 0.813
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "WEAKLY_DOMAINED",
+      "domain_coherence": {
+        "mean": 0.7447,
+        "depth_20": 0.6426
+      },
+      "boundary_retention": {
+        "mean": 0.748,
+        "depth_20": 0.6441
+      },
+      "degradation_penetration": {
+        "mean": 0.2804,
+        "depth_20": 0.3232
+      },
+      "persistence_density": {
+        "mean": 0.7426,
+        "depth_20": 0.6334
+      },
+      "recursive_domain_stability": {
+        "mean": 0.7451,
+        "depth_20": 0.64
+      },
+      "rg_similarity": {
+        "mean": 0.8218
+      }
+    }
+  }
+}

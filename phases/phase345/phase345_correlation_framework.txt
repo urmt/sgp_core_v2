@@ -1,0 +1,186 @@
+# PHASE 345: CORRELATION FRAMEWORK
+# Emergent Relational Recursive Correlation Structure
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+PHASE 345: RESEARCH QUESTIONS
+================================================================================
+
+1. Do independently evolving recursive regions maintain correlated variation?
+2. Does correlation persist through deep recursion?
+3. Is mutual dependence bounded, preventing runaway synchronization?
+4. Do weaker sectors decorrelate while strong sectors maintain linkage?
+5. Does cross-region relational structure remain stable?
+
+================================================================================
+THEORETICAL FRAMEWORK: CORRELATION STRUCTURE
+================================================================================
+
+Correlation structure exists when:
+- Variation in one domain co-varies with variation in another
+- Correlation persists across recursive depths
+- Synchronization does not require identity
+- Linkage remains bounded (neither zero nor unity)
+
+Key distinction:
+- COUPLING (Phase 343): Direct binding strength between entities
+- CORRELATION (Phase 345): Synchronized variation across separated domains
+
+Coupling measures binding force.
+Correlation measures co-variation signal.
+
+================================================================================
+EXPERIMENTAL DESIGN
+================================================================================
+
+1. Initialize separated recursive domains
+   - Each sector operates independently
+   - Weak relational coupling preserved
+   - Structural parameters evolve separately
+
+2. Independent evolution
+   - Each domain follows recursive dynamics
+   - No direct state sharing
+   - Bounded perturbation introduced to one domain
+
+3. Perturbation injection
+   - Domain A receives structured perturbation
+   - Domain B evolves independently
+   - Correlation measures detect co-variation
+
+4. Measurement framework
+   - Correlation strength: measure of co-variation
+   - Synchronization: phase relationship persistence
+   - Relational drift: domain divergence measure
+   - Perturbation transfer: influence propagation
+   - Recursive correlation: depth persistence
+
+================================================================================
+METRIC DEFINITIONS
+================================================================================
+
+CORRELATION_STRENGTH:
+- Pearson correlation coefficient between domain states
+- Range: [-1, 1]
+- Positive values indicate co-variation
+- Values > 0.70 indicate strong correlation
+
+SYNCHRONIZATION_RETENTION:
+- Fraction of depth intervals maintaining synchronized variation
+- Measures phase relationship stability
+- Values > 0.70 indicate stable synchronization
+
+RELATIONAL_DRIFT:
+- L2 distance between domain trajectories
+- Bounded if < 0.30
+- Indicates domain divergence or convergence
+
+PERTURBATION_TRANSFER:
+- Correlation between perturbation in A and response in B
+- Measures influence propagation
+- Bounded transfer prevents runaway synchronization
+
+RECURSIVE_CORRELATION:
+- Correlation decay rate across depths
+- High values indicate persistent correlation
+- Low values indicate decorrelation
+
+RG_SIMILARITY:
+- Fine-grained vs coarse-grained correlation preservation
+- > 0.90 indicates stable scale invariance
+
+================================================================================
+SECTOR-SPECIFIC PREDICTIONS
+================================================================================
+
+PROJECTION:
+- Strong correlation maintenance
+- Stable synchronization
+- Bounded relational drift
+- Strong perturbation transfer
+- Projection sector forms correlation anchor
+
+ANTISYMMETRY:
+- Moderate correlation
+- Partial synchronization
+- Moderate drift
+- Moderate transfer
+- Antisymmetry sector shows mixed correlation
+
+NEUTRAL:
+- Weak correlation
+- Limited synchronization
+- Growing drift
+- Weak transfer
+- Neutral sector decorrelates
+
+PROJECTION-ANTISYMMETRY:
+- Strong correlation pair
+- Stable synchronization
+- Strongest among all pairs
+
+PROJECTION-NEUTRAL:
+- Moderate correlation
+- Partial synchronization
+- Some drift
+
+ANTISYMMETRY-NEUTRAL:
+- Weak correlation
+- Limited synchronization
+- Significant drift
+
+================================================================================
+HYPOTHESIS FRAMEWORK
+================================================================================
+
+H1: Correlation Emerges
+- threshold: correlation_strength > 0.70
+- measures: whether co-variation exists at all
+
+H2: Synchronization Persists
+- threshold: synchronization_retention > 0.70
+- measures: whether phase relationships survive
+
+H3: Relational Drift Bounded
+- threshold: relational_drift < 0.30
+- measures: whether domains remain linked
+
+H4: RG Correlation Stability
+- threshold: rg_similarity > 0.90
+- measures: scale invariance of correlation structure
+
+H5: Correlation Hierarchy Persists
+- threshold: P-A > P-N > A-N
+- measures: hierarchy preservation in correlation
+
+================================================================================
+CLASSIFICATION CRITERIA
+================================================================================
+
+CORRELATED:
+- correlation_strength > 0.70
+- synchronization_retention > 0.70
+- relational_drift < 0.25
+
+WEAKLY_CORRELATED:
+- correlation_strength > 0.50
+- synchronization_retention > 0.55
+- relational_drift < 0.35
+
+DECORRELATING:
+- correlation_strength > 0.30
+- synchronization_retention > 0.40
+- relational_drift < 0.45
+
+SYNCHRONIZED:
+- correlation_strength > 0.75
+- synchronization_retention > 0.80
+- relational_drift < 0.20
+
+CORRELATION-COLLAPSING:
+- correlation_strength < 0.30
+- OR relational_drift > 0.45
+
+================================================================================
+END OF CORRELATION FRAMEWORK
+================================================================================

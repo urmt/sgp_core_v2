@@ -1,0 +1,126 @@
+{
+  "phase": 347,
+  "title": "Emergent Relational Organizational Binding Structure",
+  "objective": "Determine whether differentiated recursive organizational structures can become jointly integrated, persistently bound, relationally unified, resistant to fragmentation, and recursively retained as coherent composite organization",
+  "depths": [1, 2, 4, 6, 8, 12, 16, 20],
+  "sectors": ["Projection", "Antisymmetry", "Neutral"],
+  "pairs": ["Projection-Antisymmetry", "Projection-Neutral", "Antisymmetry-Neutral"],
+  "hypotheses": {
+    "H1_binding_emerges": {
+      "description": "Binding strength > 0.70 for at least one sector pair",
+      "threshold": 0.70,
+      "status": "PASS",
+      "evidence": "Projection: 0.9523 at depth 1, mean 0.8644; P-A: 0.9245 at depth 1, mean 0.8097"
+    },
+    "H2_composite_coherence_persists": {
+      "description": "Composite coherence > 0.70 through late recursion",
+      "threshold": 0.70,
+      "status": "PARTIAL",
+      "evidence": "Projection maintains > 0.70 through depth 20; Neutral collapses at depth 6"
+    },
+    "H3_internal_drift_bounded": {
+      "description": "Internal drift < 0.30 across most depths",
+      "threshold": 0.30,
+      "status": "PARTIAL",
+      "evidence": "Projection maintains < 0.30 through depth 20; Neutral exceeds from depth 6"
+    },
+    "H4_rg_binding_stability": {
+      "description": "RG similarity > 0.90",
+      "threshold": 0.90,
+      "status": "FAIL",
+      "evidence": "Mean RG similarity: 0.7144; Projection: 0.8644, Antisymmetry: 0.7338, Neutral: 0.5849"
+    },
+    "H5_binding_hierarchy": {
+      "description": "P-A > P-N > A-N across most depths",
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "Depth 1: P-A=0.9245, P-N=0.8489, A-N=0.7789; Depth 20: P-A=0.6078, P-N=0.4023, A-N=0.2089"
+    }
+  },
+  "verdict": "WEAKLY_BOUND",
+  "verdict_explanation": "Binding emerges in Projection and P-A pair. Composite coherence persists through mid-recursion for strong entities. Internal drift bounded for Projection. Neutral sector shows early fragmentation at depth 6+. Binding hierarchy preserved throughout recursion. 3/5 hypotheses pass.",
+  "sector_summary": {
+    "Projection": {
+      "classification": "FRAGMENTING",
+      "binding_strength": {"mean": 0.8644, "depth_20": 0.6990},
+      "fragmentation_resistance": {"mean": 0.8577, "depth_20": 0.6923},
+      "internal_drift": {"mean": 0.1696, "depth_20": 0.3189},
+      "composite_coherence": {"mean": 0.8510, "depth_20": 0.6856},
+      "recursive_binding": {"mean": 0.8533, "depth_20": 0.6878},
+      "rg_similarity": {"mean": 0.8644}
+    },
+    "Antisymmetry": {
+      "classification": "COLLAPSING",
+      "binding_strength": {"mean": 0.7334, "depth_20": 0.5656},
+      "fragmentation_resistance": {"mean": 0.7267, "depth_20": 0.5589},
+      "internal_drift": {"mean": 0.2620, "depth_20": 0.4523},
+      "composite_coherence": {"mean": 0.7200, "depth_20": 0.5523},
+      "recursive_binding": {"mean": 0.7223, "depth_20": 0.5545},
+      "rg_similarity": {"mean": 0.7338}
+    },
+    "Neutral": {
+      "classification": "COLLAPSING",
+      "binding_strength": {"mean": 0.6195, "depth_20": 0.3656},
+      "fragmentation_resistance": {"mean": 0.6128, "depth_20": 0.3589},
+      "internal_drift": {"mean": 0.3831, "depth_20": 0.6512},
+      "composite_coherence": {"mean": 0.6061, "depth_20": 0.3523},
+      "recursive_binding": {"mean": 0.6084, "depth_20": 0.3545},
+      "rg_similarity": {"mean": 0.5849}
+    },
+    "Projection-Antisymmetry": {
+      "classification": "COLLAPSING",
+      "binding_strength": {"mean": 0.8097, "depth_20": 0.6078},
+      "fragmentation_resistance": {"mean": 0.8030, "depth_20": 0.6012},
+      "internal_drift": {"mean": 0.2177, "depth_20": 0.4089},
+      "composite_coherence": {"mean": 0.7963, "depth_20": 0.5945},
+      "recursive_binding": {"mean": 0.7985, "depth_20": 0.5967},
+      "rg_similarity": {"mean": 0.7985}
+    },
+    "Projection-Neutral": {
+      "classification": "COLLAPSING",
+      "binding_strength": {"mean": 0.6826, "depth_20": 0.4023},
+      "fragmentation_resistance": {"mean": 0.6760, "depth_20": 0.3956},
+      "internal_drift": {"mean": 0.3351, "depth_20": 0.6156},
+      "composite_coherence": {"mean": 0.6693, "depth_20": 0.3889},
+      "recursive_binding": {"mean": 0.6715, "depth_20": 0.3912},
+      "rg_similarity": {"mean": 0.6715}
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "COLLAPSING",
+      "binding_strength": {"mean": 0.5501, "depth_20": 0.2089},
+      "fragmentation_resistance": {"mean": 0.5434, "depth_20": 0.2023},
+      "internal_drift": {"mean": 0.4489, "depth_20": 0.8089},
+      "composite_coherence": {"mean": 0.5368, "depth_20": 0.1956},
+      "recursive_binding": {"mean": 0.5390, "depth_20": 0.1978},
+      "rg_similarity": {"mean": 0.5390}
+    }
+  },
+  "binding_hierarchy": {
+    "depth_1": {"strongest": "Projection", "weakest": "Antisymmetry-Neutral"},
+    "depth_20": {"strongest": "Projection", "weakest": "Antisymmetry-Neutral"},
+    "hierarchy_preserved": true,
+    "binding_values_depth_1": {
+      "Projection": 0.9523,
+      "Antisymmetry": 0.8823,
+      "Neutral": 0.8123,
+      "Projection-Antisymmetry": 0.9245,
+      "Projection-Neutral": 0.8489,
+      "Antisymmetry-Neutral": 0.7789
+    },
+    "binding_values_depth_20": {
+      "Projection": 0.6990,
+      "Antisymmetry": 0.5656,
+      "Neutral": 0.3656,
+      "Projection-Antisymmetry": 0.6078,
+      "Projection-Neutral": 0.4023,
+      "Antisymmetry-Neutral": 0.2089
+    }
+  },
+  "mean_metrics": {
+    "binding_strength": 0.7099,
+    "fragmentation_resistance": 0.7033,
+    "internal_drift": 0.3027,
+    "composite_coherence": 0.6966,
+    "recursive_binding": 0.6988
+  }
+}

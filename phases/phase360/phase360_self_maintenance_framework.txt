@@ -1,0 +1,94 @@
+# PHASE 360: SELF-MAINTENANCE STABILITY FRAMEWORK
+# Emergent Relational Organizational Recursive Self-Maintenance Stability
+# STRICTLY MATHEMATICAL | NO COGNITION | NO CONSCIOUSNESS
+
+================================================================================
+PHASE 360: RESEARCH QUESTIONS
+================================================================================
+
+1. Do recursive systems regenerate persistence internally?
+2. Does self-maintenance improve survivability?
+3. Does cooperative maintenance suppress collapse?
+4. Does hierarchy sharpen under maintenance dynamics?
+5. Do weak systems fail under repeated destabilization?
+
+================================================================================
+THEORETICAL FRAMEWORK: SELF-MAINTENANCE STABILITY
+================================================================================
+
+Recursive self-maintenance stability:
+- Internal stabilization reinforcement
+- Persistence renewal
+- Bounded repair accumulation
+- Cooperative maintenance redistribution
+
+Key distinction from prior phases:
+- RESONANCE STABILITY (Phase 359): Cooperative reinforcement amplification
+- SELF-MAINTENANCE STABILITY (Phase 360): Internal persistence regeneration
+
+Self-maintenance measures internal regeneration.
+Resonance measures reinforcement amplification.
+Phase-locking measures synchronization.
+
+================================================================================
+METRIC DEFINITIONS
+================================================================================
+
+PERSISTENCE_RENEWAL:
+- Restoration of degraded persistence
+- Range: [0, 1]
+- High values indicate effective renewal
+- Values > 0.75 indicate self-maintaining structure
+
+REPAIR_STRENGTH:
+- Bounded recovery effectiveness
+- Range: [0, 1]
+- High values indicate strong repair
+- Values > 0.70 indicate effective repair
+
+DEGRADATION_CONTAINMENT:
+- Suppression of destabilization spread
+- Range: [0, 1]
+- High values indicate bounded containment
+- Values > 0.70 indicate effective containment
+
+COOPERATIVE_MAINTENANCE_GAIN:
+- Stabilization gain from self-maintenance
+- Range: [0, 1]
+
+RECURSIVE_RETENTION_REGENERATION:
+- Cross-depth persistence renewal
+- Range: [0, 1]
+
+================================================================================
+CLASSIFICATION CRITERIA
+================================================================================
+
+SELF-MAINTAINING:
+- persistence_renewal > 0.80
+- repair_strength > 0.75
+- degradation_containment > 0.75
+
+WEAKLY_SELF-MAINTAINING:
+- persistence_renewal > 0.70
+- repair_strength > 0.65
+- degradation_containment > 0.65
+
+DEGRADATION-DEGRADING:
+- persistence_renewal > 0.65
+- repair_strength > 0.55
+- degradation_containment > 0.55
+
+REPAIR-PRESERVING:
+- repair_strength > 0.80
+- persistence_renewal > 0.70
+- degradation_containment > 0.70
+
+COLLAPSING:
+- persistence_renewal < 0.65
+- OR degradation_containment < 0.50
+- OR repair_strength < 0.50
+
+================================================================================
+END OF SELF-MAINTENANCE STABILITY FRAMEWORK
+================================================================================
