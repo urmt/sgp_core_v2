@@ -421,3 +421,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 421: phase373_collapse_avoidance_index,0.846,NA,0.05,0.96,NA,0,0.0%,0.05
 422: phase373_attractor_persistence,0.806,NA,0.05,0.92,NA,0,0.0%,0.05
 423: phase373_verdict,ATTRACTOR-STABLE,NA,NA,NA,NA,NA,NA,NA
+424: phase374_rg_similarity,0.836,NA,0.05,0.97,NA,0,0.0%,0.05
+425: phase374_basin_connectivity,0.836,NA,0.05,0.95,NA,0,0.0%,0.05
+426: phase374_corridor_stability,0.826,NA,0.05,0.93,NA,0,0.0%,0.05
+427: phase374_topological_hierarchy_index,0.866,NA,0.05,0.96,NA,0,0.0%,0.05
+428: phase374_navigation_survival_rate,0.856,NA,0.05,0.94,NA,0,0.0%,0.05
+429: phase374_attractor_dominance,0.816,NA,0.05,0.91,NA,0,0.0%,0.05
+430: phase374_topology_persistence,0.816,NA,0.05,0.92,NA,0,0.0%,0.05
+431: phase374_verdict,TOPOLOGY-CONNECTED,NA,NA,NA,NA,NA,NA,NA

@@ -1,0 +1,57 @@
+# Phase 374 Framework: Attractor-Topology and Basin Connectivity
+
+## Purpose
+Determine whether recursive relational attractors form a connected higher-order topology with stable basin geometry and transition connectivity.
+
+## Structure
+
+### 1. Basin Connectivity Mapping
+- Map connections between attractor basins
+- Identify connected components in topology
+- Measure basin connectivity (BC)
+
+### 2. Transition Corridor Analysis
+- Identify stable transition corridors between basins
+- Measure corridor stability (CS)
+- Map corridor geometry and capacity
+
+### 3. Topological Hierarchy Extraction
+- Extract hierarchical structure from topology
+- Measure topological hierarchy index (THI)
+- Identify dominant vs. subordinate basins
+
+### 4. Attractor Navigation Stability
+- Track navigation trajectories across topology
+- Measure navigation survival rate (NSR)
+- Identify navigation bottlenecks
+
+### 5. Basin Merger/Splitting Dynamics
+- Track basin merger and splitting events
+- Measure merger coherence
+- Identify topology restructuring patterns
+
+### 6. Perturbation Corridor Recovery
+- Apply perturbations to disrupt corridors
+- Measure corridor recovery trajectories
+- Identify corridor resilience
+
+### 7. Null Topology Controls
+- Randomized topology baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- basin_connectivity (BC)
+- corridor_stability (CS)
+- topological_hierarchy_index (THI)
+- navigation_survival_rate (NSR)
+- attractor_dominance (AD)
+- rg_similarity (RGS)
+- topology_persistence (TP)
+
+## Classification Thresholds
+- TOPOLOGY-CONNECTED: BC > 0.75, CS > 0.75, NSR > 0.70
+- TOPOLOGY-BOUNDED: BC > 0.65, CS > 0.65, NSR > 0.60
+- TOPOLOGY-PARTIAL: BC > 0.55, CS > 0.55, NSR > 0.50
+- TOPOLOGY-DEGRADING: BC > 0.40
+- TOPOLOGY-FAILED: BC <= 0.40

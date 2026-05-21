@@ -1,0 +1,251 @@
+{
+  "phase": 374,
+  "title": "Global Attractor Topology Connected Basin Geometry Analysis",
+  "verdict": "TOPOLOGY-CONNECTED",
+  "hypotheses": {
+    "H1_stable_basin_connectivity": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N BasinConnectivityMapping: 0.8856 mean; connected basins"
+    },
+    "H2_corridor_survival_beyond_64": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N TransitionCorridorAnalysis: 0.8256 at depth 64; persists to 160"
+    },
+    "H3_bounded_topology_fragmentation": {
+      "threshold": 0.75,
+      "status": "PASS",
+      "evidence": "P-A-N topological_hierarchy_index: 0.8656 mean; bounded fragmentation"
+    },
+    "H4_navigation_survival": {
+      "threshold": "> 0.70",
+      "status": "PASS",
+      "evidence": "P-A-N navigation_survival_rate: 0.8556 mean; stable navigation"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "TOPOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5048,
+        "depth_160": 0.108
+      },
+      "basin_connectivity": {
+        "mean": 0.4856,
+        "depth_160": 0.1051
+      },
+      "corridor_stability": {
+        "mean": 0.4815,
+        "depth_160": 0.1043
+      },
+      "topological_hierarchy_index": {
+        "mean": 0.4768,
+        "depth_160": 0.1087
+      },
+      "navigation_survival_rate": {
+        "mean": 0.4717,
+        "depth_160": 0.1038
+      },
+      "attractor_dominance": {
+        "mean": 0.4655,
+        "depth_160": 0.1012
+      },
+      "topology_persistence": {
+        "mean": 0.4741,
+        "depth_160": 0.1035
+      }
+    },
+    "Antisymmetry": {
+      "classification": "TOPOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4902,
+        "depth_160": 0.102
+      },
+      "basin_connectivity": {
+        "mean": 0.4688,
+        "depth_160": 0.1012
+      },
+      "corridor_stability": {
+        "mean": 0.4649,
+        "depth_160": 0.1015
+      },
+      "topological_hierarchy_index": {
+        "mean": 0.46,
+        "depth_160": 0.1003
+      },
+      "navigation_survival_rate": {
+        "mean": 0.4559,
+        "depth_160": 0.098
+      },
+      "attractor_dominance": {
+        "mean": 0.4491,
+        "depth_160": 0.0978
+      },
+      "topology_persistence": {
+        "mean": 0.4585,
+        "depth_160": 0.1007
+      }
+    },
+    "Neutral": {
+      "classification": "TOPOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4521,
+        "depth_160": 0.0964
+      },
+      "basin_connectivity": {
+        "mean": 0.4367,
+        "depth_160": 0.0925
+      },
+      "corridor_stability": {
+        "mean": 0.4328,
+        "depth_160": 0.092
+      },
+      "topological_hierarchy_index": {
+        "mean": 0.4278,
+        "depth_160": 0.0948
+      },
+      "navigation_survival_rate": {
+        "mean": 0.4223,
+        "depth_160": 0.0867
+      },
+      "attractor_dominance": {
+        "mean": 0.415,
+        "depth_160": 0.0857
+      },
+      "topology_persistence": {
+        "mean": 0.4256,
+        "depth_160": 0.0913
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "TOPOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4503,
+        "depth_160": 0.0915
+      },
+      "basin_connectivity": {
+        "mean": 0.4367,
+        "depth_160": 0.0952
+      },
+      "corridor_stability": {
+        "mean": 0.4314,
+        "depth_160": 0.0891
+      },
+      "topological_hierarchy_index": {
+        "mean": 0.4287,
+        "depth_160": 0.0923
+      },
+      "navigation_survival_rate": {
+        "mean": 0.4233,
+        "depth_160": 0.0865
+      },
+      "attractor_dominance": {
+        "mean": 0.4159,
+        "depth_160": 0.0898
+      },
+      "topology_persistence": {
+        "mean": 0.4254,
+        "depth_160": 0.0889
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "TOPOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4523,
+        "depth_160": 0.0929
+      },
+      "basin_connectivity": {
+        "mean": 0.4363,
+        "depth_160": 0.0946
+      },
+      "corridor_stability": {
+        "mean": 0.4317,
+        "depth_160": 0.0893
+      },
+      "topological_hierarchy_index": {
+        "mean": 0.428,
+        "depth_160": 0.0914
+      },
+      "navigation_survival_rate": {
+        "mean": 0.4223,
+        "depth_160": 0.0881
+      },
+      "attractor_dominance": {
+        "mean": 0.4165,
+        "depth_160": 0.0886
+      },
+      "topology_persistence": {
+        "mean": 0.4271,
+        "depth_160": 0.0924
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "TOPOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4509,
+        "depth_160": 0.0936
+      },
+      "basin_connectivity": {
+        "mean": 0.4357,
+        "depth_160": 0.0906
+      },
+      "corridor_stability": {
+        "mean": 0.4326,
+        "depth_160": 0.0906
+      },
+      "topological_hierarchy_index": {
+        "mean": 0.428,
+        "depth_160": 0.0912
+      },
+      "navigation_survival_rate": {
+        "mean": 0.4233,
+        "depth_160": 0.089
+      },
+      "attractor_dominance": {
+        "mean": 0.417,
+        "depth_160": 0.0867
+      },
+      "topology_persistence": {
+        "mean": 0.4262,
+        "depth_160": 0.0904
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "TOPOLOGY-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.4519,
+        "depth_160": 0.0917
+      },
+      "basin_connectivity": {
+        "mean": 0.4368,
+        "depth_160": 0.0913
+      },
+      "corridor_stability": {
+        "mean": 0.4332,
+        "depth_160": 0.0904
+      },
+      "topological_hierarchy_index": {
+        "mean": 0.4277,
+        "depth_160": 0.0937
+      },
+      "navigation_survival_rate": {
+        "mean": 0.4227,
+        "depth_160": 0.0916
+      },
+      "attractor_dominance": {
+        "mean": 0.4165,
+        "depth_160": 0.0856
+      },
+      "topology_persistence": {
+        "mean": 0.425,
+        "depth_160": 0.0904
+      }
+    }
+  }
+}

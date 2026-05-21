@@ -90,3 +90,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 371,INVARIANT-CLASS,TRUE,TRUE,TRUE,TRUE,TRUE,0.81,0.80,0.80,0.77,0.84,relational_invariant_class,COMPLETE
 372,TRANSITION-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.82,0.82,0.81,0.79,0.84,relational_class_transition,COMPLETE
 373,ATTRACTOR-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.83,0.83,0.82,0.80,0.85,relational_attractor_geometry,COMPLETE
+374,TOPOLOGY-CONNECTED,TRUE,TRUE,TRUE,TRUE,TRUE,0.84,0.84,0.83,0.81,0.86,attractor_topology_connectivity,COMPLETE
