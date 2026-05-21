@@ -373,3 +373,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 373: phase367_drift_compensation_efficiency,0.636,NA,0.05,0.89,NA,0,0.0%,0.05
 374: phase367_recursive_coherence_retention,0.646,NA,0.05,0.90,NA,0,0.0%,0.05
 375: phase367_verdict,DRIFT-CORRECTED,NA,NA,NA,NA,NA,NA,NA
+376: phase368_rg_similarity,0.616,NA,0.05,0.97,NA,0,0.0%,0.05
+377: phase368_self_maintenance_index,0.606,NA,0.05,0.93,NA,0,0.0%,0.05
+378: phase368_correction_regeneration_rate,0.596,NA,0.05,0.91,NA,0,0.0%,0.05
+379: phase368_stabilization_overhead,0.036,NA,0.01,0.13,NA,0,0.0%,0.01
+380: phase368_recursive_repair_efficiency,0.606,NA,0.05,0.89,NA,0,0.0%,0.05
+381: phase368_coherence_retention,0.616,NA,0.05,0.90,NA,0,0.0%,0.05
+382: phase368_maintenance_convergence,0.606,NA,0.05,0.88,NA,0,0.0%,0.05
+383: phase368_verdict,SELF-MAINTAINING,NA,NA,NA,NA,NA,NA,NA

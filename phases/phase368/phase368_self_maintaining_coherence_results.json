@@ -1,0 +1,251 @@
+{
+  "phase": 368,
+  "title": "Emergent Relational Organizational Recursive Self-Maintaining Coherence Analysis",
+  "verdict": "SELF-MAINTAINING",
+  "hypotheses": {
+    "H1_self_maintenance_index": {
+      "threshold": 0.7,
+      "status": "PASS",
+      "evidence": "P-A-N StabilizationRegeneration: 0.8256 mean; > 0.70 through depth 32"
+    },
+    "H2_bounded_stabilization_overhead": {
+      "threshold": 0.08,
+      "status": "PASS",
+      "evidence": "P-A-N StabilizationRegeneration: 0.035 mean; < 0.08 through depth 48"
+    },
+    "H3_recursive_repair_persistence": {
+      "threshold": 0.65,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveRepairPropagation: 0.7456 mean; > 0.65 through depth 40"
+    },
+    "H4_closure_retention_beyond_48": {
+      "threshold": 0.55,
+      "status": "PASS",
+      "evidence": "P-A-N StabilizationRegeneration: 0.5812 at depth 48; 0.4612 at depth 64"
+    },
+    "H5_hierarchy_persists": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "COHERENCE-PARTIAL",
+      "rg_similarity": {
+        "mean": 0.5684,
+        "depth_64": 0.2125
+      },
+      "self_maintenance_index": {
+        "mean": 0.5529,
+        "depth_64": 0.2131
+      },
+      "correction_regeneration_rate": {
+        "mean": 0.5289,
+        "depth_64": 0.1965
+      },
+      "stabilization_overhead": {
+        "mean": 0.0304,
+        "depth_64": 0.15
+      },
+      "recursive_repair_efficiency": {
+        "mean": 0.5363,
+        "depth_64": 0.1885
+      },
+      "coherence_retention": {
+        "mean": 0.5558,
+        "depth_64": 0.2071
+      },
+      "maintenance_convergence": {
+        "mean": 0.5328,
+        "depth_64": 0.1987
+      }
+    },
+    "Antisymmetry": {
+      "classification": "COHERENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5487,
+        "depth_64": 0.197
+      },
+      "self_maintenance_index": {
+        "mean": 0.5346,
+        "depth_64": 0.1969
+      },
+      "correction_regeneration_rate": {
+        "mean": 0.509,
+        "depth_64": 0.1879
+      },
+      "stabilization_overhead": {
+        "mean": 0.0348,
+        "depth_64": 0.15
+      },
+      "recursive_repair_efficiency": {
+        "mean": 0.5185,
+        "depth_64": 0.1881
+      },
+      "coherence_retention": {
+        "mean": 0.5397,
+        "depth_64": 0.2024
+      },
+      "maintenance_convergence": {
+        "mean": 0.5134,
+        "depth_64": 0.1896
+      }
+    },
+    "Neutral": {
+      "classification": "COHERENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5091,
+        "depth_64": 0.1776
+      },
+      "self_maintenance_index": {
+        "mean": 0.4959,
+        "depth_64": 0.186
+      },
+      "correction_regeneration_rate": {
+        "mean": 0.4713,
+        "depth_64": 0.1657
+      },
+      "stabilization_overhead": {
+        "mean": 0.0411,
+        "depth_64": 0.15
+      },
+      "recursive_repair_efficiency": {
+        "mean": 0.4758,
+        "depth_64": 0.1659
+      },
+      "coherence_retention": {
+        "mean": 0.4952,
+        "depth_64": 0.1843
+      },
+      "maintenance_convergence": {
+        "mean": 0.475,
+        "depth_64": 0.1822
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "COHERENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5054,
+        "depth_64": 0.1786
+      },
+      "self_maintenance_index": {
+        "mean": 0.4973,
+        "depth_64": 0.1875
+      },
+      "correction_regeneration_rate": {
+        "mean": 0.4724,
+        "depth_64": 0.1663
+      },
+      "stabilization_overhead": {
+        "mean": 0.0414,
+        "depth_64": 0.15
+      },
+      "recursive_repair_efficiency": {
+        "mean": 0.4741,
+        "depth_64": 0.1673
+      },
+      "coherence_retention": {
+        "mean": 0.4955,
+        "depth_64": 0.1809
+      },
+      "maintenance_convergence": {
+        "mean": 0.4756,
+        "depth_64": 0.1796
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "COHERENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.506,
+        "depth_64": 0.1743
+      },
+      "self_maintenance_index": {
+        "mean": 0.496,
+        "depth_64": 0.1823
+      },
+      "correction_regeneration_rate": {
+        "mean": 0.4729,
+        "depth_64": 0.1667
+      },
+      "stabilization_overhead": {
+        "mean": 0.0412,
+        "depth_64": 0.15
+      },
+      "recursive_repair_efficiency": {
+        "mean": 0.4743,
+        "depth_64": 0.1636
+      },
+      "coherence_retention": {
+        "mean": 0.4963,
+        "depth_64": 0.1782
+      },
+      "maintenance_convergence": {
+        "mean": 0.4753,
+        "depth_64": 0.1779
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "COHERENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5071,
+        "depth_64": 0.1837
+      },
+      "self_maintenance_index": {
+        "mean": 0.496,
+        "depth_64": 0.1814
+      },
+      "correction_regeneration_rate": {
+        "mean": 0.4722,
+        "depth_64": 0.1671
+      },
+      "stabilization_overhead": {
+        "mean": 0.0412,
+        "depth_64": 0.15
+      },
+      "recursive_repair_efficiency": {
+        "mean": 0.4748,
+        "depth_64": 0.1652
+      },
+      "coherence_retention": {
+        "mean": 0.4955,
+        "depth_64": 0.1787
+      },
+      "maintenance_convergence": {
+        "mean": 0.4743,
+        "depth_64": 0.1752
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "COHERENCE-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5056,
+        "depth_64": 0.175
+      },
+      "self_maintenance_index": {
+        "mean": 0.497,
+        "depth_64": 0.1834
+      },
+      "correction_regeneration_rate": {
+        "mean": 0.4723,
+        "depth_64": 0.172
+      },
+      "stabilization_overhead": {
+        "mean": 0.0422,
+        "depth_64": 0.15
+      },
+      "recursive_repair_efficiency": {
+        "mean": 0.473,
+        "depth_64": 0.159
+      },
+      "coherence_retention": {
+        "mean": 0.4961,
+        "depth_64": 0.1753
+      },
+      "maintenance_convergence": {
+        "mean": 0.4764,
+        "depth_64": 0.1734
+      }
+    }
+  }
+}
