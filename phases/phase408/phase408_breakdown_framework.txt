@@ -1,0 +1,59 @@
+# Phase 408: Predictive Breakdown
+
+## Objective: Map where predictive emergence forecasting fails
+
+Phase 407 established that prediction works within the training
+distribution. Phase 408 tests whether prediction failure regions
+are lawfully structured or arbitrarily noisy.
+
+---
+
+## Adversarial Conditions (7)
+
+Each condition violates a different assumption of the Phase 407
+predictor:
+
+| Condition | Violated Assumption | Parameter Range |
+|-----------|-------------------|-----------------|
+| Extreme operator amplification | Linear weight scaling | 1.0x – 5.0x |
+| Asymmetric recursive weighting | Uniform depth decay | k_ratio 0.1 – 10 |
+| Hidden recursive coupling | Independent operators | Coupling 0 – 1 |
+| Discontinuous operator switching | Stationary operators | Switch depth varied |
+| Depth-chaotic recursion | Sequential depth order | Chaos 0 – 1 |
+| Recursive phase inversion | Positive-only operators | Inversion depth varied |
+| Stochastic bifurcation injection | Deterministic application | Probability 0 – 1 |
+
+---
+
+## Critical Questions
+
+1. Do predictive errors grow monotonically with condition extremity?
+2. Are there sharp bifurcation points or smooth transitions?
+3. Do any conditions produce irreducible uncertainty (error that
+   does not decrease with more data)?
+4. Are predictive failure regions themselves structurally organized?
+5. Can predictive failure be predicted?
+
+---
+
+## Metrics
+
+- predictive_breakdown_threshold: parameter value at which
+  prediction error exceeds 50%
+- bifurcation_error_growth: rate of error increase near boundaries
+- uncertainty_inflation_rate: how much error grows per unit of
+  adversarial parameter change
+- coupling_nonlinearity_index: deviation from linear error growth
+- irreducibility_score: proportion of error that persists even
+  with perfect training data
+- chaos_transition_depth: depth at which chaotic order causes
+  prediction breakdown
+
+---
+
+## Success Criteria
+
+- All 7 conditions produce structured (not arbitrary) error growth
+- Breakdown thresholds are reproducible
+- Error growth follows lawful patterns
+- At least 5 of 7 conditions have identifiable thresholds

@@ -1,0 +1,1585 @@
+{
+  "phase": 408,
+  "seed": 430,
+  "predictor_params": {
+    "k": 1.5e-08,
+    "weights": {
+      "P": 0.52,
+      "A": 0.32,
+      "N": 0.16
+    }
+  },
+  "true_params": {
+    "k": 7.8125e-09,
+    "weights": {
+      "P": 0.507,
+      "A": 0.451,
+      "N": 0.332
+    }
+  },
+  "conditions_data": {
+    "extreme_operator_amplification": [
+      {
+        "amp": 1.0,
+        "pred": 0.4627,
+        "true": 0.6091,
+        "error": 0.2404
+      },
+      {
+        "amp": 1.5,
+        "pred": 0.4627,
+        "true": 0.7288,
+        "error": 0.3651
+      },
+      {
+        "amp": 2.0,
+        "pred": 0.4627,
+        "true": 0.8485,
+        "error": 0.4547
+      },
+      {
+        "amp": 2.5,
+        "pred": 0.4627,
+        "true": 0.9682,
+        "error": 0.5221
+      },
+      {
+        "amp": 3.0,
+        "pred": 0.4627,
+        "true": 0.9999,
+        "error": 0.5372
+      },
+      {
+        "amp": 3.5,
+        "pred": 0.4627,
+        "true": 0.9999,
+        "error": 0.5372
+      },
+      {
+        "amp": 4.0,
+        "pred": 0.4627,
+        "true": 0.9999,
+        "error": 0.5372
+      },
+      {
+        "amp": 4.5,
+        "pred": 0.4627,
+        "true": 0.9999,
+        "error": 0.5372
+      },
+      {
+        "amp": 5.0,
+        "pred": 0.4627,
+        "true": 0.9999,
+        "error": 0.5372
+      }
+    ],
+    "asymmetric_recursive_weighting": [
+      {
+        "k_ratio": 0.1,
+        "pred": 0.4627,
+        "true": 0.8822,
+        "error": 0.4755
+      },
+      {
+        "k_ratio": 0.25,
+        "pred": 0.4627,
+        "true": 0.8209,
+        "error": 0.4363
+      },
+      {
+        "k_ratio": 0.5,
+        "pred": 0.4627,
+        "true": 0.7357,
+        "error": 0.371
+      },
+      {
+        "k_ratio": 0.75,
+        "pred": 0.4627,
+        "true": 0.6664,
+        "error": 0.3057
+      },
+      {
+        "k_ratio": 1.0,
+        "pred": 0.4627,
+        "true": 0.6091,
+        "error": 0.2404
+      },
+      {
+        "k_ratio": 2.0,
+        "pred": 0.4627,
+        "true": 0.4532,
+        "error": 0.0209
+      },
+      {
+        "k_ratio": 4.0,
+        "pred": 0.4627,
+        "true": 0.2998,
+        "error": 0.5435
+      },
+      {
+        "k_ratio": 8.0,
+        "pred": 0.4627,
+        "true": 0.1788,
+        "error": 1.5886
+      },
+      {
+        "k_ratio": 10.0,
+        "pred": 0.4627,
+        "true": 0.1487,
+        "error": 2.1111
+      }
+    ],
+    "hidden_recursive_coupling": [
+      {
+        "coupling": 0.0,
+        "pred": 0.4627,
+        "true": 0.6091,
+        "error": 0.2404
+      },
+      {
+        "coupling": 0.1,
+        "pred": 0.4627,
+        "true": 0.6274,
+        "error": 0.2625
+      },
+      {
+        "coupling": 0.2,
+        "pred": 0.4627,
+        "true": 0.6457,
+        "error": 0.2834
+      },
+      {
+        "coupling": 0.3,
+        "pred": 0.4627,
+        "true": 0.664,
+        "error": 0.3031
+      },
+      {
+        "coupling": 0.4,
+        "pred": 0.4627,
+        "true": 0.6822,
+        "error": 0.3218
+      },
+      {
+        "coupling": 0.5,
+        "pred": 0.4627,
+        "true": 0.7005,
+        "error": 0.3395
+      },
+      {
+        "coupling": 0.6,
+        "pred": 0.4627,
+        "true": 0.7188,
+        "error": 0.3563
+      },
+      {
+        "coupling": 0.7,
+        "pred": 0.4627,
+        "true": 0.7371,
+        "error": 0.3722
+      },
+      {
+        "coupling": 0.8,
+        "pred": 0.4627,
+        "true": 0.7553,
+        "error": 0.3874
+      },
+      {
+        "coupling": 0.9,
+        "pred": 0.4627,
+        "true": 0.7736,
+        "error": 0.4019
+      },
+      {
+        "coupling": 1.0,
+        "pred": 0.4627,
+        "true": 0.7919,
+        "error": 0.4157
+      }
+    ],
+    "discontinuous_operator_switching": [
+      {
+        "switch_depth": 10,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.5635,
+            "error": 0.6474
+          },
+          {
+            "depth": 50000,
+            "pred": 0.9278,
+            "true": 0.5634,
+            "error": 0.6469
+          },
+          {
+            "depth": 100000,
+            "pred": 0.9271,
+            "true": 0.5631,
+            "error": 0.6463
+          }
+        ],
+        "max_error": 0.6475
+      },
+      {
+        "switch_depth": 100,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.5635,
+            "error": 0.6474
+          },
+          {
+            "depth": 50000,
+            "pred": 0.9278,
+            "true": 0.5634,
+            "error": 0.6469
+          },
+          {
+            "depth": 100000,
+            "pred": 0.9271,
+            "true": 0.5631,
+            "error": 0.6463
+          }
+        ],
+        "max_error": 0.6475
+      },
+      {
+        "switch_depth": 500,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.5635,
+            "error": 0.6474
+          },
+          {
+            "depth": 50000,
+            "pred": 0.9278,
+            "true": 0.5634,
+            "error": 0.6469
+          },
+          {
+            "depth": 100000,
+            "pred": 0.9271,
+            "true": 0.5631,
+            "error": 0.6463
+          }
+        ],
+        "max_error": 0.6475
+      },
+      {
+        "switch_depth": 1000,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.5635,
+            "error": 0.6474
+          },
+          {
+            "depth": 50000,
+            "pred": 0.9278,
+            "true": 0.5634,
+            "error": 0.6469
+          },
+          {
+            "depth": 100000,
+            "pred": 0.9271,
+            "true": 0.5631,
+            "error": 0.6463
+          }
+        ],
+        "max_error": 0.6475
+      },
+      {
+        "switch_depth": 2000,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.5636,
+            "error": 0.6475
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.5635,
+            "error": 0.6474
+          },
+          {
+            "depth": 50000,
+            "pred": 0.9278,
+            "true": 0.5634,
+            "error": 0.6469
+          },
+          {
+            "depth": 100000,
+            "pred": 0.9271,
+            "true": 0.5631,
+            "error": 0.6463
+          }
+        ],
+        "max_error": 0.6475
+      },
+      {
+        "switch_depth": 5000,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.5635,
+            "error": 0.6474
+          },
+          {
+            "depth": 50000,
+            "pred": 0.9278,
+            "true": 0.5634,
+            "error": 0.6469
+          },
+          {
+            "depth": 100000,
+            "pred": 0.9271,
+            "true": 0.5631,
+            "error": 0.6463
+          }
+        ],
+        "max_error": 0.6474
+      },
+      {
+        "switch_depth": 10000,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.9284,
+            "error": 0.0001
+          },
+          {
+            "depth": 50000,
+            "pred": 0.9278,
+            "true": 0.5634,
+            "error": 0.6469
+          },
+          {
+            "depth": 100000,
+            "pred": 0.9271,
+            "true": 0.5631,
+            "error": 0.6463
+          }
+        ],
+        "max_error": 0.6469
+      },
+      {
+        "switch_depth": 50000,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.9284,
+            "error": 0.0001
+          },
+          {
+            "depth": 50000,
+            "pred": 0.9278,
+            "true": 0.9281,
+            "error": 0.0004
+          },
+          {
+            "depth": 100000,
+            "pred": 0.9271,
+            "true": 0.5631,
+            "error": 0.6463
+          }
+        ],
+        "max_error": 0.6463
+      }
+    ],
+    "depth_chaotic_recursion": [
+      {
+        "chaos_level": 0.0,
+        "pred": 0.4627,
+        "true": 0.6091,
+        "error": 0.2404
+      },
+      {
+        "chaos_level": 0.1,
+        "pred": 0.4627,
+        "true": 0.6171,
+        "error": 0.2502
+      },
+      {
+        "chaos_level": 0.2,
+        "pred": 0.4627,
+        "true": 0.6265,
+        "error": 0.2615
+      },
+      {
+        "chaos_level": 0.3,
+        "pred": 0.4627,
+        "true": 0.6221,
+        "error": 0.2562
+      },
+      {
+        "chaos_level": 0.4,
+        "pred": 0.4627,
+        "true": 0.6502,
+        "error": 0.2883
+      },
+      {
+        "chaos_level": 0.5,
+        "pred": 0.4627,
+        "true": 0.6206,
+        "error": 0.2544
+      },
+      {
+        "chaos_level": 0.6,
+        "pred": 0.4627,
+        "true": 0.5625,
+        "error": 0.1775
+      },
+      {
+        "chaos_level": 0.7,
+        "pred": 0.4627,
+        "true": 0.5684,
+        "error": 0.186
+      },
+      {
+        "chaos_level": 0.8,
+        "pred": 0.4627,
+        "true": 0.5797,
+        "error": 0.2018
+      },
+      {
+        "chaos_level": 0.9,
+        "pred": 0.4627,
+        "true": 0.53,
+        "error": 0.1269
+      },
+      {
+        "chaos_level": 1.0,
+        "pred": 0.4627,
+        "true": 0.5389,
+        "error": 0.1414
+      }
+    ],
+    "recursive_phase_inversion": [
+      {
+        "inversion_depth": 10,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 50,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.828
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8279
+          },
+          {
+            "depth": 200,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8279
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8277
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8274
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8267
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8249
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8218
+          },
+          {
+            "depth": 20000,
+            "pred": 0.9282,
+            "true": 0.0858,
+            "error": 9.8156
+          }
+        ],
+        "max_error": 9.828
+      },
+      {
+        "inversion_depth": 50,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 50,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8279
+          },
+          {
+            "depth": 200,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8279
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8277
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8274
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8267
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8249
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8218
+          },
+          {
+            "depth": 20000,
+            "pred": 0.9282,
+            "true": 0.0858,
+            "error": 9.8156
+          }
+        ],
+        "max_error": 9.8279
+      },
+      {
+        "inversion_depth": 100,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 50,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 200,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8279
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8277
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8274
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8267
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8249
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8218
+          },
+          {
+            "depth": 20000,
+            "pred": 0.9282,
+            "true": 0.0858,
+            "error": 9.8156
+          }
+        ],
+        "max_error": 9.8279
+      },
+      {
+        "inversion_depth": 200,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 50,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 200,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8277
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8274
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8267
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8249
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8218
+          },
+          {
+            "depth": 20000,
+            "pred": 0.9282,
+            "true": 0.0858,
+            "error": 9.8156
+          }
+        ],
+        "max_error": 9.8277
+      },
+      {
+        "inversion_depth": 500,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 50,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 200,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8274
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8267
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8249
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8218
+          },
+          {
+            "depth": 20000,
+            "pred": 0.9282,
+            "true": 0.0858,
+            "error": 9.8156
+          }
+        ],
+        "max_error": 9.8274
+      },
+      {
+        "inversion_depth": 1000,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 50,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 200,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.0858,
+            "error": 9.8267
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8249
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8218
+          },
+          {
+            "depth": 20000,
+            "pred": 0.9282,
+            "true": 0.0858,
+            "error": 9.8156
+          }
+        ],
+        "max_error": 9.8267
+      },
+      {
+        "inversion_depth": 2000,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 50,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 200,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8249
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8218
+          },
+          {
+            "depth": 20000,
+            "pred": 0.9282,
+            "true": 0.0858,
+            "error": 9.8156
+          }
+        ],
+        "max_error": 9.8249
+      },
+      {
+        "inversion_depth": 5000,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 50,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 200,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.0858,
+            "error": 9.8218
+          },
+          {
+            "depth": 20000,
+            "pred": 0.9282,
+            "true": 0.0858,
+            "error": 9.8156
+          }
+        ],
+        "max_error": 9.8218
+      },
+      {
+        "inversion_depth": 10000,
+        "errors": [
+          {
+            "depth": 1,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 50,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 100,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 200,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 500,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 1000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 2000,
+            "pred": 0.9285,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 5000,
+            "pred": 0.9284,
+            "true": 0.9285,
+            "error": 0.0
+          },
+          {
+            "depth": 10000,
+            "pred": 0.9284,
+            "true": 0.9284,
+            "error": 0.0001
+          },
+          {
+            "depth": 20000,
+            "pred": 0.9282,
+            "true": 0.0858,
+            "error": 9.8156
+          }
+        ],
+        "max_error": 9.8156
+      }
+    ],
+    "stochastic_bifurcation_injection": [
+      {
+        "bif_prob": 0.0,
+        "pred": 0.4627,
+        "true": 0.6091,
+        "error": 0.2404
+      },
+      {
+        "bif_prob": 0.1,
+        "pred": 0.4627,
+        "true": 0.5454,
+        "error": 0.1516
+      },
+      {
+        "bif_prob": 0.2,
+        "pred": 0.4627,
+        "true": 0.5121,
+        "error": 0.0965
+      },
+      {
+        "bif_prob": 0.3,
+        "pred": 0.4627,
+        "true": 0.5178,
+        "error": 0.1063
+      },
+      {
+        "bif_prob": 0.4,
+        "pred": 0.4627,
+        "true": 0.4687,
+        "error": 0.0127
+      },
+      {
+        "bif_prob": 0.5,
+        "pred": 0.4627,
+        "true": 0.4752,
+        "error": 0.0262
+      },
+      {
+        "bif_prob": 0.6,
+        "pred": 0.4627,
+        "true": 0.4412,
+        "error": 0.0488
+      },
+      {
+        "bif_prob": 0.7,
+        "pred": 0.4627,
+        "true": 0.4356,
+        "error": 0.0624
+      },
+      {
+        "bif_prob": 0.8,
+        "pred": 0.4627,
+        "true": 0.4223,
+        "error": 0.0958
+      },
+      {
+        "bif_prob": 0.9,
+        "pred": 0.4627,
+        "true": 0.4044,
+        "error": 0.1443
+      },
+      {
+        "bif_prob": 1.0,
+        "pred": 0.4627,
+        "true": 0.339,
+        "error": 0.365
+      }
+    ]
+  },
+  "breakdown_thresholds": {
+    "extreme_operator_amplification": 2.5,
+    "asymmetric_recursive_weighting": 4.0,
+    "discontinuous_operator_switching": 10,
+    "recursive_phase_inversion": 10
+  },
+  "metrics": {
+    "bifurcation_error_growth": {
+      "extreme_operator_amplification": 0.0742,
+      "asymmetric_recursive_weighting": -0.0601,
+      "hidden_recursive_coupling": 0.1753,
+      "depth_chaotic_recursion": -0.099,
+      "stochastic_bifurcation_injection": 0.1246
+    },
+    "uncertainty_inflation_rate": {
+      "extreme_operator_amplification": 0.0742,
+      "asymmetric_recursive_weighting": 0.1652,
+      "hidden_recursive_coupling": 0.1753,
+      "depth_chaotic_recursion": -0.099,
+      "stochastic_bifurcation_injection": 0.1246
+    },
+    "coupling_nonlinearity_index": {
+      "extreme_operator_amplification": 0.0855,
+      "asymmetric_recursive_weighting": 0.6163,
+      "hidden_recursive_coupling": 0.0069,
+      "depth_chaotic_recursion": 0.031,
+      "stochastic_bifurcation_injection": 0.18
+    },
+    "irreducibility_score": {
+      "extreme_operator_amplification": 0.4475,
+      "asymmetric_recursive_weighting": 0.0099,
+      "hidden_recursive_coupling": 0.5783,
+      "depth_chaotic_recursion": 0.4402,
+      "stochastic_bifurcation_injection": 0.0348
+    }
+  },
+  "hypotheses": {
+    "H1_PredictiveErrorGrowsNearBoundaries": {
+      "target": "breakdown thresholds identifiable for operator amplification",
+      "value": 2.5,
+      "pass": true
+    },
+    "H2_EmergenceBifurcationZones": {
+      "target": "depth chaos or operator switching creates forecast instability",
+      "value": 10,
+      "pass": true
+    },
+    "H3_IrreducibleUncertainty": {
+      "target": "some conditions produce irreducible uncertainty",
+      "value": 0.578301659850854,
+      "pass": true
+    },
+    "H4_PredictiveCoherenceCollapse": {
+      "target": "phase inversion causes coherence collapse",
+      "value": 10,
+      "pass": true
+    },
+    "H5_FailureRegionsStructurallyInvariant": {
+      "target": ">= 5 of 7 conditions have identifiable breakdown thresholds",
+      "value": 4,
+      "pass": false
+    }
+  },
+  "hypothesis_summary": "4/5 hypotheses PASS",
+  "pass_count": 4,
+  "total_count": 5,
+  "verdict": "BREAKDOWN-BOUNDED"
+}

@@ -1,0 +1,8 @@
+condition,breakdown_threshold,error_growth,inflation_rate,nonlinearity,irreducibility
+extreme_operator_amplification,2.5,0.0742,0.0742,0.0855,0.4475
+asymmetric_recursive_weighting,4.0,-0.0601,0.1652,0.6163,0.0099
+hidden_recursive_coupling,N/A,0.1753,0.1753,0.0069,0.5783
+discontinuous_operator_switching,10,N/A,N/A,N/A,N/A
+depth_chaotic_recursion,N/A,-0.099,-0.099,0.031,0.4402
+recursive_phase_inversion,10,N/A,N/A,N/A,N/A
+stochastic_bifurcation_injection,N/A,0.1246,0.1246,0.18,0.0348

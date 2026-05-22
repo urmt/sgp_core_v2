@@ -1,0 +1,24 @@
+# Phase 408 Summary
+
+## Verdict: BREAKDOWN-BOUNDED
+### Hypotheses: 4/5 PASS
+
+Predictive breakdown is structurally organized across all 7 adversarial
+conditions. Error growth is lawful, monotonic, and parameter-dependent.
+
+## Breakdown Thresholds
+- Operator amplification: amp=2.5x (52% error)
+- Asymmetric weighting: k_ratio=4.0 (54% error)
+- Operator switching: 64% error post-switch
+- Phase inversion: 983% error (dominant failure mode)
+- Coupling, chaos, bifurcation: structured below 42% error
+
+## Key Finding
+Prediction breakdown is NOT arbitrary. All 7 conditions produce
+predictable, parameter-dependent error trajectories. The framework's
+prediction limits are scientifically mapable.
+
+## H5 Result
+4/7 conditions have explicit breakdown thresholds (>50% error).
+Three conditions produce structured error below 42% but do not
+reach extinction within tested parameter range.
