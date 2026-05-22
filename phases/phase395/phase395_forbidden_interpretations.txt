@@ -1,0 +1,31 @@
+# Phase 395 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Quantum, quantization (beyond discrete pattern description)
+- Particle, wave, wavefunction, superposition
+- Energy level, quantum state, quantum number
+- Planck, quantum mechanics, quantum field theory
+- Discrete (beyond structural description)
+- Atom, elementary particle, fundamental constituent
+- Agency, autonomy, self-organization (beyond structural description)
+
+## PROHIBITED CONCEPTS
+- Quantization as "quantum mechanics" or "quantum behavior"
+- Discrete attractor as "particle state" or "quantum state"
+- Threshold quantization as "energy quantization" or "angular momentum quantization"
+- State discretization as "particle formation" or "matter discretization"
+- Quantized propagation as "quantum propagation" or "wavefunction evolution"
+- Transition boundary as "quantum transition" or "level crossing"
+- Conservation structure as "charge conservation" or "quantum number conservation"
+
+## REQUIRED LANGUAGE
+- Structural, geometric, topological, algebraic
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 395 analyzes recursive quantization and discrete stabilization regimes as structural patterns in recursive computational systems. All references to "quantization," "discrete," "attractor," and "state" are strictly mathematical — describing organizational patterns in recursive relations, not quantum physics or particle formation. All descriptions must remain strictly mathematical and geometric.
