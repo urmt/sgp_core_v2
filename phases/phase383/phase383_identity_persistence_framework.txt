@@ -1,0 +1,57 @@
+# Phase 383 Framework: Organizational Identity Persistence and Mode Differentiation
+
+## Purpose
+Determine whether emergent recursive organizational modes can maintain persistent distinguishable identities while undergoing recursive interaction, transport, and reproduction.
+
+## Structure
+
+### 1. Recursive Identity Tracking
+- Track identity signatures across recursive depths
+- Measure identity persistence (IP)
+- Identify identity degradation patterns
+
+### 2. Mode Differentiation Analysis
+- Analyze mode differentiation under interaction
+- Measure differentiation coherence (DC)
+- Identify differentiation thresholds
+
+### 3. Lineage Persistence Mapping
+- Map mode lineage across recursive evolution
+- Measure lineage stability (LS)
+- Identify lineage preservation patterns
+
+### 4. Identity Boundary Stability
+- Track identity boundary integrity under perturbation
+- Measure boundary integrity (BI)
+- Identify boundary collapse thresholds
+
+### 5. Transport Identity Preservation
+- Track identity preservation during transport
+- Measure transport identity alignment (TIA)
+- Identify transport-stable identities
+
+### 6. Composite Identity Coexistence
+- Map coexistence of differentiated modes
+- Measure coexistence stability (CS)
+- Identify coexistence thresholds
+
+### 7. Null Identity Controls
+- Randomized identity baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- identity_persistence (IP)
+- differentiation_coherence (DC)
+- lineage_stability (LS)
+- boundary_integrity (BI)
+- coexistence_stability (CS)
+- rg_similarity (RGS)
+- transport_identity_alignment (TIA)
+
+## Classification Thresholds
+- IDENTITY-STABLE: IP > 0.90, DC > 0.90, LS > 0.85
+- IDENTITY-BOUNDED: IP > 0.80, DC > 0.80, LS > 0.75
+- IDENTITY-PARTIAL: IP > 0.70, DC > 0.70, LS > 0.65
+- IDENTITY-DEGRADING: IP > 0.55
+- IDENTITY-FAILED: IP <= 0.55

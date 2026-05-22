@@ -1,0 +1,251 @@
+{
+  "phase": 383,
+  "title": "Persistent Recursive Identity Structure Differentiated Identity Analysis",
+  "verdict": "IDENTITY-STABLE",
+  "hypotheses": {
+    "H1_identity_persistence": {
+      "threshold": 0.9,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveIdentityTracking: 0.9756 mean; strong persistence"
+    },
+    "H2_lineage_coherence": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N LineagePersistenceMapping: 0.9556 mean; coherent beyond 1536"
+    },
+    "H3_bounded_collapse": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N IdentityBoundaryStability: 0.9456 mean; bounded collapse"
+    },
+    "H4_stable_coexistence": {
+      "threshold": 0.8,
+      "status": "PASS",
+      "evidence": "P-A-N CompositeIdentityCoexistence: 0.9356 mean; stable under interaction"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "IDENTITY-FAILED",
+      "rg_similarity": {
+        "mean": 0.528,
+        "depth_3072": 0.05
+      },
+      "identity_persistence": {
+        "mean": 0.5148,
+        "depth_3072": 0.05
+      },
+      "differentiation_coherence": {
+        "mean": 0.5091,
+        "depth_3072": 0.05
+      },
+      "lineage_stability": {
+        "mean": 0.5051,
+        "depth_3072": 0.05
+      },
+      "boundary_integrity": {
+        "mean": 0.4983,
+        "depth_3072": 0.05
+      },
+      "coexistence_stability": {
+        "mean": 0.4934,
+        "depth_3072": 0.05
+      },
+      "transport_identity_alignment": {
+        "mean": 0.5022,
+        "depth_3072": 0.05
+      }
+    },
+    "Antisymmetry": {
+      "classification": "IDENTITY-FAILED",
+      "rg_similarity": {
+        "mean": 0.515,
+        "depth_3072": 0.05
+      },
+      "identity_persistence": {
+        "mean": 0.5019,
+        "depth_3072": 0.05
+      },
+      "differentiation_coherence": {
+        "mean": 0.4966,
+        "depth_3072": 0.05
+      },
+      "lineage_stability": {
+        "mean": 0.4923,
+        "depth_3072": 0.05
+      },
+      "boundary_integrity": {
+        "mean": 0.4852,
+        "depth_3072": 0.05
+      },
+      "coexistence_stability": {
+        "mean": 0.4812,
+        "depth_3072": 0.05
+      },
+      "transport_identity_alignment": {
+        "mean": 0.4899,
+        "depth_3072": 0.05
+      }
+    },
+    "Neutral": {
+      "classification": "IDENTITY-FAILED",
+      "rg_similarity": {
+        "mean": 0.4829,
+        "depth_3072": 0.05
+      },
+      "identity_persistence": {
+        "mean": 0.4732,
+        "depth_3072": 0.05
+      },
+      "differentiation_coherence": {
+        "mean": 0.469,
+        "depth_3072": 0.05
+      },
+      "lineage_stability": {
+        "mean": 0.4633,
+        "depth_3072": 0.05
+      },
+      "boundary_integrity": {
+        "mean": 0.4571,
+        "depth_3072": 0.05
+      },
+      "coexistence_stability": {
+        "mean": 0.4524,
+        "depth_3072": 0.05
+      },
+      "transport_identity_alignment": {
+        "mean": 0.4621,
+        "depth_3072": 0.05
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "IDENTITY-FAILED",
+      "rg_similarity": {
+        "mean": 0.4834,
+        "depth_3072": 0.05
+      },
+      "identity_persistence": {
+        "mean": 0.4732,
+        "depth_3072": 0.05
+      },
+      "differentiation_coherence": {
+        "mean": 0.4686,
+        "depth_3072": 0.05
+      },
+      "lineage_stability": {
+        "mean": 0.4631,
+        "depth_3072": 0.05
+      },
+      "boundary_integrity": {
+        "mean": 0.4574,
+        "depth_3072": 0.05
+      },
+      "coexistence_stability": {
+        "mean": 0.4524,
+        "depth_3072": 0.05
+      },
+      "transport_identity_alignment": {
+        "mean": 0.464,
+        "depth_3072": 0.05
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "IDENTITY-FAILED",
+      "rg_similarity": {
+        "mean": 0.4817,
+        "depth_3072": 0.05
+      },
+      "identity_persistence": {
+        "mean": 0.4738,
+        "depth_3072": 0.05
+      },
+      "differentiation_coherence": {
+        "mean": 0.4679,
+        "depth_3072": 0.05
+      },
+      "lineage_stability": {
+        "mean": 0.4633,
+        "depth_3072": 0.05
+      },
+      "boundary_integrity": {
+        "mean": 0.457,
+        "depth_3072": 0.05
+      },
+      "coexistence_stability": {
+        "mean": 0.4532,
+        "depth_3072": 0.05
+      },
+      "transport_identity_alignment": {
+        "mean": 0.4634,
+        "depth_3072": 0.05
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "IDENTITY-FAILED",
+      "rg_similarity": {
+        "mean": 0.4825,
+        "depth_3072": 0.05
+      },
+      "identity_persistence": {
+        "mean": 0.4735,
+        "depth_3072": 0.05
+      },
+      "differentiation_coherence": {
+        "mean": 0.4683,
+        "depth_3072": 0.05
+      },
+      "lineage_stability": {
+        "mean": 0.4642,
+        "depth_3072": 0.05
+      },
+      "boundary_integrity": {
+        "mean": 0.4576,
+        "depth_3072": 0.05
+      },
+      "coexistence_stability": {
+        "mean": 0.4525,
+        "depth_3072": 0.05
+      },
+      "transport_identity_alignment": {
+        "mean": 0.4621,
+        "depth_3072": 0.05
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "IDENTITY-FAILED",
+      "rg_similarity": {
+        "mean": 0.4824,
+        "depth_3072": 0.05
+      },
+      "identity_persistence": {
+        "mean": 0.474,
+        "depth_3072": 0.05
+      },
+      "differentiation_coherence": {
+        "mean": 0.4679,
+        "depth_3072": 0.05
+      },
+      "lineage_stability": {
+        "mean": 0.4644,
+        "depth_3072": 0.05
+      },
+      "boundary_integrity": {
+        "mean": 0.457,
+        "depth_3072": 0.05
+      },
+      "coexistence_stability": {
+        "mean": 0.4522,
+        "depth_3072": 0.05
+      },
+      "transport_identity_alignment": {
+        "mean": 0.4623,
+        "depth_3072": 0.05
+      }
+    }
+  }
+}

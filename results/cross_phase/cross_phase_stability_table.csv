@@ -493,3 +493,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 493: phase382_mode_reproduction_index,0.926,NA,0.05,0.91,NA,0,0.0%,0.05
 494: phase382_transport_mode_alignment,0.946,NA,0.05,0.96,NA,0,0.0%,0.05
 495: phase382_verdict,MODE-STABLE,NA,NA,NA,NA,NA,NA,NA
+496: phase383_rg_similarity,0.926,NA,0.05,0.97,NA,0,0.0%,0.05
+497: phase383_identity_persistence,0.926,NA,0.05,0.95,NA,0,0.0%,0.05
+498: phase383_differentiation_coherence,0.916,NA,0.05,0.93,NA,0,0.0%,0.05
+499: phase383_lineage_stability,0.956,NA,0.05,0.96,NA,0,0.0%,0.05
+500: phase383_boundary_integrity,0.946,NA,0.05,0.94,NA,0,0.0%,0.05
+501: phase383_coexistence_stability,0.936,NA,0.05,0.91,NA,0,0.0%,0.05
+502: phase383_transport_identity_alignment,0.956,NA,0.05,0.96,NA,0,0.0%,0.05
+503: phase383_verdict,IDENTITY-STABLE,NA,NA,NA,NA,NA,NA,NA
