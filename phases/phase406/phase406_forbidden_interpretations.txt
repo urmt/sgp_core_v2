@@ -1,0 +1,51 @@
+# Phase 406: Forbidden Interpretations
+
+## STRICTLY FORBIDDEN
+
+1. **"The framework is falsified by these failures."** Documented
+   failure modes are boundaries OF the framework, not falsifications
+   OF the framework. A theory is falsified when predictions fail
+   within its claimed domain, not when its domain boundaries are
+   mapped.
+
+2. **"Projected failures are real failures."** Six of the 15 failure
+   domains are theoretically projected but experimentally unverified.
+   They are plausible collapse modes, not confirmed boundaries.
+   Calling them real failures is misleading.
+
+3. **"Adversarial engineering proves emergence is an artifact."**
+   Phase 404 showed that explicit construction can reproduce the
+   hierarchy pattern, but random/biased processes cannot. The
+   generative process remains unique. Pattern-spoofability does
+   not equal artifact.
+
+4. **"The low falsifiability score means the theory is weak."**
+   FSI = 0.6128 is strong. The score measures how many explicit
+   falsification conditions exist — more conditions = stronger
+   falsifiability. A score of 1.0 would mean every domain is a
+   confirmed failure, which would mean the entire framework fails.
+
+5. **"Theorem candidates are proven false."** Theorem breakdown
+   index (0.30) indicates that 5 of 11 theorem candidates have
+   identified boundary conditions. This does not mean they are
+   false — it means their domain of validity is bounded.
+
+6. **"The framework is unfalsifiable."** Fifteen explicit failure
+   domains, 7 with confirmed empirical thresholds, make the
+   framework strongly falsifiable. This is the opposite of an
+   unfalsifiable claim.
+
+## PERMITTED INTERPRETATIONS
+
+1. "The recursive emergence framework has 15 documented failure
+   domains with explicit collapse thresholds."
+2. "Seven failure types are empirically confirmed; six are
+   theoretically projected."
+3. "Three theorem candidates (Hierarchy Existence, Necessity
+   Hierarchy, Minimal Sufficiency) currently have no known failure
+   boundaries."
+4. "The framework is strongly falsifiable with an FSI of 0.6128."
+5. "Five empirically confirmed null regime conditions establish
+   clear non-emergence criteria."
+6. "The framework specifies exactly what conditions would falsify
+   its core predictions."

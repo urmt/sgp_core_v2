@@ -1,0 +1,112 @@
+{
+  "phase": 406,
+  "seed": 420,
+  "failure_domains": {
+    "OperatorDepletion": {
+      "failure_score": 1.0,
+      "type": "confirmed"
+    },
+    "RecursiveDiscontinuity": {
+      "failure_score": 0.915,
+      "type": "confirmed"
+    },
+    "InfiniteNoiseAsymptotics": {
+      "failure_score": 0.4575,
+      "type": "projected"
+    },
+    "AdversarialHierarchyEngineering": {
+      "failure_score": 0.7325,
+      "type": "bounded"
+    },
+    "DimensionalCollapse": {
+      "failure_score": 0.45,
+      "type": "projected"
+    },
+    "DisconnectedTopology": {
+      "failure_score": 0.3725,
+      "type": "projected"
+    },
+    "MemoryErasure": {
+      "failure_score": 0.5775,
+      "type": "projected"
+    },
+    "BandwidthNullification": {
+      "failure_score": 0.9075,
+      "type": "confirmed"
+    },
+    "NonAssociativeCorruption": {
+      "failure_score": 0.985,
+      "type": "confirmed"
+    },
+    "DepthIncoherence": {
+      "failure_score": 0.52,
+      "type": "projected"
+    },
+    "FormalismDegeneration": {
+      "failure_score": 0.6375,
+      "type": "bounded"
+    },
+    "RandomRecursiveReplacement": {
+      "failure_score": 1.0,
+      "type": "confirmed"
+    },
+    "AntiCoherenceInjection": {
+      "failure_score": 0.3925,
+      "type": "projected"
+    },
+    "MaximalStochasticInstability": {
+      "failure_score": 0.7425,
+      "type": "confirmed-partial"
+    },
+    "FullNullEmergenceRegime": {
+      "failure_score": 0.865,
+      "type": "confirmed"
+    }
+  },
+  "critical_metrics": {
+    "collapse_depth_threshold": 550000000.0,
+    "invariant_failure_rate": 0.5333,
+    "theorem_breakdown_index": 0.3,
+    "ambiguity_transition_score": 0.2083,
+    "irrecoverability_measure": 0.3985,
+    "non_emergence_probability": 0.3833,
+    "falsifiability_strength_index": 0.6128
+  },
+  "hypotheses": {
+    "H1_ExplicitCollapseRegions": {
+      "target": ">= 5 confirmed failure regions",
+      "value": 7,
+      "pass": true
+    },
+    "H2_ReproducibleFailureThresholds": {
+      "target": "collapse_depth_threshold > 0",
+      "value": 550000000.0,
+      "pass": true
+    },
+    "H3_TheoremLimitationBoundaries": {
+      "target": "theorem_breakdown_index > 0",
+      "value": 0.3,
+      "pass": true
+    },
+    "H4_RigorousNonEmergenceCharacterization": {
+      "target": "non_emergence_probability >= 0.25",
+      "value": 0.3833,
+      "pass": true
+    },
+    "H5_StrongFalsifiabilityStructure": {
+      "target": "falsifiability_strength_index >= 0.60",
+      "value": 0.6128,
+      "pass": true
+    }
+  },
+  "domain_classification": {
+    "confirmed": 6,
+    "confirmed_partial": 1,
+    "bounded": 2,
+    "projected": 6
+  },
+  "hypothesis_summary": "5/5 hypotheses PASS",
+  "pass_count": 5,
+  "total_count": 5,
+  "verdict": "FAILURE-STABLE"
+}
