@@ -1,0 +1,52 @@
+# Phase 409: Irreducibility Test
+
+## Objective: Find the fundamental irreducible uncertainty floor
+
+Phase 407 established prediction is possible.
+Phase 408 mapped where prediction breaks down.
+Phase 409 tests whether prediction error can be compressed to zero
+or has a fundamental floor.
+
+---
+
+## Core Question
+
+Can predictive emergence be compressed indefinitely (error → 0),
+or does a minimal lawful uncertainty boundary exist?
+
+## Approach
+
+Build 10 predictors of systematically increasing complexity,
+trained on progressively more data. Track prediction error on a
+fixed held-out test set. Fit asymptotic decay model to find
+the irreducible error floor.
+
+## Predictor Levels
+
+| Level | Name | Parameters | Training Data |
+|-------|------|-----------|---------------|
+| 1 | BASE | 8 (7 sectors + 1 k) | Phase 391-399 means only |
+| 2 | K_FIXED | 8 (k corrected) | Phase 391-399 + depth |
+| 3 | W_FIXED | 8 (weights from ONI) | + Phase 400 ablation |
+| 4 | PERTURB | 22 (+14 perturbation factors) | + Phase 401 |
+| 5 | COMPRESS | 22 (+14 compression factors) | + Phase 402 |
+| 6 | FORMALISM | 23 (+15 formalism factors) | + Phase 403 |
+| 7 | FULL | 16 (all params combined) | All Phase 391-404 |
+| 8 | ENSEMBLE | 64 (7 sub-predictors) | All data |
+| 9 | ADAPTIVE | 16 + error model | All data + error correction |
+| 10 | CROSS_FORM | 16 (formalism-specific) | Trained across formalisms |
+
+## Metrics
+
+- irreducible_error_floor: asymptotic error as complexity → ∞
+- compression_saturation_index: (error_1 - error_N)/(1 - floor)
+- predictive_information_limit: 1/floor (inverse uncertainty)
+- synergy_uncertainty_density: error per parameter
+- asymptotic_forecast_bound: projected error at infinite complexity
+- recursive_predictability_ceiling: max possible accuracy
+
+## Success Criteria
+
+- Stable non-zero error floor identified above 0.05 (null level)
+- Error decay follows lawful asymptotic pattern
+- Floor consistent across held-out test conditions

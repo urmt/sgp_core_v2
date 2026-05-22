@@ -1,0 +1,15 @@
+condition,true_value,predicted,error_pct
+Adversarial_Amplification_3x,0.9999,0.9519,4.8
+Adversarial_Bifurcation_1.0,0.339,0.3688,8.79
+Adversarial_Chaos_1.0,0.5389,0.5114,5.1
+Adversarial_Coupling_0.8,0.7553,0.7282,3.58
+Adversarial_K_Ratio_8x,0.1788,0.3835,114.47
+Adversarial_OperatorSwitch_d1000,0.3672,0.3919,6.73
+Adversarial_PhaseInversion_d1000,0.0539,0.1952,262.17
+CrossPredict_Formalism_Predict_From_Alg,0.8587,0.8387,2.33
+CrossPredict_Formalism_Predict_From_Tensor,0.8943,0.8619,3.62
+NovelConfig_A_Enhanced_NoPN,0.3246,0.3274,0.86
+NovelConfig_A_P_N,0.87,0.8417,3.25
+NovelConfig_P_Enhanced_NoAN,0.3649,0.3697,1.32
+NovelConfig_P_Halved_A_Full_N_Full,0.746,0.6814,8.66
+NovelConfig_P_P_A_N,0.93,0.9009,3.13

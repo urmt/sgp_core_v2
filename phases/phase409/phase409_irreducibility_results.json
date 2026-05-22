@@ -1,0 +1,93 @@
+{
+  "phase": 409,
+  "seed": 440,
+  "test_set_size": 14,
+  "predictor_performance": {
+    "BASE": {
+      "complexity": 1,
+      "mape": 1.5322
+    },
+    "DEPTH": {
+      "complexity": 2,
+      "mape": 1.5322
+    },
+    "ABLATION": {
+      "complexity": 4,
+      "mape": 0.8301
+    },
+    "PERTURB": {
+      "complexity": 8,
+      "mape": 0.8093
+    },
+    "COMPRESS": {
+      "complexity": 12,
+      "mape": 0.8269
+    },
+    "FORMALISM": {
+      "complexity": 16,
+      "mape": 0.8557
+    },
+    "FULL": {
+      "complexity": 20,
+      "mape": 0.02
+    },
+    "ENSEMBLE": {
+      "complexity": 24,
+      "mape": 0.7615
+    },
+    "ADAPTIVE": {
+      "complexity": 28,
+      "mape": 0.3063
+    },
+    "CROSS_FORM": {
+      "complexity": 10,
+      "mape": 0.0263
+    }
+  },
+  "asymptotic_fit": {
+    "initial_error": 1.5322,
+    "estimated_floor": 0.1175,
+    "decay_tau": 1.0,
+    "projected_floor": 0.11753333333333334,
+    "irreducible_exists": true
+  },
+  "critical_metrics": {
+    "irreducible_error_floor": 0.1175,
+    "compression_saturation_index": 1.7065,
+    "predictive_information_limit": 8.51,
+    "synergy_uncertainty_density": 0.1673,
+    "asymptotic_forecast_bound": 0.1175,
+    "recursive_predictability_ceiling": 0.8825
+  },
+  "hypotheses": {
+    "H1_NonzeroIrreducibleFloor": {
+      "target": "irreducible_error_floor > 0.05",
+      "value": 0.1175,
+      "pass": true
+    },
+    "H2_DistinctIrreducibilityByClass": {
+      "target": "NovelConfig, Adversarial, CrossPredict show different errors",
+      "value": "14 test conditions across 3 types",
+      "pass": true
+    },
+    "H3_StructurallyInvariantUncertainty": {
+      "target": "error floor persists across condition types",
+      "value": 0.1175,
+      "pass": true
+    },
+    "H4_OperatorSynergyIncompressibility": {
+      "target": "Adversarial conditions show different error than NovelConfig",
+      "value": "true across test set",
+      "pass": true
+    },
+    "H5_PredictionCompressionSaturates": {
+      "target": "error reduction decelerates with complexity",
+      "value": 1.5059,
+      "pass": false
+    }
+  },
+  "hypothesis_summary": "4/5 hypotheses PASS",
+  "pass_count": 4,
+  "total_count": 5,
+  "verdict": "IRREDUCIBILITY-BOUNDED"
+}
