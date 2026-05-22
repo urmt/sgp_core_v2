@@ -485,3 +485,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 485: phase381_recursive_field_synchronization,0.916,NA,0.05,0.91,NA,0,0.0%,0.05
 486: phase381_emergent_regime_stability,0.936,NA,0.05,0.96,NA,0,0.0%,0.05
 487: phase381_verdict,INTERFERENCE-COHERENT,NA,NA,NA,NA,NA,NA,NA
+488: phase382_rg_similarity,0.916,NA,0.05,0.97,NA,0,0.0%,0.05
+489: phase382_emergent_mode_stability,0.916,NA,0.05,0.95,NA,0,0.0%,0.05
+490: phase382_independent_mode_coherence,0.906,NA,0.05,0.93,NA,0,0.0%,0.05
+491: phase382_recursive_mode_persistence,0.946,NA,0.05,0.96,NA,0,0.0%,0.05
+492: phase382_composite_mode_gain,0.936,NA,0.05,0.94,NA,0,0.0%,0.05
+493: phase382_mode_reproduction_index,0.926,NA,0.05,0.91,NA,0,0.0%,0.05
+494: phase382_transport_mode_alignment,0.946,NA,0.05,0.96,NA,0,0.0%,0.05
+495: phase382_verdict,MODE-STABLE,NA,NA,NA,NA,NA,NA,NA

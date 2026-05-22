@@ -98,3 +98,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 379,CONSERVATION-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.89,0.89,0.88,0.86,0.92,organizational_conservation,COMPLETE
 380,FIELD-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.90,0.90,0.89,0.87,0.93,organizational_field_emergence,COMPLETE
 381,INTERFERENCE-COHERENT,TRUE,TRUE,TRUE,TRUE,TRUE,0.91,0.91,0.90,0.88,0.94,field_interference_superposition,COMPLETE
+382,MODE-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.92,0.92,0.91,0.89,0.95,emergent_organizational_mode,COMPLETE
