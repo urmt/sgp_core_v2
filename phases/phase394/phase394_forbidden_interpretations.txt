@@ -1,0 +1,32 @@
+# Phase 394 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Physical law, natural law, law of nature
+- Equation, theory, principle (beyond descriptive pattern)
+- Force, interaction (beyond mathematical relation)
+- Causality (beyond structural dependency)
+- Determinism, predictability (beyond pattern description)
+- Necessity, universality (beyond observed regularity)
+- Agency, autonomy, self-organization (beyond structural description)
+- Evolution (beyond structural transformation)
+
+## PROHIBITED CONCEPTS
+- Dynamical law as "physical law" or "law of nature"
+- Law invariance as "universal law" or "natural necessity"
+- Evolution regularity as "lawful behavior" or "rule-governed"
+- Transformation reproducibility as "determinism" or "predictability"
+- Causal alignment as "causal power" or "efficacy"
+- Evolution regime as "physical regime" or "phase of matter"
+- Dynamical consistency as "lawful dynamics"
+
+## REQUIRED LANGUAGE
+- Structural, geometric, topological, algebraic
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 394 analyzes recursive dynamical law emergence and stable evolution regimes as structural patterns in recursive computational systems. All references to "law," "invariance," "evolution," "dynamical," and "regime" are strictly mathematical — describing organizational patterns in recursive relations, not physical laws or natural necessity. All descriptions must remain strictly mathematical and geometric.
