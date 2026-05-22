@@ -1,0 +1,768 @@
+{
+  "phase": 402,
+  "title": "Compression-Generalization Validation",
+  "verdict": "COMPRESSION-BOUNDED",
+  "hypotheses": {
+    "H1_bounded_compression_degradation": {
+      "threshold": "Worst signal CSF > 0.50",
+      "status": "FAIL",
+      "evidence": "Worst signal CSF=0.4656"
+    },
+    "H2_baseline_coherent": {
+      "threshold": "Baseline CSF > 0.95",
+      "status": "PASS",
+      "evidence": "Baseline CSF=1.0"
+    },
+    "H3_hierarchy_preserved": {
+      "threshold": "HRR = 1.0 for baseline",
+      "status": "PASS",
+      "evidence": "Baseline HRR=1.0"
+    },
+    "H4_minimal_architecture_viable": {
+      "threshold": "MinimalSufficientArchitecture CSF > 0.40",
+      "status": "PASS",
+      "evidence": "MinimalSufficientArchitecture CSF=0.4656"
+    },
+    "H5_reconstruction_fidelity_retained": {
+      "threshold": "Worst signal ERF > 0.40",
+      "status": "PASS",
+      "evidence": "Worst signal ERF=0.4353"
+    }
+  },
+  "condition_summaries": {
+    "FullBaselineArchitecture": {
+      "mean_csf": 1.0,
+      "mean_erf": 1.0,
+      "mean_rie": 1.0,
+      "mean_cdb": 0.0,
+      "sri": 1.0,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9469
+        },
+        "P-A": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9464
+        },
+        "Projection": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9454
+        },
+        "P-N": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9444
+        },
+        "Antisymmetry": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9438
+        },
+        "Neutral": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9139
+        },
+        "A-N": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.8948
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "ReducedSectorCount": {
+      "mean_csf": 0.9965,
+      "mean_erf": 0.9963,
+      "mean_rie": 1.6608,
+      "mean_cdb": 0.0035,
+      "sri": 0.9999,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.9944,
+          "mean_compressed": 0.9416
+        },
+        "P-A": {
+          "mean_csf": 0.9946,
+          "mean_compressed": 0.9413
+        },
+        "Projection": {
+          "mean_csf": 0.995,
+          "mean_compressed": 0.9407
+        },
+        "P-N": {
+          "mean_csf": 0.9955,
+          "mean_compressed": 0.9401
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.9957,
+          "mean_compressed": 0.9397
+        },
+        "Neutral": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9218
+        },
+        "A-N": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9103
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "CompressedOperatorBasis": {
+      "mean_csf": 0.9867,
+      "mean_erf": 0.9859,
+      "mean_rie": 1.4096,
+      "mean_cdb": 0.0133,
+      "sri": 0.9971,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.9972,
+          "mean_compressed": 0.9536
+        },
+        "P-A": {
+          "mean_csf": 0.9972,
+          "mean_compressed": 0.9535
+        },
+        "Projection": {
+          "mean_csf": 0.9972,
+          "mean_compressed": 0.9532
+        },
+        "P-N": {
+          "mean_csf": 0.9973,
+          "mean_compressed": 0.9528
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.9973,
+          "mean_compressed": 0.9526
+        },
+        "Neutral": {
+          "mean_csf": 0.9537,
+          "mean_compressed": 0.8719
+        },
+        "A-N": {
+          "mean_csf": 0.9671,
+          "mean_compressed": 0.8662
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "LowPrecisionRecursion": {
+      "mean_csf": 0.92,
+      "mean_erf": 0.9155,
+      "mean_rie": 1.8401,
+      "mean_cdb": 0.08,
+      "sri": 0.9992,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.9137,
+          "mean_compressed": 0.8653
+        },
+        "P-A": {
+          "mean_csf": 0.914,
+          "mean_compressed": 0.8651
+        },
+        "Projection": {
+          "mean_csf": 0.9146,
+          "mean_compressed": 0.8647
+        },
+        "P-N": {
+          "mean_csf": 0.9151,
+          "mean_compressed": 0.8643
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.9155,
+          "mean_compressed": 0.8641
+        },
+        "Neutral": {
+          "mean_csf": 0.9281,
+          "mean_compressed": 0.8486
+        },
+        "A-N": {
+          "mean_csf": 0.9394,
+          "mean_compressed": 0.841
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "SparseRecursiveConnectivity": {
+      "mean_csf": 0.6215,
+      "mean_erf": 0.6,
+      "mean_rie": 1.0358,
+      "mean_cdb": 0.3785,
+      "sri": 1.0,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-DEGRADING",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.6211,
+          "mean_compressed": 0.5881
+        },
+        "P-A": {
+          "mean_csf": 0.6212,
+          "mean_compressed": 0.5878
+        },
+        "Projection": {
+          "mean_csf": 0.6212,
+          "mean_compressed": 0.5873
+        },
+        "P-N": {
+          "mean_csf": 0.6212,
+          "mean_compressed": 0.5866
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.6212,
+          "mean_compressed": 0.5863
+        },
+        "Neutral": {
+          "mean_csf": 0.622,
+          "mean_compressed": 0.5683
+        },
+        "A-N": {
+          "mean_csf": 0.6224,
+          "mean_compressed": 0.5569
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "CompressedMemoryRepresentation": {
+      "mean_csf": 0.9949,
+      "mean_erf": 0.9945,
+      "mean_rie": 1.5306,
+      "mean_cdb": 0.0051,
+      "sri": 1.0,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.9949,
+          "mean_compressed": 0.9427
+        },
+        "P-A": {
+          "mean_csf": 0.9949,
+          "mean_compressed": 0.9422
+        },
+        "Projection": {
+          "mean_csf": 0.9949,
+          "mean_compressed": 0.9412
+        },
+        "P-N": {
+          "mean_csf": 0.9949,
+          "mean_compressed": 0.9401
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.9949,
+          "mean_compressed": 0.9395
+        },
+        "Neutral": {
+          "mean_csf": 0.9949,
+          "mean_compressed": 0.9098
+        },
+        "A-N": {
+          "mean_csf": 0.9949,
+          "mean_compressed": 0.8908
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "ReducedInteractionChannels": {
+      "mean_csf": 0.6764,
+      "mean_erf": 0.658,
+      "mean_rie": 1.2298,
+      "mean_cdb": 0.3236,
+      "sri": 1.0,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-BOUNDED",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.6761,
+          "mean_compressed": 0.6402
+        },
+        "P-A": {
+          "mean_csf": 0.6761,
+          "mean_compressed": 0.6399
+        },
+        "Projection": {
+          "mean_csf": 0.6761,
+          "mean_compressed": 0.6393
+        },
+        "P-N": {
+          "mean_csf": 0.6762,
+          "mean_compressed": 0.6385
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.6762,
+          "mean_compressed": 0.6381
+        },
+        "Neutral": {
+          "mean_csf": 0.6768,
+          "mean_compressed": 0.6185
+        },
+        "A-N": {
+          "mean_csf": 0.6772,
+          "mean_compressed": 0.6059
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "SimplifiedTransportDynamics": {
+      "mean_csf": 0.7161,
+      "mean_erf": 0.7,
+      "mean_rie": 1.023,
+      "mean_cdb": 0.2839,
+      "sri": 1.0,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-BOUNDED",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.7159,
+          "mean_compressed": 0.6779
+        },
+        "P-A": {
+          "mean_csf": 0.7159,
+          "mean_compressed": 0.6775
+        },
+        "Projection": {
+          "mean_csf": 0.7159,
+          "mean_compressed": 0.6768
+        },
+        "P-N": {
+          "mean_csf": 0.7159,
+          "mean_compressed": 0.6761
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.7159,
+          "mean_compressed": 0.6756
+        },
+        "Neutral": {
+          "mean_csf": 0.7164,
+          "mean_compressed": 0.6547
+        },
+        "A-N": {
+          "mean_csf": 0.7168,
+          "mean_compressed": 0.6413
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "CoarseGrainedRecursiveDepth": {
+      "mean_csf": 1.0,
+      "mean_erf": 1.0,
+      "mean_rie": 1.6667,
+      "mean_cdb": 0.0,
+      "sri": 1.0,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9567
+        },
+        "P-A": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9562
+        },
+        "Projection": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9552
+        },
+        "P-N": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9541
+        },
+        "Antisymmetry": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9535
+        },
+        "Neutral": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.9233
+        },
+        "A-N": {
+          "mean_csf": 1.0,
+          "mean_compressed": 0.904
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "MinimalSufficientArchitecture": {
+      "mean_csf": 0.4656,
+      "mean_erf": 0.4353,
+      "mean_rie": 0.9312,
+      "mean_cdb": 0.5344,
+      "sri": 1.0,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-DEGRADING",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.4651,
+          "mean_compressed": 0.4404
+        },
+        "P-A": {
+          "mean_csf": 0.4652,
+          "mean_compressed": 0.4402
+        },
+        "Projection": {
+          "mean_csf": 0.4652,
+          "mean_compressed": 0.4398
+        },
+        "P-N": {
+          "mean_csf": 0.4652,
+          "mean_compressed": 0.4393
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.4652,
+          "mean_compressed": 0.4391
+        },
+        "Neutral": {
+          "mean_csf": 0.4663,
+          "mean_compressed": 0.426
+        },
+        "A-N": {
+          "mean_csf": 0.4669,
+          "mean_compressed": 0.4177
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "RandomizedParameterCompression": {
+      "mean_csf": 0.6185,
+      "mean_erf": 0.5969,
+      "mean_rie": 1.0308,
+      "mean_cdb": 0.3815,
+      "sri": 0.9996,
+      "hrr": 0.0,
+      "classification": "COMPRESSION-DEGRADING",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.6104,
+          "mean_compressed": 0.5784
+        },
+        "P-A": {
+          "mean_csf": 0.6209,
+          "mean_compressed": 0.5876
+        },
+        "Projection": {
+          "mean_csf": 0.6176,
+          "mean_compressed": 0.5841
+        },
+        "P-N": {
+          "mean_csf": 0.6175,
+          "mean_compressed": 0.5833
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.6325,
+          "mean_compressed": 0.5967
+        },
+        "Neutral": {
+          "mean_csf": 0.6186,
+          "mean_compressed": 0.5655
+        },
+        "A-N": {
+          "mean_csf": 0.612,
+          "mean_compressed": 0.5478
+        }
+      },
+      "sector_ordering": [
+        "Antisymmetry",
+        "P-A",
+        "Projection",
+        "P-N",
+        "P-A-N",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "GeneralizedOperatorAbstraction": {
+      "mean_csf": 0.7161,
+      "mean_erf": 0.7,
+      "mean_rie": 1.023,
+      "mean_cdb": 0.2839,
+      "sri": 1.0,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-BOUNDED",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.7159,
+          "mean_compressed": 0.6779
+        },
+        "P-A": {
+          "mean_csf": 0.7159,
+          "mean_compressed": 0.6775
+        },
+        "Projection": {
+          "mean_csf": 0.7159,
+          "mean_compressed": 0.6768
+        },
+        "P-N": {
+          "mean_csf": 0.7159,
+          "mean_compressed": 0.6761
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.7159,
+          "mean_compressed": 0.6756
+        },
+        "Neutral": {
+          "mean_csf": 0.7164,
+          "mean_compressed": 0.6547
+        },
+        "A-N": {
+          "mean_csf": 0.7168,
+          "mean_compressed": 0.6413
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "RecursiveDimensionalReduction": {
+      "mean_csf": 0.4887,
+      "mean_erf": 0.4597,
+      "mean_rie": 0.8885,
+      "mean_cdb": 0.5113,
+      "sri": 1.0,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-DEGRADING",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.4882,
+          "mean_compressed": 0.4623
+        },
+        "P-A": {
+          "mean_csf": 0.4883,
+          "mean_compressed": 0.4621
+        },
+        "Projection": {
+          "mean_csf": 0.4883,
+          "mean_compressed": 0.4616
+        },
+        "P-N": {
+          "mean_csf": 0.4883,
+          "mean_compressed": 0.4611
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.4883,
+          "mean_compressed": 0.4608
+        },
+        "Neutral": {
+          "mean_csf": 0.4893,
+          "mean_compressed": 0.4471
+        },
+        "A-N": {
+          "mean_csf": 0.4899,
+          "mean_compressed": 0.4384
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "ConstrainedPropagationBandwidth": {
+      "mean_csf": 0.5972,
+      "mean_erf": 0.5743,
+      "mean_rie": 1.1944,
+      "mean_cdb": 0.4028,
+      "sri": 1.0,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-DEGRADING",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.5969,
+          "mean_compressed": 0.5652
+        },
+        "P-A": {
+          "mean_csf": 0.5969,
+          "mean_compressed": 0.5649
+        },
+        "Projection": {
+          "mean_csf": 0.5969,
+          "mean_compressed": 0.5643
+        },
+        "P-N": {
+          "mean_csf": 0.597,
+          "mean_compressed": 0.5637
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.597,
+          "mean_compressed": 0.5633
+        },
+        "Neutral": {
+          "mean_csf": 0.5977,
+          "mean_compressed": 0.5462
+        },
+        "A-N": {
+          "mean_csf": 0.5982,
+          "mean_compressed": 0.5352
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "NullCompressedRecursionControl": {
+      "mean_csf": 0.0537,
+      "mean_erf": 0.0,
+      "mean_rie": 0.0,
+      "mean_cdb": 0.9463,
+      "sri": 1.0,
+      "hrr": 1.0,
+      "classification": "COMPRESSION-FAILED",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_csf": 0.0529,
+          "mean_compressed": 0.05
+        },
+        "P-A": {
+          "mean_csf": 0.0529,
+          "mean_compressed": 0.05
+        },
+        "Projection": {
+          "mean_csf": 0.0529,
+          "mean_compressed": 0.05
+        },
+        "P-N": {
+          "mean_csf": 0.053,
+          "mean_compressed": 0.05
+        },
+        "Antisymmetry": {
+          "mean_csf": 0.053,
+          "mean_compressed": 0.05
+        },
+        "Neutral": {
+          "mean_csf": 0.0548,
+          "mean_compressed": 0.05
+        },
+        "A-N": {
+          "mean_csf": 0.056,
+          "mean_compressed": 0.05
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    }
+  },
+  "sector_base_values": {
+    "P-A-N": 0.9567,
+    "P-A": 0.9562,
+    "Projection": 0.9552,
+    "P-N": 0.9541,
+    "Antisymmetry": 0.9535,
+    "Neutral": 0.9233,
+    "A-N": 0.904
+  },
+  "parameters": {
+    "k": 3.90625e-09,
+    "min_emergence": 0.05,
+    "max_depth": 67108864
+  }
+}

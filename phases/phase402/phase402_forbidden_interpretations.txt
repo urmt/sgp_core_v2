@@ -1,0 +1,69 @@
+PHASE 402 FORBIDDEN INTERPRETATIONS
+
+The following interpretations of compression-generalization results
+are FORBIDDEN. These terms reify data compression, machine learning
+generalization, or information theory metaphors as literal properties.
+All results must be framed as relational propagation metrics under
+architectural simplification.
+
+FORBIDDEN TERMS AND PHRASES
+
+DO NOT claim:
+1. "Lossy compression" in data compression sense
+2. "JPEG compression" or "MP3 compression"
+3. "Codec" or "encoding scheme"
+4. "Bit rate" or "bit depth" in digital sense
+5. "Sampling rate" or "Nyquist frequency"
+6. "Machine learning generalization"
+7. "Train/test split" or "train/test generalization"
+8. "Overfitting" or "underfitting"
+9. "Regularization" or "L1/L2 regularization"
+10. "Dropout" (neural network training)
+11. "Neural network pruning"
+12. "Model distillation" or "knowledge distillation"
+13. "Quantization-aware training"
+14. "Principal Component Analysis" (as literal PCA)
+15. "Autoencoder" or "variational autoencoder"
+16. "Latent space" or "latent representation"
+17. "Manifold learning" or "manifold hypothesis"
+18. "Information bottleneck"
+19. "Rate-distortion theory"
+20. "Minimum description length"
+21. "Kolmogorov complexity" (as literal computation)
+22. "Algorithmic information theory"
+23. "Minimum necessary information"
+24. "Compressed sensing"
+25. "Sparse coding" or "sparse representation"
+26. "Wavelet compression" or "Fourier compression"
+27. "Fractal compression"
+28. "Entropy coding" or "Huffman coding"
+29. "Dictionary learning"
+30. "Lossless vs lossy" as digital compression
+
+PERMITTED ALTERNATIVES
+
+Instead of the above, use:
+- "Compression survival fraction" (CSF)
+- "Architectural simplification tolerance"
+- "Emergence reconstruction fidelity"
+- "Structural redundancy quantification"
+- "Minimal viable architecture"
+- "Recursive information efficiency"
+- "Compression-degradation threshold"
+- "Parameter reduction survival"
+- "Sector differentiation redundancy"
+- "Operator precision tolerance"
+
+RATIONALIZATION
+
+Phase 402 investigates whether the emergence hierarchy survives
+simplification. The compressions examined (sector blur, quantization,
+sparsity, memory reduction, dimensional reduction) are mathematical
+simplifications of recursive constraint propagation — not digital
+compression algorithms, machine learning regularization, or
+information-theoretic coding. All terminology must remain strictly
+relational and mathematical.
+
+Enforcement: Any use of forbidden terms in phase documentation or
+derived publications requires reframing. Repeat violations may
+require governance review.
