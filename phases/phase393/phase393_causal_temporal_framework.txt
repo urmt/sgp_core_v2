@@ -1,0 +1,60 @@
+# Phase 393 Framework: Recursive Causal Structure and Temporal Order Emergence
+
+## Purpose
+Determine whether emergent recursive relational geometry can generate stable causal-like ordering and temporal propagation structure from constrained recursive interaction alone.
+
+## Core Distinction
+emergent recursive geometry vs emergent recursive causal-temporal structure
+
+## Structure
+
+### 1. Causal Ordering Extraction
+- Extract causal-like ordering from propagation constraints
+- Measure causal coherence (CC)
+- Identify order-stable interaction regimes
+
+### 2. Recursive Temporal Consistency Analysis
+- Track temporal-like consistency across recursion
+- Measure temporal order stability (TOS)
+- Identify consistent temporal propagation
+
+### 3. Propagation Asymmetry Tracking
+- Analyze directional asymmetry in propagation
+- Measure propagation directionality (PD)
+- Identify stable directional structure
+
+### 4. Causal Chain Persistence Mapping
+- Map persistence of causal-like chains
+- Measure causal chain persistence (CCP)
+- Identify chain degradation patterns
+
+### 5. Transport-Direction Coherence
+- Track coherence of transport-direction relations
+- Measure propagation directionality across conditions
+- Identify direction-stable transport
+
+### 6. Recursive Temporal Stabilization
+- Analyze temporal stabilization across recursion
+- Measure recursive temporal alignment (RTA)
+- Identify stabilization thresholds
+
+### 7. Null Causal Controls
+- Randomized relational baselines
+- Confirm causal-temporal signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- causal_coherence (CC)
+- temporal_order_stability (TOS)
+- propagation_directionality (PD)
+- causal_chain_persistence (CCP)
+- recursive_temporal_alignment (RTA)
+- rg_similarity (RGS)
+- temporal_emergence_gain (TEG)
+
+## Classification Thresholds
+- CAUSAL-TEMPORAL-STABLE: CC > 0.90, TOS > 0.85, PD > 0.85
+- CAUSAL-TEMPORAL-BOUNDED: CC > 0.80, TOS > 0.75, PD > 0.75
+- CAUSAL-TEMPORAL-PARTIAL: CC > 0.70, TOS > 0.65, PD > 0.65
+- CAUSAL-TEMPORAL-DEGRADING: CC > 0.55
+- CAUSAL-TEMPORAL-FAILED: CC <= 0.55

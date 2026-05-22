@@ -1,0 +1,31 @@
+# Phase 393 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Time, temporality (beyond relational ordering), causality (beyond structural dependency)
+- Past, present, future (beyond ordinal relation)
+- Before, after (beyond structural precedence)
+- Arrow of time, temporal flow, temporal passage
+- Memory, anticipation, expectation
+- Agency, autonomy, self-organization (beyond structural description)
+- Evolution, emergence (beyond structural pattern description)
+
+## PROHIBITED CONCEPTS
+- Causal ordering as "physical causation" or "causal power"
+- Temporal consistency as "time keeping" or "temporal experience"
+- Propagation asymmetry as "arrow of time" or "temporal direction"
+- Causal chain as "chain of events" or "causal history"
+- Transport direction as "temporal passage" or "flow of time"
+- Temporal alignment as "synchronization" or "temporal coordination"
+- Causal-temporal as "time" or "causality"
+
+## REQUIRED LANGUAGE
+- Structural, geometric, topological, algebraic
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 393 analyzes recursive causal structure and temporal order emergence as structural patterns in recursive computational systems. All references to "causal," "temporal," "before/after," and "ordering" are strictly relational — describing organizational patterns in recursive relations, not physical time or causality. All descriptions must remain strictly mathematical and geometric.

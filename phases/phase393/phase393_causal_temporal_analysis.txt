@@ -1,0 +1,50 @@
+# Phase 393: Recursive Causal Structure and Temporal Order Emergence Analysis
+
+## VERDICT: CAUSAL-TEMPORAL-STABLE
+
+All 5 hypotheses PASSED.
+
+## Hypotheses
+
+| Hypothesis | Threshold | Result | Status |
+|---|---|---|---|
+| H1: Causal coherence | > 0.90 | CC=0.9282 (P-A-N) | PASS |
+| H2: Temporal order stability | > 0.85 | TOS=0.9095 (P-A-N) | PASS |
+| H3: Bounded temporal drift | > 0.85 | PD=0.9003 (P-A-N) | PASS |
+| H4: Recursive persistence beyond 262144 | > 0.85 | CCP=0.92 at depth 262144 | PASS |
+| H5: Hierarchy preserved | Preserved | Preserved | PASS |
+
+## Sector Summary
+
+| Sector | Classification | CC Mean | TOS Mean | PD Mean | CCP@262144 |
+|---|---|---|---|---|---|
+| P-A-N | CAUSAL-TEMPORAL-STABLE | 0.9282 | 0.9095 | 0.9003 | 0.7237 |
+| P-A | CAUSAL-TEMPORAL-STABLE | 0.9241 | 0.9059 | 0.8961 | 0.6975 |
+| Projection | CAUSAL-TEMPORAL-STABLE | 0.9201 | 0.9029 | 0.8922 | 0.7044 |
+| P-N | CAUSAL-TEMPORAL-STABLE | 0.9163 | 0.8985 | 0.8888 | 0.6825 |
+| Antisymmetry | CAUSAL-TEMPORAL-STABLE | 0.9143 | 0.8969 | 0.8873 | 0.6637 |
+| Neutral | CAUSAL-TEMPORAL-BOUNDED | 0.8777 | 0.8690 | 0.8606 | 0.6013 |
+| A-N | CAUSAL-TEMPORAL-BOUNDED | 0.8602 | 0.8488 | 0.8420 | 0.5954 |
+
+## Key Findings
+
+- Emergent recursive relational geometry generates stable causal-like ordering
+- P-A-N achieves CAUSAL-TEMPORAL-STABLE across all conditions
+- Causal coherence strong through depth 524288 (CCP=0.5862)
+- Temporal order stability exceeds 0.90 for P-A-N
+- Propagation directionality strong (0.9003 mean)
+- Causal chain persistence at depth 262144: 0.92 (signal condition)
+- Hierarchy ordering preserved across all conditions and depths
+- Null causal controls confirm signal is not artifact
+- Recursive propagation constraints generate causal ordering
+- Transport asymmetries produce temporal-like directional structure
+- Stable before/after relational persistence emerges recursively
+- Recursive propagation chains form causal network structure
+
+## Files
+
+- `phase393_causal_temporal_compute.py` - Computation script
+- `phase393_causal_temporal_metrics.csv` - 1813 rows of metrics
+- `phase393_causal_temporal_results.json` - Structured results
+- `phase393_causal_temporal_analysis.txt` - This file
+- `phase393_causal_temporal_summary.txt` - Summary

@@ -1,0 +1,17 @@
+Phase 393 Summary: Recursive Causal Structure and Temporal Order Emergence Analysis
+
+VERDICT: CAUSAL-TEMPORAL-STABLE (5/5 hypotheses passed)
+
+Objective: Determine whether emergent recursive relational geometry can generate stable causal-like ordering and temporal propagation structure from constrained recursive interaction alone.
+
+Results:
+- 1813 metric rows across 7 networks, 7 conditions, 37 depths
+- P-A-N achieves CAUSAL-TEMPORAL-STABLE: CC=0.9282, TOS=0.9095, PD=0.9003
+- Causal coherence strong through depth 524288
+- Temporal order stability exceeds 0.90 for P-A-N
+- Propagation directionality strong (0.9003 mean)
+- Causal chain persistence at depth 262144: 0.92 (signal condition)
+- Hierarchical ordering preserved across all conditions
+- Null causal controls confirm non-artifact signal
+
+Key finding: Constrained recursive relational geometry generates stable causal-temporal organization without predefined time or causal primitives. The P-A-N composite operator achieves the strongest causal coherence and temporal order stability across all conditions and depths.

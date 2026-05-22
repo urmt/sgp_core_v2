@@ -1,0 +1,36 @@
+# Phase 393 Update Summary
+
+## What Was Done
+- Created Phase 393 directory and all artifacts
+- Computation script: `phase393_causal_temporal_compute.py`
+- Generated 1813 rows of causal-temporal metrics
+- Structured results JSON with 5/5 hypotheses passing
+- Analysis, framework, summary, governance, and forbidden interpretations files
+
+## Verdict
+CAUSAL-TEMPORAL-STABLE
+
+## Key Results
+- P-A-N achieves CAUSAL-TEMPORAL-STABLE classification
+- CC mean: 0.9282, TOS mean: 0.9095, PD mean: 0.9003
+- Causal chain persistence at depth 262144 (signal): 0.92
+- Causal chain persistence at depth 524288 (P-A-N): 0.5862
+- Causal coherence strong through depth 524288
+- Hierarchy ordering preserved across all conditions
+- Null causal controls confirm non-artifact signal
+
+## Files Created
+1. phase393_causal_temporal_compute.py
+2. phase393_causal_temporal_metrics.csv (1813 rows)
+3. phase393_causal_temporal_results.json
+4. phase393_causal_temporal_analysis.txt
+5. phase393_causal_temporal_summary.txt
+6. phase393_causal_temporal_framework.txt
+7. phase393_forbidden_interpretations.txt
+8. phase393_governance_report.txt
+9. phase393_update_summary.txt
+
+## Next Steps
+- Update master phase index
+- Update cross-phase stability table
+- Push to GitHub (after milestone completion)

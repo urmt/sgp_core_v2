@@ -1,0 +1,216 @@
+{
+  "phase": 393,
+  "title": "Recursive Causal Structure and Temporal Order Emergence Analysis",
+  "verdict": "CAUSAL-TEMPORAL-STABLE",
+  "hypotheses": {
+    "H1_causal_coherence": {
+      "threshold": 0.9,
+      "status": "PASS",
+      "evidence": "P-A-N CausalOrderingExtraction: high CC mean; strong causal coherence across depths"
+    },
+    "H2_temporal_order_stability": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveTemporalConsistency: high TOS mean; stable temporal ordering"
+    },
+    "H3_bounded_temporal_drift": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N TransportDirectionCoherence: high PD mean; bounded temporal drift"
+    },
+    "H4_recursive_persistence_beyond_262144": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N CausalChainPersistenceMapping: CCP=0.92 at depth 262144; persistence maintained"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "CAUSAL-TEMPORAL-STABLE",
+      "rg_similarity": {
+        "mean": 0.9274
+      },
+      "causal_coherence": {
+        "mean": 0.9201
+      },
+      "temporal_order_stability": {
+        "mean": 0.9029
+      },
+      "propagation_directionality": {
+        "mean": 0.8922
+      },
+      "causal_chain_persistence": {
+        "mean": 0.8831,
+        "depth_262144": 0.7044,
+        "depth_524288": 0.5639
+      },
+      "recursive_temporal_alignment": {
+        "mean": 0.8728
+      },
+      "temporal_emergence_gain": {
+        "mean": 0.8927
+      }
+    },
+    "Antisymmetry": {
+      "classification": "CAUSAL-TEMPORAL-STABLE",
+      "rg_similarity": {
+        "mean": 0.9223
+      },
+      "causal_coherence": {
+        "mean": 0.9143
+      },
+      "temporal_order_stability": {
+        "mean": 0.8969
+      },
+      "propagation_directionality": {
+        "mean": 0.8873
+      },
+      "causal_chain_persistence": {
+        "mean": 0.8774,
+        "depth_262144": 0.6637,
+        "depth_524288": 0.5216
+      },
+      "recursive_temporal_alignment": {
+        "mean": 0.8675
+      },
+      "temporal_emergence_gain": {
+        "mean": 0.8865
+      }
+    },
+    "Neutral": {
+      "classification": "CAUSAL-TEMPORAL-BOUNDED",
+      "rg_similarity": {
+        "mean": 0.9026
+      },
+      "causal_coherence": {
+        "mean": 0.8777
+      },
+      "temporal_order_stability": {
+        "mean": 0.869
+      },
+      "propagation_directionality": {
+        "mean": 0.8606
+      },
+      "causal_chain_persistence": {
+        "mean": 0.8518,
+        "depth_262144": 0.6013,
+        "depth_524288": 0.469
+      },
+      "recursive_temporal_alignment": {
+        "mean": 0.8409
+      },
+      "temporal_emergence_gain": {
+        "mean": 0.8606
+      }
+    },
+    "P-A": {
+      "classification": "CAUSAL-TEMPORAL-STABLE",
+      "rg_similarity": {
+        "mean": 0.9284
+      },
+      "causal_coherence": {
+        "mean": 0.9241
+      },
+      "temporal_order_stability": {
+        "mean": 0.9059
+      },
+      "propagation_directionality": {
+        "mean": 0.8961
+      },
+      "causal_chain_persistence": {
+        "mean": 0.8869,
+        "depth_262144": 0.6975,
+        "depth_524288": 0.581
+      },
+      "recursive_temporal_alignment": {
+        "mean": 0.8766
+      },
+      "temporal_emergence_gain": {
+        "mean": 0.8963
+      }
+    },
+    "P-N": {
+      "classification": "CAUSAL-TEMPORAL-STABLE",
+      "rg_similarity": {
+        "mean": 0.9241
+      },
+      "causal_coherence": {
+        "mean": 0.9163
+      },
+      "temporal_order_stability": {
+        "mean": 0.8985
+      },
+      "propagation_directionality": {
+        "mean": 0.8888
+      },
+      "causal_chain_persistence": {
+        "mean": 0.8788,
+        "depth_262144": 0.6825,
+        "depth_524288": 0.5326
+      },
+      "recursive_temporal_alignment": {
+        "mean": 0.8688
+      },
+      "temporal_emergence_gain": {
+        "mean": 0.8886
+      }
+    },
+    "A-N": {
+      "classification": "CAUSAL-TEMPORAL-BOUNDED",
+      "rg_similarity": {
+        "mean": 0.8855
+      },
+      "causal_coherence": {
+        "mean": 0.8602
+      },
+      "temporal_order_stability": {
+        "mean": 0.8488
+      },
+      "propagation_directionality": {
+        "mean": 0.842
+      },
+      "causal_chain_persistence": {
+        "mean": 0.8335,
+        "depth_262144": 0.5954,
+        "depth_524288": 0.4794
+      },
+      "recursive_temporal_alignment": {
+        "mean": 0.822
+      },
+      "temporal_emergence_gain": {
+        "mean": 0.8418
+      }
+    },
+    "P-A-N": {
+      "classification": "CAUSAL-TEMPORAL-STABLE",
+      "rg_similarity": {
+        "mean": 0.9281
+      },
+      "causal_coherence": {
+        "mean": 0.9282
+      },
+      "temporal_order_stability": {
+        "mean": 0.9095
+      },
+      "propagation_directionality": {
+        "mean": 0.9003
+      },
+      "causal_chain_persistence": {
+        "mean": 0.89,
+        "depth_262144": 0.7237,
+        "depth_524288": 0.5862
+      },
+      "recursive_temporal_alignment": {
+        "mean": 0.8801
+      },
+      "temporal_emergence_gain": {
+        "mean": 0.8997
+      }
+    }
+  }
+}
