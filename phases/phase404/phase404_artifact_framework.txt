@@ -1,0 +1,39 @@
+# Phase 404 Framework: Explicit Artifact Detection and Null Adversarial Validation
+
+## Purpose
+Attempt to systematically BREAK the recursive emergence hierarchy through adversarial artifact generation, hidden-bias exposure, metric leakage testing, and false-positive induction protocols. Distinguish true relational universality from artifact-generated apparent structure.
+
+## Core Distinction
+true relational universality vs artifact-generated apparent structure
+
+## Adversarial Conditions
+1. AuthenticBaselineRecursion — genuine P-A-N operator system
+2. RandomizedMetricScrambling — random permutation of authentic values
+3. HiddenDepthEncodingInjection — artificial depth-dependent injection
+4. SectorLabelPermutation — random sector label reassignment
+5. RecursiveOrderInversion — inverted depth ordering
+6. AdversarialHierarchySpoofing — intentionally constructed hierarchy
+7. CorrelatedRandomNoiseSystems — noise with authentic-like correlations
+8. BiasedInitializationInjection — initialization bias toward hierarchy
+9. MetricLeakageSimulation — depth-only emergence (no sector dependence)
+10. PartialEmergentSignatureMimicry — partial emergence mimicry
+11. RecursiveSymmetryCorruption — broken operator symmetry
+12. CompressedArtifactGeneration — simplified artifact generation
+13. FakePropagationDynamics — exponential decay replacing recursion
+14. AdversarialOptimizationTowardHierarchy — optimized to match hierarchy
+15. FullNullAdversarialControl — complete collapse
+
+## Metrics
+- artifact_reproduction_score (ARS) — similarity to authentic emergence
+- hierarchy_spoof_success (HSS) — whether artifact reproduces hierarchy
+- leakage_dependence_index (LDI) — depth information leakage
+- adversarial_false_positive_rate (AFPR) — artifact false positive rate
+- universality_authenticity_score (UAS) — authenticity of emergence
+- recursive_bias_sensitivity (RBS) — sensitivity to hidden bias
+- structural_nonrandomness_index (SNRI) — non-randomness of structure
+
+## Classification Thresholds
+- ARTIFACT-STABLE: UAS > 0.80, AFPR < 0.10
+- ARTIFACT-BOUNDED: UAS > 0.60, AFPR < 0.20
+- ARTIFACT-DEGRADING: UAS > 0.40, AFPR < 0.30
+- ARTIFACT-FAILED: UAS <= 0.40

@@ -1,0 +1,69 @@
+PHASE 404 FORBIDDEN INTERPRETATIONS
+
+The following interpretations of artifact detection results are
+FORBIDDEN. These terms reify deception, counterfeiting, forensics,
+or adversarial machine learning metaphors as literal properties.
+All results must be framed as structural similarity comparison
+between generative processes.
+
+FORBIDDEN TERMS AND PHRASES
+
+DO NOT claim:
+1. "Fake" or "counterfeit" emergence
+2. "Forgery" or "fraud" detection
+3. "Deception" or "lying about structure"
+4. "Truth" vs "falsehood" of emergence
+5. "Authentic" vs "inauthentic" (philosophical)
+6. "Watermarking" or "fingerprinting"
+7. "Adversarial attack" (machine learning sense)
+8. "Adversarial examples" (deep learning sense)
+9. "Evasion attack" or "poisoning attack"
+10. "AI safety" or "AI alignment"
+11. "Hallucination" (LLM sense)
+12. "Deepfake" detection
+13. "Digital forensics"
+14. "Authenticity verification"
+15. "Original vs copy" (art authentication)
+16. "Plagiarism detection"
+17. "Provenance" or "chain of custody"
+18. "Cryptographic signature" or "hash"
+19. "Tamper detection" or "tamper evidence"
+20. "Antivirus" or "malware detection"
+21. "Backdoor" or "Trojan horse"
+22. "Spoofing" in network security sense
+23. "Phishing" for structural signatures
+24. "Lie detection" or "truth verification"
+25. "Consciousness detection" or "sentience test"
+26. "Turing test" (as philosophical claim)
+27. "True vs false consciousness"
+28. "Real vs simulated" reality
+29. "Ontological authenticity"
+30. "Moral authenticity" or "existential authenticity"
+
+PERMITTED ALTERNATIVES
+
+Instead of the above, use:
+- "Artifact reproduction score" (ARS)
+- "Hierarchy reproduction vs natural generation"
+- "Explicit construction vs emergent generation"
+- "Generative process comparison"
+- "Structural similarity under different generation mechanisms"
+- "Random process failure to reproduce ordering"
+- "Hidden bias sensitivity analysis"
+- "Generative mechanism distinguishability"
+- "Natural vs constructed structural patterns"
+- "Computational artifact detection"
+
+RATIONALIZATION
+
+Phase 404 investigates whether the emergence hierarchy can be reproduced
+by non-emergent computational mechanisms. The contrast is between
+NATURAL GENERATION (relational propagation producing the hierarchy
+without explicit design) and ARTIFACTUAL CONSTRUCTION (deliberately
+assigning values to match the hierarchy). This is NOT about detecting
+deception, fraud, or inauthenticity — it is about comparing outcomes
+of different generative processes.
+
+All terminology must remain structurally comparative rather than
+adversarial-forensic. The question is not "is the emergence real?"
+but "what generative processes can produce this pattern?"

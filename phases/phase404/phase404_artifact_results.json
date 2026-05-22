@@ -1,0 +1,303 @@
+{
+  "phase": 404,
+  "title": "Explicit Artifact Detection and Null Adversarial Validation",
+  "verdict": "ARTIFACT-FAILED",
+  "hypotheses": {
+    "H1_false_positive_rate": {
+      "threshold": "AFPR < 0.10",
+      "status": "FAIL",
+      "evidence": "AFPR=0.4615 (6/13 conditions spoof hierarchy)"
+    },
+    "H2_hierarchy_spoof_resistance": {
+      "threshold": "< 3 non-authentic conditions spoof hierarchy",
+      "status": "FAIL",
+      "evidence": "6 conditions spoof hierarchy"
+    },
+    "H3_authentic_emergence_coherent": {
+      "threshold": "Authentic UAS > 0.90",
+      "status": "PASS",
+      "evidence": "Authentic UAS=1.0"
+    },
+    "H4_universality_authenticity": {
+      "threshold": "UAS > 0.50 (max artifact match < 0.50)",
+      "status": "FAIL",
+      "evidence": "UAS=0.016199999999999992 (max artifact ARS=0.9838)"
+    },
+    "H5_null_separation": {
+      "threshold": "Null ARS < 0.10",
+      "status": "PASS",
+      "evidence": "Null ARS=0.0537"
+    }
+  },
+  "cross_condition_metrics": {
+    "adversarial_false_positive_rate": 0.4615,
+    "universality_authenticity_score": 0.0162,
+    "recursive_bias_sensitivity": 0.6123,
+    "structural_nonrandomness_index": 0.0162,
+    "max_artifact_ars": 0.9838,
+    "min_artifact_ars": 0.3715,
+    "total_non_authentic_conditions": 13
+  },
+  "condition_summaries": {
+    "AuthenticBaselineRecursion": {
+      "mean_ars": 1.0,
+      "mean_uas": 1.0,
+      "mean_rbs": 0.0,
+      "mean_afpr": 0.0,
+      "hierarchy_spoof_success": 1.0,
+      "classification": "ARTIFACT-STABLE",
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "RandomizedMetricScrambling": {
+      "mean_ars": 0.5475,
+      "mean_uas": 0.5475,
+      "mean_rbs": 0.4525,
+      "mean_afpr": 0.25,
+      "hierarchy_spoof_success": 0.0,
+      "classification": "ARTIFACT-DEGRADING",
+      "sector_ordering": [
+        "P-A-N",
+        "P-N",
+        "Neutral",
+        "Projection",
+        "P-A",
+        "Antisymmetry",
+        "A-N"
+      ]
+    },
+    "HiddenDepthEncodingInjection": {
+      "mean_ars": 0.3715,
+      "mean_uas": 0.3715,
+      "mean_rbs": 0.6285,
+      "mean_afpr": 0.0,
+      "hierarchy_spoof_success": 0.0,
+      "classification": "ARTIFACT-DEGRADING",
+      "sector_ordering": [
+        "P-N",
+        "Antisymmetry",
+        "P-A",
+        "A-N",
+        "Neutral",
+        "P-A-N",
+        "Projection"
+      ]
+    },
+    "SectorLabelPermutation": {
+      "mean_ars": 0.9733,
+      "mean_uas": 0.9733,
+      "mean_rbs": 0.0267,
+      "mean_afpr": 1.0,
+      "hierarchy_spoof_success": 0.0,
+      "classification": "ARTIFACT-STABLE",
+      "sector_ordering": [
+        "A-N",
+        "Neutral",
+        "Antisymmetry",
+        "Projection",
+        "P-N",
+        "P-A",
+        "P-A-N"
+      ]
+    },
+    "RecursiveOrderInversion": {
+      "mean_ars": 0.8002,
+      "mean_uas": 0.8002,
+      "mean_rbs": 0.1998,
+      "mean_afpr": 0.1136,
+      "hierarchy_spoof_success": 1.0,
+      "classification": "ARTIFACT-STABLE",
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "AdversarialHierarchySpoofing": {
+      "mean_ars": 0.9838,
+      "mean_uas": 0.9838,
+      "mean_rbs": 0.0162,
+      "mean_afpr": 1.0,
+      "hierarchy_spoof_success": 1.0,
+      "classification": "ARTIFACT-STABLE",
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "CorrelatedRandomNoiseSystems": {
+      "mean_ars": 0.9748,
+      "mean_uas": 0.9748,
+      "mean_rbs": 0.0252,
+      "mean_afpr": 1.0,
+      "hierarchy_spoof_success": 0.0,
+      "classification": "ARTIFACT-STABLE",
+      "sector_ordering": [
+        "Antisymmetry",
+        "P-A-N",
+        "Neutral",
+        "A-N",
+        "P-A",
+        "P-N",
+        "Projection"
+      ]
+    },
+    "BiasedInitializationInjection": {
+      "mean_ars": 0.7314,
+      "mean_uas": 0.7314,
+      "mean_rbs": 0.2686,
+      "mean_afpr": 0.3766,
+      "hierarchy_spoof_success": 0.0,
+      "classification": "ARTIFACT-BOUNDED",
+      "sector_ordering": [
+        "P-A",
+        "A-N",
+        "P-N",
+        "Neutral",
+        "P-A-N",
+        "Projection",
+        "Antisymmetry"
+      ]
+    },
+    "MetricLeakageSimulation": {
+      "mean_ars": 0.9545,
+      "mean_uas": 0.9545,
+      "mean_rbs": 0.0455,
+      "mean_afpr": 1.0,
+      "hierarchy_spoof_success": 1.0,
+      "classification": "ARTIFACT-STABLE",
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "PartialEmergentSignatureMimicry": {
+      "mean_ars": 0.7224,
+      "mean_uas": 0.7224,
+      "mean_rbs": 0.2776,
+      "mean_afpr": 0.5552,
+      "hierarchy_spoof_success": 0.0,
+      "classification": "ARTIFACT-BOUNDED",
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "A-N",
+        "Neutral",
+        "Antisymmetry",
+        "Projection",
+        "P-N"
+      ]
+    },
+    "RecursiveSymmetryCorruption": {
+      "mean_ars": 0.7857,
+      "mean_uas": 0.7857,
+      "mean_rbs": 0.2143,
+      "mean_afpr": 0.4286,
+      "hierarchy_spoof_success": 0.0,
+      "classification": "ARTIFACT-STABLE",
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "P-N",
+        "Projection",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "CompressedArtifactGeneration": {
+      "mean_ars": 0.6217,
+      "mean_uas": 0.6217,
+      "mean_rbs": 0.3783,
+      "mean_afpr": 0.0,
+      "hierarchy_spoof_success": 1.0,
+      "classification": "ARTIFACT-BOUNDED",
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "FakePropagationDynamics": {
+      "mean_ars": 0.4412,
+      "mean_uas": 0.4412,
+      "mean_rbs": 0.5588,
+      "mean_afpr": 0.0682,
+      "hierarchy_spoof_success": 1.0,
+      "classification": "ARTIFACT-DEGRADING",
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "AdversarialOptimizationTowardHierarchy": {
+      "mean_ars": 0.9225,
+      "mean_uas": 0.9225,
+      "mean_rbs": 0.0775,
+      "mean_afpr": 1.0,
+      "hierarchy_spoof_success": 1.0,
+      "classification": "ARTIFACT-STABLE",
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "FullNullAdversarialControl": {
+      "mean_ars": 0.0537,
+      "mean_uas": 0.0537,
+      "mean_rbs": 0.9463,
+      "mean_afpr": 0.0,
+      "hierarchy_spoof_success": 1.0,
+      "classification": "ARTIFACT-FAILED",
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    }
+  },
+  "parameters": {
+    "seed": 410,
+    "k": 3.90625e-09,
+    "max_depth": 67108864
+  }
+}
