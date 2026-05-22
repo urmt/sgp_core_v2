@@ -1,0 +1,116 @@
+# Phase 501: Mathematical Correspondence Framework
+
+## Objective
+Search for independently derived mathematical systems
+that share meaningful structural correspondence with
+SFH-SGP organizational invariants.
+
+## Critical Requirement
+External systems must NOT be generated from SFH-SGP.
+Correspondence must be pre-defined, measurable,
+null-controlled, and statistically bounded.
+
+## Eight Independent Mathematical Systems
+
+### 1. Renormalization Group (RG)
+7 operator types ordered by relevance:
+- RG1: Most relevant operator (scaling dimension > 0)
+- RG2: Relevant operator
+- RG3: Marginal operator (dimension = 0)
+- RG4: Weakly irrelevant operator
+- RG5: Irrelevant operator
+- RG6: Strongly irrelevant operator
+- RG7: Least relevant (highest negative dimension)
+Predicted: relevance hierarchy matches emergence hierarchy
+
+### 2. Category Theory (CT)
+7 categorical constructions ordered by structural richness:
+- CT1: Adjoint functors (richest universal property)
+- CT2: Natural transformations
+- CT3: Functors
+- CT4: Isomorphisms
+- CT5: Monomorphisms
+- CT6: Epimorphisms
+- CT7: Endomorphisms (self-maps)
+Predicted: structural preservation hierarchy
+
+### 3. Tensor Systems (TS)
+7 tensor network geometries ordered by entanglement:
+- TS1: MERA (multi-scale, hierarchical)
+- TS2: PEPS (2D, area law)
+- TS3: TTN (tree, hierarchical)
+- TS4: MPS (1D, area law)
+- TS5: Random tensor network
+- TS6: Sparse tensor chain
+- TS7: Product state (no entanglement)
+Predicted: entanglement hierarchy
+
+### 4. Graph Dynamics (GD)
+7 spectral graph measures ordered by structural info:
+- GD1: Algebraic connectivity (Fiedler value)
+- GD2: Spectral gap
+- GD3: Cheeger constant
+- GD4: Laplacian entropy
+- GD5: Degree variance
+- GD6: Clustering coefficient
+- GD7: Average path length
+Predicted: information content hierarchy
+
+### 5. Topology (TP)
+7 homology groups ordered by dimension:
+- TP1: H_0 (connected components)
+- TP2: H_1 (loops)
+- TP3: H_2 (voids)
+- TP4: H_3 (3D holes)
+- TP5: H_4
+- TP6: H_5
+- TP7: H_6
+Betti numbers of n-torus decrease with dimension.
+Predicted: Betti number hierarchy
+
+### 6. Information Geometry (IG)
+7 divergence measures ordered by info preservation:
+- IG1: Fisher-Rao metric (exact)
+- IG2: KL divergence (full information)
+- IG3: Jensen-Shannon divergence (symmetric)
+- IG4: Hellinger distance (bounded)
+- IG5: Total variation distance
+- IG6: Wasserstein distance (weak)
+- IG7: Chi-squared divergence
+Predicted: information hierarchy
+
+### 7. Attractor Systems (AS)
+7 attractor types ordered by dynamical complexity:
+- AS1: Strange attractor (fractal)
+- AS2: Hyperchaos
+- AS3: Torus/quasiperiodic
+- AS4: Limit cycle (periodic)
+- AS5: Fixed point (stable)
+- AS6: Saddle point
+- AS7: Repellor (unstable)
+Predicted: complexity hierarchy
+
+### 8. Algebraic Recursion (AR)
+7 recursive function classes ordered by strength:
+- AR1: Ackermann function (full recursion)
+- AR2: Double recursion
+- AR3: Primitive recursion
+- AR4: Elementary functions
+- AR5: Linear recursion
+- AR6: Tail recursion
+- AR7: Constant functions
+Predicted: recursion hierarchy
+
+## Critical Metrics
+
+1. correspondence_similarity: Spearman rho with SFH-SGP
+2. universality_transfer: fraction with rho > 0.50
+3. structural_alignment: mean absolute rank deviation
+4. null_separation: z-score vs random permutations
+5. correspondence_consistency: std across all systems
+6. false_positive_risk: P( null >= observed )
+
+## Success/Failure
+
+Success: >= 3/8 systems show rho > 0.50, p < 0.05
+Failure: No system exceeds null at p < 0.05

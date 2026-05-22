@@ -1,0 +1,9 @@
+system,spearman_rho,p_value,z_score,mean_rank_dev,null_percentile,significant
+RenormalizationGroup,1.0,0.0,2.45,0.0,0.0,YES
+CategoryTheory,1.0,0.0,2.44,0.0,0.0002,YES
+TensorSystems,1.0,0.0,2.45,0.0,0.0,YES
+GraphDynamics,0.2857,0.53451,0.69,2.2857,0.2845,no
+Topology,0.2143,0.64451,0.18,2.0,0.4697,no
+InformationGeometry,0.0714,0.87905,0.17,2.0,0.4573,no
+AttractorSystems,0.9643,0.00045415,2.37,0.2857,0.0008,YES
+AlgebraicRecursion,1.0,0.0,2.35,0.0,0.0001,YES
