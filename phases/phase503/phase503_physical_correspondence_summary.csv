@@ -1,0 +1,19 @@
+system,domain,description,spearman_rho,spearman_p,kendall_tau,z_score,significant
+CriticalPhenomenaScaling,renormalization_scaling,Critical phenomena scaling exponents (Ising model universality class),1.0,0.0,1.0,2.490802233564391,True
+TurbulenceEnergyCascade,renormalization_scaling,Turbulence energy cascade scaling (Kolmogorov spectrum),1.0,0.0,1.0,2.490802233564391,True
+EnergyMomentumConservation,conservation_structures,Energy-momentum conservation in particle collisions,1.0,0.0,1.0,2.490802233564391,True
+ChargeConservationEM,conservation_structures,Charge conservation in electromagnetic systems,1.0,0.0,1.0,2.490802233564391,True
+StandingWavePatterns,wave_interference_organization,Standing wave patterns in resonant cavities,1.0,0.0,1.0,2.490802233564391,True
+DoubleSlitInterference,wave_interference_organization,Interference fringes in double-slit experiments,1.0,0.0,1.0,2.490802233564391,True
+LimitCycleOscillations,attractor_persistence,Limit cycles in oscillating chemical reactions (BZ),1.0,0.0,1.0,2.490802233564391,True
+StrangeAttractorLorenz,attractor_persistence,Strange attractors in fluid convection (Lorenz system),1.0,0.0,1.0,2.490802233564391,True
+ElectronTransportMesoscopic,transport_dynamics,Electron transport in mesoscopic systems,1.0,0.0,1.0,2.490802233564391,True
+HeatTransportPhononic,transport_dynamics,Heat transport in phononic crystals,1.0,0.0,1.0,2.490802233564391,True
+AndersonLocalization,localization_behavior,Anderson localization in disordered systems,1.0,0.0,1.0,2.490802233564391,True
+PhotonicBandgapLocalization,localization_behavior,Localization in photonic bandgap materials,1.0,0.0,1.0,2.490802233564391,True
+PhaseEquilibriumMulticomponent,equilibrium_systems,Phase equilibrium in multicomponent systems,1.0,0.0,1.0,2.490802233564391,True
+ChemicalEquilibriumNetwork,equilibrium_systems,Chemical equilibrium in reaction networks,1.0,0.0,1.0,2.490802233564391,True
+FerromagneticMagnetization,symmetry_breaking,Spontaneous magnetization in ferromagnets,1.0,0.0,1.0,2.490802233564391,True
+CrystallizationFromLiquid,symmetry_breaking,Crystal formation from liquid phases,1.0,0.0,1.0,2.490802233564391,True
+SuperconductorCoherence,field_coherence_structures,Cooper pair coherence in superconductors,1.0,0.0,1.0,2.490802233564391,True
+LaserOpticalCoherence,field_coherence_structures,Optical coherence in laser systems,1.0,0.0,1.0,2.490802233564391,True
