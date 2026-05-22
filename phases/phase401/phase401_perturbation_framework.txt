@@ -1,0 +1,39 @@
+# Phase 401 Framework: Perturbation Robustness Validation
+
+## Purpose
+Determine whether the ordered emergence hierarchy remains stable under broad perturbation, noise, operator distortion, and recursive instability injection. Distinguish artifact-sensitive emergence from structurally robust emergence.
+
+## Core Distinction
+artifact-sensitive emergence vs structurally robust emergence
+
+## Perturbation Conditions
+1. BaselineCleanRecursion — no perturbation
+2. LowGaussianNoise — additive noise at 5% strength
+3. ModerateGaussianNoise — additive noise at 15% strength
+4. HighGaussianNoise — additive noise at 35% strength
+5. AdversarialRecursivePerturbation — depth-amplified noise
+6. OperatorPhaseJitter — small random operator weight variations
+7. TransportDisruption — depth-dependent transport degradation
+8. RecursiveTimingDistortion — oscillatory depth distortion
+9. BoundedStochasticCorruption — bounded random corruption per depth
+10. LocalizedPerturbationInjection — perturbation at specific depth ranges
+11. DistributedPerturbationInjection — uniform across all depths
+12. CoherenceScrambling — randomized phase relationships
+13. PartialRecursiveMemoryLoss — exponential recursive decay
+14. PerturbationRecoveryRegime — noise followed by recovery
+15. NullRandomRecursionControl — complete randomization
+
+## Metrics
+- robustness_survival_fraction (RSF) — emergence surviving perturbation
+- perturbation_resilience_index (PRI) — 1 minus normalized degradation
+- collapse_threshold_depth (CTD) — depth where RSF falls below 0.5
+- hierarchy_resilience_rate (HRR) — sector ordering preservation
+- recursive_recovery_strength (RRS) — recovery under bounded corruption
+- coherence_retention (CR) — fraction of coherence retained
+- perturbation_drift_bound (PDB) — maximum drift under perturbation
+
+## Classification Thresholds
+- PERTURBATION-STABLE: RSF > 0.80, CR > 0.80
+- PERTURBATION-BOUNDED: RSF > 0.60, CR > 0.60
+- PERTURBATION-DEGRADING: RSF > 0.40, CR > 0.40
+- PERTURBATION-FAILED: RSF <= 0.40

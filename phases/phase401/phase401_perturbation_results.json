@@ -1,0 +1,768 @@
+{
+  "phase": 401,
+  "title": "Perturbation Robustness Validation",
+  "verdict": "PERTURBATION-STABLE",
+  "hypotheses": {
+    "H1_bounded_degradation": {
+      "threshold": "Worst signal RSF > 0.40",
+      "status": "PASS",
+      "evidence": "Worst signal RSF=0.8339 (condition: PerturbationRecoveryRegime)"
+    },
+    "H2_hierarchy_preserved": {
+      "threshold": "HRR = 1.0 for baseline",
+      "status": "PASS",
+      "evidence": "Baseline HRR=1.0"
+    },
+    "H3_baseline_coherent": {
+      "threshold": "Baseline RSF > 0.95",
+      "status": "PASS",
+      "evidence": "Baseline RSF=1.0"
+    },
+    "H4_minimal_coherence_retained": {
+      "threshold": "Worst signal CR > 0.30",
+      "status": "PASS",
+      "evidence": "Worst signal CR=0.8246"
+    },
+    "H5_low_perturbation_survivable": {
+      "threshold": "At least one low-perturbation condition RSF > 0.80",
+      "status": "PASS",
+      "evidence": "LowGaussianNoise RSF=0.9822"
+    }
+  },
+  "condition_summaries": {
+    "BaselineCleanRecursion": {
+      "mean_rsf": 1.0,
+      "mean_cr": 1.0,
+      "mean_pdb": 0.0,
+      "mean_rrs": 1.0,
+      "hrr": 1.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 1.0,
+          "mean_perturbed": 0.9469
+        },
+        "P-A": {
+          "mean_rsf": 1.0,
+          "mean_perturbed": 0.9464
+        },
+        "Projection": {
+          "mean_rsf": 1.0,
+          "mean_perturbed": 0.9454
+        },
+        "P-N": {
+          "mean_rsf": 1.0,
+          "mean_perturbed": 0.9444
+        },
+        "Antisymmetry": {
+          "mean_rsf": 1.0,
+          "mean_perturbed": 0.9438
+        },
+        "Neutral": {
+          "mean_rsf": 1.0,
+          "mean_perturbed": 0.9139
+        },
+        "A-N": {
+          "mean_rsf": 1.0,
+          "mean_perturbed": 0.8948
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "LowGaussianNoise": {
+      "mean_rsf": 0.9822,
+      "mean_cr": 0.9812,
+      "mean_pdb": 0.0178,
+      "mean_rrs": 0.9822,
+      "hrr": 0.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.9799,
+          "mean_perturbed": 0.9363
+        },
+        "P-A": {
+          "mean_rsf": 0.9822,
+          "mean_perturbed": 0.9375
+        },
+        "Projection": {
+          "mean_rsf": 0.9827,
+          "mean_perturbed": 0.9358
+        },
+        "P-N": {
+          "mean_rsf": 0.9838,
+          "mean_perturbed": 0.9374
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.9782,
+          "mean_perturbed": 0.9272
+        },
+        "Neutral": {
+          "mean_rsf": 0.9898,
+          "mean_perturbed": 0.9233
+        },
+        "A-N": {
+          "mean_rsf": 0.9788,
+          "mean_perturbed": 0.8912
+        }
+      },
+      "sector_ordering": [
+        "P-A",
+        "P-N",
+        "P-A-N",
+        "Projection",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "ModerateGaussianNoise": {
+      "mean_rsf": 0.934,
+      "mean_cr": 0.9303,
+      "mean_pdb": 0.066,
+      "mean_rrs": 0.934,
+      "hrr": 0.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.9412,
+          "mean_perturbed": 0.9014
+        },
+        "P-A": {
+          "mean_rsf": 0.9135,
+          "mean_perturbed": 0.8742
+        },
+        "Projection": {
+          "mean_rsf": 0.9131,
+          "mean_perturbed": 0.8677
+        },
+        "P-N": {
+          "mean_rsf": 0.9122,
+          "mean_perturbed": 0.8692
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.9589,
+          "mean_perturbed": 0.9161
+        },
+        "Neutral": {
+          "mean_rsf": 0.9586,
+          "mean_perturbed": 0.9074
+        },
+        "A-N": {
+          "mean_rsf": 0.9405,
+          "mean_perturbed": 0.8696
+        }
+      },
+      "sector_ordering": [
+        "Antisymmetry",
+        "Neutral",
+        "P-A-N",
+        "P-A",
+        "A-N",
+        "P-N",
+        "Projection"
+      ]
+    },
+    "HighGaussianNoise": {
+      "mean_rsf": 0.8708,
+      "mean_cr": 0.8635,
+      "mean_pdb": 0.1292,
+      "mean_rrs": 0.8708,
+      "hrr": 0.0,
+      "first_collapse_depth": 20.0,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.8719,
+          "mean_perturbed": 0.8375
+        },
+        "P-A": {
+          "mean_rsf": 0.8658,
+          "mean_perturbed": 0.8308
+        },
+        "Projection": {
+          "mean_rsf": 0.889,
+          "mean_perturbed": 0.8533
+        },
+        "P-N": {
+          "mean_rsf": 0.8926,
+          "mean_perturbed": 0.8541
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.8508,
+          "mean_perturbed": 0.8145
+        },
+        "Neutral": {
+          "mean_rsf": 0.888,
+          "mean_perturbed": 0.8408
+        },
+        "A-N": {
+          "mean_rsf": 0.8377,
+          "mean_perturbed": 0.7741
+        }
+      },
+      "sector_ordering": [
+        "P-N",
+        "Projection",
+        "Neutral",
+        "P-A-N",
+        "P-A",
+        "Antisymmetry",
+        "A-N"
+      ]
+    },
+    "AdversarialRecursivePerturbation": {
+      "mean_rsf": 0.9363,
+      "mean_cr": 0.9327,
+      "mean_pdb": 0.0637,
+      "mean_rrs": 0.9363,
+      "hrr": 1.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.9363,
+          "mean_perturbed": 0.8874
+        },
+        "P-A": {
+          "mean_rsf": 0.9363,
+          "mean_perturbed": 0.8869
+        },
+        "Projection": {
+          "mean_rsf": 0.9363,
+          "mean_perturbed": 0.886
+        },
+        "P-N": {
+          "mean_rsf": 0.9363,
+          "mean_perturbed": 0.885
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.9363,
+          "mean_perturbed": 0.8844
+        },
+        "Neutral": {
+          "mean_rsf": 0.9363,
+          "mean_perturbed": 0.8564
+        },
+        "A-N": {
+          "mean_rsf": 0.9363,
+          "mean_perturbed": 0.8385
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "OperatorPhaseJitter": {
+      "mean_rsf": 0.9152,
+      "mean_cr": 0.9104,
+      "mean_pdb": 0.0848,
+      "mean_rrs": 0.9152,
+      "hrr": 0.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.9058,
+          "mean_perturbed": 0.8579
+        },
+        "P-A": {
+          "mean_rsf": 0.9253,
+          "mean_perturbed": 0.8754
+        },
+        "Projection": {
+          "mean_rsf": 0.9144,
+          "mean_perturbed": 0.865
+        },
+        "P-N": {
+          "mean_rsf": 0.9173,
+          "mean_perturbed": 0.866
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.9269,
+          "mean_perturbed": 0.8746
+        },
+        "Neutral": {
+          "mean_rsf": 0.9072,
+          "mean_perturbed": 0.8286
+        },
+        "A-N": {
+          "mean_rsf": 0.9094,
+          "mean_perturbed": 0.8138
+        }
+      },
+      "sector_ordering": [
+        "P-A",
+        "Antisymmetry",
+        "P-N",
+        "Projection",
+        "P-A-N",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "TransportDisruption": {
+      "mean_rsf": 0.9253,
+      "mean_cr": 0.9211,
+      "mean_pdb": 0.0747,
+      "mean_rrs": 0.9253,
+      "hrr": 1.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.9253,
+          "mean_perturbed": 0.8764
+        },
+        "P-A": {
+          "mean_rsf": 0.9253,
+          "mean_perturbed": 0.8759
+        },
+        "Projection": {
+          "mean_rsf": 0.9253,
+          "mean_perturbed": 0.875
+        },
+        "P-N": {
+          "mean_rsf": 0.9253,
+          "mean_perturbed": 0.874
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.9253,
+          "mean_perturbed": 0.8734
+        },
+        "Neutral": {
+          "mean_rsf": 0.9253,
+          "mean_perturbed": 0.8458
+        },
+        "A-N": {
+          "mean_rsf": 0.9253,
+          "mean_perturbed": 0.8281
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "RecursiveTimingDistortion": {
+      "mean_rsf": 0.9509,
+      "mean_cr": 0.9481,
+      "mean_pdb": 0.0491,
+      "mean_rrs": 0.9509,
+      "hrr": 1.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.9509,
+          "mean_perturbed": 0.9003
+        },
+        "P-A": {
+          "mean_rsf": 0.9509,
+          "mean_perturbed": 0.8998
+        },
+        "Projection": {
+          "mean_rsf": 0.9509,
+          "mean_perturbed": 0.8989
+        },
+        "P-N": {
+          "mean_rsf": 0.9509,
+          "mean_perturbed": 0.8978
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.9509,
+          "mean_perturbed": 0.8973
+        },
+        "Neutral": {
+          "mean_rsf": 0.9509,
+          "mean_perturbed": 0.8689
+        },
+        "A-N": {
+          "mean_rsf": 0.9509,
+          "mean_perturbed": 0.8507
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "BoundedStochasticCorruption": {
+      "mean_rsf": 0.9236,
+      "mean_cr": 0.9193,
+      "mean_pdb": 0.0764,
+      "mean_rrs": 0.9236,
+      "hrr": 0.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.9237,
+          "mean_perturbed": 0.875
+        },
+        "P-A": {
+          "mean_rsf": 0.9203,
+          "mean_perturbed": 0.8714
+        },
+        "Projection": {
+          "mean_rsf": 0.9263,
+          "mean_perturbed": 0.876
+        },
+        "P-N": {
+          "mean_rsf": 0.9276,
+          "mean_perturbed": 0.8757
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.9221,
+          "mean_perturbed": 0.8702
+        },
+        "Neutral": {
+          "mean_rsf": 0.9225,
+          "mean_perturbed": 0.843
+        },
+        "A-N": {
+          "mean_rsf": 0.9229,
+          "mean_perturbed": 0.8258
+        }
+      },
+      "sector_ordering": [
+        "Projection",
+        "P-N",
+        "P-A-N",
+        "P-A",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "LocalizedPerturbationInjection": {
+      "mean_rsf": 0.8948,
+      "mean_cr": 0.8887,
+      "mean_pdb": 0.1052,
+      "mean_rrs": 0.8948,
+      "hrr": 0.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.8984,
+          "mean_perturbed": 0.8512
+        },
+        "P-A": {
+          "mean_rsf": 0.8992,
+          "mean_perturbed": 0.8518
+        },
+        "Projection": {
+          "mean_rsf": 0.9022,
+          "mean_perturbed": 0.8537
+        },
+        "P-N": {
+          "mean_rsf": 0.8905,
+          "mean_perturbed": 0.842
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.8945,
+          "mean_perturbed": 0.8449
+        },
+        "Neutral": {
+          "mean_rsf": 0.8939,
+          "mean_perturbed": 0.8177
+        },
+        "A-N": {
+          "mean_rsf": 0.8847,
+          "mean_perturbed": 0.7924
+        }
+      },
+      "sector_ordering": [
+        "Projection",
+        "P-A",
+        "P-A-N",
+        "Antisymmetry",
+        "P-N",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "DistributedPerturbationInjection": {
+      "mean_rsf": 0.8879,
+      "mean_cr": 0.8816,
+      "mean_pdb": 0.1121,
+      "mean_rrs": 0.8879,
+      "hrr": 0.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.8895,
+          "mean_perturbed": 0.8423
+        },
+        "P-A": {
+          "mean_rsf": 0.8892,
+          "mean_perturbed": 0.8416
+        },
+        "Projection": {
+          "mean_rsf": 0.8863,
+          "mean_perturbed": 0.838
+        },
+        "P-N": {
+          "mean_rsf": 0.8903,
+          "mean_perturbed": 0.8406
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.8893,
+          "mean_perturbed": 0.8394
+        },
+        "Neutral": {
+          "mean_rsf": 0.8863,
+          "mean_perturbed": 0.8102
+        },
+        "A-N": {
+          "mean_rsf": 0.8845,
+          "mean_perturbed": 0.7913
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "P-N",
+        "Antisymmetry",
+        "Projection",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "CoherenceScrambling": {
+      "mean_rsf": 0.8504,
+      "mean_cr": 0.8419,
+      "mean_pdb": 0.1496,
+      "mean_rrs": 0.8504,
+      "hrr": 0.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.8503,
+          "mean_perturbed": 0.8051
+        },
+        "P-A": {
+          "mean_rsf": 0.853,
+          "mean_perturbed": 0.8072
+        },
+        "Projection": {
+          "mean_rsf": 0.8477,
+          "mean_perturbed": 0.8013
+        },
+        "P-N": {
+          "mean_rsf": 0.8505,
+          "mean_perturbed": 0.8033
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.8555,
+          "mean_perturbed": 0.8072
+        },
+        "Neutral": {
+          "mean_rsf": 0.8488,
+          "mean_perturbed": 0.7755
+        },
+        "A-N": {
+          "mean_rsf": 0.8469,
+          "mean_perturbed": 0.7576
+        }
+      },
+      "sector_ordering": [
+        "P-A",
+        "Antisymmetry",
+        "P-A-N",
+        "P-N",
+        "Projection",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "PartialRecursiveMemoryLoss": {
+      "mean_rsf": 0.9391,
+      "mean_cr": 0.9355,
+      "mean_pdb": 0.0609,
+      "mean_rrs": 0.9391,
+      "hrr": 1.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.9391,
+          "mean_perturbed": 0.8899
+        },
+        "P-A": {
+          "mean_rsf": 0.9391,
+          "mean_perturbed": 0.8895
+        },
+        "Projection": {
+          "mean_rsf": 0.9391,
+          "mean_perturbed": 0.8885
+        },
+        "P-N": {
+          "mean_rsf": 0.9391,
+          "mean_perturbed": 0.8875
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.9391,
+          "mean_perturbed": 0.887
+        },
+        "Neutral": {
+          "mean_rsf": 0.9391,
+          "mean_perturbed": 0.8589
+        },
+        "A-N": {
+          "mean_rsf": 0.9391,
+          "mean_perturbed": 0.8409
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "PerturbationRecoveryRegime": {
+      "mean_rsf": 0.8339,
+      "mean_cr": 0.8246,
+      "mean_pdb": 0.1661,
+      "mean_rrs": 0.8339,
+      "hrr": 1.0,
+      "first_collapse_depth": Infinity,
+      "classification": "PERTURBATION-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.8339,
+          "mean_perturbed": 0.788
+        },
+        "P-A": {
+          "mean_rsf": 0.8339,
+          "mean_perturbed": 0.7876
+        },
+        "Projection": {
+          "mean_rsf": 0.8339,
+          "mean_perturbed": 0.7868
+        },
+        "P-N": {
+          "mean_rsf": 0.8339,
+          "mean_perturbed": 0.7859
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.8339,
+          "mean_perturbed": 0.7854
+        },
+        "Neutral": {
+          "mean_rsf": 0.8339,
+          "mean_perturbed": 0.7605
+        },
+        "A-N": {
+          "mean_rsf": 0.8339,
+          "mean_perturbed": 0.7446
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "NullRandomRecursionControl": {
+      "mean_rsf": 0.0537,
+      "mean_cr": 0.0,
+      "mean_pdb": 0.9463,
+      "mean_rrs": 0.0537,
+      "hrr": 1.0,
+      "first_collapse_depth": 1.0,
+      "classification": "PERTURBATION-FAILED",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_rsf": 0.0529,
+          "mean_perturbed": 0.05
+        },
+        "P-A": {
+          "mean_rsf": 0.0529,
+          "mean_perturbed": 0.05
+        },
+        "Projection": {
+          "mean_rsf": 0.0529,
+          "mean_perturbed": 0.05
+        },
+        "P-N": {
+          "mean_rsf": 0.053,
+          "mean_perturbed": 0.05
+        },
+        "Antisymmetry": {
+          "mean_rsf": 0.053,
+          "mean_perturbed": 0.05
+        },
+        "Neutral": {
+          "mean_rsf": 0.0548,
+          "mean_perturbed": 0.05
+        },
+        "A-N": {
+          "mean_rsf": 0.056,
+          "mean_perturbed": 0.05
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    }
+  },
+  "sector_base_values": {
+    "P-A-N": 0.9567,
+    "P-A": 0.9562,
+    "Projection": 0.9552,
+    "P-N": 0.9541,
+    "Antisymmetry": 0.9535,
+    "Neutral": 0.9233,
+    "A-N": 0.904
+  },
+  "depth_params": {
+    "k": 3.90625e-09,
+    "min_emergence": 0.05,
+    "max_depth": 67108864
+  }
+}

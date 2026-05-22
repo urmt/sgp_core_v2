@@ -1,0 +1,67 @@
+PHASE 401 FORBIDDEN INTERPRETATIONS
+
+The following interpretations of perturbation robustness results are
+FORBIDDEN. These terms reify engineering stability, immune system,
+or cognitive resilience metaphors as literal properties. All results
+must be framed as relational propagation metrics under distortion.
+
+FORBIDDEN TERMS AND PHRASES
+
+DO NOT claim:
+1. "Immune system" or "immune response"
+2. "Homeostasis" or "homeostatic regulation"
+3. "Error correction" or "error-correcting codes"
+4. "Fault tolerance" in engineering sense
+5. "Graceful degradation" in computing sense
+6. "Signal processing noise reduction"
+7. "Kalman filter" or "state estimation"
+8. "Negative feedback" or "feedback control"
+9. "Robust control theory"
+10. "Adaptive control" or "adaptive systems"
+11. "Neural noise" or "synaptic noise"
+12. "Sensory noise" or "perceptual noise"
+13. "Cognitive resilience" or "mental robustness"
+14. "Psychological resilience"
+15. "Biological robustness" or "genetic robustness"
+16. "Developmental stability" or "canalization"
+17. "Redundancy" in engineering sense
+18. "Degeneracy" in neural sense
+19. "Stress response" or "stress tolerance"
+20. "Damage repair" or "tissue repair"
+21. "Inflammation response"
+22. "Wound healing"
+23. "Ecological resilience" or "ecosystem stability"
+24. "Antifragility" or "Taleb antifragility"
+25. "Black swan resistance"
+26. "Cyber security" or "cyber resilience"
+27. "Quantum error correction"
+28. "Entanglement robustness"
+29. "Decoherence resistance"
+30. "Noise immunity" in electronic sense
+
+PERMITTED ALTERNATIVES
+
+Instead of the above, use:
+- "Perturbation survival fraction" (RSF)
+- "Emergence retention under noise"
+- "Relational coherence retention"
+- "Recursive propagation stability"
+- "Deterministic vs stochastic perturbation response"
+- "Depth-invariant perturbation effects"
+- "Self-recovery of relational propagation"
+- "Sector ordering sensitivity to additive noise"
+- "Perturbation type and emergence survival"
+- "Robustness vs fragility mapping"
+
+RATIONALIZATION
+
+Phase 401 investigates whether emergent relational organization survives
+perturbation. The perturbations examined (additive noise, jitter,
+disruption, corruption, scrambling, memory loss) are mathematical
+distortions of recursive constraint propagation — not biological
+stress responses, engineering fault tolerance, or quantum decoherence.
+All terminology must remain strictly relational and mathematical.
+
+Enforcement: Any use of forbidden terms in phase documentation or
+derived publications requires reframing. Repeat violations may
+require governance review.

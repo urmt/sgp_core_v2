@@ -1,0 +1,31 @@
+PHASE 401 SUMMARY: PERTURBATION ROBUSTNESS VALIDATION
+
+VERDICT: PERTURBATION-STABLE (5/5 hypotheses PASS)
+
+CORE QUESTION:
+Is the recursive emergence hierarchy structurally robust to perturbation,
+or does it depend on fragile fine-tuned recursion?
+ANSWER: Structurally robust at emergence level. All 14 signal conditions
+PERTURBATION-STABLE. Fine ordering scrambled by additive randomness.
+
+ROBUSTNESS SURVIVAL (all 14 signal conditions > 0.80):
+  Best:   BaselineCleanRecursion        RSF=1.000
+  Worst:  PerturbationRecoveryRegime    RSF=0.834
+  Median: TransportDisruption           RSF=0.925
+  Range:  0.834 - 1.000
+
+HIERARCHY PRESERVATION:
+  Preserved (HRR=1.0) under deterministic perturbations:
+    adversarial, transport, timing, memory loss, recovery regime
+  Scrambled (HRR=0.0) under additive randomness:
+    gaussian noise, jitter, corruption, injection, scrambling
+  Cause: base sector differences (~0.001) << noise floor (~0.05)
+
+RECOVERY: Full recovery (RSF=1.0) at depth when shallow noise decays.
+  Emergence has intrinsic self-repair capacity.
+
+COLLAPSE: Zero collapses in any signal condition beyond depth 8.
+  Null control RSF=0.054 (16-19x below signal floor).
+
+CLASSIFICATION: 14/15 conditions PERTURBATION-STABLE (all signal).
+  1/15 PERTURBATION-FAILED (null control only).

@@ -1,0 +1,39 @@
+PHASE 401 UPDATE SUMMARY: PERTURBATION ROBUSTNESS VALIDATION
+
+WHAT CHANGED:
+- New phase: Phase 401 — perturbation robustness validation.
+- 14 distinct perturbation types tested (additive noise, adversarial,
+  jitter, disruption, corruption, scrambling, memory loss, recovery).
+- New metrics: robustness_survival_fraction, perturbation_resilience_index,
+  collapse_threshold_depth, hierarchy_resilience_rate,
+  recursive_recovery_strength, coherence_retention, perturbation_drift_bound.
+- New classification: PERTURBATION-STABLE / BOUNDED / DEGRADING / FAILED.
+- Depth extended to 67108864 (2^26, +100%).
+- k halved to 0.00000000390625 to compensate.
+- 46 depths, 4620 measurement points.
+
+WHAT WAS PRESERVED:
+- 7 canonical sectors.
+- 15 conditions (14 signal + 1 null).
+- 5-hypothesis verification framework.
+- 9-file output structure.
+- Deterministic computation via SEED=380.
+- Null control for artifact detection.
+
+RESULT:
+PERTURBATION-STABLE verdict (5/5 hypotheses PASS).
+
+Core finding: ALL 14 signal conditions are PERTURBATION-STABLE
+(RSF > 0.80, CR > 0.80). Worst-case emergence survival = 0.834
+(RecoveryRegime), best = 1.000 (Baseline). No signal condition
+collapses at mid-to-deep depths. Emergence has intrinsic self-repair
+capacity. The emergence architecture is structurally robust — NOT
+dependent on fragile fine-tuned recursion.
+
+Secondary finding: Fine-grained sector ordering (HRR) is fragile
+under additive randomness because base sector differences (~0.001)
+are smaller than noise floors (~0.05). Emergence survives; fine
+ranking scrambles.
+
+Publication prerequisites addressed: #3 (Perturbation Robustness),
+#4 (Anti-overfitting evidence).
