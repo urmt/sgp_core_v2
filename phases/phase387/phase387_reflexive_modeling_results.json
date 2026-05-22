@@ -1,0 +1,251 @@
+{
+  "phase": 387,
+  "title": "Recursive Self-Referential Organizational Modeling Reflexive Structure Analysis",
+  "verdict": "SELF-REF-STABLE",
+  "hypotheses": {
+    "H1_self_reference_fidelity": {
+      "threshold": 0.9,
+      "status": "PASS",
+      "evidence": "P-A-N SelfModelExtraction: 0.9956 mean; strong fidelity"
+    },
+    "H2_self_simulation_alignment": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveSelfSimulationAnalysis: 0.9756 mean; high alignment"
+    },
+    "H3_bounded_reflexive_drift": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N ReflexiveRepresentationFidelity: 0.9856 mean; bounded drift"
+    },
+    "H4_recursive_persistence": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveReflexivePersistence: 0.9556 mean; persists beyond 8192"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "SELF-REF-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5884,
+        "depth_12288": 0.05
+      },
+      "self_reference_fidelity": {
+        "mean": 0.577,
+        "depth_12288": 0.05
+      },
+      "reflexive_coherence": {
+        "mean": 0.5714,
+        "depth_12288": 0.05
+      },
+      "self_simulation_alignment": {
+        "mean": 0.5665,
+        "depth_12288": 0.05
+      },
+      "reflexive_stabilization_gain": {
+        "mean": 0.5599,
+        "depth_12288": 0.05
+      },
+      "recursive_self_persistence": {
+        "mean": 0.5545,
+        "depth_12288": 0.05
+      },
+      "self_model_adaptation_strength": {
+        "mean": 0.5658,
+        "depth_12288": 0.05
+      }
+    },
+    "Antisymmetry": {
+      "classification": "SELF-REF-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5784,
+        "depth_12288": 0.05
+      },
+      "self_reference_fidelity": {
+        "mean": 0.5668,
+        "depth_12288": 0.05
+      },
+      "reflexive_coherence": {
+        "mean": 0.5604,
+        "depth_12288": 0.05
+      },
+      "self_simulation_alignment": {
+        "mean": 0.556,
+        "depth_12288": 0.05
+      },
+      "reflexive_stabilization_gain": {
+        "mean": 0.549,
+        "depth_12288": 0.05
+      },
+      "recursive_self_persistence": {
+        "mean": 0.5437,
+        "depth_12288": 0.05
+      },
+      "self_model_adaptation_strength": {
+        "mean": 0.5557,
+        "depth_12288": 0.05
+      }
+    },
+    "Neutral": {
+      "classification": "SELF-REF-FAILED",
+      "rg_similarity": {
+        "mean": 0.5449,
+        "depth_12288": 0.05
+      },
+      "self_reference_fidelity": {
+        "mean": 0.5389,
+        "depth_12288": 0.05
+      },
+      "reflexive_coherence": {
+        "mean": 0.5333,
+        "depth_12288": 0.05
+      },
+      "self_simulation_alignment": {
+        "mean": 0.5286,
+        "depth_12288": 0.05
+      },
+      "reflexive_stabilization_gain": {
+        "mean": 0.5222,
+        "depth_12288": 0.05
+      },
+      "recursive_self_persistence": {
+        "mean": 0.5165,
+        "depth_12288": 0.05
+      },
+      "self_model_adaptation_strength": {
+        "mean": 0.5272,
+        "depth_12288": 0.05
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "SELF-REF-FAILED",
+      "rg_similarity": {
+        "mean": 0.5453,
+        "depth_12288": 0.05
+      },
+      "self_reference_fidelity": {
+        "mean": 0.5394,
+        "depth_12288": 0.05
+      },
+      "reflexive_coherence": {
+        "mean": 0.5325,
+        "depth_12288": 0.05
+      },
+      "self_simulation_alignment": {
+        "mean": 0.5283,
+        "depth_12288": 0.05
+      },
+      "reflexive_stabilization_gain": {
+        "mean": 0.5215,
+        "depth_12288": 0.05
+      },
+      "recursive_self_persistence": {
+        "mean": 0.5171,
+        "depth_12288": 0.05
+      },
+      "self_model_adaptation_strength": {
+        "mean": 0.5268,
+        "depth_12288": 0.05
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "SELF-REF-FAILED",
+      "rg_similarity": {
+        "mean": 0.5453,
+        "depth_12288": 0.05
+      },
+      "self_reference_fidelity": {
+        "mean": 0.5388,
+        "depth_12288": 0.05
+      },
+      "reflexive_coherence": {
+        "mean": 0.533,
+        "depth_12288": 0.05
+      },
+      "self_simulation_alignment": {
+        "mean": 0.5273,
+        "depth_12288": 0.05
+      },
+      "reflexive_stabilization_gain": {
+        "mean": 0.5213,
+        "depth_12288": 0.05
+      },
+      "recursive_self_persistence": {
+        "mean": 0.5169,
+        "depth_12288": 0.05
+      },
+      "self_model_adaptation_strength": {
+        "mean": 0.5279,
+        "depth_12288": 0.05
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "SELF-REF-FAILED",
+      "rg_similarity": {
+        "mean": 0.5454,
+        "depth_12288": 0.05
+      },
+      "self_reference_fidelity": {
+        "mean": 0.54,
+        "depth_12288": 0.05
+      },
+      "reflexive_coherence": {
+        "mean": 0.5336,
+        "depth_12288": 0.05
+      },
+      "self_simulation_alignment": {
+        "mean": 0.5284,
+        "depth_12288": 0.05
+      },
+      "reflexive_stabilization_gain": {
+        "mean": 0.5219,
+        "depth_12288": 0.05
+      },
+      "recursive_self_persistence": {
+        "mean": 0.5165,
+        "depth_12288": 0.05
+      },
+      "self_model_adaptation_strength": {
+        "mean": 0.5273,
+        "depth_12288": 0.05
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "SELF-REF-FAILED",
+      "rg_similarity": {
+        "mean": 0.5455,
+        "depth_12288": 0.05
+      },
+      "self_reference_fidelity": {
+        "mean": 0.5397,
+        "depth_12288": 0.05
+      },
+      "reflexive_coherence": {
+        "mean": 0.5331,
+        "depth_12288": 0.05
+      },
+      "self_simulation_alignment": {
+        "mean": 0.5276,
+        "depth_12288": 0.05
+      },
+      "reflexive_stabilization_gain": {
+        "mean": 0.5227,
+        "depth_12288": 0.05
+      },
+      "recursive_self_persistence": {
+        "mean": 0.5168,
+        "depth_12288": 0.05
+      },
+      "self_model_adaptation_strength": {
+        "mean": 0.5265,
+        "depth_12288": 0.05
+      }
+    }
+  }
+}

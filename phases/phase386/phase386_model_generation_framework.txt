@@ -1,0 +1,57 @@
+# Phase 386 Framework: Recursive Model-Generation and Internal Representation Analysis
+
+## Purpose
+Determine whether predictive recursive organizational systems can generate stable internal organizational representations that model external recursive dynamics and future perturbations.
+
+## Structure
+
+### 1. Internal Model Extraction
+- Extract internal organizational models from structure
+- Measure internal model coherence (IMC)
+- Identify model extraction thresholds
+
+### 2. Representation Fidelity Analysis
+- Analyze fidelity of internal representations
+- Measure representation fidelity (RF)
+- Identify fidelity degradation patterns
+
+### 3. Simulated Perturbation Evaluation
+- Evaluate simulated vs. direct perturbation responses
+- Measure simulation alignment (SA)
+- Identify simulation precision patterns
+
+### 4. Predictive Model Adaptation Tracking
+- Track adaptive improvement of internal models
+- Measure predictive model gain (PMG)
+- Identify adaptation dynamics
+
+### 5. Recursive Simulation Persistence
+- Track simulation persistence across recursive depths
+- Measure recursive representation persistence (RRP)
+- Identify persistence degradation patterns
+
+### 6. Model-Driven Stabilization Testing
+- Test stabilization driven by internal models
+- Measure model adaptation strength (MAS)
+- Identify model-driven stabilization thresholds
+
+### 7. Null Representation Controls
+- Randomized representation baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- representation_fidelity (RF)
+- internal_model_coherence (IMC)
+- simulation_alignment (SA)
+- predictive_model_gain (PMG)
+- recursive_representation_persistence (RRP)
+- rg_similarity (RGS)
+- model_adaptation_strength (MAS)
+
+## Classification Thresholds
+- MODEL-STABLE: RF > 0.90, IMC > 0.90, SA > 0.85
+- MODEL-BOUNDED: RF > 0.80, IMC > 0.80, SA > 0.75
+- MODEL-PARTIAL: RF > 0.70, IMC > 0.70, SA > 0.65
+- MODEL-DEGRADING: RF > 0.55
+- MODEL-FAILED: RF <= 0.55

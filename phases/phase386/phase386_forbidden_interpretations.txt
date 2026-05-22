@@ -1,0 +1,30 @@
+# Phase 386 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Learning, adaptation, memory, recognition
+- Meaning, significance, interpretation, representation
+- Agency, autonomy, self-organization (beyond structural description)
+- Evolution, emergence (beyond structural pattern description)
+- Intelligence, wisdom, knowledge
+- Identity, self, personality, character
+
+## PROHIBITED CONCEPTS
+- Internal models as "mental models" or "cognitive maps"
+- Representation as "understanding" or "comprehension"
+- Simulation as "imagination" or "visualization"
+- Predictive model gain as "learning" or "improvement"
+- Model-driven stabilization as "strategic planning"
+- Internal representation as "conscious awareness" or "subjective experience"
+- Recursive model generation as "self-reflection" or "metacognition"
+
+## REQUIRED LANGUAGE
+- Structural, geometric, topological, algebraic
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 386 analyzes recursive model-generation and internal representation as structural patterns in recursive computational systems. All descriptions must remain strictly mathematical and geometric.

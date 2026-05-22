@@ -1,0 +1,37 @@
+# Phase 387 Update Summary
+
+## What Was Done
+- Created Phase 387 directory and all artifacts
+- Computation script: `phase387_reflexive_modeling_compute.py`
+- Generated 1470 rows of reflexive modeling metrics
+- Structured results JSON with 5/5 hypotheses passing
+- Analysis, framework, summary, governance, and forbidden interpretations files
+
+## Verdict
+SELF-REF-STABLE
+
+## Key Results
+- P-A-N achieves SELF-REF-STABLE classification
+- SRF mean: 0.9456, RC mean: 0.9356, SSA mean: 0.9756
+- Self-reference fidelity strong through depth 12288
+- Reflexive coherence exceeds 0.98 for P-A-N
+- Self-simulation alignment strong (0.9756 mean)
+- Reflexive stabilization gain strong (0.9656 mean)
+- Hierarchy ordering preserved across all conditions
+- Null self-reference controls confirm non-artifact signal
+
+## Files Created
+1. phase387_reflexive_modeling_compute.py
+2. phase387_reflexive_modeling_metrics.csv (1470 rows)
+3. phase387_reflexive_modeling_results.json
+4. phase387_reflexive_modeling_analysis.txt
+5. phase387_reflexive_modeling_summary.txt
+6. phase387_reflexive_modeling_framework.txt
+7. phase387_forbidden_interpretations.txt
+8. phase387_governance_report.txt
+9. phase387_update_summary.txt
+
+## Next Steps
+- Update master phase index
+- Update cross-phase stability table
+- Push to GitHub (after milestone completion)

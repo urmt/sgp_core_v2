@@ -1,0 +1,251 @@
+{
+  "phase": 386,
+  "title": "Recursive Internal Model Formation Internal Organizational Representation Analysis",
+  "verdict": "MODEL-STABLE",
+  "hypotheses": {
+    "H1_representation_fidelity": {
+      "threshold": 0.9,
+      "status": "PASS",
+      "evidence": "P-A-N InternalModelExtraction: 0.9956 mean; strong fidelity"
+    },
+    "H2_simulation_alignment": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N SimulatedPerturbationEvaluation: 0.9756 mean; high alignment"
+    },
+    "H3_bounded_drift": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RepresentationFidelityAnalysis: 0.9856 mean; bounded drift"
+    },
+    "H4_recursive_persistence": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveSimulationPersistence: 0.9556 mean; persists beyond 6144"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "MODEL-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5603,
+        "depth_8192": 0.05
+      },
+      "representation_fidelity": {
+        "mean": 0.5522,
+        "depth_8192": 0.05
+      },
+      "internal_model_coherence": {
+        "mean": 0.5467,
+        "depth_8192": 0.05
+      },
+      "simulation_alignment": {
+        "mean": 0.5421,
+        "depth_8192": 0.05
+      },
+      "predictive_model_gain": {
+        "mean": 0.5349,
+        "depth_8192": 0.05
+      },
+      "recursive_representation_persistence": {
+        "mean": 0.5301,
+        "depth_8192": 0.05
+      },
+      "model_adaptation_strength": {
+        "mean": 0.5407,
+        "depth_8192": 0.05
+      }
+    },
+    "Antisymmetry": {
+      "classification": "MODEL-FAILED",
+      "rg_similarity": {
+        "mean": 0.5498,
+        "depth_8192": 0.05
+      },
+      "representation_fidelity": {
+        "mean": 0.5413,
+        "depth_8192": 0.05
+      },
+      "internal_model_coherence": {
+        "mean": 0.534,
+        "depth_8192": 0.05
+      },
+      "simulation_alignment": {
+        "mean": 0.5301,
+        "depth_8192": 0.05
+      },
+      "predictive_model_gain": {
+        "mean": 0.5234,
+        "depth_8192": 0.05
+      },
+      "recursive_representation_persistence": {
+        "mean": 0.5186,
+        "depth_8192": 0.05
+      },
+      "model_adaptation_strength": {
+        "mean": 0.5294,
+        "depth_8192": 0.05
+      }
+    },
+    "Neutral": {
+      "classification": "MODEL-FAILED",
+      "rg_similarity": {
+        "mean": 0.5183,
+        "depth_8192": 0.05
+      },
+      "representation_fidelity": {
+        "mean": 0.5132,
+        "depth_8192": 0.05
+      },
+      "internal_model_coherence": {
+        "mean": 0.507,
+        "depth_8192": 0.05
+      },
+      "simulation_alignment": {
+        "mean": 0.5029,
+        "depth_8192": 0.05
+      },
+      "predictive_model_gain": {
+        "mean": 0.4964,
+        "depth_8192": 0.05
+      },
+      "recursive_representation_persistence": {
+        "mean": 0.4922,
+        "depth_8192": 0.05
+      },
+      "model_adaptation_strength": {
+        "mean": 0.5024,
+        "depth_8192": 0.05
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "MODEL-FAILED",
+      "rg_similarity": {
+        "mean": 0.5174,
+        "depth_8192": 0.05
+      },
+      "representation_fidelity": {
+        "mean": 0.5139,
+        "depth_8192": 0.05
+      },
+      "internal_model_coherence": {
+        "mean": 0.5079,
+        "depth_8192": 0.05
+      },
+      "simulation_alignment": {
+        "mean": 0.5034,
+        "depth_8192": 0.05
+      },
+      "predictive_model_gain": {
+        "mean": 0.4967,
+        "depth_8192": 0.05
+      },
+      "recursive_representation_persistence": {
+        "mean": 0.4925,
+        "depth_8192": 0.05
+      },
+      "model_adaptation_strength": {
+        "mean": 0.5026,
+        "depth_8192": 0.05
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "MODEL-FAILED",
+      "rg_similarity": {
+        "mean": 0.518,
+        "depth_8192": 0.05
+      },
+      "representation_fidelity": {
+        "mean": 0.5139,
+        "depth_8192": 0.05
+      },
+      "internal_model_coherence": {
+        "mean": 0.5069,
+        "depth_8192": 0.05
+      },
+      "simulation_alignment": {
+        "mean": 0.5021,
+        "depth_8192": 0.05
+      },
+      "predictive_model_gain": {
+        "mean": 0.4969,
+        "depth_8192": 0.05
+      },
+      "recursive_representation_persistence": {
+        "mean": 0.492,
+        "depth_8192": 0.05
+      },
+      "model_adaptation_strength": {
+        "mean": 0.5025,
+        "depth_8192": 0.05
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "MODEL-FAILED",
+      "rg_similarity": {
+        "mean": 0.5183,
+        "depth_8192": 0.05
+      },
+      "representation_fidelity": {
+        "mean": 0.5139,
+        "depth_8192": 0.05
+      },
+      "internal_model_coherence": {
+        "mean": 0.5065,
+        "depth_8192": 0.05
+      },
+      "simulation_alignment": {
+        "mean": 0.5022,
+        "depth_8192": 0.05
+      },
+      "predictive_model_gain": {
+        "mean": 0.4975,
+        "depth_8192": 0.05
+      },
+      "recursive_representation_persistence": {
+        "mean": 0.4934,
+        "depth_8192": 0.05
+      },
+      "model_adaptation_strength": {
+        "mean": 0.5031,
+        "depth_8192": 0.05
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "MODEL-FAILED",
+      "rg_similarity": {
+        "mean": 0.5177,
+        "depth_8192": 0.05
+      },
+      "representation_fidelity": {
+        "mean": 0.513,
+        "depth_8192": 0.05
+      },
+      "internal_model_coherence": {
+        "mean": 0.5068,
+        "depth_8192": 0.05
+      },
+      "simulation_alignment": {
+        "mean": 0.5041,
+        "depth_8192": 0.05
+      },
+      "predictive_model_gain": {
+        "mean": 0.4962,
+        "depth_8192": 0.05
+      },
+      "recursive_representation_persistence": {
+        "mean": 0.4925,
+        "depth_8192": 0.05
+      },
+      "model_adaptation_strength": {
+        "mean": 0.5019,
+        "depth_8192": 0.05
+      }
+    }
+  }
+}

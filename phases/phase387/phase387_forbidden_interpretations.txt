@@ -1,0 +1,30 @@
+# Phase 387 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Learning, adaptation, memory, recognition
+- Meaning, significance, interpretation, representation
+- Agency, autonomy, self-organization (beyond structural description)
+- Evolution, emergence (beyond structural pattern description)
+- Intelligence, wisdom, knowledge
+- Identity, self, personality, character
+
+## PROHIBITED CONCEPTS
+- Self-referential modeling as "self-awareness" or "introspection"
+- Reflexive coherence as "self-understanding" or "self-knowledge"
+- Self-simulation as "imagining oneself" or "self-reflection"
+- Stabilization gain as "self-improvement" or "growth"
+- Recursive self-persistence as "self-continuity" or "identity persistence"
+- Self-model adaptation as "learning about oneself"
+- Self-referential organization as "consciousness" or "meta-cognition"
+
+## REQUIRED LANGUAGE
+- Structural, geometric, topological, algebraic
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 387 analyzes self-referential recursive modeling and reflexive organization as structural patterns in recursive computational systems. All descriptions must remain strictly mathematical and geometric.

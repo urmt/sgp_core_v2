@@ -1,0 +1,57 @@
+# Phase 387 Framework: Self-Referential Recursive Modeling and Reflexive Organization
+
+## Purpose
+Determine whether recursive organizational systems with persistent internal representations can recursively model their own organizational structure, stabilization dynamics, and future evolution.
+
+## Structure
+
+### 1. Self-Model Extraction
+- Extract self-referential models from organizational structure
+- Measure self-reference fidelity (SRF)
+- Identify self-model extraction thresholds
+
+### 2. Reflexive Representation Fidelity
+- Analyze fidelity of self-referential representations
+- Measure reflexive coherence (RC)
+- Identify reflexive degradation patterns
+
+### 3. Recursive Self-Simulation Analysis
+- Analyze self-simulation of future recursive states
+- Measure self-simulation alignment (SSA)
+- Identify simulation precision patterns
+
+### 4. Self-Model Stabilization Gain
+- Track stabilization improvement from self-modeling
+- Measure reflexive stabilization gain (RSG)
+- Identify stabilization thresholds
+
+### 5. Recursive Reflexive Persistence
+- Track reflexive persistence across recursive depths
+- Measure recursive self-persistence (RSP)
+- Identify persistence degradation patterns
+
+### 6. Self-Referential Perturbation Response
+- Track response to self-referential perturbations
+- Measure self-model adaptation strength (SMAS)
+- Identify adaptation dynamics
+
+### 7. Null Self-Reference Controls
+- Randomized self-reference baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- self_reference_fidelity (SRF)
+- reflexive_coherence (RC)
+- self_simulation_alignment (SSA)
+- reflexive_stabilization_gain (RSG)
+- recursive_self_persistence (RSP)
+- rg_similarity (RGS)
+- self_model_adaptation_strength (SMAS)
+
+## Classification Thresholds
+- SELF-REF-STABLE: SRF > 0.90, RC > 0.90, SSA > 0.85
+- SELF-REF-BOUNDED: SRF > 0.80, RC > 0.80, SSA > 0.75
+- SELF-REF-PARTIAL: SRF > 0.70, RC > 0.70, SSA > 0.65
+- SELF-REF-DEGRADING: SRF > 0.55
+- SELF-REF-FAILED: SRF <= 0.55
