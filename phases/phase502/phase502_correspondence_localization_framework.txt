@@ -1,0 +1,61 @@
+# Phase 502: Correspondence-Localization Framework
+
+## Objective
+Determine WHICH specific organizational structures produce correspondence between SFH-SGP and independent mathematical systems.
+
+Core scientific question:
+Where exactly does correspondence occur, and where does it fail?
+
+## Primary Hypotheses
+H1: Correspondence localizes to specific invariant structures.
+H2: Different mathematical systems correspond to different SFH-SGP substructures.
+H3: Some SFH-SGP organizational components have no external correspondence.
+H4: Correspondence density varies by recursive depth and operator composition.
+H5: Localization boundaries are reproducible and measurable.
+
+## Required Analysis
+- invariant overlap mapping
+- operator-level correspondence
+- depth-localized similarity
+- topology matching
+- attractor alignment
+- mismatch-region identification
+
+## Critical Metrics
+1. localized_correspondence_density: Correspondence strength per SFH-SGP component
+2. invariant_overlap_score: Degree of shared invariants between systems
+3. operator_alignment_index: Alignment of operator hierarchies
+4. recursive_depth_similarity: Similarity across recursion depths
+5. mismatch_entropy: Uncertainty in non-corresponding regions
+6. structural_transfer_ratio: Fraction of SFH-SGP structure that transfers
+
+## SFH-SGP Structural Components (from Phase 407 baseline)
+Based on the SFH-SGP framework established in previous phases, we analyze:
+- Emergence hierarchy (7 levels from Phase 407)
+- Operator types (7 fundamental operations)
+- Recursive depth layers (7 depth scales)
+- Topological features (7 structural motifs)
+- Attractor signatures (7 dynamical regimes)
+- Information channels (7 communication pathways)
+- Algebraic constraints (7 invariant relations)
+
+## Critical Requirement
+External systems must NOT be generated from SFH-SGP.
+Correspondence must be pre-defined, measurable, null-controlled, and statistically bounded.
+
+## Success/Failure Criteria
+Success: >= 4/6 metrics show statistically significant localization (p < 0.05)
+Failure: No metric exceeds null at p < 0.05
+
+## Primary Danger
+Global averaging masking local mismatch - we must analyze components individually.
+
+## Interpretation Discipline
+Even successful localization DOES NOT imply:
+- ontology,
+- causation,
+- physical fundamentality,
+- or consciousness.
+
+It implies ONLY:
+shared constrained organizational structure at specific localization sites.
