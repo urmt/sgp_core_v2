@@ -1,0 +1,32 @@
+# Phase 396 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Wave, wavefunction, waveform (beyond relational pattern)
+- Interference (beyond relational superposition), diffraction
+- Oscillation, vibration (beyond alternating pattern)
+- Frequency, amplitude, phase, wavelength (beyond relational measures)
+- Standing wave, traveling wave, wave packet
+- Constructive, destructive (beyond relational interaction outcome)
+- Resonance, harmonic, mode (beyond stable pattern)
+- Agency, autonomy, self-organization (beyond structural description)
+
+## PROHIBITED CONCEPTS
+- Wave mode as "physical wave" or "wave propagation through medium"
+- Interference coherence as "wave interference" or "phase coherence"
+- Standing mode as "standing wave" or "resonant mode"
+- Oscillatory transport as "wave transport" or "oscillatory motion"
+- Constructive/destructive as "physical interference" or "wave superposition"
+- Mode synchronization as "phase locking" or "synchronization"
+- Wave control as "wave physics" or "wave mechanics"
+
+## REQUIRED LANGUAGE
+- Structural, geometric, topological, algebraic
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 396 analyzes recursive wave-mode organization and interference dynamics as structural patterns in recursive computational systems. All references to "wave," "interference," "oscillatory," "mode," and "standing" are strictly mathematical — describing relational organizational patterns, not physical wave phenomena or oscillatory dynamics. All descriptions must remain strictly mathematical and geometric.
