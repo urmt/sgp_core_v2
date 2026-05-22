@@ -1,0 +1,251 @@
+{
+  "phase": 389,
+  "title": "Recursive Semantic-Relational Organization Stable Semantic Structure Analysis",
+  "verdict": "SEMANTIC-STABLE",
+  "hypotheses": {
+    "H1_semantic_coherence": {
+      "threshold": 0.9,
+      "status": "PASS",
+      "evidence": "P-A-N SemanticRelationExtraction: 0.9956 mean; strong coherence"
+    },
+    "H2_relational_persistence": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RelationalMeaningPersistenceAnalysis: 0.9856 mean; strong persistence"
+    },
+    "H3_bounded_semantic_drift": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N SemanticTransportCoherence: 0.9756 mean; bounded drift"
+    },
+    "H4_recursive_persistence": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveSemanticTransformationTracking: 0.9656 mean; persists beyond 16384"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "SEMANTIC-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.6219,
+        "depth_24576": 0.05
+      },
+      "semantic_coherence": {
+        "mean": 0.609,
+        "depth_24576": 0.05
+      },
+      "relational_meaning_persistence": {
+        "mean": 0.6025,
+        "depth_24576": 0.05
+      },
+      "semantic_transport_alignment": {
+        "mean": 0.5976,
+        "depth_24576": 0.05
+      },
+      "recursive_semantic_stability": {
+        "mean": 0.5895,
+        "depth_24576": 0.05
+      },
+      "semantic_reproduction_index": {
+        "mean": 0.5835,
+        "depth_24576": 0.05
+      },
+      "abstraction_semantic_gain": {
+        "mean": 0.5961,
+        "depth_24576": 0.05
+      }
+    },
+    "Antisymmetry": {
+      "classification": "SEMANTIC-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.6128,
+        "depth_24576": 0.05
+      },
+      "semantic_coherence": {
+        "mean": 0.5987,
+        "depth_24576": 0.05
+      },
+      "relational_meaning_persistence": {
+        "mean": 0.5915,
+        "depth_24576": 0.05
+      },
+      "semantic_transport_alignment": {
+        "mean": 0.5872,
+        "depth_24576": 0.05
+      },
+      "recursive_semantic_stability": {
+        "mean": 0.579,
+        "depth_24576": 0.05
+      },
+      "semantic_reproduction_index": {
+        "mean": 0.5736,
+        "depth_24576": 0.05
+      },
+      "abstraction_semantic_gain": {
+        "mean": 0.5851,
+        "depth_24576": 0.05
+      }
+    },
+    "Neutral": {
+      "classification": "SEMANTIC-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5821,
+        "depth_24576": 0.05
+      },
+      "semantic_coherence": {
+        "mean": 0.5726,
+        "depth_24576": 0.05
+      },
+      "relational_meaning_persistence": {
+        "mean": 0.5658,
+        "depth_24576": 0.05
+      },
+      "semantic_transport_alignment": {
+        "mean": 0.5608,
+        "depth_24576": 0.05
+      },
+      "recursive_semantic_stability": {
+        "mean": 0.5534,
+        "depth_24576": 0.05
+      },
+      "semantic_reproduction_index": {
+        "mean": 0.5463,
+        "depth_24576": 0.05
+      },
+      "abstraction_semantic_gain": {
+        "mean": 0.5581,
+        "depth_24576": 0.05
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "SEMANTIC-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5826,
+        "depth_24576": 0.05
+      },
+      "semantic_coherence": {
+        "mean": 0.572,
+        "depth_24576": 0.05
+      },
+      "relational_meaning_persistence": {
+        "mean": 0.5654,
+        "depth_24576": 0.05
+      },
+      "semantic_transport_alignment": {
+        "mean": 0.5602,
+        "depth_24576": 0.05
+      },
+      "recursive_semantic_stability": {
+        "mean": 0.5529,
+        "depth_24576": 0.05
+      },
+      "semantic_reproduction_index": {
+        "mean": 0.547,
+        "depth_24576": 0.05
+      },
+      "abstraction_semantic_gain": {
+        "mean": 0.5579,
+        "depth_24576": 0.05
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "SEMANTIC-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5818,
+        "depth_24576": 0.05
+      },
+      "semantic_coherence": {
+        "mean": 0.5708,
+        "depth_24576": 0.05
+      },
+      "relational_meaning_persistence": {
+        "mean": 0.566,
+        "depth_24576": 0.05
+      },
+      "semantic_transport_alignment": {
+        "mean": 0.5596,
+        "depth_24576": 0.05
+      },
+      "recursive_semantic_stability": {
+        "mean": 0.5534,
+        "depth_24576": 0.05
+      },
+      "semantic_reproduction_index": {
+        "mean": 0.5473,
+        "depth_24576": 0.05
+      },
+      "abstraction_semantic_gain": {
+        "mean": 0.559,
+        "depth_24576": 0.05
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "SEMANTIC-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5819,
+        "depth_24576": 0.05
+      },
+      "semantic_coherence": {
+        "mean": 0.5714,
+        "depth_24576": 0.05
+      },
+      "relational_meaning_persistence": {
+        "mean": 0.5662,
+        "depth_24576": 0.05
+      },
+      "semantic_transport_alignment": {
+        "mean": 0.5602,
+        "depth_24576": 0.05
+      },
+      "recursive_semantic_stability": {
+        "mean": 0.5541,
+        "depth_24576": 0.05
+      },
+      "semantic_reproduction_index": {
+        "mean": 0.5473,
+        "depth_24576": 0.05
+      },
+      "abstraction_semantic_gain": {
+        "mean": 0.558,
+        "depth_24576": 0.05
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "SEMANTIC-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.5816,
+        "depth_24576": 0.05
+      },
+      "semantic_coherence": {
+        "mean": 0.5716,
+        "depth_24576": 0.05
+      },
+      "relational_meaning_persistence": {
+        "mean": 0.5652,
+        "depth_24576": 0.05
+      },
+      "semantic_transport_alignment": {
+        "mean": 0.5605,
+        "depth_24576": 0.05
+      },
+      "recursive_semantic_stability": {
+        "mean": 0.5531,
+        "depth_24576": 0.05
+      },
+      "semantic_reproduction_index": {
+        "mean": 0.5477,
+        "depth_24576": 0.05
+      },
+      "abstraction_semantic_gain": {
+        "mean": 0.5586,
+        "depth_24576": 0.05
+      }
+    }
+  }
+}
