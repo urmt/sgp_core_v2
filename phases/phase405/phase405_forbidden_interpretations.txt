@@ -1,0 +1,50 @@
+# Phase 405: Forbidden Interpretations
+
+## STRICTLY FORBIDDEN
+
+1. **"We have proven the axioms."** Axioms are assumed, not proven.
+   The formalization establishes axioms as starting points, and the
+   theorem candidates are conjectures with computational evidence,
+   not formal proofs.
+
+2. **"This proves emergence is real physics."** The formalization
+   provides a mathematical framework for recursive relational
+   emergence. It does not assert that the framework corresponds to
+   physical reality. The empirical/formal separation explicitly
+   maintains this boundary.
+
+3. **"The theorem candidates are theorems."** They are candidates.
+   Full proof construction is a separate phase (not yet completed).
+   Calling them theorems before formal proof is misleading.
+
+4. **"This completes the mathematical theory."** Formalization
+   identifies structure, but proof dependency clarity (0.6473)
+   indicates proof bridges are not yet fully specified. The
+   mathematical theory is structurally identified but not fully
+   derived.
+
+5. **"Universality is proven."** Universality candidates are stated
+   as candidates, not proven universals. Their confirmation requires
+   independent verification across fundamentally different systems.
+
+6. **"The axioms are minimal."** Minimality of the axiom set (3 axioms)
+   is asserted but not proven. A future phase may identify redundant
+   axioms or missing foundational elements.
+
+7. **"The framework is a complete formalization of emergence."** The
+   formalization covers the specific recursive relational framework,
+   not emergence in general. Claims of general emergence
+   formalization exceed scope.
+
+## PERMITTED INTERPRETATIONS
+
+1. "The recursive emergence framework has been expressed as a
+   mathematical formalism with explicit axioms, invariants, and
+   theorem candidates."
+2. "All computational findings from Phases 391-404 have been
+   translated into formal mathematical statements."
+3. "A clear distinction has been established between empirically
+   confirmed properties and provable theorem candidates."
+4. "The formal dependency structure identifies which theorems depend
+   on which axioms and prior theorems."
+5. "The formalization is internally consistent across all 15 domains."
