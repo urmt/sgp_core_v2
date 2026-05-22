@@ -1,0 +1,57 @@
+# Phase 384 Framework: Recursive Organizational Memory and Historical Encoding
+
+## Purpose
+Determine whether persistent recursive organizational identities can encode, preserve, and transmit historical organizational information across recursive evolution, interaction, and reproduction.
+
+## Structure
+
+### 1. Historical State Encoding
+- Encode historical organizational states into structure
+- Measure historical encoding strength (HES)
+- Identify encoding capacity thresholds
+
+### 2. Recursive Memory Persistence
+- Track memory persistence across recursive depths
+- Measure memory persistence (MP)
+- Identify memory degradation patterns
+
+### 3. Lineage Inheritance Analysis
+- Analyze memory inheritance across lineages
+- Measure lineage memory transfer (LMT)
+- Identify inheritance fidelity patterns
+
+### 4. Transport Memory Preservation
+- Track memory preservation during transport
+- Measure transport memory alignment (TMA)
+- Identify transport-stable memories
+
+### 5. Adaptive Historical Modulation
+- Track adaptive modulation of historical encoding
+- Measure adaptive history modulation (AHM)
+- Identify modulation dynamics
+
+### 6. Interaction-History Reconstruction
+- Reconstruct interaction history from encoded memory
+- Measure reconstruction accuracy (RA)
+- Identify reconstruction thresholds
+
+### 7. Null Memory Controls
+- Randomized memory baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- memory_persistence (MP)
+- historical_encoding_strength (HES)
+- lineage_memory_transfer (LMT)
+- adaptive_history_modulation (AHM)
+- reconstruction_accuracy (RA)
+- rg_similarity (RGS)
+- transport_memory_alignment (TMA)
+
+## Classification Thresholds
+- MEMORY-STABLE: MP > 0.90, HES > 0.90, LMT > 0.85
+- MEMORY-BOUNDED: MP > 0.80, HES > 0.80, LMT > 0.75
+- MEMORY-PARTIAL: MP > 0.70, HES > 0.70, LMT > 0.65
+- MEMORY-DEGRADING: MP > 0.55
+- MEMORY-FAILED: MP <= 0.55
