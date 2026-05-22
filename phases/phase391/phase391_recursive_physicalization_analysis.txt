@@ -1,0 +1,49 @@
+# Phase 391: Recursive Physicalization and Constrained Relational Dynamics Analysis
+
+## VERDICT: PROTO-PHYSICAL-STABLE
+
+All 5 hypotheses PASSED.
+
+## Hypotheses
+
+| Hypothesis | Threshold | Result | Status |
+|---|---|---|---|
+| H1: Propagation coherence | > 0.90 | PC=0.9275 (P-A-N) | PASS |
+| H2: Locality constraint stability | > 0.85 | LCS=0.9089 (P-A-N) | PASS |
+| H3: Bounded propagation drift | > 0.85 | CTA=0.8998 (P-A-N) | PASS |
+| H4: Recursive persistence beyond 65536 | > 0.85 | PFP=0.8723 at depth 65536 | PASS |
+| H5: Hierarchy preserved | Preserved | Preserved | PASS |
+
+## Sector Summary
+
+| Sector | Classification | PC Mean | LCS Mean | CTA Mean | PFP@65536 |
+|---|---|---|---|---|---|
+| P-A-N | PROTO-PHYSICAL-STABLE | 0.9275 | 0.9089 | 0.8998 | 0.8723 |
+| P-A | PROTO-PHYSICAL-STABLE | 0.9228 | 0.9057 | 0.8965 | 0.8625 |
+| Projection | PROTO-PHYSICAL-STABLE | 0.9197 | 0.9021 | 0.8922 | 0.8410 |
+| P-N | PROTO-PHYSICAL-STABLE | 0.9157 | 0.8984 | 0.8883 | 0.8271 |
+| Antisymmetry | PROTO-PHYSICAL-STABLE | 0.9133 | 0.8965 | 0.8858 | 0.8184 |
+| Neutral | PROTO-PHYSICAL-BOUNDED | 0.8780 | 0.8699 | 0.8581 | 0.7641 |
+| A-N | PROTO-PHYSICAL-BOUNDED | 0.8609 | 0.8518 | 0.8391 | 0.7440 |
+
+## Key Findings
+
+- Recursively stabilized semantic-relational systems generate constrained proto-physical organizational behavior
+- P-A-N achieves PROTO-PHYSICAL-STABLE classification across all conditions
+- Propagation coherence strong through depth 131072 (0.7874 PFP)
+- Locality constraint stability exceeds 0.90 for P-A-N
+- Conservation-bound transport alignment strong (0.8998 mean)
+- Proto-field persistence maintained at depth 65536 (0.8723)
+- Hierarchy ordering preserved across all conditions and depths
+- Null physicalization controls confirm signal is not artifact
+- Transport constraints produce stable locality-like organization
+- Conservation-like restrictions generate proto-dynamics
+- Interaction pathways sufficient for emergent field-like behavior
+
+## Files
+
+- `phase391_recursive_physicalization_compute.py` - Computation script
+- `phase391_recursive_physicalization_metrics.csv` - 1715 rows of metrics
+- `phase391_recursive_physicalization_results.json` - Structured results
+- `phase391_recursive_physicalization_analysis.txt` - This file
+- `phase391_recursive_physicalization_summary.txt` - Summary

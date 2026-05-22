@@ -106,3 +106,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 387,SELF-REF-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.97,0.97,0.96,0.94,1.00,self_referential_recursive_modeling,COMPLETE
 388,ABSTRACTION-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.98,0.98,0.97,0.95,1.00,recursive_meta_model_integration,COMPLETE
 389,SEMANTIC-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.99,0.99,0.98,0.96,1.00,recursive_semantic_structure,COMPLETE
+390,CONTEXT-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,1.00,1.00,0.99,0.97,1.00,recursive_contextual_integration,COMPLETE

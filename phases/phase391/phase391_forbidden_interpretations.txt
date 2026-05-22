@@ -1,0 +1,32 @@
+# Phase 391 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Physics, physical reality, spacetime, matter, energy
+- Force, field (beyond mathematical mapping), particle, wave
+- Causality (beyond relational dependency), interaction (beyond mathematical)
+- Object, substance, property, attribute (beyond relational position)
+- Space, time, location, motion, velocity (beyond ordinal relations)
+- Agency, autonomy, self-organization (beyond structural description)
+- Evolution, emergence (beyond structural pattern description)
+
+## PROHIBITED CONCEPTS
+- Physicalization as "creating physical objects" or "generating spacetime"
+- Constrained transport as "propagation through space"
+- Locality emergence as "spatial localization"
+- Conservation as "energy conservation" or "momentum conservation"
+- Proto-field as "force field" or "quantum field"
+- Propagation as "signal transmission through medium"
+- Interaction as "physical force" or "fundamental interaction"
+- Recursive dynamics as "physical dynamics" or "mechanics"
+
+## REQUIRED LANGUAGE
+- Structural, geometric, topological, algebraic
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 391 analyzes recursive physicalization and constrained relational dynamics as structural patterns in recursive computational systems. All references to "propagation," "locality," "conservation," "field," and "physicalization" are strictly mathematical and relational — describing organizational patterns in recursive relations, not physical phenomena. All descriptions must remain strictly mathematical and geometric.

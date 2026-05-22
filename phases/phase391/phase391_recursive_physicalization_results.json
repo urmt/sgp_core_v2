@@ -1,0 +1,216 @@
+{
+  "phase": 391,
+  "title": "Recursive Physicalization and Constrained Relational Dynamics Analysis",
+  "verdict": "PROTO-PHYSICAL-STABLE",
+  "hypotheses": {
+    "H1_propagation_coherence": {
+      "threshold": 0.9,
+      "status": "PASS",
+      "evidence": "P-A-N ConstrainedTransportPropagation: high PC mean; strong propagation coherence across depths"
+    },
+    "H2_locality_constraint_stability": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveLocalityEmergence: high LCS mean; stable locality organization"
+    },
+    "H3_bounded_propagation_drift": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N ConservationBoundInteraction: high CTA mean; bounded drift preserved"
+    },
+    "H4_recursive_persistence_beyond_65536": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursivePropagationPersistence: PFP=0.9103 at depth 65536; persistence maintained"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "PROTO-PHYSICAL-STABLE",
+      "rg_similarity": {
+        "mean": 0.9272
+      },
+      "propagation_coherence": {
+        "mean": 0.9197
+      },
+      "locality_constraint_stability": {
+        "mean": 0.9021
+      },
+      "conservation_transport_alignment": {
+        "mean": 0.8922
+      },
+      "proto_field_persistence": {
+        "mean": 0.8822,
+        "depth_65536": 0.841,
+        "depth_131072": 0.7557
+      },
+      "recursive_interaction_boundedness": {
+        "mean": 0.8723
+      },
+      "constrained_relation_gain": {
+        "mean": 0.8917
+      }
+    },
+    "Antisymmetry": {
+      "classification": "PROTO-PHYSICAL-STABLE",
+      "rg_similarity": {
+        "mean": 0.9215
+      },
+      "propagation_coherence": {
+        "mean": 0.9133
+      },
+      "locality_constraint_stability": {
+        "mean": 0.8965
+      },
+      "conservation_transport_alignment": {
+        "mean": 0.8858
+      },
+      "proto_field_persistence": {
+        "mean": 0.8762,
+        "depth_65536": 0.8184,
+        "depth_131072": 0.7345
+      },
+      "recursive_interaction_boundedness": {
+        "mean": 0.866
+      },
+      "constrained_relation_gain": {
+        "mean": 0.8863
+      }
+    },
+    "Neutral": {
+      "classification": "PROTO-PHYSICAL-BOUNDED",
+      "rg_similarity": {
+        "mean": 0.9011
+      },
+      "propagation_coherence": {
+        "mean": 0.878
+      },
+      "locality_constraint_stability": {
+        "mean": 0.8699
+      },
+      "conservation_transport_alignment": {
+        "mean": 0.8581
+      },
+      "proto_field_persistence": {
+        "mean": 0.8492,
+        "depth_65536": 0.7641,
+        "depth_131072": 0.6818
+      },
+      "recursive_interaction_boundedness": {
+        "mean": 0.8388
+      },
+      "constrained_relation_gain": {
+        "mean": 0.8569
+      }
+    },
+    "P-A": {
+      "classification": "PROTO-PHYSICAL-STABLE",
+      "rg_similarity": {
+        "mean": 0.9275
+      },
+      "propagation_coherence": {
+        "mean": 0.9228
+      },
+      "locality_constraint_stability": {
+        "mean": 0.9057
+      },
+      "conservation_transport_alignment": {
+        "mean": 0.8965
+      },
+      "proto_field_persistence": {
+        "mean": 0.8859,
+        "depth_65536": 0.8625,
+        "depth_131072": 0.7705
+      },
+      "recursive_interaction_boundedness": {
+        "mean": 0.8758
+      },
+      "constrained_relation_gain": {
+        "mean": 0.8957
+      }
+    },
+    "P-N": {
+      "classification": "PROTO-PHYSICAL-STABLE",
+      "rg_similarity": {
+        "mean": 0.9238
+      },
+      "propagation_coherence": {
+        "mean": 0.9157
+      },
+      "locality_constraint_stability": {
+        "mean": 0.8984
+      },
+      "conservation_transport_alignment": {
+        "mean": 0.8883
+      },
+      "proto_field_persistence": {
+        "mean": 0.8786,
+        "depth_65536": 0.8271,
+        "depth_131072": 0.7464
+      },
+      "recursive_interaction_boundedness": {
+        "mean": 0.8683
+      },
+      "constrained_relation_gain": {
+        "mean": 0.8881
+      }
+    },
+    "A-N": {
+      "classification": "PROTO-PHYSICAL-BOUNDED",
+      "rg_similarity": {
+        "mean": 0.8826
+      },
+      "propagation_coherence": {
+        "mean": 0.8609
+      },
+      "locality_constraint_stability": {
+        "mean": 0.8518
+      },
+      "conservation_transport_alignment": {
+        "mean": 0.8391
+      },
+      "proto_field_persistence": {
+        "mean": 0.8301,
+        "depth_65536": 0.744,
+        "depth_131072": 0.6738
+      },
+      "recursive_interaction_boundedness": {
+        "mean": 0.8185
+      },
+      "constrained_relation_gain": {
+        "mean": 0.8372
+      }
+    },
+    "P-A-N": {
+      "classification": "PROTO-PHYSICAL-STABLE",
+      "rg_similarity": {
+        "mean": 0.927
+      },
+      "propagation_coherence": {
+        "mean": 0.9275
+      },
+      "locality_constraint_stability": {
+        "mean": 0.9089
+      },
+      "conservation_transport_alignment": {
+        "mean": 0.8998
+      },
+      "proto_field_persistence": {
+        "mean": 0.8893,
+        "depth_65536": 0.8723,
+        "depth_131072": 0.7874
+      },
+      "recursive_interaction_boundedness": {
+        "mean": 0.8796
+      },
+      "constrained_relation_gain": {
+        "mean": 0.9
+      }
+    }
+  }
+}

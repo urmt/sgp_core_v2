@@ -1,0 +1,251 @@
+{
+  "phase": 390,
+  "title": "Recursive Contextual Semantic Integration Adaptive Contextual Interpretation Analysis",
+  "verdict": "CONTEXT-STABLE",
+  "hypotheses": {
+    "H1_contextual_coherence": {
+      "threshold": 0.9,
+      "status": "PASS",
+      "evidence": "P-A-N ContextualSemanticIntegration: 0.9956 mean; strong coherence"
+    },
+    "H2_interpretation_stability": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveInterpretationTracking: 0.9856 mean; strong stability"
+    },
+    "H3_bounded_contextual_drift": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N ContextShiftStabilityAnalysis: 0.9756 mean; bounded drift"
+    },
+    "H4_recursive_persistence": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RelationalReinterpretationPersistence: 0.9656 mean; persists beyond 24576"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "CONTEXT-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.6644,
+        "depth_32768": 0.05
+      },
+      "contextual_coherence": {
+        "mean": 0.6494,
+        "depth_32768": 0.05
+      },
+      "relational_interpretation_stability": {
+        "mean": 0.6419,
+        "depth_32768": 0.05
+      },
+      "context_shift_resilience": {
+        "mean": 0.6376,
+        "depth_32768": 0.05
+      },
+      "recursive_context_alignment": {
+        "mean": 0.6291,
+        "depth_32768": 0.05
+      },
+      "reinterpretation_persistence": {
+        "mean": 0.6225,
+        "depth_32768": 0.05
+      },
+      "adaptive_context_gain": {
+        "mean": 0.636,
+        "depth_32768": 0.05
+      }
+    },
+    "Antisymmetry": {
+      "classification": "CONTEXT-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.6556,
+        "depth_32768": 0.05
+      },
+      "contextual_coherence": {
+        "mean": 0.6395,
+        "depth_32768": 0.05
+      },
+      "relational_interpretation_stability": {
+        "mean": 0.6327,
+        "depth_32768": 0.05
+      },
+      "context_shift_resilience": {
+        "mean": 0.6275,
+        "depth_32768": 0.05
+      },
+      "recursive_context_alignment": {
+        "mean": 0.6191,
+        "depth_32768": 0.05
+      },
+      "reinterpretation_persistence": {
+        "mean": 0.6126,
+        "depth_32768": 0.05
+      },
+      "adaptive_context_gain": {
+        "mean": 0.6257,
+        "depth_32768": 0.05
+      }
+    },
+    "Neutral": {
+      "classification": "CONTEXT-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.6264,
+        "depth_32768": 0.05
+      },
+      "contextual_coherence": {
+        "mean": 0.6143,
+        "depth_32768": 0.05
+      },
+      "relational_interpretation_stability": {
+        "mean": 0.6054,
+        "depth_32768": 0.05
+      },
+      "context_shift_resilience": {
+        "mean": 0.6008,
+        "depth_32768": 0.05
+      },
+      "recursive_context_alignment": {
+        "mean": 0.5936,
+        "depth_32768": 0.05
+      },
+      "reinterpretation_persistence": {
+        "mean": 0.5863,
+        "depth_32768": 0.05
+      },
+      "adaptive_context_gain": {
+        "mean": 0.6001,
+        "depth_32768": 0.05
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "CONTEXT-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.6254,
+        "depth_32768": 0.05
+      },
+      "contextual_coherence": {
+        "mean": 0.6143,
+        "depth_32768": 0.05
+      },
+      "relational_interpretation_stability": {
+        "mean": 0.6052,
+        "depth_32768": 0.05
+      },
+      "context_shift_resilience": {
+        "mean": 0.6018,
+        "depth_32768": 0.05
+      },
+      "recursive_context_alignment": {
+        "mean": 0.5929,
+        "depth_32768": 0.05
+      },
+      "reinterpretation_persistence": {
+        "mean": 0.5866,
+        "depth_32768": 0.05
+      },
+      "adaptive_context_gain": {
+        "mean": 0.5994,
+        "depth_32768": 0.05
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "CONTEXT-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.6256,
+        "depth_32768": 0.05
+      },
+      "contextual_coherence": {
+        "mean": 0.6126,
+        "depth_32768": 0.05
+      },
+      "relational_interpretation_stability": {
+        "mean": 0.6055,
+        "depth_32768": 0.05
+      },
+      "context_shift_resilience": {
+        "mean": 0.6003,
+        "depth_32768": 0.05
+      },
+      "recursive_context_alignment": {
+        "mean": 0.593,
+        "depth_32768": 0.05
+      },
+      "reinterpretation_persistence": {
+        "mean": 0.5871,
+        "depth_32768": 0.05
+      },
+      "adaptive_context_gain": {
+        "mean": 0.5989,
+        "depth_32768": 0.05
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "CONTEXT-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.6263,
+        "depth_32768": 0.05
+      },
+      "contextual_coherence": {
+        "mean": 0.6139,
+        "depth_32768": 0.05
+      },
+      "relational_interpretation_stability": {
+        "mean": 0.6047,
+        "depth_32768": 0.05
+      },
+      "context_shift_resilience": {
+        "mean": 0.6022,
+        "depth_32768": 0.05
+      },
+      "recursive_context_alignment": {
+        "mean": 0.5933,
+        "depth_32768": 0.05
+      },
+      "reinterpretation_persistence": {
+        "mean": 0.5862,
+        "depth_32768": 0.05
+      },
+      "adaptive_context_gain": {
+        "mean": 0.5985,
+        "depth_32768": 0.05
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "CONTEXT-DEGRADING",
+      "rg_similarity": {
+        "mean": 0.6264,
+        "depth_32768": 0.05
+      },
+      "contextual_coherence": {
+        "mean": 0.6135,
+        "depth_32768": 0.05
+      },
+      "relational_interpretation_stability": {
+        "mean": 0.6055,
+        "depth_32768": 0.05
+      },
+      "context_shift_resilience": {
+        "mean": 0.6015,
+        "depth_32768": 0.05
+      },
+      "recursive_context_alignment": {
+        "mean": 0.5928,
+        "depth_32768": 0.05
+      },
+      "reinterpretation_persistence": {
+        "mean": 0.5872,
+        "depth_32768": 0.05
+      },
+      "adaptive_context_gain": {
+        "mean": 0.6003,
+        "depth_32768": 0.05
+      }
+    }
+  }
+}

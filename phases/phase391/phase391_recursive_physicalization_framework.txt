@@ -1,0 +1,60 @@
+# Phase 391 Framework: Recursive Physicalization and Constrained Relational Dynamics
+
+## Purpose
+Determine whether recursively stabilized semantic-relational systems can generate constrained proto-physical organizational behavior through recursive interaction, transport limitation, and conservation structure.
+
+## Core Distinction
+contextual semantic-relational organization vs constrained proto-physical recursive dynamics
+
+## Structure
+
+### 1. Constrained Transport Propagation
+- Propagate relational constraints through recursive depth
+- Measure propagation coherence (PC)
+- Identify transport-stable propagation pathways
+
+### 2. Recursive Locality Emergence
+- Track locality-like organization emergence across recursion
+- Measure locality constraint stability (LCS)
+- Identify stable locality boundaries
+
+### 3. Conservation-Bound Interaction
+- Apply conservation-like restrictions to relational interactions
+- Measure conservation transport alignment (CTA)
+- Identify conservation-stable interaction regimes
+
+### 4. Proto-Field Coherence Mapping
+- Map field-like coherence patterns in recursive structure
+- Measure proto-field persistence (PFP)
+- Identify persistent field-like organization
+
+### 5. Recursive Propagation Persistence
+- Track propagation persistence through extreme depths
+- Measure propagation coherence at depth 65536+
+- Identify depth-independent propagation modes
+
+### 6. Interaction-Limited Stabilization
+- Analyze boundedness of recursive interactions
+- Measure recursive interaction boundedness (RIB)
+- Identify stabilization thresholds
+
+### 7. Null Physicalization Controls
+- Randomized relational baselines
+- Confirm proto-physical signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- propagation_coherence (PC)
+- locality_constraint_stability (LCS)
+- conservation_transport_alignment (CTA)
+- proto_field_persistence (PFP)
+- recursive_interaction_boundedness (RIB)
+- rg_similarity (RGS)
+- constrained_relation_gain (CRG)
+
+## Classification Thresholds
+- PROTO-PHYSICAL-STABLE: PC > 0.90, LCS > 0.85, CTA > 0.85
+- PROTO-PHYSICAL-BOUNDED: PC > 0.80, LCS > 0.75, CTA > 0.75
+- PROTO-PHYSICAL-PARTIAL: PC > 0.70, LCS > 0.65, CTA > 0.65
+- PROTO-PHYSICAL-DEGRADING: PC > 0.55
+- PROTO-PHYSICAL-FAILED: PC <= 0.55
