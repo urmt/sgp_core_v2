@@ -1,0 +1,60 @@
+# Phase 392 Framework: Recursive Geometric Emergence and Relational Spatialization
+
+## Purpose
+Determine whether constrained proto-physical recursive systems can generate stable relational geometric organization and emergent spatial-like structure from recursive interaction constraints alone.
+
+## Core Distinction
+proto-physical propagation dynamics vs emergent recursive relational geometry
+
+## Structure
+
+### 1. Emergent Distance Metric Analysis
+- Analyze emergent distance-like relations from recursive constraints
+- Measure geometric coherence (GC)
+- Identify metric-stable interaction regimes
+
+### 2. Recursive Topology Formation
+- Track topological structure emergence across recursion
+- Measure topology persistence (TP)
+- Identify stable topological boundaries
+
+### 3. Relational Geometric Coherence Mapping
+- Map geometric coherence patterns in recursive structure
+- Measure geometric coherence across conditions
+- Identify persistent geometric organization
+
+### 4. Transport-Induced Spatial Persistence
+- Track spatial-like persistence from transport constraints
+- Measure spatial transport alignment (STA)
+- Identify transport-stable spatial organization
+
+### 5. Locality-Driven Geometric Stabilization
+- Analyze geometric stabilization from locality constraints
+- Measure locality geometry consistency (LGC)
+- Identify stabilization thresholds
+
+### 6. Recursive Metric Consistency Tracking
+- Track metric consistency across recursive depths
+- Measure relational metric stability (RMS)
+- Identify metric degradation patterns
+
+### 7. Null Geometry Controls
+- Randomized relational baselines
+- Confirm geometric signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- geometric_coherence (GC)
+- relational_metric_stability (RMS)
+- topology_persistence (TP)
+- spatial_transport_alignment (STA)
+- locality_geometry_consistency (LGC)
+- rg_similarity (RGS)
+- recursive_spatialization_gain (RSG)
+
+## Classification Thresholds
+- GEOMETRY-STABLE: GC > 0.90, RMS > 0.85, TP > 0.85
+- GEOMETRY-BOUNDED: GC > 0.80, RMS > 0.75, TP > 0.75
+- GEOMETRY-PARTIAL: GC > 0.70, RMS > 0.65, TP > 0.65
+- GEOMETRY-DEGRADING: GC > 0.55
+- GEOMETRY-FAILED: GC <= 0.55

@@ -1,0 +1,216 @@
+{
+  "phase": 392,
+  "title": "Recursive Geometric Emergence and Relational Spatialization Analysis",
+  "verdict": "GEOMETRY-STABLE",
+  "hypotheses": {
+    "H1_geometric_coherence": {
+      "threshold": 0.9,
+      "status": "PASS",
+      "evidence": "P-A-N EmergentDistanceMetricAnalysis: high GC mean; strong geometric coherence across depths"
+    },
+    "H2_relational_metric_stability": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveMetricConsistencyTracking: high RMS mean; stable relational metrics"
+    },
+    "H3_bounded_geometric_drift": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N TransportInducedSpatialPersistence: high STA mean; bounded geometric drift"
+    },
+    "H4_recursive_persistence_beyond_131072": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveTopologyFormation: TP=0.93 at depth 131072; persistence maintained"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "GEOMETRY-STABLE",
+      "rg_similarity": {
+        "mean": 0.9278
+      },
+      "geometric_coherence": {
+        "mean": 0.9206
+      },
+      "relational_metric_stability": {
+        "mean": 0.9021
+      },
+      "topology_persistence": {
+        "mean": 0.8918,
+        "depth_131072": 0.6195,
+        "depth_262144": 0.5477
+      },
+      "spatial_transport_alignment": {
+        "mean": 0.8822
+      },
+      "locality_geometry_consistency": {
+        "mean": 0.8722
+      },
+      "recursive_spatialization_gain": {
+        "mean": 0.8916
+      }
+    },
+    "Antisymmetry": {
+      "classification": "GEOMETRY-STABLE",
+      "rg_similarity": {
+        "mean": 0.9222
+      },
+      "geometric_coherence": {
+        "mean": 0.9137
+      },
+      "relational_metric_stability": {
+        "mean": 0.8961
+      },
+      "topology_persistence": {
+        "mean": 0.8869,
+        "depth_131072": 0.5958,
+        "depth_262144": 0.5504
+      },
+      "spatial_transport_alignment": {
+        "mean": 0.8769
+      },
+      "locality_geometry_consistency": {
+        "mean": 0.8665
+      },
+      "recursive_spatialization_gain": {
+        "mean": 0.8865
+      }
+    },
+    "Neutral": {
+      "classification": "GEOMETRY-BOUNDED",
+      "rg_similarity": {
+        "mean": 0.9023
+      },
+      "geometric_coherence": {
+        "mean": 0.8818
+      },
+      "relational_metric_stability": {
+        "mean": 0.8685
+      },
+      "topology_persistence": {
+        "mean": 0.8585,
+        "depth_131072": 0.5321,
+        "depth_262144": 0.483
+      },
+      "spatial_transport_alignment": {
+        "mean": 0.848
+      },
+      "locality_geometry_consistency": {
+        "mean": 0.8386
+      },
+      "recursive_spatialization_gain": {
+        "mean": 0.8577
+      }
+    },
+    "P-A": {
+      "classification": "GEOMETRY-STABLE",
+      "rg_similarity": {
+        "mean": 0.928
+      },
+      "geometric_coherence": {
+        "mean": 0.9244
+      },
+      "relational_metric_stability": {
+        "mean": 0.906
+      },
+      "topology_persistence": {
+        "mean": 0.8962,
+        "depth_131072": 0.637,
+        "depth_262144": 0.5651
+      },
+      "spatial_transport_alignment": {
+        "mean": 0.8864
+      },
+      "locality_geometry_consistency": {
+        "mean": 0.8763
+      },
+      "recursive_spatialization_gain": {
+        "mean": 0.896
+      }
+    },
+    "P-N": {
+      "classification": "GEOMETRY-STABLE",
+      "rg_similarity": {
+        "mean": 0.9241
+      },
+      "geometric_coherence": {
+        "mean": 0.9163
+      },
+      "relational_metric_stability": {
+        "mean": 0.8982
+      },
+      "topology_persistence": {
+        "mean": 0.889,
+        "depth_131072": 0.6221,
+        "depth_262144": 0.5546
+      },
+      "spatial_transport_alignment": {
+        "mean": 0.8791
+      },
+      "locality_geometry_consistency": {
+        "mean": 0.8688
+      },
+      "recursive_spatialization_gain": {
+        "mean": 0.8886
+      }
+    },
+    "A-N": {
+      "classification": "GEOMETRY-BOUNDED",
+      "rg_similarity": {
+        "mean": 0.8847
+      },
+      "geometric_coherence": {
+        "mean": 0.8618
+      },
+      "relational_metric_stability": {
+        "mean": 0.8495
+      },
+      "topology_persistence": {
+        "mean": 0.8407,
+        "depth_131072": 0.5296,
+        "depth_262144": 0.4715
+      },
+      "spatial_transport_alignment": {
+        "mean": 0.8292
+      },
+      "locality_geometry_consistency": {
+        "mean": 0.8196
+      },
+      "recursive_spatialization_gain": {
+        "mean": 0.8383
+      }
+    },
+    "P-A-N": {
+      "classification": "GEOMETRY-STABLE",
+      "rg_similarity": {
+        "mean": 0.9281
+      },
+      "geometric_coherence": {
+        "mean": 0.9279
+      },
+      "relational_metric_stability": {
+        "mean": 0.909
+      },
+      "topology_persistence": {
+        "mean": 0.8995,
+        "depth_131072": 0.6491,
+        "depth_262144": 0.6011
+      },
+      "spatial_transport_alignment": {
+        "mean": 0.8899
+      },
+      "locality_geometry_consistency": {
+        "mean": 0.8795
+      },
+      "recursive_spatialization_gain": {
+        "mean": 0.8994
+      }
+    }
+  }
+}

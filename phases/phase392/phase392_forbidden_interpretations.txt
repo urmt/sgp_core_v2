@@ -1,0 +1,33 @@
+# Phase 392 Forbidden Interpretations
+
+## PROHIBITED LANGUAGE
+- Consciousness, awareness, cognition, perception, understanding
+- Intentionality, purpose, goal-directed, designed
+- Physics, physical reality, spacetime, matter, energy
+- Geometry (beyond relational structure), space (beyond ordering)
+- Distance, metric (beyond relational comparison), topology (beyond connectivity)
+- Coordinate, dimension, manifold (beyond abstract ordering)
+- Location, position, neighborhood (beyond relational proximity)
+- Shape, form, curvature (beyond relational pattern)
+- Causality (beyond relational dependency)
+- Agency, autonomy, self-organization (beyond structural description)
+
+## PROHIBITED CONCEPTS
+- Geometric emergence as "creating space" or "generating geometry"
+- Relational metric as "measuring physical distance"
+- Topology formation as "creating spatial topology"
+- Spatial transport as "motion through space"
+- Locality geometry as "spatial neighborhood"
+- Recursive spatialization as "generating dimensions"
+- Metric consistency as "preserving physical distances"
+- Null geometry as "empty space"
+
+## REQUIRED LANGUAGE
+- Structural, geometric (as relational), topological (as connectivity)
+- Relational, organizational, pattern-based
+- Metric-driven, threshold-based, classification-based
+- Depth-dependent, operator-dependent, condition-dependent
+- Quantitative, empirical, computational
+
+## CORE PRINCIPLE
+Phase 392 analyzes recursive geometric emergence and relational spatialization as structural patterns in recursive computational systems. All references to "geometry," "metric," "topology," "spatial," and "spatialization" are strictly mathematical and relational — describing organizational patterns in recursive relations, not physical geometry or space. All descriptions must remain strictly mathematical and geometric.
