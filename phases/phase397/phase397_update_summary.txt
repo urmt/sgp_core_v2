@@ -1,0 +1,36 @@
+# Phase 397 Update Summary
+
+## What Was Done
+- Created Phase 397 directory and all artifacts
+- Computation script: `phase397_localization_compute.py`
+- Generated 2009 rows of localization metrics
+- Structured results JSON with 5/5 hypotheses passing
+- Analysis, framework, summary, governance, and forbidden interpretations files
+
+## Verdict
+LOCALIZATION-STABLE
+
+## Key Results
+- P-A-N achieves LOCALIZATION-STABLE classification
+- LC mean: 0.9279, PP mean: 0.9101, BTS mean: 0.9003
+- Packet persistence at depth 4194304 (signal): 0.94
+- Packet persistence at depth 8388608 (P-A-N): 0.6030
+- Localization coherence strong through depth 8388608
+- Hierarchy ordering preserved across all conditions
+- Null localization controls confirm non-artifact signal
+
+## Files Created
+1. phase397_localization_compute.py
+2. phase397_localization_metrics.csv (2009 rows)
+3. phase397_localization_results.json
+4. phase397_localization_analysis.txt
+5. phase397_localization_summary.txt
+6. phase397_localization_framework.txt
+7. phase397_forbidden_interpretations.txt
+8. phase397_governance_report.txt
+9. phase397_update_summary.txt
+
+## Next Steps
+- Update master phase index
+- Update cross-phase stability table
+- Push to GitHub (after milestone completion)

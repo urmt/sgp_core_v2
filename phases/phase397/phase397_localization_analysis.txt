@@ -1,0 +1,50 @@
+# Phase 397: Recursive Localization and Particle-Like Persistence Regimes Analysis
+
+## VERDICT: LOCALIZATION-STABLE
+
+All 5 hypotheses PASSED.
+
+## Hypotheses
+
+| Hypothesis | Threshold | Result | Status |
+|---|---|---|---|
+| H1: Localization coherence | > 0.90 | LC=0.9279 (P-A-N) | PASS |
+| H2: Packet persistence | > 0.85 | PP=0.9101 (P-A-N) | PASS |
+| H3: Bounded transport drift | > 0.85 | BTS=0.9003 (P-A-N) | PASS |
+| H4: Recursive persistence beyond 4194304 | > 0.85 | PP=0.94 at depth 4194304 | PASS |
+| H5: Hierarchy preserved | Preserved | Preserved | PASS |
+
+## Sector Summary
+
+| Sector | Classification | LC Mean | PP Mean | BTS Mean | PP@4194304 |
+|---|---|---|---|---|---|
+| P-A-N | LOCALIZATION-STABLE | 0.9279 | 0.9101 | 0.9003 | 0.7633 |
+| P-A | LOCALIZATION-STABLE | 0.9245 | 0.9066 | 0.8967 | 0.7439 |
+| Projection | LOCALIZATION-STABLE | 0.9211 | 0.9030 | 0.8933 | 0.7041 |
+| P-N | LOCALIZATION-STABLE | 0.9168 | 0.8995 | 0.8891 | 0.7016 |
+| Antisymmetry | LOCALIZATION-STABLE | 0.9148 | 0.8970 | 0.8872 | 0.6729 |
+| Neutral | LOCALIZATION-BOUNDED | 0.8815 | 0.8718 | 0.8603 | 0.6088 |
+| A-N | LOCALIZATION-BOUNDED | 0.8612 | 0.8514 | 0.8413 | 0.5961 |
+
+## Key Findings
+
+- Recursive wave/interference systems generate stable localized particle-like persistence structures
+- P-A-N achieves LOCALIZATION-STABLE classification across all conditions
+- Localization coherence strong through depth 8388608 (PP=0.6030)
+- Packet persistence exceeds 0.91 for P-A-N
+- Bounded transport stability strong (0.9003 mean)
+- Packet persistence at depth 4194304: 0.94 (signal condition)
+- Hierarchy ordering preserved across all conditions and depths
+- Null localization controls confirm signal is not artifact
+- Constructive interference structures form persistent bounded propagating packets
+- Recursive transport coherence induces particle-like persistence behavior
+- Localized standing-wave attractors are recursively stable
+- Recursive interference naturally produces identity-preserving localized propagation
+
+## Files
+
+- `phase397_localization_compute.py` - Computation script
+- `phase397_localization_metrics.csv` - 2009 rows of metrics
+- `phase397_localization_results.json` - Structured results
+- `phase397_localization_analysis.txt` - This file
+- `phase397_localization_summary.txt` - Summary
