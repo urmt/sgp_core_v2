@@ -1,0 +1,6 @@
+hypothesis,condition,value,threshold,pass
+H1_FormallyDerivableInvariants,Non-axiom provable/conditional elements >= 3,2,3,FAIL
+H2_EmpiricalNonUniversal,Empirical/contingent elements >= 5,15,5,PASS
+H3_PredictiveCeilingsTheoremLevel,Irreducible elements >= 1,2,1,PASS
+H4_UndecidabilityRegionsExist,Elements with URS >= 0.30 >= 3,5,3,PASS
+H5_NecessaryContingentSeparable,Provable/conditional >= 3 AND contingent/empirical >= 5,"{'provable_or_conditional': 5, 'contingent_or_empirical': 15}","{'provable_or_conditional': 3, 'contingent_or_empirical': 5}",PASS

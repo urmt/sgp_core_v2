@@ -1,0 +1,95 @@
+# Phase 410: Theorem-Boundary Framework
+
+## Objective
+Separate the recursive emergence framework into:
+- Provable invariants (formally derivable from axioms)
+- Empirical regularities (observed but not derivable)
+- Contingent structures (dependent on specific assumptions)
+- Irreducible uncertainty regions (inherently unpredictable)
+
+## Method
+Each formal element from Phase 405 (3 axioms, 5 invariants,
+11 theorem candidates, 3 universality candidates) is evaluated
+against 6 critical metrics to determine its mathematical status.
+
+## Six Critical Metrics
+
+### 1. theorem_derivability_index (TDI) [0, 1]
+How close to a full formal proof?
+- 1.0 = fully proved from axioms
+- 0.8-0.99 = proof sketch exists, gap fillable in principle
+- 0.5-0.79 = partial proof, significant gaps
+- 0.1-0.49 = plausible conjecture, no proof path
+- 0.0 = known to be false or unprovable
+
+### 2. empirical_dependency_score (EDS) [0, 1]
+How much empirical evidence does it rely on?
+- 1.0 = purely empirical (no formal derivation)
+- 0.5 = mix of logic and evidence
+- 0.0 = purely formal (self-evident from axioms)
+
+### 3. universality_confidence (UC) [0, 1]
+How universal is the claim?
+- 1.0 = holds for all possible recursive relational systems
+- 0.5 = holds for a broad class of systems
+- 0.0 = specific to P-A-N operator set
+
+### 4. contingency_density (CD) [0, inf]
+Number of contingent assumptions required.
+- 0 = no contingent assumptions (pure proof)
+- n = depends on n specific assumptions beyond axioms
+
+### 5. undecidability_region_size (URS) [0, 1]
+Fraction of configuration space where the claim is undecidable.
+- 0.0 = decidable everywhere
+- 0.5 = undecidable in half of configuration space
+- 1.0 = undecidable everywhere
+
+### 6. proof_completeness_ratio (PCR) [0, 1]
+Ratio of proved sub-claims to total sub-claims.
+- 1.0 = all sub-claims proved
+- 0.5 = half proved
+- 0.0 = none proved
+
+## Category Labels
+Based on metric profiles, each element maps to one of:
+
+| Label | Criteria | Meaning |
+|-------|----------|---------|
+| PROVABLE | TDI >= 0.90, EDS <= 0.15 | Mathematically necessary |
+| CONDITIONAL | TDI >= 0.70, EDS <= 0.40 | Provable under specific assumptions |
+| EMPIRICAL | TDI < 0.70, EDS >= 0.50 | Supported by evidence, not provable |
+| CONTINGENT | CD >= 3, EDS >= 0.60 | Dependent on specific configuration |
+| IRREDUCIBLE | URS >= 0.40, PCR <= 0.30 | Inherent uncertainty region |
+
+## Elements to Analyze
+
+### Axioms (3)
+1. A1: Operator Existence
+2. A2: Operator Composition
+3. A3: Depth Dependence
+
+### Invariants (5)
+4. I1: Bounded Degradation (RSF > 0.80)
+5. I2: Recovery (lim RSF = 1.0)
+6. I3: Sector Order Conservation
+7. I4: Operator Composition Invariant
+8. I5: Null Separation
+
+### Theorem Candidates (11)
+9.  T1: Hierarchy Existence
+10. T2: Hierarchy Depth Invariance
+11. T3: Hierarchy Formalism Invariance
+12. T4: Coherence Stability
+13. T5: Perturbation Robustness
+14. T6: Necessity Hierarchy (P > A > N)
+15. T7: Minimal Sufficiency (P+A)
+16. T8: Universal Hierarchy Preservation
+17. T9: Formalism Invariance (FIS)
+18. T10: Superlinear Efficiency
+19. T11: Irreducible Complexity
+
+### Universality Candidates (3)
+20. U1: Operator Necessity Universality
+21. U2: Emergence Sequence Universality
+22. U3: Depth Scaling Universality

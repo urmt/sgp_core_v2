@@ -1,0 +1,374 @@
+{
+  "phase": 410,
+  "name": "THEOREM-BOUNDARY",
+  "elements_analyzed": 22,
+  "results": {
+    "A1": {
+      "name": "Operator Existence",
+      "type": "Axiom",
+      "description": "Operators P, A, N exist and are distinct",
+      "metrics": {
+        "theorem_derivability_index": 1.0,
+        "empirical_dependency_score": 0.0,
+        "universality_confidence": 1.0,
+        "contingency_density": 0,
+        "undecidability_region_size": 0.0,
+        "proof_completeness_ratio": 1.0
+      },
+      "category": "PROVABLE"
+    },
+    "A2": {
+      "name": "Operator Composition",
+      "type": "Axiom",
+      "description": "Composite operators defined by sequential application, associative",
+      "metrics": {
+        "theorem_derivability_index": 1.0,
+        "empirical_dependency_score": 0.0,
+        "universality_confidence": 1.0,
+        "contingency_density": 0,
+        "undecidability_region_size": 0.0,
+        "proof_completeness_ratio": 1.0
+      },
+      "category": "PROVABLE"
+    },
+    "A3": {
+      "name": "Depth Dependence",
+      "type": "Axiom",
+      "description": "Emergence decreases monotonically with depth",
+      "metrics": {
+        "theorem_derivability_index": 1.0,
+        "empirical_dependency_score": 0.0,
+        "universality_confidence": 1.0,
+        "contingency_density": 0,
+        "undecidability_region_size": 0.0,
+        "proof_completeness_ratio": 1.0
+      },
+      "category": "PROVABLE"
+    },
+    "I1": {
+      "name": "Bounded Degradation",
+      "type": "Invariant",
+      "description": "RSF > 0.80 under all validated perturbation types",
+      "metrics": {
+        "theorem_derivability_index": 0.25,
+        "empirical_dependency_score": 0.85,
+        "universality_confidence": 0.35,
+        "contingency_density": 4,
+        "undecidability_region_size": 0.3,
+        "proof_completeness_ratio": 0.2
+      },
+      "category": "CONTINGENT"
+    },
+    "I2": {
+      "name": "Recovery",
+      "type": "Invariant",
+      "description": "lim_{d->inf} RSF = 1.0 for decaying perturbations",
+      "metrics": {
+        "theorem_derivability_index": 0.2,
+        "empirical_dependency_score": 0.8,
+        "universality_confidence": 0.3,
+        "contingency_density": 5,
+        "undecidability_region_size": 0.35,
+        "proof_completeness_ratio": 0.15
+      },
+      "category": "CONTINGENT"
+    },
+    "I3": {
+      "name": "Sector Order Conservation",
+      "type": "Invariant",
+      "description": "Hierarchy preserved across all depths",
+      "metrics": {
+        "theorem_derivability_index": 0.85,
+        "empirical_dependency_score": 0.2,
+        "universality_confidence": 0.7,
+        "contingency_density": 1,
+        "undecidability_region_size": 0.05,
+        "proof_completeness_ratio": 0.7
+      },
+      "category": "CONDITIONAL"
+    },
+    "I4": {
+      "name": "Operator Composition Invariant",
+      "type": "Invariant",
+      "description": "Emergence ratios independent of initial configuration",
+      "metrics": {
+        "theorem_derivability_index": 0.6,
+        "empirical_dependency_score": 0.4,
+        "universality_confidence": 0.5,
+        "contingency_density": 2,
+        "undecidability_region_size": 0.15,
+        "proof_completeness_ratio": 0.45
+      },
+      "category": "EMPIRICAL"
+    },
+    "I5": {
+      "name": "Null Separation",
+      "type": "Invariant",
+      "description": "Signal-to-null ratio > 10x",
+      "metrics": {
+        "theorem_derivability_index": 0.3,
+        "empirical_dependency_score": 0.75,
+        "universality_confidence": 0.4,
+        "contingency_density": 3,
+        "undecidability_region_size": 0.2,
+        "proof_completeness_ratio": 0.25
+      },
+      "category": "CONTINGENT"
+    },
+    "T1": {
+      "name": "Hierarchy Existence",
+      "type": "Theorem Candidate",
+      "description": "P-A-N > P-A > Projection > P-N > Antisymmetry > Neutral > A-N",
+      "metrics": {
+        "theorem_derivability_index": 0.4,
+        "empirical_dependency_score": 0.65,
+        "universality_confidence": 0.45,
+        "contingency_density": 2,
+        "undecidability_region_size": 0.1,
+        "proof_completeness_ratio": 0.3
+      },
+      "category": "EMPIRICAL"
+    },
+    "T2": {
+      "name": "Hierarchy Depth Invariance",
+      "type": "Theorem Candidate",
+      "description": "Ordering preserved across all validated depths",
+      "metrics": {
+        "theorem_derivability_index": 0.8,
+        "empirical_dependency_score": 0.25,
+        "universality_confidence": 0.65,
+        "contingency_density": 1,
+        "undecidability_region_size": 0.05,
+        "proof_completeness_ratio": 0.65
+      },
+      "category": "CONDITIONAL"
+    },
+    "T3": {
+      "name": "Hierarchy Formalism Invariance",
+      "type": "Theorem Candidate",
+      "description": "Ordering preserved across 14 mathematical formalisms",
+      "metrics": {
+        "theorem_derivability_index": 0.35,
+        "empirical_dependency_score": 0.8,
+        "universality_confidence": 0.5,
+        "contingency_density": 2,
+        "undecidability_region_size": 0.15,
+        "proof_completeness_ratio": 0.25
+      },
+      "category": "EMPIRICAL"
+    },
+    "T4": {
+      "name": "Coherence Stability",
+      "type": "Theorem Candidate",
+      "description": "Composite coherence > 0.90 through half-max depth",
+      "metrics": {
+        "theorem_derivability_index": 0.3,
+        "empirical_dependency_score": 0.75,
+        "universality_confidence": 0.35,
+        "contingency_density": 3,
+        "undecidability_region_size": 0.2,
+        "proof_completeness_ratio": 0.2
+      },
+      "category": "CONTINGENT"
+    },
+    "T5": {
+      "name": "Perturbation Robustness",
+      "type": "Theorem Candidate",
+      "description": "min RSF > 0.83 across 14 perturbation types",
+      "metrics": {
+        "theorem_derivability_index": 0.2,
+        "empirical_dependency_score": 0.85,
+        "universality_confidence": 0.3,
+        "contingency_density": 4,
+        "undecidability_region_size": 0.25,
+        "proof_completeness_ratio": 0.15
+      },
+      "category": "CONTINGENT"
+    },
+    "T6": {
+      "name": "Necessity Hierarchy",
+      "type": "Theorem Candidate",
+      "description": "ONI(P) > ONI(A) > ONI(N)",
+      "metrics": {
+        "theorem_derivability_index": 0.55,
+        "empirical_dependency_score": 0.5,
+        "universality_confidence": 0.55,
+        "contingency_density": 2,
+        "undecidability_region_size": 0.1,
+        "proof_completeness_ratio": 0.4
+      },
+      "category": "EMPIRICAL"
+    },
+    "T7": {
+      "name": "Minimal Sufficiency",
+      "type": "Theorem Candidate",
+      "description": "{P, A} minimally sufficient, no single operator suffices",
+      "metrics": {
+        "theorem_derivability_index": 0.65,
+        "empirical_dependency_score": 0.4,
+        "universality_confidence": 0.6,
+        "contingency_density": 1,
+        "undecidability_region_size": 0.1,
+        "proof_completeness_ratio": 0.5
+      },
+      "category": "EMPIRICAL"
+    },
+    "T8": {
+      "name": "Universal Hierarchy Preservation",
+      "type": "Theorem Candidate",
+      "description": "HPR = 1.0 across 56/57 tested conditions",
+      "metrics": {
+        "theorem_derivability_index": 0.25,
+        "empirical_dependency_score": 0.85,
+        "universality_confidence": 0.4,
+        "contingency_density": 3,
+        "undecidability_region_size": 0.2,
+        "proof_completeness_ratio": 0.2
+      },
+      "category": "CONTINGENT"
+    },
+    "T9": {
+      "name": "Formalism Invariance",
+      "type": "Theorem Candidate",
+      "description": "FIS > 0.80 for all major formalisms",
+      "metrics": {
+        "theorem_derivability_index": 0.3,
+        "empirical_dependency_score": 0.8,
+        "universality_confidence": 0.45,
+        "contingency_density": 2,
+        "undecidability_region_size": 0.15,
+        "proof_completeness_ratio": 0.2
+      },
+      "category": "EMPIRICAL"
+    },
+    "T10": {
+      "name": "Superlinear Efficiency",
+      "type": "Theorem Candidate",
+      "description": "CSF(rho) > rho for rho in [0.55, 1.0]",
+      "metrics": {
+        "theorem_derivability_index": 0.25,
+        "empirical_dependency_score": 0.8,
+        "universality_confidence": 0.3,
+        "contingency_density": 4,
+        "undecidability_region_size": 0.25,
+        "proof_completeness_ratio": 0.15
+      },
+      "category": "CONTINGENT"
+    },
+    "T11": {
+      "name": "Irreducible Complexity",
+      "type": "Theorem Candidate",
+      "description": "rho_min ~ 0.55-0.60 below which CSF < 0.60",
+      "metrics": {
+        "theorem_derivability_index": 0.2,
+        "empirical_dependency_score": 0.85,
+        "universality_confidence": 0.25,
+        "contingency_density": 4,
+        "undecidability_region_size": 0.3,
+        "proof_completeness_ratio": 0.1
+      },
+      "category": "CONTINGENT"
+    },
+    "U1": {
+      "name": "Operator Necessity Universality",
+      "type": "Universality Candidate",
+      "description": "P > A > N hierarchy universal for all recursive relational systems",
+      "metrics": {
+        "theorem_derivability_index": 0.25,
+        "empirical_dependency_score": 0.75,
+        "universality_confidence": 0.35,
+        "contingency_density": 3,
+        "undecidability_region_size": 0.4,
+        "proof_completeness_ratio": 0.1
+      },
+      "category": "IRREDUCIBLE"
+    },
+    "U2": {
+      "name": "Emergence Sequence Universality",
+      "type": "Universality Candidate",
+      "description": "Ordered emergence sequence universal across implementations",
+      "metrics": {
+        "theorem_derivability_index": 0.15,
+        "empirical_dependency_score": 0.85,
+        "universality_confidence": 0.25,
+        "contingency_density": 5,
+        "undecidability_region_size": 0.5,
+        "proof_completeness_ratio": 0.05
+      },
+      "category": "IRREDUCIBLE"
+    },
+    "U3": {
+      "name": "Depth Scaling Universality",
+      "type": "Universality Candidate",
+      "description": "gamma(d) = 1/(1 + k*(d-1)) universal with k as free parameter",
+      "metrics": {
+        "theorem_derivability_index": 0.5,
+        "empirical_dependency_score": 0.55,
+        "universality_confidence": 0.5,
+        "contingency_density": 2,
+        "undecidability_region_size": 0.2,
+        "proof_completeness_ratio": 0.35
+      },
+      "category": "EMPIRICAL"
+    }
+  },
+  "category_distribution": {
+    "PROVABLE": 3,
+    "CONTINGENT": 8,
+    "CONDITIONAL": 2,
+    "EMPIRICAL": 7,
+    "IRREDUCIBLE": 2
+  },
+  "composite_metrics": {
+    "mean_theorem_derivability_index": 0.47,
+    "mean_empirical_dependency_score": 0.58,
+    "mean_universality_confidence": 0.51,
+    "mean_contingency_density": 2.41,
+    "mean_undecidability_region_size": 0.18,
+    "mean_proof_completeness_ratio": 0.38,
+    "provable_fraction": 0.14,
+    "empirical_fraction": 0.68,
+    "irreducible_fraction": 0.09
+  },
+  "hypotheses": {
+    "H1_FormallyDerivableInvariants": {
+      "condition": "Non-axiom provable/conditional elements >= 3",
+      "value": 2,
+      "threshold": 3,
+      "pass": false
+    },
+    "H2_EmpiricalNonUniversal": {
+      "condition": "Empirical/contingent elements >= 5",
+      "value": 15,
+      "threshold": 5,
+      "pass": true
+    },
+    "H3_PredictiveCeilingsTheoremLevel": {
+      "condition": "Irreducible elements >= 1",
+      "value": 2,
+      "threshold": 1,
+      "pass": true
+    },
+    "H4_UndecidabilityRegionsExist": {
+      "condition": "Elements with URS >= 0.30 >= 3",
+      "value": 5,
+      "threshold": 3,
+      "pass": true
+    },
+    "H5_NecessaryContingentSeparable": {
+      "condition": "Provable/conditional >= 3 AND contingent/empirical >= 5",
+      "value": {
+        "provable_or_conditional": 5,
+        "contingent_or_empirical": 15
+      },
+      "threshold": {
+        "provable_or_conditional": 3,
+        "contingent_or_empirical": 5
+      },
+      "pass": true
+    }
+  },
+  "pass_count": 4,
+  "total_hypotheses": 5,
+  "verdict": "THEOREM-BOUNDARY-BOUNDED"
+}

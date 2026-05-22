@@ -1,0 +1,27 @@
+# Phase 410 Summary
+
+## Verdict: THEOREM-BOUNDARY-BOUNDED
+### Hypotheses: 4/5 PASS
+
+The recursive emergence framework is separated into mathematical
+components:
+
+## Category Distribution (22 elements)
+- PROVABLE: 3 (13.6%) — 3 axioms only
+- CONDITIONAL: 2 (9.1%) — Sector Order, Depth Invariance
+- EMPIRICAL: 7 (31.8%) — observed regularities
+- CONTINGENT: 8 (36.4%) — context-dependent
+- IRREDUCIBLE: 2 (9.1%) — Universality conjectures
+
+## Key Findings
+- **68% empirical/contingent**: framework is primarily evidence-based
+- **23% provable/conditional**: thin formal core (axioms + 2 invariants)
+- **9% irreducible**: two universality claims are speculation boundaries
+- H1 failed: only 2 non-axiom elements are formally derivable
+
+## Scientific Significance
+SFH-SGP is an empirical scientific theory with a limited formal
+core. The formal skeleton (axioms + conditional invariants) is
+small. Most findings depend on evidence or specific configurations.
+This is normal for a scientific theory — but refutes claims of
+mathematical universality.

@@ -1,0 +1,23 @@
+id,name,type,category,TDI,EDS,UC,CD,URS,PCR
+A1,Operator Existence,Axiom,PROVABLE,1.0,0.0,1.0,0,0.0,1.0
+A2,Operator Composition,Axiom,PROVABLE,1.0,0.0,1.0,0,0.0,1.0
+A3,Depth Dependence,Axiom,PROVABLE,1.0,0.0,1.0,0,0.0,1.0
+I1,Bounded Degradation,Invariant,CONTINGENT,0.25,0.85,0.35,4,0.3,0.2
+I2,Recovery,Invariant,CONTINGENT,0.2,0.8,0.3,5,0.35,0.15
+I3,Sector Order Conservation,Invariant,CONDITIONAL,0.85,0.2,0.7,1,0.05,0.7
+I4,Operator Composition Invariant,Invariant,EMPIRICAL,0.6,0.4,0.5,2,0.15,0.45
+I5,Null Separation,Invariant,CONTINGENT,0.3,0.75,0.4,3,0.2,0.25
+T1,Hierarchy Existence,Theorem Candidate,EMPIRICAL,0.4,0.65,0.45,2,0.1,0.3
+T2,Hierarchy Depth Invariance,Theorem Candidate,CONDITIONAL,0.8,0.25,0.65,1,0.05,0.65
+T3,Hierarchy Formalism Invariance,Theorem Candidate,EMPIRICAL,0.35,0.8,0.5,2,0.15,0.25
+T4,Coherence Stability,Theorem Candidate,CONTINGENT,0.3,0.75,0.35,3,0.2,0.2
+T5,Perturbation Robustness,Theorem Candidate,CONTINGENT,0.2,0.85,0.3,4,0.25,0.15
+T6,Necessity Hierarchy,Theorem Candidate,EMPIRICAL,0.55,0.5,0.55,2,0.1,0.4
+T7,Minimal Sufficiency,Theorem Candidate,EMPIRICAL,0.65,0.4,0.6,1,0.1,0.5
+T8,Universal Hierarchy Preservation,Theorem Candidate,CONTINGENT,0.25,0.85,0.4,3,0.2,0.2
+T9,Formalism Invariance,Theorem Candidate,EMPIRICAL,0.3,0.8,0.45,2,0.15,0.2
+T10,Superlinear Efficiency,Theorem Candidate,CONTINGENT,0.25,0.8,0.3,4,0.25,0.15
+T11,Irreducible Complexity,Theorem Candidate,CONTINGENT,0.2,0.85,0.25,4,0.3,0.1
+U1,Operator Necessity Universality,Universality Candidate,IRREDUCIBLE,0.25,0.75,0.35,3,0.4,0.1
+U2,Emergence Sequence Universality,Universality Candidate,IRREDUCIBLE,0.15,0.85,0.25,5,0.5,0.05
+U3,Depth Scaling Universality,Universality Candidate,EMPIRICAL,0.5,0.55,0.5,2,0.2,0.35

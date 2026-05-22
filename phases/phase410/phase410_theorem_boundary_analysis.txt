@@ -1,0 +1,92 @@
+# Phase 410 Analysis: Theorem-Boundary Separation
+
+## Verdict: THEOREM-BOUNDARY-BOUNDED (4/5)
+
+The recursive emergence framework is 68% empirical/contingent,
+23% provable/conditional, and 9% irreducible.
+
+## Category Distribution
+
+| Category | Count | Percentage | Elements |
+|----------|-------|------------|----------|
+| PROVABLE | 3 | 13.6% | A1, A2, A3 (all axioms) |
+| CONDITIONAL | 2 | 9.1% | I3, T2 |
+| EMPIRICAL | 7 | 31.8% | I4, T1, T3, T6, T7, T9, U3 |
+| CONTINGENT | 8 | 36.4% | I1, I2, I5, T4, T5, T8, T10, T11 |
+| IRREDUCIBLE | 2 | 9.1% | U1, U2 |
+
+## What Is Provable
+
+1. **Axioms (3)** — trivially provable as they are definitions.
+   - Operator Existence, Operator Composition, Depth Dependence.
+   - Self-evident within the framework.
+
+2. **Sector Order Conservation (I3, CONDITIONAL)** — If sector bases are
+   fixed and depth factor is separable, the hierarchy is preserved
+   across all depths. Proof requires one assumption (separability).
+
+3. **Hierarchy Depth Invariance (T2, CONDITIONAL)** — Derivable from
+   separability of depth factor. The ordering γ(d) · base_s preserves
+   ordering across d. One contingent assumption.
+
+## What Is Empirical
+
+Seven elements depend primarily on observational evidence:
+- Operator Composition Invariant (I4): ratio independence observed
+- Hierarchy Existence (T1): specific ordering is measured, not derived
+- Hierarchy Formalism Invariance (T3): 14 formalisms tested
+- Necessity Hierarchy (T6): P > A > N ordering partially intuitive
+- Minimal Sufficiency (T7): two operators needed — intuitive but
+  exact values (MOS) are measured
+- Formalism Invariance (T9): FIS values measured across formalisms
+- Depth Scaling Universality (U3): γ(d) form is plausible but k is
+  always empirical
+
+## What Is Contingent
+
+Eight elements depend on specific configurations and assumptions:
+- Bounded Degradation (I1): depends on perturbation type and amplitude
+- Recovery (I2): depends on perturbation decay profile
+- Null Separation (I5): depends on operator definitions
+- Coherence Stability (T4): threshold-dependent
+- Perturbation Robustness (T5): 14 specific perturbation types
+- Universal Hierarchy Preservation (T8): 56/57 conditions tested
+- Superlinear Efficiency (T10): compression-type specific
+- Irreducible Complexity (T11): threshold value is empirical
+
+These are NOT universal — they would change under different
+perturbation sets, different compression methods, or different
+threshold choices.
+
+## What Is Irreducible
+
+Two universality candidates are in irreducible uncertainty regions:
+- Operator Necessity Universality (U1): undecidable whether P > A > N
+  holds for ALL possible recursive systems (URS=0.40)
+- Emergence Sequence Universality (U2): insufficient evidence to
+  determine scope (URS=0.50, PCR=0.05)
+
+These are genuine speculation boundaries — we cannot determine
+their truth value within the current framework.
+
+## H1 Failure Analysis
+
+H1 (formally derivable invariants exist) failed: only 2 non-axiom
+elements meet the CONDITIONAL threshold. This is scientifically
+significant: the framework's theorems are overwhelmingly supported
+by empirical evidence, not formal proof.
+
+This does NOT invalidate the framework. It reveals its nature:
+an empirically-grounded structural theory with limited formal
+derivability.
+
+## Scientific Significance
+
+Phase 410 separates SFH-SGP into its mathematical components:
+- **Formal skeleton**: 3 axioms + 2 conditional invariants (23%)
+- **Empirical body**: 7 observed regularities (32%)
+- **Contingent periphery**: 8 context-dependent findings (36%)
+- **Speculation frontier**: 2 irreducible conjectures (9%)
+
+The framework is primarily an empirical theory with a thin formal
+core. It behaves like a scientific theory, not a mathematical theorem.

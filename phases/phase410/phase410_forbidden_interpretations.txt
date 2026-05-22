@@ -1,0 +1,36 @@
+# Phase 410: Forbidden Interpretations
+
+## STRICTLY FORBIDDEN
+
+1. **"68% empirical means the framework is unscientific."**
+   Empirical evidence is the foundation of science. Most scientific
+   theories are predominantly empirical. A formal theory with thin
+   empirical core is mathematics, not science.
+
+2. **"H1 failed, so the framework has no provable content."**
+   H1 failed only for the non-axiom threshold. Three axioms and
+   two conditional invariants are formally derivable. The framework
+   has a formal skeleton — it's just limited.
+
+3. **"IRREDUCIBLE elements mean the framework is wrong."**
+   Irreducible uncertainty is a feature of bounded theories.
+   Quantum mechanics has irreducible uncertainty. It marks the
+   boundary of what the framework can determine, not a flaw.
+
+4. **"CONTINGENT elements should be discarded."**
+   Contingent findings are valid within their domain. They are not
+   universal, but they are not useless. Context-specific knowledge
+   is valuable.
+
+5. **"This proves the framework is 'just empirical pattern-matching'."**
+   The formal skeleton (axioms + conditional invariants) captures
+   necessary structure. The empirical body captures observed
+   regularities. Both are required for a complete theory.
+
+## PERMITTED INTERPRETATIONS
+
+1. "The framework is primarily empirical with a limited formal core."
+2. "Most theorem candidates are contingent on specific assumptions."
+3. "Two universality candidates are in irreducible uncertainty."
+4. "The formal skeleton (23%) provides structural necessity."
+5. "The empirical body (68%) provides content and specificity."
