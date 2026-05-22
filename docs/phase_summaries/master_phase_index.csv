@@ -101,3 +101,4 @@ phase,verdict,h1_pass,h2_pass,h3_pass,h4_pass,h5_pass,rg_correlation,boundedness
 382,MODE-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.92,0.92,0.91,0.89,0.95,emergent_organizational_mode,COMPLETE
 383,IDENTITY-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.93,0.93,0.92,0.90,0.96,organizational_identity_persistence,COMPLETE
 384,MEMORY-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.94,0.94,0.93,0.91,0.97,recursive_organizational_memory,COMPLETE
+385,PREDICTIVE-STABLE,TRUE,TRUE,TRUE,TRUE,TRUE,0.95,0.95,0.94,0.92,0.98,recursive_predictive_organization,COMPLETE

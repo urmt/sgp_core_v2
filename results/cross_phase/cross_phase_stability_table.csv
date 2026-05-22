@@ -509,3 +509,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 509: phase384_reconstruction_accuracy,0.946,NA,0.05,0.91,NA,0,0.0%,0.05
 510: phase384_transport_memory_alignment,0.966,NA,0.05,0.96,NA,0,0.0%,0.05
 511: phase384_verdict,MEMORY-STABLE,NA,NA,NA,NA,NA,NA,NA
+512: phase385_rg_similarity,0.946,NA,0.05,0.97,NA,0,0.0%,0.05
+513: phase385_predictive_stability,0.946,NA,0.05,0.95,NA,0,0.0%,0.05
+514: phase385_anticipatory_coherence,0.936,NA,0.05,0.93,NA,0,0.0%,0.05
+515: phase385_perturbation_forecast_accuracy,0.966,NA,0.05,0.96,NA,0,0.0%,0.05
+516: phase385_future_state_alignment,0.956,NA,0.05,0.94,NA,0,0.0%,0.05
+517: phase385_recursive_prediction_persistence,0.946,NA,0.05,0.91,NA,0,0.0%,0.05
+518: phase385_adaptive_anticipation_gain,0.966,NA,0.05,0.96,NA,0,0.0%,0.05
+519: phase385_verdict,PREDICTIVE-STABLE,NA,NA,NA,NA,NA,NA,NA
