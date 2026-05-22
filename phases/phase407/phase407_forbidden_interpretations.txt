@@ -1,0 +1,44 @@
+# Phase 407: Forbidden Interpretations
+
+## STRICTLY FORBIDDEN
+
+1. **"This proves the framework is omniscient."** Prediction is
+   bounded by training data quality. The 14.13% novel config error
+   demonstrates genuine uncertainty. High accuracy on known domains
+   does not imply universal prediction capability.
+
+2. **"The 0.59% formalism MAPE means predictions are perfect."**
+   Formalism predictions are unsurprising because cross-formalism
+   invariance was already established. The low error reflects
+   invariance, not predictive omniscience.
+
+3. **"The 32% P-only error disproves the framework."** The error
+   reflects a specific parameter discrepancy (predictor estimated
+   P weight=0.52, true P weight=0.507). The hierarchy ordering
+   was still correctly predicted. Magnitude errors ≠ framework
+   failure.
+
+4. **"Prediction means understanding causes."** Prediction captures
+   correlation between operator composition and emergence. Causal
+   understanding requires additional mechanistic analysis beyond
+   predictive accuracy.
+
+5. **"Phase 407 replaces Phases 400-406."** The predictor reproduces
+   validation outcomes using less data, but it does not replace the
+   direct evidence from those phases. Prediction is complementary,
+   not substitutional.
+
+6. **"All emergence is now predictable."** Only specific operator
+   configurations within the P-A-N framework were tested. The
+   predictor's domain is bounded by the training distribution.
+
+## PERMITTED INTERPRETATIONS
+
+1. "Phase 391-399 emergence data contains sufficient information
+   to predict Phase 400-404 validation outcomes."
+2. "Novel operator configurations produce predictable emergence
+   with bounded error (~14%)."
+3. "The framework has predictive validity beyond descriptive power."
+4. "Prediction accuracy varies by domain (ablation 11% vs formalism
+   0.6%), reflecting structural predictability differences."
+5. "Tier 2 opens with a validated predictive capability."

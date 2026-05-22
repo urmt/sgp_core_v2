@@ -1,0 +1,2 @@
+ablation_mape,perturbation_rsf_mape,compression_csf_mape,formalism_fis_mape,novel_config_mape,overall_mape,ranking_accuracy,hierarchy_accuracy
+0.1095,0.0084,0.0083,0.0059,0.1413,0.1019,1.0,1.0

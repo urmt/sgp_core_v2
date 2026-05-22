@@ -1,0 +1,68 @@
+# Phase 407: Predictive Generation
+
+## Objective: Predict emergence BEFORE recursive execution
+
+Transition from describing observed emergence (Tier 1) to predicting
+unseen emergence structure (Tier 2).
+
+---
+
+## Predictor Model
+
+Trained exclusively on Phase 391-399 data (9 emergence discovery phases):
+
+**Parameters fitted:**
+- ε_s(1): Per-sector base emergence at depth 1 — from Phase 391-399 mean
+  rg_similarity
+- k: Depth decay rate — from depth scaling across Phase 391-399
+- w_P, w_A, w_N: Operator importance weights — from sector hierarchy
+  decomposition across Phase 391-399
+
+**Model equation:**
+  ε_pred(s, d, c) = ε_s(1) · γ(d) · f_c(c)
+
+  where γ(d) = 1/(1 + k·(d-1))
+        f_c(c) = condition factor for condition c
+
+**Locked predictions** — generated before any Phase 400-406 data is loaded:
+1. Hierarchy ordering (7 sectors at all depths)
+2. Ablation outcomes (15 conditions)
+3. Perturbation RSF (14 conditions)
+4. Compression CSF (14 conditions)
+5. Cross-formalism FIS (15 conditions)
+6. Novel operator configurations (5 new designs)
+
+---
+
+## Prediction Categories
+
+### Category A: Validation Predictions (Phase 400-404 replication)
+Predict outcomes of already-completed validation phases using only
+Phase 391-399 training data. Tests whether Tier 1 discovery data
+contains enough information to predict validation results.
+
+### Category B: Novel Predictions (new operator configurations)
+Predict emergence for operator configurations never tested in any
+prior phase. These are genuinely new predictions that can only be
+verified by computation.
+
+### Category C: Extrapolation Predictions
+Predict emergence at depths and configurations beyond the training
+distribution.
+
+---
+
+## Success Criteria
+
+- Category A MAPE < 0.10 (predictions within 10% of actuals)
+- Category B MAPE < 0.15 (novel predictions within 15%)
+- Category C ranking accuracy = 1.0 (hierarchy preserved)
+- Overall prediction accuracy significantly above random baseline
+
+---
+
+## Tier 2 Status
+
+Phase 407 is the opening phase of Tier 2. Success establishes that
+the emergence framework is generative (predictive). Failure would
+indicate the framework is purely descriptive.
