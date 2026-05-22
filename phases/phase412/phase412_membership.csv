@@ -1,0 +1,8 @@
+system,score,label,stability_pct,f1_formal_operators,f2_operator_composition,f3_recursive_depth,f4_monotonic_decay,f5_separable_depth,f6_stable_hierarchy,f7_relational_states,f8_deterministic,f9_compositional,f10_similarity_emergence
+SFH_SGP_reference,1.0,CORE_MEMBER,100.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+CellularAutomata,0.4,PERIPHERAL,83.5,0.3,0.0,1.0,0.5,0.2,0.3,0.3,1.0,0.0,0.4
+GraphPropagation,0.36,PERIPHERAL,90.8,0.2,0.0,0.8,0.7,0.3,0.4,0.1,0.8,0.0,0.3
+AgentInteraction,0.27,PERIPHERAL,79.6,0.1,0.0,0.9,0.4,0.1,0.3,0.2,0.5,0.0,0.2
+SymbolicRecursive,0.55,PARTIAL_MEMBER,77.8,0.4,0.6,1.0,0.6,0.3,0.5,0.4,0.7,0.7,0.3
+TensorRecursion,0.54,PARTIAL_MEMBER,68.3,0.6,0.8,0.7,0.5,0.4,0.4,0.1,1.0,0.8,0.1
+EvolutionaryOpt,0.29,PERIPHERAL,94.4,0.2,0.3,0.9,0.2,0.1,0.2,0.1,0.3,0.4,0.2

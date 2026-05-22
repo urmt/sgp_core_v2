@@ -1,0 +1,31 @@
+# Phase 412 Summary
+
+## Verdict: UNIVERSALITY-CLASSIFICATION-BOUNDED
+### Hypotheses: 4/5 PASS
+
+SFH-SGP is a bounded universality class. Six synthetic systems
+are PERIPHERAL (4) or PARTIAL_MEMBER (2). None fully excluded.
+
+## Membership Scores
+| System | Score | Label |
+|--------|-------|-------|
+| SFH-SGP | 1.00 | CORE_MEMBER |
+| SymbolicRecursive | 0.55 | PARTIAL_MEMBER |
+| TensorRecursion | 0.54 | PARTIAL_MEMBER |
+| CellularAutomata | 0.40 | PERIPHERAL |
+| GraphPropagation | 0.36 | PERIPHERAL |
+| EvolutionaryOpt | 0.29 | PERIPHERAL |
+| AgentInteraction | 0.27 | PERIPHERAL |
+
+## Key Findings
+- Two attractor families: SFH-SGP isolated from synthetic cluster
+- 3 distinct exclusion classes (operators, relationality, monotonicity)
+- 84.9% boundary stability under weight perturbation
+- Correspondence gradient: r = 0.70 (p = 0.08)
+- H1 failed: no system fully excluded (lowest 0.27)
+
+## Core Result
+SFH-SGP is defined by 6 specific conditions (operators,
+composition, relational states, similarity emergence,
+monotonic depth, stable hierarchy). No synthetic system
+satisfies more than 3.

@@ -1,0 +1,32 @@
+# Phase 412 Update Summary
+
+## PHASE 412 COMPLETE — UNIVERSALITY-CLASSIFICATION-BOUNDED (4/5)
+
+SFH-SGP is a bounded universality class with 6 defining features.
+
+### Membership
+| System | Score | Label |
+|--------|-------|-------|
+| SFH-SGP | 1.00 | CORE_MEMBER |
+| SymbolicRecursive | 0.55 | PARTIAL_MEMBER |
+| TensorRecursion | 0.54 | PARTIAL_MEMBER |
+| CellularAutomata | 0.40 | PERIPHERAL |
+| GraphPropagation | 0.36 | PERIPHERAL |
+| EvolutionaryOpt | 0.29 | PERIPHERAL |
+| AgentInteraction | 0.27 | PERIPHERAL |
+
+### Key Results
+- Two attractor families: SFH-SGP isolated from all synthetics
+- 3 exclusion class types: operator absence, non-relational states,
+  non-monotonic depth
+- Boundary stability: 84.9% (reproducible)
+- H1 failed: no system fully EXCLUDED (lowest score 0.27)
+
+### What SFH-SGP Is
+A specific universality class defined by:
+1. Formal operator algebra (P/A/N)
+2. Operator composition
+3. Relational state space
+4. Similarity-based emergence (rg_similarity)
+5. Monotonic depth dependence
+6. Stable hierarchy across depth

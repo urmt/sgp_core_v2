@@ -1,0 +1,637 @@
+{
+  "phase": 412,
+  "seed": 412,
+  "n_systems": 7,
+  "n_features": 10,
+  "feature_names": [
+    "f1_formal_operators",
+    "f2_operator_composition",
+    "f3_recursive_depth",
+    "f4_monotonic_decay",
+    "f5_separable_depth",
+    "f6_stable_hierarchy",
+    "f7_relational_states",
+    "f8_deterministic",
+    "f9_compositional",
+    "f10_similarity_emergence"
+  ],
+  "default_weights": {
+    "f1_formal_operators": 0.1,
+    "f2_operator_composition": 0.1,
+    "f3_recursive_depth": 0.1,
+    "f4_monotonic_decay": 0.1,
+    "f5_separable_depth": 0.1,
+    "f6_stable_hierarchy": 0.1,
+    "f7_relational_states": 0.1,
+    "f8_deterministic": 0.1,
+    "f9_compositional": 0.1,
+    "f10_similarity_emergence": 0.1
+  },
+  "system_features": {
+    "SFH_SGP_reference": {
+      "f1_formal_operators": 1.0,
+      "f2_operator_composition": 1.0,
+      "f3_recursive_depth": 1.0,
+      "f4_monotonic_decay": 1.0,
+      "f5_separable_depth": 1.0,
+      "f6_stable_hierarchy": 1.0,
+      "f7_relational_states": 1.0,
+      "f8_deterministic": 1.0,
+      "f9_compositional": 1.0,
+      "f10_similarity_emergence": 1.0
+    },
+    "CellularAutomata": {
+      "f1_formal_operators": 0.3,
+      "f2_operator_composition": 0.0,
+      "f3_recursive_depth": 1.0,
+      "f4_monotonic_decay": 0.5,
+      "f5_separable_depth": 0.2,
+      "f6_stable_hierarchy": 0.3,
+      "f7_relational_states": 0.3,
+      "f8_deterministic": 1.0,
+      "f9_compositional": 0.0,
+      "f10_similarity_emergence": 0.4
+    },
+    "GraphPropagation": {
+      "f1_formal_operators": 0.2,
+      "f2_operator_composition": 0.0,
+      "f3_recursive_depth": 0.8,
+      "f4_monotonic_decay": 0.7,
+      "f5_separable_depth": 0.3,
+      "f6_stable_hierarchy": 0.4,
+      "f7_relational_states": 0.1,
+      "f8_deterministic": 0.8,
+      "f9_compositional": 0.0,
+      "f10_similarity_emergence": 0.3
+    },
+    "AgentInteraction": {
+      "f1_formal_operators": 0.1,
+      "f2_operator_composition": 0.0,
+      "f3_recursive_depth": 0.9,
+      "f4_monotonic_decay": 0.4,
+      "f5_separable_depth": 0.1,
+      "f6_stable_hierarchy": 0.3,
+      "f7_relational_states": 0.2,
+      "f8_deterministic": 0.5,
+      "f9_compositional": 0.0,
+      "f10_similarity_emergence": 0.2
+    },
+    "SymbolicRecursive": {
+      "f1_formal_operators": 0.4,
+      "f2_operator_composition": 0.6,
+      "f3_recursive_depth": 1.0,
+      "f4_monotonic_decay": 0.6,
+      "f5_separable_depth": 0.3,
+      "f6_stable_hierarchy": 0.5,
+      "f7_relational_states": 0.4,
+      "f8_deterministic": 0.7,
+      "f9_compositional": 0.7,
+      "f10_similarity_emergence": 0.3
+    },
+    "TensorRecursion": {
+      "f1_formal_operators": 0.6,
+      "f2_operator_composition": 0.8,
+      "f3_recursive_depth": 0.7,
+      "f4_monotonic_decay": 0.5,
+      "f5_separable_depth": 0.4,
+      "f6_stable_hierarchy": 0.4,
+      "f7_relational_states": 0.1,
+      "f8_deterministic": 1.0,
+      "f9_compositional": 0.8,
+      "f10_similarity_emergence": 0.1
+    },
+    "EvolutionaryOpt": {
+      "f1_formal_operators": 0.2,
+      "f2_operator_composition": 0.3,
+      "f3_recursive_depth": 0.9,
+      "f4_monotonic_decay": 0.2,
+      "f5_separable_depth": 0.1,
+      "f6_stable_hierarchy": 0.2,
+      "f7_relational_states": 0.1,
+      "f8_deterministic": 0.3,
+      "f9_compositional": 0.4,
+      "f10_similarity_emergence": 0.2
+    }
+  },
+  "membership_results": {
+    "SFH_SGP_reference": {
+      "features": {
+        "f1_formal_operators": 1.0,
+        "f2_operator_composition": 1.0,
+        "f3_recursive_depth": 1.0,
+        "f4_monotonic_decay": 1.0,
+        "f5_separable_depth": 1.0,
+        "f6_stable_hierarchy": 1.0,
+        "f7_relational_states": 1.0,
+        "f8_deterministic": 1.0,
+        "f9_compositional": 1.0,
+        "f10_similarity_emergence": 1.0,
+        "phase411_rho": 1.0
+      },
+      "score": 1.0,
+      "label": "CORE_MEMBER"
+    },
+    "CellularAutomata": {
+      "features": {
+        "f1_formal_operators": 0.3,
+        "f2_operator_composition": 0.0,
+        "f3_recursive_depth": 1.0,
+        "f4_monotonic_decay": 0.5,
+        "f5_separable_depth": 0.2,
+        "f6_stable_hierarchy": 0.3,
+        "f7_relational_states": 0.3,
+        "f8_deterministic": 1.0,
+        "f9_compositional": 0.0,
+        "f10_similarity_emergence": 0.4,
+        "phase411_rho": 0.21
+      },
+      "score": 0.4,
+      "label": "PERIPHERAL"
+    },
+    "GraphPropagation": {
+      "features": {
+        "f1_formal_operators": 0.2,
+        "f2_operator_composition": 0.0,
+        "f3_recursive_depth": 0.8,
+        "f4_monotonic_decay": 0.7,
+        "f5_separable_depth": 0.3,
+        "f6_stable_hierarchy": 0.4,
+        "f7_relational_states": 0.1,
+        "f8_deterministic": 0.8,
+        "f9_compositional": 0.0,
+        "f10_similarity_emergence": 0.3,
+        "phase411_rho": 0.39
+      },
+      "score": 0.36,
+      "label": "PERIPHERAL"
+    },
+    "AgentInteraction": {
+      "features": {
+        "f1_formal_operators": 0.1,
+        "f2_operator_composition": 0.0,
+        "f3_recursive_depth": 0.9,
+        "f4_monotonic_decay": 0.4,
+        "f5_separable_depth": 0.1,
+        "f6_stable_hierarchy": 0.3,
+        "f7_relational_states": 0.2,
+        "f8_deterministic": 0.5,
+        "f9_compositional": 0.0,
+        "f10_similarity_emergence": 0.2,
+        "phase411_rho": 0.18
+      },
+      "score": 0.27,
+      "label": "PERIPHERAL"
+    },
+    "SymbolicRecursive": {
+      "features": {
+        "f1_formal_operators": 0.4,
+        "f2_operator_composition": 0.6,
+        "f3_recursive_depth": 1.0,
+        "f4_monotonic_decay": 0.6,
+        "f5_separable_depth": 0.3,
+        "f6_stable_hierarchy": 0.5,
+        "f7_relational_states": 0.4,
+        "f8_deterministic": 0.7,
+        "f9_compositional": 0.7,
+        "f10_similarity_emergence": 0.3,
+        "phase411_rho": 0.18
+      },
+      "score": 0.55,
+      "label": "PARTIAL_MEMBER"
+    },
+    "TensorRecursion": {
+      "features": {
+        "f1_formal_operators": 0.6,
+        "f2_operator_composition": 0.8,
+        "f3_recursive_depth": 0.7,
+        "f4_monotonic_decay": 0.5,
+        "f5_separable_depth": 0.4,
+        "f6_stable_hierarchy": 0.4,
+        "f7_relational_states": 0.1,
+        "f8_deterministic": 1.0,
+        "f9_compositional": 0.8,
+        "f10_similarity_emergence": 0.1,
+        "phase411_rho": -0.07
+      },
+      "score": 0.54,
+      "label": "PARTIAL_MEMBER"
+    },
+    "EvolutionaryOpt": {
+      "features": {
+        "f1_formal_operators": 0.2,
+        "f2_operator_composition": 0.3,
+        "f3_recursive_depth": 0.9,
+        "f4_monotonic_decay": 0.2,
+        "f5_separable_depth": 0.1,
+        "f6_stable_hierarchy": 0.2,
+        "f7_relational_states": 0.1,
+        "f8_deterministic": 0.3,
+        "f9_compositional": 0.4,
+        "f10_similarity_emergence": 0.2,
+        "phase411_rho": -0.86
+      },
+      "score": 0.29,
+      "label": "PERIPHERAL"
+    }
+  },
+  "attractor_families": {
+    "1": [
+      "CellularAutomata",
+      "GraphPropagation",
+      "AgentInteraction",
+      "SymbolicRecursive",
+      "TensorRecursion",
+      "EvolutionaryOpt"
+    ],
+    "2": [
+      "SFH_SGP_reference"
+    ]
+  },
+  "distance_matrix": {
+    "SFH_SGP_reference": {
+      "SFH_SGP_reference": 0.0,
+      "CellularAutomata": 2.173,
+      "GraphPropagation": 2.227,
+      "AgentInteraction": 2.452,
+      "SymbolicRecursive": 1.565,
+      "TensorRecursion": 1.709,
+      "EvolutionaryOpt": 2.352
+    },
+    "CellularAutomata": {
+      "SFH_SGP_reference": 2.173,
+      "CellularAutomata": 0.0,
+      "GraphPropagation": 0.447,
+      "AgentInteraction": 0.608,
+      "SymbolicRecursive": 1.015,
+      "TensorRecursion": 1.281,
+      "EvolutionaryOpt": 0.975
+    },
+    "GraphPropagation": {
+      "SFH_SGP_reference": 2.227,
+      "CellularAutomata": 0.447,
+      "GraphPropagation": 0.0,
+      "AgentInteraction": 0.52,
+      "SymbolicRecursive": 1.025,
+      "TensorRecursion": 1.257,
+      "EvolutionaryOpt": 0.922
+    },
+    "AgentInteraction": {
+      "SFH_SGP_reference": 2.452,
+      "CellularAutomata": 0.608,
+      "GraphPropagation": 0.52,
+      "AgentInteraction": 0.0,
+      "SymbolicRecursive": 1.077,
+      "TensorRecursion": 1.396,
+      "EvolutionaryOpt": 0.6
+    },
+    "SymbolicRecursive": {
+      "SFH_SGP_reference": 1.565,
+      "CellularAutomata": 1.015,
+      "GraphPropagation": 1.025,
+      "AgentInteraction": 1.077,
+      "SymbolicRecursive": 0.0,
+      "TensorRecursion": 0.656,
+      "EvolutionaryOpt": 0.883
+    },
+    "TensorRecursion": {
+      "SFH_SGP_reference": 1.709,
+      "CellularAutomata": 1.281,
+      "GraphPropagation": 1.257,
+      "AgentInteraction": 1.396,
+      "SymbolicRecursive": 0.656,
+      "TensorRecursion": 0.0,
+      "EvolutionaryOpt": 1.153
+    },
+    "EvolutionaryOpt": {
+      "SFH_SGP_reference": 2.352,
+      "CellularAutomata": 0.975,
+      "GraphPropagation": 0.922,
+      "AgentInteraction": 0.6,
+      "SymbolicRecursive": 0.883,
+      "TensorRecursion": 1.153,
+      "EvolutionaryOpt": 0.0
+    }
+  },
+  "exclusion_classes": {
+    "CellularAutomata": {
+      "deficiencies": [
+        [
+          "f1_formal_operators",
+          0.3
+        ],
+        [
+          "f2_operator_composition",
+          0.0
+        ],
+        [
+          "f5_separable_depth",
+          0.2
+        ],
+        [
+          "f6_stable_hierarchy",
+          0.3
+        ],
+        [
+          "f7_relational_states",
+          0.3
+        ],
+        [
+          "f9_compositional",
+          0.0
+        ],
+        [
+          "f10_similarity_emergence",
+          0.4
+        ]
+      ],
+      "deficiency_count": 7,
+      "exclusion_tags": [
+        "NO_OPERATORS",
+        "NO_COMPOSITION",
+        "NON_MONOTONIC",
+        "NO_HIERARCHY",
+        "NON_RELATIONAL",
+        "NON_SIMILARITY"
+      ]
+    },
+    "GraphPropagation": {
+      "deficiencies": [
+        [
+          "f1_formal_operators",
+          0.2
+        ],
+        [
+          "f2_operator_composition",
+          0.0
+        ],
+        [
+          "f5_separable_depth",
+          0.3
+        ],
+        [
+          "f6_stable_hierarchy",
+          0.4
+        ],
+        [
+          "f7_relational_states",
+          0.1
+        ],
+        [
+          "f9_compositional",
+          0.0
+        ],
+        [
+          "f10_similarity_emergence",
+          0.3
+        ]
+      ],
+      "deficiency_count": 7,
+      "exclusion_tags": [
+        "NO_OPERATORS",
+        "NO_COMPOSITION",
+        "NON_MONOTONIC",
+        "NO_HIERARCHY",
+        "NON_RELATIONAL",
+        "NON_SIMILARITY"
+      ]
+    },
+    "AgentInteraction": {
+      "deficiencies": [
+        [
+          "f1_formal_operators",
+          0.1
+        ],
+        [
+          "f2_operator_composition",
+          0.0
+        ],
+        [
+          "f4_monotonic_decay",
+          0.4
+        ],
+        [
+          "f5_separable_depth",
+          0.1
+        ],
+        [
+          "f6_stable_hierarchy",
+          0.3
+        ],
+        [
+          "f7_relational_states",
+          0.2
+        ],
+        [
+          "f9_compositional",
+          0.0
+        ],
+        [
+          "f10_similarity_emergence",
+          0.2
+        ]
+      ],
+      "deficiency_count": 8,
+      "exclusion_tags": [
+        "NO_OPERATORS",
+        "NO_COMPOSITION",
+        "NON_MONOTONIC",
+        "NO_HIERARCHY",
+        "NON_RELATIONAL",
+        "NON_SIMILARITY"
+      ]
+    },
+    "SymbolicRecursive": {
+      "deficiencies": [
+        [
+          "f1_formal_operators",
+          0.4
+        ],
+        [
+          "f5_separable_depth",
+          0.3
+        ],
+        [
+          "f7_relational_states",
+          0.4
+        ],
+        [
+          "f10_similarity_emergence",
+          0.3
+        ]
+      ],
+      "deficiency_count": 4,
+      "exclusion_tags": [
+        "NO_OPERATORS",
+        "NON_MONOTONIC",
+        "NON_RELATIONAL",
+        "NON_SIMILARITY"
+      ]
+    },
+    "TensorRecursion": {
+      "deficiencies": [
+        [
+          "f5_separable_depth",
+          0.4
+        ],
+        [
+          "f6_stable_hierarchy",
+          0.4
+        ],
+        [
+          "f7_relational_states",
+          0.1
+        ],
+        [
+          "f10_similarity_emergence",
+          0.1
+        ]
+      ],
+      "deficiency_count": 4,
+      "exclusion_tags": [
+        "NON_MONOTONIC",
+        "NO_HIERARCHY",
+        "NON_RELATIONAL",
+        "NON_SIMILARITY"
+      ]
+    },
+    "EvolutionaryOpt": {
+      "deficiencies": [
+        [
+          "f1_formal_operators",
+          0.2
+        ],
+        [
+          "f2_operator_composition",
+          0.3
+        ],
+        [
+          "f4_monotonic_decay",
+          0.2
+        ],
+        [
+          "f5_separable_depth",
+          0.1
+        ],
+        [
+          "f6_stable_hierarchy",
+          0.2
+        ],
+        [
+          "f7_relational_states",
+          0.1
+        ],
+        [
+          "f8_deterministic",
+          0.3
+        ],
+        [
+          "f9_compositional",
+          0.4
+        ],
+        [
+          "f10_similarity_emergence",
+          0.2
+        ]
+      ],
+      "deficiency_count": 9,
+      "exclusion_tags": [
+        "NO_OPERATORS",
+        "NO_COMPOSITION",
+        "NON_MONOTONIC",
+        "NO_HIERARCHY",
+        "NON_RELATIONAL",
+        "NON_SIMILARITY"
+      ]
+    }
+  },
+  "exclusion_class_definitions": {
+    "NO_OPERATORS": "System lacks formal operator algebra (P, A, N or analogs)",
+    "NO_COMPOSITION": "System lacks operator/process composition",
+    "NON_MONOTONIC": "System emergence does not decay monotonically with depth",
+    "NO_HIERARCHY": "System does not produce a stable hierarchy across configurations",
+    "NON_RELATIONAL": "System states are not relational configurations",
+    "NON_SIMILARITY": "System emergence measure is not structural similarity"
+  },
+  "boundary_stability": {
+    "SFH_SGP_reference": {
+      "dominant_class": "CORE_MEMBER",
+      "stability_pct": 100.0,
+      "classes_seen": 1
+    },
+    "CellularAutomata": {
+      "dominant_class": "PERIPHERAL",
+      "stability_pct": 83.5,
+      "classes_seen": 3
+    },
+    "GraphPropagation": {
+      "dominant_class": "PERIPHERAL",
+      "stability_pct": 90.8,
+      "classes_seen": 3
+    },
+    "AgentInteraction": {
+      "dominant_class": "PERIPHERAL",
+      "stability_pct": 79.6,
+      "classes_seen": 3
+    },
+    "SymbolicRecursive": {
+      "dominant_class": "PARTIAL_MEMBER",
+      "stability_pct": 77.8,
+      "classes_seen": 3
+    },
+    "TensorRecursion": {
+      "dominant_class": "PARTIAL_MEMBER",
+      "stability_pct": 68.3,
+      "classes_seen": 3
+    },
+    "EvolutionaryOpt": {
+      "dominant_class": "PERIPHERAL",
+      "stability_pct": 94.4,
+      "classes_seen": 3
+    }
+  },
+  "composite_metrics": {
+    "universality_membership_score": 1.0,
+    "mean_non_core_membership": 0.4017,
+    "min_non_core_membership": 0.27,
+    "max_non_core_membership": 0.55,
+    "exclusion_density": 0.5983,
+    "excluded_count": 0,
+    "peripheral_count": 4,
+    "partial_count": 2,
+    "correspondence_gradient": 0.6951,
+    "correspondence_gradient_p": 0.083003,
+    "mean_deficiency_count": 6.5,
+    "num_attractor_families": 2,
+    "mean_stability_pct": 84.9
+  },
+  "hypotheses": {
+    "H1_SpecificConstraintsRequired": {
+      "value": 0,
+      "threshold": 2,
+      "pass": false
+    },
+    "H2_ExclusionClassesIdentifiable": {
+      "value": 3,
+      "threshold": 2,
+      "pass": true
+    },
+    "H3_BoundariesReproducible": {
+      "value": 84.9,
+      "threshold": 80.0,
+      "pass": true
+    },
+    "H4_PartialCorrespondenceExists": {
+      "value": 2,
+      "threshold": 1,
+      "pass": true
+    },
+    "H5_BoundedUniversalityClass": {
+      "value": 0.5983,
+      "threshold": 0.3,
+      "pass": true
+    }
+  },
+  "pass_count": 4,
+  "total_hypotheses": 5,
+  "verdict": "UNIVERSALITY-CLASSIFICATION-BOUNDED"
+}

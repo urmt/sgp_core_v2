@@ -1,0 +1,101 @@
+# Phase 412: Universality Classification Framework
+
+## Objective
+Determine which recursive systems belong to the SFH-SGP universality
+family and which fundamentally do not.
+
+## Approach
+Score systems on 10 structural features that characterize SFH-SGP
+emergence. Cluster into attractor families. Detect membership boundaries.
+Identify exclusion classes.
+
+## 10 Structural Features
+
+Each feature scored [0, 1] for how well the system satisfies it.
+
+### Feature 1: formal_operators (f1)
+Does the system have distinct, formally defined operators?
+- SFH-SGP reference: 1.0 (P, A, N operators)
+- Rationale: Without formal operators, no operator algebra exists
+
+### Feature 2: operator_composition (f2)
+Do operators compose sequentially?
+- SFH-SGP reference: 1.0 (P∘A, P∘A∘N, etc.)
+- Rationale: Composition generates the sector hierarchy
+
+### Feature 3: recursive_depth (f3)
+Is there a meaningful recursion depth parameter?
+- SFH-SGP reference: 1.0 (d ∈ N+)
+- Rationale: Depth drives the emergence sequence
+
+### Feature 4: monotonic_decay (f4)
+Does emergence decrease monotonically with depth?
+- SFH-SGP reference: 1.0 (Axiom 3)
+- Rationale: The gamma(d) factor requires monotonicity
+
+### Feature 5: separable_depth (f5)
+Can depth effects be separated from structure?
+- SFH-SGP reference: 1.0 (E = phi(S) * gamma(d))
+- Rationale: Separability enables cross-depth prediction
+
+### Feature 6: stable_hierarchy (f6)
+Is the sector ordering stable across depth?
+- SFH-SGP reference: 1.0 (Theorem 3.2)
+- Rationale: Hierarchy invariance is the core finding
+
+### Feature 7: relational_states (f7)
+Are states relational configurations?
+- SFH-SGP reference: 1.0 (ordered triples)
+- Rationale: Relational structure enables emergence measures
+
+### Feature 8: deterministic (f8)
+Is evolution deterministic?
+- SFH-SGP reference: 1.0 (operator application)
+- Rationale: Determinism enables reproducible emergence
+
+### Feature 9: compositional (f9)
+Do processes combine compositionally?
+- SFH-SGP reference: 1.0 (functional composition)
+- Rationale: Composition enables hierarchy formation
+
+### Feature 10: similarity_emergence (f10)
+Is emergence measured as structural similarity?
+- SFH-SGP reference: 1.0 (rg_similarity)
+- Rationale: Similarity-based emergence enables the hierarchy
+
+## Systems to Classify
+
+1. SFH-SGP (P-A-N, 7 sectors) — reference
+2. Cellular Automata (CA)
+3. Graph Propagation (GPS)
+4. Agent Interaction (AIS)
+5. Symbolic Recursive (SRS)
+6. Tensor Recursion (TRS)
+7. Evolutionary Optimization (EOS)
+
+## Critical Metrics
+
+1. universality_membership_score: weighted feature average
+2. exclusion_density: 1 - membership_score
+3. attractor_family_distance: Euclidean distance in feature space
+4. recursive_constraint_index: sum of SFH-SGP-required features
+5. correspondence_gradient: membership score vs. Phase 411 Spearman rho
+6. universality_boundary_stability: classification robustness under
+   feature weight perturbation
+
+## Category Labels
+
+| Score Range | Label | Meaning |
+|-------------|-------|---------|
+| >= 0.80 | CORE_MEMBER | Full SFH-SGP universality class |
+| 0.50-0.79 | PARTIAL_MEMBER | Partial correspondence possible |
+| 0.20-0.49 | PERIPHERAL | Weak structural alignment |
+| < 0.20 | EXCLUDED | Fundamentally different system class |
+
+## Exclusion Classes (hypothesized)
+
+- Class A: No formal operators (CA, GPS, AIS)
+- Class B: No operator composition (SRS, TRS)
+- Class C: Non-deterministic/diffuse (EOS)
+- Class D: No recursive depth (if any)
+- Class E: Non-separable depth and structure (if any)
