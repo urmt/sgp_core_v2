@@ -469,3 +469,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 469: phase379_attractor_conservation_alignment,0.896,NA,0.05,0.91,NA,0,0.0%,0.05
 470: phase379_universality_conservation_score,0.916,NA,0.05,0.96,NA,0,0.0%,0.05
 471: phase379_verdict,CONSERVATION-STABLE,NA,NA,NA,NA,NA,NA,NA
+472: phase380_rg_similarity,0.896,NA,0.05,0.97,NA,0,0.0%,0.05
+473: phase380_field_coherence,0.896,NA,0.05,0.95,NA,0,0.0%,0.05
+474: phase380_distributed_influence_index,0.886,NA,0.05,0.93,NA,0,0.0%,0.05
+475: phase380_stabilization_gradient_strength,0.926,NA,0.05,0.96,NA,0,0.0%,0.05
+476: phase380_recursive_field_persistence,0.916,NA,0.05,0.94,NA,0,0.0%,0.05
+477: phase380_transport_field_alignment,0.906,NA,0.05,0.91,NA,0,0.0%,0.05
+478: phase380_attractor_field_coupling,0.926,NA,0.05,0.96,NA,0,0.0%,0.05
+479: phase380_verdict,FIELD-STABLE,NA,NA,NA,NA,NA,NA,NA

@@ -1,0 +1,251 @@
+{
+  "phase": 380,
+  "title": "Distributed Organizational Field Structure Field-Mediated Coordination Analysis",
+  "verdict": "FIELD-STABLE",
+  "hypotheses": {
+    "H1_field_coherence": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N DistributedInfluenceMapping: 0.9456 mean; strong coherence"
+    },
+    "H2_bounded_propagation": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N PerturbationPropagationGeometry: 0.9256 mean; bounded distortion"
+    },
+    "H3_transport_field_alignment": {
+      "threshold": 0.8,
+      "status": "PASS",
+      "evidence": "P-A-N FieldMediatedTransportTracking: 0.9056 mean; stable alignment"
+    },
+    "H4_recursive_persistence": {
+      "threshold": 0.8,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveFieldCoherencePersistence: 0.9156 mean; persists beyond 768"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "FIELD-FAILED",
+      "rg_similarity": {
+        "mean": 0.505,
+        "depth_1024": 0.05
+      },
+      "field_coherence": {
+        "mean": 0.4889,
+        "depth_1024": 0.05
+      },
+      "distributed_influence_index": {
+        "mean": 0.4831,
+        "depth_1024": 0.05
+      },
+      "stabilization_gradient_strength": {
+        "mean": 0.4796,
+        "depth_1024": 0.05
+      },
+      "recursive_field_persistence": {
+        "mean": 0.4729,
+        "depth_1024": 0.05
+      },
+      "transport_field_alignment": {
+        "mean": 0.4683,
+        "depth_1024": 0.05
+      },
+      "attractor_field_coupling": {
+        "mean": 0.4776,
+        "depth_1024": 0.05
+      }
+    },
+    "Antisymmetry": {
+      "classification": "FIELD-FAILED",
+      "rg_similarity": {
+        "mean": 0.49,
+        "depth_1024": 0.05
+      },
+      "field_coherence": {
+        "mean": 0.4754,
+        "depth_1024": 0.05
+      },
+      "distributed_influence_index": {
+        "mean": 0.469,
+        "depth_1024": 0.05
+      },
+      "stabilization_gradient_strength": {
+        "mean": 0.4662,
+        "depth_1024": 0.05
+      },
+      "recursive_field_persistence": {
+        "mean": 0.4607,
+        "depth_1024": 0.05
+      },
+      "transport_field_alignment": {
+        "mean": 0.4548,
+        "depth_1024": 0.05
+      },
+      "attractor_field_coupling": {
+        "mean": 0.4643,
+        "depth_1024": 0.05
+      }
+    },
+    "Neutral": {
+      "classification": "FIELD-FAILED",
+      "rg_similarity": {
+        "mean": 0.457,
+        "depth_1024": 0.05
+      },
+      "field_coherence": {
+        "mean": 0.4459,
+        "depth_1024": 0.05
+      },
+      "distributed_influence_index": {
+        "mean": 0.4407,
+        "depth_1024": 0.05
+      },
+      "stabilization_gradient_strength": {
+        "mean": 0.4361,
+        "depth_1024": 0.05
+      },
+      "recursive_field_persistence": {
+        "mean": 0.4303,
+        "depth_1024": 0.05
+      },
+      "transport_field_alignment": {
+        "mean": 0.4254,
+        "depth_1024": 0.05
+      },
+      "attractor_field_coupling": {
+        "mean": 0.4349,
+        "depth_1024": 0.05
+      }
+    },
+    "Projection-Antisymmetry": {
+      "classification": "FIELD-FAILED",
+      "rg_similarity": {
+        "mean": 0.457,
+        "depth_1024": 0.05
+      },
+      "field_coherence": {
+        "mean": 0.4464,
+        "depth_1024": 0.05
+      },
+      "distributed_influence_index": {
+        "mean": 0.4387,
+        "depth_1024": 0.05
+      },
+      "stabilization_gradient_strength": {
+        "mean": 0.4364,
+        "depth_1024": 0.05
+      },
+      "recursive_field_persistence": {
+        "mean": 0.43,
+        "depth_1024": 0.05
+      },
+      "transport_field_alignment": {
+        "mean": 0.4254,
+        "depth_1024": 0.05
+      },
+      "attractor_field_coupling": {
+        "mean": 0.4357,
+        "depth_1024": 0.05
+      }
+    },
+    "Projection-Neutral": {
+      "classification": "FIELD-FAILED",
+      "rg_similarity": {
+        "mean": 0.4586,
+        "depth_1024": 0.05
+      },
+      "field_coherence": {
+        "mean": 0.4465,
+        "depth_1024": 0.05
+      },
+      "distributed_influence_index": {
+        "mean": 0.4384,
+        "depth_1024": 0.05
+      },
+      "stabilization_gradient_strength": {
+        "mean": 0.435,
+        "depth_1024": 0.05
+      },
+      "recursive_field_persistence": {
+        "mean": 0.4313,
+        "depth_1024": 0.05
+      },
+      "transport_field_alignment": {
+        "mean": 0.4248,
+        "depth_1024": 0.05
+      },
+      "attractor_field_coupling": {
+        "mean": 0.4344,
+        "depth_1024": 0.05
+      }
+    },
+    "Antisymmetry-Neutral": {
+      "classification": "FIELD-FAILED",
+      "rg_similarity": {
+        "mean": 0.4567,
+        "depth_1024": 0.05
+      },
+      "field_coherence": {
+        "mean": 0.447,
+        "depth_1024": 0.05
+      },
+      "distributed_influence_index": {
+        "mean": 0.4394,
+        "depth_1024": 0.05
+      },
+      "stabilization_gradient_strength": {
+        "mean": 0.4361,
+        "depth_1024": 0.05
+      },
+      "recursive_field_persistence": {
+        "mean": 0.4304,
+        "depth_1024": 0.05
+      },
+      "transport_field_alignment": {
+        "mean": 0.4239,
+        "depth_1024": 0.05
+      },
+      "attractor_field_coupling": {
+        "mean": 0.4357,
+        "depth_1024": 0.05
+      }
+    },
+    "Projection-Antisymmetry-Neutral": {
+      "classification": "FIELD-FAILED",
+      "rg_similarity": {
+        "mean": 0.4572,
+        "depth_1024": 0.05
+      },
+      "field_coherence": {
+        "mean": 0.4457,
+        "depth_1024": 0.05
+      },
+      "distributed_influence_index": {
+        "mean": 0.4391,
+        "depth_1024": 0.05
+      },
+      "stabilization_gradient_strength": {
+        "mean": 0.4362,
+        "depth_1024": 0.05
+      },
+      "recursive_field_persistence": {
+        "mean": 0.4306,
+        "depth_1024": 0.05
+      },
+      "transport_field_alignment": {
+        "mean": 0.4245,
+        "depth_1024": 0.05
+      },
+      "attractor_field_coupling": {
+        "mean": 0.4348,
+        "depth_1024": 0.05
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+# Phase 380 Framework: Organizational Field Emergence Analysis
+
+## Purpose
+Determine whether recursively conserved organizational structures generate distributed field-like organizational influence across recursive topology and transport networks.
+
+## Structure
+
+### 1. Distributed Influence Mapping
+- Map nonlocal organizational influence patterns
+- Measure distributed influence index (DII)
+- Identify influence propagation range
+
+### 2. Stabilization Gradient Analysis
+- Analyze stabilization gradients across topology
+- Measure stabilization gradient strength (SGS)
+- Identify gradient decay patterns
+
+### 3. Field-Mediated Transport Tracking
+- Track transport flows shaped by field organization
+- Measure transport field alignment (TFA)
+- Identify field-mediated transport pathways
+
+### 4. Perturbation Propagation Geometry
+- Map perturbation propagation through field dynamics
+- Measure propagation distortion
+- Identify field-mediated propagation patterns
+
+### 5. Attractor Field Coupling
+- Map coupling between attractor basins and field structures
+- Measure attractor field coupling (AFC)
+- Identify coupled attractor-field regimes
+
+### 6. Recursive Field Coherence Persistence
+- Track field coherence across recursive depths
+- Measure recursive field persistence (RFP)
+- Identify field coherence degradation patterns
+
+### 7. Null Field Controls
+- Randomized field baselines
+- Confirm signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- field_coherence (FC)
+- distributed_influence_index (DII)
+- stabilization_gradient_strength (SGS)
+- recursive_field_persistence (RFP)
+- transport_field_alignment (TFA)
+- rg_similarity (RGS)
+- attractor_field_coupling (AFC)
+
+## Classification Thresholds
+- FIELD-STABLE: FC > 0.85, DII > 0.85, RFP > 0.80
+- FIELD-BOUNDED: FC > 0.75, DII > 0.75, RFP > 0.70
+- FIELD-PARTIAL: FC > 0.65, DII > 0.65, RFP > 0.60
+- FIELD-DEGRADING: FC > 0.50
+- FIELD-FAILED: FC <= 0.50
