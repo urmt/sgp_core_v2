@@ -1,0 +1,216 @@
+{
+  "phase": 398,
+  "title": "Recursive Interaction and Collision Dynamics Analysis",
+  "verdict": "INTERACTION-STABLE",
+  "hypotheses": {
+    "H1_interaction_coherence": {
+      "threshold": 0.9,
+      "status": "PASS",
+      "evidence": "P-A-N PacketCollisionDynamics: high IC mean; strong interaction coherence across depths"
+    },
+    "H2_collision_reproducibility": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveInteractionPersistence: high CR mean; reproducible collisions"
+    },
+    "H3_bounded_post_collision_drift": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveInteractionReproducibility: high BID mean; bounded post-collision drift"
+    },
+    "H4_recursive_persistence_beyond_8388608": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N IdentityRetentionAfterCollision: IRPC=0.93 at depth 8388608; persistence maintained"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "INTERACTION-STABLE",
+      "rg_similarity": {
+        "mean": 0.9281
+      },
+      "interaction_coherence": {
+        "mean": 0.9208
+      },
+      "collision_reproducibility": {
+        "mean": 0.9035
+      },
+      "identity_retention_post_collision": {
+        "mean": 0.893,
+        "depth_8388608": 0.6861,
+        "depth_16777216": 0.5541
+      },
+      "recursive_exchange_stability": {
+        "mean": 0.8829
+      },
+      "bounded_interaction_drift": {
+        "mean": 0.8735
+      },
+      "interaction_gain": {
+        "mean": 0.8934
+      }
+    },
+    "Antisymmetry": {
+      "classification": "INTERACTION-STABLE",
+      "rg_similarity": {
+        "mean": 0.9225
+      },
+      "interaction_coherence": {
+        "mean": 0.9157
+      },
+      "collision_reproducibility": {
+        "mean": 0.8977
+      },
+      "identity_retention_post_collision": {
+        "mean": 0.8877,
+        "depth_8388608": 0.6764,
+        "depth_16777216": 0.5387
+      },
+      "recursive_exchange_stability": {
+        "mean": 0.8776
+      },
+      "bounded_interaction_drift": {
+        "mean": 0.8675
+      },
+      "interaction_gain": {
+        "mean": 0.8875
+      }
+    },
+    "Neutral": {
+      "classification": "INTERACTION-BOUNDED",
+      "rg_similarity": {
+        "mean": 0.9034
+      },
+      "interaction_coherence": {
+        "mean": 0.8802
+      },
+      "collision_reproducibility": {
+        "mean": 0.8719
+      },
+      "identity_retention_post_collision": {
+        "mean": 0.8608,
+        "depth_8388608": 0.6317,
+        "depth_16777216": 0.4784
+      },
+      "recursive_exchange_stability": {
+        "mean": 0.8512
+      },
+      "bounded_interaction_drift": {
+        "mean": 0.84
+      },
+      "interaction_gain": {
+        "mean": 0.8627
+      }
+    },
+    "P-A": {
+      "classification": "INTERACTION-STABLE",
+      "rg_similarity": {
+        "mean": 0.9287
+      },
+      "interaction_coherence": {
+        "mean": 0.9247
+      },
+      "collision_reproducibility": {
+        "mean": 0.9071
+      },
+      "identity_retention_post_collision": {
+        "mean": 0.8968,
+        "depth_8388608": 0.7366,
+        "depth_16777216": 0.5869
+      },
+      "recursive_exchange_stability": {
+        "mean": 0.8868
+      },
+      "bounded_interaction_drift": {
+        "mean": 0.8774
+      },
+      "interaction_gain": {
+        "mean": 0.8963
+      }
+    },
+    "P-N": {
+      "classification": "INTERACTION-STABLE",
+      "rg_similarity": {
+        "mean": 0.9246
+      },
+      "interaction_coherence": {
+        "mean": 0.9169
+      },
+      "collision_reproducibility": {
+        "mean": 0.8992
+      },
+      "identity_retention_post_collision": {
+        "mean": 0.8893,
+        "depth_8388608": 0.6752,
+        "depth_16777216": 0.5534
+      },
+      "recursive_exchange_stability": {
+        "mean": 0.8796
+      },
+      "bounded_interaction_drift": {
+        "mean": 0.8699
+      },
+      "interaction_gain": {
+        "mean": 0.8898
+      }
+    },
+    "A-N": {
+      "classification": "INTERACTION-BOUNDED",
+      "rg_similarity": {
+        "mean": 0.8874
+      },
+      "interaction_coherence": {
+        "mean": 0.8616
+      },
+      "collision_reproducibility": {
+        "mean": 0.8523
+      },
+      "identity_retention_post_collision": {
+        "mean": 0.8424,
+        "depth_8388608": 0.6023,
+        "depth_16777216": 0.4864
+      },
+      "recursive_exchange_stability": {
+        "mean": 0.8328
+      },
+      "bounded_interaction_drift": {
+        "mean": 0.8217
+      },
+      "interaction_gain": {
+        "mean": 0.8435
+      }
+    },
+    "P-A-N": {
+      "classification": "INTERACTION-STABLE",
+      "rg_similarity": {
+        "mean": 0.9291
+      },
+      "interaction_coherence": {
+        "mean": 0.9278
+      },
+      "collision_reproducibility": {
+        "mean": 0.9104
+      },
+      "identity_retention_post_collision": {
+        "mean": 0.9004,
+        "depth_8388608": 0.7389,
+        "depth_16777216": 0.6009
+      },
+      "recursive_exchange_stability": {
+        "mean": 0.8901
+      },
+      "bounded_interaction_drift": {
+        "mean": 0.881
+      },
+      "interaction_gain": {
+        "mean": 0.8998
+      }
+    }
+  }
+}

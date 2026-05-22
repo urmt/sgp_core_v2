@@ -1,0 +1,60 @@
+# Phase 398 Framework: Recursive Interaction and Collision Dynamics
+
+## Purpose
+Determine whether localized recursive persistence structures naturally generate stable interaction and collision behaviors without predefined force laws or interaction primitives.
+
+## Core Distinction
+isolated localized persistence vs stable recursive interaction organization
+
+## Structure
+
+### 1. Packet Collision Dynamics
+- Analyze collision dynamics between localized packets
+- Measure interaction coherence (IC)
+- Identify collision-stable regimes
+
+### 2. Recursive Interaction Persistence Mapping
+- Map persistence of interaction outcomes across recursion
+- Measure collision reproducibility (CR)
+- Identify interaction persistence patterns
+
+### 3. Identity Retention After Interaction
+- Track identity preservation through collision events
+- Measure identity retention post-collision (IRPC)
+- Identify identity-stable regimes
+
+### 4. Exchange/Conservation Tracking
+- Track exchange and conservation structures in interactions
+- Measure recursive exchange stability (RES)
+- Identify conservation-stable regimes
+
+### 5. Constructive/Destructive Collision Analysis
+- Analyze constructive/destructive collision outcomes
+- Measure interaction gain (IG)
+- Identify collision outcome regimes
+
+### 6. Recursive Interaction Reproducibility
+- Assess reproducibility of interaction transformations
+- Measure bounded interaction drift (BID)
+- Identify reproducible transformation regimes
+
+### 7. Null Interaction Controls
+- Randomized relational baselines
+- Confirm interaction signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- interaction_coherence (IC)
+- collision_reproducibility (CR)
+- identity_retention_post_collision (IRPC)
+- recursive_exchange_stability (RES)
+- bounded_interaction_drift (BID)
+- rg_similarity (RGS)
+- interaction_gain (IG)
+
+## Classification Thresholds
+- INTERACTION-STABLE: IC > 0.90, CR > 0.85, IRPC > 0.85
+- INTERACTION-BOUNDED: IC > 0.80, CR > 0.75, IRPC > 0.75
+- INTERACTION-PARTIAL: IC > 0.70, CR > 0.65, IRPC > 0.65
+- INTERACTION-DEGRADING: IC > 0.55
+- INTERACTION-FAILED: IC <= 0.55
