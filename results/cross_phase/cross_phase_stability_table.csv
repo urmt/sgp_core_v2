@@ -477,3 +477,11 @@ phase343_verdict,WEAKLY_RECOVERING,NA,NA,NA,NA,NA,NA,NA
 477: phase380_transport_field_alignment,0.906,NA,0.05,0.91,NA,0,0.0%,0.05
 478: phase380_attractor_field_coupling,0.926,NA,0.05,0.96,NA,0,0.0%,0.05
 479: phase380_verdict,FIELD-STABLE,NA,NA,NA,NA,NA,NA,NA
+480: phase381_rg_similarity,0.906,NA,0.05,0.97,NA,0,0.0%,0.05
+481: phase381_interference_coherence,0.906,NA,0.05,0.95,NA,0,0.0%,0.05
+482: phase381_superposition_stability,0.896,NA,0.05,0.93,NA,0,0.0%,0.05
+483: phase381_constructive_interaction_gain,0.936,NA,0.05,0.96,NA,0,0.0%,0.05
+484: phase381_destructive_interference_bound,0.926,NA,0.05,0.94,NA,0,0.0%,0.05
+485: phase381_recursive_field_synchronization,0.916,NA,0.05,0.91,NA,0,0.0%,0.05
+486: phase381_emergent_regime_stability,0.936,NA,0.05,0.96,NA,0,0.0%,0.05
+487: phase381_verdict,INTERFERENCE-COHERENT,NA,NA,NA,NA,NA,NA,NA
