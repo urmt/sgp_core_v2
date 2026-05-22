@@ -1,0 +1,69 @@
+PHASE 403 FORBIDDEN INTERPRETATIONS
+
+The following interpretations of cross-formalism verification results
+are FORBIDDEN. These terms reify mathematical Platonism, metaphysical
+universalism, or fundamental physics metaphors as literal properties.
+All results must be framed as cross-implementation relational
+propagation consistency.
+
+FORBIDDEN TERMS AND PHRASES
+
+DO NOT claim:
+1. "Mathematical Platonism" or "Platonic forms"
+2. "Universal laws of mathematics"
+3. "Mathematical reality" or "mathematical universe"
+4. "Fundamental laws of physics" or "laws of nature"
+5. "Theory of everything"
+6. "Mathematical universe hypothesis" (Tegmark)
+7. "Mathematical existence" or "mathematical objects"
+8. "A priori mathematical truth"
+9. "Universal grammar" (Chomsky)
+10. "Deep structure" in linguistic sense
+11. "Archetypes" or "Jungian archetypes"
+12. "Collective unconscious" or "universal unconscious"
+13. "Cosmic code" or "cosmic laws"
+14. "Mathematical divinity" or "divine mathematics"
+15. "Pythagorean mysticism" or "number mysticism"
+16. "Mathematical beauty" or "elegance"
+17. "Ideal forms" or "ideal types"
+18. "Transcendental mathematics"
+19. "Ontological reality" or "mathematical ontology"
+20. "Primordial structure" or "primordial mathematics"
+21. "Pancomputationalism" or "panpsychism"
+22. "Universal computation" (as metaphysical claim)
+23. "Algorithmic universe" (as physical claim)
+24. "Digital philosophy" (Fredkin, Wolfram)
+25. "Simulation hypothesis"
+26. "Mathematical monism"
+27. "Structural realism" (philosophical)
+28. "Metaphysical necessity" or "logical necessity"
+29. "Axiomatic truth" (as metaphysical claim)
+30. "Foundations of mathematics" (as reified ontology)
+
+PERMITTED ALTERNATIVES
+
+Instead of the above, use:
+- "Formalism invariance score" (FIS)
+- "Cross-implementation emergence consistency"
+- "Implementation-independent structural retention"
+- "Emergence translation fidelity"
+- "Hierarchy preservation across formalisms"
+- "Operator-role equivalence mapping"
+- "Universality retention index"
+- "Abstraction equivalence strength"
+- "Formalism-dependent vs invariant decomposition"
+- "Relational structure universality"
+
+RATIONALIZATION
+
+Phase 403 investigates whether the emergence hierarchy is preserved
+across different mathematical implementation structures. The formalisms
+tested (tensor networks, graph dynamics, category theory, etc.) are
+alternative mathematical representations of the same relational
+constraint system — not universal metaphysical truths, fundamental
+physics, or Platonic forms. All terminology must remain strictly
+relational and comparative across formalisms.
+
+Enforcement: Any use of forbidden terms in phase documentation or
+derived publications requires reframing. Repeat violations may
+require governance review.

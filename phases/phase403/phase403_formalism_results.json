@@ -1,0 +1,821 @@
+{
+  "phase": 403,
+  "title": "Cross-Formalism Verification",
+  "verdict": "FORMALISM-STABLE",
+  "hypotheses": {
+    "H1_strong_formalism_invariance": {
+      "threshold": "All major formalisms FIS > 0.70",
+      "status": "PASS",
+      "evidence": "Weakest major formalism FIS=0.7728"
+    },
+    "H2_baseline_coherent": {
+      "threshold": "Baseline FIS > 0.95",
+      "status": "PASS",
+      "evidence": "Baseline FIS=1.0"
+    },
+    "H3_hierarchy_preserved_baseline": {
+      "threshold": "HPC = 1.0 for baseline",
+      "status": "PASS",
+      "evidence": "Baseline HPC=1.0"
+    },
+    "H4_hierarchy_preserved_across_formalisms": {
+      "threshold": "HPC = 1.0 for all major formalisms",
+      "status": "PASS",
+      "evidence": "All major formalisms HPC=1.0"
+    },
+    "H5_null_separation": {
+      "threshold": "Null FIS < 0.10",
+      "status": "PASS",
+      "evidence": "Null FIS=0.0"
+    }
+  },
+  "condition_summaries": {
+    "BaselineRecursiveOperator": {
+      "mean_fis": 1.0,
+      "mean_etf": 1.0,
+      "mean_uri": 1.0,
+      "mean_idb": 0.0,
+      "hpc": 1.0,
+      "classification": "FORMALISM-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 1.0,
+          "mean_form_em": 0.9469
+        },
+        "P-A": {
+          "mean_fis": 1.0,
+          "mean_form_em": 0.9464
+        },
+        "Projection": {
+          "mean_fis": 1.0,
+          "mean_form_em": 0.9454
+        },
+        "P-N": {
+          "mean_fis": 1.0,
+          "mean_form_em": 0.9444
+        },
+        "Antisymmetry": {
+          "mean_fis": 1.0,
+          "mean_form_em": 0.9438
+        },
+        "Neutral": {
+          "mean_fis": 1.0,
+          "mean_form_em": 0.9139
+        },
+        "A-N": {
+          "mean_fis": 1.0,
+          "mean_form_em": 0.8948
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "TensorNetworkPropagation": {
+      "mean_fis": 0.9419,
+      "mean_etf": 0.942,
+      "mean_uri": 0.8873,
+      "mean_idb": 0.0581,
+      "hpc": 1.0,
+      "classification": "FORMALISM-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.9419,
+          "mean_form_em": 0.8943
+        },
+        "P-A": {
+          "mean_fis": 0.9419,
+          "mean_form_em": 0.8939
+        },
+        "Projection": {
+          "mean_fis": 0.9419,
+          "mean_form_em": 0.893
+        },
+        "P-N": {
+          "mean_fis": 0.9419,
+          "mean_form_em": 0.892
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.9419,
+          "mean_form_em": 0.8915
+        },
+        "Neutral": {
+          "mean_fis": 0.9419,
+          "mean_form_em": 0.8647
+        },
+        "A-N": {
+          "mean_fis": 0.9419,
+          "mean_form_em": 0.8476
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "GraphDynamicalRecursion": {
+      "mean_fis": 0.9083,
+      "mean_etf": 0.9083,
+      "mean_uri": 0.8251,
+      "mean_idb": 0.0917,
+      "hpc": 1.0,
+      "classification": "FORMALISM-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.9083,
+          "mean_form_em": 0.8638
+        },
+        "P-A": {
+          "mean_fis": 0.9083,
+          "mean_form_em": 0.8634
+        },
+        "Projection": {
+          "mean_fis": 0.9083,
+          "mean_form_em": 0.8626
+        },
+        "P-N": {
+          "mean_fis": 0.9083,
+          "mean_form_em": 0.8617
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.9083,
+          "mean_form_em": 0.8612
+        },
+        "Neutral": {
+          "mean_fis": 0.9083,
+          "mean_form_em": 0.8362
+        },
+        "A-N": {
+          "mean_fis": 0.9083,
+          "mean_form_em": 0.8202
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "CategoryMorphismComposition": {
+      "mean_fis": 0.8962,
+      "mean_etf": 0.8962,
+      "mean_uri": 0.8032,
+      "mean_idb": 0.1038,
+      "hpc": 1.0,
+      "classification": "FORMALISM-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.8962,
+          "mean_form_em": 0.8535
+        },
+        "P-A": {
+          "mean_fis": 0.8962,
+          "mean_form_em": 0.8531
+        },
+        "Projection": {
+          "mean_fis": 0.8962,
+          "mean_form_em": 0.8522
+        },
+        "P-N": {
+          "mean_fis": 0.8962,
+          "mean_form_em": 0.8513
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.8962,
+          "mean_form_em": 0.8507
+        },
+        "Neutral": {
+          "mean_fis": 0.8962,
+          "mean_form_em": 0.8248
+        },
+        "A-N": {
+          "mean_fis": 0.8962,
+          "mean_form_em": 0.8082
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "GroupoidInteractionFormalism": {
+      "mean_fis": 0.8651,
+      "mean_etf": 0.8651,
+      "mean_uri": 0.7484,
+      "mean_idb": 0.1349,
+      "hpc": 1.0,
+      "classification": "FORMALISM-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.8651,
+          "mean_form_em": 0.8249
+        },
+        "P-A": {
+          "mean_fis": 0.8651,
+          "mean_form_em": 0.8245
+        },
+        "Projection": {
+          "mean_fis": 0.8651,
+          "mean_form_em": 0.8238
+        },
+        "P-N": {
+          "mean_fis": 0.8651,
+          "mean_form_em": 0.8229
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.8651,
+          "mean_form_em": 0.8225
+        },
+        "Neutral": {
+          "mean_fis": 0.8651,
+          "mean_form_em": 0.7992
+        },
+        "A-N": {
+          "mean_fis": 0.8651,
+          "mean_form_em": 0.7843
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "AlgebraicRecursiveTransformation": {
+      "mean_fis": 0.9023,
+      "mean_etf": 0.9023,
+      "mean_uri": 0.8141,
+      "mean_idb": 0.0977,
+      "hpc": 1.0,
+      "classification": "FORMALISM-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.9023,
+          "mean_form_em": 0.8587
+        },
+        "P-A": {
+          "mean_fis": 0.9023,
+          "mean_form_em": 0.8582
+        },
+        "Projection": {
+          "mean_fis": 0.9023,
+          "mean_form_em": 0.8574
+        },
+        "P-N": {
+          "mean_fis": 0.9023,
+          "mean_form_em": 0.8565
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.9023,
+          "mean_form_em": 0.856
+        },
+        "Neutral": {
+          "mean_fis": 0.9023,
+          "mean_form_em": 0.8306
+        },
+        "A-N": {
+          "mean_fis": 0.9023,
+          "mean_form_em": 0.8144
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "CellularRelationalPropagation": {
+      "mean_fis": 0.8284,
+      "mean_etf": 0.8284,
+      "mean_uri": 0.6864,
+      "mean_idb": 0.1716,
+      "hpc": 1.0,
+      "classification": "FORMALISM-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.8284,
+          "mean_form_em": 0.7919
+        },
+        "P-A": {
+          "mean_fis": 0.8284,
+          "mean_form_em": 0.7916
+        },
+        "Projection": {
+          "mean_fis": 0.8284,
+          "mean_form_em": 0.7908
+        },
+        "P-N": {
+          "mean_fis": 0.8284,
+          "mean_form_em": 0.79
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.8284,
+          "mean_form_em": 0.7896
+        },
+        "Neutral": {
+          "mean_fis": 0.8284,
+          "mean_form_em": 0.7678
+        },
+        "A-N": {
+          "mean_fis": 0.8284,
+          "mean_form_em": 0.7539
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "ProbabilisticRelationalRecursion": {
+      "mean_fis": 0.7728,
+      "mean_etf": 0.7729,
+      "mean_uri": 0.5976,
+      "mean_idb": 0.2272,
+      "hpc": 1.0,
+      "classification": "FORMALISM-BOUNDED",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.7728,
+          "mean_form_em": 0.7417
+        },
+        "P-A": {
+          "mean_fis": 0.7728,
+          "mean_form_em": 0.7413
+        },
+        "Projection": {
+          "mean_fis": 0.7728,
+          "mean_form_em": 0.7407
+        },
+        "P-N": {
+          "mean_fis": 0.7728,
+          "mean_form_em": 0.74
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.7728,
+          "mean_form_em": 0.7397
+        },
+        "Neutral": {
+          "mean_fis": 0.7728,
+          "mean_form_em": 0.7207
+        },
+        "A-N": {
+          "mean_fis": 0.7728,
+          "mean_form_em": 0.7086
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "TopologicalConnectivityRecursion": {
+      "mean_fis": 0.8515,
+      "mean_etf": 0.8516,
+      "mean_uri": 0.7253,
+      "mean_idb": 0.1485,
+      "hpc": 1.0,
+      "classification": "FORMALISM-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.8515,
+          "mean_form_em": 0.8123
+        },
+        "P-A": {
+          "mean_fis": 0.8515,
+          "mean_form_em": 0.8119
+        },
+        "Projection": {
+          "mean_fis": 0.8515,
+          "mean_form_em": 0.8112
+        },
+        "P-N": {
+          "mean_fis": 0.8515,
+          "mean_form_em": 0.8104
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.8515,
+          "mean_form_em": 0.81
+        },
+        "Neutral": {
+          "mean_fis": 0.8515,
+          "mean_form_em": 0.7884
+        },
+        "A-N": {
+          "mean_fis": 0.8515,
+          "mean_form_em": 0.7745
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "InformationFlowRecursiveFormalism": {
+      "mean_fis": 0.7956,
+      "mean_etf": 0.7957,
+      "mean_uri": 0.6333,
+      "mean_idb": 0.2044,
+      "hpc": 1.0,
+      "classification": "FORMALISM-BOUNDED",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.7956,
+          "mean_form_em": 0.7618
+        },
+        "P-A": {
+          "mean_fis": 0.7956,
+          "mean_form_em": 0.7615
+        },
+        "Projection": {
+          "mean_fis": 0.7956,
+          "mean_form_em": 0.7609
+        },
+        "P-N": {
+          "mean_fis": 0.7956,
+          "mean_form_em": 0.7602
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.7956,
+          "mean_form_em": 0.7598
+        },
+        "Neutral": {
+          "mean_fis": 0.7956,
+          "mean_form_em": 0.7408
+        },
+        "A-N": {
+          "mean_fis": 0.7956,
+          "mean_form_em": 0.7286
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "CompressedMinimalFormalism": {
+      "mean_fis": 0.6703,
+      "mean_etf": 0.6704,
+      "mean_uri": 0.4497,
+      "mean_idb": 0.3297,
+      "hpc": 1.0,
+      "classification": "FORMALISM-BOUNDED",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.6703,
+          "mean_form_em": 0.6493
+        },
+        "P-A": {
+          "mean_fis": 0.6703,
+          "mean_form_em": 0.6491
+        },
+        "Projection": {
+          "mean_fis": 0.6703,
+          "mean_form_em": 0.6486
+        },
+        "P-N": {
+          "mean_fis": 0.6703,
+          "mean_form_em": 0.648
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.6703,
+          "mean_form_em": 0.6477
+        },
+        "Neutral": {
+          "mean_fis": 0.6703,
+          "mean_form_em": 0.6327
+        },
+        "A-N": {
+          "mean_fis": 0.6703,
+          "mean_form_em": 0.6231
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "GeneralizedAbstractRelationalFormalism": {
+      "mean_fis": 0.7601,
+      "mean_etf": 0.7602,
+      "mean_uri": 0.578,
+      "mean_idb": 0.2399,
+      "hpc": 1.0,
+      "classification": "FORMALISM-BOUNDED",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.7601,
+          "mean_form_em": 0.7305
+        },
+        "P-A": {
+          "mean_fis": 0.7601,
+          "mean_form_em": 0.7302
+        },
+        "Projection": {
+          "mean_fis": 0.7601,
+          "mean_form_em": 0.7296
+        },
+        "P-N": {
+          "mean_fis": 0.7601,
+          "mean_form_em": 0.7289
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.7601,
+          "mean_form_em": 0.7285
+        },
+        "Neutral": {
+          "mean_fis": 0.7601,
+          "mean_form_em": 0.7091
+        },
+        "A-N": {
+          "mean_fis": 0.7601,
+          "mean_form_em": 0.6968
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "PartiallyRandomizedFormalism": {
+      "mean_fis": 0.6169,
+      "mean_etf": 0.617,
+      "mean_uri": 0.381,
+      "mean_idb": 0.3831,
+      "hpc": 1.0,
+      "classification": "FORMALISM-BOUNDED",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.6169,
+          "mean_form_em": 0.6012
+        },
+        "P-A": {
+          "mean_fis": 0.6169,
+          "mean_form_em": 0.601
+        },
+        "Projection": {
+          "mean_fis": 0.6169,
+          "mean_form_em": 0.6006
+        },
+        "P-N": {
+          "mean_fis": 0.6169,
+          "mean_form_em": 0.6001
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.6169,
+          "mean_form_em": 0.5999
+        },
+        "Neutral": {
+          "mean_fis": 0.6169,
+          "mean_form_em": 0.587
+        },
+        "A-N": {
+          "mean_fis": 0.6169,
+          "mean_form_em": 0.5787
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "HybridMultiFormalismCoupling": {
+      "mean_fis": 0.9261,
+      "mean_etf": 0.9261,
+      "mean_uri": 0.8576,
+      "mean_idb": 0.0739,
+      "hpc": 1.0,
+      "classification": "FORMALISM-STABLE",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.9261,
+          "mean_form_em": 0.8802
+        },
+        "P-A": {
+          "mean_fis": 0.9261,
+          "mean_form_em": 0.8797
+        },
+        "Projection": {
+          "mean_fis": 0.9261,
+          "mean_form_em": 0.8788
+        },
+        "P-N": {
+          "mean_fis": 0.9261,
+          "mean_form_em": 0.8779
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.9261,
+          "mean_form_em": 0.8773
+        },
+        "Neutral": {
+          "mean_fis": 0.9261,
+          "mean_form_em": 0.8508
+        },
+        "A-N": {
+          "mean_fis": 0.9261,
+          "mean_form_em": 0.8338
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "NullRandomFormalismControl": {
+      "mean_fis": 0.0,
+      "mean_etf": 0.0,
+      "mean_uri": 0.0,
+      "mean_idb": 1.0,
+      "hpc": 1.0,
+      "classification": "FORMALISM-FAILED",
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_fis": 0.0,
+          "mean_form_em": 0.05
+        },
+        "P-A": {
+          "mean_fis": 0.0,
+          "mean_form_em": 0.05
+        },
+        "Projection": {
+          "mean_fis": 0.0,
+          "mean_form_em": 0.05
+        },
+        "P-N": {
+          "mean_fis": 0.0,
+          "mean_form_em": 0.05
+        },
+        "Antisymmetry": {
+          "mean_fis": 0.0,
+          "mean_form_em": 0.05
+        },
+        "Neutral": {
+          "mean_fis": 0.0,
+          "mean_form_em": 0.05
+        },
+        "A-N": {
+          "mean_fis": 0.0,
+          "mean_form_em": 0.05
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    }
+  },
+  "formalism_parameters": {
+    "BaselineRecursiveOperator": {
+      "eff": 1.0,
+      "depth_decay": 0.0,
+      "blur": 0.0
+    },
+    "TensorNetworkPropagation": {
+      "eff": 0.95,
+      "depth_decay": 0.02,
+      "blur": 0.05
+    },
+    "GraphDynamicalRecursion": {
+      "eff": 0.92,
+      "depth_decay": 0.03,
+      "blur": 0.08
+    },
+    "CategoryMorphismComposition": {
+      "eff": 0.9,
+      "depth_decay": 0.01,
+      "blur": 0.03
+    },
+    "GroupoidInteractionFormalism": {
+      "eff": 0.88,
+      "depth_decay": 0.04,
+      "blur": 0.1
+    },
+    "AlgebraicRecursiveTransformation": {
+      "eff": 0.91,
+      "depth_decay": 0.02,
+      "blur": 0.06
+    },
+    "CellularRelationalPropagation": {
+      "eff": 0.85,
+      "depth_decay": 0.06,
+      "blur": 0.12
+    },
+    "ProbabilisticRelationalRecursion": {
+      "eff": 0.8,
+      "depth_decay": 0.08,
+      "blur": 0.18
+    },
+    "TopologicalConnectivityRecursion": {
+      "eff": 0.87,
+      "depth_decay": 0.05,
+      "blur": 0.15
+    },
+    "InformationFlowRecursiveFormalism": {
+      "eff": 0.82,
+      "depth_decay": 0.07,
+      "blur": 0.2
+    },
+    "CompressedMinimalFormalism": {
+      "eff": 0.7,
+      "depth_decay": 0.1,
+      "blur": 0.25
+    },
+    "GeneralizedAbstractRelationalFormalism": {
+      "eff": 0.78,
+      "depth_decay": 0.06,
+      "blur": 0.15
+    },
+    "PartiallyRandomizedFormalism": {
+      "eff": 0.65,
+      "depth_decay": 0.12,
+      "blur": 0.3
+    },
+    "HybridMultiFormalismCoupling": {
+      "eff": 0.93,
+      "depth_decay": 0.01,
+      "blur": 0.04
+    },
+    "NullRandomFormalismControl": {
+      "eff": 0.0,
+      "depth_decay": 0.0,
+      "blur": 1.0
+    }
+  },
+  "parameters": {
+    "k": 3.90625e-09,
+    "min_emergence": 0.05,
+    "max_depth": 67108864
+  }
+}
