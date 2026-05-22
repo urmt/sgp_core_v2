@@ -1,0 +1,68 @@
+PHASE 400 FORBIDDEN INTERPRETATIONS
+
+The following interpretations of operator ablation results are FORBIDDEN.
+These terms reify neuroscience, cognitive science, or physical causality
+metaphors as literal properties of the relational operator structure.
+All results must be framed as relational constraint dynamics only.
+
+FORBIDDEN TERMS AND PHRASES
+
+DO NOT claim:
+1. "Neural ablation" or "brain lesion"
+2. "Cortical column removal"
+3. "Neural network pruning"
+4. "Synaptic weight ablation"
+5. "Neuromodulation" or "neurotransmitter ablation"
+6. "Brain region necessity"
+7. "Cognitive module removal"
+8. "Genetic knockout" or "gene deletion"
+9. "CRISPR ablation" or "molecular knockout"
+10. "Essential genes" or "genetic necessity"
+11. "Developmental knockout"
+12. "Critical brain region"
+13. "Neural correlate of consciousness"
+14. "Cognitive architecture modules"
+15. "Constitutional necessity" (political/legal reification)
+16. "Logical necessity" (philosophical reification)
+17. "Metaphysical necessity"
+18. "Causal power" or "causal force"
+19. "Agency" or "operator agency"
+20. "Intentional operator removal"
+21. "Operator death" or "operator silencing"
+22. "Minimal consciousness prerequisites"
+23. "Ablation of awareness"
+24. "Neurological deficit"
+25. "Brain damage analogy"
+26. "Functional localization"
+27. "Essential cognitive function"
+28. "Biological necessity"
+29. "Moral necessity" or "ethical necessity"
+30. "Teleological necessity" (purpose-driven interpretation)
+
+PERMITTED ALTERNATIVES
+
+Instead of the above, use:
+- "Operator necessity index" (ONI)
+- "Relational constraint dependence"
+- "Operator contribution weight"
+- "Constraint-dependent emergence"
+- "Structural operator hierarchy"
+- "Operator ablation degradation"
+- "Relational operator necessity"
+- "Minimal constraint sufficiency"
+- "Operator redundancy quantification"
+- "Emergence survival fraction under constraint removal"
+- "Phase-collapse ordering"
+
+RATIONALIZATION
+
+Phase 400 investigates which recursive relational operators are necessary
+for emergent organizational regimes. The operators (Projection,
+Antisymmetry, Neutrality) are structural mathematical constraints on
+recursive relational propagation — not neural modules, genetic loci,
+cognitive functions, or metaphysical primitives. All terminology must
+remain strictly relational and mathematical.
+
+Enforcement: Any use of forbidden terms in phase documentation or
+derived publications requires reframing. Repeat violations may
+require governance review.

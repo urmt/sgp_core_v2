@@ -1,0 +1,774 @@
+{
+  "phase": 400,
+  "title": "Operator Ablation and Necessity Structure",
+  "verdict": "ABLATION-STABLE",
+  "hypotheses": {
+    "H1_baseline_preserved": {
+      "threshold": "ESF > 0.90",
+      "status": "PASS",
+      "evidence": "FullPABaseline mean ESF=0.986"
+    },
+    "H2_necessity_hierarchy": {
+      "threshold": "ONI_P > ONI_A > ONI_N",
+      "status": "PASS",
+      "evidence": "ONI: P=0.507, A=0.4508, N=0.332"
+    },
+    "H3_bounded_degradation": {
+      "threshold": "RCL < 0.60 under ablation",
+      "status": "PASS",
+      "evidence": "Worst ablated RCL=0.5134"
+    },
+    "H4_differentiation_from_null": {
+      "threshold": "All conditions > null ESF",
+      "status": "PASS",
+      "evidence": "Null ESF=0.0529"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "HPR=1.0 for full baseline",
+      "status": "PASS",
+      "evidence": "FullPABaseline HPR=1.0"
+    }
+  },
+  "operator_necessity": {
+    "P": 0.507,
+    "A": 0.4508,
+    "N": 0.332
+  },
+  "condition_summaries": {
+    "FullPABaseline": {
+      "mean_esf": 0.986,
+      "mean_oni": 0.0,
+      "mean_rcl": 0.014,
+      "mean_pds": 0.0,
+      "mean_mos": 1.0,
+      "hpr": 1.0,
+      "first_collapse_depth": Infinity,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 1.0,
+          "mean_emergence": 0.9467
+        },
+        "P-A": {
+          "mean_esf": 0.9995,
+          "mean_emergence": 0.9462
+        },
+        "Projection": {
+          "mean_esf": 0.9984,
+          "mean_emergence": 0.9452
+        },
+        "P-N": {
+          "mean_esf": 0.9973,
+          "mean_emergence": 0.9441
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.9967,
+          "mean_emergence": 0.9435
+        },
+        "Neutral": {
+          "mean_esf": 0.9651,
+          "mean_emergence": 0.9136
+        },
+        "A-N": {
+          "mean_esf": 0.9449,
+          "mean_emergence": 0.8945
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "PRemoved": {
+      "mean_esf": 0.4866,
+      "mean_oni": 0.4,
+      "mean_rcl": 0.5134,
+      "mean_pds": 0.1946,
+      "mean_mos": 0.36,
+      "hpr": 1.0,
+      "first_collapse_depth": 1.0,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.493,
+          "mean_emergence": 0.4668
+        },
+        "P-A": {
+          "mean_esf": 0.4928,
+          "mean_emergence": 0.4665
+        },
+        "Projection": {
+          "mean_esf": 0.4923,
+          "mean_emergence": 0.4661
+        },
+        "P-N": {
+          "mean_esf": 0.4918,
+          "mean_emergence": 0.4656
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.4915,
+          "mean_emergence": 0.4653
+        },
+        "Neutral": {
+          "mean_esf": 0.4768,
+          "mean_emergence": 0.4514
+        },
+        "A-N": {
+          "mean_esf": 0.4674,
+          "mean_emergence": 0.4425
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "ARemoved": {
+      "mean_esf": 0.5419,
+      "mean_oni": 0.35,
+      "mean_rcl": 0.4581,
+      "mean_pds": 0.1896,
+      "mean_mos": 0.4225,
+      "hpr": 1.0,
+      "first_collapse_depth": Infinity,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.5492,
+          "mean_emergence": 0.5199
+        },
+        "P-A": {
+          "mean_esf": 0.5489,
+          "mean_emergence": 0.5197
+        },
+        "Projection": {
+          "mean_esf": 0.5484,
+          "mean_emergence": 0.5192
+        },
+        "P-N": {
+          "mean_esf": 0.5478,
+          "mean_emergence": 0.5186
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.5475,
+          "mean_emergence": 0.5183
+        },
+        "Neutral": {
+          "mean_esf": 0.5309,
+          "mean_emergence": 0.5026
+        },
+        "A-N": {
+          "mean_esf": 0.5204,
+          "mean_emergence": 0.4926
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "NRemoved": {
+      "mean_esf": 0.659,
+      "mean_oni": 0.25,
+      "mean_rcl": 0.341,
+      "mean_pds": 0.1647,
+      "mean_mos": 0.5625,
+      "hpr": 1.0,
+      "first_collapse_depth": Infinity,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.668,
+          "mean_emergence": 0.6324
+        },
+        "P-A": {
+          "mean_esf": 0.6677,
+          "mean_emergence": 0.6321
+        },
+        "Projection": {
+          "mean_esf": 0.667,
+          "mean_emergence": 0.6314
+        },
+        "P-N": {
+          "mean_esf": 0.6663,
+          "mean_emergence": 0.6307
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.6659,
+          "mean_emergence": 0.6303
+        },
+        "Neutral": {
+          "mean_esf": 0.6454,
+          "mean_emergence": 0.6109
+        },
+        "A-N": {
+          "mean_esf": 0.6323,
+          "mean_emergence": 0.5986
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "PAOnly": {
+      "mean_esf": 0.659,
+      "mean_oni": 0.25,
+      "mean_rcl": 0.341,
+      "mean_pds": 0.1647,
+      "mean_mos": 0.5625,
+      "hpr": 1.0,
+      "first_collapse_depth": Infinity,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.668,
+          "mean_emergence": 0.6324
+        },
+        "P-A": {
+          "mean_esf": 0.6677,
+          "mean_emergence": 0.6321
+        },
+        "Projection": {
+          "mean_esf": 0.667,
+          "mean_emergence": 0.6314
+        },
+        "P-N": {
+          "mean_esf": 0.6663,
+          "mean_emergence": 0.6307
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.6659,
+          "mean_emergence": 0.6303
+        },
+        "Neutral": {
+          "mean_esf": 0.6454,
+          "mean_emergence": 0.6109
+        },
+        "A-N": {
+          "mean_esf": 0.6323,
+          "mean_emergence": 0.5986
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "PNOnly": {
+      "mean_esf": 0.5419,
+      "mean_oni": 0.35,
+      "mean_rcl": 0.4581,
+      "mean_pds": 0.1896,
+      "mean_mos": 0.4225,
+      "hpr": 1.0,
+      "first_collapse_depth": Infinity,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.5492,
+          "mean_emergence": 0.5199
+        },
+        "P-A": {
+          "mean_esf": 0.5489,
+          "mean_emergence": 0.5197
+        },
+        "Projection": {
+          "mean_esf": 0.5484,
+          "mean_emergence": 0.5192
+        },
+        "P-N": {
+          "mean_esf": 0.5478,
+          "mean_emergence": 0.5186
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.5475,
+          "mean_emergence": 0.5183
+        },
+        "Neutral": {
+          "mean_esf": 0.5309,
+          "mean_emergence": 0.5026
+        },
+        "A-N": {
+          "mean_esf": 0.5204,
+          "mean_emergence": 0.4926
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "ANOnly": {
+      "mean_esf": 0.4866,
+      "mean_oni": 0.4,
+      "mean_rcl": 0.5134,
+      "mean_pds": 0.1946,
+      "mean_mos": 0.36,
+      "hpr": 1.0,
+      "first_collapse_depth": 1.0,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.493,
+          "mean_emergence": 0.4668
+        },
+        "P-A": {
+          "mean_esf": 0.4928,
+          "mean_emergence": 0.4665
+        },
+        "Projection": {
+          "mean_esf": 0.4923,
+          "mean_emergence": 0.4661
+        },
+        "P-N": {
+          "mean_esf": 0.4918,
+          "mean_emergence": 0.4656
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.4915,
+          "mean_emergence": 0.4653
+        },
+        "Neutral": {
+          "mean_esf": 0.4768,
+          "mean_emergence": 0.4514
+        },
+        "A-N": {
+          "mean_esf": 0.4674,
+          "mean_emergence": 0.4425
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "WeakenedP": {
+      "mean_esf": 0.7206,
+      "mean_oni": 0.2,
+      "mean_rcl": 0.2794,
+      "mean_pds": 0.1441,
+      "mean_mos": 0.64,
+      "hpr": 1.0,
+      "first_collapse_depth": Infinity,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.7306,
+          "mean_emergence": 0.6916
+        },
+        "P-A": {
+          "mean_esf": 0.7302,
+          "mean_emergence": 0.6913
+        },
+        "Projection": {
+          "mean_esf": 0.7295,
+          "mean_emergence": 0.6906
+        },
+        "P-N": {
+          "mean_esf": 0.7287,
+          "mean_emergence": 0.6898
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.7282,
+          "mean_emergence": 0.6894
+        },
+        "Neutral": {
+          "mean_esf": 0.7056,
+          "mean_emergence": 0.668
+        },
+        "A-N": {
+          "mean_esf": 0.6912,
+          "mean_emergence": 0.6543
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "WeakenedA": {
+      "mean_esf": 0.7521,
+      "mean_oni": 0.175,
+      "mean_rcl": 0.2479,
+      "mean_pds": 0.1316,
+      "mean_mos": 0.6806,
+      "hpr": 1.0,
+      "first_collapse_depth": Infinity,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.7626,
+          "mean_emergence": 0.7219
+        },
+        "P-A": {
+          "mean_esf": 0.7623,
+          "mean_emergence": 0.7216
+        },
+        "Projection": {
+          "mean_esf": 0.7615,
+          "mean_emergence": 0.7208
+        },
+        "P-N": {
+          "mean_esf": 0.7606,
+          "mean_emergence": 0.72
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.7601,
+          "mean_emergence": 0.7195
+        },
+        "Neutral": {
+          "mean_esf": 0.7365,
+          "mean_emergence": 0.6972
+        },
+        "A-N": {
+          "mean_esf": 0.7214,
+          "mean_emergence": 0.6828
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "WeakenedN": {
+      "mean_esf": 0.8166,
+      "mean_oni": 0.125,
+      "mean_rcl": 0.1834,
+      "mean_pds": 0.1021,
+      "mean_mos": 0.7656,
+      "hpr": 1.0,
+      "first_collapse_depth": Infinity,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.8281,
+          "mean_emergence": 0.7839
+        },
+        "P-A": {
+          "mean_esf": 0.8276,
+          "mean_emergence": 0.7835
+        },
+        "Projection": {
+          "mean_esf": 0.8268,
+          "mean_emergence": 0.7827
+        },
+        "P-N": {
+          "mean_esf": 0.8258,
+          "mean_emergence": 0.7818
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.8253,
+          "mean_emergence": 0.7813
+        },
+        "Neutral": {
+          "mean_esf": 0.7995,
+          "mean_emergence": 0.7569
+        },
+        "A-N": {
+          "mean_esf": 0.783,
+          "mean_emergence": 0.7413
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "StochasticDropout": {
+      "mean_esf": 0.4532,
+      "mean_oni": 0.4628,
+      "mean_rcl": 0.5468,
+      "mean_pds": 0.1548,
+      "mean_mos": 0.3494,
+      "hpr": 1.0,
+      "first_collapse_depth": 2.0,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.4592,
+          "mean_emergence": 0.4339
+        },
+        "P-A": {
+          "mean_esf": 0.459,
+          "mean_emergence": 0.4337
+        },
+        "Projection": {
+          "mean_esf": 0.4585,
+          "mean_emergence": 0.4333
+        },
+        "P-N": {
+          "mean_esf": 0.458,
+          "mean_emergence": 0.4328
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.4578,
+          "mean_emergence": 0.4326
+        },
+        "Neutral": {
+          "mean_esf": 0.4442,
+          "mean_emergence": 0.4198
+        },
+        "A-N": {
+          "mean_esf": 0.4356,
+          "mean_emergence": 0.4116
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "DelayedActivation": {
+      "mean_esf": 0.5627,
+      "mean_oni": 0.3727,
+      "mean_rcl": 0.4373,
+      "mean_pds": 0.1056,
+      "mean_mos": 0.4926,
+      "hpr": 1.0,
+      "first_collapse_depth": 1.0,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.5704,
+          "mean_emergence": 0.5357
+        },
+        "P-A": {
+          "mean_esf": 0.5701,
+          "mean_emergence": 0.5354
+        },
+        "Projection": {
+          "mean_esf": 0.5695,
+          "mean_emergence": 0.5349
+        },
+        "P-N": {
+          "mean_esf": 0.5689,
+          "mean_emergence": 0.5343
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.5686,
+          "mean_emergence": 0.534
+        },
+        "Neutral": {
+          "mean_esf": 0.5513,
+          "mean_emergence": 0.5178
+        },
+        "A-N": {
+          "mean_esf": 0.5403,
+          "mean_emergence": 0.5074
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "AsymmetricWeighting": {
+      "mean_esf": 0.6229,
+      "mean_oni": 0.28,
+      "mean_rcl": 0.3771,
+      "mean_pds": 0.1744,
+      "mean_mos": 0.5184,
+      "hpr": 1.0,
+      "first_collapse_depth": Infinity,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.6315,
+          "mean_emergence": 0.5978
+        },
+        "P-A": {
+          "mean_esf": 0.6312,
+          "mean_emergence": 0.5975
+        },
+        "Projection": {
+          "mean_esf": 0.6305,
+          "mean_emergence": 0.5969
+        },
+        "P-N": {
+          "mean_esf": 0.6298,
+          "mean_emergence": 0.5963
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.6295,
+          "mean_emergence": 0.5959
+        },
+        "Neutral": {
+          "mean_esf": 0.6102,
+          "mean_emergence": 0.5776
+        },
+        "A-N": {
+          "mean_esf": 0.5979,
+          "mean_emergence": 0.5659
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "RecursiveIntermittency": {
+      "mean_esf": 0.4092,
+      "mean_oni": 0.4958,
+      "mean_rcl": 0.5908,
+      "mean_pds": 0.1598,
+      "mean_mos": 0.2982,
+      "hpr": 1.0,
+      "first_collapse_depth": 4.0,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.4145,
+          "mean_emergence": 0.3923
+        },
+        "P-A": {
+          "mean_esf": 0.4143,
+          "mean_emergence": 0.3921
+        },
+        "Projection": {
+          "mean_esf": 0.4139,
+          "mean_emergence": 0.3917
+        },
+        "P-N": {
+          "mean_esf": 0.4135,
+          "mean_emergence": 0.3913
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.4132,
+          "mean_emergence": 0.3911
+        },
+        "Neutral": {
+          "mean_esf": 0.4012,
+          "mean_emergence": 0.3797
+        },
+        "A-N": {
+          "mean_esf": 0.3935,
+          "mean_emergence": 0.3724
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    },
+    "NullRecursiveControl": {
+      "mean_esf": 0.0529,
+      "mean_oni": 1.0,
+      "mean_rcl": 0.9471,
+      "mean_pds": 0.0529,
+      "mean_mos": 0.0,
+      "hpr": 1.0,
+      "first_collapse_depth": 1.0,
+      "sector_emergence": {
+        "P-A-N": {
+          "mean_esf": 0.0529,
+          "mean_emergence": 0.05
+        },
+        "P-A": {
+          "mean_esf": 0.0529,
+          "mean_emergence": 0.05
+        },
+        "Projection": {
+          "mean_esf": 0.0529,
+          "mean_emergence": 0.05
+        },
+        "P-N": {
+          "mean_esf": 0.0529,
+          "mean_emergence": 0.05
+        },
+        "Antisymmetry": {
+          "mean_esf": 0.0529,
+          "mean_emergence": 0.05
+        },
+        "Neutral": {
+          "mean_esf": 0.0529,
+          "mean_emergence": 0.05
+        },
+        "A-N": {
+          "mean_esf": 0.0529,
+          "mean_emergence": 0.05
+        }
+      },
+      "sector_ordering": [
+        "P-A-N",
+        "P-A",
+        "Projection",
+        "P-N",
+        "Antisymmetry",
+        "Neutral",
+        "A-N"
+      ]
+    }
+  },
+  "sector_base_values": {
+    "P-A-N": 0.9567,
+    "P-A": 0.9562,
+    "Projection": 0.9552,
+    "P-N": 0.9541,
+    "Antisymmetry": 0.9535,
+    "Neutral": 0.9233,
+    "A-N": 0.904
+  },
+  "operator_importance": {
+    "P": 0.4,
+    "A": 0.35,
+    "N": 0.25
+  },
+  "ablation_gamma": 1.5
+}

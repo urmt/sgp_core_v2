@@ -1,0 +1,44 @@
+# Phase 400 Framework: Operator Ablation and Necessity Structure
+
+## Purpose
+Determine which recursive relational operators are NECESSARY, REDUNDANT, or SUFFICIENT for each emergent organizational regime. Map the causal dependency structure of emergence layers.
+
+## Core Distinction
+correlated emergence vs constraint-dependent emergence
+
+## Ablation Conditions
+1. Full P-A-N baseline (all operators active)
+2. P removed (A+N only)
+3. A removed (P+N only)
+4. N removed (P+A only)
+5. P+A only (N ablated)
+6. P+N only (A ablated)
+7. A+N only (P ablated)
+8. weakened P (P at 50% strength)
+9. weakened A (A at 50% strength)
+10. weakened N (N at 50% strength)
+11. stochastic operator dropout (random per-depth operator scheduling)
+12. delayed operator activation (operators ramp in with depth)
+13. asymmetric weighting (P: 1.0, A: 0.7, N: 0.3)
+14. recursive intermittency (operators pulse on/off with depth)
+15. null recursive control (all operators zeroed)
+
+## Metrics
+- emergence_survival_fraction (ESF) — fraction of emergence surviving ablation
+- operator_necessity_index (ONI) — aggregate necessity of ablated operators
+- collapse_depth (CD) — depth at which emergence drops below threshold
+- hierarchy_preservation_rate (HPR) — preservation of sector ordering
+- recursive_coherence_loss (RCL) — coherence degradation from ablation
+- phase_dependency_score (PDS) — emergence dependence on operator set
+- minimal_operator_sufficiency (MOS) — sufficiency of active operator set
+
+## Operator Importance Weights
+- P (Projection): 0.40 — directional relational mapping
+- A (Antisymmetry): 0.35 — asymmetric ordering
+- N (Neutrality): 0.25 — symmetric indifference
+
+## Classification Thresholds
+- ABLATION-STABLE: ESF > 0.80, RCL < 0.20
+- ABLATION-BOUNDED: ESF > 0.65, RCL < 0.35
+- ABLATION-DEGRADING: ESF > 0.45, RCL < 0.55
+- ABLATION-FAILED: ESF <= 0.45

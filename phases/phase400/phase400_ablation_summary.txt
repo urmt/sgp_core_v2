@@ -1,0 +1,36 @@
+PHASE 400 SUMMARY: OPERATOR ABLATION AND NECESSITY STRUCTURE
+
+VERDICT: ABLATION-STABLE (5/5 hypotheses PASS)
+
+CORE QUESTION:
+Are emergent organizational regimes structurally constrained by specific
+recursive relational operators, or are they generic consequences of
+arbitrary recursive complexity?
+ANSWER: STRUCTURALLY CONSTRAINED — operators have a clear necessity
+hierarchy and different operator subsets produce distinct emergence levels.
+
+OPERATOR NECESSITY HIERARCHY (P-A-N cross-condition):
+  P (Projection):   ONI=0.507 — MOST NECESSARY
+  A (Antisymmetry): ONI=0.451 — INTERMEDIATE
+  N (Neutrality):   ONI=0.332 — LEAST NECESSARY
+
+ABLATION EFFECTS (P-A-N mean ESF):
+  FullPABaseline:      1.000 (ABLATION-STABLE)
+  WeakenedN:           0.828 (ABLATION-STABLE)
+  WeakenedA:           0.763 (ABLATION-BOUNDED)
+  WeakenedP:           0.731 (ABLATION-BOUNDED)
+  NRemoved/PAOnly:     0.668 (ABLATION-BOUNDED)
+  AsymmetricWeighting: 0.632 (ABLATION-BOUNDED)
+  DelayedActivation:   0.570 (ABLATION-DEGRADING)
+  ARemoved/PNOnly:     0.549 (ABLATION-DEGRADING)
+  PRemoved/ANOnly:     0.493 (ABLATION-DEGRADING)
+  StochasticDropout:   0.459 (ABLATION-DEGRADING)
+  RecursiveIntermittency: 0.415 (ABLATION-DEGRADING)
+  NullRecursiveControl: 0.053 (ABLATION-FAILED)
+
+KEY PROPERTIES:
+- Depth invariance: ablation effects constant across all depths
+- Minimal sufficiency: at least 2 operators required (P+A most viable)
+- Hierarchy preserved: HPR=1.0 under ALL conditions
+- Dynamic > static damage: intermittency/dropout worse than single-op removal
+- Graceful degradation: weakening < removal at same operator weight

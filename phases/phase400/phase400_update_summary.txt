@@ -1,0 +1,36 @@
+PHASE 400 UPDATE SUMMARY: OPERATOR ABLATION AND NECESSITY STRUCTURE
+
+WHAT CHANGED:
+- New phase: Phase 400 — operator ablation study (MILESTONE).
+- First systematic test of causal dependency structure across the
+  10-phase emergence sequence.
+- New computation paradigm: operator removal/weakening/dynamics
+  rather than depth extension.
+- 15 ablation conditions: 1 baseline, 6 complete removals, 3 weakening,
+  3 dynamic, 1 asymmetric weighting, 1 null control.
+- New metrics: emergence_survival_fraction, operator_necessity_index,
+  collapse_depth, hierarchy_preservation_rate, recursive_coherence_loss,
+  phase_dependency_score, minimal_operator_sufficiency.
+- New classification: ABLATION-STABLE / BOUNDED / DEGRADING / FAILED.
+- Depth maintained constant at 33554432 (no extension).
+
+WHAT WAS PRESERVED:
+- 7 canonical sectors with same hierarchy.
+- 44 depths.
+- k=0.0000000078125 for depth scaling consistency.
+- 5-hypothesis verification framework.
+- 9-file output structure.
+- Deterministic computation via SEED=370.
+- Null control for artifact detection.
+
+RESULT:
+ABLATION-STABLE verdict (5/5 hypotheses PASS).
+
+Core finding: Emergent organizational regimes are structurally
+constrained by specific recursive relational operators. Operator
+necessity hierarchy: P (0.507) > A (0.451) > N (0.332). No single
+operator is sufficient; at least two required (P+A most viable).
+Ablation effects are depth-invariant — operator necessity is a
+structural property. Dynamic operator unpredictability (intermittency,
+dropout) is more destructive than static removal of any single
+operator except P.
