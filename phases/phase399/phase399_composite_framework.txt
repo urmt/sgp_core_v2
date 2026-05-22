@@ -1,0 +1,60 @@
+# Phase 399 Framework: Recursive Composite Binding and Structural Formation
+
+## Purpose
+Determine whether interacting recursive localized persistence structures naturally generate stable composite bound organizational regimes without predefined binding forces or assembly primitives.
+
+## Core Distinction
+transient interaction dynamics vs persistent recursively bound composite organization
+
+## Structure
+
+### 1. Composite Binding Emergence
+- Detect emergence of composite bound organizational states
+- Measure composite coherence (CC)
+- Identify binding-stable regimes
+
+### 2. Recursive Bound-State Persistence Tracking
+- Track persistence of bound composite states across recursion
+- Measure binding persistence (BP)
+- Identify bound-state degradation patterns
+
+### 3. Internal Coherence Stability Analysis
+- Analyze internal coherence maintenance within composites
+- Measure recursive internal stability (RIS)
+- Identify internal coherence regimes
+
+### 4. Perturbation Resilience of Composite Structures
+- Assess composite resilience under perturbation
+- Measure bounded composite drift (BCD)
+- Identify resilient binding regimes
+
+### 5. Recursive Assembly Hierarchy Mapping
+- Map hierarchical assembly structures
+- Measure assembly reproducibility (AR)
+- Identify hierarchical assembly regimes
+
+### 6. Composite Transport Stability
+- Track transport stability of composite structures
+- Measure composite gain (CG)
+- Identify transport-stable regimes
+
+### 7. Null Binding Controls
+- Randomized relational baselines
+- Confirm composite signal is not artifact
+- Establish significance thresholds
+
+## Metrics
+- composite_coherence (CC)
+- binding_persistence (BP)
+- recursive_internal_stability (RIS)
+- assembly_reproducibility (AR)
+- bounded_composite_drift (BCD)
+- rg_similarity (RGS)
+- composite_gain (CG)
+
+## Classification Thresholds
+- COMPOSITE-STABLE: CC > 0.90, BP > 0.85, RIS > 0.85
+- COMPOSITE-BOUNDED: CC > 0.80, BP > 0.75, RIS > 0.75
+- COMPOSITE-PARTIAL: CC > 0.70, BP > 0.65, RIS > 0.65
+- COMPOSITE-DEGRADING: CC > 0.55
+- COMPOSITE-FAILED: CC <= 0.55

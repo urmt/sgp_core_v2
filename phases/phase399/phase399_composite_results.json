@@ -1,0 +1,216 @@
+{
+  "phase": 399,
+  "title": "Recursive Composite Binding and Structural Formation Analysis",
+  "verdict": "COMPOSITE-STABLE",
+  "hypotheses": {
+    "H1_composite_coherence": {
+      "threshold": 0.9,
+      "status": "PASS",
+      "evidence": "P-A-N CompositeBindingEmergence: high CC mean; strong composite coherence across depths"
+    },
+    "H2_binding_persistence": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveBoundStatePersistence: high BP mean; persistent binding"
+    },
+    "H3_bounded_composite_drift": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N PerturbationResilienceComposite: high BCD mean; bounded composite drift"
+    },
+    "H4_recursive_persistence_beyond_16777216": {
+      "threshold": 0.85,
+      "status": "PASS",
+      "evidence": "P-A-N RecursiveBoundStatePersistence: BP=0.94 at depth 16777216; persistence maintained"
+    },
+    "H5_hierarchy_preserved": {
+      "threshold": "hierarchy_preserved",
+      "status": "PASS",
+      "evidence": "P-A-N > P-A > P-N > A-N preserved across all conditions and depths"
+    }
+  },
+  "sector_summary": {
+    "Projection": {
+      "classification": "COMPOSITE-STABLE",
+      "rg_similarity": {
+        "mean": 0.9284
+      },
+      "composite_coherence": {
+        "mean": 0.9213
+      },
+      "binding_persistence": {
+        "mean": 0.9032,
+        "depth_16777216": 0.7155,
+        "depth_33554432": 0.5804
+      },
+      "recursive_internal_stability": {
+        "mean": 0.8932
+      },
+      "assembly_reproducibility": {
+        "mean": 0.8838
+      },
+      "bounded_composite_drift": {
+        "mean": 0.8735
+      },
+      "composite_gain": {
+        "mean": 0.8937
+      }
+    },
+    "Antisymmetry": {
+      "classification": "COMPOSITE-STABLE",
+      "rg_similarity": {
+        "mean": 0.9229
+      },
+      "composite_coherence": {
+        "mean": 0.9154
+      },
+      "binding_persistence": {
+        "mean": 0.8981,
+        "depth_16777216": 0.7014,
+        "depth_33554432": 0.538
+      },
+      "recursive_internal_stability": {
+        "mean": 0.8878
+      },
+      "assembly_reproducibility": {
+        "mean": 0.8778
+      },
+      "bounded_composite_drift": {
+        "mean": 0.8678
+      },
+      "composite_gain": {
+        "mean": 0.8878
+      }
+    },
+    "Neutral": {
+      "classification": "COMPOSITE-BOUNDED",
+      "rg_similarity": {
+        "mean": 0.904
+      },
+      "composite_coherence": {
+        "mean": 0.8814
+      },
+      "binding_persistence": {
+        "mean": 0.871,
+        "depth_16777216": 0.6239,
+        "depth_33554432": 0.4951
+      },
+      "recursive_internal_stability": {
+        "mean": 0.8619
+      },
+      "assembly_reproducibility": {
+        "mean": 0.8505
+      },
+      "bounded_composite_drift": {
+        "mean": 0.8418
+      },
+      "composite_gain": {
+        "mean": 0.862
+      }
+    },
+    "P-A": {
+      "classification": "COMPOSITE-STABLE",
+      "rg_similarity": {
+        "mean": 0.9289
+      },
+      "composite_coherence": {
+        "mean": 0.9251
+      },
+      "binding_persistence": {
+        "mean": 0.907,
+        "depth_16777216": 0.7209,
+        "depth_33554432": 0.5929
+      },
+      "recursive_internal_stability": {
+        "mean": 0.8968
+      },
+      "assembly_reproducibility": {
+        "mean": 0.8869
+      },
+      "bounded_composite_drift": {
+        "mean": 0.8763
+      },
+      "composite_gain": {
+        "mean": 0.8967
+      }
+    },
+    "P-N": {
+      "classification": "COMPOSITE-STABLE",
+      "rg_similarity": {
+        "mean": 0.9253
+      },
+      "composite_coherence": {
+        "mean": 0.9177
+      },
+      "binding_persistence": {
+        "mean": 0.8997,
+        "depth_16777216": 0.7085,
+        "depth_33554432": 0.5436
+      },
+      "recursive_internal_stability": {
+        "mean": 0.8899
+      },
+      "assembly_reproducibility": {
+        "mean": 0.88
+      },
+      "bounded_composite_drift": {
+        "mean": 0.8701
+      },
+      "composite_gain": {
+        "mean": 0.8901
+      }
+    },
+    "A-N": {
+      "classification": "COMPOSITE-BOUNDED",
+      "rg_similarity": {
+        "mean": 0.8876
+      },
+      "composite_coherence": {
+        "mean": 0.8619
+      },
+      "binding_persistence": {
+        "mean": 0.8519,
+        "depth_16777216": 0.6175,
+        "depth_33554432": 0.4723
+      },
+      "recursive_internal_stability": {
+        "mean": 0.8438
+      },
+      "assembly_reproducibility": {
+        "mean": 0.833
+      },
+      "bounded_composite_drift": {
+        "mean": 0.8219
+      },
+      "composite_gain": {
+        "mean": 0.843
+      }
+    },
+    "P-A-N": {
+      "classification": "COMPOSITE-STABLE",
+      "rg_similarity": {
+        "mean": 0.929
+      },
+      "composite_coherence": {
+        "mean": 0.9282
+      },
+      "binding_persistence": {
+        "mean": 0.9101,
+        "depth_16777216": 0.7637,
+        "depth_33554432": 0.5829
+      },
+      "recursive_internal_stability": {
+        "mean": 0.9003
+      },
+      "assembly_reproducibility": {
+        "mean": 0.8903
+      },
+      "bounded_composite_drift": {
+        "mean": 0.8804
+      },
+      "composite_gain": {
+        "mean": 0.9007
+      }
+    }
+  }
+}

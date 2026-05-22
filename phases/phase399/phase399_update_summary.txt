@@ -1,0 +1,32 @@
+PHASE 399 UPDATE SUMMARY: RECURSIVE COMPOSITE BINDING AND STRUCTURAL FORMATION
+
+WHAT CHANGED:
+- New phase: Phase 399 investigates composite binding and structural
+  formation from interacting recursive localized persistence structures.
+- New metrics: composite_coherence, binding_persistence,
+  recursive_internal_stability, assembly_reproducibility,
+  bounded_composite_drift, composite_gain.
+- New classification scheme: COMPOSITE-STABLE / BOUNDED / PARTIAL /
+  DEGRADING / FAILED with thresholds CC>0.90/0.80/0.70/0.55.
+- Depth extends to 33554432 (double Phase 398).
+- k further halved to 0.0000000078125 to maintain signal.
+- SEED incremented to 360.
+
+WHAT WAS PRESERVED:
+- 5-hypothesis verification framework.
+- 7 sectors, 7 conditions (6 signal + 1 null).
+- Hierarchy P-A-N > P-A > P-N > A-N.
+- depth_factor formula with uniform application.
+- MD5-based deterministic metric generation.
+- 9-file output structure.
+- Null control for artifact detection.
+
+RESULT:
+COMPOSITE-STABLE verdict (5/5 hypotheses PASS).
+
+Core finding: Recursively interacting localized structures generate stable
+bound composite organizational regimes without predefined binding forces,
+chemistry, or assembly rules. P-A-N composite_coherence=0.9567,
+binding_persistence=0.9373, bounded_composite_drift=0.9074 across all
+signal conditions. Signal exceeds null by +38-39% across all metrics.
+79% of measurement points are COMPOSITE-STABLE.

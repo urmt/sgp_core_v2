@@ -1,0 +1,71 @@
+PHASE 399 FORBIDDEN INTERPRETATIONS
+
+The following interpretations of composite binding and structural
+formation results are FORBIDDEN. These terms reify physics, chemistry,
+or ontology metaphors as literal properties of the relational structure.
+All results must be framed as relational propagation metrics only.
+
+FORBIDDEN TERMS AND PHRASES
+
+DO NOT claim:
+1. "Chemical bonds" or "molecular binding" or "atomic binding"
+2. "Covalent bonds" or "ionic bonds" or "hydrogen bonds"
+3. "Chemical assembly" or "molecular assembly"
+4. "Chemical structures" or "molecular structures"
+5. "Nuclei" or "atomic nuclei" or "nuclear binding"
+6. "Electron shells" or "orbital binding"
+7. "Crystal lattice" or "crystalline structure"
+8. "Bond energy" or "binding energy"
+9. "Intermolecular forces" (Van der Waals, etc.)
+10. "Chemical affinity" or "chemical attraction"
+11. "Structural proteins" or "biological assembly"
+12. "Self-assembly" in the biological or chemical sense
+13. "Molecular recognition" or "lock and key"
+14. "Chemical physics" or "molecular physics"
+15. "Composite particles" (reified interpretation)
+16. "Bound states" in the quantum physics sense
+17. "Fusion" or "nuclear fusion" (as physical process)
+18. "Molecular dynamics" (as physical simulation)
+19. "Supramolecular chemistry" or "supramolecular assembly"
+20. "Atomic structure" or "molecular geometry"
+21. "Chemical potential" or "Gibbs free energy"
+22. "Binding sites" (as reified locations)
+23. "Ligands" or "receptors"
+24. "Cohesion" or "adhesion" in physical sense
+25. "Chemical evolution" or "molecular evolution"
+26. "Protocells" or "protobiological structures"
+27. "Oligomers" or "polymers" (chemical interpretation)
+28. "Hydrophobic/hydrophilic interactions"
+29. "Electrostatic binding" or "electromagnetic binding"
+30. "Strong force" or "weak force" binding
+31. "Strings" or "D-branes" (high-energy physics)
+32. "Fundamental particles" composed of preons
+33. "Composite fermions" or "composite bosons"
+34. "Quark confinement" or "color charge"
+35. "Exotic matter" or "strange matter"
+
+PERMITTED ALTERNATIVES
+
+Instead of the above, use:
+- "Recursive composite binding" or "composite binding"
+- "Relational structure formation"
+- "Composite organizational regimes"
+- "Constraint-mediated composite coherence"
+- "Recursive bound-state organizational persistence"
+- "Assembly reproducibility of relational configurations"
+- "Bounded composite drift under recursive propagation"
+- "Hierarchical relational assembly"
+- "Composite propagation gain"
+
+RATIONALIZATION
+
+Phase 399 investigates whether recursive relational propagation
+generates persistent composite binding organization. These results
+describe organizational coherence, persistence, and stability of
+relational composite structures -- not physical chemistry, molecular
+biology, or high-energy composite particle physics. All terminology
+must remain strictly relational and mathematical.
+
+Enforcement: Any use of forbidden terms in phase documentation or
+derived publications requires reframing. Repeat violations may
+require governance review.
