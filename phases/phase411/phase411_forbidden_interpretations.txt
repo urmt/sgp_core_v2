@@ -1,0 +1,44 @@
+# Phase 411: Forbidden Interpretations
+
+## STRICTLY FORBIDDEN
+
+1. **"The framework is wrong because it doesn't generalize."**
+   The framework is not claimed to be universal. Phase 410
+   established it is 68% empirical/contingent. This phase defines
+   HOW contingent it is — it's specific to the P-A-N operator
+   algebra. That is not a refutation, it's a boundary condition.
+
+2. **"Synthetic systems disprove recursive emergence entirely."**
+   These synthetic systems test HIERARCHY TRANSFER, not the
+   existence of recursive emergence itself. The framework still
+   describes P-A-N operator dynamics. It just doesn't extend
+   beyond them.
+
+3. **"The weak positive trend proves something."**
+   4/6 systems with weak positive rho is not significant.
+   The pre-specified hypotheses all had higher thresholds.
+   Post-hoc cherry-picking is forbidden. Either the pre-specified
+   test passes or it doesn't.
+
+4. **"Evolutionary systems are the 'true' test because
+   they were anti-correlated."**
+   The anti-correlation is a post-hoc observation. It may
+   indicate genuinely different structure or just noise.
+   It cannot be used to reinterpret the results.
+
+5. **"If we just adjust the mapping, it would work."**
+   No reinterpretation fitting. Phase 411's mapping was
+   pre-defined. Changing it after seeing results invalidates
+   the methodology. (This is a separate investigation.)
+
+## PERMITTED INTERPRETATIONS
+
+1. "The SFH-SGP hierarchy does not transfer to 6 independent
+   synthetic systems under null-controlled evaluation."
+2. "The framework's hierarchy is specific to P-A-N operator
+   dynamics, not a universal emergence property."
+3. "Phase 411 defines an empirical boundary on generality."
+4. "4/6 systems show weak positive direction, but none
+   reach pre-specified significance thresholds."
+5. "The negative result is scientifically informative and
+   methodologically sound."

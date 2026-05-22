@@ -1,0 +1,120 @@
+# Phase 411: Synthetic Correspondence Framework
+
+## Objective
+Determine whether SFH-SGP emergence structures appear nontrivially
+within independently generated synthetic systems.
+
+## Methodology (Strict)
+1. Define 6 synthetic system types, 7 configurations each
+2. Each config maps pre-defined to an SFH-SGP sector analog
+3. Map based on operational characteristics, NOT computed values
+4. Compute emergence-like measures independently per system
+5. Compute rank correspondence to SFH-SGP canonical hierarchy
+6. Compare to null (random permutation) distribution
+7. NO reinterpretation fitting after results are known
+
+## Six Synthetic Systems
+
+### 1. Cellular Automata (CA)
+7 rules ordered by expected structural richness:
+- CA1: Rule 110 (universal computation, rich glider dynamics)
+- CA2: Rule 184 (traffic rule, persistent structures)
+- CA3: Rule 90 (fractal, self-similar)
+- CA4: Rule 30 (chaotic, some periodic islands)
+- CA5: Rule 22 (mixed chaotic/periodic)
+- CA6: Rule 54 (periodic with some complexity)
+- CA7: Rule 126 (near-uniform, low complexity)
+- Measure: mutual information between adjacent columns,
+  averaged over 500 steps
+
+### 2. Graph Propagation Systems (GPS)
+7 propagation schemes on random graphs (n=100, p=0.05):
+- GPS1: Heat kernel diffusion (preserves global structure)
+- GPS2: PageRank iterative propagation (authority flow)
+- GPS3: Hitting time expectation (structural retention)
+- GPS4: Commute time distance (symmetry detection)
+- GPS5: Random walk transient (decorrelation)
+- GPS6: Epidemic propagation (uniform spreading)
+- GPS7: Random neighbor sampling (no structure)
+- Measure: stationary distribution KL-divergence from uniform
+
+### 3. Agent Interaction Systems (AIS)
+7 agent societies (n=50, 500 steps) with different interaction rules:
+- AIS1: Cooperative consensus (agents align opinions)
+- AIS2: Competitive equilibrium (opposing forces balance)
+- AIS3: Altruistic diffusion (information spreads freely)
+- AIS4: Selfish optimization (individual gradient ascent)
+- AIS5: Neutral drift (random pairwise interaction)
+- AIS6: Hierarchical control (top-down structuring)
+- AIS7: Anarchic noise (random independent actions)
+- Measure: global consensus (mean pairwise agreement)
+
+### 4. Symbolic Recursive Systems (SRS)
+7 L-system grammars, depth 8:
+- SRS1: Dragon curve (rich self-similarity)
+- SRS2: Koch snowflake (fractal regularity)
+- SRS3: Sierpinski triangle (nested hierarchy)
+- SRS4: Plant branching (stochastic hierarchy)
+- SRS5: Maze generation (path structure)
+- SRS6: Simple tree (basic recursion)
+- SRS7: Random symbol replacement (no structure)
+- Measure: self-similarity (auto-correlation of symbol sequences)
+
+### 5. Tensor Recursion Systems (TRS)
+7 tensor network contraction schemes, bond dimension 8:
+- TRS1: MPS contraction (maximal entanglement capture)
+- TRS2: TTN contraction (hierarchical tensor train)
+- TRS3: PEPS contraction (2D structure preservation)
+- TRS4: MERA contraction (scale-invariant)
+- TRS5: Random tensor contraction (no structure)
+- TRS6: Sparse tensor chain (minimal connection)
+- TRS7: Dense random matrix (maximal mixing)
+- Measure: entanglement entropy retention after contraction
+
+### 6. Evolutionary Optimization Systems (EOS)
+7 evolutionary algorithm variants (pop=100, gen=200):
+- EOS1: Fitness sharing (niching, diverse solutions)
+- EOS2: Speciation (structural preservation)
+- EOS3: Tournament selection (competitive pressure)
+- EOS4: Crossover-dominant (recombination focus)
+- EOS5: Mutation-dominant (random exploration)
+- EOS6: Neutral drift (no selection pressure)
+- EOS7: Random sampling (no evolution)
+- Measure: population structure preservation (tree edit distance)
+
+## Canonical SFH-SGP Hierarchy (for comparison)
+Rank 1 (highest): P-A-N
+Rank 2: P-A
+Rank 3: Projection
+Rank 4: P-N
+Rank 5: Antisymmetry
+Rank 6: Neutral
+Rank 7 (lowest): A-N
+
+## Critical Metrics
+
+1. **correspondence_similarity**: Spearman rank correlation
+   between synthetic system ordering and SFH-SGP canonical ordering
+
+2. **universality_transfer**: fraction of systems with
+   correspondence_similarity > 0.50 (strong positive)
+
+3. **structural_alignment**: mean absolute rank deviation
+   between synthetic and canonical positions
+
+4. **hierarchy_overlap**: fraction of same-sector relative
+   positions preserved (positions 1-3, 4-5, 6-7 groups)
+
+5. **null_separation**: standardized effect size of
+   correspondence_similarity relative to random null
+
+6. **framework_specificity_index**: 1 - universality_transfer
+   (higher = more unique to SFH-SGP)
+
+## Success/Failure Conditions
+
+Success: Nontrivial bounded correspondence across >= 3/6 systems
+(null separation > 2 sigma, correspondence_similarity > 0.30)
+
+Failure: Correspondence collapses under null control
+(no system exceeds 1 sigma null separation)

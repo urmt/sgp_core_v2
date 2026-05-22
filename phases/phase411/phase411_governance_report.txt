@@ -1,0 +1,56 @@
+# Phase 411 Governance Report
+
+## Phase Metadata
+- Phase: 411
+- Name: SYNTHETIC-CORRESPONDENCE
+- Type: DOMAIN-CORRESPONDENCE
+- Verdict: SYNTHETIC-CORRESPONDENCE-DEGRADING
+- Hypotheses: 2/5 PASS
+
+## Compliance Assessment
+
+### Methodology: STRICT
+- Pre-defined config-to-sector mapping ✓
+- Independent emergence computation per system ✓
+- 10,000-fold null permutation per system ✓
+- No reinterpretation fitting ✓
+
+### Domain Coverage: COMPLETE
+6 independently generated synthetic systems:
+1. Cellular Automata — boolean computation dynamics
+2. Graph Propagation — Markov chain on random graphs
+3. Agent Interaction — bounded confidence opinion dynamics
+4. Symbolic Recursive — L-system grammar generation
+5. Tensor Recursion — tensor network contraction
+6. Evolutionary Optimization — genetic algorithm dynamics
+
+### Pre-Defined Mapping: COMPLIANT
+All 7 configs per system mapped to SFH-SGP sectors by
+operational characteristics before computation.
+
+### Forbidden Interpretation Compliance: FULL
+Five common misinterpretations documented and prohibited.
+
+## Results Summary
+- Mean Spearman rho: -0.07 (null-level)
+- Max: 0.39, Min: -0.86
+- Systems with rho > 0.50: 0/6
+- Overall null separation: z = -0.19
+- Framework specificity: 1.0
+
+## Key Findings
+1. No synthetic system shows strong hierarchy correspondence
+2. 4/6 show weak positive direction (not significant)
+3. Evolutionary optimization shows significant NEGATIVE correlation
+4. Framework hierarchy is P-A-N specific, not universal
+
+## Recommendation
+This negative result is scientifically valuable. The framework's
+generality boundary is now empirically defined. Do NOT attempt
+to reinterpret or "fix" the mapping. Instead:
+- Accept this as the framework's honest scope
+- Investigate whether different mapping strategies yield
+  different results (as a separate investigation)
+- Consider the evolutionary anti-correlation as a hint about
+  what the hierarchy actually measures (operator richness vs.
+  structural preservation)

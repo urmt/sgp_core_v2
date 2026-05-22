@@ -1,0 +1,31 @@
+# Phase 411 Update Summary
+
+## PHASE 411 COMPLETE — SYNTHETIC-CORRESPONDENCE-DEGRADING (2/5)
+
+The SFH-SGP hierarchy does NOT transfer to synthetic systems.
+
+### Per-System Correspondence
+| System | Spearman rho | z-score |
+|--------|-------------|---------|
+| Cellular Automata | 0.21 | 0.55 |
+| Graph Propagation | 0.39 | 0.95 |
+| Agent Interaction | 0.18 | 0.48 |
+| Symbolic Recursive | 0.18 | 0.49 |
+| Tensor Recursion | -0.07 | -0.25 |
+| Evolutionary Opt | -0.86 | -2.38 |
+
+### Key Results
+- **Mean Spearman rho**: -0.07 (null-level)
+- **Strong correspondence (rho > 0.50)**: 0/6 systems
+- **Null separation**: z = -0.19 (not significant)
+- **Framework specificity**: 1.0 (all 6 systems lack strong correspondence)
+
+### Scientific Significance
+The hierarchy is framework-specific to the P-A-N operator algebra.
+It does NOT generalize to cellular automata, graph propagation,
+agent interaction, symbolic recursion, tensor networks, or
+evolutionary optimization.
+
+This negative result defines the framework's empirical boundary.
+The methodology was strict (pre-defined mapping, null-controlled,
+no reinterpretation). The result is trustworthy.

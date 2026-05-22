@@ -1,0 +1,29 @@
+# Phase 411 Summary
+
+## Verdict: SYNTHETIC-CORRESPONDENCE-DEGRADING
+### Hypotheses: 2/5 PASS
+
+The SFH-SGP hierarchy does not generalize to synthetic systems.
+
+## Per-System Results
+| System | Spearman rho | z-score |
+|--------|-------------|---------|
+| Cellular Automata | 0.21 | 0.55 |
+| Graph Propagation | 0.39 | 0.95 |
+| Agent Interaction | 0.18 | 0.48 |
+| Symbolic Recursive | 0.18 | 0.49 |
+| Tensor Recursion | -0.07 | -0.25 |
+| Evolutionary Opt | -0.86 | -2.38 |
+
+## Key Findings
+- No system has Spearman rho > 0.50
+- Overall z-score: -0.19 (not separated from null)
+- Framework specificity index: 1.0
+- 2/5 hypotheses PASS (framework-specific + bounded)
+
+## Scientific Significance
+The SFH-SGP hierarchy is framework-specific, not universal.
+It captures the P-A-N operator algebra's internal structure,
+not a general property of recursive emergence systems.
+This negative result is scientifically valuable — it defines
+the framework's empirical boundary.

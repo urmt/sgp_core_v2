@@ -1,0 +1,7 @@
+system,null_mean,null_std,actual_rho,z_score,pct_above
+CellularAutomata,-0.0023,0.4069,0.2857,0.71,0.2757
+GraphPropagation,-0.0043,0.4081,-0.5,-1.21,0.8783
+AgentInteraction,-0.0018,0.4087,0.3214,0.79,0.2411
+SymbolicRecursive,0.0012,0.4136,0.3929,0.95,0.2049
+TensorRecursion,0.0028,0.4098,-0.0714,-0.18,0.5828
+EvolutionaryOpt,0.0445,0.4054,-0.8571,-2.22,0.994
