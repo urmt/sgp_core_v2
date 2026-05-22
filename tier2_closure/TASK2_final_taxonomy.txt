@@ -1,0 +1,84 @@
+# Tier 2 Final Taxonomy
+
+## 1. INVARIANT STRUCTURES (Provable/Conditional)
+Structures that hold necessarily within the SFH-SGP universality class.
+
+| ID | Structure | Status | Evidence |
+|----|-----------|--------|----------|
+| INV-1 | Operator Existence (P, A, N) | PROVABLE | Axiom 1 |
+| INV-2 | Operator Composition | PROVABLE | Axiom 2 |
+| INV-3 | Monotonic Depth Dependence | PROVABLE | Axiom 3 |
+| INV-4 | Sector Order Conservation | CONDITIONAL | Depth factor separability |
+| INV-5 | Hierarchy Depth Invariance | CONDITIONAL | Separable depth factor |
+| INV-6 | Predictor Generalization | CONDITIONAL | ~10-17% MAPE across domains |
+
+## 2. CONTINGENT STRUCTURES (Context-Dependent)
+Structures that hold under specific conditions, not universally.
+
+| ID | Structure | Contingency | Scope |
+|----|-----------|-------------|-------|
+| CON-1 | Bounded Degradation (RSF > 0.80) | Perturbation type & amplitude | Phase 401 conditions |
+| CON-2 | Recovery (lim RSF = 1.0) | Perturbation decay profile | Exponential decay |
+| CON-3 | Null Separation (> 10x) | Operator definitions | P-A-N system |
+| CON-4 | Coherence Stability (> 0.90) | Threshold choice | P-A-N at depth |
+| CON-5 | Perturbation Robustness | 14 specific perturbation types | Phase 401 |
+| CON-6 | Universal Hierarchy Preservation | 56/57 tested conditions | Phase 400-403 |
+| CON-7 | Superlinear Efficiency | Compression type | Phase 402 |
+| CON-8 | Irreducible Complexity (threshold) | Threshold definition | Phase 402 |
+| CON-9 | Predictive Breakdown Thresholds | Parameter-specific | Phase 408 |
+
+## 3. EMPIRICAL STRUCTURES (Observed Regularities)
+Structures supported by evidence, not formally derivable.
+
+| ID | Structure | Evidence Strength | Source |
+|----|-----------|------------------|--------|
+| EMP-1 | Hierarchy Existence (specific ordering) | 7 sectors across all depths | Phase 391-399 |
+| EMP-2 | Hierarchy Formalism Invariance | 14/14 formalisms | Phase 403 |
+| EMP-3 | Formalism Invariance (FIS > 0.80) | All major formalisms | Phase 403 |
+| EMP-4 | Necessity Hierarchy (P > A > N) | ONI measurements | Phase 400 |
+| EMP-5 | Minimal Sufficiency (P+A) | MOS measurements | Phase 400 |
+| EMP-6 | Operator Composition Invariant | Multiple init configs | Phase 391-399 |
+| EMP-7 | Depth Scaling Universality (γ(d) form) | All tested systems | Phase 391-399 |
+| EMP-8 | OOD Formalism Transfer (~2% MAPE) | 3 formalisms tested | Phase 408.5 |
+| EMP-9 | OOD Architecture Transfer (~1.5% MAPE) | 3 architectures | Phase 408.5 |
+
+## 4. IRREDUCIBLE REGIONS (Fundamentally Uncertain)
+Claims that cannot be determined within the current framework.
+
+| ID | Region | URS | Reason |
+|----|--------|-----|--------|
+| IRR-1 | Operator Necessity Universality | 0.40 | Cannot prove P > A > N holds for ALL recursive systems |
+| IRR-2 | Emergence Sequence Universality | 0.50 | Insufficient evidence; genuine speculation boundary |
+| IRR-3 | Cross-domain prediction floor | 0.30 | ~11.75% irreducible error from formalism variation |
+| IRR-4 | OOD inversion/periodic failure | 0.40 | Axiom violations cause framework collapse |
+
+## 5. FAILURE DOMAINS (Tested and Falsified)
+Claims that failed under controlled testing.
+
+| ID | Failure | Phase | Severity |
+|----|---------|-------|----------|
+| FAL-1 | Hierarchy transfers to CA | 411 | No significant correspondence (rho = 0.21) |
+| FAL-2 | Hierarchy transfers to GPS | 411 | No significant correspondence (rho = 0.39) |
+| FAL-3 | Hierarchy transfers to AIS | 411 | No significant correspondence (rho = 0.18) |
+| FAL-4 | Hierarchy transfers to SRS | 411 | No significant correspondence (rho = 0.18) |
+| FAL-5 | Hierarchy transfers to TRS | 411 | No significant correspondence (rho = -0.07) |
+| FAL-6 | Hierarchy transfers to EOS | 411 | Anti-correlated (rho = -0.86, significant) |
+| FAL-7 | Provable invariants exist beyond axioms | 410 | Only 2 conditional elements found |
+| FAL-8 | Inversion operator predictable | 408.5 | 116% error (complete collapse) |
+| FAL-9 | Periodic recursion predictable | 408.5 | 99% error (complete collapse) |
+
+## 6. UNIVERSALITY BOUNDARIES (Membership Conditions)
+
+### Necessary conditions for SFH-SGP universality class membership:
+1. FORMAL OPERATOR ALGEBRA: Distinct, formally defined operators
+2. OPERATOR COMPOSITION: Sequential operator application
+3. RELATIONAL STATE SPACE: States as relational configurations
+4. SIMILARITY-BASED EMERGENCE: rg_similarity or equivalent measure
+5. MONOTONIC RECURSIVE DEPTH: γ(d) depth scaling
+6. STABLE HIERARCHY: Cross-depth sector ordering invariance
+
+### Membership classification:
+- CORE (score >= 0.80): SFH-SGP reference
+- PARTIAL (score 0.50-0.79): SymbolicRecursive, TensorRecursion
+- PERIPHERAL (score 0.20-0.49): CA, GPS, AIS, EOS
+- EXCLUDED (score < 0.20): (none found)

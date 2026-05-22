@@ -1,0 +1,69 @@
+```
+TIER 2 CONSOLIDATED METRICS — FROZEN
+DO NOT MODIFY AFTER TIER 2 CLOSURE
+Generated: Tier 2 ARC CLOSURE
+```
+
+## PHASE 407: PREDICTIVE (PREDICTIVE-STABLE, 5/5)
+- Overall MAPE: 10.19%
+- Hierarchy ranking accuracy: 1.0 (perfect)
+- Ablation MAPE: 10.95%
+- Perturbation RSF MAPE: 0.84%
+- Compression CSF MAPE: 0.83%
+- Formalism FIS MAPE: 0.59%
+- Novel config MAPE: 14.13%
+- Total predictions: 165
+
+## PHASE 408: BREAKDOWN (BREAKDOWN-BOUNDED, 4/5)
+- Conditions tested: 7
+- Conditions with explicit thresholds: 4
+- Lawful degradation pattern: CONFIRMED
+- All conditions produce structured error growth
+
+## PHASE 408.5: OUT-OF-DISTRIBUTION (OOD-BOUNDED, 4/5)
+- Overall OOD MAPE: 17.24%
+- In-distribution MAPE: 10.95%
+- OOD degradation factor: 1.57x
+- Universality transfer score: 0.8276
+- Formalism extrapolation index: 0.9799
+- Best domain: AlienArchitectures (1.50% MAPE)
+- Worst domain: OperatorFamilies (39.35% MAPE)
+
+## PHASE 409: IRREDUCIBILITY (IRREDUCIBILITY-BOUNDED, 4/5)
+- Irreducible uncertainty floor: 11.75%
+- Predictability ceiling: 88.25%
+- Within-domain prediction: ~2% MAPE
+- Cross-domain floor: ~11.75%
+- Floor is structural (formalism variation), not noise
+
+## PHASE 410: THEOREM-BOUNDARY (THEOREM-BOUNDARY-BOUNDED, 4/5)
+- Provable fraction: 14% (3 axioms)
+- Conditional fraction: 9% (2 elements)
+- Empirical fraction: 32% (7 elements)
+- Contingent fraction: 36% (8 elements)
+- Irreducible fraction: 9% (2 elements)
+- Mean TDI: 0.47
+- Mean EDS: 0.58
+
+## PHASE 411: SYNTHETIC CORRESPONDENCE (DEGRADING, 2/5)
+- Mean Spearman rho: -0.07 (null-level)
+- Strong correspondence (rho > 0.50): 0/6 systems
+- Max rho: 0.39 (GraphPropagation)
+- Min rho: -0.86 (EvolutionaryOpt)
+- Framework specificity index: 1.0
+- Overall null separation: z = -0.19
+
+## PHASE 412: UNIVERSALITY CLASSIFICATION (BOUNDED, 4/5)
+- CORE_MEMBER: 1 (SFH-SGP reference)
+- PARTIAL_MEMBER: 2 (SymbolicRecursive, TensorRecursion)
+- PERIPHERAL: 4 (CA, GPS, AIS, EOS)
+- EXCLUDED: 0
+- Mean non-core score: 0.4017
+- Exclusion density: 0.5983
+- Boundary stability: 84.9%
+- Attractor families: 2
+- Correspondence gradient: r = 0.70 (p = 0.08)
+
+## CUMULATIVE
+- Total hypotheses: 27/35 PASS (77.1%)
+- Verdict: CONVERGED

@@ -1,0 +1,85 @@
+# Master Claim Tables (Tier 2)
+
+============================================================
+TABLE 1: MASTER THEOREM TABLE
+============================================================
+
+Theorems = provable or conditional claims within the SFH-SGP
+framework. Three axioms, two conditional derivations.
+
+| # | Theorem | Status | Proof Level | Dependencies |
+|---|---------|--------|-------------|--------------|
+| T1 | Operators P, A, N exist and are distinct on relational | Axiom | 1.0 | None |
+|    | configuration space R. | | | |
+| T2 | Composite operators are defined by sequential | Axiom | 1.0 | None |
+|    | application and are associative. | | | |
+| T3 | Emergence decreases monotonically with recursion | Axiom | 1.0 | None |
+|    | depth: if d1 < d2 then E(S_d1) >= E(S_d2). | | | |
+| T4 | Sector ordering is conserved across all depths if depth | Conditional | 0.85 | Separable depth factor |
+|    | factor is separable: E_s(d) = phi(S) * gamma(d). | | | |
+| T5 | Hierarchy ordering P-A-N > P-A > Projection > P-N > | Conditional | 0.80 | Separable depth factor |
+|    | Antisymmetry > Neutral > A-N is preserved across depth. | | | |
+
+============================================================
+TABLE 2: MASTER CONJECTURE TABLE
+============================================================
+
+Conjectures = empirically supported but not proven claims.
+
+| # | Conjecture | Support | TDI | Best Status |
+|---|------------|---------|-----|-------------|
+| C1 | The 7-sector hierarchy has the specific ordering: | Phase 391-399 | 0.40 | Empirical |
+|    | P-A-N > P-A > Projection > P-N > Antisymmetry > | | | |
+|    | Neutral > A-N. | | | |
+| C2 | The hierarchy is preserved across all mathematical | Phase 403 (14/14) | 0.35 | Empirical |
+|    | formalisms implementing the operators. | | | |
+| C3 | Formalism Invariance Score exceeds 0.80 for all | Phase 403 | 0.30 | Empirical |
+|    | major formalisms. | | | |
+| C4 | Operator Necessity Index follows ONI(P) > ONI(A) > | Phase 400 | 0.55 | Empirical |
+|    | ONI(N) for all recursive relational systems. | | | |
+| C5 | The minimal sufficient operator set is {P, A} — | Phase 400 | 0.65 | Empirical |
+|    | no single operator suffices. | | | |
+| C6 | Emergence ratios are independent of initial | Phase 391-399 | 0.60 | Empirical |
+|    | configuration under the full operator set. | | | |
+| C7 | Depth scaling follows gamma(d) = 1/(1+k(d-1)) | Phase 391-399 | 0.50 | Empirical |
+|    | universally, with k being the only free parameter. | | | |
+| C8 | Prediction generalizes to OOD conditions with | Phase 408.5 | — | Bounded |
+|    | bounded degradation (~1.6x in-distribution). | | | |
+
+============================================================
+TABLE 3: MASTER FALSIFIED CLAIM TABLE
+============================================================
+
+Falsified = tested and failed under controlled conditions.
+
+| # | Claim | Evidence Against | Phase | Severity |
+|---|-------|-----------------|-------|----------|
+| F1 | "The hierarchy appears in cellular automata." | rho = 0.21, z = 0.55 (not significant) | 411 | Strong negative |
+| F2 | "The hierarchy appears in graph propagation." | rho = 0.39, z = 0.95 (not significant) | 411 | Strong negative |
+| F3 | "The hierarchy appears in agent interaction." | rho = 0.18, z = 0.48 (not significant) | 411 | Strong negative |
+| F4 | "The hierarchy appears in symbolic recursive systems." | rho = 0.18, z = 0.49 (not significant) | 411 | Strong negative |
+| F5 | "The hierarchy appears in tensor recursion." | rho = -0.07, z = -0.25 (not significant) | 411 | Strong negative |
+| F6 | "The hierarchy appears in evolutionary optimization." | rho = -0.86, z = -2.38 (significant negative) | 411 | Falsified |
+| F7 | "Inversion operator emergence is predictable from | 116% MAPE (complete collapse) | 408.5 | Falsified |
+|    | standard P-A-N training." | | | |
+| F8 | "Periodic recursion emergence is predictable from | 99% MAPE (complete collapse) | 408.5 | Falsified |
+|    | standard gamma(d) model." | | | |
+| F9 | "Most emergence invariants are formally derivable." | Only 2/22 elements are conditional | 410 | Falsified |
+|    | | (beyond 3 axioms) | | |
+
+============================================================
+TABLE 4: MASTER BOUNDED CLAIM TABLE
+============================================================
+
+Bounded = supported but with explicit scope limitations.
+
+| # | Claim | Bounded By | Boundary Value | Phase |
+|---|-------|------------|----------------|-------|
+| B1 | "Emergence is predictable." | Within-manifold MAPE ~10-14%; OOD MAPE ~17% | ~11-17% error | 407, 408.5 |
+| B2 | "Predictive breakdown is lawful." | 4/7 conditions have explicit thresholds; 3 open-ended | Thresholds: 0.3-0.7 | 408 |
+| B3 | "Irreducible uncertainty exists." | ~11.75% cross-domain floor | 88.25% ceiling | 409 |
+| B4 | "Formalism transfer is strong." | FIS 0.617-1.000 across 14 formalisms; 2% MAPE for OOD | FIS > 0.80 for major | 403, 408.5 |
+| B5 | "The framework is mostly empirical." | 68% empirical/contingent; 23% provable/conditional | 14% purely provable | 410 |
+| B6 | "SFH-SGP defines a universality class." | 6 necessary conditions; 0/6 synthetic systems are CORE | Score 0.27-0.55 | 411, 412 |
+| B7 | "Prediction generalizes OOD." | Survives with 1.57x degradation; fails on axiom violations | 17.24% OOD MAPE | 408.5 |
+| B8 | "The hierarchy is stable across depth." | Validated for d in [1, 67108864]; assumes separability | All tested depths | 391-399 |

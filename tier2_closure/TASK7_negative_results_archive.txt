@@ -1,0 +1,129 @@
+# Tier 2 Failed Hypotheses and Negative Results Archive
+
+## PROMINENT NOTICE
+Tier 2 produced statistically significant negative results.
+These are NOT suppressed. They define the framework's boundaries.
+
+============================================================
+ARCHIVE 1: PHASE 411 — SYNTHETIC CORRESPONDENCE FAILURE
+============================================================
+
+CLAIM: The SFH-SGP emergence hierarchy generalizes to
+independent synthetic recursive systems.
+
+RESULT: FALSIFIED.
+- Mean Spearman rho: -0.07 (indistinguishable from null)
+- Systems with strong correspondence (rho > 0.50): 0/6
+- Overall null separation: z = -0.19
+- Framework specificity index: 1.0
+
+Per-system failures:
+1. Cellular Automata: rho = 0.21 (not significant)
+2. Graph Propagation: rho = 0.39 (not significant)
+3. Agent Interaction: rho = 0.18 (not significant)
+4. Symbolic Recursive: rho = 0.18 (not significant)
+5. Tensor Recursion: rho = -0.07 (not significant)
+6. Evolutionary Optimization: rho = -0.86 (SIGNIFICANT NEGATIVE)
+
+METHODOLOGY: Pre-defined config-to-sector mapping. 10,000
+permutation null per system. No reinterpretation.
+
+SCIENTIFIC VALUE: Defines the framework's empirical boundary.
+The hierarchy is P-A-N specific, not universal.
+
+============================================================
+ARCHIVE 2: PHASE 408.5 — OOD PREDICTION FAILURES
+============================================================
+
+CLAIM: The predictor generalizes to all OOD conditions.
+
+RESULT: BOUNDED (2/5 hypotheses PASS on OOD; 4/5 overall).
+
+Two specific failures:
+
+2a. Inversion Operator (116.65% error)
+- Cause: Inversion violates the positive-operator axiom
+  (Axiom 1). The predictor assumes operators preserve
+  structure; inversion destroys it.
+- Scope: Complete collapse. Predictor is fundamentally
+  wrong for sign-reversing operators.
+
+2b. Periodic Recursion (99.47% error)
+- Cause: Periodic recursion violates monotonic depth
+  dependence (Axiom 3). The gamma(d) model assumes
+  monotonic decay; oscillation violates this.
+- Scope: Complete collapse. Gamma(d) is not valid for
+  oscillating depth dependence.
+
+SCIENTIFIC VALUE: These failures confirm the axioms.
+They are not arbitrary — they trace directly to axiom
+violations. The framework fails predictably and lawfully.
+
+============================================================
+ARCHIVE 3: PHASE 410 — H1 FAILURE (FORMAL DERIVABILITY)
+============================================================
+
+CLAIM: Multiple emergence invariants are formally derivable.
+
+RESULT: Only 2 non-axiom elements are CONDITIONAL.
+- 3 Axioms: PROVABLE (truistic)
+- 2 Elements: CONDITIONAL (Sector Order, Depth Invariance)
+- 7 Elements: EMPIRICAL (observed regularities)
+- 8 Elements: CONTINGENT (context-dependent)
+- 2 Elements: IRREDUCIBLE (cannot be determined)
+
+H1 FAILED: threshold was 3 non-axiom elements; only 2 found.
+
+SCIENTIFIC VALUE: The framework is predominantly empirical
+(68%), not formally derivable. This is a normal property of
+scientific theories.
+
+============================================================
+ARCHIVE 4: PHASE 408 — H1 FAILURE (ALL CONDITIONS
+HAVE EXPLICIT THRESHOLDS)
+============================================================
+
+CLAIM: All breakdown conditions have explicit thresholds.
+
+RESULT: Only 4/7 conditions have explicit thresholds.
+3 conditions show structured degradation without a
+sharp transition point.
+
+SCIENTIFIC VALUE: Some parameter dependencies are smooth
+rather than threshold-based. This is a more nuanced
+breakdown structure than expected.
+
+============================================================
+ARCHIVE 5: PHASE 412 — H1 FAILURE (EXCLUDED SYSTEMS
+EXIST)
+============================================================
+
+CLAIM: Some synthetic systems are fundamentally excluded
+from the SFH-SGP universality class (score < 0.20).
+
+RESULT: No system scored below 0.20. The lowest was
+AgentInteraction at 0.27 (PERIPHERAL).
+
+SCIENTIFIC VALUE: Even the most distant system shares some
+structural features with SFH-SGP. The boundary is soft,
+not hard.
+
+============================================================
+CUMULATIVE NEGATIVE RESULTS
+============================================================
+
+Total failed hypotheses: 8/35 (22.9%)
+- Phase 407: 0 failed
+- Phase 408: 1 failed (threshold expectation)
+- Phase 408.5: 1 failed (max error < 100%)
+- Phase 409: 1 failed (floor estimate bound)
+- Phase 410: 1 failed (non-axiom derivability)
+- Phase 411: 3 failed (H1, H2, H3: correspondence,
+  operator transfer, null separation)
+- Phase 412: 1 failed (excluded systems)
+
+Total falsified claims: 9 (see TASK3_claim_tables.txt)
+
+These negative results are essential features of the
+framework. They define its honest boundaries. Do not
+suppress, explain away, or reinterpret them.

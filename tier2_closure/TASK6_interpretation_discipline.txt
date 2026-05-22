@@ -1,0 +1,97 @@
+# Interpretation Discipline Lock
+
+## MANDATORY PROHIBITIONS
+
+The following interpretations are STRICTLY FORBIDDEN
+for ALL future work on SFH-SGP.
+
+### Category 1: Ontology Inflation
+- "SFH-SGP proves emergence is real."
+  NO. The framework models recursive relational structure.
+  It does not make ontological claims about reality.
+
+- "SFH-SGP describes how the universe emerges."
+  NO. The framework is defined on abstract relational
+  configurations. It does not describe physical systems
+  unless independently validated (which has not happened).
+
+- "The hierarchy is a fundamental law of emergence."
+  NO. The hierarchy is an empirical regularity within the
+  P-A-N operator system. It is not a fundamental law.
+
+### Category 2: Physics Claims
+- "SFH-SGP corresponds to quantum mechanics."
+  NO. No physical correspondence has been established.
+  The mathematical structure is formally independent.
+
+- "SFH-SGP describes spacetime emergence."
+  NO. The relational state space is abstract, not
+  spatiotemporal. There is no metric, no causality,
+  and no physical dynamics.
+
+- "The depth parameter is time."
+  NO. Depth is recursion count. It is not temporal.
+  There is no arrow of time, no duration, and no
+  causal structure implied.
+
+- "SFH-SGP proves physical theories are relational."
+  NO. The framework models relations in an abstract
+  configuration space. It does not comment on the
+  nature of physical theories.
+
+### Category 3: Consciousness Claims
+- "SFH-SGP explains consciousness."
+  NO. The framework does not model subjective
+  experience, awareness, or any cognitive phenomenon.
+
+- "The hierarchy corresponds to levels of awareness."
+  NO. There is no mapping between emergence sectors
+  and any cognitive or neural structure.
+
+- "Recursive emergence is how the mind works."
+  NO. The framework has not been validated on any
+  neural or cognitive data.
+
+### Category 4: Overclaim
+- "SFH-SGP is a theory of everything."
+  NO. The framework is a bounded empirical model of
+  one specific universality class of recursive systems.
+
+- "SFH-SGP proves emergence is universal."
+  NO. Phase 411 falsified this claim. The hierarchy is
+  framework-specific, not universal.
+
+- "The formal axioms prove the framework is true."
+  NO. The axioms define the system. They do not prove
+  its correspondence to anything outside the framework.
+
+- "SFH-SGP has predictive power for real systems."
+  NO (qualified). The framework predicts emergence
+  within the P-A-N operator system. It has NOT been
+  validated on any real-world or physical system.
+
+### Category 5: Methodology Violations
+- "We can reinterpret the mapping to make it work."
+  NO. Phase 411 methodology was pre-defined. Post-hoc
+  fitting would invalidate the negative result.
+
+- "The negative result is a failure of the synthetic
+  systems, not the framework."
+  NO. The negative result is an honest boundary on
+  the framework's scope. That is how science works.
+
+- "If we look harder, the hierarchy exists everywhere."
+  NO. This is unfalsifiable. The framework's boundaries
+  have been established by controlled testing.
+
+## ENFORCEMENT
+Any publication, presentation, or discussion of SFH-SGP
+MUST include explicit disclaimers for all claims in
+Categories 1-5. Violations are scientific misconduct
+by overclaim.
+
+## POSITIVE STATEMENT (ALLOWED)
+"SFH-SGP is a bounded empirical framework describing a
+specific universality class of constrained recursive
+relational emergence under three primitive operators
+(P, A, N) with monotonic depth scaling."

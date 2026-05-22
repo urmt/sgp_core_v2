@@ -1,0 +1,170 @@
+Tier 2 Technical Supplement
+SFH-SGP: Recursive Relational Emergence Framework
+TIER 1 SUMMARY + TIER 2 SUPPLEMENT
+
+============================================================
+PART 1: TIER 1 SUMMARY
+============================================================
+
+Tier 1 (Phases 265-399) established that ordered recursive
+emergence exists under the P-A-N operator system.
+
+Core Finding:
+When three primitive operators (Projection, Antisymmetry,
+Neutrality) are applied recursively at increasing depth,
+they produce a stable, reproducible hierarchy of emergence:
+
+  P-A-N > P-A > Projection > P-N > Antisymmetry > Neutral > A-N
+
+This hierarchy is:
+- Reproducible across 7 sectors
+- Stable across recursion depths from 1 to 67 million
+- Invariant under 14 different mathematical formalisms
+- Robust to operator ablation (all 15 partial configurations)
+- Perturbation-tolerant (14 perturbation types)
+- Compressible (superlinear efficiency above 55% budget)
+- Statistically non-random (p < 10^-42 for formalism invariance)
+
+Tier 1 established that emergence is:
+- REPRODUCIBLE: given the operators and initial configuration,
+  the hierarchy always appears in the same order
+- STRUCTURED: the ordering is lawful, not random
+- ROBUST: perturbations, ablation, and compression preserve it
+
+Tier 1 did NOT establish whether emergence is:
+- UNIVERSAL (applies beyond P-A-N)
+- PREDICTIVE (forecastable before computation)
+- FORMALLY DERIVABLE (provable from axioms)
+- These questions are addressed by Tier 2.
+
+============================================================
+PART 2: TIER 2 TECHNICAL SUPPLEMENT
+============================================================
+
+Tier 2 (Phases 407-412) stress-tested, bounded, classified,
+and scientifically constrained the Tier 1 findings.
+
+2.1 PREDICTIVE (Phase 407)
+The emergence hierarchy can be predicted BEFORE recursive
+execution using only Phase 391-399 sector mean data.
+- Predictor: sector base + depth factor gamma(d)
+- Within-manifold MAPE: 10.19%
+- Hierarchy accuracy: 1.0 (perfect)
+- Key insight: emergence is predictable because the depth
+  factor is separable from sector base values
+
+2.2 BREAKDOWN (Phase 408)
+Predictive error under adversarial parameter shifts is
+lawful, not arbitrary. 4/7 conditions have explicit
+breakdown thresholds. All 7 produce structured error growth.
+
+2.3 OUT-OF-DISTRIBUTION (Phase 408.5)
+Prediction generalizes beyond the Phase 391-399 discovery
+manifold. OOD MAPE: 17.24% (1.57x in-distribution).
+Generalization fails only when axioms are violated
+(inversion operator: 116% error; periodic recursion: 99%).
+
+2.4 IRREDUCIBILITY (Phase 409)
+Cross-domain prediction has a fundamental ~11.75% error
+floor. This floor is structural (formalism variation),
+not noise. Within-domain prediction can reach ~2%.
+
+2.5 THEOREM-BOUNDARY (Phase 410)
+The framework is 68% empirical/contingent, 23%
+provable/conditional, 9% irreducible. The formal core
+is thin (3 axioms, 2 conditional invariants). Most
+findings depend on empirical evidence.
+
+2.6 SYNTHETIC CORRESPONDENCE (Phase 411)
+The SFH-SGP hierarchy does NOT transfer to 6 independent
+synthetic systems (mean rho = -0.07, 0/6 significant).
+The hierarchy is framework-specific, not universal.
+
+2.7 UNIVERSALITY CLASSIFICATION (Phase 412)
+SFH-SGP defines a bounded universality class with 6
+necessary conditions. Two attractor families exist:
+SFH-SGP (isolated) and synthetic systems (cluster).
+Membership scores: 0.27-0.55 for non-core systems.
+
+2.8 CUMULATIVE RESULTS
+- Total hypotheses: 27/35 PASS (77.1%)
+- Phases completed: 7 (407-412)
+- The framework is predictive, bounded, empirically
+  grounded, and universality-class constrained
+
+============================================================
+PART 3: FORMAL GLOSSARY AND NOTATION
+============================================================
+
+3.1 PRIMITIVE OPERATORS
+- P: Projection operator. Selects directional relational
+  structure. P(r) = {(i, j, t) in r : t = projection}
+- A: Antisymmetry operator. Selects asymmetric relational
+  structure. A(r) = {(i, j, t) in r : t = antisymmetry}
+- N: Neutrality operator. Selects symmetric relational
+  structure. N(r) = {(i, j, t) in r : t = neutrality}
+
+3.2 COMPOSITE OPERATORS
+- P-A-N: (P ∘ A ∘ N)(r) = P(A(N(r))) — full operator
+- P-A: (P ∘ A)(r) = P(A(r))
+- P-N: (P ∘ N)(r) = P(N(r))
+- A-N: (A ∘ N)(r) = A(N(r))
+- Proj: Projection only
+
+3.3 SECTORS (7 total)
+S = {P-A-N, P-A, Projection, P-N, Antisymmetry,
+     Neutral, A-N}
+Ordered by emergence: P-A-N > P-A > Projection > P-N >
+Antisymmetry > Neutral > A-N
+
+3.4 DEPTH AND SCALING
+- d: Recursion depth (positive integer)
+- gamma(d) = 1 / (1 + k(d-1)): Depth factor
+- k: System parameter (~1.5e-8 for standard model)
+- Properties: gamma(1) = 1, lim_{d->inf} gamma(d) = 0
+
+3.5 EMERGENCE MEASURES
+- E(S): Emergence of recursive state S
+- epsilon_s(d): Emergence of sector s at depth d
+- phi(S): Structural coherence functional
+- E(S) = phi(S) * gamma(d): Separable form
+
+3.6 KEY METRICS
+- MAPE: Mean Absolute Percentage Error
+- RSF: Relative Survival Fraction (perturbation robustness)
+- CSF: Compression Survival Fraction
+- FIS: Formalism Invariance Score
+- HPR: Hierarchy Preservation Rate
+- TDI: Theorem Derivability Index [0, 1]
+- EDS: Empirical Dependency Score [0, 1]
+- URS: Undecidability Region Size [0, 1]
+- ONI: Operator Necessity Index
+- MOS: Minimal Operator Set (emergence contribution)
+
+3.7 MEMBERSHIP METRICS
+- UMS: Universality Membership Score [0, 1]
+  Weighted average of 10 structural features
+- ED: Exclusion Density (1 - UMS)
+- AFD: Attractor Family Distance (Euclidean in feature space)
+- RCI: Recursive Constraint Index (sum of required features)
+
+3.8 TIER 2 STATUS LABELS
+- STABLE: All hypotheses PASS
+- BOUNDED: 4/5 hypotheses PASS, boundaries identified
+- DEGRADING: 2-3/5 PASS, significant negative findings
+- FAILED: 0-1/5 PASS, framework not supported
+
+3.9 UNIVERSALITY CLASS LABELS
+- CORE_MEMBER: score >= 0.80 (full universality class)
+- PARTIAL_MEMBER: score 0.50-0.79 (partial correspondence)
+- PERIPHERAL: score 0.20-0.49 (weak alignment)
+- EXCLUDED: score < 0.20 (fundamentally different class)
+
+3.10 NOTATION STANDARDS
+- Operators: bold capital letters (P, A, N)
+- Composite operators: hyphenated (P-A-N)
+- Depth: subscript d (S_d)
+- Emergence: epsilon_s(d) for sector s at depth d
+- Categories: SMALL CAPS (PROVABLE, EMPIRICAL)
+- Phases: "Phase NNN" with leading zeros
+- Verdicts: UPPERCASE-HYPHENATED (PREDICTIVE-STABLE)

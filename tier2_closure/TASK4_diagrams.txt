@@ -1,0 +1,154 @@
+# Tier 2 Consolidation: Diagrams and Maps
+Text-form descriptions for publication-ready visualizations.
+
+============================================================
+DIAGRAM 1: EMERGENCE PROGRESSION CHART
+============================================================
+
+Type: Multi-panel line chart
+Data: 7 sectors × emergence E(d) vs depth d (log scale)
+X-axis: Recursion depth d (1 to 10^8, log scale)
+Y-axis: Emergence measure E(d) [0, 1]
+Series: 7 sectors (P-A-N, P-A, Projection, P-N, Antisymmetry,
+         Neutral, A-N) in distinct colors
+Key feature: All curves decay with γ(d) form, maintain ordering
+Annotation: γ(d) = 1/(1 + 1.5e-8(d-1)) overlay
+Source: Phase 391-399
+
+Visual output: 7 descending curves, never crossing, converging
+toward zero at extreme depth. P-A-N always highest, A-N always lowest.
+
+============================================================
+DIAGRAM 2: PREDICTIVE ACCURACY MAP
+============================================================
+
+Type: Heatmap/confusion matrix
+Rows: Phase 400-404 validation categories (ablation, perturbation,
+      compression, formalism, novel)
+Columns: Prediction error MAPE (%) color-coded:
+         green (< 5%), yellow (5-15%), red (> 15%)
+Values: ablation 10.95%, perturbation 0.84%, compression 0.83%,
+        formalism 0.59%, novel 14.13%
+Annotation: Overall MAPE 10.19%
+Source: Phase 407
+
+============================================================
+DIAGRAM 3: OOD DEGRADATION MAP
+============================================================
+
+Type: Bar chart with reference lines
+X-axis: 5 OOD domains (OperatorFamilies, RecursiveSystems,
+        WithheldFormalisms, AlienArchitectures, ExternalMappings)
+Y-axis: MAPE (%)
+Bars: Colored by verdict (green < 15%, yellow 15-40%, red > 40%)
+Reference lines: In-distribution MAPE (10.95%) dashed green,
+                 Null baseline (50%) dashed red
+Values: 2.01%, 1.50%, 10.08%, 39.35%, 33.27%
+Annotation: Two failure domains (inversion, periodic) marked
+Source: Phase 408.5
+
+============================================================
+DIAGRAM 4: IRREDUCIBILITY ASYMPTOTE
+============================================================
+
+Type: Scatter plot with fitted curve
+X-axis: Training data fraction [0, 1]
+Y-axis: Prediction MAPE (%)
+Curve: Exponential decay fitted to accuracy vs data fraction
+Asymptote: 11.75% (horizontal dashed line)
+Annotation: "Irreducible Uncertainty Floor"
+           "Predictability Ceiling: 88.25%"
+Source: Phase 409
+
+============================================================
+DIAGRAM 5: FORMAL ELEMENT PIE CHART
+============================================================
+
+Type: Pie/donut chart
+Segments:
+  - PROVABLE (14%, 3 elements, solid blue)
+  - CONDITIONAL (9%, 2 elements, striped blue)
+  - EMPIRICAL (32%, 7 elements, solid green)
+  - CONTINGENT (36%, 8 elements, striped green)
+  - IRREDUCIBLE (9%, 2 elements, solid red)
+Annotation: "68% empirical/contingent — 23% provable/conditional"
+Source: Phase 410
+
+============================================================
+DIAGRAM 6: SYNTHETIC CORRESPONDENCE BAR CHART
+============================================================
+
+Type: Bar chart with error bars
+X-axis: 6 synthetic system types
+Y-axis: Spearman rho (correspondence to SFH-SGP hierarchy)
+Bars: Colored by significance (green = significant positive,
+      red = significant negative, gray = not significant)
+Error bars: 95% CI from null distribution
+Reference line: rho = 0 (null expectation)
+Values: CA 0.21, GPS 0.39, AIS 0.18, SRS 0.18, TRS -0.07, EOS -0.86
+Annotation: "0/6 systems show significant positive correspondence"
+            "Evolutionary systems show significant NEGATIVE correspondence"
+Source: Phase 411
+
+============================================================
+DIAGRAM 7: UNIVERSALITY CLASSIFICATION DENDROGRAM
+============================================================
+
+Type: Hierarchical clustering dendrogram
+Leaves: 7 systems (SFH-SGP + 6 synthetic)
+Y-axis: Euclidean distance in 10-feature space
+Clusters: Two main branches:
+  - Branch 1: SFH-SGP (distance ~1.6-2.5 from rest)
+  - Branch 2: All 6 synthetics (inter-distance ~0.4-1.4)
+             Sub-branches: (CA, GPS, AIS, EOS) and (SRS, TRS)
+Annotation: "Two attractor families — SFH-SGP isolated"
+            "Membership threshold at ~1.5 distance"
+Source: Phase 412
+
+============================================================
+DIAGRAM 8: PREDICTIVE BREAKDOWN MAP
+============================================================
+
+Type: Multi-panel line chart
+Panels: 7 conditions
+X-axis: Normalized parameter value
+Y-axis: Prediction error (MAPE)
+Series: Actual error vs parameter change
+Threshold lines: Marked where error becomes unbounded (4 panels)
+Pattern: All panels show structured error growth
+Annotation: "4/7 conditions have explicit breakdown thresholds"
+            "All 7 conditions produce lawful (non-random) degradation"
+Source: Phase 408
+
+============================================================
+DIAGRAM 9: UNIVERSALITY MEMBERSHIP SCATTER
+============================================================
+
+Type: Scatter plot
+X-axis: Universality membership score [0, 1]
+Y-axis: Phase 411 correspondence (Spearman rho)
+Points: 7 systems, labeled
+Regression line: r = 0.70, p = 0.08
+Quadrants:
+  - Top-right: SFH-SGP (1.0, 1.0)
+  - Mid-right: SRS, TRS (0.54-0.55, -0.07-0.18)
+  - Mid-left: CA, GPS, AIS (0.27-0.40, 0.18-0.39)
+  - Bottom-left: EOS (0.29, -0.86)
+Annotation: "Positive gradient: higher membership predicts
+             higher correspondence (trend, not significant)"
+Source: Phase 411 + 412
+
+============================================================
+DIAGRAM 10: TIER 2 ARC SUMMARY
+============================================================
+
+Type: Phase progression flowchart
+Nodes: 7 phases in sequence
+  Phase 407 (PREDICTIVE-STABLE) → Phase 408 (BREAKDOWN-BOUNDED)
+  → Phase 408.5 (OOD-BOUNDED) → Phase 409 (IRREDUCIBILITY-BOUNDED)
+  → Phase 410 (THEOREM-BOUNDARY-BOUNDED)
+  → Phase 411 (SYNTHETIC-CORRESPONDENCE-DEGRADING)
+  → Phase 412 (UNIVERSALITY-CLASSIFICATION-BOUNDED)
+Node colors: Green (STABLE), Yellow (BOUNDED), Red (DEGRADING)
+Final node: "TIER 2 ARC: CONVERGED"
+Annotation: "27/35 hypotheses PASS (77.1%)"
