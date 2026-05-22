@@ -1,0 +1,16 @@
+ood_type,condition,true_value,predicted,error_pct
+OperatorFamilies,AddSymmetryOperator_S,0.92,0.9099,1.1
+OperatorFamilies,AddInversionOperator_I,0.3,0.6499,116.63
+OperatorFamilies,WeightedMix_P_A_N_S,0.95,0.9471,0.31
+RecursiveSystems,QuadraticDecay_d2,0.93,0.9285,0.16
+RecursiveSystems,ExponentialDecay_exp,0.93,0.9285,0.16
+RecursiveSystems,PeriodicRecursion_sin,0.4655,0.9285,99.46
+WithheldFormalisms,RandomMatrixFormalism,0.78,0.7892,1.18
+WithheldFormalisms,DynamicalSystemFormalism,0.85,0.8356,1.69
+WithheldFormalisms,QuantumAmplitudeFormalism,0.72,0.7428,3.17
+AlienArchitectures,ThreeSectorOnly,0.85,0.8171,3.87
+AlienArchitectures,TwelveSectorHierarchy,0.96,0.9563,0.39
+AlienArchitectures,HierarchicalRecursion,0.88,0.8821,0.24
+ExternalMappings,HighBaseline095,0.95,0.9471,0.31
+ExternalMappings,LowBaseline050,0.5,0.6035,20.7
+ExternalMappings,CompressedRange_060_075,0.68,0.7428,9.24

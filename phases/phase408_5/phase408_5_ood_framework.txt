@@ -1,0 +1,43 @@
+# Phase 408.5: Out-of-Distribution Prediction
+
+## Objective: Does emergence prediction generalize beyond the training manifold?
+
+Phase 407: Prediction WITHIN the discovery manifold (P-A-N, 7 sectors, γ(d))
+Phase 408: Breakdown AT the manifold boundaries
+Phase 408.5: Prediction OUTSIDE the manifold entirely
+
+---
+
+## Critical Distinction
+
+| Type | Description | Example |
+|------|------------|---------|
+| Interpolation | Predict within known space | Same operators, different depths |
+| Extrapolation | Predict at known boundaries | Same operators, extreme parameters |
+| **OOD** | Predict on genuinely novel structures | Different operators, different architectures |
+
+Phases 407-408 tested interpolation and extrapolation.
+Phase 408.5 tests OOD generalization.
+
+---
+
+## Test Domains (5)
+
+1. **Unseen operator families**: Operators beyond P, A, N
+2. **Independent recursive systems**: Non-standard recursion
+3. **Withheld formalism classes**: Formalisms not in training
+4. **Structurally alien architectures**: Different sector structures
+5. **Externally generated mappings**: Non-standard emergence values
+
+## Predictor
+
+Trained on Phase 391-399 only (standard 7 sectors, P-A-N, γ(d) depth scaling).
+Same model as Phase 407 BASE predictor.
+
+## Success Criteria
+
+- OOD MAPE < 30% (significantly above null, but naturally higher than
+  in-distribution MAPE of ~11%)
+- OOD prediction remains above null control (> 0.05)
+- Degradation is lawful (monotonic with OOD distance)
+- At least 4/5 test domains show structured prediction

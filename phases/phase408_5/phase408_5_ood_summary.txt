@@ -1,0 +1,20 @@
+# Phase 408.5 Summary
+
+## Verdict: OOD-BOUNDED
+### Hypotheses: 4/5 PASS
+
+Prediction generalizes beyond the discovery manifold. OOD MAPE of
+17.24% is only 1.6x the in-distribution error.
+
+## Domain Results
+- WithheldFormalisms: 2.01% — near-perfect transfer
+- AlienArchitectures: 1.50% — sector count invariance
+- ExternalMappings: 10.08% — baseline shift handled
+- OperatorFamilies: 39.35% — inversion operator collapses
+- RecursiveSystems: 33.27% — periodic recursion collapses
+
+## Key Findings
+- 3/5 domains near in-distribution performance
+- 2 failure modes: sign reversal and oscillation
+- Overall Universality Transfer Score: 0.8276
+- No domain shows arbitrary or null-level prediction

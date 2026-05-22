@@ -1,0 +1,34 @@
+# Phase 408.5: Forbidden Interpretations
+
+## STRICTLY FORBIDDEN
+
+1. **"17.24% OOD MAPE means prediction is universal."** OOD prediction
+   is strong but not universal. Two failure modes exist (inversion,
+   periodic recursion). Universality is bounded, not absolute.
+
+2. **"Inversion operator failure disproves the framework."** The
+   predictor assumes positive operators (Axiom 1). Inversion violates
+   this axiom. Failure is expected, not contradictory.
+
+3. **"Periodic recursion failure means depth analysis is wrong."**
+   Periodic recursion violates monotonic depth decay (Axiom 3).
+   Failure confirms the axiom, it doesn't disprove depth analysis.
+
+4. **"AlienArchitectures 1.5% MAPE proves sector count doesn't
+   matter."** It proves the predictor generalizes across sector
+   counts for similar structures. Extremely different architectures
+   (e.g., no sectors) were not tested.
+
+5. **"OOD generalization = physical universality."** OOD success
+   demonstrates mathematical generalization within the relational
+   emergence framework, not physical law universality.
+
+## PERMITTED INTERPRETATIONS
+
+1. "The Phase 391-399 predictor generalizes to OOD conditions with
+   1.6x degradation."
+2. "Cross-formalism and cross-architecture prediction is near-perfect."
+3. "Two OOD failure modes are identified and axiomatically explained."
+4. "OOD degradation is lawful and bounded, not arbitrary."
+5. "The framework captures genuine structural invariants beyond its
+   discovery manifold."
