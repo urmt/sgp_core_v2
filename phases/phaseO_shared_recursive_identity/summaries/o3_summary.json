@@ -1,0 +1,6 @@
+{
+  "phase": "O3",
+  "fusion_fraction": 0.62,
+  "fragmentation_fraction": 0.2075,
+  "key_observation": "Fusion requires high coupling (K>0.8); fragmentation at low K (K<0.2)"
+}

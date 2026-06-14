@@ -1,0 +1,9 @@
+mechanism_id,mechanism_name,description,MC1,MC2,MC3,MC4,MC5,total
+M01,System cannot fully examine itself,"Self-examination encounters undecidability, incompleteness",1,0,1,1,0,3
+M02,Procedure finds its own fixed point,Operation on its own output converges to a fixed point,0,1,1,1,0,3
+M03,Method determines result,Choice of method/framing forces the recursive result,0,1,1,0,0,2
+M04,Observer and observed cannot be separated,Act of investigation describes joint observer-observed system,0,0,1,0,0,1
+M05,Information exhausted; artifacts remain,All discriminating information extracted; further processing is artifact,1,-1,1,0,-1,0
+M06,System trapped in attractor basin,Dynamics governed by attractor; escape requires external intervention,0,-1,1,0,-1,-1
+M07,Question is incoherent at this level,Question cannot be answered within current framework,0,-1,1,0,0,0
+M08,Recursion IS the identity,"What a thing IS is constituted by its relationships, not intrinsic essence",0,1,1,1,0,3

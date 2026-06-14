@@ -1,0 +1,6 @@
+primitive,model_required,model_proof_type,observation_required,observation_proof_type,classification,reasoning
+comparison,True,formal,True,assumed,NECESSARY FOR CURRENT MODELS ONLY,"We cannot distinguish: (A) observation inherently requires comparison, from (B) we cannot describe observation without comparison. Both produce the same observable output: our models fail. The two hypotheses are empirically indistinguishable."
+ordering,True,formal,True,assumed,NECESSARY FOR CURRENT MODELS ONLY,"Temporal ordering is a feature of our models, not proven to be a feature of observation. Non-sequential observation may exist but be unreportable by sequential observers."
+identity,True,formal,True,assumed,NECESSARY FOR CURRENT MODELS ONLY,Identity may be necessary for REPORTING but not for OBSERVING. A single-instant observer might observe without identity. We cannot prove this is impossible.
+difference,True,formal,True,assumed,UNKNOWN,The argument for difference is circular: we use comparison (which requires difference) to argue that observation requires difference. This proves nothing about observation itself.
+distinction,True,formal,True,assumed,NECESSARY FOR CURRENT MODELS ONLY,Distinction may be necessary for the OBSERVER-observed split but not for observation itself. We cannot prove that observation without an observer-distinction boundary is impossible.

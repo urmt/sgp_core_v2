@@ -1,0 +1,8 @@
+{
+  "phase": "N1",
+  "n_simulations": 2000,
+  "mean_final_sync": 0.873001941361638,
+  "mean_order_param": 0.8508531359386785,
+  "mean_sync_time": 33.329,
+  "mean_closure_corr": 0.6868515696262077
+}

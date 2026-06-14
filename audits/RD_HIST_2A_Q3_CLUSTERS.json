@@ -1,0 +1,186 @@
+{
+  "audit": "RD-HIST.2A",
+  "analysis": "Q3 Clustering",
+  "description": "Emergent categories from Q3 responses (what changed operationally)",
+  "rule_0": "All Q3 responses are one sentence, operational language only, no theoretical vocabulary",
+  "raw_q3_responses": [
+    {
+      "study_number": 1,
+      "original_id": "RD-10B.R0R",
+      "q3": "A classification scheme was applied to prior studies, separating them into two groups based on what remained stable."
+    },
+    {
+      "study_number": 2,
+      "original_id": "RD-10B.J2",
+      "q3": "Multiple sequences were generated and the same four features appeared in all of them."
+    },
+    {
+      "study_number": 3,
+      "original_id": "RD-10B.M5",
+      "q3": "Audits were classified by whether descriptions collapsed or were maintained, and gain was compared."
+    },
+    {
+      "study_number": 4,
+      "original_id": "RD-10B.M6b",
+      "q3": "Comparisons were classified by type and collapse rates were measured."
+    },
+    {
+      "study_number": 5,
+      "original_id": "RD-10B.0",
+      "q3": "One world was represented in multiple ways and the same detectors were applied to each."
+    },
+    {
+      "study_number": 6,
+      "original_id": "RD-10B.J4",
+      "q3": "Each junction was removed and the effect on the others was measured."
+    },
+    {
+      "study_number": 7,
+      "original_id": "RD-5",
+      "q3": "Removal fraction was varied and recovery metrics were measured."
+    },
+    {
+      "study_number": 8,
+      "original_id": "RD-019",
+      "q3": "Box width was varied and the effect on packing structure and outcome was measured."
+    },
+    {
+      "study_number": 9,
+      "original_id": "RD-10B.J6",
+      "q3": "Each junction was expressed as an operator and composition was tested."
+    },
+    {
+      "study_number": 10,
+      "original_id": "RD-10B.R1",
+      "q3": "The study sequence was re-read and the timing of gain relative to interaction was recorded."
+    },
+    {
+      "study_number": 11,
+      "original_id": "T038_distinction_genesis",
+      "q3": "Universes were generated with continuous dynamics and the emergence of separable clusters was measured."
+    },
+    {
+      "study_number": 12,
+      "original_id": "T043_order_discovery",
+      "q3": "Universes were generated and detectors were applied to determine which appeared first."
+    },
+    {
+      "study_number": 13,
+      "original_id": "RD-05_perturbation_sweep",
+      "q3": "Removal fraction was varied and recovery metrics were measured."
+    },
+    {
+      "study_number": 14,
+      "original_id": "T042_proximity_genesis",
+      "q3": "Universes were analyzed for proximity structure and the chain was tested."
+    },
+    {
+      "study_number": 15,
+      "original_id": "RD-06_ensemble_resilience",
+      "q3": "Pre-perturbation level was measured and its predictive power for recovery was tested."
+    },
+    {
+      "study_number": 16,
+      "original_id": "RD-10B.3_emergence_first",
+      "q3": "Worlds were generated without pattern vocabulary and patterns were detected after evolution."
+    },
+    {
+      "study_number": 17,
+      "original_id": "experiment_if3",
+      "q3": "A co-occurrence matrix was built, noise was filtered, and clustering was applied."
+    },
+    {
+      "study_number": 18,
+      "original_id": "if_stress_test",
+      "q3": "Reconstruction was tested under four degradation conditions and breakpoints were identified."
+    },
+    {
+      "study_number": 19,
+      "original_id": "T040_pre_distinction_failure",
+      "q3": "Ten candidates were tested and all required separation."
+    },
+    {
+      "study_number": 20,
+      "original_id": "RD-10B.R3b_component_analysis",
+      "q3": "Audits were decomposed by type and the contribution of each component was analyzed."
+    }
+  ],
+  "emergent_categories": [
+    {
+      "category": "Classification and Categorization",
+      "description": "Studies that classified or categorized existing data into groups",
+      "studies": [1, 3, 4, 20],
+      "count": 4,
+      "frequency": 0.20,
+      "pattern": "Applied a scheme to separate items into groups based on shared properties"
+    },
+    {
+      "category": "Generation and Testing",
+      "description": "Studies that generated new instances and tested whether patterns appeared",
+      "studies": [2, 11, 12, 16, 17],
+      "count": 5,
+      "frequency": 0.25,
+      "pattern": "Created new instances and measured whether specific features emerged"
+    },
+    {
+      "category": "Variation and Measurement",
+      "description": "Studies that varied a parameter and measured the effect on outcomes",
+      "studies": [7, 8, 13, 15],
+      "count": 4,
+      "frequency": 0.20,
+      "pattern": "Systematically varied an input and measured changes in outputs"
+    },
+    {
+      "category": "Removal and Degradation Testing",
+      "description": "Studies that removed components or degraded conditions to test robustness",
+      "studies": [6, 14, 18],
+      "count": 3,
+      "frequency": 0.15,
+      "pattern": "Removed or degraded components to test whether function persisted"
+    },
+    {
+      "category": "Comparison and Reinterpretation",
+      "description": "Studies that compared multiple descriptions or reinterpreted existing data",
+      "studies": [5, 9, 10, 19],
+      "count": 4,
+      "frequency": 0.20,
+      "pattern": "Compared multiple descriptions or reinterpreted data through a new lens"
+    }
+  ],
+  "category_frequency_ranking": [
+    {"category": "Generation and Testing", "count": 5, "frequency": 0.25},
+    {"category": "Classification and Categorization", "count": 4, "frequency": 0.20},
+    {"category": "Variation and Measurement", "count": 4, "frequency": 0.20},
+    {"category": "Comparison and Reinterpretation", "count": 4, "frequency": 0.20},
+    {"category": "Removal and Degradation Testing", "count": 3, "frequency": 0.15}
+  ],
+  "what_changed_table": [
+    {"study": 1, "original_id": "RD-10B.R0R", "what_changed": "A classification scheme separated studies into two groups based on what remained stable."},
+    {"study": 2, "original_id": "RD-10B.J2", "what_changed": "Multiple sequences were generated and the same four features appeared in all of them."},
+    {"study": 3, "original_id": "RD-10B.M5", "what_changed": "Audits were classified by whether descriptions collapsed or were maintained, and gain was compared."},
+    {"study": 4, "original_id": "RD-10B.M6b", "what_changed": "Comparisons were classified by type and collapse rates were measured."},
+    {"study": 5, "original_id": "RD-10B.0", "what_changed": "One world was represented in multiple ways and the same detectors were applied to each."},
+    {"study": 6, "original_id": "RD-10B.J4", "what_changed": "Each junction was removed and the effect on the others was measured."},
+    {"study": 7, "original_id": "RD-5", "what_changed": "Removal fraction was varied and recovery metrics were measured."},
+    {"study": 8, "original_id": "RD-019", "what_changed": "Box width was varied and the effect on packing structure and outcome was measured."},
+    {"study": 9, "original_id": "RD-10B.J6", "what_changed": "Each junction was expressed as an operator and composition was tested."},
+    {"study": 10, "original_id": "RD-10B.R1", "what_changed": "The study sequence was re-read and the timing of gain relative to interaction was recorded."},
+    {"study": 11, "original_id": "T038_distinction_genesis", "what_changed": "Universes were generated with continuous dynamics and the emergence of separable clusters was measured."},
+    {"study": 12, "original_id": "T043_order_discovery", "what_changed": "Universes were generated and detectors were applied to determine which appeared first."},
+    {"study": 13, "original_id": "RD-05_perturbation_sweep", "what_changed": "Removal fraction was varied and recovery metrics were measured."},
+    {"study": 14, "original_id": "T042_proximity_genesis", "what_changed": "Universes were analyzed for proximity structure and the chain was tested."},
+    {"study": 15, "original_id": "RD-06_ensemble_resilience", "what_changed": "Pre-perturbation level was measured and its predictive power for recovery was tested."},
+    {"study": 16, "original_id": "RD-10B.3_emergence_first", "what_changed": "Worlds were generated without pattern vocabulary and patterns were detected after evolution."},
+    {"study": 17, "original_id": "experiment_if3", "what_changed": "A co-occurrence matrix was built, noise was filtered, and clustering was applied."},
+    {"study": 18, "original_id": "if_stress_test", "what_changed": "Reconstruction was tested under four degradation conditions and breakpoints were identified."},
+    {"study": 19, "original_id": "T040_pre_distinction_failure", "what_changed": "Ten candidates were tested and all required separation."},
+    {"study": 20, "original_id": "RD-10B.R3b_component_analysis", "what_changed": "Audits were decomposed by type and the contribution of each component was analyzed."}
+  ],
+  "sorted_by_frequency": [
+    {"what_changed": "Universes/worlds were generated and patterns/features were measured", "count": 5, "studies": [2, 11, 12, 16, 17]},
+    {"what_changed": "Items were classified/categorized into groups based on shared properties", "count": 4, "studies": [1, 3, 4, 20]},
+    {"what_changed": "A parameter was varied and the effect on outcomes was measured", "count": 4, "studies": [7, 8, 13, 15]},
+    {"what_changed": "Multiple descriptions were compared or reinterpreted through a new lens", "count": 4, "studies": [5, 9, 10, 19]},
+    {"what_changed": "Components were removed or degraded to test whether function persisted", "count": 3, "studies": [6, 14, 18]}
+  ]
+}

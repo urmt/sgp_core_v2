@@ -1,0 +1,7 @@
+transform,corr,pass
+identity,1.0,True
+reverse,-0.48221116437429073,False
+replay,0.5468969444198164,True
+swap_halves,0.9987273958078077,True
+stitch,0.9968139037352768,True
+noise,0.5703322207121133,True

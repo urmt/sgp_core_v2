@@ -1,0 +1,313 @@
+{
+  "total_studies": 41,
+  "gain_counts": {
+    "YES": 37,
+    "NO": 4
+  },
+  "type_counts": {
+    "operator-operator": 6,
+    "system-system": 1,
+    "object-object": 29,
+    "representation-representation": 2,
+    "decomposition-decomposition": 3
+  },
+  "desc_counts": {
+    "2": 24,
+    "3": 2,
+    "7": 1,
+    "5": 6,
+    "11": 1,
+    "4": 5,
+    "20": 1,
+    "1": 1
+  },
+  "interactions": [
+    {
+      "id": "T037_primitive_interaction_genesis",
+      "n_descriptions": 2,
+      "type": "operator-operator",
+      "gain_after_comparison": "YES",
+      "detail": "Interaction operators compared to find minimal substrate"
+    },
+    {
+      "id": "T041_interaction_distinction_genesis",
+      "n_descriptions": 2,
+      "type": "operator-operator",
+      "gain_after_comparison": "YES",
+      "detail": "Interaction and distinction operators compared"
+    },
+    {
+      "id": "phase398_interaction_framework",
+      "n_descriptions": 3,
+      "type": "system-system",
+      "gain_after_comparison": "YES",
+      "detail": "Multiple network conditions compared"
+    },
+    {
+      "id": "RD-019",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "NO",
+      "detail": "Density and C compared (intervention)"
+    },
+    {
+      "id": "RD-020",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "NO",
+      "detail": "Structural importance and C compared (intervention)"
+    },
+    {
+      "id": "RD-021",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "NO",
+      "detail": "Velocity field and C compared (intervention)"
+    },
+    {
+      "id": "RD-022",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Estimators compared for C robustness"
+    },
+    {
+      "id": "RD-5",
+      "n_descriptions": 7,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "7 metrics compared pairwise"
+    },
+    {
+      "id": "RD-9E",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "SP and discretization compared"
+    },
+    {
+      "id": "RD-10A.1",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Stability and constraint types compared"
+    },
+    {
+      "id": "RD-10A.8",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Constraint set and topology compared"
+    },
+    {
+      "id": "RD-10A.9",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Topology and distinctions compared"
+    },
+    {
+      "id": "RD-10A.10",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Distinctions and preservation compared"
+    },
+    {
+      "id": "RD-10A.12",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Distinctions and lenses compared"
+    },
+    {
+      "id": "RD-10B.0",
+      "n_descriptions": 5,
+      "type": "representation-representation",
+      "gain_after_comparison": "YES",
+      "detail": "5 representations compared"
+    },
+    {
+      "id": "RD-10B.0A",
+      "n_descriptions": 5,
+      "type": "representation-representation",
+      "gain_after_comparison": "YES",
+      "detail": "5 representations compared for correspondence"
+    },
+    {
+      "id": "RD-10B.0B",
+      "n_descriptions": 5,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "5 identity criteria compared"
+    },
+    {
+      "id": "RD-10B.0C",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Criteria and tasks compared"
+    },
+    {
+      "id": "RD-10B.0D",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Causal and other criteria compared"
+    },
+    {
+      "id": "RD-10B.0E",
+      "n_descriptions": 5,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "5 worlds compared"
+    },
+    {
+      "id": "RD-10B.0F",
+      "n_descriptions": 5,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "5 world types compared"
+    },
+    {
+      "id": "RD-10B.X",
+      "n_descriptions": 2,
+      "type": "operator-operator",
+      "gain_after_comparison": "YES",
+      "detail": "Bottom-up and top-down chains compared"
+    },
+    {
+      "id": "RD-10B.Y",
+      "n_descriptions": 2,
+      "type": "operator-operator",
+      "gain_after_comparison": "YES",
+      "detail": "Bottom-up and top-down chains compared"
+    },
+    {
+      "id": "RD-10B.Z",
+      "n_descriptions": 2,
+      "type": "operator-operator",
+      "gain_after_comparison": "YES",
+      "detail": "Bottom-up and top-down chains compared"
+    },
+    {
+      "id": "RD-10B.W",
+      "n_descriptions": 2,
+      "type": "operator-operator",
+      "gain_after_comparison": "YES",
+      "detail": "Bottom-up and top-down chains compared"
+    },
+    {
+      "id": "RD-10B.J2",
+      "n_descriptions": 11,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "11 ladders compared"
+    },
+    {
+      "id": "RD-10B.J3",
+      "n_descriptions": 5,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "5 vocabularies compared"
+    },
+    {
+      "id": "RD-10B.J4",
+      "n_descriptions": 4,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "4 junctions compared for dependency"
+    },
+    {
+      "id": "RD-10B.J5",
+      "n_descriptions": 4,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Dependencies compared for topology"
+    },
+    {
+      "id": "RD-10B.J6",
+      "n_descriptions": 4,
+      "type": "decomposition-decomposition",
+      "gain_after_comparison": "YES",
+      "detail": "4 decompositions compared for compression"
+    },
+    {
+      "id": "RD-10B.J7",
+      "n_descriptions": 4,
+      "type": "decomposition-decomposition",
+      "gain_after_comparison": "YES",
+      "detail": "4 decompositions compared for isomorphism"
+    },
+    {
+      "id": "RD-10B.J8",
+      "n_descriptions": 2,
+      "type": "decomposition-decomposition",
+      "gain_after_comparison": "YES",
+      "detail": "2 decompositions compared for translation"
+    },
+    {
+      "id": "RD-10B.M1",
+      "n_descriptions": 20,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "20 audits compared for migration"
+    },
+    {
+      "id": "RD-10B.M2",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Objects and mappings compared"
+    },
+    {
+      "id": "RD-10B.M3",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Comparison and translation compared"
+    },
+    {
+      "id": "RD-10B.M5",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Tension and collapse compared"
+    },
+    {
+      "id": "RD-10B.M6b",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Viewpoint and claim compared"
+    },
+    {
+      "id": "RD-10B.R1",
+      "n_descriptions": 2,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Interaction and explanation compared"
+    },
+    {
+      "id": "RD-10B.R3",
+      "n_descriptions": 4,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "I, P, N, C compared"
+    },
+    {
+      "id": "RD-10B.R4",
+      "n_descriptions": 3,
+      "type": "object-object",
+      "gain_after_comparison": "YES",
+      "detail": "Object, interaction, experience models compared"
+    },
+    {
+      "id": "RD-10B.R0R",
+      "n_descriptions": 1,
+      "type": "object-object",
+      "gain_after_comparison": "NO",
+      "detail": "Single description re-scored for persistence"
+    }
+  ]
+}

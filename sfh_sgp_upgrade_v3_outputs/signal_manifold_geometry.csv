@@ -1,0 +1,4 @@
+dataset,levina_bickel_mle,participation_ratio,correlation_dim,tangent_pca_dim,singularity,duplicate_pairs
+white_noise,3.5326591909353913,2.8676570293552857,1.9143451526229887,2.72,none,0
+sine_wave,-1.4426950408889636,0.0,0.6242698454957144,1.0,"duplicate_state_collapse, degenerate_dimension",199
+random_walk,3.1039577501990743,1.0544856269866882,1.9970451958901465,2.695,none,0

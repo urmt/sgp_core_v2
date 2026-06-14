@@ -1,0 +1,13 @@
+candidate,phase,source,real,null,collapse,property_type
+synchronization_value,N,dynamical_nulls,0.873001941361638,0.6395742006162444,0.2673851336244589,distribution_dependent
+closure_correlation,N,dynamical_nulls,0.6868515696262077,0.004776318983909938,0.9930460681825197,trajectory_dependent
+shared_closure_value,O,nulls,0.4523406667533636,0.45757708274382236,-0.011576266242083966,distribution_dependent
+shared_cross_corr,O,nulls,0.7570818411741399,0.040301449584317785,0.946767380496387,trajectory_dependent
+closure_convergence_value,O,nulls,0.5187372813139755,0.32553583922241786,0.37244564647864364,mixed
+persistence_gain,O,stabilization,0.10491945127147946,,,transition_invariant
+buffering,O,stabilization,0.8834559957718625,,,transition_invariant
+individual_transition_survival,P,continuity,0.736,0.86,-0.1684782608695652,transition_invariant
+shared_transition_survival,P,shared_transition,0.835,,,transition_invariant
+closure_recovery_under_transition,P,continuity,0.7841294912364021,,,transition_invariant
+reconstruction_probability,P,reconstruction,0.785,,,transition_invariant
+reconstruction_fidelity,P,reconstruction,0.5720276350996989,,,transition_invariant

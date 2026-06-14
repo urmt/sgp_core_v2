@@ -1,0 +1,149 @@
+{
+  "section_a_metrics": {
+    "d_phi_corr": 0.68004647997333,
+    "d_phi_riemann_corr": 0.9272398715936988,
+    "d_stab_riemann_corr": 0.6937214788654361
+  },
+  "section_b_optimal_lambda": {
+    "lambda_scan": [
+      {
+        "lambda": 0,
+        "r": 0.048362564980243834,
+        "p": 0.8695899474483765
+      },
+      {
+        "lambda": 0.01,
+        "r": 0.048362564980243834,
+        "p": 0.8695899474483765
+      },
+      {
+        "lambda": 0.05,
+        "r": 0.14635086029363273,
+        "p": 0.6176082210592833
+      },
+      {
+        "lambda": 0.1,
+        "r": 0.14635086029363273,
+        "p": 0.6176082210592833
+      },
+      {
+        "lambda": 0.2,
+        "r": 0.16061540056105952,
+        "p": 0.5833349984624603
+      },
+      {
+        "lambda": 0.5,
+        "r": 0.008795512400650678,
+        "p": 0.9761933426953672
+      },
+      {
+        "lambda": 1.0,
+        "r": 0.14390930578724545,
+        "p": 0.6235502268806881
+      },
+      {
+        "lambda": 2.0,
+        "r": 0.11834763133555316,
+        "p": 0.6869834256944024
+      },
+      {
+        "lambda": 5.0,
+        "r": 0.12089669650536566,
+        "p": 0.6805628186383326
+      },
+      {
+        "lambda": 10.0,
+        "r": 0.06689243998563582,
+        "p": 0.8202632798089059
+      },
+      {
+        "lambda": 20.0,
+        "r": 0.1454157123519757,
+        "p": 0.619881545832148
+      },
+      {
+        "lambda": 50.0,
+        "r": 0.1454157123519757,
+        "p": 0.619881545832148
+      }
+    ],
+    "best_lambda": 0.2,
+    "best_r": 0.16061540056105952,
+    "phi_only_r": 0.048362564980243834,
+    "combined_wins": true
+  },
+  "section_c_combined_graph": {
+    "phi_betweenness": {
+      "primes": 0.0,
+      "fibonacci": 0.0,
+      "modular_arithmetic": 0.0,
+      "additive_recurrence": 0.02564102564102564,
+      "lorenz": 0.0,
+      "logistic_map": 0.28205128205128205,
+      "henon_map": 0.01282051282051282,
+      "ising_magnetization": 0.10256410256410256,
+      "reaction_diffusion": 0.0,
+      "cfg_expansion": 0.0,
+      "lambda_reduction": 0.5128205128205128,
+      "rewrite_system": 0.01282051282051282,
+      "iid_gaussian": 0.5384615384615384,
+      "colored_noise": 0.0
+    },
+    "combined_betweenness": {
+      "primes": 0.0,
+      "fibonacci": 0.0,
+      "modular_arithmetic": 0.11538461538461538,
+      "additive_recurrence": 0.01282051282051282,
+      "lorenz": 0.0,
+      "logistic_map": 0.10256410256410256,
+      "henon_map": 0.02564102564102564,
+      "ising_magnetization": 0.01282051282051282,
+      "reaction_diffusion": 0.0641025641025641,
+      "cfg_expansion": 0.0,
+      "lambda_reduction": 0.3846153846153846,
+      "rewrite_system": 0.01282051282051282,
+      "iid_gaussian": 0.3974358974358974,
+      "colored_noise": 0.038461538461538464
+    },
+    "bridge_combined_b_mean": 0.025641025641025637,
+    "nonbridge_combined_b_mean": 0.09906759906759906,
+    "bridge_elevated": false,
+    "combined_betweenness_flow_r": -0.2825945926956658,
+    "combined_betweenness_flow_p": 0.3276096663801292
+  },
+  "section_d_intrinsic_dimension": {
+    "phi_participation_ratio": null,
+    "tensor_participation_ratio": null
+  },
+  "section_e_bridge_detection": {
+    "bridge_separation": 0.8739823024501623
+  },
+  "section_f_null_test": {
+    "real_frob_flow_r": 0.798648372417356,
+    "null_mean_r": 0.23226082923600194,
+    "null_std_r": 0.15780880712442552,
+    "z_score": 3.5890743584087903,
+    "is_significant": true
+  },
+  "final_verdict": {
+    "criteria": [
+      {
+        "name": "B: Combined metric beats Euclidean (r improvement)",
+        "passed": true,
+        "evidence": "best_r=0.161 vs \u03a6_r=0.048"
+      },
+      {
+        "name": "C: Bridge elevated in combined graph",
+        "passed": false,
+        "evidence": "bridge_b=0.026 vs other=0.099"
+      },
+      {
+        "name": "F: Tensor-flow correlation significant (z>2)",
+        "passed": true,
+        "evidence": "z=3.589"
+      }
+    ],
+    "n_passed": 2,
+    "n_total": 3
+  }
+}

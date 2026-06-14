@@ -1,0 +1,5 @@
+output_activity_link,sr1_stage_requirement,n_assumptions,path_choice,notes
+output=activity boundary,functional,9,Path C collapsed,"IS1b emergent, no new assumptions"
+output=activity boundary,temporal,9,Path C collapsed,"IS1b derived from IS1a+IS2, stages are output-change patterns"
+output≠activity,functional,9 or 10,Path A or C,"IS1a may suffice for SR1, IS1b optional"
+output≠activity,temporal,10,Path B or C,IS1b has independent content; BA1 or second root required

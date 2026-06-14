@@ -1,0 +1,106 @@
+{
+  "audit": "RD-HIST.2A",
+  "analysis": "Comparison to RD-HIST.1",
+  "description": "Comparing blind coding results to RD-HIST.1 locus assignments for the 10 coded studies",
+  "comparison": [
+    {
+      "study_number": 1,
+      "original_id": "RD-10B.R0R",
+      "rd_hist_1_locus": "Persistence",
+      "blind_coding_q1": "The classification of studies into a 5-level hierarchy based on what remained stable at each level.",
+      "blind_coding_q3_category": "Classification and Categorization",
+      "match": "Partial - RD-HIST.1 says 'Persistence', blind coding says 'Classification'",
+      "analysis": "The study classified studies by what persisted, but the operational change was classification itself. The 'persistence' framing is an interpretation; the operational work was categorization."
+    },
+    {
+      "study_number": 2,
+      "original_id": "RD-10B.J2",
+      "rd_hist_1_locus": "Persistence",
+      "blind_coding_q1": "The generation of multiple sequences and checking whether the same four features appear in all.",
+      "blind_coding_q3_category": "Generation and Testing",
+      "match": "Partial - RD-HIST.1 says 'Persistence', blind coding says 'Generation and Testing'",
+      "analysis": "The study tested whether features persisted across sequences, but the operational change was generating sequences and testing. The 'persistence' framing is an interpretation; the operational work was generation and testing."
+    },
+    {
+      "study_number": 3,
+      "original_id": "RD-10B.M5",
+      "rd_hist_1_locus": "Persistence",
+      "blind_coding_q1": "The classification of audits by whether collapse occurred, whether tension was maintained, and explanatory gain.",
+      "blind_coding_q3_category": "Classification and Categorization",
+      "match": "Partial - RD-HIST.1 says 'Persistence', blind coding says 'Classification'",
+      "analysis": "The study classified audits by whether descriptions collapsed or persisted, but the operational change was classification. The 'persistence' framing is an interpretation; the operational work was categorization."
+    },
+    {
+      "study_number": 4,
+      "original_id": "RD-10B.M6b",
+      "rd_hist_1_locus": "Comparison",
+      "blind_coding_q1": "The classification of comparisons as viewpoint or claim type and measurement of collapse rates.",
+      "blind_coding_q3_category": "Classification and Categorization",
+      "match": "Partial - RD-HIST.1 says 'Comparison', blind coding says 'Classification'",
+      "analysis": "The study classified comparisons by type, but the operational change was classification. The 'comparison' framing is an interpretation; the operational work was categorization."
+    },
+    {
+      "study_number": 5,
+      "original_id": "RD-10B.0",
+      "rd_hist_1_locus": "Comparison",
+      "blind_coding_q1": "The generation of one world, representation in multiple ways, and application of the same detectors.",
+      "blind_coding_q3_category": "Comparison and Reinterpretation",
+      "match": "Yes - both RD-HIST.1 and blind coding identify comparison as central",
+      "analysis": "The study compared multiple representations of the same world. Both RD-HIST.1 and blind coding agree that comparison is the key operational change."
+    },
+    {
+      "study_number": 6,
+      "original_id": "RD-10B.J4",
+      "rd_hist_1_locus": "Relation",
+      "blind_coding_q1": "The removal of each junction and checking whether the others remain meaningful.",
+      "blind_coding_q3_category": "Removal and Degradation Testing",
+      "match": "Partial - RD-HIST.1 says 'Relation', blind coding says 'Removal and Degradation'",
+      "analysis": "The study tested dependency relations by removing components, but the operational change was removal and testing. The 'relation' framing is an interpretation; the operational work was removal and degradation testing."
+    },
+    {
+      "study_number": 7,
+      "original_id": "RD-5",
+      "rd_hist_1_locus": "Relation",
+      "blind_coding_q1": "The systematic variation of removal fraction and measurement of recovery metrics.",
+      "blind_coding_q3_category": "Variation and Measurement",
+      "match": "Partial - RD-HIST.1 says 'Relation', blind coding says 'Variation and Measurement'",
+      "analysis": "The study measured relations between removal and recovery, but the operational change was variation and measurement. The 'relation' framing is an interpretation; the operational work was variation and measurement."
+    },
+    {
+      "study_number": 8,
+      "original_id": "RD-019",
+      "rd_hist_1_locus": "Other (falsification)",
+      "blind_coding_q1": "The variation of box width and measurement of packing structure and outcome variable.",
+      "blind_coding_q3_category": "Variation and Measurement",
+      "match": "Partial - RD-HIST.1 says 'Falsification', blind coding says 'Variation and Measurement'",
+      "analysis": "The study falsified a hypothesis by varying box width and measuring outcomes, but the operational change was variation and measurement. The 'falsification' framing is an interpretation; the operational work was variation and measurement."
+    },
+    {
+      "study_number": 9,
+      "original_id": "RD-10B.J6",
+      "rd_hist_1_locus": "Other (falsification)",
+      "blind_coding_q1": "The expression of each junction as an operator and checking whether they can be composed from each other.",
+      "blind_coding_q3_category": "Comparison and Reinterpretation",
+      "match": "Partial - RD-HIST.1 says 'Falsification', blind coding says 'Comparison'",
+      "analysis": "The study falsified a hypothesis by comparing operators and testing composition, but the operational change was comparison and reinterpretation. The 'falsification' framing is an interpretation; the operational work was comparison."
+    },
+    {
+      "study_number": 10,
+      "original_id": "RD-10B.R1",
+      "rd_hist_1_locus": "Interaction",
+      "blind_coding_q1": "The re-reading of the study sequence using an interaction lens and recording whether gain appeared before or after interaction.",
+      "blind_coding_q3_category": "Comparison and Reinterpretation",
+      "match": "Partial - RD-HIST.1 says 'Interaction', blind coding says 'Comparison'",
+      "analysis": "The study reinterpreted the sequence through an interaction lens, but the operational change was comparison and reinterpretation. The 'interaction' framing is an interpretation; the operational work was comparison."
+    }
+  ],
+  "summary": {
+    "total_coded_studies": 10,
+    "exact_matches": 1,
+    "partial_matches": 9,
+    "mismatches": 0,
+    "agreement_rate": 0.10,
+    "most_common_mismatch": "RD-HIST.1 says 'Persistence' but blind coding says 'Classification' (3 studies)",
+    "key_finding": "RD-HIST.1's locus assignments are heavily interpretation-laden. The operational work in most studies is classification, variation and measurement, or comparison - not persistence, interaction, or relation. The only exact match is Study 5 (RD-10B.0), where both RD-HIST.1 and blind coding agree that comparison is central."
+  }
+}

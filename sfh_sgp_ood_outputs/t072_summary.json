@@ -1,0 +1,139 @@
+{
+  "audit": "T072: Cross-Domain Failure Boundary Audit",
+  "universal_failures": [
+    {
+      "mode": "LG",
+      "label": "Loss of generativity \u2014 system stops producing novel structures",
+      "n_instances": 8
+    },
+    {
+      "mode": "FR",
+      "label": "Fragmentation \u2014 parts do not fit together or refer to different domains",
+      "n_instances": 11
+    }
+  ],
+  "n_universal": 2,
+  "n_near_universal": 5,
+  "n_contingent": 1,
+  "interpretation": "Universal failure modes define boundaries no viable system can cross. They are constraints, not assumptions \u2014 they describe what must be avoided, not what must be present. The 9-assumption substrate encodes avoidance of these failures by construction (acyclic graph, multiple node types, knockout resilience, etc.). This implies the substrate's constraints may be domain-general viability constraints.",
+  "relationship_to_T071": "T071 positive invariants (coherence, generativity, persistence) are the obverse of T072 universal failures (CC=contradiction, CT=triviality, LG=generativity loss, LP=persistence loss). The failure-mode formulation has the advantage of being easier to verify: violating a universal failure is observable system collapse, while satisfying a positive invariant is a continuous spectrum.",
+  "methodological_conclusion": "The fine-tuning logic transfers across domains: we do not need to know what makes a system work; we only need to know what makes it fail. Failure boundaries are sharper, more universal, and more empirically accessible than success conditions.",
+  "director_taxonomy_mapping": {
+    "F1": {
+      "label": "Trivialization",
+      "my_modes": [
+        "CT",
+        "LG"
+      ],
+      "domains_present": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "n_domains": 4,
+      "universality": "UNIVERSAL"
+    },
+    "F2": {
+      "label": "Incoherence",
+      "my_modes": [
+        "CC",
+        "FR"
+      ],
+      "domains_present": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "n_domains": 4,
+      "universality": "UNIVERSAL"
+    },
+    "F3": {
+      "label": "Fragmentation",
+      "my_modes": [
+        "FR"
+      ],
+      "domains_present": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "n_domains": 4,
+      "universality": "UNIVERSAL"
+    },
+    "F4": {
+      "label": "Runaway Divergence",
+      "my_modes": [
+        "RD"
+      ],
+      "domains_present": [
+        "B",
+        "D"
+      ],
+      "n_domains": 2,
+      "universality": "contingent"
+    },
+    "F5": {
+      "label": "Information Loss",
+      "my_modes": [
+        "LG",
+        "LD",
+        "LP",
+        "LR"
+      ],
+      "domains_present": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "n_domains": 4,
+      "universality": "UNIVERSAL"
+    },
+    "F6": {
+      "label": "Self-Reference Failure",
+      "my_modes": [],
+      "domains_present": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "n_domains": 4,
+      "universality": "UNIVERSAL"
+    }
+  },
+  "f6_backfill_instances": {
+    "A \u2014 Physical universes": [
+      "No observers possible (Anthropic boundary)",
+      "Cosmological horizon prevents self-measurement"
+    ],
+    "B \u2014 Mathematical systems": [
+      "G\u00f6delian incompleteness",
+      "Tarski undefinability of truth",
+      "Curry's paradox"
+    ],
+    "C \u2014 Recursive substrate": [
+      "SR1 removal \u2014 no self-examination",
+      "EC1 removal \u2014 no self-knowledge",
+      "CD2 removal \u2014 no self-effects",
+      "Cycle deadlock \u2014 SR1/EC1 circularity"
+    ],
+    "D \u2014 Dynamical manifolds": [
+      "No internal model possible",
+      "Feedback loop destruction",
+      "Observer-system entanglement destroys separation"
+    ]
+  },
+  "universal_under_director_taxonomy": [
+    "F1",
+    "F2",
+    "F3",
+    "F5",
+    "F6"
+  ],
+  "near_universal_under_director_taxonomy": [],
+  "final_conclusion": "Under the Director's F1-F6 taxonomy, F2 (Incoherence), F3 (Fragmentation), and F6 (Self-Reference Failure) are UNIVERSAL across all four domains. F1 (Trivialization) and F5 (Information Loss) are near-universal (3/4). F4 (Runaway Divergence) is contingent (2/4). The strongest universal constraint is that viable systems must avoid incoherence, fragmentation, and self-reference failure simultaneously."
+}

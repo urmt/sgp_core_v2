@@ -1,0 +1,6 @@
+{
+  "phase": "P5",
+  "trans_stabilization_rate": 0.6833333333333333,
+  "transitional_locking_rate": 0.01,
+  "stayed_in_transition_rate": 0.56
+}

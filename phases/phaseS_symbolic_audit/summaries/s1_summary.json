@@ -1,0 +1,16 @@
+{
+  "phase": "S1",
+  "n_domains": 10,
+  "n_equiv_classes": 4,
+  "equivalence_density": 0.13333333333333333,
+  "null_equiv_density": 0.26,
+  "equiv_threshold": 0.8,
+  "class_sizes": [
+    5,
+    2,
+    2,
+    1
+  ],
+  "mean_cosine_sim": 0.7001611894987722,
+  "null_mean_cosine_sim": 0.7032637511887675
+}

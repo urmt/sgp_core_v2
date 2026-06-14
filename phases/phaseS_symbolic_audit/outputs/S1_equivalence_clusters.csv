@@ -1,0 +1,5 @@
+class,members,size,mean_cosine_within
+class_0,"branching,coupled_map_lattice,gray_scott,kuramoto,population",5,0.8107757624977789
+class_1,"cellular_automata,lotka_volterra",2,0.8316355870757881
+class_2,"graph_diffusion,nonlinear_oscillator",2,0.8819360961378518
+class_3,replicator,1,1.0

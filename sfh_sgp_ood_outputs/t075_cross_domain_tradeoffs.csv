@@ -1,0 +1,5 @@
+domain,n_viable,n_fertile,n_merely_viable,mean_stability,mean_fertility,fertile_mean_stability,merely_viable_mean_stability,correlation_r
+A — Physical universes,3,3,0,0.75,0.85,0.75,0,-0.866
+B — Mathematical systems,7,4,3,0.87,0.52,0.8,0.96,-0.994
+C — Recursive substrate,4,2,2,0.81,0.61,0.82,0.79,0.818
+D — Dynamical manifolds,6,3,3,0.73,0.5,0.76,0.7,0.372

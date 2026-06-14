@@ -1,0 +1,37 @@
+{
+  "audit": "RD-HIST.2B",
+  "analysis": "Compression Stability",
+  "description": "Does compression ratio hold across clusterings?",
+  "compression_ratios": {
+    "c1": {
+      "ocr": 4.0,
+      "category_count": 5,
+      "total_studies": 20
+    },
+    "c2": {
+      "ocr": 4.0,
+      "category_count": 6,
+      "total_studies": 20
+    },
+    "c3": {
+      "ocr": 4.0,
+      "category_count": 6,
+      "total_studies": 20
+    }
+  },
+  "compression_stability": {
+    "ocr_spread": 0.0,
+    "ocr_mean": 4.0,
+    "ocr_cv_percent": 0.0,
+    "interpretation": "Stable"
+  },
+  "category_size_variance": {
+    "c1": 0.4,
+    "c2": 0.4,
+    "c3": 0.4,
+    "spread": 0.0,
+    "mean": 0.4,
+    "cv_percent": 0.0,
+    "interpretation": "Balanced"
+  }
+}

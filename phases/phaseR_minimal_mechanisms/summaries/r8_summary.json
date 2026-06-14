@@ -1,0 +1,12 @@
+{
+  "phase": "R8",
+  "taxonomy": {
+    "phase_coupling": "ESSENTIAL",
+    "closure_dynamics": "DECORATIVE",
+    "cross_coupling": "EPIPHENOMENAL",
+    "reconstruction": "EPIPHENOMENAL",
+    "topology": "SUPPORTING",
+    "temporal_order": "EPIPHENOMENAL",
+    "freq_alignment": "EPIPHENOMENAL"
+  }
+}

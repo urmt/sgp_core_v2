@@ -1,0 +1,34 @@
+{
+  "n_universes": 1000,
+  "distinction_emerged": 995,
+  "persistence_emerged": 0,
+  "relation_emerged": 948,
+  "closure_emerged": 40,
+  "selfref_emerged": 996,
+  "distinction_possible": true,
+  "essential_assumptions": [],
+  "candidate_laws": [
+    {
+      "property": "distinction",
+      "emergence_rate": 0.995,
+      "mean_depth": 5.778894472361809,
+      "std_depth": 2.1964295116203334,
+      "n_universes": 995
+    },
+    {
+      "property": "relation",
+      "emergence_rate": 0.948,
+      "mean_depth": 10.629441624365482,
+      "std_depth": 7.3094673158670025,
+      "n_universes": 197
+    },
+    {
+      "property": "closure",
+      "emergence_rate": 0.04,
+      "mean_depth": 5.1,
+      "std_depth": 5.8212695769204394,
+      "n_universes": 40
+    }
+  ],
+  "minimum_substrate": "\u03a9 + continuous state + recursion"
+}

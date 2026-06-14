@@ -1,0 +1,41 @@
+{
+  "phase": "H2",
+  "title": "Process-Level Organizational Causality",
+  "core_hypothesis": "Do there exist process-level organizational geometries that preserve coherence, preserve generativity, sustain recoverable transitions, and recursively maintain themselves across perturbation?",
+  "anti_drift_rules_applied": [
+    "Transitions are primary organizational objects",
+    "Coherence + fertility are organizing principles, not descriptors",
+    "Process geometry, not state geometry",
+    "No generic DS terminology without organizational anchoring",
+    "No descriptor-causality shortcuts",
+    "Organizational becoming, not organizational states"
+  ],
+  "scripts": [
+    "scripts/H2_01_02_parameter_boundaries_geometry.py",
+    "scripts/H2_03_04_persistence_recovery.py",
+    "scripts/H2_05_06_transfer_nulls.py",
+    "scripts/H2_07_synthesis.py"
+  ],
+  "outputs": [
+    "outputs/transition_boundary_metrics.csv",
+    "outputs/transition_geometry.csv",
+    "outputs/persistence_metrics.csv",
+    "outputs/recovery_metrics.csv",
+    "outputs/transfer_results.csv",
+    "outputs/null_results.csv",
+    "summaries/executive_summary.csv",
+    "summaries/technical_summary.json",
+    "summaries/anchored_summary.md"
+  ],
+  "null_survival": {
+    "n1_shuffled_regimes": {
+      "z": 188.8,
+      "survived": true
+    },
+    "n2_shuffled_org_space": {
+      "z": -55.9,
+      "survived": true
+    }
+  },
+  "verdict": true
+}

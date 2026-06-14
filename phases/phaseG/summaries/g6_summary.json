@@ -1,0 +1,27 @@
+{
+  "phase": "G6",
+  "seed": 3000,
+  "constrained_generative_families": [
+    "nonlinear_oscillator",
+    "kuramoto",
+    "gray_scott",
+    "branching",
+    "population",
+    "coupled_map_lattice"
+  ],
+  "rigid_families": [
+    "coupled_map_lattice",
+    "population",
+    "replicator"
+  ],
+  "chaotic_families": [
+    "branching",
+    "kuramoto",
+    "lotka_volterra"
+  ],
+  "collapse_families": [
+    "cellular_automata",
+    "graph_diffusion"
+  ],
+  "runtime_seconds": 0
+}

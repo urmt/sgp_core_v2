@@ -1,0 +1,9 @@
+{
+  "phase": "G7",
+  "seed": 3000,
+  "n_high_density_points": 500,
+  "n_meta_stable_regimes": 23,
+  "n_near_balance_systems": 224,
+  "moderate_balance_count": 371,
+  "runtime_seconds": 0
+}

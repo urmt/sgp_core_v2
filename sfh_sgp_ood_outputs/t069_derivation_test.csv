@@ -1,0 +1,7 @@
+test,result,detail
+Strong emergence (IS1a => IS1b),FAIL,Continuous change is coherent without discrete stages
+Mediated emergence (IS1a + substrate => IS1b),INCONCLUSIVE,Depends on output-activity link and SR1 stage requirement
+Non-emergence (IS1b independent),POSSIBLE,If output ≠ activity OR SR1 requires temporal stages
+Structural collapse test (remove IS1b),True,9-assumption substrate viable
+Path C_no_IS1B generative,True,
+Path C_no_IS1B roots,OC2,

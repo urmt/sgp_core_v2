@@ -1,0 +1,8 @@
+{
+  "phase": "G3",
+  "seed": 3000,
+  "n_transition_records": 50,
+  "total_transitions": 9309,
+  "avg_transition_rate": 0.37235999999999997,
+  "runtime_seconds": 9
+}

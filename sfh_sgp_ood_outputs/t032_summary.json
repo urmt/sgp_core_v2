@@ -1,0 +1,30 @@
+{
+  "n_systems": 211,
+  "n_targets": 5,
+  "targets": [
+    "spectral_entropy",
+    "mean_curvature",
+    "recurrence_rate",
+    "laminarity",
+    "divergence_rate"
+  ],
+  "manifold_dimensions": 4,
+  "benchmarks": [
+    "random",
+    "family_labels",
+    "features_linear",
+    "features_knn",
+    "manifold_linear",
+    "manifold_knn",
+    "surrogate_manifold"
+  ],
+  "permutation_test": "manifold_knn vs shuffled y, 500 permutations",
+  "bootstrap": "200 iterations",
+  "targets_significant": 5,
+  "targets_total": 5,
+  "mean_manifold_knn_r2": 0.6760343996753382,
+  "mean_surrogate_r2": -0.004407668405961491,
+  "mean_features_knn_r2": 0.6578598099895082,
+  "success_criterion": "manifold predicts targets beyond family labels and covariance structure",
+  "success_met": true
+}

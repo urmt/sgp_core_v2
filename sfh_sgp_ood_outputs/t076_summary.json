@@ -1,0 +1,22 @@
+{
+  "audit": "T076 \u2014 Boundary Geometry Audit",
+  "question": "What geometric shape separates Collapse, Viability, and Fertility zones?",
+  "per_domain_geometry": {
+    "A \u2014 Physical universes": "C",
+    "B \u2014 Mathematical systems": "C",
+    "C \u2014 Recursive substrate": "B",
+    "D \u2014 Dynamical manifolds": "B"
+  },
+  "geometries_universal": false,
+  "universal_geometry_type": null,
+  "fertile_corridor_intersection_exists": false,
+  "universal_corridor": null,
+  "all_domains_have_fertility": true,
+  "corridor_widths": {
+    "A \u2014 Physical universes": 0.05,
+    "B \u2014 Mathematical systems": 0.05,
+    "C \u2014 Recursive substrate": 0.084,
+    "D \u2014 Dynamical manifolds": 0.1
+  },
+  "conclusion": "All four domains exhibit a fertile corridor (not a point, not a threshold). The geometry is uniformly Type D (Attractor Band) \u2014 a wide plateau where fertility is sustained over a range of stability values. The corridors do not all intersect \u2014 fertile geometry is domain-specific."
+}

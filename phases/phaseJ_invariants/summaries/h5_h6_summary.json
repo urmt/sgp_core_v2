@@ -1,0 +1,16 @@
+{
+  "phase": "J5+J6",
+  "symmetry": {
+    "mean_composition_symmetry": 1.0,
+    "n_asymmetric_pairs": 0,
+    "geometry_cg_correlation": 0.5446428088463137,
+    "symmetry_cg_correlation": NaN
+  },
+  "nulls": {
+    "n_iterations": 30,
+    "true_cg_invariance": 0.6496662420382165,
+    "shuffled_labels_z": 2.489915849550349,
+    "shuffled_properties_z": -0.5209964186625581,
+    "shuffled_pairs_z": -0.5652186082216211
+  }
+}

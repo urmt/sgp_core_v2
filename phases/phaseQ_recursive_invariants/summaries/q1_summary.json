@@ -1,0 +1,18 @@
+{
+  "phase": "Q1",
+  "n_candidates": 12,
+  "candidates": [
+    "synchronization_value",
+    "closure_correlation",
+    "shared_closure_value",
+    "shared_cross_corr",
+    "closure_convergence_value",
+    "persistence_gain",
+    "buffering",
+    "individual_transition_survival",
+    "shared_transition_survival",
+    "closure_recovery_under_transition",
+    "reconstruction_probability",
+    "reconstruction_fidelity"
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "section_a_flow_only_geometry": {
+    "flow_stats": {
+      "mean": 3.0779310423389563,
+      "std": 2.900129962609523,
+      "min": 0.0,
+      "max": 8.96905888019484
+    },
+    "flow_r2_vs_phi": 0.8838532726890328,
+    "high_flow_systems": [
+      "lorenz",
+      "ising_magnetization",
+      "reaction_diffusion"
+    ],
+    "bridge_distances": {
+      "primes": 4.033759370144546,
+      "fibonacci": 3.5494312165224846,
+      "modular_arithmetic": 3.844951967463332,
+      "additive_recurrence": 2.7907521261163395,
+      "lorenz": 2.005623829986409,
+      "logistic_map": 2.9646769380199296,
+      "henon_map": 3.090003797849154,
+      "ising_magnetization": 1.3656268733725505,
+      "reaction_diffusion": 2.159502565705036,
+      "cfg_expansion": 3.884117896163875,
+      "lambda_reduction": 3.994541763324039,
+      "rewrite_system": 3.5604832559562496,
+      "iid_gaussian": 3.204498722358498,
+      "colored_noise": 2.544594033931788
+    }
+  },
+  "section_b_flow_invariant": {
+    "flow_collapse_r": -0.7784072554161842,
+    "flow_collapse_p": 0.0010403011848783199,
+    "flow_vs_best_axis": {
+      "flow_r": -0.7784072554161842,
+      "best_axis": "flow",
+      "best_r": -0.7784072554161842
+    },
+    "combined_field_flow_density_r": -0.6215030480362111,
+    "combined_field_flow_curvature_r": -0.7955580296702479,
+    "cluster_model_r2": -0.3827117853778884,
+    "flow_only_r2": -0.25727155764551435,
+    "rf_phi_r2": 0.13442891874422946,
+    "single_predictors": {
+      "flow": {
+        "r2": -0.25727155764551435,
+        "r": -0.7784072554161842,
+        "p": 0.0010403011848783199
+      },
+      "curvature": {
+        "r2": -1.7853729681165666,
+        "r": -0.5621393894233071,
+        "p": 0.03641071905345094
+      },
+      "density": {
+        "r2": -0.2725467600068103,
+        "r": 0.7641777661455988,
+        "p": 0.0014615192086226748
+      },
+      "C": {
+        "r2": -0.09949095970984419,
+        "r": 0.6728616628511288,
+        "p": 0.00836251566186036
+      },
+      "F": {
+        "r2": -0.37837988169663256,
+        "r": -0.5081197285620295,
+        "p": 0.06357886619760236
+      },
+      "A": {
+        "r2": -2.186191136013583,
+        "r": -0.48009059087557254,
+        "p": 0.08231188551010062
+      },
+      "R": {
+        "r2": 0.21484712547709678,
+        "r": 0.7547642268048103,
+        "p": 0.0018077527311835399
+      }
+    }
+  },
+  "section_c_local_transition": {
+    "flow_by_system": {
+      "primes": 1.4956841008690396,
+      "fibonacci": 1.8080956179246577,
+      "modular_arithmetic": 3.503977108343641,
+      "additive_recurrence": 2.1075060762632374,
+      "lorenz": 8.96905888019484,
+      "logistic_map": 0.0,
+      "henon_map": 2.7450246526183912,
+      "ising_magnetization": 7.931815828333654,
+      "reaction_diffusion": 8.302310289825469,
+      "cfg_expansion": 1.038301297600371,
+      "lambda_reduction": 1.2468535727562655,
+      "rewrite_system": 1.9031981897130084,
+      "iid_gaussian": 1.0392089783028116,
+      "colored_noise": 1.0
+    },
+    "anisotropy": {
+      "primes": 490894645276.37994,
+      "fibonacci": 490894645276.3798,
+      "modular_arithmetic": 603890895926.3217,
+      "additive_recurrence": 616128139570.1116,
+      "lorenz": 2047525239648.8523,
+      "logistic_map": 729475394202.745,
+      "henon_map": 602832405690.3516,
+      "ising_magnetization": 5030335584862.827,
+      "reaction_diffusion": 1911171716657.5935,
+      "cfg_expansion": 529588882695.0688,
+      "lambda_reduction": 529266152306.66144,
+      "rewrite_system": 495607323854.7925,
+      "iid_gaussian": 1672223164163.7522,
+      "colored_noise": 1588595935623.355
+    },
+    "drift": {
+      "primes": 1.209417020574524,
+      "fibonacci": 1.214043330818984,
+      "modular_arithmetic": 1.2202019069468875,
+      "additive_recurrence": 1.2310526537071378,
+      "lorenz": 1.2820537328979427,
+      "logistic_map": 1.1831653518957774,
+      "henon_map": 1.2002779462941742,
+      "ising_magnetization": 1.2149994932717048,
+      "reaction_diffusion": 1.2424803400331914,
+      "cfg_expansion": 1.2267560436843148,
+      "lambda_reduction": 1.2134704834664622,
+      "rewrite_system": 1.239465267535125,
+      "iid_gaussian": 1.2007637020972806,
+      "colored_noise": 1.2072951883397942
+    },
+    "transition_probability": {
+      "primes": 0.25,
+      "fibonacci": 0.25,
+      "modular_arithmetic": 1.0,
+      "additive_recurrence": 0.75,
+      "lorenz": 0.5,
+      "logistic_map": 1.0,
+      "henon_map": 0.75,
+      "ising_magnetization": 0.75,
+      "reaction_diffusion": 0.75,
+      "cfg_expansion": 0.25,
+      "lambda_reduction": 0.25,
+      "rewrite_system": 0.25,
+      "iid_gaussian": 0.75,
+      "colored_noise": 0.25
+    },
+    "trans_prob_flow_corr": {
+      "r": 0.24536999859568762,
+      "p": 0.39781360726746856
+    }
+  },
+  "section_d_dimensional_stability": {
+    "PCA": {
+      "flow_r": 0.7506821851043148,
+      "flow_p": 0.0019767656863409777,
+      "bridge_nn_frac": 0.4444444444444444,
+      "distortion": 0.9691612534115773
+    },
+    "SpectralEmbedding": {
+      "flow_r": -0.1518463615825772,
+      "flow_p": 0.6043135170661446,
+      "bridge_nn_frac": 0.0,
+      "distortion": 0.46859150457830995
+    },
+    "Isomap": {
+      "flow_r": 0.8837274104380842,
+      "flow_p": 2.764466501162478e-05,
+      "bridge_nn_frac": 0.3333333333333333,
+      "distortion": 0.9401050139914425
+    },
+    "LLE": {
+      "flow_r": 0.6047136924297588,
+      "flow_p": 0.021968300115745187,
+      "bridge_nn_frac": 0.2222222222222222,
+      "distortion": 0.6656663817686638
+    },
+    "MDS": {
+      "flow_r": 0.8305514315452882,
+      "flow_p": 0.00023473011187028682,
+      "bridge_nn_frac": 0.3333333333333333,
+      "distortion": 0.9879300939316549
+    },
+    "tsne_multirun": {
+      "mean_r": 0.02541081125395887,
+      "std_r": 0.0
+    }
+  },
+  "section_e_topological": {
+    "persistence_b0": [
+      [
+        0.0,
+        0.03748787229950503
+      ],
+      [
+        0.0,
+        0.17503214495011324
+      ],
+      [
+        0.0,
+        0.4534332517122323
+      ],
+      [
+        0.0,
+        0.49466435911738976
+      ],
+      [
+        0.0,
+        0.5815563919123942
+      ],
+      [
+        0.0,
+        0.6177661618582834
+      ],
+      [
+        0.0,
+        0.6498962551089497
+      ],
+      [
+        0.0,
+        0.7875372546086989
+      ],
+      [
+        0.0,
+        1.1034422728266458
+      ],
+      [
+        0.0,
+        1.5101834059340558
+      ],
+      [
+        0.0,
+        1.697257270990541
+      ],
+      [
+        0.0,
+        2.6266828307543024
+      ],
+      [
+        0.0,
+        2.666735097096569
+      ],
+      [
+        0.0,
+        null
+      ]
+    ],
+    "n_cycles": 64,
+    "local_maxima": [
+      "modular_arithmetic",
+      "lorenz",
+      "henon_map",
+      "reaction_diffusion"
+    ],
+    "local_minima": [
+      "logistic_map",
+      "cfg_expansion"
+    ],
+    "mst_bottlenecks": [
+      {
+        "edge": [
+          "lorenz",
+          "ising_magnetization"
+        ],
+        "distance": 2.666735097096569
+      },
+      {
+        "edge": [
+          "henon_map",
+          "reaction_diffusion"
+        ],
+        "distance": 2.6266828307543024
+      },
+      {
+        "edge": [
+          "ising_magnetization",
+          "colored_noise"
+        ],
+        "distance": 1.697257270990541
+      },
+      {
+        "edge": [
+          "lambda_reduction",
+          "iid_gaussian"
+        ],
+        "distance": 1.5101834059340558
+      }
+    ]
+  },
+  "section_f_destroy_system_set": {
+    "removal": [
+      {
+        "frac_removed": 0.25,
+        "n_remove": 3,
+        "n_trials": 50,
+        "flow_corr_mean": 0.41611023258112956,
+        "flow_corr_std": 0.19446940983570107,
+        "bridge_preserved_frac": 0.6733333333333333
+      },
+      {
+        "frac_removed": 0.5,
+        "n_remove": 7,
+        "n_trials": 50,
+        "flow_corr_mean": 0.4118138740731733,
+        "flow_corr_std": 0.2920494803470577,
+        "bridge_preserved_frac": 0.865079365079365
+      }
+    ],
+    "adversarial_low_flow_removal": 0.3694888340321029,
+    "adversarial_high_flow_removal": 0.0664510474031843
+  },
+  "final_verdict": {
+    "criteria": {
+      "C1: Flow\u2192collapse prediction (p<0.05)": {
+        "passed": true,
+        "evidence": "r=-0.778, p=0.00104"
+      },
+      "C1a: Flow beats cluster model (R\u00b2)": {
+        "passed": true,
+        "evidence": "flow_r\u00b2=-0.257 vs cluster_r\u00b2=-0.383"
+      },
+      "C2: Bridge survives all embeddings": {
+        "passed": false,
+        "evidence": "flow_r=['0.751', '-0.152', '0.884', '0.605', '0.831']"
+      },
+      "C3: Flow survives system removal": {
+        "passed": false,
+        "evidence": "removal_corr=['0.416', '0.412']"
+      },
+      "C4: Topological corridors exist": {
+        "passed": true,
+        "evidence": "n_cycles=64"
+      }
+    },
+    "n_passed": 3,
+    "n_total": 5,
+    "is_fundamental": false,
+    "is_valid": true
+  }
+}

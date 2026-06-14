@@ -1,0 +1,2502 @@
+[
+  {
+    "noise": 0.0,
+    "rep": 0,
+    "C": 0.4646,
+    "fertility": 0.1026,
+    "jitter": 15.3281,
+    "persistence": 100.0,
+    "adaptability": 0.1579,
+    "phase_sync": -0.0165
+  },
+  {
+    "noise": 0.0,
+    "rep": 1,
+    "C": 0.4863,
+    "fertility": 0.0769,
+    "jitter": 14.8815,
+    "persistence": 225.0,
+    "adaptability": 0.1316,
+    "phase_sync": -0.0143
+  },
+  {
+    "noise": 0.0,
+    "rep": 2,
+    "C": 0.4591,
+    "fertility": 0.0769,
+    "jitter": 13.6374,
+    "persistence": 50.0,
+    "adaptability": 0.2895,
+    "phase_sync": -0.0094
+  },
+  {
+    "noise": 0.0,
+    "rep": 3,
+    "C": 0.4863,
+    "fertility": 0.1282,
+    "jitter": 12.1515,
+    "persistence": 50.0,
+    "adaptability": 0.1842,
+    "phase_sync": -0.0118
+  },
+  {
+    "noise": 0.0,
+    "rep": 4,
+    "C": 0.4558,
+    "fertility": 0.0769,
+    "jitter": 13.1552,
+    "persistence": 100.0,
+    "adaptability": 0.2895,
+    "phase_sync": -0.017
+  },
+  {
+    "noise": 0.0,
+    "rep": 5,
+    "C": 0.4526,
+    "fertility": 0.0256,
+    "jitter": 14.8849,
+    "persistence": 100.0,
+    "adaptability": 0.1842,
+    "phase_sync": -0.017
+  },
+  {
+    "noise": 0.0,
+    "rep": 6,
+    "C": 0.4592,
+    "fertility": 0.0513,
+    "jitter": 13.6392,
+    "persistence": 75.0,
+    "adaptability": 0.0789,
+    "phase_sync": -0.0164
+  },
+  {
+    "noise": 0.0,
+    "rep": 7,
+    "C": 0.4161,
+    "fertility": 0.0513,
+    "jitter": 14.1244,
+    "persistence": 200.0,
+    "adaptability": 0.1842,
+    "phase_sync": -0.0105
+  },
+  {
+    "noise": 0.0,
+    "rep": 8,
+    "C": 0.4401,
+    "fertility": 0.0513,
+    "jitter": 14.1999,
+    "persistence": 175.0,
+    "adaptability": 0.1316,
+    "phase_sync": -0.0155
+  },
+  {
+    "noise": 0.0,
+    "rep": 9,
+    "C": 0.4381,
+    "fertility": 0.0769,
+    "jitter": 13.1891,
+    "persistence": 150.0,
+    "adaptability": 0.1842,
+    "phase_sync": 0.0019
+  },
+  {
+    "noise": 0.0833,
+    "rep": 0,
+    "C": 0.61,
+    "fertility": 0.1026,
+    "jitter": 25.2793,
+    "persistence": 75.0,
+    "adaptability": 0.1316,
+    "phase_sync": -0.0038
+  },
+  {
+    "noise": 0.0833,
+    "rep": 1,
+    "C": 0.5598,
+    "fertility": 0.0513,
+    "jitter": 19.2699,
+    "persistence": 75.0,
+    "adaptability": 0.0789,
+    "phase_sync": -0.0053
+  },
+  {
+    "noise": 0.0833,
+    "rep": 2,
+    "C": 0.5426,
+    "fertility": 0.1282,
+    "jitter": 17.7597,
+    "persistence": 100.0,
+    "adaptability": 0.0789,
+    "phase_sync": 0.0092
+  },
+  {
+    "noise": 0.0833,
+    "rep": 3,
+    "C": 0.5863,
+    "fertility": 0.0513,
+    "jitter": 20.7496,
+    "persistence": 75.0,
+    "adaptability": 0.1316,
+    "phase_sync": -0.0059
+  },
+  {
+    "noise": 0.0833,
+    "rep": 4,
+    "C": 0.5795,
+    "fertility": 0.1026,
+    "jitter": 22.6231,
+    "persistence": 125.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0015
+  },
+  {
+    "noise": 0.0833,
+    "rep": 5,
+    "C": 0.5912,
+    "fertility": 0.1026,
+    "jitter": 18.5182,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0089
+  },
+  {
+    "noise": 0.0833,
+    "rep": 6,
+    "C": 0.5745,
+    "fertility": 0.1282,
+    "jitter": 21.9708,
+    "persistence": 50.0,
+    "adaptability": 0.0789,
+    "phase_sync": -0.0082
+  },
+  {
+    "noise": 0.0833,
+    "rep": 7,
+    "C": 0.5866,
+    "fertility": 0.1026,
+    "jitter": 21.3847,
+    "persistence": 75.0,
+    "adaptability": 0.1316,
+    "phase_sync": -0.0118
+  },
+  {
+    "noise": 0.0833,
+    "rep": 8,
+    "C": 0.5797,
+    "fertility": 0.0513,
+    "jitter": 19.4621,
+    "persistence": 100.0,
+    "adaptability": 0.0789,
+    "phase_sync": 0.0056
+  },
+  {
+    "noise": 0.0833,
+    "rep": 9,
+    "C": 0.5312,
+    "fertility": 0.0769,
+    "jitter": 24.1619,
+    "persistence": 150.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0059
+  },
+  {
+    "noise": 0.1667,
+    "rep": 0,
+    "C": 0.5925,
+    "fertility": 0.1026,
+    "jitter": 62.8647,
+    "persistence": 50.0,
+    "adaptability": 0.1316,
+    "phase_sync": 0.013
+  },
+  {
+    "noise": 0.1667,
+    "rep": 1,
+    "C": 0.5756,
+    "fertility": 0.1538,
+    "jitter": 45.357,
+    "persistence": 50.0,
+    "adaptability": 0.0789,
+    "phase_sync": 0.0032
+  },
+  {
+    "noise": 0.1667,
+    "rep": 2,
+    "C": 0.5485,
+    "fertility": 0.1282,
+    "jitter": 58.0669,
+    "persistence": 100.0,
+    "adaptability": 0.1579,
+    "phase_sync": -0.0006
+  },
+  {
+    "noise": 0.1667,
+    "rep": 3,
+    "C": 0.5787,
+    "fertility": 0.1026,
+    "jitter": 90.1332,
+    "persistence": 50.0,
+    "adaptability": 0.1316,
+    "phase_sync": -0.0044
+  },
+  {
+    "noise": 0.1667,
+    "rep": 4,
+    "C": 0.5881,
+    "fertility": 0.0769,
+    "jitter": 60.4587,
+    "persistence": 100.0,
+    "adaptability": 0.1316,
+    "phase_sync": -0.0094
+  },
+  {
+    "noise": 0.1667,
+    "rep": 5,
+    "C": 0.5592,
+    "fertility": 0.1026,
+    "jitter": 44.5112,
+    "persistence": 75.0,
+    "adaptability": 0.0526,
+    "phase_sync": -0.0059
+  },
+  {
+    "noise": 0.1667,
+    "rep": 6,
+    "C": 0.5719,
+    "fertility": 0.0256,
+    "jitter": 56.7742,
+    "persistence": 50.0,
+    "adaptability": 0.0789,
+    "phase_sync": -0.0081
+  },
+  {
+    "noise": 0.1667,
+    "rep": 7,
+    "C": 0.5882,
+    "fertility": 0.1026,
+    "jitter": 55.8498,
+    "persistence": 50.0,
+    "adaptability": 0.1842,
+    "phase_sync": 0.0107
+  },
+  {
+    "noise": 0.1667,
+    "rep": 8,
+    "C": 0.5684,
+    "fertility": 0.0769,
+    "jitter": 39.3453,
+    "persistence": 50.0,
+    "adaptability": 0.0789,
+    "phase_sync": 0.0093
+  },
+  {
+    "noise": 0.1667,
+    "rep": 9,
+    "C": 0.5782,
+    "fertility": 0.0513,
+    "jitter": 86.8751,
+    "persistence": 75.0,
+    "adaptability": 0.0789,
+    "phase_sync": -0.009
+  },
+  {
+    "noise": 0.25,
+    "rep": 0,
+    "C": 0.5173,
+    "fertility": 0.1026,
+    "jitter": 172.6252,
+    "persistence": 75.0,
+    "adaptability": 0.0789,
+    "phase_sync": -0.0044
+  },
+  {
+    "noise": 0.25,
+    "rep": 1,
+    "C": 0.52,
+    "fertility": 0.0769,
+    "jitter": 124.3036,
+    "persistence": 50.0,
+    "adaptability": 0.1579,
+    "phase_sync": 0.0065
+  },
+  {
+    "noise": 0.25,
+    "rep": 2,
+    "C": 0.5489,
+    "fertility": 0.0769,
+    "jitter": 155.0168,
+    "persistence": 100.0,
+    "adaptability": 0.0789,
+    "phase_sync": 0.0006
+  },
+  {
+    "noise": 0.25,
+    "rep": 3,
+    "C": 0.5267,
+    "fertility": 0.1282,
+    "jitter": 211.6084,
+    "persistence": 50.0,
+    "adaptability": 0.1842,
+    "phase_sync": 0.003
+  },
+  {
+    "noise": 0.25,
+    "rep": 4,
+    "C": 0.5166,
+    "fertility": 0.1282,
+    "jitter": 116.0656,
+    "persistence": 50.0,
+    "adaptability": 0.1316,
+    "phase_sync": 0.0033
+  },
+  {
+    "noise": 0.25,
+    "rep": 5,
+    "C": 0.5401,
+    "fertility": 0.1282,
+    "jitter": 277.1829,
+    "persistence": 75.0,
+    "adaptability": 0.1842,
+    "phase_sync": -0.0038
+  },
+  {
+    "noise": 0.25,
+    "rep": 6,
+    "C": 0.5016,
+    "fertility": 0.1026,
+    "jitter": 99.0891,
+    "persistence": 50.0,
+    "adaptability": 0.2368,
+    "phase_sync": -0.0084
+  },
+  {
+    "noise": 0.25,
+    "rep": 7,
+    "C": 0.5104,
+    "fertility": 0.1026,
+    "jitter": 202.6938,
+    "persistence": 50.0,
+    "adaptability": 0.1842,
+    "phase_sync": -0.0029
+  },
+  {
+    "noise": 0.25,
+    "rep": 8,
+    "C": 0.5475,
+    "fertility": 0.0513,
+    "jitter": 102.7367,
+    "persistence": 50.0,
+    "adaptability": 0.2105,
+    "phase_sync": -0.0093
+  },
+  {
+    "noise": 0.25,
+    "rep": 9,
+    "C": 0.5308,
+    "fertility": 0.1026,
+    "jitter": 158.1242,
+    "persistence": 25.0,
+    "adaptability": 0.2368,
+    "phase_sync": 0.0195
+  },
+  {
+    "noise": 0.3333,
+    "rep": 0,
+    "C": 0.4663,
+    "fertility": 0.0769,
+    "jitter": 245.8227,
+    "persistence": 25.0,
+    "adaptability": 0.3158,
+    "phase_sync": -0.0056
+  },
+  {
+    "noise": 0.3333,
+    "rep": 1,
+    "C": 0.4872,
+    "fertility": 0.0513,
+    "jitter": 289.1259,
+    "persistence": 50.0,
+    "adaptability": 0.2368,
+    "phase_sync": 0.0033
+  },
+  {
+    "noise": 0.3333,
+    "rep": 2,
+    "C": 0.4761,
+    "fertility": 0.0769,
+    "jitter": 287.1783,
+    "persistence": 25.0,
+    "adaptability": 0.1579,
+    "phase_sync": -0.0021
+  },
+  {
+    "noise": 0.3333,
+    "rep": 3,
+    "C": 0.4604,
+    "fertility": 0.1282,
+    "jitter": 271.5898,
+    "persistence": 50.0,
+    "adaptability": 0.2368,
+    "phase_sync": 0.0011
+  },
+  {
+    "noise": 0.3333,
+    "rep": 4,
+    "C": 0.4907,
+    "fertility": 0.1026,
+    "jitter": 306.0583,
+    "persistence": 50.0,
+    "adaptability": 0.2895,
+    "phase_sync": -0.0023
+  },
+  {
+    "noise": 0.3333,
+    "rep": 5,
+    "C": 0.4752,
+    "fertility": 0.0769,
+    "jitter": 186.3178,
+    "persistence": 50.0,
+    "adaptability": 0.3158,
+    "phase_sync": -0.004
+  },
+  {
+    "noise": 0.3333,
+    "rep": 6,
+    "C": 0.4652,
+    "fertility": 0.1026,
+    "jitter": 315.64,
+    "persistence": 50.0,
+    "adaptability": 0.2632,
+    "phase_sync": -0.0
+  },
+  {
+    "noise": 0.3333,
+    "rep": 7,
+    "C": 0.439,
+    "fertility": 0.1538,
+    "jitter": 204.0609,
+    "persistence": 50.0,
+    "adaptability": 0.2105,
+    "phase_sync": -0.0006
+  },
+  {
+    "noise": 0.3333,
+    "rep": 8,
+    "C": 0.4929,
+    "fertility": 0.1282,
+    "jitter": 280.6712,
+    "persistence": 25.0,
+    "adaptability": 0.2368,
+    "phase_sync": 0.0026
+  },
+  {
+    "noise": 0.3333,
+    "rep": 9,
+    "C": 0.4815,
+    "fertility": 0.0769,
+    "jitter": 227.941,
+    "persistence": 50.0,
+    "adaptability": 0.3158,
+    "phase_sync": -0.0023
+  },
+  {
+    "noise": 0.4167,
+    "rep": 0,
+    "C": 0.4436,
+    "fertility": 0.1026,
+    "jitter": 697.729,
+    "persistence": 50.0,
+    "adaptability": 0.2632,
+    "phase_sync": -0.0017
+  },
+  {
+    "noise": 0.4167,
+    "rep": 1,
+    "C": 0.424,
+    "fertility": 0.1538,
+    "jitter": 472.3077,
+    "persistence": 50.0,
+    "adaptability": 0.3684,
+    "phase_sync": -0.0016
+  },
+  {
+    "noise": 0.4167,
+    "rep": 2,
+    "C": 0.4297,
+    "fertility": 0.1282,
+    "jitter": 340.5287,
+    "persistence": 50.0,
+    "adaptability": 0.2105,
+    "phase_sync": 0.0049
+  },
+  {
+    "noise": 0.4167,
+    "rep": 3,
+    "C": 0.4571,
+    "fertility": 0.1026,
+    "jitter": 1434.7439,
+    "persistence": 25.0,
+    "adaptability": 0.3421,
+    "phase_sync": 0.0041
+  },
+  {
+    "noise": 0.4167,
+    "rep": 4,
+    "C": 0.4471,
+    "fertility": 0.1026,
+    "jitter": 584.7082,
+    "persistence": 25.0,
+    "adaptability": 0.2632,
+    "phase_sync": 0.0018
+  },
+  {
+    "noise": 0.4167,
+    "rep": 5,
+    "C": 0.4318,
+    "fertility": 0.1026,
+    "jitter": 539.5369,
+    "persistence": 75.0,
+    "adaptability": 0.1579,
+    "phase_sync": 0.0044
+  },
+  {
+    "noise": 0.4167,
+    "rep": 6,
+    "C": 0.444,
+    "fertility": 0.0513,
+    "jitter": 786.6409,
+    "persistence": 25.0,
+    "adaptability": 0.3158,
+    "phase_sync": -0.0005
+  },
+  {
+    "noise": 0.4167,
+    "rep": 7,
+    "C": 0.4203,
+    "fertility": 0.1282,
+    "jitter": 462.4046,
+    "persistence": 25.0,
+    "adaptability": 0.3421,
+    "phase_sync": -0.0039
+  },
+  {
+    "noise": 0.4167,
+    "rep": 8,
+    "C": 0.4449,
+    "fertility": 0.0769,
+    "jitter": 906.9765,
+    "persistence": 25.0,
+    "adaptability": 0.3947,
+    "phase_sync": -0.0007
+  },
+  {
+    "noise": 0.4167,
+    "rep": 9,
+    "C": 0.4463,
+    "fertility": 0.1026,
+    "jitter": 414.1977,
+    "persistence": 50.0,
+    "adaptability": 0.1842,
+    "phase_sync": 0.0019
+  },
+  {
+    "noise": 0.5,
+    "rep": 0,
+    "C": 0.4138,
+    "fertility": 0.0513,
+    "jitter": 1188.6892,
+    "persistence": 50.0,
+    "adaptability": 0.2895,
+    "phase_sync": -0.0025
+  },
+  {
+    "noise": 0.5,
+    "rep": 1,
+    "C": 0.4108,
+    "fertility": 0.0513,
+    "jitter": 1027.7356,
+    "persistence": 25.0,
+    "adaptability": 0.4211,
+    "phase_sync": -0.0033
+  },
+  {
+    "noise": 0.5,
+    "rep": 2,
+    "C": 0.4203,
+    "fertility": 0.1026,
+    "jitter": 1859.4338,
+    "persistence": 50.0,
+    "adaptability": 0.2368,
+    "phase_sync": -0.0002
+  },
+  {
+    "noise": 0.5,
+    "rep": 3,
+    "C": 0.4,
+    "fertility": 0.1026,
+    "jitter": 990.709,
+    "persistence": 50.0,
+    "adaptability": 0.2632,
+    "phase_sync": 0.0074
+  },
+  {
+    "noise": 0.5,
+    "rep": 4,
+    "C": 0.4101,
+    "fertility": 0.1026,
+    "jitter": 6228.1374,
+    "persistence": 25.0,
+    "adaptability": 0.3947,
+    "phase_sync": -0.0046
+  },
+  {
+    "noise": 0.5,
+    "rep": 5,
+    "C": 0.3913,
+    "fertility": 0.1026,
+    "jitter": 1336.5429,
+    "persistence": 25.0,
+    "adaptability": 0.3158,
+    "phase_sync": 0.0017
+  },
+  {
+    "noise": 0.5,
+    "rep": 6,
+    "C": 0.4175,
+    "fertility": 0.0513,
+    "jitter": 1425.1703,
+    "persistence": 50.0,
+    "adaptability": 0.2895,
+    "phase_sync": -0.0004
+  },
+  {
+    "noise": 0.5,
+    "rep": 7,
+    "C": 0.4409,
+    "fertility": 0.0769,
+    "jitter": 1248.5527,
+    "persistence": 50.0,
+    "adaptability": 0.2895,
+    "phase_sync": -0.002
+  },
+  {
+    "noise": 0.5,
+    "rep": 8,
+    "C": 0.3958,
+    "fertility": 0.0769,
+    "jitter": 2955.2414,
+    "persistence": 100.0,
+    "adaptability": 0.2105,
+    "phase_sync": -0.0022
+  },
+  {
+    "noise": 0.5,
+    "rep": 9,
+    "C": 0.4052,
+    "fertility": 0.0513,
+    "jitter": 1091.7262,
+    "persistence": 50.0,
+    "adaptability": 0.3421,
+    "phase_sync": -0.0015
+  },
+  {
+    "noise": 0.5833,
+    "rep": 0,
+    "C": 0.4209,
+    "fertility": 0.1026,
+    "jitter": 3189.0005,
+    "persistence": 75.0,
+    "adaptability": 0.2368,
+    "phase_sync": 0.0011
+  },
+  {
+    "noise": 0.5833,
+    "rep": 1,
+    "C": 0.3856,
+    "fertility": 0.1026,
+    "jitter": 4551.9353,
+    "persistence": 25.0,
+    "adaptability": 0.3684,
+    "phase_sync": 0.0001
+  },
+  {
+    "noise": 0.5833,
+    "rep": 2,
+    "C": 0.378,
+    "fertility": 0.1282,
+    "jitter": 5480.9833,
+    "persistence": 50.0,
+    "adaptability": 0.2368,
+    "phase_sync": -0.0011
+  },
+  {
+    "noise": 0.5833,
+    "rep": 3,
+    "C": 0.3891,
+    "fertility": 0.1026,
+    "jitter": 2983.2114,
+    "persistence": 50.0,
+    "adaptability": 0.3158,
+    "phase_sync": 0.0017
+  },
+  {
+    "noise": 0.5833,
+    "rep": 4,
+    "C": 0.3798,
+    "fertility": 0.1026,
+    "jitter": 9959.5302,
+    "persistence": 50.0,
+    "adaptability": 0.2105,
+    "phase_sync": -0.0007
+  },
+  {
+    "noise": 0.5833,
+    "rep": 5,
+    "C": 0.3769,
+    "fertility": 0.0769,
+    "jitter": 14677.6984,
+    "persistence": 25.0,
+    "adaptability": 0.2105,
+    "phase_sync": -0.0002
+  },
+  {
+    "noise": 0.5833,
+    "rep": 6,
+    "C": 0.3612,
+    "fertility": 0.1282,
+    "jitter": 13977.8918,
+    "persistence": 50.0,
+    "adaptability": 0.2105,
+    "phase_sync": -0.0005
+  },
+  {
+    "noise": 0.5833,
+    "rep": 7,
+    "C": 0.3649,
+    "fertility": 0.0769,
+    "jitter": 17638.0501,
+    "persistence": 50.0,
+    "adaptability": 0.3684,
+    "phase_sync": 0.0021
+  },
+  {
+    "noise": 0.5833,
+    "rep": 8,
+    "C": 0.397,
+    "fertility": 0.1282,
+    "jitter": 2734.0802,
+    "persistence": 25.0,
+    "adaptability": 0.4211,
+    "phase_sync": 0.001
+  },
+  {
+    "noise": 0.5833,
+    "rep": 9,
+    "C": 0.3856,
+    "fertility": 0.1282,
+    "jitter": 4958.1774,
+    "persistence": 50.0,
+    "adaptability": 0.3421,
+    "phase_sync": 0.0032
+  },
+  {
+    "noise": 0.6667,
+    "rep": 0,
+    "C": 0.3662,
+    "fertility": 0.1026,
+    "jitter": 6723.9615,
+    "persistence": 50.0,
+    "adaptability": 0.3684,
+    "phase_sync": -0.0015
+  },
+  {
+    "noise": 0.6667,
+    "rep": 1,
+    "C": 0.3536,
+    "fertility": 0.1026,
+    "jitter": 125952.388,
+    "persistence": 150.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0029
+  },
+  {
+    "noise": 0.6667,
+    "rep": 2,
+    "C": 0.3598,
+    "fertility": 0.2051,
+    "jitter": 15523.9684,
+    "persistence": 50.0,
+    "adaptability": 0.3684,
+    "phase_sync": -0.0044
+  },
+  {
+    "noise": 0.6667,
+    "rep": 3,
+    "C": 0.1465,
+    "fertility": 0.1282,
+    "jitter": 509531.6789,
+    "persistence": 150.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0009
+  },
+  {
+    "noise": 0.6667,
+    "rep": 4,
+    "C": 0.2477,
+    "fertility": 0.1026,
+    "jitter": 44032.2941,
+    "persistence": 200.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0028
+  },
+  {
+    "noise": 0.6667,
+    "rep": 5,
+    "C": 0.3563,
+    "fertility": 0.0769,
+    "jitter": 44548.0514,
+    "persistence": 50.0,
+    "adaptability": 0.3421,
+    "phase_sync": -0.0017
+  },
+  {
+    "noise": 0.6667,
+    "rep": 6,
+    "C": 0.3586,
+    "fertility": 0.1282,
+    "jitter": 23831.3816,
+    "persistence": 50.0,
+    "adaptability": 0.2895,
+    "phase_sync": -0.0043
+  },
+  {
+    "noise": 0.6667,
+    "rep": 7,
+    "C": 0.3424,
+    "fertility": 0.0513,
+    "jitter": 14523.4869,
+    "persistence": 50.0,
+    "adaptability": 0.3947,
+    "phase_sync": 0.0015
+  },
+  {
+    "noise": 0.6667,
+    "rep": 8,
+    "C": 0.3499,
+    "fertility": 0.1538,
+    "jitter": 38844.9364,
+    "persistence": 50.0,
+    "adaptability": 0.2105,
+    "phase_sync": -0.0031
+  },
+  {
+    "noise": 0.6667,
+    "rep": 9,
+    "C": 0.3473,
+    "fertility": 0.1026,
+    "jitter": 1764653.7996,
+    "persistence": 200.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0014
+  },
+  {
+    "noise": 0.75,
+    "rep": 0,
+    "C": 0.3022,
+    "fertility": 0.1026,
+    "jitter": 138811.5552,
+    "persistence": 225.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0
+  },
+  {
+    "noise": 0.75,
+    "rep": 1,
+    "C": 0.3478,
+    "fertility": 0.1538,
+    "jitter": 224984.7995,
+    "persistence": 200.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0008
+  },
+  {
+    "noise": 0.75,
+    "rep": 2,
+    "C": 0.3061,
+    "fertility": 0.1026,
+    "jitter": 7369541.4877,
+    "persistence": 200.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.001
+  },
+  {
+    "noise": 0.75,
+    "rep": 3,
+    "C": 0.3382,
+    "fertility": 0.1026,
+    "jitter": 632392.8996,
+    "persistence": 50.0,
+    "adaptability": 0.2632,
+    "phase_sync": 0.0003
+  },
+  {
+    "noise": 0.75,
+    "rep": 4,
+    "C": 0.3174,
+    "fertility": 0.0513,
+    "jitter": 3304596.6003,
+    "persistence": 200.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0024
+  },
+  {
+    "noise": 0.75,
+    "rep": 5,
+    "C": 0.0859,
+    "fertility": 0.0769,
+    "jitter": 210446.0205,
+    "persistence": 125.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0003
+  },
+  {
+    "noise": 0.75,
+    "rep": 6,
+    "C": 0.2624,
+    "fertility": 0.1538,
+    "jitter": 540558.0061,
+    "persistence": 200.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0032
+  },
+  {
+    "noise": 0.75,
+    "rep": 7,
+    "C": 0.0478,
+    "fertility": 0.0769,
+    "jitter": 24049020.857,
+    "persistence": 100.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0017
+  },
+  {
+    "noise": 0.75,
+    "rep": 8,
+    "C": 0.3353,
+    "fertility": 0.1026,
+    "jitter": 202842.0195,
+    "persistence": 100.0,
+    "adaptability": 0.1316,
+    "phase_sync": -0.0019
+  },
+  {
+    "noise": 0.75,
+    "rep": 9,
+    "C": 0.3384,
+    "fertility": 0.1026,
+    "jitter": 133379.6896,
+    "persistence": 200.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0013
+  },
+  {
+    "noise": 0.8333,
+    "rep": 0,
+    "C": 0.1734,
+    "fertility": 0.1282,
+    "jitter": 27269326.7763,
+    "persistence": 200.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0017
+  },
+  {
+    "noise": 0.8333,
+    "rep": 1,
+    "C": 0.1946,
+    "fertility": 0.1026,
+    "jitter": 4989539.218,
+    "persistence": 175.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0001
+  },
+  {
+    "noise": 0.8333,
+    "rep": 2,
+    "C": 0.1196,
+    "fertility": 0.0769,
+    "jitter": 4750935329.0184,
+    "persistence": 150.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0023
+  },
+  {
+    "noise": 0.8333,
+    "rep": 3,
+    "C": 0.1357,
+    "fertility": 0.1282,
+    "jitter": 52709860098.4656,
+    "persistence": 175.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0003
+  },
+  {
+    "noise": 0.8333,
+    "rep": 4,
+    "C": 0.058,
+    "fertility": 0.1026,
+    "jitter": 156024760.5132,
+    "persistence": 100.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0023
+  },
+  {
+    "noise": 0.8333,
+    "rep": 5,
+    "C": 0.1062,
+    "fertility": 0.1026,
+    "jitter": 6779894.4641,
+    "persistence": 125.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0036
+  },
+  {
+    "noise": 0.8333,
+    "rep": 6,
+    "C": 0.0809,
+    "fertility": 0.0769,
+    "jitter": 41613388.0957,
+    "persistence": 125.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.001
+  },
+  {
+    "noise": 0.8333,
+    "rep": 7,
+    "C": 0.1472,
+    "fertility": 0.1282,
+    "jitter": 2002828.2792,
+    "persistence": 175.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0017
+  },
+  {
+    "noise": 0.8333,
+    "rep": 8,
+    "C": 0.111,
+    "fertility": 0.1538,
+    "jitter": 16943895799.2134,
+    "persistence": 150.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0017
+  },
+  {
+    "noise": 0.8333,
+    "rep": 9,
+    "C": 0.136,
+    "fertility": 0.1026,
+    "jitter": 701113499.6412,
+    "persistence": 150.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0005
+  },
+  {
+    "noise": 0.9167,
+    "rep": 0,
+    "C": 0.0206,
+    "fertility": 0.1026,
+    "jitter": 720211524422967.6,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0009
+  },
+  {
+    "noise": 0.9167,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 2326034733055.64,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0058
+  },
+  {
+    "noise": 0.9167,
+    "rep": 2,
+    "C": 0.0172,
+    "fertility": 0.0769,
+    "jitter": 7001249711594433.0,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0061
+  },
+  {
+    "noise": 0.9167,
+    "rep": 3,
+    "C": 0.0162,
+    "fertility": 0.1026,
+    "jitter": 393513434255.1187,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0007
+  },
+  {
+    "noise": 0.9167,
+    "rep": 4,
+    "C": 0.0602,
+    "fertility": 0.0769,
+    "jitter": 284239445108.8323,
+    "persistence": 100.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0015
+  },
+  {
+    "noise": 0.9167,
+    "rep": 5,
+    "C": 0.0392,
+    "fertility": 0.1538,
+    "jitter": 4.726848534740323e+16,
+    "persistence": 100.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0002
+  },
+  {
+    "noise": 0.9167,
+    "rep": 6,
+    "C": 0.0483,
+    "fertility": 0.1282,
+    "jitter": 10788382446263.67,
+    "persistence": 100.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0011
+  },
+  {
+    "noise": 0.9167,
+    "rep": 7,
+    "C": 0.051,
+    "fertility": 0.1282,
+    "jitter": 436983589961217.9,
+    "persistence": 100.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0096
+  },
+  {
+    "noise": 0.9167,
+    "rep": 8,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 2.868163049324422e+17,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0009
+  },
+  {
+    "noise": 0.9167,
+    "rep": 9,
+    "C": 0.0187,
+    "fertility": 0.1282,
+    "jitter": 9245083759645.357,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0007
+  },
+  {
+    "noise": 1.0,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 5.124580983348537e+28,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0035
+  },
+  {
+    "noise": 1.0,
+    "rep": 1,
+    "C": 0.0283,
+    "fertility": 0.0769,
+    "jitter": 2.52377902149346e+25,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0003
+  },
+  {
+    "noise": 1.0,
+    "rep": 2,
+    "C": 0.0155,
+    "fertility": 0.1538,
+    "jitter": 1.5666610106569707e+26,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0028
+  },
+  {
+    "noise": 1.0,
+    "rep": 3,
+    "C": 0.0294,
+    "fertility": 0.1538,
+    "jitter": 8.754381300113642e+22,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0063
+  },
+  {
+    "noise": 1.0,
+    "rep": 4,
+    "C": 0.0217,
+    "fertility": 0.1282,
+    "jitter": 1.9884890536214106e+23,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0034
+  },
+  {
+    "noise": 1.0,
+    "rep": 5,
+    "C": 0.0183,
+    "fertility": 0.1026,
+    "jitter": 9.799528721877088e+18,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0015
+  },
+  {
+    "noise": 1.0,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": 2.0046219628521446e+23,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.004
+  },
+  {
+    "noise": 1.0,
+    "rep": 7,
+    "C": 0.0228,
+    "fertility": 0.1026,
+    "jitter": 7.303645516725019e+23,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0041
+  },
+  {
+    "noise": 1.0,
+    "rep": 8,
+    "C": 0.0191,
+    "fertility": 0.0513,
+    "jitter": 1.0203959418404146e+22,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0006
+  },
+  {
+    "noise": 1.0,
+    "rep": 9,
+    "C": 0.0229,
+    "fertility": 0.1026,
+    "jitter": 4.247123661304792e+23,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0017
+  },
+  {
+    "noise": 1.0833,
+    "rep": 0,
+    "C": 0.0203,
+    "fertility": 0.1026,
+    "jitter": 1.102435189437349e+38,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0059
+  },
+  {
+    "noise": 1.0833,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": 3.7871969551705844e+36,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0167
+  },
+  {
+    "noise": 1.0833,
+    "rep": 2,
+    "C": 0.0143,
+    "fertility": 0.0769,
+    "jitter": 1.7867496257017249e+47,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0025
+  },
+  {
+    "noise": 1.0833,
+    "rep": 3,
+    "C": 0.017,
+    "fertility": 0.1026,
+    "jitter": 5.708947132190886e+31,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0006
+  },
+  {
+    "noise": 1.0833,
+    "rep": 4,
+    "C": 0.0114,
+    "fertility": 0.0513,
+    "jitter": 1.1467373045360505e+35,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0035
+  },
+  {
+    "noise": 1.0833,
+    "rep": 5,
+    "C": 0.0436,
+    "fertility": 0.1282,
+    "jitter": 2.214465585578517e+35,
+    "persistence": 100.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0008
+  },
+  {
+    "noise": 1.0833,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 8.594893951488056e+35,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0002
+  },
+  {
+    "noise": 1.0833,
+    "rep": 7,
+    "C": 0.0104,
+    "fertility": 0.1282,
+    "jitter": 3.979330895732609e+40,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0003
+  },
+  {
+    "noise": 1.0833,
+    "rep": 8,
+    "C": 0.0191,
+    "fertility": 0.1282,
+    "jitter": 1.7229822976897282e+42,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0006
+  },
+  {
+    "noise": 1.0833,
+    "rep": 9,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 4.897707629676313e+40,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0114
+  },
+  {
+    "noise": 1.1667,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 6.676235168266365e+53,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0007
+  },
+  {
+    "noise": 1.1667,
+    "rep": 1,
+    "C": 0.0058,
+    "fertility": 0.1282,
+    "jitter": 1.3427030950577516e+57,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0032
+  },
+  {
+    "noise": 1.1667,
+    "rep": 2,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 8.690012500133415e+53,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0014
+  },
+  {
+    "noise": 1.1667,
+    "rep": 3,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 1.2687297697459727e+52,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0039
+  },
+  {
+    "noise": 1.1667,
+    "rep": 4,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 1.2898795546232291e+59,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0072
+  },
+  {
+    "noise": 1.1667,
+    "rep": 5,
+    "C": 0.0,
+    "fertility": 0.0513,
+    "jitter": 1.5701332728041298e+53,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0084
+  },
+  {
+    "noise": 1.1667,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 7.543348212805337e+56,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.006
+  },
+  {
+    "noise": 1.1667,
+    "rep": 7,
+    "C": 0.0056,
+    "fertility": 0.0513,
+    "jitter": 3.852514073861603e+50,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0112
+  },
+  {
+    "noise": 1.1667,
+    "rep": 8,
+    "C": 0.0129,
+    "fertility": 0.1026,
+    "jitter": 2.787120203907467e+53,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0029
+  },
+  {
+    "noise": 1.1667,
+    "rep": 9,
+    "C": 0.0129,
+    "fertility": 0.1282,
+    "jitter": 6.979079033991108e+60,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0051
+  },
+  {
+    "noise": 1.25,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": 2.3584881116739263e+72,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0011
+  },
+  {
+    "noise": 1.25,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": 2.0847184827472223e+67,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0032
+  },
+  {
+    "noise": 1.25,
+    "rep": 2,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 3.67515241785635e+67,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0047
+  },
+  {
+    "noise": 1.25,
+    "rep": 3,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": 5.78843994570689e+61,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0001
+  },
+  {
+    "noise": 1.25,
+    "rep": 4,
+    "C": 0.0114,
+    "fertility": 0.1282,
+    "jitter": 1.1303432011989653e+69,
+    "persistence": 75.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0006
+  },
+  {
+    "noise": 1.25,
+    "rep": 5,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 6.31185670785857e+66,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0061
+  },
+  {
+    "noise": 1.25,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 8.83678137572207e+74,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0051
+  },
+  {
+    "noise": 1.25,
+    "rep": 7,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": 2.7399964342237786e+73,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0062
+  },
+  {
+    "noise": 1.25,
+    "rep": 8,
+    "C": 0.0,
+    "fertility": 0.0513,
+    "jitter": 4.439488879170499e+75,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0021
+  },
+  {
+    "noise": 1.25,
+    "rep": 9,
+    "C": 0.0,
+    "fertility": 0.1795,
+    "jitter": 6.564233570637151e+60,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0048
+  },
+  {
+    "noise": 1.3333,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 1.1373062161140549e+82,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0064
+  },
+  {
+    "noise": 1.3333,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 1.0814383537673047e+87,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.007
+  },
+  {
+    "noise": 1.3333,
+    "rep": 2,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": 1.6545626220003888e+83,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0373
+  },
+  {
+    "noise": 1.3333,
+    "rep": 3,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": 4.063705669950456e+86,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0002
+  },
+  {
+    "noise": 1.3333,
+    "rep": 4,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 1.2941682108635862e+90,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0058
+  },
+  {
+    "noise": 1.3333,
+    "rep": 5,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 1.0413556730173006e+87,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0058
+  },
+  {
+    "noise": 1.3333,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": 3.749772117074046e+84,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0015
+  },
+  {
+    "noise": 1.3333,
+    "rep": 7,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 3.156701193831231e+85,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.002
+  },
+  {
+    "noise": 1.3333,
+    "rep": 8,
+    "C": 0.0,
+    "fertility": 0.0513,
+    "jitter": 5.0276506826268265e+91,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0165
+  },
+  {
+    "noise": 1.3333,
+    "rep": 9,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 1.010515909191707e+79,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0014
+  },
+  {
+    "noise": 1.4167,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 4.5554845781259726e+101,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0086
+  },
+  {
+    "noise": 1.4167,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.1795,
+    "jitter": 1.429344300331577e+94,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0139
+  },
+  {
+    "noise": 1.4167,
+    "rep": 2,
+    "C": 0.0,
+    "fertility": 0.1795,
+    "jitter": 5.502767630271632e+98,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0105
+  },
+  {
+    "noise": 1.4167,
+    "rep": 3,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": 5.70893058297815e+92,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0305
+  },
+  {
+    "noise": 1.4167,
+    "rep": 4,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 3.125844060621485e+98,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0043
+  },
+  {
+    "noise": 1.4167,
+    "rep": 5,
+    "C": 0.0,
+    "fertility": 0.0513,
+    "jitter": 1.1140769053621842e+103,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0042
+  },
+  {
+    "noise": 1.4167,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 2.0451446199722538e+102,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0016
+  },
+  {
+    "noise": 1.4167,
+    "rep": 7,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 3.9641209917374326e+97,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0095
+  },
+  {
+    "noise": 1.4167,
+    "rep": 8,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 1.5065846526634231e+103,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0135
+  },
+  {
+    "noise": 1.4167,
+    "rep": 9,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": 1.6370191205082671e+92,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0035
+  },
+  {
+    "noise": 1.5,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 3.9361919782645917e+118,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0175
+  },
+  {
+    "noise": 1.5,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 8.139001861821066e+107,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0295
+  },
+  {
+    "noise": 1.5,
+    "rep": 2,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": 3.4543395066914064e+114,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0007
+  },
+  {
+    "noise": 1.5,
+    "rep": 3,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": 2.339364098737539e+112,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0279
+  },
+  {
+    "noise": 1.5,
+    "rep": 4,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": 7.1212644876063205e+112,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0108
+  },
+  {
+    "noise": 1.5,
+    "rep": 5,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 2.3028475710466455e+118,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0048
+  },
+  {
+    "noise": 1.5,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 1.3084934116835441e+116,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.009
+  },
+  {
+    "noise": 1.5,
+    "rep": 7,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 9.602946234088348e+110,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0075
+  },
+  {
+    "noise": 1.5,
+    "rep": 8,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 8.41878613006006e+107,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0073
+  },
+  {
+    "noise": 1.5,
+    "rep": 9,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 1.057179692153393e+111,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0079
+  },
+  {
+    "noise": 1.5833,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": 4.812283900008864e+133,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0064
+  },
+  {
+    "noise": 1.5833,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": 6.240033972395366e+122,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0002
+  },
+  {
+    "noise": 1.5833,
+    "rep": 2,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 4.124824388258679e+124,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0068
+  },
+  {
+    "noise": 1.5833,
+    "rep": 3,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 7.049093421964951e+130,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.014
+  },
+  {
+    "noise": 1.5833,
+    "rep": 4,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": 4.1105372974177736e+134,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0058
+  },
+  {
+    "noise": 1.5833,
+    "rep": 5,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 5.851885577889225e+132,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0069
+  },
+  {
+    "noise": 1.5833,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.0513,
+    "jitter": 8.768075542116087e+127,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0011
+  },
+  {
+    "noise": 1.5833,
+    "rep": 7,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 2.0478899686706537e+126,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.009
+  },
+  {
+    "noise": 1.5833,
+    "rep": 8,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 2.6330740148269857e+129,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0053
+  },
+  {
+    "noise": 1.5833,
+    "rep": 9,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": 3.2157437227266745e+127,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0056
+  },
+  {
+    "noise": 1.6667,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 1.326090131268047e+148,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0275
+  },
+  {
+    "noise": 1.6667,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 7.759671268066289e+145,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0108
+  },
+  {
+    "noise": 1.6667,
+    "rep": 2,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 4.1748956414849337e+139,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.014
+  },
+  {
+    "noise": 1.6667,
+    "rep": 3,
+    "C": 0.0,
+    "fertility": 0.0256,
+    "jitter": 2.1804346137306062e+141,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0104
+  },
+  {
+    "noise": 1.6667,
+    "rep": 4,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0058
+  },
+  {
+    "noise": 1.6667,
+    "rep": 5,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 1.167651232167657e+141,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.001
+  },
+  {
+    "noise": 1.6667,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.0513,
+    "jitter": 6.69834470718119e+147,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0053
+  },
+  {
+    "noise": 1.6667,
+    "rep": 7,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": 3.2049650326407784e+142,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.004
+  },
+  {
+    "noise": 1.6667,
+    "rep": 8,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": 2.0994445200516882e+145,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0063
+  },
+  {
+    "noise": 1.6667,
+    "rep": 9,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": 4.27096954424895e+141,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0046
+  },
+  {
+    "noise": 1.75,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.1795,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0082
+  },
+  {
+    "noise": 1.75,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0005
+  },
+  {
+    "noise": 1.75,
+    "rep": 2,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0128
+  },
+  {
+    "noise": 1.75,
+    "rep": 3,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0372
+  },
+  {
+    "noise": 1.75,
+    "rep": 4,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0047
+  },
+  {
+    "noise": 1.75,
+    "rep": 5,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0024
+  },
+  {
+    "noise": 1.75,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0112
+  },
+  {
+    "noise": 1.75,
+    "rep": 7,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0086
+  },
+  {
+    "noise": 1.75,
+    "rep": 8,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0033
+  },
+  {
+    "noise": 1.75,
+    "rep": 9,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0174
+  },
+  {
+    "noise": 1.8333,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.1795,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.003
+  },
+  {
+    "noise": 1.8333,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0007
+  },
+  {
+    "noise": 1.8333,
+    "rep": 2,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0013
+  },
+  {
+    "noise": 1.8333,
+    "rep": 3,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0144
+  },
+  {
+    "noise": 1.8333,
+    "rep": 4,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": Infinity,
+    "persistence": 25.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0083
+  },
+  {
+    "noise": 1.8333,
+    "rep": 5,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0106
+  },
+  {
+    "noise": 1.8333,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.1795,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0104
+  },
+  {
+    "noise": 1.8333,
+    "rep": 7,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0119
+  },
+  {
+    "noise": 1.8333,
+    "rep": 8,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0082
+  },
+  {
+    "noise": 1.8333,
+    "rep": 9,
+    "C": 0.0,
+    "fertility": 0.0513,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0068
+  },
+  {
+    "noise": 1.9167,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0067
+  },
+  {
+    "noise": 1.9167,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0189
+  },
+  {
+    "noise": 1.9167,
+    "rep": 2,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0077
+  },
+  {
+    "noise": 1.9167,
+    "rep": 3,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0019
+  },
+  {
+    "noise": 1.9167,
+    "rep": 4,
+    "C": 0.0,
+    "fertility": 0.0769,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.01
+  },
+  {
+    "noise": 1.9167,
+    "rep": 5,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0016
+  },
+  {
+    "noise": 1.9167,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 25.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0136
+  },
+  {
+    "noise": 1.9167,
+    "rep": 7,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 25.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0075
+  },
+  {
+    "noise": 1.9167,
+    "rep": 8,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 25.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0119
+  },
+  {
+    "noise": 1.9167,
+    "rep": 9,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0117
+  },
+  {
+    "noise": 2.0,
+    "rep": 0,
+    "C": 0.0,
+    "fertility": 0.0513,
+    "jitter": Infinity,
+    "persistence": 25.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0035
+  },
+  {
+    "noise": 2.0,
+    "rep": 1,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 25.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0292
+  },
+  {
+    "noise": 2.0,
+    "rep": 2,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 25.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0024
+  },
+  {
+    "noise": 2.0,
+    "rep": 3,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": Infinity,
+    "persistence": 25.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0088
+  },
+  {
+    "noise": 2.0,
+    "rep": 4,
+    "C": 0.0,
+    "fertility": 0.1795,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.005
+  },
+  {
+    "noise": 2.0,
+    "rep": 5,
+    "C": 0.0,
+    "fertility": 0.1538,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0127
+  },
+  {
+    "noise": 2.0,
+    "rep": 6,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0127
+  },
+  {
+    "noise": 2.0,
+    "rep": 7,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 50.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0044
+  },
+  {
+    "noise": 2.0,
+    "rep": 8,
+    "C": 0.0,
+    "fertility": 0.1282,
+    "jitter": Infinity,
+    "persistence": 25.0,
+    "adaptability": 0.0263,
+    "phase_sync": -0.0099
+  },
+  {
+    "noise": 2.0,
+    "rep": 9,
+    "C": 0.0,
+    "fertility": 0.1026,
+    "jitter": Infinity,
+    "persistence": 25.0,
+    "adaptability": 0.0263,
+    "phase_sync": 0.0207
+  }
+]

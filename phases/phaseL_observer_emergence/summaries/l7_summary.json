@@ -1,0 +1,15 @@
+{
+  "phase": "L7",
+  "most_destructive_failure": "temporal continuity",
+  "most_destructive_collapse": 0.99961849991318,
+  "collapse_by_failure": {
+    "temporal continuity": 0.99961849991318,
+    "closure feedback": 0.40665449991318003,
+    "reconstruction": 0.2565893599131801,
+    "recursive alignment": 0.21157160080000004,
+    "closure persistence": 0.40665449991318003
+  },
+  "temporal_collapse": 0.99961849991318,
+  "closure_collapse": 0.40665449991318003,
+  "reconstruction_collapse": 0.2565893599131801
+}

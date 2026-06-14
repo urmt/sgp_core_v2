@@ -1,0 +1,184 @@
+{
+  "audit": "T083 \u2014 Latent Geometry Audit",
+  "target_pc1": 75.1,
+  "target_intrinsic_dim": 2,
+  "target_pc1_generative_dominance": true,
+  "n_systems_per_phase": 300,
+  "phases": [
+    {
+      "label": "Baseline (no geometry mechanism)",
+      "n_all": 5,
+      "assumptions_emerged": 9,
+      "mechanisms_emerged": 5,
+      "viability_basin": null,
+      "pc1_pct": 46.5,
+      "pc2_pct": 37.3,
+      "intrinsic_dim": 3,
+      "corridor_detected": false,
+      "edge_of_chaos_pct": 30.0,
+      "explained": [
+        46.47,
+        37.28,
+        6.75,
+        5.41,
+        1.99,
+        0.81
+      ]
+    },
+    {
+      "label": "Hierarchical scaling",
+      "n_all": 3,
+      "assumptions_emerged": 4,
+      "mechanisms_emerged": 0,
+      "viability_basin": false,
+      "pc1_pct": 43.3,
+      "pc2_pct": 39.6,
+      "intrinsic_dim": 3,
+      "corridor_detected": false,
+      "edge_of_chaos_pct": 32.6,
+      "explained": [
+        43.32,
+        39.56,
+        7.28,
+        5.93,
+        1.96,
+        0.76
+      ]
+    },
+    {
+      "label": "Resource competition",
+      "n_all": 2,
+      "assumptions_emerged": 3,
+      "mechanisms_emerged": 1,
+      "viability_basin": true,
+      "pc1_pct": 45.9,
+      "pc2_pct": 36.6,
+      "intrinsic_dim": 3,
+      "corridor_detected": false,
+      "edge_of_chaos_pct": 33.3,
+      "explained": [
+        45.87,
+        36.61,
+        7.68,
+        5.53,
+        2.12,
+        0.85
+      ]
+    },
+    {
+      "label": "Adaptive selection",
+      "n_all": 3,
+      "assumptions_emerged": 9,
+      "mechanisms_emerged": 5,
+      "viability_basin": null,
+      "pc1_pct": 43.5,
+      "pc2_pct": 40.3,
+      "intrinsic_dim": 3,
+      "corridor_detected": true,
+      "edge_of_chaos_pct": 34.1,
+      "explained": [
+        43.53,
+        40.27,
+        6.47,
+        5.56,
+        2.08,
+        0.85
+      ]
+    },
+    {
+      "label": "Multi-timescale",
+      "n_all": 6,
+      "assumptions_emerged": 9,
+      "mechanisms_emerged": 5,
+      "viability_basin": null,
+      "pc1_pct": 42.7,
+      "pc2_pct": 39.6,
+      "intrinsic_dim": 3,
+      "corridor_detected": false,
+      "edge_of_chaos_pct": 31.6,
+      "explained": [
+        42.74,
+        39.56,
+        7.75,
+        5.68,
+        2.14,
+        0.77
+      ]
+    },
+    {
+      "label": "Corridor pressure",
+      "n_all": 6,
+      "assumptions_emerged": 9,
+      "mechanisms_emerged": 5,
+      "viability_basin": null,
+      "pc1_pct": 47.8,
+      "pc2_pct": 33.1,
+      "intrinsic_dim": 3,
+      "corridor_detected": true,
+      "edge_of_chaos_pct": 32.3,
+      "explained": [
+        47.76,
+        33.11,
+        9.28,
+        5.22,
+        2.22,
+        0.91
+      ]
+    },
+    {
+      "label": "Combined (all mechanisms)",
+      "n_all": 4,
+      "assumptions_emerged": 9,
+      "mechanisms_emerged": 4,
+      "viability_basin": null,
+      "pc1_pct": 51.6,
+      "pc2_pct": 30.4,
+      "intrinsic_dim": 4,
+      "corridor_detected": true,
+      "edge_of_chaos_pct": 33.3,
+      "explained": [
+        51.61,
+        30.4,
+        7.72,
+        5.97,
+        2.04,
+        0.9
+      ]
+    }
+  ],
+  "best_phase": "Combined (all mechanisms)",
+  "best_pc1": 51.6,
+  "best_intrinsic_dim": 4,
+  "ablation": [
+    {
+      "removed": "hierarchy_depth",
+      "pc1_pct": 53.5,
+      "intrinsic_dim": 4,
+      "corridor_detected": false
+    },
+    {
+      "removed": "resource_limit",
+      "pc1_pct": 50.3,
+      "intrinsic_dim": 4,
+      "corridor_detected": false
+    },
+    {
+      "removed": "adaptation_rate",
+      "pc1_pct": 48.1,
+      "intrinsic_dim": 4,
+      "corridor_detected": false
+    },
+    {
+      "removed": "context_sensitivity",
+      "pc1_pct": 50.9,
+      "intrinsic_dim": 3,
+      "corridor_detected": true
+    },
+    {
+      "removed": "corridor_feedback",
+      "pc1_pct": 46.9,
+      "intrinsic_dim": 4,
+      "corridor_detected": true
+    }
+  ]
+}

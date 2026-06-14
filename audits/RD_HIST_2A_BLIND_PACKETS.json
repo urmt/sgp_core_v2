@@ -1,0 +1,193 @@
+{
+  "audit": "RD-HIST.2A",
+  "description": "Blind coding packets \u2014 stripped of all identifiers and theoretical language",
+  "rule_0": "For Q3, answers must be one sentence, operational language only, no theoretical vocabulary",
+  "questions": {
+    "Q1": "What appears to be doing the explanatory work?",
+    "Q2": "Could the same result be described without introducing a new explanatory object?",
+    "Q3": "What changed between the beginning and the end of the study?"
+  },
+  "total_packets": 20,
+  "packets": [
+    {
+      "study_number": 1,
+      "question": "=== { 'audit': 'RD-10B.0C', 'level0_interaction': 'criterion \u2194 task', 'level1_stability': 'Task-criterion mapping persists', 'level2_mechanism': 'Tasks select appropriate criteria', 'level3_higher_order': True, 'level3_detail': 'Task-criterion mapping becomes a stable selection mechanism', 'level4_preservation': True, 'level4_detail': 'Mapping preserves task requirements', 'persistence_level': 3, },",
+      "method": "s', 'level4_preservation': False, 'persistence_level': 2, },",
+      "result": "=\"*70) print(\"RD-10B.R0R: PERSISTENCE LADDER RECONSTRUCTION | =\"*70) audits = build_persistence_ladder() # Count persistence levels print(\"\\n--- PERSISTENCE LEVEL DISTRIBUTION ---\\n | \\n--- THE PERSISTENCE PATTERN ---\\n | Level 0 (Interaction): 3 audits | RD-019, RD-020, RD-021",
+      "original_id": "RD-10B.R0R",
+      "coded": true,
+      "rd_hist_1_locus": "Persistence"
+    },
+    {
+      "study_number": 2,
+      "question": "> Do recursion, constraint, preservation, and distinction still emerge > when we use alternative ladders from both directions?",
+      "method": "1. Generate many alternative bottom-up ladders. 2. Generate many alternative top-down ladders. 3. For each ladder, derive what transformations emerge. 4. Check whether the same four junctions appear across all ladders. 5. If they disappear when the path changes, they were properties of the ladder construction, not genuine junctions.",
+      "result": "From structured data: bottom_up_ladders: 5; top_down_ladders: 6; junction_counts: dict with 4 keys; verdict: path_independent",
+      "original_id": "RD-10B.J2",
+      "coded": true,
+      "rd_hist_1_locus": "Persistence"
+    },
+    {
+      "study_number": 3,
+      "question": "> Is the fundamental operation comparison, or is it preserving tension between descriptions without collapsing them?",
+      "method": "For each audit, record: 1. Whether collapse occurred (premature identification of one description as correct) 2. Whether tension was maintained (multiple descriptions held side-by-side) 3. Explanatory gain",
+      "result": "=\"*70) print(\"RD-10B.M5: TENSION-PRESERVATION AUDIT | =\"*70) data = build_tension_data() # H1: Explanation scales with comparison print(\"\\n--- H1: EXPLANATION SCALES WITH COMPARISON ---\\n | \\n--- H2: EXPLANATION SCALES WITH TENSION-PRESERVATION ---\\n | \\n--- H3: COLLAPSE DESTROYS EXPLANATORY POWER ---\\n | \\n--- VERDICT ---\\n",
+      "original_id": "RD-10B.M5",
+      "coded": true,
+      "rd_hist_1_locus": "Persistence"
+    },
+    {
+      "study_number": 4,
+      "question": "Viewpoint comparison (different perspectives on same thing) preserves tension. Claim comparison (competing answers to same question) causes collapse.",
+      "method": "rs to same question) causes collapse.",
+      "result": "VIEWPOINT COMPARISON: | CLAIM COMPARISON: | Viewpoint comparison preserves tension. | Claim comparison causes collapse. | The distinction is predictive.",
+      "original_id": "RD-10B.M6b",
+      "coded": true,
+      "rd_hist_1_locus": "Comparison"
+    },
+    {
+      "study_number": 5,
+      "question": "it belong to: > the world, the representation, the detector, the question, or the observer?",
+      "method": "1. Generate ONE world (no motif vocabulary) 2. Represent it in MULTIPLE ways: - Graph (adjacency matrix) - Time series (state trajectories) - State-transition network - Correlation matrix - Phase-space embedding 3. Apply the SAME detectors to each representation 4. Ask: what survives representation changes?",
+      "result": "From structured data: trajectory_shape: list of 3 items; representations: list of 5 items; motifs: dict with 5 keys",
+      "original_id": "RD-10B.0",
+      "coded": true,
+      "rd_hist_1_locus": "Comparison"
+    },
+    {
+      "study_number": 6,
+      "question": "> Are the four junctions independent, or do they form a dependency structure?",
+      "method": "For each candidate junction: 1. Remove it. 2. Ask whether the others remain meaningful. 3. Measure dependency structure.",
+      "result": "From structured data: tests: list of 7 items; dependency_structure: chain; verdict: outcome_b_compresses; true_junction: the_chain_itself",
+      "original_id": "RD-10B.J4",
+      "coded": true,
+      "rd_hist_1_locus": "Relation"
+    },
+    {
+      "study_number": 7,
+      "question": "Re-measure with fine-grained windows, generate curves and table.\"\"\"",
+      "method": "Re-measure with fine-grained windows, generate curves and table.\"\"\"",
+      "result": "From structured data: List of 60 items",
+      "original_id": "RD-5",
+      "coded": true,
+      "rd_hist_1_locus": "Relation"
+    },
+    {
+      "study_number": 8,
+      "question": "now a parameter (default 40.0 \u2014 preserves prior ensemble)",
+      "method": "ep at fixed friction=0.40. 6 box_width conditions \u00d7 10 replicates = 60 runs. \"\"\"",
+      "result": "From structured data: List of 60 items",
+      "original_id": "RD-019",
+      "coded": true,
+      "rd_hist_1_locus": "Other (falsification)"
+    },
+    {
+      "study_number": 9,
+      "question": "> Can the four candidate junctions be generated from a single transformation?",
+      "method": "For each junction: 1. Express it as an operator. 2. Express dependencies as operator compositions. 3. Search for a minimal generating set.",
+      "result": "From structured data: operators: dict with 4 keys; verdict: one_generator; generator: distinction; caution: analysis_performed_by_us",
+      "original_id": "RD-10B.J6",
+      "coded": true,
+      "rd_hist_1_locus": "Other (falsification)"
+    },
+    {
+      "study_number": 10,
+      "question": "Re-read the entire RD-10B sequence using the Interaction/Fertility lens. Not: what was discovered? But: what interactions were actually being measured?",
+      "method": "vs artifact', 'gain_after_interaction': True, 'explanatory_gain': 'medium', 'gain_detail': 'SP is binary artifact of discretization', },",
+      "result": "=\"*70) print(\"RD-10B.R1: HISTORICAL RE-INTERPRETATION AUDIT | =\"*70) audits = build_interaction_data() # Deliverable 1: Interaction Map print(\"\\n--- DELIVERABLE 1: INTERACTION MAP ---\\n | \\nEdge types: | \\n--- DELIVERABLE 2: INTERACTION DEPENDENCY ANALYSIS ---\\n | \\n--- DELIVERABLE 3: COUNTEREXAMPLES ---\\n",
+      "original_id": "RD-10B.R1",
+      "coded": true,
+      "rd_hist_1_locus": "Interaction"
+    },
+    {
+      "study_number": 11,
+      "question": "tinction Genesis Audit",
+      "method": "=\"average\") labels = fcluster(Z, n_clusters, criterion=\"maxclust\") if len(set(labels)) >= 2: sil = silhouette_score(D, labels, metric=\"precomputed\") if sil > best_silhouette: best_silhouette = sil best_n_clusters = n_clusters except Exception: pass",
+      "result": "=\" * 70) print(\"T038: DISTINCTION GENESIS AUDIT | =\" * 70) print(\"Testing: Potential \u2192 Distinction | Starting assumption: ONLY \u03a9 (possibility of interaction) | =\" * 70) t0 = time.time() # ============================================================ # PHASE 1: Generate 1000+ universes # ============================================================ print(f\"\\n[Phase 1] Generating {N_UNIVERSES} pure interaction universes... | No successful universes found. Trying relaxed criteria...",
+      "original_id": "T038_distinction_genesis",
+      "coded": false,
+      "apparent_outcome": "success"
+    },
+    {
+      "study_number": 12,
+      "question": "covery (No Label Assumptions)",
+      "method": "=\"average\") labels = fcluster(Z, 2, criterion=\"maxclust\") # Check if clusters are well-separated cluster_means = [states[labels == i].mean(axis=0) for i in range(1, 3)] inter = np.linalg.norm(cluster_means[0] - cluster_means[1]) intra = np.mean([np.mean(pdist(states[labels == i])) for i in range(1, 3) if (labels == i).sum() > 1]) if intra > 0 and inter / intra > 1.5: return True, 8 return False, 0",
+      "result": "=\" * 70) print(\"T043: ORDER DISCOVERY (NO LABEL ASSUMPTIONS) | =\" * 70) print(f\"Universes: {N_UNIVERSES} | =\" * 70) t0 = time.time() # ============================================================ # PHASE 1: Generate universes and record events # ============================================================ print(f\"\\n[Phase 1] Generating {N_UNIVERSES} universes and detecting... | \\n[Phase 2] Computing pairwise order probabilities... | \\n[Phase 3] Building emergence graph...",
+      "original_id": "T043_order_discovery",
+      "coded": false,
+      "apparent_outcome": "success"
+    },
+    {
+      "study_number": 13,
+      "question": "import _granular_run, _bin_data, _sliding_C from metrics.total_correlation import compute_C",
+      "method": "ep Sweep removal fractions: 0%, 5%, 10%, 20%, 30%, 50%. 10 reps per condition. Measure C_pre, C_min, \u0394C, \u03c4_rec (95%), C_final/C_pre, Overshoot. \"\"\"",
+      "result": "From structured data: List of 60 items",
+      "original_id": "RD-05_perturbation_sweep",
+      "coded": false,
+      "apparent_outcome": "success"
+    },
+    {
+      "study_number": 14,
+      "question": "What exists before the first point?\") print(\"=\" * 70) t0 = time.time()",
+      "method": "=\"average\") labels = fcluster(Z, 2, criterion=\"maxclust\")",
+      "result": "From structured data: projection_curvature: 1.2618132992321085; antisymmetry_curvature: 0.4363323125846612; projection_displacement: 0.5859970305376119; antisymmetry_displacement: 0.007089955172916696; H1_projection_low_curvature: False; H2_projection_absorbing: False; H3_sector_differentiation: True",
+      "original_id": "T042_proximity_genesis",
+      "coded": false,
+      "apparent_outcome": "failure"
+    },
+    {
+      "study_number": 15,
+      "question": "200 independent granular realizations, fixed 50% removal. Test: Does pre-perturbation C predict recovery? \"\"\"",
+      "method": "import _granular_run, _bin_data, _sliding_C",
+      "result": "From structured data: n_runs: 200; n_survived: 170; n_collapsed: 30; collapse_rate: 0.15; C_pre_mean_all: 0.4859; C_pre_std_all: 0.0236; C_pre_mean_survived: 0.4854; C_pre_mean_collapsed: 0.4882; welch_t: -0.631; welch_p: 0.5317",
+      "original_id": "RD-06_ensemble_resilience",
+      "coded": false,
+      "apparent_outcome": "failure"
+    },
+    {
+      "study_number": 16,
+      "question": "must not select the answer",
+      "method": "PHILOSOPHY: - Generate worlds with NO motif vocabulary - Observe major transitions - Record what changes - Only afterward attempt categorization - The question must not select the answer",
+      "result": "From structured data: results: list of 50 items; analysis: dict with 3 keys",
+      "original_id": "RD-10B.3_emergence_first",
+      "coded": false,
+      "apparent_outcome": "failure"
+    },
+    {
+      "study_number": 17,
+      "question": "covered groups (emergent objects).",
+      "method": "Computational analysis with functions: spectral_reconstruction, reconstruct_from_interaction_history",
+      "result": "Results not explicitly stated in source code.",
+      "original_id": "experiment_if3",
+      "coded": false,
+      "apparent_outcome": "abandoned"
+    },
+    {
+      "study_number": 18,
+      "question": "s: where does reconstruction from interaction history break?",
+      "method": "_if1 import persistent_communities from interaction_first.experiment_if3 import reconstruct_from_interaction_history",
+      "result": "\\n [Dynamic communities] | \\n [Hierarchical] | =\" * 78) print(\" IF-3 STRESS TESTS: WHERE DOES RECONSTRUCTION BREAK? | =\" * 78) # Generate baseline data baseline_events, baseline_labels = persistent_communities( n_entities=30, n_communities=3, n_steps=500, seed=SEED ) n_entities = len(baseline_labels) n_baseline_events = len(baseline_events) baseline_res = reconstruct_from_interaction_history( baseline_events, n_entities, baseline_labels ) base_ari = baseline_res.get(\"ari\", np.nan) base_nmi = baseline_res.get(\"nmi\", np.nan) print(f\"\\n Baseline ({n_baseline_events} events, {n_entities} entities): | TEST 1: MISSING INTERACTIONS",
+      "original_id": "if_stress_test",
+      "coded": false,
+      "apparent_outcome": "abandoned"
+    },
+    {
+      "study_number": 19,
+      "question": "DESTROY T039's conclusion if possible.\") print(\"Rule: Forbidden from using identity, difference, comparison,\") print(\" similarity, distance, classification, clustering,\") print(\" state labels, symbols, objects, entities.\") print(\"=\" * 70)",
+      "method": "ver, this is precisely the 'undifferentiated field' \" \"candidate, which fails because identifying 'the monad' distinguishes it from non-existence.\") result[\"survives\"] = False",
+      "result": "=\" * 70) print(\"T040: PRE-DISTINCTION FAILURE TEST | =\" * 70) print(\"Objective: DESTROY T039's conclusion if possible. | Rule: Forbidden from using identity, difference, comparison, | similarity, distance, classification, clustering, | state labels, symbols, objects, entities.",
+      "original_id": "T040_pre_distinction_failure",
+      "coded": false,
+      "apparent_outcome": "ambiguous"
+    },
+    {
+      "study_number": 20,
+      "question": "Are persistence and novelty actually independent components? Or are they artifacts of how we coded the data? \"\"\"",
+      "method": "The R3 result was surprising: - I+C has 100% gain rate - I+P+N+C has 93.33% gain rate (lower!)",
+      "result": "=\"*70) print(\"RD-10B.R3b: COMPONENT RE-EXAMINATION | =\"*70) # The key insight from R3 print(\"\\n--- THE SURPRISING RESULT ---\\n | I+C: 100% gain rate | I+P+N+C: 93.33% gain rate | P+N does NOT add value beyond I+C alone.",
+      "original_id": "RD-10B.R3b_component_analysis",
+      "coded": false,
+      "apparent_outcome": "ambiguous"
+    }
+  ]
+}

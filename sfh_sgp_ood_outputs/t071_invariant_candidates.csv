@@ -1,0 +1,7 @@
+invariant,label,overall_mean,cross_domain_variance,stability,domain_A_mean,domain_B_mean,domain_C_mean,domain_D_mean,is_candidate
+coherence,"Coherence — internal consistency, no contradictions",0.89,0.003,HIGH,0.84,0.92,0.95,0.83,YES
+information_growth,Information growth — increasing complexity over time,0.6,0.007,HIGH,0.52,0.73,0.53,0.62,no
+generativity,Generativity — capacity to produce novel structures,0.74,0.008,HIGH,0.6,0.84,0.79,0.75,YES
+recursive_closure,Recursive closure — self-reference or self-application,0.56,0.009,HIGH,0.46,0.7,0.5,0.6,no
+persistence,Persistence — system endures through time without collapse,0.73,0.012,HIGH,0.69,0.89,0.58,0.76,YES
+self_modeling,Self-modeling — system represents or examines itself,0.39,0.016,HIGH,0.4,0.57,0.36,0.22,no

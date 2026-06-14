@@ -1,0 +1,76 @@
+{
+  "audit": "T073 \u2014 Viability Landscape Audit",
+  "axes": {
+    "C": {
+      "label": "Coherence"
+    },
+    "P": {
+      "label": "Persistence"
+    },
+    "G": {
+      "label": "Generativity"
+    },
+    "R": {
+      "label": "Recoverability"
+    },
+    "S": {
+      "label": "Self-modeling"
+    }
+  },
+  "cross_domain_overlap": {
+    "C": {
+      "lo": 0.95,
+      "hi": 0.85,
+      "exists": false
+    },
+    "P": {
+      "lo": 0.85,
+      "hi": 0.85,
+      "exists": true
+    },
+    "G": {
+      "lo": 0.85,
+      "hi": 0.8,
+      "exists": false
+    },
+    "R": {
+      "lo": 0.8,
+      "hi": 0.7,
+      "exists": false
+    },
+    "S": {
+      "lo": 0.9,
+      "hi": 0.4,
+      "exists": false
+    }
+  },
+  "overlap_exists": false,
+  "minimal_viability_constraints": {
+    "C": 0.75,
+    "P": 0.65,
+    "G": 0.4,
+    "R": 0.3,
+    "S": 0.1
+  },
+  "substrate_satisfies_constraints": true,
+  "substrate_scores": {
+    "C": 0.95,
+    "P": 0.85,
+    "G": 0.85,
+    "R": 0.8,
+    "S": 0.9
+  },
+  "n_total_configurations": 28,
+  "n_viable": 12,
+  "n_nonviable": 16,
+  "false_positives": 0,
+  "false_positive_rate": 0.0,
+  "conclusion": "Viable systems across all four domains occupy a common region of the 5-axis space defined by C \u2265 0.75, P \u2265 0.65, G \u2265 0.40, R \u2265 0.30, S \u2265 0.10. The 9-assumption substrate satisfies these constraints, but the constraints are not beneath the substrate \u2014 they are ABOVE it, as descriptive properties that any viable system exhibits. The substrate is a sufficient condition for satisfying them in the epistemic domain; other domains satisfy them through entirely different mechanisms. The constraints are more universal than the substrate, but not more fundamental in a generative sense.",
+  "viable_region_definition": {
+    "C": 0.75,
+    "P": 0.65,
+    "G": 0.4,
+    "R": 0.3,
+    "S": 0.1
+  }
+}

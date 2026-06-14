@@ -1,0 +1,2 @@
+phase,r2_csr_only,r2_rbs_only,r2_csr_plus_rbs,partial_csr,partial_rbs,vif_csr,vif_rbs,mi_csr,mi_rbs,mi_redundancy,pca_pc1_ratio,condition_number,shapley_csr,shapley_rbs,r2_pc1,verdict
+544,0.582401,0.872633,1.0,1.0,1.0,1.5393,1.5393,0.89727,0.997352,-0.004224,0.795955,3.9009,0.384341,0.615659,0.971246,DUAL-AXIS-LAW

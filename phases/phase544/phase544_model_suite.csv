@@ -1,0 +1,10 @@
+model,R2,adj_R2,LOOCV_R2,params
+stability ~ CSR,0.670681,0.659326,0.582401,1
+stability ~ RBS,0.897342,0.893802,0.872633,1
+stability ~ CSR+RBS,1.0,1.0,1.0,2
+stability ~ CSR*RBS,1.0,1.0,1.0,3
+stability ~ CSR/RBS,1.0,1.0,1.0,3
+stability ~ ADI,0.357645,0.335495,0.245356,1
+stability ~ RTP,1e-05,-0.034472,-0.190066,1
+stability ~ SRD,0.041413,0.008358,-0.112885,1
+stability ~ ALL,1.0,1.0,1.0,5

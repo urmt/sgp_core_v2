@@ -1,0 +1,32 @@
+{
+  "phase": "E1",
+  "seed": 3000,
+  "k": 30,
+  "target": "fertility_state_diversity",
+  "n_systems": 5000,
+  "n_domains": 10,
+  "descriptors": [
+    "CSR",
+    "RBS",
+    "ADI",
+    "RTP",
+    "SRD"
+  ],
+  "curvature_metric_means": {
+    "tangent_rotation": 0.93553,
+    "local_curvature": 0.586203,
+    "predictive_shear": 2.910811,
+    "geodesic_instab": 7481.941814,
+    "jacobian_vol": 1.456603,
+    "desc_switch_vel": 0.54392
+  },
+  "curvature_metric_stds": {
+    "tangent_rotation": 0.489359,
+    "local_curvature": 2.336789,
+    "predictive_shear": 21.834704,
+    "geodesic_instab": 135151.49991,
+    "jacobian_vol": 10.605483,
+    "desc_switch_vel": 0.266032
+  },
+  "runtime_seconds": 36
+}

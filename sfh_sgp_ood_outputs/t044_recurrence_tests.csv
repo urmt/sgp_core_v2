@@ -1,0 +1,4 @@
+test,recursive_rate,nonrecursive_rate,effect_size,ci_lo,ci_hi,permutation_p,survived,real_rate,shuffled_rate,null_rate,z_score,p_value
+D_recursive_control,1.0,1.0,0.0,0.0,0.0,1.0,False,,,,,
+E_shuffled_trajectories,,,0.0,0.0,0.0,1.0,False,1.0,1.0,,,
+F_random_walk_null,,,0.00649999999999995,,,,False,1.0,,0.9935,3.611424616438867,0.000304519603647746

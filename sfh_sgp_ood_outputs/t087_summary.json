@@ -1,0 +1,40 @@
+{
+  "audit": "T087 \u2014 Persistence Reversal Verification Audit",
+  "question": "Does T086 genuinely overturn T082, or is there a methodological confound?",
+  "forced_conclusion": "PERSISTENCE IRRELEVANT",
+  "source_of_disagreement": "T082 uses complement-of-all grouping logic for the none-group, creating an empty none-group in the SP phase (n_none=0). This makes delta = all_mean - 0, a spurious measure that captures the all-group's absolute scores, not the incremental contribution of persistence. T086 correctly isolates the marginal effect by holding MC2+MC3+MC4 constant and only varying persistence.",
+  "t082_sp_phase": {
+    "n_all": 5,
+    "n_none": 0,
+    "emergent": [
+      "OC2",
+      "OC1",
+      "CD1",
+      "IC1",
+      "IS1",
+      "IS2",
+      "CD2",
+      "EC1",
+      "SR1"
+    ],
+    "emergent_mechanisms": [
+      "M02",
+      "M03",
+      "M04",
+      "M06"
+    ],
+    "artifact_present": true
+  },
+  "t086_sp_marginal": {
+    "n_all": 5,
+    "n_none": 17,
+    "emergent": [
+      "OC1"
+    ],
+    "artifact_absent": true
+  },
+  "random_subsample_test": {
+    "n_outside_95ci": 3,
+    "interpretation": "SP group consistent with random draw"
+  }
+}

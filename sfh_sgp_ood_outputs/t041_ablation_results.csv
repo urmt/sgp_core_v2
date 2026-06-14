@@ -1,0 +1,7 @@
+condition,distinction_rate,n_trials
+baseline,0.0,500
+no_nonlinearity,0.0,500
+no_feedback,0.0,500
+no_memory,0.0,500
+high_noise,0.0,500
+low_noise,0.0,500

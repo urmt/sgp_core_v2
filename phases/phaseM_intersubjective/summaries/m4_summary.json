@@ -1,0 +1,8 @@
+{
+  "phase": "M4",
+  "mean_perturbation_encoding": 0.5391498145300376,
+  "mean_continuity_transfer": 0.6075830179675484,
+  "mean_signal_transfer_composite": 0.3650820958688058,
+  "same_domain_transfer": 0.4010361231980461,
+  "cross_domain_transfer": 0.34992149804985123
+}

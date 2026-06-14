@@ -1,0 +1,23 @@
+property,invariant_score,invariant_level,dependency,evidence_source,invariant_cluster
+synchronization,0.7326148663755411,MODERATE,distribution,Phase N,3
+closure_correlation,0.0069539318174803,WEAK,trajectory,Phase N,0
+shared_closure_value,0.988423733757916,STRONG,distribution,Phase O,3
+closure_convergence,0.6275543535213564,MODERATE,distribution,Phase O,3
+cross_correlation,0.053232619503613,WEAK,trajectory,Phase O,0
+continuity_through_transition,0.9113924050632912,STRONG,distribution,Phase P,3
+closure_under_no_geometry,0.17,WEAK,structural,"Q3 minimal set (K=0.0, α=0.2)",2
+closure_under_no_synchronization,0.2,WEAK,structural,"Q3 minimal set (K=0.0, α=0.2)",2
+closure_under_no_coupling,0.15,WEAK,structural,"Q3 minimal set (K=0.0, α=0.2)",2
+closure_under_no_timing_precision,0.98,STRONG,structural,"Q3 minimal set (K=0.8, α=0.2)",1
+closure_under_no_topology,0.93,STRONG,structural,"Q3 minimal set (K=0.8, α=0.2)",1
+closure_under_no_closure_cross,0.94,STRONG,structural,"Q3 minimal set (K=0.8, α=0.2)",1
+closure_under_minimal_closure,0.73,STRONG,structural,"Q3 minimal set (K=0.0, α=0.05)",1
+closure_under_minimal_sync_only,0.94,STRONG,structural,"Q3 minimal set (K=0.8, α=0.0)",1
+closure_under_minimal_both,0.69,STRONG,structural,"Q3 minimal set (K=0.3, α=0.1)",1
+persistence_gain,0.1049194512714794,WEAK,transition,Phase O,2
+buffering,0.8834559957718625,STRONG,transition,Phase O,1
+individual_transition_survival,0.736,STRONG,transition,Phase P,1
+shared_transition_survival,0.835,STRONG,transition,Phase P,1
+closure_recovery_under_transition,0.7841294912364021,STRONG,transition,Phase P,1
+reconstruction_probability,0.785,STRONG,transition,Phase P,1
+reconstruction_fidelity,0.5720276350996989,MODERATE,transition,Phase P,2

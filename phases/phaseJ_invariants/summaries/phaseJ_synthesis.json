@@ -1,0 +1,58 @@
+{
+  "phase": "J \u2014 Organizational Invariants",
+  "invariant_hierarchy": {
+    "mean_continuity": {
+      "mean": 0.9622261146496816,
+      "std": 0.021392537479394142
+    },
+    "mean_coherence": {
+      "mean": 0.9600121019108281,
+      "std": 0.033476364318568805
+    },
+    "mean_reconstruction": {
+      "mean": 0.6860229299363058,
+      "std": 0.2291174779487956
+    },
+    "cg_rate": {
+      "mean": 0.6496662420382165,
+      "std": 0.19886229340352649
+    },
+    "mean_fertility": {
+      "mean": 0.6232216560509554,
+      "std": 0.1589848752355084
+    },
+    "mean_recursive_closure": {
+      "mean": 0.6016363057324841,
+      "std": 0.1122046717072492
+    },
+    "mean_reversibility": {
+      "mean": 0.6016363057324841,
+      "std": 0.1122046717072492
+    }
+  },
+  "conservation_classification": {
+    "mixed_collapse": 107,
+    "maintained_CG": 38,
+    "dead_coherence": 12
+  },
+  "recursive_convergence": {
+    "cg_rate_variance_ratio": 0.3074873020080106,
+    "continuity_variance_ratio": 0.13004516984924622
+  },
+  "no_absolute_conservation": {
+    "strongest_operator": "recursive_feedback",
+    "strongest_value": 0.6367,
+    "all_below_085": true
+  },
+  "symmetry": {
+    "composition_symmetry_mean": 1.0,
+    "geometry_cg_correlation": 0.5446428088463128,
+    "form_function_gap": 0.11120573248407642
+  },
+  "nulls": {
+    "n1_shuffled_labels": 2.489915849550349,
+    "n2_shuffled_properties": -0.5209964186625581,
+    "n3_shuffled_pairs": -0.5652186082216211
+  },
+  "primary_conclusion": "1. INVARIANT HIERARCHY (what survives transformation):\n   operator_continuity (0.962) > coherence (0.960) >> reconstruction (0.686) > \n   CG_rate (0.650) > fertility (0.623) > reversibility/closure (0.602)\n\n   Continuity and coherence are NEARLY PERFECT invariants.\n   CG_rate, fertility, reversibility are MODERATELY invariant.\n   \n   Interpretation: The shape of organizational process geometry (continuity,\n   coherence) is deeply conserved. But the capacity for GENERATIVITY \n   (CG_rate, fertility, reversibility) is more fragile.\n\n2. CONSERVATION VS COLLAPSE:\n   - maintained_CG: 24.2% of compositions preserve both geometry and generativity\n   - dead_coherence: 7.6% preserve geometry but lose CG (graph_diffusion + cellular_automata)\n   - mixed_collapse: 68.2% partially disrupt organization\n   \n   The form-function gap (geometry survives 0.111 more than CG) shows that\n   organizational geometry is more robust than generative capacity.\n\n3. RECURSIVE CONVERGENCE:\n   Under repeated composition, organizational properties CONVERGE:\n   - CG_rate variance: shrinks to 30.7% of initial by step 5\n   - Continuity variance: shrinks to 13.0%\n   - Reversibility variance: shrinks to 30.8%\n   \n   The system blends toward an ecosystem average \u2014 identity decays under\n   repeated transformation unless actively maintained.\n\n4. NO ABSOLUTE CONSERVATION LAWS EXIST:\n   The strongest operator (resonance_locking) only preserves 63.7% of CG.\n   No operator conserves CG at > 85% \u2014 CG is genuinely fragile.\n   All operators show a positive form-function gap (geometry outlives generativity).\n\n5. SYMMETRY:\n   Composition is perfectly symmetric \u2014 A\u2218B = B\u2218A for CG preservation.\n   Geometry and CG are correlated (r=0.545) but not identical.\n   Recursive symmetry (A\u2218B\u2218A) could not be tested (no chains with A=C).\n\n6. NULL VERDICT:\n   1/3 nulls survived (shuffled labels) \u2014 ordering within pairs matters slightly.\n   2/3 failed (shuffled properties/pairs) \u2014 invariance patterns are largely\n   consistent with random domain pairings at the ecosystem level.\n\nPRIMARY ANSWER:\n   Organizational process geometry (continuity, coherence) is the DEEPEST\n   invariant \u2014 it survives transformation almost perfectly.\n   But GENERATIVITY is fragile \u2014 it decays under composition, shows no strong\n   conservation law, and requires specific operator configurations.\n   \n   Recursive organizational processes CONVERGE toward ecosystem averages,\n   not toward CG. CG is a SPECIFIC organizational configuration, not an\n   attractor of compositional dynamics.\n   \n   The SFH-SGP hypothesis is partially supported: organizational process\n   geometry is recursively conserved. But coherent GENERATIVITY is not\n   conserved \u2014 it is actively maintained through specific operator\n   configurations (recursive_feedback + resonance_locking at 0.989)."
+}

@@ -1,0 +1,66 @@
+{
+  "n_universes": 10000,
+  "n_detectors": 20,
+  "total_events": 101414,
+  "n_edges": 73,
+  "n_layers": 6,
+  "layers": [
+    [
+      "D01_possibility_reduction",
+      "D04_recurrence",
+      "D08_neighborhood_stability",
+      "D10_symmetry",
+      "D12_closure",
+      "D17_repeatability",
+      "D20_distance_structure"
+    ],
+    [
+      "D02_trajectory_convergence",
+      "D13_composition",
+      "D15_self_reference",
+      "D05_persistence"
+    ],
+    [
+      "D07_forbidden_transitions",
+      "D14_hierarchy",
+      "D09_compression",
+      "D16_scale_invariance",
+      "D18_separability"
+    ],
+    [
+      "D11_symmetry_breaking",
+      "D03_trajectory_divergence"
+    ],
+    [
+      "D19_boundary_formation"
+    ],
+    [
+      "D06_invariant_transitions"
+    ]
+  ],
+  "roots": [
+    "D01_possibility_reduction",
+    "D04_recurrence",
+    "D08_neighborhood_stability",
+    "D10_symmetry",
+    "D12_closure",
+    "D17_repeatability",
+    "D20_distance_structure"
+  ],
+  "leaves": [
+    "D01_possibility_reduction",
+    "D06_invariant_transitions",
+    "D10_symmetry",
+    "D11_symmetry_breaking"
+  ],
+  "coemergent_pairs": 0,
+  "first_structure": [
+    "possibility reduction",
+    "recurrence",
+    "neighborhood stability",
+    "symmetry",
+    "closure",
+    "repeatability",
+    "distance-like structure"
+  ]
+}

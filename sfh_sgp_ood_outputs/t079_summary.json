@@ -1,0 +1,92 @@
+{
+  "audit": "T079 \u2014 Meta-Constraint Inference",
+  "n_constraints": 5,
+  "n_findings": 32,
+  "constraint_ranking": [
+    {
+      "id": "MC3",
+      "name": "Constraint Balance",
+      "total_score": 22,
+      "supports": 22,
+      "contradictions": 0,
+      "robustness": 1.0,
+      "coverage": 0.6875
+    },
+    {
+      "id": "MC2",
+      "name": "Productive Transformation",
+      "total_score": 19,
+      "supports": 19,
+      "contradictions": 0,
+      "robustness": 1.0,
+      "coverage": 0.59375
+    },
+    {
+      "id": "MC5",
+      "name": "Recoverable Perturbation",
+      "total_score": 13,
+      "supports": 13,
+      "contradictions": 0,
+      "robustness": 1.0,
+      "coverage": 0.40625
+    },
+    {
+      "id": "MC4",
+      "name": "Recursive Accessibility",
+      "total_score": 5,
+      "supports": 5,
+      "contradictions": 0,
+      "robustness": 1.0,
+      "coverage": 0.15625
+    },
+    {
+      "id": "MC1",
+      "name": "Information Preservation",
+      "total_score": -5,
+      "supports": 6,
+      "contradictions": 11,
+      "robustness": 0.35294117647058826,
+      "coverage": 0.1875
+    }
+  ],
+  "minimal_constraint_set": null,
+  "minimal_set_size": null,
+  "minimal_set_covers_all": false,
+  "substrate_independent_survivors": [
+    {
+      "id": "MC2",
+      "name": "Productive Transformation",
+      "net": 19
+    },
+    {
+      "id": "MC3",
+      "name": "Constraint Balance",
+      "net": 22
+    },
+    {
+      "id": "MC4",
+      "name": "Recursive Accessibility",
+      "net": 3
+    },
+    {
+      "id": "MC5",
+      "name": "Recoverable Perturbation",
+      "net": 12
+    }
+  ],
+  "substrate_eliminated": [
+    {
+      "id": "MC1",
+      "name": "Information Preservation",
+      "net": -3
+    }
+  ],
+  "best_pair_synergy": {
+    "pair": [
+      "MC2",
+      "MC3"
+    ],
+    "coverage": "26/32"
+  },
+  "conclusion": "The highest-ranked constraint is MC3: Constraint Balance (score=+22). No single minimal set found. After removing substrate-specific findings, 4 constraint(s) survive: MC2, MC3, MC4, MC5."
+}

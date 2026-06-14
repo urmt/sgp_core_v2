@@ -1,0 +1,52 @@
+[
+  {
+    "step": 1,
+    "operator": "op_competitive_exclusion",
+    "cumulative_var_explained": 0.554897634061987
+  },
+  {
+    "step": 2,
+    "operator": "op_hierarchical_nesting",
+    "cumulative_var_explained": 0.6352365304140071
+  },
+  {
+    "step": 3,
+    "operator": "op_recursive_feedback",
+    "cumulative_var_explained": 0.6863110213634955
+  },
+  {
+    "step": 4,
+    "operator": "dominant_operator",
+    "cumulative_var_explained": 0.7309822611544758
+  },
+  {
+    "step": 5,
+    "operator": "op_synchronization",
+    "cumulative_var_explained": 0.7639752902326156
+  },
+  {
+    "step": 6,
+    "operator": "op_branching",
+    "cumulative_var_explained": 0.8086922934977796
+  },
+  {
+    "step": 7,
+    "operator": "op_resonance_locking",
+    "cumulative_var_explained": 0.8560442577646132
+  },
+  {
+    "step": 8,
+    "operator": "op_9",
+    "cumulative_var_explained": 0.9171137817847367
+  },
+  {
+    "step": 9,
+    "operator": "op_constraint_propagation",
+    "cumulative_var_explained": 0.9483631443084644
+  },
+  {
+    "step": 10,
+    "operator": "op_diffusion",
+    "cumulative_var_explained": 1.0
+  }
+]

@@ -1,0 +1,39 @@
+{
+    "phase": "H",
+    "title": "Causal Organizational Control",
+    "objective": "Determine whether coherent-generative organizational regimes can be caused, stabilized, destabilized, or transitioned through controlled intervention.",
+    "seed": 3000,
+    "scripts": [
+        "phaseH1H2_interventions.py",
+        "phaseH3H4H5_maps_attractors.py",
+        "phaseH6H7H8_destruction_transfer_nulls.py",
+        "phaseH_synthesis.py"
+    ],
+    "outputs": {
+        "intervention_results.csv": "19615 simulated descriptor perturbations across 10 domains",
+        "regime_transition_maps.csv": "540 transition probability entries P(regime_B | intervention_A)",
+        "attractor_analysis.csv": "31 regime attractor entries with self-transition and escape probabilities",
+        "metastability_metrics.csv": "10 per-domain metastability entropy and hysteresis scores",
+        "minimal_conditions.csv": "2372 CG-entry interventions (transitions to constrained generativity from non-CG)",
+        "destruction_tests.csv": "26 destructive intervention entries (CG → non-CG)",
+        "causal_transfer.csv": "15 cross-family causality transfer entries across 3 geometry clusters",
+        "null_controls.csv": "100 null iterations across 3 null types",
+        "phaseH_summary.json": "Complete phase summary with interpretation"
+    },
+    "key_findings": {
+        "cg_inducibility": "CG is causally inducible in 6/10 domains but inaccessible in 4 (cellular_automata, graph_diffusion, lotka_volterra, replicator).",
+        "best_triggers": "Most effective interventions: nonlinear_oscillator-RTP (48.2% CG entry), gray_scott-CSR (35.2%), kuramoto-SRD (31.3%).",
+        "attractor_structure": "CG is NOT an attractor (self-transition=0.36, escape=0.64). Chaotic_fertility is strongest attractor (self=0.57).",
+        "destruction": "RBS perturbation is the single most destructive intervention across 5/6 CG-capable domains.",
+        "transfer_failure": "Causal effects do NOT transfer across geometry clusters. Cluster 2 has highest within-cluster variance (ratio=2.95-4.40).",
+        "null_survival": "RTP and ADI survive random-descriptor null (z=4.07, -2.63). CSR, RBS, SRD are indistinguishable from random perturbations.",
+        "hysteresis": "Global hysteresis asymmetry ranges from -2.53 (branching) to 0.18 (gray_scott), indicating mostly reversible transitions.",
+        "primary_conclusion": "Coherent-generative regimes can be causally induced in some domains but are not stable attractors. Causality is family-specific, not universal."
+    },
+    "files": {
+        "phaseH1H2_interventions.py": "Target regime identification + matched-pair perturbation simulation",
+        "phaseH3H4H5_maps_attractors.py": "Transition probability maps, attractor analysis, minimal conditions search",
+        "phaseH6H7H8_destruction_transfer_nulls.py": "Destruction tests, cross-family causality transfer, null program",
+        "phaseH_synthesis.py": "Aggregation, verification, unified interpretation"
+    }
+}

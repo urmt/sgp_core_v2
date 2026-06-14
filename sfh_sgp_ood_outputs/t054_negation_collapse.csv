@@ -1,0 +1,11 @@
+statement_id,original,survives,imports
+N01,Geometry emergence was not demonstrated.,False,"identity, comparison, distinction, memory"
+N02,Distinction emergence was not demonstrated without hidden assumptions.,False,"identity, comparison, distinction, memory"
+N03,Recurrence was not demonstrated to be non-artifactual.,False,"identity, comparison, distinction, memory"
+N04,Convergence was not demonstrated without detector contamination.,False,"identity, comparison, distinction, memory"
+N05,No primitive was found that survives full assumption audit.,False,"distinction, memory, comparison, ordering, identity"
+N06,The dependency graph among primitives contains circular chains.,False,"identity, distinction"
+N07,"All 45 detectors import comparison, arithmetic, and distinction.",True,none
+N08,The gap between model requirements and observation requirements cannot be closed.,False,"identity, comparison, distinction, ordering"
+N09,No statement from T037-T050 about 'what exists' survived audit.,False,"distinction, memory, comparison, ordering, identity"
+N10,The only surviving statements are methodological records.,True,none

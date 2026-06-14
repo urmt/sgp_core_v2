@@ -1,0 +1,11 @@
+{
+  "n_candidates_tested": 10,
+  "n_survived": 0,
+  "n_failed": 10,
+  "surviving_candidates": [],
+  "system_attempt_steps": 7,
+  "first_distinction_point": 2,
+  "first_distinction_action": "Introduce \u03a9 (possibility of interaction)",
+  "first_distinction_note": "Stating '\u03a9 exists' distinguishes \u03a9 from non-existence. The very act of introduction creates distinction.",
+  "conclusion": "Every candidate secretly reintroduces distinction"
+}

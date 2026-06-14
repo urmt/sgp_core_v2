@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: paper.aux
+The style file: aipnum4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: paperNotes.bib
+Database file #2: references.bib
+Warning--jnrlst (dependency: not reversed) set 1
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs aipnum4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--missing journal in cover1991elements
+Warning--missing journal in brunton2021data
+Warning--missing journal in kutz2017dynamic
+You've used 69 entries,
+            5918 wiz_defined-function locations,
+            1997 strings with 24363 characters,
+and the built_in function-call counts, 57993 in all, are:
+= -- 3987
+> -- 1484
+< -- 315
++ -- 519
+- -- 362
+* -- 8090
+:= -- 6530
+add.period$ -- 69
+call.type$ -- 69
+change.case$ -- 278
+chr.to.int$ -- 75
+cite$ -- 72
+duplicate$ -- 5418
+empty$ -- 4397
+format.name$ -- 719
+if$ -- 11287
+int.to.chr$ -- 1
+int.to.str$ -- 78
+missing$ -- 702
+newline$ -- 259
+num.names$ -- 207
+pop$ -- 2567
+preamble$ -- 1
+purify$ -- 345
+quote$ -- 0
+skip$ -- 2124
+stack$ -- 0
+substring$ -- 1420
+swap$ -- 4762
+text.length$ -- 126
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 878
+warning$ -- 4
+while$ -- 259
+width$ -- 0
+write$ -- 581
+(There were 4 warnings)

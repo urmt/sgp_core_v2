@@ -1,0 +1,129 @@
+{
+  "migrations": [
+    {
+      "audit": "RD-10B.3",
+      "what_was_explained": "architectural motifs",
+      "what_became_explanatory": "detector time-series properties",
+      "fixed_variable_exposed": "detector choice",
+      "mapping_replaced": "world \u2192 detector \u2192 motif",
+      "category": "object \u2192 method"
+    },
+    {
+      "audit": "RD-10B.0",
+      "what_was_explained": "motifs",
+      "what_became_explanatory": "world-representation pair",
+      "fixed_variable_exposed": "representation choice",
+      "mapping_replaced": "world \u2194 representation",
+      "category": "object \u2192 mapping"
+    },
+    {
+      "audit": "RD-10B.0A",
+      "what_was_explained": "world identity",
+      "what_became_explanatory": "correspondence quality",
+      "fixed_variable_exposed": "representation pair",
+      "mapping_replaced": "representation\u2081 \u2194 representation\u2082",
+      "category": "object \u2192 mapping"
+    },
+    {
+      "audit": "RD-10B.0B",
+      "what_was_explained": "\"same world\"",
+      "what_became_explanatory": "identity criteria",
+      "fixed_variable_exposed": "criterion choice",
+      "mapping_replaced": "criterion \u2194 purpose",
+      "category": "object \u2192 tool"
+    },
+    {
+      "audit": "RD-10B.0C",
+      "what_was_explained": "identity criteria",
+      "what_became_explanatory": "task-purpose correspondence",
+      "fixed_variable_exposed": "task definition",
+      "mapping_replaced": "task \u2194 criterion",
+      "category": "tool \u2192 pragmatics"
+    },
+    {
+      "audit": "RD-10B.0D",
+      "what_was_explained": "causal identity",
+      "what_became_explanatory": "failure modes",
+      "fixed_variable_exposed": "causal criterion",
+      "mapping_replaced": "criterion \u2194 failure conditions",
+      "category": "tool \u2192 meta-tool"
+    },
+    {
+      "audit": "RD-10B.0E",
+      "what_was_explained": "criterion domains",
+      "what_became_explanatory": "domain specificity",
+      "fixed_variable_exposed": "domain boundaries",
+      "mapping_replaced": "criterion \u2194 domain",
+      "category": "tool \u2192 structure"
+    },
+    {
+      "audit": "RD-10B.0F",
+      "what_was_explained": "world behavior",
+      "what_became_explanatory": "hidden world assumptions",
+      "fixed_variable_exposed": "world construction",
+      "mapping_replaced": "world \u2194 assumptions",
+      "category": "object \u2192 meta-object"
+    },
+    {
+      "audit": "RD-10B.X",
+      "what_was_explained": "recursion as junction",
+      "what_became_explanatory": "vocabulary independence",
+      "fixed_variable_exposed": "vocabulary choice",
+      "mapping_replaced": "bottom-up chain \u2194 top-down chain",
+      "category": "object \u2192 mapping"
+    },
+    {
+      "audit": "RD-10B.J4",
+      "what_was_explained": "four independent junctions",
+      "what_became_explanatory": "dependency structure",
+      "fixed_variable_exposed": "junction independence assumption",
+      "mapping_replaced": "junction \u2194 junction",
+      "category": "objects \u2192 relations"
+    },
+    {
+      "audit": "RD-10B.J6",
+      "what_was_explained": "distinction as generator",
+      "what_became_explanatory": "decomposition dependence",
+      "fixed_variable_exposed": "decomposition choice",
+      "mapping_replaced": "decomposition\u2081 \u2194 decomposition\u2082",
+      "category": "object \u2192 mapping"
+    },
+    {
+      "audit": "RD-10B.J7",
+      "what_was_explained": "isomorphism class",
+      "what_became_explanatory": "translation structure",
+      "fixed_variable_exposed": "isomorphism definition",
+      "mapping_replaced": "generator\u2081 \u2194 generator\u2082",
+      "category": "structure \u2192 mapping"
+    },
+    {
+      "audit": "RD-10B.J8",
+      "what_was_explained": "translation invariants",
+      "what_became_explanatory": "translation itself",
+      "fixed_variable_exposed": "invariant definition",
+      "mapping_replaced": "decomposition \u2194 invariants",
+      "category": "structure \u2192 mapping"
+    },
+    {
+      "audit": "RD-10B.M1",
+      "what_was_explained": "migration pattern",
+      "what_became_explanatory": "methodology changes",
+      "fixed_variable_exposed": "methodology",
+      "mapping_replaced": "methodology \u2194 explanation",
+      "category": "pattern \u2192 method"
+    }
+  ],
+  "categories": {
+    "object \u2192 method": 1,
+    "object \u2192 mapping": 4,
+    "object \u2192 tool": 1,
+    "tool \u2192 pragmatics": 1,
+    "tool \u2192 meta-tool": 1,
+    "tool \u2192 structure": 1,
+    "object \u2192 meta-object": 1,
+    "objects \u2192 relations": 1,
+    "structure \u2192 mapping": 2,
+    "pattern \u2192 method": 1
+  },
+  "verdict": "oscillation_objects_mappings"
+}

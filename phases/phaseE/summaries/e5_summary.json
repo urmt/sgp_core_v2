@@ -1,0 +1,17 @@
+{
+  "phase": "E5",
+  "seed": 3000,
+  "k_default": 30,
+  "true_r2": 0.184663,
+  "null1_covariance": -0.013352,
+  "null2_k_default": 0.151698,
+  "null3_raw": 0.072779,
+  "null3_standardized": 0.184663,
+  "null4_random_manifold_mean": -0.015267,
+  "null4_random_manifold_std": 0.007962,
+  "null5_within_domain": 0.214078,
+  "null5_cross_domain": -16836794119651.521,
+  "null_survive_count": 5,
+  "verdict": "SURVIVES \u2014 curvature captures genuine geometric structure",
+  "runtime": 0
+}

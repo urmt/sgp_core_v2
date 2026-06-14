@@ -1,0 +1,8 @@
+director_class,director_label,my_modes_mapped,domains_present,n_domains,universality,definition
+F1,Trivialization,CT;LG,A — Physical universes;B — Mathematical systems;C — Recursive substrate;D — Dynamical manifolds,4,UNIVERSAL,System becomes incapable of producing novelty
+F2,Incoherence,CC;FR,A — Physical universes;B — Mathematical systems;C — Recursive substrate;D — Dynamical manifolds,4,UNIVERSAL,Internal relationships become mutually destructive
+F3,Fragmentation,FR,A — Physical universes;B — Mathematical systems;C — Recursive substrate;D — Dynamical manifolds,4,UNIVERSAL,System separates into disconnected regions that cannot interact
+F4,Runaway Divergence,RD,B — Mathematical systems;D — Dynamical manifolds,2,contingent,Perturbations amplify without bound
+F5,Information Loss,LG;LD;LP;LR,A — Physical universes;B — Mathematical systems;C — Recursive substrate;D — Dynamical manifolds,4,UNIVERSAL,System can no longer preserve meaningful structure
+F6,Self-Reference Failure,(F6 independent),A — Physical universes;B — Mathematical systems;C — Recursive substrate;D — Dynamical manifolds,4,UNIVERSAL,System cannot successfully incorporate itself into its own operations
+F6,Self-Reference Failure,(backfilled — not in original 8-mode taxonomy),A — Physical universes;B — Mathematical systems;C — Recursive substrate;D — Dynamical manifolds,4,UNIVERSAL,System cannot successfully incorporate itself into its own operations

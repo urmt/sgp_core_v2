@@ -1,0 +1,83 @@
+{
+  "n_systems": 211,
+  "n_families": 13,
+  "families": [
+    "branching",
+    "ca",
+    "gbm",
+    "henon",
+    "ising",
+    "kuramoto",
+    "logistic",
+    "lorenz",
+    "lotka",
+    "markov",
+    "rbn",
+    "reaction",
+    "sandpile"
+  ],
+  "n_targets": 5,
+  "targets": [
+    "spectral_entropy",
+    "mean_curvature",
+    "local_dim",
+    "laminarity",
+    "divergence_rate"
+  ],
+  "manifold_dimensions": 4,
+  "mean_phi_r2": -1.1104197589575944,
+  "mean_surrogate_r2": -2.719198620406524,
+  "mean_features_r2": -1.7465032802794511,
+  "mean_family_mean_r2": 0.2732194801063633,
+  "targets_beat_surrogate": 5,
+  "targets_beat_features": 3,
+  "targets_significant": 0,
+  "permutation_p_values": {
+    "spectral_entropy": 0.3,
+    "mean_curvature": 0.88,
+    "local_dim": 1.0,
+    "laminarity": 0.99,
+    "divergence_rate": 1.0
+  },
+  "bootstrap_ci": {
+    "spectral_entropy": {
+      "mean_r2": -0.24554219448318396,
+      "std_r2": 0.13939595119197584,
+      "ci_95_lo": -0.5236737774185327,
+      "ci_95_hi": 0.06089710008234965
+    },
+    "mean_curvature": {
+      "mean_r2": -0.7720116853697913,
+      "std_r2": 0.3086167984291563,
+      "ci_95_lo": -1.4094056098326249,
+      "ci_95_hi": -0.24943911229978283
+    },
+    "local_dim": {
+      "mean_r2": -2.582936682809755,
+      "std_r2": 1.6212667092852864,
+      "ci_95_lo": -5.857311342756113,
+      "ci_95_hi": -0.32101110214175055
+    },
+    "laminarity": {
+      "mean_r2": -1.3577940210378017,
+      "std_r2": 1.0589681351594882,
+      "ci_95_lo": -4.585172963607787,
+      "ci_95_hi": -0.0986899558458314
+    },
+    "divergence_rate": {
+      "mean_r2": -1.1564873923472385,
+      "std_r2": 0.24390545706112024,
+      "ci_95_lo": -1.5910119521241397,
+      "ci_95_hi": -0.6758203108635761
+    }
+  },
+  "transfer_advantage": {
+    "spectral_entropy": 0.39163230468179777,
+    "mean_curvature": 0.9166294521685877,
+    "local_dim": 3.395867026914476,
+    "laminarity": 2.821145092566618,
+    "divergence_rate": 0.5186204309131675
+  },
+  "success_criterion": "mean_TA > 0 AND >=3 targets p<0.01 AND mean_R2_phi > mean_R2_family_mean",
+  "success_met": false
+}

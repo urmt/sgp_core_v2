@@ -1,0 +1,2 @@
+phase,mean_flow_alignment,mean_flow_magnitude,max_flow_magnitude,flow_stability_corr,verdict
+512,0.001102333693857953,1.8404387130316884,4.166755775031641,-0.32352844645813733,DISORDERED-FLOW-SPACE

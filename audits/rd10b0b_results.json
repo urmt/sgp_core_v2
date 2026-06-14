@@ -1,0 +1,107 @@
+{
+  "world_0 \u2194 world_1": {
+    "predictive": 0.1398501412540223,
+    "intervention": 0.9218248875949777,
+    "counterfactual": 0.23189902308386973,
+    "information": 0.98237311010491,
+    "causal": 0.9999299982199421
+  },
+  "world_0 \u2194 world_2": {
+    "predictive": 0.12571319761099675,
+    "intervention": 0.6230393601041017,
+    "counterfactual": 0.5570585910321383,
+    "information": 0.9934327278867264,
+    "causal": 0.9986437123044257
+  },
+  "world_0 \u2194 world_3": {
+    "predictive": 0.17640957017852354,
+    "intervention": 0.8078972800353795,
+    "counterfactual": 0.16106994110611192,
+    "information": 0.9965680192566402,
+    "causal": 0.9785740662887096
+  },
+  "world_0 \u2194 world_4": {
+    "predictive": 0.21204770362142078,
+    "intervention": 0.8100807142000427,
+    "counterfactual": 0.5828453599834326,
+    "information": 0.9656789382774411,
+    "causal": 0.9997921894646171
+  },
+  "world_0 \u2194 world_5": {
+    "predictive": 0.16851267600386743,
+    "intervention": 0.8666457717204125,
+    "counterfactual": 0.0650968986487091,
+    "information": 0.9914507604823006,
+    "causal": 0.9672629567174724
+  },
+  "world_1 \u2194 world_2": {
+    "predictive": 0.7063170577177525,
+    "intervention": 0.6671555473383267,
+    "counterfactual": 0.09547022649960256,
+    "information": 0.9759215985740882,
+    "causal": 0.9990532833644014
+  },
+  "world_1 \u2194 world_3": {
+    "predictive": 0.33921137258561396,
+    "intervention": 0.8277667632253749,
+    "counterfactual": 0.06552925989193024,
+    "information": 0.9790016245082356,
+    "causal": 0.9805870592427847
+  },
+  "world_1 \u2194 world_4": {
+    "predictive": 0.278772519211707,
+    "intervention": 0.8046643451521435,
+    "counterfactual": 0.33572290859713244,
+    "information": 0.9486570219584173,
+    "causal": 0.9999386967674361
+  },
+  "world_1 \u2194 world_5": {
+    "predictive": 0.3510855974120545,
+    "intervention": 0.8141705610044817,
+    "counterfactual": 0.30833051645290105,
+    "information": 0.9908440734132126,
+    "causal": 0.9698313998819633
+  },
+  "world_2 \u2194 world_3": {
+    "predictive": 0.29755891675724677,
+    "intervention": 0.8996019985792566,
+    "counterfactual": 0.37729490385326636,
+    "information": 0.9968539113143,
+    "causal": 0.9878438705210547
+  },
+  "world_2 \u2194 world_4": {
+    "predictive": 0.26503128474605264,
+    "intervention": 0.9540098623775737,
+    "counterfactual": 0.547135713122894,
+    "information": 0.9720627387942772,
+    "causal": 0.9994685368096107
+  },
+  "world_2 \u2194 world_5": {
+    "predictive": 0.29159835067221107,
+    "intervention": 0.34569279469727593,
+    "counterfactual": 0.11700856776214066,
+    "information": 0.9849396335513013,
+    "causal": 0.9788595137405021
+  },
+  "world_3 \u2194 world_4": {
+    "predictive": 0.463453794885609,
+    "intervention": 0.9351287590670161,
+    "counterfactual": 0.09095360436687498,
+    "information": 0.9690045432099659,
+    "causal": 0.9825510551538863
+  },
+  "world_3 \u2194 world_5": {
+    "predictive": 0.7019399605367334,
+    "intervention": 0.6184437422450458,
+    "counterfactual": 0.21636344789233544,
+    "information": 0.9880481205643359,
+    "causal": 0.9986828298980376
+  },
+  "world_4 \u2194 world_5": {
+    "predictive": 0.620461329473917,
+    "intervention": 0.539600056581021,
+    "counterfactual": 0.12410641560839607,
+    "information": 0.9574231177369097,
+    "causal": 0.9722276456647121
+  }
+}

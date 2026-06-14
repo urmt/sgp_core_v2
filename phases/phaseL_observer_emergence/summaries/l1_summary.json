@@ -1,0 +1,23 @@
+{
+  "phase": "L1",
+  "n_systems": 5000,
+  "mean_self_reference_composite": 0.2346842973235625,
+  "top_organizational_predictor": "recursive_identity_score",
+  "top_predictor_r": 0.9625199685376994,
+  "sr_metrics": {
+    "self_prediction": 0.25734124244000006,
+    "internal_continuity": 0.9266877923579999,
+    "self_model_consistency": 0.068216033058,
+    "closure_adaptation": 0.064170973096,
+    "forecast_stability": 0.03629116716764,
+    "self_alignment": 0.21968142045265304,
+    "temporal_self_coherence": 0.0124450328,
+    "perturbation_anticipation": 0.03260441255591054
+  },
+  "regime_means": {
+    "CG": 0.43637296147379884,
+    "CH": 0.21818668106571587,
+    "RG": 0.17748720333713452,
+    "CL": 0.15550622176897322
+  }
+}

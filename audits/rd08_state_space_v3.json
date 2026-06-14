@@ -1,0 +1,3002 @@
+[
+  {
+    "noise": 0.01,
+    "rep": 0,
+    "C": 0.3915,
+    "fertility": 1.0,
+    "jitter": 12.62,
+    "persistence": 75.0,
+    "adaptability": 0.4478,
+    "phase_sync": -0.0153
+  },
+  {
+    "noise": 0.01,
+    "rep": 1,
+    "C": 0.5525,
+    "fertility": 1.0,
+    "jitter": 10.68,
+    "persistence": 200.0,
+    "adaptability": 0.6022,
+    "phase_sync": -0.0118
+  },
+  {
+    "noise": 0.01,
+    "rep": 2,
+    "C": 0.4026,
+    "fertility": 1.0,
+    "jitter": 13.0,
+    "persistence": 100.0,
+    "adaptability": 0.4151,
+    "phase_sync": -0.0154
+  },
+  {
+    "noise": 0.01,
+    "rep": 3,
+    "C": 0.364,
+    "fertility": 1.0,
+    "jitter": 14.17,
+    "persistence": 50.0,
+    "adaptability": 0.3954,
+    "phase_sync": -0.0151
+  },
+  {
+    "noise": 0.01,
+    "rep": 4,
+    "C": 0.4443,
+    "fertility": 1.0,
+    "jitter": 12.61,
+    "persistence": 100.0,
+    "adaptability": 0.4612,
+    "phase_sync": -0.0171
+  },
+  {
+    "noise": 0.01,
+    "rep": 5,
+    "C": 0.4812,
+    "fertility": 1.0,
+    "jitter": 11.81,
+    "persistence": 75.0,
+    "adaptability": 0.475,
+    "phase_sync": -0.0084
+  },
+  {
+    "noise": 0.01,
+    "rep": 6,
+    "C": 0.4768,
+    "fertility": 1.0,
+    "jitter": 10.77,
+    "persistence": 50.0,
+    "adaptability": 0.4763,
+    "phase_sync": -0.0136
+  },
+  {
+    "noise": 0.01,
+    "rep": 7,
+    "C": 0.432,
+    "fertility": 1.0,
+    "jitter": 13.43,
+    "persistence": 200.0,
+    "adaptability": 0.4934,
+    "phase_sync": -0.0161
+  },
+  {
+    "noise": 0.01,
+    "rep": 8,
+    "C": 0.4232,
+    "fertility": 1.0,
+    "jitter": 14.17,
+    "persistence": 150.0,
+    "adaptability": 0.433,
+    "phase_sync": -0.0179
+  },
+  {
+    "noise": 0.01,
+    "rep": 9,
+    "C": 0.4355,
+    "fertility": 1.0,
+    "jitter": 13.31,
+    "persistence": 100.0,
+    "adaptability": 0.443,
+    "phase_sync": -0.0137
+  },
+  {
+    "noise": 0.0122,
+    "rep": 0,
+    "C": 0.449,
+    "fertility": 1.0,
+    "jitter": 13.36,
+    "persistence": 150.0,
+    "adaptability": 0.4511,
+    "phase_sync": -0.0142
+  },
+  {
+    "noise": 0.0122,
+    "rep": 1,
+    "C": 0.3923,
+    "fertility": 1.0,
+    "jitter": 13.67,
+    "persistence": 175.0,
+    "adaptability": 0.4784,
+    "phase_sync": -0.015
+  },
+  {
+    "noise": 0.0122,
+    "rep": 2,
+    "C": 0.437,
+    "fertility": 1.0,
+    "jitter": 12.37,
+    "persistence": 150.0,
+    "adaptability": 0.4384,
+    "phase_sync": -0.0168
+  },
+  {
+    "noise": 0.0122,
+    "rep": 3,
+    "C": 0.419,
+    "fertility": 1.0,
+    "jitter": 12.93,
+    "persistence": 100.0,
+    "adaptability": 0.4514,
+    "phase_sync": -0.0093
+  },
+  {
+    "noise": 0.0122,
+    "rep": 4,
+    "C": 0.4526,
+    "fertility": 1.0,
+    "jitter": 11.16,
+    "persistence": 175.0,
+    "adaptability": 0.4932,
+    "phase_sync": -0.0161
+  },
+  {
+    "noise": 0.0122,
+    "rep": 5,
+    "C": 0.4138,
+    "fertility": 1.0,
+    "jitter": 14.07,
+    "persistence": 125.0,
+    "adaptability": 0.4181,
+    "phase_sync": -0.0152
+  },
+  {
+    "noise": 0.0122,
+    "rep": 6,
+    "C": 0.4648,
+    "fertility": 1.0,
+    "jitter": 12.57,
+    "persistence": 200.0,
+    "adaptability": 0.4777,
+    "phase_sync": -0.0161
+  },
+  {
+    "noise": 0.0122,
+    "rep": 7,
+    "C": 0.3534,
+    "fertility": 1.0,
+    "jitter": 13.43,
+    "persistence": 75.0,
+    "adaptability": 0.3868,
+    "phase_sync": -0.0163
+  },
+  {
+    "noise": 0.0122,
+    "rep": 8,
+    "C": 0.3904,
+    "fertility": 1.0,
+    "jitter": 14.6,
+    "persistence": 200.0,
+    "adaptability": 0.3622,
+    "phase_sync": 0.0016
+  },
+  {
+    "noise": 0.0122,
+    "rep": 9,
+    "C": 0.3894,
+    "fertility": 1.0,
+    "jitter": 14.28,
+    "persistence": 50.0,
+    "adaptability": 0.4202,
+    "phase_sync": -0.0179
+  },
+  {
+    "noise": 0.0149,
+    "rep": 0,
+    "C": 0.4457,
+    "fertility": 1.0,
+    "jitter": 12.76,
+    "persistence": 75.0,
+    "adaptability": 0.5069,
+    "phase_sync": -0.0112
+  },
+  {
+    "noise": 0.0149,
+    "rep": 1,
+    "C": 0.3957,
+    "fertility": 1.0,
+    "jitter": 12.85,
+    "persistence": 175.0,
+    "adaptability": 0.4766,
+    "phase_sync": -0.016
+  },
+  {
+    "noise": 0.0149,
+    "rep": 2,
+    "C": 0.4306,
+    "fertility": 1.0,
+    "jitter": 12.98,
+    "persistence": 175.0,
+    "adaptability": 0.4111,
+    "phase_sync": -0.0063
+  },
+  {
+    "noise": 0.0149,
+    "rep": 3,
+    "C": 0.5013,
+    "fertility": 1.0,
+    "jitter": 11.46,
+    "persistence": 125.0,
+    "adaptability": 0.5293,
+    "phase_sync": -0.0096
+  },
+  {
+    "noise": 0.0149,
+    "rep": 4,
+    "C": 0.4541,
+    "fertility": 1.0,
+    "jitter": 10.89,
+    "persistence": 75.0,
+    "adaptability": 0.4585,
+    "phase_sync": -0.0171
+  },
+  {
+    "noise": 0.0149,
+    "rep": 5,
+    "C": 0.4054,
+    "fertility": 1.0,
+    "jitter": 13.72,
+    "persistence": 50.0,
+    "adaptability": 0.459,
+    "phase_sync": -0.0143
+  },
+  {
+    "noise": 0.0149,
+    "rep": 6,
+    "C": 0.4384,
+    "fertility": 1.0,
+    "jitter": 12.59,
+    "persistence": 125.0,
+    "adaptability": 0.4141,
+    "phase_sync": -0.0027
+  },
+  {
+    "noise": 0.0149,
+    "rep": 7,
+    "C": 0.4381,
+    "fertility": 1.0,
+    "jitter": 12.87,
+    "persistence": 200.0,
+    "adaptability": 0.4812,
+    "phase_sync": -0.0161
+  },
+  {
+    "noise": 0.0149,
+    "rep": 8,
+    "C": 0.4222,
+    "fertility": 1.0,
+    "jitter": 13.49,
+    "persistence": 75.0,
+    "adaptability": 0.4408,
+    "phase_sync": -0.0127
+  },
+  {
+    "noise": 0.0149,
+    "rep": 9,
+    "C": 0.4954,
+    "fertility": 1.0,
+    "jitter": 13.05,
+    "persistence": 150.0,
+    "adaptability": 0.4529,
+    "phase_sync": -0.018
+  },
+  {
+    "noise": 0.0181,
+    "rep": 0,
+    "C": 0.4225,
+    "fertility": 1.0,
+    "jitter": 12.91,
+    "persistence": 75.0,
+    "adaptability": 0.4925,
+    "phase_sync": -0.0165
+  },
+  {
+    "noise": 0.0181,
+    "rep": 1,
+    "C": 0.4561,
+    "fertility": 1.0,
+    "jitter": 12.49,
+    "persistence": 200.0,
+    "adaptability": 0.4508,
+    "phase_sync": -0.016
+  },
+  {
+    "noise": 0.0181,
+    "rep": 2,
+    "C": 0.494,
+    "fertility": 1.0,
+    "jitter": 12.19,
+    "persistence": 175.0,
+    "adaptability": 0.5353,
+    "phase_sync": -0.016
+  },
+  {
+    "noise": 0.0181,
+    "rep": 3,
+    "C": 0.4746,
+    "fertility": 1.0,
+    "jitter": 14.36,
+    "persistence": 200.0,
+    "adaptability": 0.3872,
+    "phase_sync": -0.0173
+  },
+  {
+    "noise": 0.0181,
+    "rep": 4,
+    "C": 0.4397,
+    "fertility": 1.0,
+    "jitter": 13.47,
+    "persistence": 200.0,
+    "adaptability": 0.4527,
+    "phase_sync": -0.0031
+  },
+  {
+    "noise": 0.0181,
+    "rep": 5,
+    "C": 0.423,
+    "fertility": 1.0,
+    "jitter": 12.5,
+    "persistence": 175.0,
+    "adaptability": 0.4296,
+    "phase_sync": -0.0111
+  },
+  {
+    "noise": 0.0181,
+    "rep": 6,
+    "C": 0.3801,
+    "fertility": 1.0,
+    "jitter": 15.12,
+    "persistence": 50.0,
+    "adaptability": 0.3447,
+    "phase_sync": -0.0175
+  },
+  {
+    "noise": 0.0181,
+    "rep": 7,
+    "C": 0.3948,
+    "fertility": 1.0,
+    "jitter": 14.42,
+    "persistence": 125.0,
+    "adaptability": 0.3776,
+    "phase_sync": -0.0148
+  },
+  {
+    "noise": 0.0181,
+    "rep": 8,
+    "C": 0.5155,
+    "fertility": 1.0,
+    "jitter": 11.24,
+    "persistence": 225.0,
+    "adaptability": 0.4919,
+    "phase_sync": -0.015
+  },
+  {
+    "noise": 0.0181,
+    "rep": 9,
+    "C": 0.446,
+    "fertility": 1.0,
+    "jitter": 12.6,
+    "persistence": 200.0,
+    "adaptability": 0.4623,
+    "phase_sync": -0.0149
+  },
+  {
+    "noise": 0.0221,
+    "rep": 0,
+    "C": 0.4514,
+    "fertility": 1.0,
+    "jitter": 12.48,
+    "persistence": 150.0,
+    "adaptability": 0.4467,
+    "phase_sync": -0.0136
+  },
+  {
+    "noise": 0.0221,
+    "rep": 1,
+    "C": 0.4033,
+    "fertility": 1.0,
+    "jitter": 12.5,
+    "persistence": 100.0,
+    "adaptability": 0.4545,
+    "phase_sync": -0.014
+  },
+  {
+    "noise": 0.0221,
+    "rep": 2,
+    "C": 0.4407,
+    "fertility": 1.0,
+    "jitter": 12.74,
+    "persistence": 75.0,
+    "adaptability": 0.4917,
+    "phase_sync": -0.0156
+  },
+  {
+    "noise": 0.0221,
+    "rep": 3,
+    "C": 0.4699,
+    "fertility": 1.0,
+    "jitter": 12.91,
+    "persistence": 150.0,
+    "adaptability": 0.5274,
+    "phase_sync": 0.0076
+  },
+  {
+    "noise": 0.0221,
+    "rep": 4,
+    "C": 0.5375,
+    "fertility": 1.0,
+    "jitter": 12.23,
+    "persistence": 225.0,
+    "adaptability": 0.5382,
+    "phase_sync": -0.0126
+  },
+  {
+    "noise": 0.0221,
+    "rep": 5,
+    "C": 0.4656,
+    "fertility": 1.0,
+    "jitter": 14.66,
+    "persistence": 75.0,
+    "adaptability": 0.4259,
+    "phase_sync": -0.0157
+  },
+  {
+    "noise": 0.0221,
+    "rep": 6,
+    "C": 0.5011,
+    "fertility": 1.0,
+    "jitter": 12.05,
+    "persistence": 200.0,
+    "adaptability": 0.511,
+    "phase_sync": -0.007
+  },
+  {
+    "noise": 0.0221,
+    "rep": 7,
+    "C": 0.4015,
+    "fertility": 1.0,
+    "jitter": 14.54,
+    "persistence": 125.0,
+    "adaptability": 0.3848,
+    "phase_sync": -0.0125
+  },
+  {
+    "noise": 0.0221,
+    "rep": 8,
+    "C": 0.4685,
+    "fertility": 1.0,
+    "jitter": 12.7,
+    "persistence": 125.0,
+    "adaptability": 0.4248,
+    "phase_sync": -0.0082
+  },
+  {
+    "noise": 0.0221,
+    "rep": 9,
+    "C": 0.4178,
+    "fertility": 1.0,
+    "jitter": 13.57,
+    "persistence": 175.0,
+    "adaptability": 0.3878,
+    "phase_sync": -0.0169
+  },
+  {
+    "noise": 0.027,
+    "rep": 0,
+    "C": 0.4996,
+    "fertility": 1.0,
+    "jitter": 11.7,
+    "persistence": 150.0,
+    "adaptability": 0.4655,
+    "phase_sync": -0.0137
+  },
+  {
+    "noise": 0.027,
+    "rep": 1,
+    "C": 0.4498,
+    "fertility": 1.0,
+    "jitter": 12.73,
+    "persistence": 200.0,
+    "adaptability": 0.4964,
+    "phase_sync": -0.0032
+  },
+  {
+    "noise": 0.027,
+    "rep": 2,
+    "C": 0.4284,
+    "fertility": 1.0,
+    "jitter": 13.76,
+    "persistence": 150.0,
+    "adaptability": 0.4728,
+    "phase_sync": -0.0154
+  },
+  {
+    "noise": 0.027,
+    "rep": 3,
+    "C": 0.4684,
+    "fertility": 1.0,
+    "jitter": 13.18,
+    "persistence": 150.0,
+    "adaptability": 0.4849,
+    "phase_sync": 0.0014
+  },
+  {
+    "noise": 0.027,
+    "rep": 4,
+    "C": 0.3484,
+    "fertility": 1.0,
+    "jitter": 13.81,
+    "persistence": 50.0,
+    "adaptability": 0.4503,
+    "phase_sync": -0.0174
+  },
+  {
+    "noise": 0.027,
+    "rep": 5,
+    "C": 0.4378,
+    "fertility": 1.0,
+    "jitter": 13.2,
+    "persistence": 200.0,
+    "adaptability": 0.3775,
+    "phase_sync": -0.0133
+  },
+  {
+    "noise": 0.027,
+    "rep": 6,
+    "C": 0.5272,
+    "fertility": 1.0,
+    "jitter": 12.65,
+    "persistence": 225.0,
+    "adaptability": 0.528,
+    "phase_sync": -0.0168
+  },
+  {
+    "noise": 0.027,
+    "rep": 7,
+    "C": 0.3729,
+    "fertility": 1.0,
+    "jitter": 14.35,
+    "persistence": 50.0,
+    "adaptability": 0.3753,
+    "phase_sync": -0.0148
+  },
+  {
+    "noise": 0.027,
+    "rep": 8,
+    "C": 0.4568,
+    "fertility": 1.0,
+    "jitter": 13.46,
+    "persistence": 150.0,
+    "adaptability": 0.4286,
+    "phase_sync": -0.0155
+  },
+  {
+    "noise": 0.027,
+    "rep": 9,
+    "C": 0.3539,
+    "fertility": 1.0,
+    "jitter": 13.53,
+    "persistence": 75.0,
+    "adaptability": 0.4456,
+    "phase_sync": -0.0128
+  },
+  {
+    "noise": 0.0329,
+    "rep": 0,
+    "C": 0.3897,
+    "fertility": 1.0,
+    "jitter": 13.73,
+    "persistence": 100.0,
+    "adaptability": 0.383,
+    "phase_sync": -0.0141
+  },
+  {
+    "noise": 0.0329,
+    "rep": 1,
+    "C": 0.3987,
+    "fertility": 1.0,
+    "jitter": 13.29,
+    "persistence": 75.0,
+    "adaptability": 0.4207,
+    "phase_sync": -0.0154
+  },
+  {
+    "noise": 0.0329,
+    "rep": 2,
+    "C": 0.3433,
+    "fertility": 1.0,
+    "jitter": 13.16,
+    "persistence": 50.0,
+    "adaptability": 0.4348,
+    "phase_sync": -0.0162
+  },
+  {
+    "noise": 0.0329,
+    "rep": 3,
+    "C": 0.4508,
+    "fertility": 1.0,
+    "jitter": 12.43,
+    "persistence": 100.0,
+    "adaptability": 0.478,
+    "phase_sync": -0.0156
+  },
+  {
+    "noise": 0.0329,
+    "rep": 4,
+    "C": 0.403,
+    "fertility": 1.0,
+    "jitter": 13.29,
+    "persistence": 50.0,
+    "adaptability": 0.4688,
+    "phase_sync": -0.0145
+  },
+  {
+    "noise": 0.0329,
+    "rep": 5,
+    "C": 0.4019,
+    "fertility": 1.0,
+    "jitter": 12.28,
+    "persistence": 50.0,
+    "adaptability": 0.4304,
+    "phase_sync": -0.0176
+  },
+  {
+    "noise": 0.0329,
+    "rep": 6,
+    "C": 0.4439,
+    "fertility": 1.0,
+    "jitter": 13.72,
+    "persistence": 200.0,
+    "adaptability": 0.4454,
+    "phase_sync": -0.0081
+  },
+  {
+    "noise": 0.0329,
+    "rep": 7,
+    "C": 0.3842,
+    "fertility": 1.0,
+    "jitter": 14.46,
+    "persistence": 125.0,
+    "adaptability": 0.3775,
+    "phase_sync": -0.0175
+  },
+  {
+    "noise": 0.0329,
+    "rep": 8,
+    "C": 0.456,
+    "fertility": 1.0,
+    "jitter": 14.91,
+    "persistence": 125.0,
+    "adaptability": 0.4613,
+    "phase_sync": -0.0075
+  },
+  {
+    "noise": 0.0329,
+    "rep": 9,
+    "C": 0.3923,
+    "fertility": 1.0,
+    "jitter": 14.18,
+    "persistence": 100.0,
+    "adaptability": 0.4218,
+    "phase_sync": -0.0148
+  },
+  {
+    "noise": 0.0401,
+    "rep": 0,
+    "C": 0.4287,
+    "fertility": 1.0,
+    "jitter": 14.58,
+    "persistence": 175.0,
+    "adaptability": 0.3746,
+    "phase_sync": -0.0157
+  },
+  {
+    "noise": 0.0401,
+    "rep": 1,
+    "C": 0.4482,
+    "fertility": 1.0,
+    "jitter": 12.37,
+    "persistence": 75.0,
+    "adaptability": 0.4503,
+    "phase_sync": -0.0079
+  },
+  {
+    "noise": 0.0401,
+    "rep": 2,
+    "C": 0.4093,
+    "fertility": 1.0,
+    "jitter": 13.07,
+    "persistence": 75.0,
+    "adaptability": 0.4518,
+    "phase_sync": -0.0173
+  },
+  {
+    "noise": 0.0401,
+    "rep": 3,
+    "C": 0.4298,
+    "fertility": 1.0,
+    "jitter": 14.97,
+    "persistence": 100.0,
+    "adaptability": 0.4711,
+    "phase_sync": -0.0039
+  },
+  {
+    "noise": 0.0401,
+    "rep": 4,
+    "C": 0.41,
+    "fertility": 1.0,
+    "jitter": 12.75,
+    "persistence": 50.0,
+    "adaptability": 0.4799,
+    "phase_sync": -0.0151
+  },
+  {
+    "noise": 0.0401,
+    "rep": 5,
+    "C": 0.4117,
+    "fertility": 1.0,
+    "jitter": 12.66,
+    "persistence": 175.0,
+    "adaptability": 0.4031,
+    "phase_sync": -0.0165
+  },
+  {
+    "noise": 0.0401,
+    "rep": 6,
+    "C": 0.4965,
+    "fertility": 1.0,
+    "jitter": 12.15,
+    "persistence": 175.0,
+    "adaptability": 0.5716,
+    "phase_sync": -0.0138
+  },
+  {
+    "noise": 0.0401,
+    "rep": 7,
+    "C": 0.4528,
+    "fertility": 1.0,
+    "jitter": 11.85,
+    "persistence": 75.0,
+    "adaptability": 0.5752,
+    "phase_sync": -0.0132
+  },
+  {
+    "noise": 0.0401,
+    "rep": 8,
+    "C": 0.4325,
+    "fertility": 1.0,
+    "jitter": 13.02,
+    "persistence": 100.0,
+    "adaptability": 0.4099,
+    "phase_sync": -0.0169
+  },
+  {
+    "noise": 0.0401,
+    "rep": 9,
+    "C": 0.4358,
+    "fertility": 1.0,
+    "jitter": 13.15,
+    "persistence": 175.0,
+    "adaptability": 0.433,
+    "phase_sync": -0.0074
+  },
+  {
+    "noise": 0.0489,
+    "rep": 0,
+    "C": 0.4385,
+    "fertility": 1.0,
+    "jitter": 14.07,
+    "persistence": 175.0,
+    "adaptability": 0.4557,
+    "phase_sync": -0.0131
+  },
+  {
+    "noise": 0.0489,
+    "rep": 1,
+    "C": 0.4039,
+    "fertility": 1.0,
+    "jitter": 15.22,
+    "persistence": 100.0,
+    "adaptability": 0.4047,
+    "phase_sync": -0.0155
+  },
+  {
+    "noise": 0.0489,
+    "rep": 2,
+    "C": 0.44,
+    "fertility": 1.0,
+    "jitter": 11.99,
+    "persistence": 125.0,
+    "adaptability": 0.4188,
+    "phase_sync": -0.0166
+  },
+  {
+    "noise": 0.0489,
+    "rep": 3,
+    "C": 0.4282,
+    "fertility": 1.0,
+    "jitter": 13.61,
+    "persistence": 175.0,
+    "adaptability": 0.4666,
+    "phase_sync": -0.0112
+  },
+  {
+    "noise": 0.0489,
+    "rep": 4,
+    "C": 0.4399,
+    "fertility": 1.0,
+    "jitter": 11.71,
+    "persistence": 75.0,
+    "adaptability": 0.4737,
+    "phase_sync": -0.0079
+  },
+  {
+    "noise": 0.0489,
+    "rep": 5,
+    "C": 0.4676,
+    "fertility": 1.0,
+    "jitter": 12.92,
+    "persistence": 200.0,
+    "adaptability": 0.4622,
+    "phase_sync": -0.0085
+  },
+  {
+    "noise": 0.0489,
+    "rep": 6,
+    "C": 0.4075,
+    "fertility": 1.0,
+    "jitter": 13.32,
+    "persistence": 75.0,
+    "adaptability": 0.4392,
+    "phase_sync": -0.0157
+  },
+  {
+    "noise": 0.0489,
+    "rep": 7,
+    "C": 0.4047,
+    "fertility": 1.0,
+    "jitter": 13.86,
+    "persistence": 175.0,
+    "adaptability": 0.379,
+    "phase_sync": -0.011
+  },
+  {
+    "noise": 0.0489,
+    "rep": 8,
+    "C": 0.4619,
+    "fertility": 1.0,
+    "jitter": 12.41,
+    "persistence": 175.0,
+    "adaptability": 0.4338,
+    "phase_sync": -0.0138
+  },
+  {
+    "noise": 0.0489,
+    "rep": 9,
+    "C": 0.3876,
+    "fertility": 1.0,
+    "jitter": 13.83,
+    "persistence": 75.0,
+    "adaptability": 0.4595,
+    "phase_sync": -0.0173
+  },
+  {
+    "noise": 0.0597,
+    "rep": 0,
+    "C": 0.4665,
+    "fertility": 1.0,
+    "jitter": 12.49,
+    "persistence": 200.0,
+    "adaptability": 0.4623,
+    "phase_sync": -0.0041
+  },
+  {
+    "noise": 0.0597,
+    "rep": 1,
+    "C": 0.3807,
+    "fertility": 1.0,
+    "jitter": 15.09,
+    "persistence": 150.0,
+    "adaptability": 0.3589,
+    "phase_sync": -0.0115
+  },
+  {
+    "noise": 0.0597,
+    "rep": 2,
+    "C": 0.4149,
+    "fertility": 1.0,
+    "jitter": 14.01,
+    "persistence": 200.0,
+    "adaptability": 0.3713,
+    "phase_sync": -0.018
+  },
+  {
+    "noise": 0.0597,
+    "rep": 3,
+    "C": 0.4338,
+    "fertility": 1.0,
+    "jitter": 13.01,
+    "persistence": 200.0,
+    "adaptability": 0.4699,
+    "phase_sync": -0.0169
+  },
+  {
+    "noise": 0.0597,
+    "rep": 4,
+    "C": 0.408,
+    "fertility": 1.0,
+    "jitter": 12.93,
+    "persistence": 175.0,
+    "adaptability": 0.3747,
+    "phase_sync": -0.0148
+  },
+  {
+    "noise": 0.0597,
+    "rep": 5,
+    "C": 0.4227,
+    "fertility": 1.0,
+    "jitter": 12.96,
+    "persistence": 100.0,
+    "adaptability": 0.456,
+    "phase_sync": -0.0132
+  },
+  {
+    "noise": 0.0597,
+    "rep": 6,
+    "C": 0.3722,
+    "fertility": 1.0,
+    "jitter": 12.32,
+    "persistence": 50.0,
+    "adaptability": 0.4227,
+    "phase_sync": -0.0157
+  },
+  {
+    "noise": 0.0597,
+    "rep": 7,
+    "C": 0.4144,
+    "fertility": 1.0,
+    "jitter": 12.85,
+    "persistence": 125.0,
+    "adaptability": 0.465,
+    "phase_sync": -0.0056
+  },
+  {
+    "noise": 0.0597,
+    "rep": 8,
+    "C": 0.3882,
+    "fertility": 1.0,
+    "jitter": 13.52,
+    "persistence": 75.0,
+    "adaptability": 0.4225,
+    "phase_sync": -0.0121
+  },
+  {
+    "noise": 0.0597,
+    "rep": 9,
+    "C": 0.4022,
+    "fertility": 1.0,
+    "jitter": 13.99,
+    "persistence": 100.0,
+    "adaptability": 0.4537,
+    "phase_sync": -0.0105
+  },
+  {
+    "noise": 0.0728,
+    "rep": 0,
+    "C": 0.4066,
+    "fertility": 1.0,
+    "jitter": 13.92,
+    "persistence": 75.0,
+    "adaptability": 0.4039,
+    "phase_sync": -0.0151
+  },
+  {
+    "noise": 0.0728,
+    "rep": 1,
+    "C": 0.4439,
+    "fertility": 1.0,
+    "jitter": 12.78,
+    "persistence": 150.0,
+    "adaptability": 0.4562,
+    "phase_sync": -0.0165
+  },
+  {
+    "noise": 0.0728,
+    "rep": 2,
+    "C": 0.4216,
+    "fertility": 1.0,
+    "jitter": 12.56,
+    "persistence": 100.0,
+    "adaptability": 0.4279,
+    "phase_sync": -0.0115
+  },
+  {
+    "noise": 0.0728,
+    "rep": 3,
+    "C": 0.4167,
+    "fertility": 1.0,
+    "jitter": 13.25,
+    "persistence": 225.0,
+    "adaptability": 0.5295,
+    "phase_sync": -0.0167
+  },
+  {
+    "noise": 0.0728,
+    "rep": 4,
+    "C": 0.3877,
+    "fertility": 1.0,
+    "jitter": 13.85,
+    "persistence": 50.0,
+    "adaptability": 0.4129,
+    "phase_sync": -0.0062
+  },
+  {
+    "noise": 0.0728,
+    "rep": 5,
+    "C": 0.4028,
+    "fertility": 1.0,
+    "jitter": 13.13,
+    "persistence": 75.0,
+    "adaptability": 0.463,
+    "phase_sync": -0.0155
+  },
+  {
+    "noise": 0.0728,
+    "rep": 6,
+    "C": 0.4223,
+    "fertility": 1.0,
+    "jitter": 13.84,
+    "persistence": 175.0,
+    "adaptability": 0.4229,
+    "phase_sync": -0.017
+  },
+  {
+    "noise": 0.0728,
+    "rep": 7,
+    "C": 0.4294,
+    "fertility": 1.0,
+    "jitter": 12.95,
+    "persistence": 100.0,
+    "adaptability": 0.4477,
+    "phase_sync": -0.0145
+  },
+  {
+    "noise": 0.0728,
+    "rep": 8,
+    "C": 0.4715,
+    "fertility": 1.0,
+    "jitter": 11.52,
+    "persistence": 200.0,
+    "adaptability": 0.4635,
+    "phase_sync": -0.013
+  },
+  {
+    "noise": 0.0728,
+    "rep": 9,
+    "C": 0.3425,
+    "fertility": 1.0,
+    "jitter": 14.27,
+    "persistence": 50.0,
+    "adaptability": 0.4003,
+    "phase_sync": -0.0156
+  },
+  {
+    "noise": 0.0888,
+    "rep": 0,
+    "C": 0.3292,
+    "fertility": 1.0,
+    "jitter": 14.21,
+    "persistence": 100.0,
+    "adaptability": 0.3145,
+    "phase_sync": -0.0082
+  },
+  {
+    "noise": 0.0888,
+    "rep": 1,
+    "C": 0.4225,
+    "fertility": 1.0,
+    "jitter": 11.94,
+    "persistence": 125.0,
+    "adaptability": 0.4803,
+    "phase_sync": -0.0156
+  },
+  {
+    "noise": 0.0888,
+    "rep": 2,
+    "C": 0.4637,
+    "fertility": 1.0,
+    "jitter": 13.52,
+    "persistence": 175.0,
+    "adaptability": 0.4321,
+    "phase_sync": -0.0038
+  },
+  {
+    "noise": 0.0888,
+    "rep": 3,
+    "C": 0.4078,
+    "fertility": 1.0,
+    "jitter": 14.12,
+    "persistence": 175.0,
+    "adaptability": 0.3934,
+    "phase_sync": -0.0165
+  },
+  {
+    "noise": 0.0888,
+    "rep": 4,
+    "C": 0.4291,
+    "fertility": 1.0,
+    "jitter": 12.3,
+    "persistence": 225.0,
+    "adaptability": 0.4279,
+    "phase_sync": -0.0113
+  },
+  {
+    "noise": 0.0888,
+    "rep": 5,
+    "C": 0.3547,
+    "fertility": 1.0,
+    "jitter": 14.8,
+    "persistence": 150.0,
+    "adaptability": 0.3225,
+    "phase_sync": -0.0169
+  },
+  {
+    "noise": 0.0888,
+    "rep": 6,
+    "C": 0.4172,
+    "fertility": 1.0,
+    "jitter": 12.55,
+    "persistence": 50.0,
+    "adaptability": 0.397,
+    "phase_sync": -0.0101
+  },
+  {
+    "noise": 0.0888,
+    "rep": 7,
+    "C": 0.3743,
+    "fertility": 1.0,
+    "jitter": 13.38,
+    "persistence": 175.0,
+    "adaptability": 0.4481,
+    "phase_sync": -0.0104
+  },
+  {
+    "noise": 0.0888,
+    "rep": 8,
+    "C": 0.353,
+    "fertility": 1.0,
+    "jitter": 13.56,
+    "persistence": 50.0,
+    "adaptability": 0.3779,
+    "phase_sync": -0.0115
+  },
+  {
+    "noise": 0.0888,
+    "rep": 9,
+    "C": 0.3687,
+    "fertility": 1.0,
+    "jitter": 14.34,
+    "persistence": 50.0,
+    "adaptability": 0.3905,
+    "phase_sync": -0.0174
+  },
+  {
+    "noise": 0.1083,
+    "rep": 0,
+    "C": 0.4308,
+    "fertility": 1.0,
+    "jitter": 13.79,
+    "persistence": 150.0,
+    "adaptability": 0.4144,
+    "phase_sync": -0.0082
+  },
+  {
+    "noise": 0.1083,
+    "rep": 1,
+    "C": 0.3578,
+    "fertility": 1.0,
+    "jitter": 13.89,
+    "persistence": 50.0,
+    "adaptability": 0.4137,
+    "phase_sync": -0.0148
+  },
+  {
+    "noise": 0.1083,
+    "rep": 2,
+    "C": 0.3959,
+    "fertility": 1.0,
+    "jitter": 15.17,
+    "persistence": 150.0,
+    "adaptability": 0.3909,
+    "phase_sync": -0.0169
+  },
+  {
+    "noise": 0.1083,
+    "rep": 3,
+    "C": 0.4567,
+    "fertility": 1.0,
+    "jitter": 12.55,
+    "persistence": 200.0,
+    "adaptability": 0.4625,
+    "phase_sync": 0.0009
+  },
+  {
+    "noise": 0.1083,
+    "rep": 4,
+    "C": 0.378,
+    "fertility": 1.0,
+    "jitter": 13.55,
+    "persistence": 50.0,
+    "adaptability": 0.4106,
+    "phase_sync": -0.0157
+  },
+  {
+    "noise": 0.1083,
+    "rep": 5,
+    "C": 0.4112,
+    "fertility": 1.0,
+    "jitter": 14.23,
+    "persistence": 75.0,
+    "adaptability": 0.48,
+    "phase_sync": -0.0174
+  },
+  {
+    "noise": 0.1083,
+    "rep": 6,
+    "C": 0.3457,
+    "fertility": 1.0,
+    "jitter": 13.91,
+    "persistence": 75.0,
+    "adaptability": 0.376,
+    "phase_sync": -0.0183
+  },
+  {
+    "noise": 0.1083,
+    "rep": 7,
+    "C": 0.4295,
+    "fertility": 1.0,
+    "jitter": 14.04,
+    "persistence": 150.0,
+    "adaptability": 0.4585,
+    "phase_sync": -0.0124
+  },
+  {
+    "noise": 0.1083,
+    "rep": 8,
+    "C": 0.3847,
+    "fertility": 1.0,
+    "jitter": 15.33,
+    "persistence": 200.0,
+    "adaptability": 0.397,
+    "phase_sync": -0.0102
+  },
+  {
+    "noise": 0.1083,
+    "rep": 9,
+    "C": 0.415,
+    "fertility": 1.0,
+    "jitter": 13.16,
+    "persistence": 100.0,
+    "adaptability": 0.5192,
+    "phase_sync": -0.0158
+  },
+  {
+    "noise": 0.132,
+    "rep": 0,
+    "C": 0.3664,
+    "fertility": 1.0,
+    "jitter": 14.28,
+    "persistence": 75.0,
+    "adaptability": 0.3609,
+    "phase_sync": -0.011
+  },
+  {
+    "noise": 0.132,
+    "rep": 1,
+    "C": 0.4099,
+    "fertility": 1.0,
+    "jitter": 14.34,
+    "persistence": 225.0,
+    "adaptability": 0.4308,
+    "phase_sync": -0.0118
+  },
+  {
+    "noise": 0.132,
+    "rep": 2,
+    "C": 0.4201,
+    "fertility": 1.0,
+    "jitter": 12.89,
+    "persistence": 100.0,
+    "adaptability": 0.4608,
+    "phase_sync": -0.0165
+  },
+  {
+    "noise": 0.132,
+    "rep": 3,
+    "C": 0.4179,
+    "fertility": 1.0,
+    "jitter": 14.2,
+    "persistence": 75.0,
+    "adaptability": 0.4785,
+    "phase_sync": -0.0155
+  },
+  {
+    "noise": 0.132,
+    "rep": 4,
+    "C": 0.4178,
+    "fertility": 1.0,
+    "jitter": 13.71,
+    "persistence": 100.0,
+    "adaptability": 0.4061,
+    "phase_sync": -0.0147
+  },
+  {
+    "noise": 0.132,
+    "rep": 5,
+    "C": 0.4241,
+    "fertility": 1.0,
+    "jitter": 13.72,
+    "persistence": 75.0,
+    "adaptability": 0.4843,
+    "phase_sync": -0.0165
+  },
+  {
+    "noise": 0.132,
+    "rep": 6,
+    "C": 0.394,
+    "fertility": 1.0,
+    "jitter": 13.57,
+    "persistence": 100.0,
+    "adaptability": 0.431,
+    "phase_sync": -0.0152
+  },
+  {
+    "noise": 0.132,
+    "rep": 7,
+    "C": 0.3823,
+    "fertility": 1.0,
+    "jitter": 14.03,
+    "persistence": 150.0,
+    "adaptability": 0.3967,
+    "phase_sync": -0.0138
+  },
+  {
+    "noise": 0.132,
+    "rep": 8,
+    "C": 0.3682,
+    "fertility": 1.0,
+    "jitter": 14.31,
+    "persistence": 125.0,
+    "adaptability": 0.3808,
+    "phase_sync": -0.0172
+  },
+  {
+    "noise": 0.132,
+    "rep": 9,
+    "C": 0.4328,
+    "fertility": 1.0,
+    "jitter": 13.03,
+    "persistence": 125.0,
+    "adaptability": 0.4603,
+    "phase_sync": -0.0144
+  },
+  {
+    "noise": 0.161,
+    "rep": 0,
+    "C": 0.4033,
+    "fertility": 1.0,
+    "jitter": 13.69,
+    "persistence": 75.0,
+    "adaptability": 0.4647,
+    "phase_sync": -0.0134
+  },
+  {
+    "noise": 0.161,
+    "rep": 1,
+    "C": 0.3815,
+    "fertility": 1.0,
+    "jitter": 15.03,
+    "persistence": 175.0,
+    "adaptability": 0.4277,
+    "phase_sync": -0.0155
+  },
+  {
+    "noise": 0.161,
+    "rep": 2,
+    "C": 0.3429,
+    "fertility": 1.0,
+    "jitter": 13.97,
+    "persistence": 150.0,
+    "adaptability": 0.36,
+    "phase_sync": -0.0111
+  },
+  {
+    "noise": 0.161,
+    "rep": 3,
+    "C": 0.3788,
+    "fertility": 1.0,
+    "jitter": 15.57,
+    "persistence": 150.0,
+    "adaptability": 0.3991,
+    "phase_sync": -0.016
+  },
+  {
+    "noise": 0.161,
+    "rep": 4,
+    "C": 0.3696,
+    "fertility": 1.0,
+    "jitter": 13.76,
+    "persistence": 75.0,
+    "adaptability": 0.4294,
+    "phase_sync": -0.0159
+  },
+  {
+    "noise": 0.161,
+    "rep": 5,
+    "C": 0.4151,
+    "fertility": 1.0,
+    "jitter": 13.9,
+    "persistence": 50.0,
+    "adaptability": 0.411,
+    "phase_sync": -0.0173
+  },
+  {
+    "noise": 0.161,
+    "rep": 6,
+    "C": 0.4549,
+    "fertility": 1.0,
+    "jitter": 14.33,
+    "persistence": 200.0,
+    "adaptability": 0.4504,
+    "phase_sync": -0.0145
+  },
+  {
+    "noise": 0.161,
+    "rep": 7,
+    "C": 0.3283,
+    "fertility": 1.0,
+    "jitter": 15.2,
+    "persistence": 50.0,
+    "adaptability": 0.3785,
+    "phase_sync": -0.0102
+  },
+  {
+    "noise": 0.161,
+    "rep": 8,
+    "C": 0.4066,
+    "fertility": 1.0,
+    "jitter": 13.37,
+    "persistence": 125.0,
+    "adaptability": 0.5428,
+    "phase_sync": -0.0137
+  },
+  {
+    "noise": 0.161,
+    "rep": 9,
+    "C": 0.3205,
+    "fertility": 1.0,
+    "jitter": 15.69,
+    "persistence": 75.0,
+    "adaptability": 0.3388,
+    "phase_sync": -0.0173
+  },
+  {
+    "noise": 0.1964,
+    "rep": 0,
+    "C": 0.3883,
+    "fertility": 1.0,
+    "jitter": 13.71,
+    "persistence": 50.0,
+    "adaptability": 0.5043,
+    "phase_sync": -0.0151
+  },
+  {
+    "noise": 0.1964,
+    "rep": 1,
+    "C": 0.3581,
+    "fertility": 1.0,
+    "jitter": 14.06,
+    "persistence": 75.0,
+    "adaptability": 0.4134,
+    "phase_sync": -0.0146
+  },
+  {
+    "noise": 0.1964,
+    "rep": 2,
+    "C": 0.3653,
+    "fertility": 1.0,
+    "jitter": 13.97,
+    "persistence": 75.0,
+    "adaptability": 0.4534,
+    "phase_sync": -0.0146
+  },
+  {
+    "noise": 0.1964,
+    "rep": 3,
+    "C": 0.3642,
+    "fertility": 1.0,
+    "jitter": 16.1,
+    "persistence": 200.0,
+    "adaptability": 0.3564,
+    "phase_sync": -0.016
+  },
+  {
+    "noise": 0.1964,
+    "rep": 4,
+    "C": 0.4355,
+    "fertility": 1.0,
+    "jitter": 14.05,
+    "persistence": 200.0,
+    "adaptability": 0.4996,
+    "phase_sync": -0.0122
+  },
+  {
+    "noise": 0.1964,
+    "rep": 5,
+    "C": 0.3773,
+    "fertility": 1.0,
+    "jitter": 13.27,
+    "persistence": 150.0,
+    "adaptability": 0.4948,
+    "phase_sync": -0.0143
+  },
+  {
+    "noise": 0.1964,
+    "rep": 6,
+    "C": 0.3525,
+    "fertility": 1.0,
+    "jitter": 14.46,
+    "persistence": 50.0,
+    "adaptability": 0.4133,
+    "phase_sync": -0.0155
+  },
+  {
+    "noise": 0.1964,
+    "rep": 7,
+    "C": 0.3942,
+    "fertility": 1.0,
+    "jitter": 14.77,
+    "persistence": 225.0,
+    "adaptability": 0.4266,
+    "phase_sync": -0.0184
+  },
+  {
+    "noise": 0.1964,
+    "rep": 8,
+    "C": 0.3338,
+    "fertility": 1.0,
+    "jitter": 15.04,
+    "persistence": 50.0,
+    "adaptability": 0.3641,
+    "phase_sync": -0.014
+  },
+  {
+    "noise": 0.1964,
+    "rep": 9,
+    "C": 0.3856,
+    "fertility": 1.0,
+    "jitter": 14.0,
+    "persistence": 150.0,
+    "adaptability": 0.4782,
+    "phase_sync": -0.0146
+  },
+  {
+    "noise": 0.2395,
+    "rep": 0,
+    "C": 0.3557,
+    "fertility": 1.0,
+    "jitter": 14.25,
+    "persistence": 75.0,
+    "adaptability": 0.4373,
+    "phase_sync": -0.0117
+  },
+  {
+    "noise": 0.2395,
+    "rep": 1,
+    "C": 0.311,
+    "fertility": 1.0,
+    "jitter": 16.32,
+    "persistence": 50.0,
+    "adaptability": 0.3469,
+    "phase_sync": -0.0166
+  },
+  {
+    "noise": 0.2395,
+    "rep": 2,
+    "C": 0.3581,
+    "fertility": 1.0,
+    "jitter": 14.4,
+    "persistence": 125.0,
+    "adaptability": 0.4146,
+    "phase_sync": -0.0168
+  },
+  {
+    "noise": 0.2395,
+    "rep": 3,
+    "C": 0.3824,
+    "fertility": 1.0,
+    "jitter": 14.99,
+    "persistence": 75.0,
+    "adaptability": 0.4692,
+    "phase_sync": -0.0179
+  },
+  {
+    "noise": 0.2395,
+    "rep": 4,
+    "C": 0.4178,
+    "fertility": 1.0,
+    "jitter": 14.06,
+    "persistence": 125.0,
+    "adaptability": 0.4614,
+    "phase_sync": -0.0166
+  },
+  {
+    "noise": 0.2395,
+    "rep": 5,
+    "C": 0.3468,
+    "fertility": 1.0,
+    "jitter": 14.71,
+    "persistence": 50.0,
+    "adaptability": 0.4414,
+    "phase_sync": -0.0117
+  },
+  {
+    "noise": 0.2395,
+    "rep": 6,
+    "C": 0.4534,
+    "fertility": 1.0,
+    "jitter": 15.44,
+    "persistence": 225.0,
+    "adaptability": 0.4928,
+    "phase_sync": -0.0169
+  },
+  {
+    "noise": 0.2395,
+    "rep": 7,
+    "C": 0.3542,
+    "fertility": 1.0,
+    "jitter": 14.32,
+    "persistence": 150.0,
+    "adaptability": 0.4252,
+    "phase_sync": -0.0153
+  },
+  {
+    "noise": 0.2395,
+    "rep": 8,
+    "C": 0.3611,
+    "fertility": 1.0,
+    "jitter": 14.79,
+    "persistence": 150.0,
+    "adaptability": 0.4855,
+    "phase_sync": -0.0182
+  },
+  {
+    "noise": 0.2395,
+    "rep": 9,
+    "C": 0.3571,
+    "fertility": 1.0,
+    "jitter": 15.31,
+    "persistence": 50.0,
+    "adaptability": 0.4226,
+    "phase_sync": -0.0149
+  },
+  {
+    "noise": 0.2921,
+    "rep": 0,
+    "C": 0.371,
+    "fertility": 1.0,
+    "jitter": 15.1,
+    "persistence": 100.0,
+    "adaptability": 0.4618,
+    "phase_sync": -0.0114
+  },
+  {
+    "noise": 0.2921,
+    "rep": 1,
+    "C": 0.3301,
+    "fertility": 1.0,
+    "jitter": 15.1,
+    "persistence": 75.0,
+    "adaptability": 0.4563,
+    "phase_sync": -0.0169
+  },
+  {
+    "noise": 0.2921,
+    "rep": 2,
+    "C": 0.4202,
+    "fertility": 1.0,
+    "jitter": 13.25,
+    "persistence": 100.0,
+    "adaptability": 0.5198,
+    "phase_sync": -0.0111
+  },
+  {
+    "noise": 0.2921,
+    "rep": 3,
+    "C": 0.3868,
+    "fertility": 1.0,
+    "jitter": 15.77,
+    "persistence": 75.0,
+    "adaptability": 0.4517,
+    "phase_sync": -0.0135
+  },
+  {
+    "noise": 0.2921,
+    "rep": 4,
+    "C": 0.3945,
+    "fertility": 1.0,
+    "jitter": 13.52,
+    "persistence": 100.0,
+    "adaptability": 0.4617,
+    "phase_sync": -0.0156
+  },
+  {
+    "noise": 0.2921,
+    "rep": 5,
+    "C": 0.3461,
+    "fertility": 1.0,
+    "jitter": 15.78,
+    "persistence": 50.0,
+    "adaptability": 0.4567,
+    "phase_sync": -0.0155
+  },
+  {
+    "noise": 0.2921,
+    "rep": 6,
+    "C": 0.3893,
+    "fertility": 1.0,
+    "jitter": 15.89,
+    "persistence": 175.0,
+    "adaptability": 0.4265,
+    "phase_sync": -0.0075
+  },
+  {
+    "noise": 0.2921,
+    "rep": 7,
+    "C": 0.3138,
+    "fertility": 1.0,
+    "jitter": 16.25,
+    "persistence": 50.0,
+    "adaptability": 0.3816,
+    "phase_sync": -0.014
+  },
+  {
+    "noise": 0.2921,
+    "rep": 8,
+    "C": 0.3763,
+    "fertility": 1.0,
+    "jitter": 14.28,
+    "persistence": 50.0,
+    "adaptability": 0.5213,
+    "phase_sync": -0.0168
+  },
+  {
+    "noise": 0.2921,
+    "rep": 9,
+    "C": 0.336,
+    "fertility": 1.0,
+    "jitter": 15.76,
+    "persistence": 50.0,
+    "adaptability": 0.4008,
+    "phase_sync": -0.0169
+  },
+  {
+    "noise": 0.3562,
+    "rep": 0,
+    "C": 0.3873,
+    "fertility": 1.0,
+    "jitter": 15.96,
+    "persistence": 200.0,
+    "adaptability": 0.4194,
+    "phase_sync": -0.0163
+  },
+  {
+    "noise": 0.3562,
+    "rep": 1,
+    "C": 0.4082,
+    "fertility": 1.0,
+    "jitter": 15.36,
+    "persistence": 125.0,
+    "adaptability": 0.48,
+    "phase_sync": -0.0151
+  },
+  {
+    "noise": 0.3562,
+    "rep": 2,
+    "C": 0.3973,
+    "fertility": 1.0,
+    "jitter": 14.91,
+    "persistence": 100.0,
+    "adaptability": 0.4484,
+    "phase_sync": -0.0171
+  },
+  {
+    "noise": 0.3562,
+    "rep": 3,
+    "C": 0.37,
+    "fertility": 1.0,
+    "jitter": 16.17,
+    "persistence": 150.0,
+    "adaptability": 0.4886,
+    "phase_sync": -0.0172
+  },
+  {
+    "noise": 0.3562,
+    "rep": 4,
+    "C": 0.3764,
+    "fertility": 1.0,
+    "jitter": 16.58,
+    "persistence": 75.0,
+    "adaptability": 0.5528,
+    "phase_sync": -0.0154
+  },
+  {
+    "noise": 0.3562,
+    "rep": 5,
+    "C": 0.3688,
+    "fertility": 1.0,
+    "jitter": 15.38,
+    "persistence": 50.0,
+    "adaptability": 0.4444,
+    "phase_sync": -0.0136
+  },
+  {
+    "noise": 0.3562,
+    "rep": 6,
+    "C": 0.3893,
+    "fertility": 1.0,
+    "jitter": 15.33,
+    "persistence": 50.0,
+    "adaptability": 0.5297,
+    "phase_sync": -0.0134
+  },
+  {
+    "noise": 0.3562,
+    "rep": 7,
+    "C": 0.3612,
+    "fertility": 1.0,
+    "jitter": 15.25,
+    "persistence": 75.0,
+    "adaptability": 0.5146,
+    "phase_sync": -0.0172
+  },
+  {
+    "noise": 0.3562,
+    "rep": 8,
+    "C": 0.3553,
+    "fertility": 1.0,
+    "jitter": 15.9,
+    "persistence": 75.0,
+    "adaptability": 0.4809,
+    "phase_sync": -0.0114
+  },
+  {
+    "noise": 0.3562,
+    "rep": 9,
+    "C": 0.3437,
+    "fertility": 1.0,
+    "jitter": 14.93,
+    "persistence": 50.0,
+    "adaptability": 0.4884,
+    "phase_sync": -0.0155
+  },
+  {
+    "noise": 0.4344,
+    "rep": 0,
+    "C": 0.3425,
+    "fertility": 1.0,
+    "jitter": 15.88,
+    "persistence": 50.0,
+    "adaptability": 0.4659,
+    "phase_sync": -0.0163
+  },
+  {
+    "noise": 0.4344,
+    "rep": 1,
+    "C": 0.3761,
+    "fertility": 1.0,
+    "jitter": 17.22,
+    "persistence": 75.0,
+    "adaptability": 0.4993,
+    "phase_sync": -0.0173
+  },
+  {
+    "noise": 0.4344,
+    "rep": 2,
+    "C": 0.3508,
+    "fertility": 1.0,
+    "jitter": 16.07,
+    "persistence": 200.0,
+    "adaptability": 0.4952,
+    "phase_sync": -0.0171
+  },
+  {
+    "noise": 0.4344,
+    "rep": 3,
+    "C": 0.3968,
+    "fertility": 1.0,
+    "jitter": 16.31,
+    "persistence": 100.0,
+    "adaptability": 0.5096,
+    "phase_sync": -0.016
+  },
+  {
+    "noise": 0.4344,
+    "rep": 4,
+    "C": 0.3069,
+    "fertility": 1.0,
+    "jitter": 16.03,
+    "persistence": 75.0,
+    "adaptability": 0.5284,
+    "phase_sync": -0.0148
+  },
+  {
+    "noise": 0.4344,
+    "rep": 5,
+    "C": 0.3539,
+    "fertility": 1.0,
+    "jitter": 16.01,
+    "persistence": 125.0,
+    "adaptability": 0.4722,
+    "phase_sync": -0.0166
+  },
+  {
+    "noise": 0.4344,
+    "rep": 6,
+    "C": 0.3878,
+    "fertility": 1.0,
+    "jitter": 15.77,
+    "persistence": 125.0,
+    "adaptability": 0.4799,
+    "phase_sync": -0.0167
+  },
+  {
+    "noise": 0.4344,
+    "rep": 7,
+    "C": 0.3268,
+    "fertility": 1.0,
+    "jitter": 16.52,
+    "persistence": 50.0,
+    "adaptability": 0.4514,
+    "phase_sync": -0.0136
+  },
+  {
+    "noise": 0.4344,
+    "rep": 8,
+    "C": 0.3994,
+    "fertility": 1.0,
+    "jitter": 15.48,
+    "persistence": 75.0,
+    "adaptability": 0.6337,
+    "phase_sync": -0.0156
+  },
+  {
+    "noise": 0.4344,
+    "rep": 9,
+    "C": 0.3731,
+    "fertility": 1.0,
+    "jitter": 17.16,
+    "persistence": 150.0,
+    "adaptability": 0.4989,
+    "phase_sync": -0.0175
+  },
+  {
+    "noise": 0.5298,
+    "rep": 0,
+    "C": 0.3857,
+    "fertility": 1.0,
+    "jitter": 17.52,
+    "persistence": 150.0,
+    "adaptability": 0.4638,
+    "phase_sync": -0.0169
+  },
+  {
+    "noise": 0.5298,
+    "rep": 1,
+    "C": 0.3482,
+    "fertility": 1.0,
+    "jitter": 17.07,
+    "persistence": 100.0,
+    "adaptability": 0.4401,
+    "phase_sync": -0.0162
+  },
+  {
+    "noise": 0.5298,
+    "rep": 2,
+    "C": 0.3609,
+    "fertility": 1.0,
+    "jitter": 16.14,
+    "persistence": 50.0,
+    "adaptability": 0.5402,
+    "phase_sync": -0.0063
+  },
+  {
+    "noise": 0.5298,
+    "rep": 3,
+    "C": 0.363,
+    "fertility": 1.0,
+    "jitter": 17.6,
+    "persistence": 125.0,
+    "adaptability": 0.4952,
+    "phase_sync": -0.0147
+  },
+  {
+    "noise": 0.5298,
+    "rep": 4,
+    "C": 0.3517,
+    "fertility": 1.0,
+    "jitter": 17.6,
+    "persistence": 50.0,
+    "adaptability": 0.5047,
+    "phase_sync": -0.0133
+  },
+  {
+    "noise": 0.5298,
+    "rep": 5,
+    "C": 0.4021,
+    "fertility": 1.0,
+    "jitter": 16.96,
+    "persistence": 75.0,
+    "adaptability": 0.5606,
+    "phase_sync": -0.016
+  },
+  {
+    "noise": 0.5298,
+    "rep": 6,
+    "C": 0.3543,
+    "fertility": 1.0,
+    "jitter": 17.38,
+    "persistence": 125.0,
+    "adaptability": 0.4223,
+    "phase_sync": -0.017
+  },
+  {
+    "noise": 0.5298,
+    "rep": 7,
+    "C": 0.392,
+    "fertility": 1.0,
+    "jitter": 16.27,
+    "persistence": 75.0,
+    "adaptability": 0.6269,
+    "phase_sync": -0.0166
+  },
+  {
+    "noise": 0.5298,
+    "rep": 8,
+    "C": 0.4042,
+    "fertility": 1.0,
+    "jitter": 17.41,
+    "persistence": 50.0,
+    "adaptability": 0.6361,
+    "phase_sync": -0.0167
+  },
+  {
+    "noise": 0.5298,
+    "rep": 9,
+    "C": 0.3581,
+    "fertility": 1.0,
+    "jitter": 16.78,
+    "persistence": 125.0,
+    "adaptability": 0.5267,
+    "phase_sync": -0.0155
+  },
+  {
+    "noise": 0.6462,
+    "rep": 0,
+    "C": 0.3815,
+    "fertility": 1.0,
+    "jitter": 16.86,
+    "persistence": 175.0,
+    "adaptability": 0.5366,
+    "phase_sync": -0.0171
+  },
+  {
+    "noise": 0.6462,
+    "rep": 1,
+    "C": 0.4258,
+    "fertility": 1.0,
+    "jitter": 16.77,
+    "persistence": 75.0,
+    "adaptability": 0.7222,
+    "phase_sync": -0.017
+  },
+  {
+    "noise": 0.6462,
+    "rep": 2,
+    "C": 0.4164,
+    "fertility": 1.0,
+    "jitter": 17.42,
+    "persistence": 100.0,
+    "adaptability": 0.6436,
+    "phase_sync": -0.0135
+  },
+  {
+    "noise": 0.6462,
+    "rep": 3,
+    "C": 0.3776,
+    "fertility": 1.0,
+    "jitter": 17.4,
+    "persistence": 100.0,
+    "adaptability": 0.6029,
+    "phase_sync": -0.0146
+  },
+  {
+    "noise": 0.6462,
+    "rep": 4,
+    "C": 0.3676,
+    "fertility": 1.0,
+    "jitter": 17.79,
+    "persistence": 100.0,
+    "adaptability": 0.5085,
+    "phase_sync": -0.0138
+  },
+  {
+    "noise": 0.6462,
+    "rep": 5,
+    "C": 0.3862,
+    "fertility": 1.0,
+    "jitter": 17.66,
+    "persistence": 50.0,
+    "adaptability": 0.5879,
+    "phase_sync": -0.0181
+  },
+  {
+    "noise": 0.6462,
+    "rep": 6,
+    "C": 0.4342,
+    "fertility": 1.0,
+    "jitter": 15.99,
+    "persistence": 75.0,
+    "adaptability": 0.7219,
+    "phase_sync": -0.0167
+  },
+  {
+    "noise": 0.6462,
+    "rep": 7,
+    "C": 0.3818,
+    "fertility": 1.0,
+    "jitter": 16.94,
+    "persistence": 100.0,
+    "adaptability": 0.656,
+    "phase_sync": -0.0157
+  },
+  {
+    "noise": 0.6462,
+    "rep": 8,
+    "C": 0.4066,
+    "fertility": 1.0,
+    "jitter": 16.11,
+    "persistence": 75.0,
+    "adaptability": 0.7168,
+    "phase_sync": -0.01
+  },
+  {
+    "noise": 0.6462,
+    "rep": 9,
+    "C": 0.3283,
+    "fertility": 1.0,
+    "jitter": 17.97,
+    "persistence": 100.0,
+    "adaptability": 0.5077,
+    "phase_sync": -0.0128
+  },
+  {
+    "noise": 0.788,
+    "rep": 0,
+    "C": 0.3953,
+    "fertility": 1.0,
+    "jitter": 18.51,
+    "persistence": 175.0,
+    "adaptability": 0.5022,
+    "phase_sync": -0.0066
+  },
+  {
+    "noise": 0.788,
+    "rep": 1,
+    "C": 0.4551,
+    "fertility": 1.0,
+    "jitter": 17.11,
+    "persistence": 125.0,
+    "adaptability": 0.7476,
+    "phase_sync": -0.0159
+  },
+  {
+    "noise": 0.788,
+    "rep": 2,
+    "C": 0.3499,
+    "fertility": 1.0,
+    "jitter": 17.56,
+    "persistence": 75.0,
+    "adaptability": 0.6897,
+    "phase_sync": -0.0117
+  },
+  {
+    "noise": 0.788,
+    "rep": 3,
+    "C": 0.4313,
+    "fertility": 1.0,
+    "jitter": 17.54,
+    "persistence": 75.0,
+    "adaptability": 0.7009,
+    "phase_sync": -0.0161
+  },
+  {
+    "noise": 0.788,
+    "rep": 4,
+    "C": 0.34,
+    "fertility": 1.0,
+    "jitter": 17.67,
+    "persistence": 75.0,
+    "adaptability": 0.5799,
+    "phase_sync": -0.0151
+  },
+  {
+    "noise": 0.788,
+    "rep": 5,
+    "C": 0.3825,
+    "fertility": 1.0,
+    "jitter": 17.72,
+    "persistence": 50.0,
+    "adaptability": 0.5207,
+    "phase_sync": -0.0144
+  },
+  {
+    "noise": 0.788,
+    "rep": 6,
+    "C": 0.438,
+    "fertility": 1.0,
+    "jitter": 17.56,
+    "persistence": 100.0,
+    "adaptability": 0.6631,
+    "phase_sync": -0.0164
+  },
+  {
+    "noise": 0.788,
+    "rep": 7,
+    "C": 0.3844,
+    "fertility": 1.0,
+    "jitter": 16.9,
+    "persistence": 50.0,
+    "adaptability": 0.5754,
+    "phase_sync": -0.0094
+  },
+  {
+    "noise": 0.788,
+    "rep": 8,
+    "C": 0.4035,
+    "fertility": 1.0,
+    "jitter": 17.35,
+    "persistence": 100.0,
+    "adaptability": 0.7804,
+    "phase_sync": -0.0141
+  },
+  {
+    "noise": 0.788,
+    "rep": 9,
+    "C": 0.3425,
+    "fertility": 1.0,
+    "jitter": 18.46,
+    "persistence": 125.0,
+    "adaptability": 0.4429,
+    "phase_sync": -0.0149
+  },
+  {
+    "noise": 0.9611,
+    "rep": 0,
+    "C": 0.331,
+    "fertility": 1.0,
+    "jitter": 17.71,
+    "persistence": 50.0,
+    "adaptability": 0.5376,
+    "phase_sync": -0.0108
+  },
+  {
+    "noise": 0.9611,
+    "rep": 1,
+    "C": 0.4022,
+    "fertility": 1.0,
+    "jitter": 18.82,
+    "persistence": 100.0,
+    "adaptability": 0.7437,
+    "phase_sync": -0.0146
+  },
+  {
+    "noise": 0.9611,
+    "rep": 2,
+    "C": 0.4424,
+    "fertility": 1.0,
+    "jitter": 17.83,
+    "persistence": 200.0,
+    "adaptability": 0.8863,
+    "phase_sync": -0.0166
+  },
+  {
+    "noise": 0.9611,
+    "rep": 3,
+    "C": 0.3702,
+    "fertility": 1.0,
+    "jitter": 17.99,
+    "persistence": 50.0,
+    "adaptability": 0.6517,
+    "phase_sync": -0.0169
+  },
+  {
+    "noise": 0.9611,
+    "rep": 4,
+    "C": 0.3687,
+    "fertility": 1.0,
+    "jitter": 19.06,
+    "persistence": 175.0,
+    "adaptability": 0.5594,
+    "phase_sync": -0.0101
+  },
+  {
+    "noise": 0.9611,
+    "rep": 5,
+    "C": 0.439,
+    "fertility": 1.0,
+    "jitter": 17.06,
+    "persistence": 125.0,
+    "adaptability": 0.844,
+    "phase_sync": -0.0105
+  },
+  {
+    "noise": 0.9611,
+    "rep": 6,
+    "C": 0.4269,
+    "fertility": 1.0,
+    "jitter": 17.69,
+    "persistence": 75.0,
+    "adaptability": 0.8873,
+    "phase_sync": -0.0156
+  },
+  {
+    "noise": 0.9611,
+    "rep": 7,
+    "C": 0.4155,
+    "fertility": 1.0,
+    "jitter": 18.43,
+    "persistence": 150.0,
+    "adaptability": 0.6063,
+    "phase_sync": -0.0153
+  },
+  {
+    "noise": 0.9611,
+    "rep": 8,
+    "C": 0.4326,
+    "fertility": 1.0,
+    "jitter": 17.35,
+    "persistence": 100.0,
+    "adaptability": 0.7253,
+    "phase_sync": -0.0163
+  },
+  {
+    "noise": 0.9611,
+    "rep": 9,
+    "C": 0.3419,
+    "fertility": 1.0,
+    "jitter": 18.44,
+    "persistence": 50.0,
+    "adaptability": 0.6803,
+    "phase_sync": -0.0141
+  },
+  {
+    "noise": 1.1721,
+    "rep": 0,
+    "C": 0.3488,
+    "fertility": 1.0,
+    "jitter": 19.0,
+    "persistence": 50.0,
+    "adaptability": 0.5411,
+    "phase_sync": -0.0157
+  },
+  {
+    "noise": 1.1721,
+    "rep": 1,
+    "C": 0.4066,
+    "fertility": 1.0,
+    "jitter": 17.65,
+    "persistence": 75.0,
+    "adaptability": 0.7042,
+    "phase_sync": -0.0139
+  },
+  {
+    "noise": 1.1721,
+    "rep": 2,
+    "C": 0.4457,
+    "fertility": 1.0,
+    "jitter": 18.32,
+    "persistence": 75.0,
+    "adaptability": 0.8305,
+    "phase_sync": -0.0109
+  },
+  {
+    "noise": 1.1721,
+    "rep": 3,
+    "C": 0.3978,
+    "fertility": 1.0,
+    "jitter": 19.6,
+    "persistence": 125.0,
+    "adaptability": 0.8018,
+    "phase_sync": -0.0175
+  },
+  {
+    "noise": 1.1721,
+    "rep": 4,
+    "C": 0.4207,
+    "fertility": 1.0,
+    "jitter": 17.97,
+    "persistence": 100.0,
+    "adaptability": 0.9393,
+    "phase_sync": -0.015
+  },
+  {
+    "noise": 1.1721,
+    "rep": 5,
+    "C": 0.4183,
+    "fertility": 0.9487,
+    "jitter": 18.77,
+    "persistence": 150.0,
+    "adaptability": 0.8463,
+    "phase_sync": -0.0124
+  },
+  {
+    "noise": 1.1721,
+    "rep": 6,
+    "C": 0.4044,
+    "fertility": 1.0,
+    "jitter": 18.61,
+    "persistence": 175.0,
+    "adaptability": 0.6917,
+    "phase_sync": -0.0161
+  },
+  {
+    "noise": 1.1721,
+    "rep": 7,
+    "C": 0.3706,
+    "fertility": 1.0,
+    "jitter": 19.69,
+    "persistence": 75.0,
+    "adaptability": 0.6737,
+    "phase_sync": -0.0166
+  },
+  {
+    "noise": 1.1721,
+    "rep": 8,
+    "C": 0.4333,
+    "fertility": 1.0,
+    "jitter": 17.67,
+    "persistence": 100.0,
+    "adaptability": 0.7198,
+    "phase_sync": -0.0154
+  },
+  {
+    "noise": 1.1721,
+    "rep": 9,
+    "C": 0.3757,
+    "fertility": 1.0,
+    "jitter": 17.54,
+    "persistence": 175.0,
+    "adaptability": 0.6902,
+    "phase_sync": -0.0151
+  },
+  {
+    "noise": 1.4295,
+    "rep": 0,
+    "C": 0.3394,
+    "fertility": 1.0,
+    "jitter": 19.13,
+    "persistence": 50.0,
+    "adaptability": 0.6327,
+    "phase_sync": -0.0159
+  },
+  {
+    "noise": 1.4295,
+    "rep": 1,
+    "C": 0.3577,
+    "fertility": 1.0,
+    "jitter": 19.78,
+    "persistence": 100.0,
+    "adaptability": 0.6114,
+    "phase_sync": -0.0122
+  },
+  {
+    "noise": 1.4295,
+    "rep": 2,
+    "C": 0.2916,
+    "fertility": 1.0,
+    "jitter": 20.81,
+    "persistence": 75.0,
+    "adaptability": 0.5643,
+    "phase_sync": -0.0119
+  },
+  {
+    "noise": 1.4295,
+    "rep": 3,
+    "C": 0.3566,
+    "fertility": 1.0,
+    "jitter": 18.9,
+    "persistence": 125.0,
+    "adaptability": 0.6073,
+    "phase_sync": -0.0139
+  },
+  {
+    "noise": 1.4295,
+    "rep": 4,
+    "C": 0.3716,
+    "fertility": 1.0,
+    "jitter": 20.67,
+    "persistence": 50.0,
+    "adaptability": 0.7937,
+    "phase_sync": -0.0131
+  },
+  {
+    "noise": 1.4295,
+    "rep": 5,
+    "C": 0.3315,
+    "fertility": 1.0,
+    "jitter": 20.09,
+    "persistence": 125.0,
+    "adaptability": 0.5837,
+    "phase_sync": -0.0135
+  },
+  {
+    "noise": 1.4295,
+    "rep": 6,
+    "C": 0.3714,
+    "fertility": 1.0,
+    "jitter": 19.63,
+    "persistence": 75.0,
+    "adaptability": 0.5189,
+    "phase_sync": -0.0111
+  },
+  {
+    "noise": 1.4295,
+    "rep": 7,
+    "C": 0.384,
+    "fertility": 1.0,
+    "jitter": 20.96,
+    "persistence": 100.0,
+    "adaptability": 0.654,
+    "phase_sync": -0.0115
+  },
+  {
+    "noise": 1.4295,
+    "rep": 8,
+    "C": 0.3559,
+    "fertility": 1.0,
+    "jitter": 19.57,
+    "persistence": 75.0,
+    "adaptability": 0.5915,
+    "phase_sync": -0.0143
+  },
+  {
+    "noise": 1.4295,
+    "rep": 9,
+    "C": 0.311,
+    "fertility": 1.0,
+    "jitter": 19.48,
+    "persistence": 50.0,
+    "adaptability": 0.4811,
+    "phase_sync": -0.0165
+  },
+  {
+    "noise": 1.7433,
+    "rep": 0,
+    "C": 0.3609,
+    "fertility": 1.0,
+    "jitter": 19.97,
+    "persistence": 75.0,
+    "adaptability": 0.7261,
+    "phase_sync": -0.0141
+  },
+  {
+    "noise": 1.7433,
+    "rep": 1,
+    "C": 0.3822,
+    "fertility": 1.0,
+    "jitter": 19.67,
+    "persistence": 75.0,
+    "adaptability": 0.7418,
+    "phase_sync": -0.0128
+  },
+  {
+    "noise": 1.7433,
+    "rep": 2,
+    "C": 0.4121,
+    "fertility": 1.0,
+    "jitter": 19.37,
+    "persistence": 175.0,
+    "adaptability": 0.8635,
+    "phase_sync": -0.0151
+  },
+  {
+    "noise": 1.7433,
+    "rep": 3,
+    "C": 0.4186,
+    "fertility": 1.0,
+    "jitter": 19.09,
+    "persistence": 75.0,
+    "adaptability": 0.9108,
+    "phase_sync": -0.0099
+  },
+  {
+    "noise": 1.7433,
+    "rep": 4,
+    "C": 0.404,
+    "fertility": 1.0,
+    "jitter": 19.1,
+    "persistence": 75.0,
+    "adaptability": 0.7709,
+    "phase_sync": -0.012
+  },
+  {
+    "noise": 1.7433,
+    "rep": 5,
+    "C": 0.4307,
+    "fertility": 1.0,
+    "jitter": 20.04,
+    "persistence": 175.0,
+    "adaptability": 1.0861,
+    "phase_sync": -0.0132
+  },
+  {
+    "noise": 1.7433,
+    "rep": 6,
+    "C": 0.347,
+    "fertility": 1.0,
+    "jitter": 20.51,
+    "persistence": 100.0,
+    "adaptability": 0.6471,
+    "phase_sync": -0.0156
+  },
+  {
+    "noise": 1.7433,
+    "rep": 7,
+    "C": 0.3739,
+    "fertility": 1.0,
+    "jitter": 20.31,
+    "persistence": 150.0,
+    "adaptability": 0.7649,
+    "phase_sync": -0.0156
+  },
+  {
+    "noise": 1.7433,
+    "rep": 8,
+    "C": 0.4186,
+    "fertility": 1.0,
+    "jitter": 19.49,
+    "persistence": 75.0,
+    "adaptability": 0.6666,
+    "phase_sync": -0.0157
+  },
+  {
+    "noise": 1.7433,
+    "rep": 9,
+    "C": 0.3999,
+    "fertility": 1.0,
+    "jitter": 21.07,
+    "persistence": 200.0,
+    "adaptability": 0.6665,
+    "phase_sync": -0.0115
+  },
+  {
+    "noise": 2.1261,
+    "rep": 0,
+    "C": 0.3985,
+    "fertility": 1.0,
+    "jitter": 19.35,
+    "persistence": 125.0,
+    "adaptability": 0.8138,
+    "phase_sync": -0.0033
+  },
+  {
+    "noise": 2.1261,
+    "rep": 1,
+    "C": 0.4198,
+    "fertility": 1.0,
+    "jitter": 19.27,
+    "persistence": 125.0,
+    "adaptability": 0.8303,
+    "phase_sync": -0.0133
+  },
+  {
+    "noise": 2.1261,
+    "rep": 2,
+    "C": 0.3946,
+    "fertility": 1.0,
+    "jitter": 20.86,
+    "persistence": 75.0,
+    "adaptability": 1.1476,
+    "phase_sync": -0.0152
+  },
+  {
+    "noise": 2.1261,
+    "rep": 3,
+    "C": 0.454,
+    "fertility": 1.0,
+    "jitter": 18.87,
+    "persistence": 50.0,
+    "adaptability": 1.3031,
+    "phase_sync": -0.0101
+  },
+  {
+    "noise": 2.1261,
+    "rep": 4,
+    "C": 0.3924,
+    "fertility": 1.0,
+    "jitter": 20.01,
+    "persistence": 150.0,
+    "adaptability": 0.7551,
+    "phase_sync": -0.0142
+  },
+  {
+    "noise": 2.1261,
+    "rep": 5,
+    "C": 0.384,
+    "fertility": 1.0,
+    "jitter": 19.12,
+    "persistence": 125.0,
+    "adaptability": 0.6907,
+    "phase_sync": -0.0151
+  },
+  {
+    "noise": 2.1261,
+    "rep": 6,
+    "C": 0.4045,
+    "fertility": 1.0,
+    "jitter": 20.37,
+    "persistence": 200.0,
+    "adaptability": 0.8844,
+    "phase_sync": -0.0133
+  },
+  {
+    "noise": 2.1261,
+    "rep": 7,
+    "C": 0.4088,
+    "fertility": 1.0,
+    "jitter": 19.69,
+    "persistence": 200.0,
+    "adaptability": 0.7621,
+    "phase_sync": -0.0127
+  },
+  {
+    "noise": 2.1261,
+    "rep": 8,
+    "C": 0.3598,
+    "fertility": 1.0,
+    "jitter": 19.97,
+    "persistence": 75.0,
+    "adaptability": 0.7891,
+    "phase_sync": -0.0142
+  },
+  {
+    "noise": 2.1261,
+    "rep": 9,
+    "C": 0.3816,
+    "fertility": 0.9744,
+    "jitter": 21.4,
+    "persistence": 75.0,
+    "adaptability": 0.6832,
+    "phase_sync": -0.0144
+  },
+  {
+    "noise": 2.5929,
+    "rep": 0,
+    "C": 0.4515,
+    "fertility": 1.0,
+    "jitter": 19.45,
+    "persistence": 75.0,
+    "adaptability": 1.098,
+    "phase_sync": -0.0164
+  },
+  {
+    "noise": 2.5929,
+    "rep": 1,
+    "C": 0.418,
+    "fertility": 1.0,
+    "jitter": 21.32,
+    "persistence": 125.0,
+    "adaptability": 0.9721,
+    "phase_sync": -0.0061
+  },
+  {
+    "noise": 2.5929,
+    "rep": 2,
+    "C": 0.4348,
+    "fertility": 1.0,
+    "jitter": 19.64,
+    "persistence": 50.0,
+    "adaptability": 1.2159,
+    "phase_sync": -0.001
+  },
+  {
+    "noise": 2.5929,
+    "rep": 3,
+    "C": 0.4045,
+    "fertility": 1.0,
+    "jitter": 21.03,
+    "persistence": 175.0,
+    "adaptability": 1.029,
+    "phase_sync": -0.0095
+  },
+  {
+    "noise": 2.5929,
+    "rep": 4,
+    "C": 0.3888,
+    "fertility": 1.0,
+    "jitter": 21.03,
+    "persistence": 200.0,
+    "adaptability": 0.6987,
+    "phase_sync": -0.008
+  },
+  {
+    "noise": 2.5929,
+    "rep": 5,
+    "C": 0.3847,
+    "fertility": 1.0,
+    "jitter": 19.79,
+    "persistence": 75.0,
+    "adaptability": 0.772,
+    "phase_sync": -0.0037
+  },
+  {
+    "noise": 2.5929,
+    "rep": 6,
+    "C": 0.3731,
+    "fertility": 1.0,
+    "jitter": 20.96,
+    "persistence": 50.0,
+    "adaptability": 0.8988,
+    "phase_sync": -0.0124
+  },
+  {
+    "noise": 2.5929,
+    "rep": 7,
+    "C": 0.3912,
+    "fertility": 1.0,
+    "jitter": 20.61,
+    "persistence": 125.0,
+    "adaptability": 0.7946,
+    "phase_sync": -0.0124
+  },
+  {
+    "noise": 2.5929,
+    "rep": 8,
+    "C": 0.491,
+    "fertility": 1.0,
+    "jitter": 19.66,
+    "persistence": 175.0,
+    "adaptability": 1.3766,
+    "phase_sync": -0.0117
+  },
+  {
+    "noise": 2.5929,
+    "rep": 9,
+    "C": 0.3816,
+    "fertility": 1.0,
+    "jitter": 21.02,
+    "persistence": 75.0,
+    "adaptability": 0.9446,
+    "phase_sync": -0.0104
+  },
+  {
+    "noise": 3.1623,
+    "rep": 0,
+    "C": 0.3885,
+    "fertility": 1.0,
+    "jitter": 21.54,
+    "persistence": 50.0,
+    "adaptability": 0.9528,
+    "phase_sync": -0.0134
+  },
+  {
+    "noise": 3.1623,
+    "rep": 1,
+    "C": 0.3425,
+    "fertility": 1.0,
+    "jitter": 22.05,
+    "persistence": 200.0,
+    "adaptability": 0.5729,
+    "phase_sync": -0.008
+  },
+  {
+    "noise": 3.1623,
+    "rep": 2,
+    "C": 0.3925,
+    "fertility": 1.0,
+    "jitter": 22.0,
+    "persistence": 75.0,
+    "adaptability": 0.7677,
+    "phase_sync": -0.0136
+  },
+  {
+    "noise": 3.1623,
+    "rep": 3,
+    "C": 0.4084,
+    "fertility": 1.0,
+    "jitter": 20.81,
+    "persistence": 100.0,
+    "adaptability": 1.0404,
+    "phase_sync": -0.0106
+  },
+  {
+    "noise": 3.1623,
+    "rep": 4,
+    "C": 0.436,
+    "fertility": 1.0,
+    "jitter": 19.89,
+    "persistence": 150.0,
+    "adaptability": 1.1714,
+    "phase_sync": -0.0122
+  },
+  {
+    "noise": 3.1623,
+    "rep": 5,
+    "C": 0.3822,
+    "fertility": 1.0,
+    "jitter": 21.39,
+    "persistence": 50.0,
+    "adaptability": 1.1764,
+    "phase_sync": -0.012
+  },
+  {
+    "noise": 3.1623,
+    "rep": 6,
+    "C": 0.3968,
+    "fertility": 1.0,
+    "jitter": 21.98,
+    "persistence": 50.0,
+    "adaptability": 1.0464,
+    "phase_sync": -0.0129
+  },
+  {
+    "noise": 3.1623,
+    "rep": 7,
+    "C": 0.4586,
+    "fertility": 1.0,
+    "jitter": 21.08,
+    "persistence": 200.0,
+    "adaptability": 1.0346,
+    "phase_sync": -0.0097
+  },
+  {
+    "noise": 3.1623,
+    "rep": 8,
+    "C": 0.3377,
+    "fertility": 1.0,
+    "jitter": 21.51,
+    "persistence": 75.0,
+    "adaptability": 0.7295,
+    "phase_sync": -0.0121
+  },
+  {
+    "noise": 3.1623,
+    "rep": 9,
+    "C": 0.3922,
+    "fertility": 1.0,
+    "jitter": 20.16,
+    "persistence": 100.0,
+    "adaptability": 0.8013,
+    "phase_sync": -0.0093
+  }
+]

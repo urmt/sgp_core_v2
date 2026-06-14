@@ -1,0 +1,15 @@
+system,hier_cluster,km_cluster,silhouette,category
+primes,1,2,0.3516556767466198,arithmetic
+fibonacci,1,2,0.3516556767466198,arithmetic
+modular_arithmetic,1,2,0.3516556767466198,arithmetic
+additive_recurrence,3,3,0.3516556767466198,arithmetic
+lorenz,2,1,0.3516556767466198,dynamical
+logistic_map,3,3,0.3516556767466198,dynamical
+henon_map,3,3,0.3516556767466198,dynamical
+ising_magnetization,2,3,0.3516556767466198,dynamical
+reaction_diffusion,2,1,0.3516556767466198,dynamical
+cfg_expansion,1,2,0.3516556767466198,symbolic
+lambda_reduction,1,2,0.3516556767466198,symbolic
+rewrite_system,1,2,0.3516556767466198,symbolic
+iid_gaussian,3,3,0.3516556767466198,random_control
+colored_noise,3,3,0.3516556767466198,random_control

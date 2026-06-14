@@ -1,0 +1,13 @@
+{
+  "n_primitives": 5,
+  "n_proven": 5,
+  "n_unproven": 5,
+  "classifications": {
+    "comparison": "NECESSARY FOR CURRENT MODELS ONLY",
+    "ordering": "NECESSARY FOR CURRENT MODELS ONLY",
+    "identity": "NECESSARY FOR CURRENT MODELS ONLY",
+    "difference": "UNKNOWN",
+    "distinction": "NECESSARY FOR CURRENT MODELS ONLY"
+  },
+  "key_insight": "All 5 primitives are PROVEN necessary for observer MODELS but UNPROVEN necessary for observation itself. We cannot distinguish 'observation requires X' from 'we cannot describe observation without X'."
+}

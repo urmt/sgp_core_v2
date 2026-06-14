@@ -1,0 +1,2 @@
+phase,best_1D_invariant,best_1D_R2,best_1D_LOOCV_R2,2D_full_R2,R2_gap_1D_to_2D,conserved_I_exists,conserved_I_value,pca_pc1_R2,pca_pc1_LOOCV_R2,best_single_feature,best_single_feature_R2,verdict
+547,cos(60.90°)*CSR + sin(60.90°)*RBS,0.99999949,0.99999927,1.0,5.1e-07,True,0.8272943226,0.97982229,0.97124634,RBS,0.897342,MINIMAL-CONSERVATION-LAW

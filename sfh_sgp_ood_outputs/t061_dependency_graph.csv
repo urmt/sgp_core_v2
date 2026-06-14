@@ -1,0 +1,29 @@
+source,target,relationship,description
+SR2,SR1,requires,The investigation can reflect on its own procedures and methods.... → enables → The investigation can examine its own outputs as objects of analysis.
+SR3,SR1,requires,The investigation can detect recurrence — whether it has been in its current sta... → enables → The investigation can examine its own outputs as objects of analysis.
+IS3,IS1,requires,"The investigation's trajectory can be represented abstractly (state space, seque... → enables → The investigation is a process with identifiable stages, phases, or states."
+IS3,IS2,requires,"The investigation's trajectory can be represented abstractly (state space, seque... → enables → The investigation produces determinate results — outputs that can be compared ac"
+EC2,EC1,requires,The investigation can know when it has reached a limit of its current method or ... → enables → The investigation can have knowledge about its own state and outputs.
+EC3,EC1,requires,The investigation can distinguish between different causal explanations that fit... → enables → The investigation can have knowledge about its own state and outputs.
+EC4,EC3,requires,The investigation can communicate its results and compare them across different ... → enables → The investigation can distinguish between different causal explanations that fit
+MC2,MC1,requires,The choice of method constrains or shapes what can be discovered.... → enables → Multiple legitimate methods or approaches exist for investigating the phenomenon
+MC3,MC1,requires,"Methodological choices can be changed, and their effects observed.... → enables → Multiple legitimate methods or approaches exist for investigating the phenomenon"
+IC3,IC1,requires,"Processing information can change it — information can be lost, transformed, or ... → enables → There is information about the phenomenon that the investigation can extract and"
+IC2,IC1,requires,The available information about the phenomenon is finite.... → enables → There is information about the phenomenon that the investigation can extract and
+CD3,CD1,requires,"Some explanations are better than others — there is a basis for preferring one a... → enables → Causal, dependency, or explanatory relationships exist between elements of the p"
+CT2,OC3,requires,External reference is in principle possible — something exists outside the inves... → enables → There exists an inside/outside boundary relative to the investigative system.
+OC3,OC4,contradicts,There exists an inside/outside boundary relative to the investigative system.... ← cannot both hold with → The target has properties that are not entirely constituted by the investigation
+MC1,CT1,contradicts_weak,contradicts_weak
+SR1,IS2,co_occurs,The investigation can examine its own outputs as objects of analysis.... ← typically paired with → The investigation produces determinate results — outputs that can be compared ac
+OC1,IC1,co_occurs,The phenomenon under study has some stable structure — it is not pure randomness... ← typically paired with → There is information about the phenomenon that the investigation can extract and
+CD1,CD2,co_occurs,"Causal, dependency, or explanatory relationships exist between elements of the p... ← typically paired with → The investigation's procedures produce effects on the investigation itself or it"
+MC2,MC3,co_occurs,"The choice of method constrains or shapes what can be discovered.... ← typically paired with → Methodological choices can be changed, and their effects observed."
+SR1,SR2,co_occurs,The investigation can examine its own outputs as objects of analysis.... ← typically paired with → The investigation can reflect on its own procedures and methods.
+SR1,EC1,co_occurs,The investigation can examine its own outputs as objects of analysis.... ← typically paired with → The investigation can have knowledge about its own state and outputs.
+IS1,IS2,co_occurs,"The investigation is a process with identifiable stages, phases, or states.... ← typically paired with → The investigation produces determinate results — outputs that can be compared ac"
+OC1,OC2,co_occurs,The phenomenon under study has some stable structure — it is not pure randomness... ← typically paired with → The phenomenon and the investigation of it are distinguishable (even if insepara
+IC1,CD1,co_occurs,"There is information about the phenomenon that the investigation can extract and... ← typically paired with → Causal, dependency, or explanatory relationships exist between elements of the p"
+CD1,CD2,co_occurs,"Causal, dependency, or explanatory relationships exist between elements of the p... ← typically paired with → The investigation's procedures produce effects on the investigation itself or it"
+EC1,EC3,co_occurs,The investigation can have knowledge about its own state and outputs.... ← typically paired with → The investigation can distinguish between different causal explanations that fit
+MC1,MC2,co_occurs,Multiple legitimate methods or approaches exist for investigating the phenomenon... ← typically paired with → The choice of method constrains or shapes what can be discovered.
+MC1,MC3,co_occurs,"Multiple legitimate methods or approaches exist for investigating the phenomenon... ← typically paired with → Methodological choices can be changed, and their effects observed."

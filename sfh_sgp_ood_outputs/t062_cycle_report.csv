@@ -1,0 +1,19 @@
+section,detail
+NONTRIVIAL_SCCs,1 found
+SCC,IC1 (Extractable information); IS1 (Phase structure); IS2 (Determinate outputs)
+
+SIMPLE_CYCLES,2 found
+CYCLE,IS1 (Phase structure) → IS2 (Determinate outputs) → IS1 (Phase structure)
+CYCLE,IC1 (Extractable information) → IS1 (Phase structure) → IS2 (Determinate outputs) → IC1 (Extractable information)
+
+CONDENSATION,7 SCCs → 7 DAG nodes
+CONDENSATION_DEPTH,0
+
+STRUCTURAL_SUMMARY,
+total_assumptions,9
+roots,OC2
+leaves,CD2
+non_trivial_sccs,1
+simple_cycles,2
+min_generating_set_size,1
+n_minimal_generating_sets,1

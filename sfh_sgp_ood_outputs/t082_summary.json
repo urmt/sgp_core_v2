@@ -1,0 +1,224 @@
+{
+  "audit": "T082 \u2014 Structural Realization Audit",
+  "question": "What additional principle, combined with MC2+MC3+MC4, causes substrate/mechanisms/corridor to reappear?",
+  "n_systems": 240,
+  "phases": [
+    {
+      "label": "Baseline (MC2+MC3+MC4, threshold 0.5)",
+      "n_all": 22,
+      "n_none": 8,
+      "assumptions_emerged": 5,
+      "assumptions_pct": 55.6,
+      "emergent_assumptions": [
+        "IC1",
+        "IS1",
+        "CD2",
+        "EC1",
+        "SR1"
+      ],
+      "mechanisms_emerged": 1,
+      "emergent_mechanisms": [
+        "M08"
+      ],
+      "viability_basin": true,
+      "fertile_corridor": true,
+      "pc1_pct": 41.7,
+      "intrinsic_dim": 4
+    },
+    {
+      "label": "SP (Structural Persistence) added",
+      "n_all": 4,
+      "n_none": 0,
+      "assumptions_emerged": 9,
+      "assumptions_pct": 100.0,
+      "emergent_assumptions": [
+        "OC2",
+        "OC1",
+        "CD1",
+        "IC1",
+        "IS1",
+        "IS2",
+        "CD2",
+        "EC1",
+        "SR1"
+      ],
+      "mechanisms_emerged": 5,
+      "emergent_mechanisms": [
+        "M02",
+        "M03",
+        "M04",
+        "M06",
+        "M08"
+      ],
+      "viability_basin": null,
+      "fertile_corridor": true,
+      "pc1_pct": 41.7,
+      "intrinsic_dim": 4
+    },
+    {
+      "label": "MC5 (Recoverable Perturbation) added",
+      "n_all": 17,
+      "n_none": 0,
+      "assumptions_emerged": 9,
+      "assumptions_pct": 100.0,
+      "emergent_assumptions": [
+        "OC2",
+        "OC1",
+        "CD1",
+        "IC1",
+        "IS1",
+        "IS2",
+        "CD2",
+        "EC1",
+        "SR1"
+      ],
+      "mechanisms_emerged": 5,
+      "emergent_mechanisms": [
+        "M02",
+        "M03",
+        "M04",
+        "M06",
+        "M08"
+      ],
+      "viability_basin": null,
+      "fertile_corridor": true,
+      "pc1_pct": 41.7,
+      "intrinsic_dim": 4
+    },
+    {
+      "label": "MC1 (Information Preservation) added",
+      "n_all": 22,
+      "n_none": 0,
+      "assumptions_emerged": 9,
+      "assumptions_pct": 100.0,
+      "emergent_assumptions": [
+        "OC2",
+        "OC1",
+        "CD1",
+        "IC1",
+        "IS1",
+        "IS2",
+        "CD2",
+        "EC1",
+        "SR1"
+      ],
+      "mechanisms_emerged": 5,
+      "emergent_mechanisms": [
+        "M02",
+        "M03",
+        "M04",
+        "M06",
+        "M08"
+      ],
+      "viability_basin": null,
+      "fertile_corridor": true,
+      "pc1_pct": 41.7,
+      "intrinsic_dim": 4
+    },
+    {
+      "label": "Higher thresholds (MC2/MC3/MC4 >= 0.7)",
+      "n_all": 2,
+      "n_none": 56,
+      "assumptions_emerged": 3,
+      "assumptions_pct": 33.3,
+      "emergent_assumptions": [
+        "CD2",
+        "EC1",
+        "SR1"
+      ],
+      "mechanisms_emerged": 1,
+      "emergent_mechanisms": [
+        "M04"
+      ],
+      "viability_basin": true,
+      "fertile_corridor": true,
+      "pc1_pct": 41.7,
+      "intrinsic_dim": 4
+    },
+    {
+      "label": "Interaction (MC2 x MC3 x MC4 >= 0.216)",
+      "n_all": 45,
+      "n_none": 195,
+      "assumptions_emerged": 3,
+      "assumptions_pct": 33.3,
+      "emergent_assumptions": [
+        "CD2",
+        "EC1",
+        "SR1"
+      ],
+      "mechanisms_emerged": 1,
+      "emergent_mechanisms": [
+        "M08"
+      ],
+      "viability_basin": false,
+      "fertile_corridor": true,
+      "pc1_pct": 41.7,
+      "intrinsic_dim": 4
+    },
+    {
+      "label": "SP + MC5 combined",
+      "n_all": 4,
+      "n_none": 0,
+      "assumptions_emerged": 9,
+      "assumptions_pct": 100.0,
+      "emergent_assumptions": [
+        "OC2",
+        "OC1",
+        "CD1",
+        "IC1",
+        "IS1",
+        "IS2",
+        "CD2",
+        "EC1",
+        "SR1"
+      ],
+      "mechanisms_emerged": 5,
+      "emergent_mechanisms": [
+        "M02",
+        "M03",
+        "M04",
+        "M06",
+        "M08"
+      ],
+      "viability_basin": null,
+      "fertile_corridor": true,
+      "pc1_pct": 41.7,
+      "intrinsic_dim": 4
+    }
+  ],
+  "best_phase": {
+    "label": "SP (Structural Persistence) added",
+    "assumptions": 9,
+    "mechanisms": 5
+  },
+  "ablation": [
+    {
+      "removed": "MC2",
+      "assumptions_emerged": 3,
+      "mechanisms_emerged": 3,
+      "viability_basin": true,
+      "fertile_corridor": true
+    },
+    {
+      "removed": "MC3",
+      "assumptions_emerged": 9,
+      "mechanisms_emerged": 4,
+      "viability_basin": null,
+      "fertile_corridor": true
+    },
+    {
+      "removed": "MC4",
+      "assumptions_emerged": 9,
+      "mechanisms_emerged": 6,
+      "viability_basin": null,
+      "fertile_corridor": true
+    },
+    {
+      "removed": "SP",
+      "assumptions_emerged": 5,
+      "mechanisms_emerged": 1,
+      "viability_basin": true,
+      "fertile_corridor": true
+    }
+  ]
+}

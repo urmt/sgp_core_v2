@@ -1,0 +1,13 @@
+architecture,mean_closure,survival_rate,degeneracy_class
+full_5osc,0.5536304454173244,0.9,robust
+big_10osc,0.2980167188947326,0.48,fragile
+tiny_2osc,0.5873471822737176,0.98,robust
+sparse_5osc,0.5752440499405198,0.98,robust
+weak_coupling,0.303865614277949,0.44,fragile
+strong_coupling,0.8740356228599343,1.0,robust
+slow_closure,0.5406065310662691,1.0,robust
+fast_closure,0.6457119995449628,0.86,robust
+phase_only_surr,0.5139192701020846,1.0,robust
+freq_engine,0.48646623671069866,0.96,robust
+scalar_drift,0.494096772961573,1.0,robust
+noisy_closure,0.4799839880323318,0.94,robust

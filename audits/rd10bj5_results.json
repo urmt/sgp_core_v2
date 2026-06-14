@@ -1,0 +1,17 @@
+{
+  "junctions": [
+    "distinction",
+    "constraint",
+    "preservation",
+    "recursion"
+  ],
+  "has_cycle": false,
+  "roots": [
+    "distinction"
+  ],
+  "leaves": [
+    "recursion"
+  ],
+  "symmetric_pairs": [],
+  "verdict": "chain"
+}

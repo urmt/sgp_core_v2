@@ -1,0 +1,4 @@
+dataset,idempotent_mse,rank_estimate
+white_noise,0.0,1
+sine_wave,0.0,1
+random_walk,0.0,1

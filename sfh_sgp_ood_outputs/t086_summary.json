@@ -1,0 +1,91 @@
+{
+  "audit": "T086 \u2014 Minimal Necessity Audit",
+  "question": "Is persistence a principle, implementation, or artifact?",
+  "verdict": "ARTIFACT \u2014 persistence adds minimal marginal value",
+  "n_systems": 240,
+  "baseline_emergence": 5,
+  "baseline_emergent_list": [
+    "IC1",
+    "IS1",
+    "CD2",
+    "EC1",
+    "SR1"
+  ],
+  "universally_emergent": [],
+  "contingently_emergent": [
+    "OC1"
+  ],
+  "rarely_emergent": [
+    "OC2",
+    "CD1",
+    "IC1",
+    "IS1",
+    "IS2",
+    "CD2",
+    "EC1",
+    "SR1"
+  ],
+  "alt_with_high_emergence": 0,
+  "reliable_positives": 3,
+  "marginal_results": [
+    {
+      "key": "sp",
+      "label": "SP (Structural Persistence)",
+      "n_all": 5,
+      "n_none": 17,
+      "n_emergent": 1,
+      "emergent_list": [
+        "OC1"
+      ]
+    },
+    {
+      "key": "si",
+      "label": "SI (State Inertia)",
+      "n_all": 4,
+      "n_none": 18,
+      "n_emergent": 2,
+      "emergent_list": [
+        "OC1",
+        "CD1"
+      ]
+    },
+    {
+      "key": "sb",
+      "label": "SB (Structural Bonds)",
+      "n_all": 2,
+      "n_none": 20,
+      "n_emergent": 1,
+      "emergent_list": [
+        "OC1"
+      ]
+    },
+    {
+      "key": "ta",
+      "label": "TA (Temporal Averaging)",
+      "n_all": 6,
+      "n_none": 16,
+      "n_emergent": 1,
+      "emergent_list": [
+        "CD1"
+      ]
+    },
+    {
+      "key": "cq",
+      "label": "CQ (Conservation Quantity)",
+      "n_all": 20,
+      "n_none": 2,
+      "n_emergent": 0,
+      "emergent_list": []
+    },
+    {
+      "key": "fm",
+      "label": "FM (Fixed-Point Memory)",
+      "n_all": 14,
+      "n_none": 8,
+      "n_emergent": 1,
+      "emergent_list": [
+        "OC1"
+      ]
+    }
+  ]
+}

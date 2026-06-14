@@ -1,0 +1,628 @@
+{
+  "phase": 507,
+  "seed": 507,
+  "tier": 3,
+  "sfhsgp_hierarchy": [
+    0.9285,
+    0.9283,
+    0.9279,
+    0.9244,
+    0.9225,
+    0.9031,
+    0.8864
+  ],
+  "surviving_systems": {
+    "TurbulenceEnergyCascade": {
+      "name": "TurbulenceEnergyCascade",
+      "data": {
+        "standard_correlation": {
+          "rho": 1.0,
+          "p": 0.0,
+          "tau": 1.0
+        },
+        "directional_recursive_gradient": {
+          "value": 0.3071861756698352,
+          "sign": 1
+        },
+        "propagation_asymmetry_index": {
+          "value": 1.0
+        },
+        "recursive_dependency_score": {
+          "value": 0.342285318587667
+        },
+        "depth_coupling_coherence": {
+          "value": 0.8716242084072237
+        },
+        "causal_order_retention": {
+          "value": 1.0
+        },
+        "recursive_transfer_entropy": {
+          "value": 0.8017837257372733
+        },
+        "asymmetry_preservation_ratio": {
+          "value": 1.2638995024784136e-16
+        },
+        "z_score": 2.4644199654868624,
+        "values": [
+          1.0,
+          0.85,
+          0.7,
+          0.5,
+          0.3,
+          0.15,
+          0.0
+        ],
+        "description": "Turbulence energy cascade scaling (Kolmogorov spectrum)",
+        "domain": "renormalization_scaling"
+      },
+      "directional_gradient": 0.3071861756698352
+    },
+    "EnergyMomentumConservation": {
+      "name": "EnergyMomentumConservation",
+      "data": {
+        "standard_correlation": {
+          "rho": 1.0,
+          "p": 0.0,
+          "tau": 1.0
+        },
+        "directional_recursive_gradient": {
+          "value": 0.4359768768633429,
+          "sign": 1
+        },
+        "propagation_asymmetry_index": {
+          "value": 1.0
+        },
+        "recursive_dependency_score": {
+          "value": 0.342285318587667
+        },
+        "depth_coupling_coherence": {
+          "value": 0.8484121459942848
+        },
+        "causal_order_retention": {
+          "value": 1.0
+        },
+        "recursive_transfer_entropy": {
+          "value": 0.8017837257372733
+        },
+        "asymmetry_preservation_ratio": {
+          "value": 4.067252473985069e-16
+        },
+        "z_score": 2.4644199654868624,
+        "values": [
+          1.0,
+          0.9,
+          0.7,
+          0.5,
+          0.3,
+          0.1,
+          0.0
+        ],
+        "description": "Energy-momentum conservation in particle collisions",
+        "domain": "conservation_structures"
+      },
+      "directional_gradient": 0.4359768768633429
+    },
+    "DoubleSlitInterference": {
+      "name": "DoubleSlitInterference",
+      "data": {
+        "standard_correlation": {
+          "rho": 1.0,
+          "p": 0.0,
+          "tau": 1.0
+        },
+        "directional_recursive_gradient": {
+          "value": 0.3587937001397513,
+          "sign": 1
+        },
+        "propagation_asymmetry_index": {
+          "value": 1.0
+        },
+        "recursive_dependency_score": {
+          "value": 0.342285318587667
+        },
+        "depth_coupling_coherence": {
+          "value": 0.8212854523884091
+        },
+        "causal_order_retention": {
+          "value": 1.0
+        },
+        "recursive_transfer_entropy": {
+          "value": 0.5855400437691199
+        },
+        "asymmetry_preservation_ratio": {
+          "value": 0.36151923020428867
+        },
+        "z_score": 2.4644199654868624,
+        "values": [
+          1.0,
+          0.7,
+          0.5,
+          0.4,
+          0.3,
+          0.15,
+          0.0
+        ],
+        "description": "Interference fringes in double-slit experiments",
+        "domain": "wave_interference_organization"
+      },
+      "directional_gradient": 0.3587937001397513
+    },
+    "ChemicalEquilibriumNetwork": {
+      "name": "ChemicalEquilibriumNetwork",
+      "data": {
+        "standard_correlation": {
+          "rho": 1.0,
+          "p": 0.0,
+          "tau": 1.0
+        },
+        "directional_recursive_gradient": {
+          "value": 0.3587937001397513,
+          "sign": 1
+        },
+        "propagation_asymmetry_index": {
+          "value": 1.0
+        },
+        "recursive_dependency_score": {
+          "value": 0.342285318587667
+        },
+        "depth_coupling_coherence": {
+          "value": 0.8212854523884091
+        },
+        "causal_order_retention": {
+          "value": 1.0
+        },
+        "recursive_transfer_entropy": {
+          "value": 0.5855400437691199
+        },
+        "asymmetry_preservation_ratio": {
+          "value": 0.36151923020428867
+        },
+        "z_score": 2.4644199654868624,
+        "values": [
+          1.0,
+          0.7,
+          0.5,
+          0.4,
+          0.3,
+          0.15,
+          0.0
+        ],
+        "description": "Chemical equilibrium in reaction networks",
+        "domain": "equilibrium_systems"
+      },
+      "directional_gradient": 0.3587937001397513
+    },
+    "SuperconductorCoherence": {
+      "name": "SuperconductorCoherence",
+      "data": {
+        "standard_correlation": {
+          "rho": 1.0,
+          "p": 0.0,
+          "tau": 1.0
+        },
+        "directional_recursive_gradient": {
+          "value": 0.3071861756698352,
+          "sign": 1
+        },
+        "propagation_asymmetry_index": {
+          "value": 1.0
+        },
+        "recursive_dependency_score": {
+          "value": 0.342285318587667
+        },
+        "depth_coupling_coherence": {
+          "value": 0.8716242084072237
+        },
+        "causal_order_retention": {
+          "value": 1.0
+        },
+        "recursive_transfer_entropy": {
+          "value": 0.8017837257372733
+        },
+        "asymmetry_preservation_ratio": {
+          "value": 1.2638995024784136e-16
+        },
+        "z_score": 2.4644199654868624,
+        "values": [
+          1.0,
+          0.85,
+          0.7,
+          0.5,
+          0.3,
+          0.15,
+          0.0
+        ],
+        "description": "Cooper pair coherence in superconductors",
+        "domain": "field_coherence_structures"
+      },
+      "directional_gradient": 0.3071861756698352
+    }
+  },
+  "adversarial_conditions": {
+    "coherence_scrambling": "coherence_scrambling",
+    "asymmetric_inversion": "asymmetric_inversion",
+    "recursive_transport_interruption": "recursive_transport_interruption",
+    "phase_decorrelation": "phase_decorrelation",
+    "redistribution_saturation": "redistribution_saturation",
+    "propagation_fragmentation": "propagation_fragmentation",
+    "delayed_recursive_coupling": "delayed_recursive_coupling"
+  },
+  "metrics_by_system": {
+    "TurbulenceEnergyCascade": {
+      "coherence_scrambling": {
+        "coherence_survival_ratio": 1.0064633796900195,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 1.0255704008499518,
+        "propagation_fragmentation_score": 0.3333333333333333,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.13356163111794628,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "asymmetric_inversion": {
+        "coherence_survival_ratio": 0.41412606965904725,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 0.0,
+        "propagation_fragmentation_score": 0.8333333333333334,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.2097845642472742,
+        "coherence_reconstruction_index": 0.0
+      },
+      "recursive_transport_interruption": {
+        "coherence_survival_ratio": 0.6297032785750456,
+        "asymmetry_dependence_index": 0.0,
+        "recursive_balance_strength": 1.0,
+        "propagation_fragmentation_score": 0.3333333333333333,
+        "recursive_transport_persistence": 0.05125846635527798,
+        "signature_retention_decay": 0.3780298522906994,
+        "coherence_reconstruction_index": 0.33333333333333326
+      },
+      "phase_decorrelation": {
+        "coherence_survival_ratio": 1.0980113224614898,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 1.3374879112246283,
+        "propagation_fragmentation_score": 0.3333333333333333,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.33333333333333326
+      },
+      "redistribution_saturation": {
+        "coherence_survival_ratio": 1.2278305184176244,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 2.0,
+        "propagation_fragmentation_score": 0.5,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.2234637203087958,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "propagation_fragmentation": {
+        "coherence_survival_ratio": 1.0,
+        "asymmetry_dependence_index": 0.0,
+        "recursive_balance_strength": 1.0,
+        "propagation_fragmentation_score": 0.3333333333333333,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.26206422838211496,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "delayed_recursive_coupling": {
+        "coherence_survival_ratio": 0.6554744337768875,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 0.9797672758029531,
+        "propagation_fragmentation_score": 0.16666666666666666,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.3333333333333333
+      }
+    },
+    "EnergyMomentumConservation": {
+      "coherence_scrambling": {
+        "coherence_survival_ratio": 1.1155498503685004,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 1.2438798208855564,
+        "propagation_fragmentation_score": 0.6666666666666666,
+        "recursive_transport_persistence": 0.7930700701731128,
+        "signature_retention_decay": 0.32576785760550164,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "asymmetric_inversion": {
+        "coherence_survival_ratio": 0.43897844503465444,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 0.0,
+        "propagation_fragmentation_score": 0.8333333333333334,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.44321988035103943,
+        "coherence_reconstruction_index": 0.0
+      },
+      "recursive_transport_interruption": {
+        "coherence_survival_ratio": 0.8932809572112979,
+        "asymmetry_dependence_index": 0.9090909090909092,
+        "recursive_balance_strength": 1.0000000000000004,
+        "propagation_fragmentation_score": 0.16666666666666666,
+        "recursive_transport_persistence": 0.946320446814766,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.3333333333333332
+      },
+      "phase_decorrelation": {
+        "coherence_survival_ratio": 0.8232367575696397,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 1.217098523726384,
+        "propagation_fragmentation_score": 0.3333333333333333,
+        "recursive_transport_persistence": 0.7028328225841538,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.33333333333333326
+      },
+      "redistribution_saturation": {
+        "coherence_survival_ratio": 1.3011504108666512,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 2.0,
+        "propagation_fragmentation_score": 0.6666666666666666,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.3972173147450073,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "propagation_fragmentation": {
+        "coherence_survival_ratio": 1.0,
+        "asymmetry_dependence_index": 0.0,
+        "recursive_balance_strength": 1.0,
+        "propagation_fragmentation_score": 0.6666666666666666,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.5198211391822818,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "delayed_recursive_coupling": {
+        "coherence_survival_ratio": 0.6654692134593753,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 0.9766996549336207,
+        "propagation_fragmentation_score": 0.16666666666666666,
+        "recursive_transport_persistence": 1.245546080183757,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.3333333333333333
+      }
+    },
+    "DoubleSlitInterference": {
+      "coherence_scrambling": {
+        "coherence_survival_ratio": 1.1858158809933035,
+        "asymmetry_dependence_index": 0.3379677571078624,
+        "recursive_balance_strength": 1.5736089438543612,
+        "propagation_fragmentation_score": 0.16666666666666666,
+        "recursive_transport_persistence": 0.8353285654805985,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "asymmetric_inversion": {
+        "coherence_survival_ratio": 0.7401277925996326,
+        "asymmetry_dependence_index": 0.6423403996835043,
+        "recursive_balance_strength": 1.348019753923253,
+        "propagation_fragmentation_score": 0.0,
+        "recursive_transport_persistence": 0.1751826525559921,
+        "signature_retention_decay": 1.0,
+        "coherence_reconstruction_index": 1.0
+      },
+      "recursive_transport_interruption": {
+        "coherence_survival_ratio": 0.7093304403422522,
+        "asymmetry_dependence_index": 2.640473263993421e-16,
+        "recursive_balance_strength": 0.9999999999999996,
+        "propagation_fragmentation_score": 0.5,
+        "recursive_transport_persistence": 0.9005316627403515,
+        "signature_retention_decay": 0.15931710702752067,
+        "coherence_reconstruction_index": 0.33333333333333326
+      },
+      "phase_decorrelation": {
+        "coherence_survival_ratio": 0.7467158555936809,
+        "asymmetry_dependence_index": 0.9324841437842819,
+        "recursive_balance_strength": 0.986121657880541,
+        "propagation_fragmentation_score": 0.3333333333333333,
+        "recursive_transport_persistence": 0.6591204475731436,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "redistribution_saturation": {
+        "coherence_survival_ratio": 1.2491276075952675,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 2.0,
+        "propagation_fragmentation_score": 0.8333333333333334,
+        "recursive_transport_persistence": 1.508951019661245,
+        "signature_retention_decay": 0.1666879220553481,
+        "coherence_reconstruction_index": 1.0
+      },
+      "propagation_fragmentation": {
+        "coherence_survival_ratio": 1.0,
+        "asymmetry_dependence_index": 0.0,
+        "recursive_balance_strength": 1.0,
+        "propagation_fragmentation_score": 0.6666666666666666,
+        "recursive_transport_persistence": 1.1849094068006953,
+        "signature_retention_decay": 0.48781959057049396,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "delayed_recursive_coupling": {
+        "coherence_survival_ratio": 0.8263358003164389,
+        "asymmetry_dependence_index": 0.19020902359142697,
+        "recursive_balance_strength": 1.360060399609275,
+        "propagation_fragmentation_score": 0.16666666666666666,
+        "recursive_transport_persistence": 1.312093142180703,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.3333333333333333
+      }
+    },
+    "ChemicalEquilibriumNetwork": {
+      "coherence_scrambling": {
+        "coherence_survival_ratio": 0.6224591097090373,
+        "asymmetry_dependence_index": 0.5362131955243563,
+        "recursive_balance_strength": 0.5773707939787596,
+        "propagation_fragmentation_score": 0.3333333333333333,
+        "recursive_transport_persistence": 1.1433173481402057,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 1.0
+      },
+      "asymmetric_inversion": {
+        "coherence_survival_ratio": 0.7401277925996326,
+        "asymmetry_dependence_index": 0.6423403996835043,
+        "recursive_balance_strength": 1.348019753923253,
+        "propagation_fragmentation_score": 0.0,
+        "recursive_transport_persistence": 0.1751826525559921,
+        "signature_retention_decay": 1.0,
+        "coherence_reconstruction_index": 1.0
+      },
+      "recursive_transport_interruption": {
+        "coherence_survival_ratio": 0.76157909616025,
+        "asymmetry_dependence_index": 3.9607098959901314e-16,
+        "recursive_balance_strength": 1.0,
+        "propagation_fragmentation_score": 0.6666666666666666,
+        "recursive_transport_persistence": 1.2228235561525644,
+        "signature_retention_decay": 0.30048398347856653,
+        "coherence_reconstruction_index": 0.33333333333333326
+      },
+      "phase_decorrelation": {
+        "coherence_survival_ratio": 0.553743102841373,
+        "asymmetry_dependence_index": 0.36984543687893245,
+        "recursive_balance_strength": 1.1047542751676154,
+        "propagation_fragmentation_score": 0.8333333333333334,
+        "recursive_transport_persistence": 1.544687601472138,
+        "signature_retention_decay": 0.3480108405043677,
+        "coherence_reconstruction_index": 1.0
+      },
+      "redistribution_saturation": {
+        "coherence_survival_ratio": 1.2439751522478009,
+        "asymmetry_dependence_index": 0.5952796492226399,
+        "recursive_balance_strength": 2.0,
+        "propagation_fragmentation_score": 0.3333333333333333,
+        "recursive_transport_persistence": 0.2849160712900298,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "propagation_fragmentation": {
+        "coherence_survival_ratio": 1.0,
+        "asymmetry_dependence_index": 0.0,
+        "recursive_balance_strength": 1.0,
+        "propagation_fragmentation_score": 0.5,
+        "recursive_transport_persistence": 1.271119173709079,
+        "signature_retention_decay": 0.20385835600635194,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "delayed_recursive_coupling": {
+        "coherence_survival_ratio": 0.7369498987557183,
+        "asymmetry_dependence_index": 0.5313452940694862,
+        "recursive_balance_strength": 1.248209424932913,
+        "propagation_fragmentation_score": 0.16666666666666666,
+        "recursive_transport_persistence": 1.3102906597291395,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.3333333333333333
+      }
+    },
+    "SuperconductorCoherence": {
+      "coherence_scrambling": {
+        "coherence_survival_ratio": 1.1898501920761333,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 1.9244041238634946,
+        "propagation_fragmentation_score": 0.16666666666666666,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.0
+      },
+      "asymmetric_inversion": {
+        "coherence_survival_ratio": 0.41412606965904725,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 0.0,
+        "propagation_fragmentation_score": 0.8333333333333334,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.2097845642472742,
+        "coherence_reconstruction_index": 0.0
+      },
+      "recursive_transport_interruption": {
+        "coherence_survival_ratio": 0.5641790884390832,
+        "asymmetry_dependence_index": 0.45833333333333337,
+        "recursive_balance_strength": 1.0,
+        "propagation_fragmentation_score": 0.6666666666666666,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.36473733111677886,
+        "coherence_reconstruction_index": 0.33333333333333326
+      },
+      "phase_decorrelation": {
+        "coherence_survival_ratio": 1.036867264450762,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 1.61504918887149,
+        "propagation_fragmentation_score": 0.3333333333333333,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "redistribution_saturation": {
+        "coherence_survival_ratio": 1.2224500541645729,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 2.0,
+        "propagation_fragmentation_score": 0.5,
+        "recursive_transport_persistence": 1.6380922918740608,
+        "signature_retention_decay": 0.5052700393429017,
+        "coherence_reconstruction_index": 0.3333333333333334
+      },
+      "propagation_fragmentation": {
+        "coherence_survival_ratio": 1.0,
+        "asymmetry_dependence_index": 0.0,
+        "recursive_balance_strength": 1.0,
+        "propagation_fragmentation_score": 0.5,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.3333333333333333
+      },
+      "delayed_recursive_coupling": {
+        "coherence_survival_ratio": 0.7757893183621204,
+        "asymmetry_dependence_index": 1.0,
+        "recursive_balance_strength": 1.0934569748196372,
+        "propagation_fragmentation_score": 0.16666666666666666,
+        "recursive_transport_persistence": 2.0,
+        "signature_retention_decay": 0.0,
+        "coherence_reconstruction_index": 0.3333333333333333
+      }
+    }
+  },
+  "summary": {
+    "coherence_survival_ratio": {
+      "mean": 0.8739664043998954,
+      "std": 0.25556932865824045,
+      "min": 0.41412606965904725,
+      "max": 1.3011504108666512
+    },
+    "asymmetry_dependence_index": {
+      "mean": 0.6327271297705782,
+      "std": 0.4116383868622545,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "recursive_balance_strength": {
+      "mean": 1.1702736822356483,
+      "std": 0.5182716396645066,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "propagation_fragmentation_score": {
+      "mean": 0.42857142857142855,
+      "std": 0.24971639242146465,
+      "min": 0.0,
+      "max": 0.8333333333333334
+    },
+    "recursive_transport_persistence": {
+      "mean": 1.397302118229343,
+      "std": 0.6308576518102084,
+      "min": 0.05125846635527798,
+      "max": 2.0
+    },
+    "signature_retention_decay": {
+      "mean": 0.21825428350229328,
+      "std": 0.259843135665644,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "coherence_reconstruction_index": {
+      "mean": 0.3904761904761905,
+      "std": 0.2700466072144348,
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "dominant_drivers": [
+    "coherence_survival_ratio",
+    "recursive_balance_strength",
+    "recursive_transport_persistence"
+  ],
+  "success_condition": true,
+  "cross_system_collapse_synchrony": false
+}

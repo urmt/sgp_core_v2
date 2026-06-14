@@ -1,0 +1,37 @@
+{
+  "phase": "Q9",
+  "true_invariant": "closure_value_distribution",
+  "false_invariant": "closure_correlation",
+  "primary_invariant_collapse_under_scramble": 0.9927273682363074,
+  "secondary_invariants": {
+    "continuity_overlap": 0.922,
+    "cross_prediction_error": 0.143,
+    "buffering": 0.884,
+    "transition_survival_individual": 0.736,
+    "transition_survival_shared": 0.835,
+    "reconstruction_probability": 0.785
+  },
+  "non_invariants": [
+    "closure_correlation",
+    "cross_correlation",
+    "persistence_gain_magnitude"
+  ],
+  "minimal_conditions": [
+    "K>=0.1",
+    "alpha_c>=0.05"
+  ],
+  "invariant_classes": {
+    "robust_invariant": "closure values, continuity-through-transition, synchronization",
+    "conditional_invariant": "survival under timing/topology noise, minimal conditions, reconstruction",
+    "fragile_property": "persistence gain, reconstruction fidelity, closure without coupling",
+    "temporal_structure": "closure correlation, cross-correlation"
+  },
+  "robust_findings": [
+    "two-level model: values vs correlations",
+    "closure value distributions are invariant",
+    "shared identity persists through transition (83.5%)",
+    "static models fail for correlation-level organization",
+    "continuity-through-transition > regime identity"
+  ],
+  "next_phase": "Phase R should test whether closure value distributions are invariant across PROCESS TOPOLOGIES \u2014 are the same closure values maintained when the number of oscillators or coupling architecture changes fundamentally?"
+}

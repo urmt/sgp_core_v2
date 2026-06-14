@@ -1,0 +1,31 @@
+domain,config,stability,fertility,region
+A — Physical universes,Strong-coupling universe,0.267,0.34,collapse
+A — Physical universes,Collapsing universe (Ω>>1),0.3,0.18,collapse
+A — Physical universes,Thermal equilibrium,0.483,0.0,collapse
+A — Physical universes,High-dark-energy universe,0.5,0.09,collapse
+A — Physical universes,Empty universe (Ω<<1),0.617,0.01,collapse
+A — Physical universes,Super-fertile universe (hypothetical),0.717,0.94,fertile
+A — Physical universes,Our universe,0.767,0.85,fertile
+A — Physical universes,Cyclic universe (bounce),0.767,0.76,fertile
+B — Mathematical systems,Inconsistent system,0.05,0.83,collapse
+B — Mathematical systems,Category theory (ETCS),0.783,0.87,fertile
+B — Mathematical systems,ZFC set theory,0.8,0.87,fertile
+B — Mathematical systems,Computation (Turing/λ),0.8,0.85,fertile
+B — Mathematical systems,Peano arithmetic (PA),0.833,0.65,fertile
+B — Mathematical systems,First-order logic (FOL),0.95,0.24,fortress
+B — Mathematical systems,Presburger arithmetic,0.967,0.12,fortress
+B — Mathematical systems,Decidable fragment of FOL,0.967,0.07,fortress
+C — Recursive substrate,Original substrate (IS1↔IS2),0.2,0.35,collapse
+C — Recursive substrate,OC2 only (trivial),0.333,0.01,collapse
+C — Recursive substrate,Substrate without SR1,0.783,0.43,fortress
+C — Recursive substrate,Substrate without EC1,0.783,0.65,fertile
+C — Recursive substrate,Substrate without CD2,0.8,0.55,fortress
+C — Recursive substrate,Full 9-assumption substrate,0.867,0.81,fertile
+D — Dynamical manifolds,Unbounded divergence,0.133,0.09,collapse
+D — Dynamical manifolds,Logistic map (r=3.8),0.567,0.21,fortress
+D — Dynamical manifolds,Fixed-point collapse,0.633,0.0,collapse
+D — Dynamical manifolds,Game of Life (CA),0.717,0.85,fertile
+D — Dynamical manifolds,Lorenz strange attractor,0.733,0.26,fortress
+D — Dynamical manifolds,Boolean network (K=2 critical),0.733,0.71,fertile
+D — Dynamical manifolds,Coupled oscillator (Kuramoto),0.8,0.35,fortress
+D — Dynamical manifolds,Reaction-diffusion (Turing),0.817,0.63,fertile

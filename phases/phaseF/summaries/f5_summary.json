@@ -1,0 +1,9 @@
+{
+  "phase": "F5",
+  "seed": 3000,
+  "n_windows": 697,
+  "window_size": 50,
+  "step": 25,
+  "n_operator_shifts": 194,
+  "runtime_seconds": 4
+}

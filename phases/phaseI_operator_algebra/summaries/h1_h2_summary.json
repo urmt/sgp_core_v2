@@ -1,0 +1,102 @@
+{
+  "phase": "I1+I2",
+  "operators_extracted": [
+    "op_additive",
+    "op_multiplicative",
+    "op_branching",
+    "op_synchronization",
+    "op_recursive_feedback",
+    "op_competitive_exclusion",
+    "op_diffusion",
+    "op_hierarchical_nesting",
+    "op_constraint_propagation",
+    "op_resonance_locking"
+  ],
+  "per_domain_operators": {
+    "branching": {
+      "dominant": "op_diffusion",
+      "top3": {
+        "diffusion": 0.841,
+        "synchronization": 0.783,
+        "resonance_locking": 0.648
+      }
+    },
+    "cellular_automata": {
+      "dominant": "op_diffusion",
+      "top3": {
+        "diffusion": 1.0,
+        "branching": 0.674,
+        "competitive_exclusion": 0.67
+      }
+    },
+    "coupled_map_lattice": {
+      "dominant": "op_additive",
+      "top3": {
+        "additive": 1.0,
+        "diffusion": 1.0,
+        "constraint_propagation": 1.0
+      }
+    },
+    "graph_diffusion": {
+      "dominant": "op_synchronization",
+      "top3": {
+        "synchronization": 1.0,
+        "competitive_exclusion": 1.0,
+        "additive": 0.991
+      }
+    },
+    "gray_scott": {
+      "dominant": "op_multiplicative",
+      "top3": {
+        "multiplicative": 1.0,
+        "diffusion": 1.0,
+        "resonance_locking": 1.0
+      }
+    },
+    "kuramoto": {
+      "dominant": "op_diffusion",
+      "top3": {
+        "diffusion": 1.0,
+        "resonance_locking": 0.86,
+        "recursive_feedback": 0.805
+      }
+    },
+    "lotka_volterra": {
+      "dominant": "op_branching",
+      "top3": {
+        "branching": 1.0,
+        "competitive_exclusion": 0.848,
+        "diffusion": 0.769
+      }
+    },
+    "nonlinear_oscillator": {
+      "dominant": "op_competitive_exclusion",
+      "top3": {
+        "competitive_exclusion": 0.751,
+        "synchronization": 0.697,
+        "additive": 0.595
+      }
+    },
+    "population": {
+      "dominant": "op_hierarchical_nesting",
+      "top3": {
+        "hierarchical_nesting": 1.0,
+        "additive": 0.956,
+        "diffusion": 0.869
+      }
+    },
+    "replicator": {
+      "dominant": "op_diffusion",
+      "top3": {
+        "diffusion": 1.0,
+        "competitive_exclusion": 0.979,
+        "branching": 0.135
+      }
+    }
+  },
+  "composition_tests": {
+    "n_pairs_tested": 157,
+    "n_preserving_CG": 13,
+    "best_composition": "{'operator_A': 'multiplicative', 'operator_B': 'recursive_feedback'}"
+  }
+}

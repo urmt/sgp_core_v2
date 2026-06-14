@@ -1,0 +1,8 @@
+level,assumptions,n_assumptions
+6,CD2,1
+5,EC1,1
+4,SR1,1
+3,IS2,1
+2,CD1;IC1,2
+1,IS1;OC1,2
+0,OC2,1

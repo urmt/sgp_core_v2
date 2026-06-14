@@ -1,0 +1,5 @@
+domain,geometry_type,fertile_width,collapse_rise,fortress_fall,plateau_ratio,n_fertile,n_viable,fertile_range_lo,fertile_range_hi,transition_count
+A — Physical universes,Type C — Narrow Ridge (single peak),0.05,9.3,-4.848,1.0,3,3,0.717,0.767,1
+B — Mathematical systems,Type C — Narrow Ridge (single peak),0.05,0.055,-7.059,0.571,4,7,0.783,0.833,2
+C — Recursive substrate,Type B — Threshold (abrupt switch),0.084,3.881,-5.882,0.5,2,4,0.783,0.867,3
+D — Dynamical manifolds,Type B — Threshold (abrupt switch),0.1,16.471,-36.875,0.5,3,6,0.717,0.817,5

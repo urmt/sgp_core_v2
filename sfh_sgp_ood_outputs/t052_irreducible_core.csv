@@ -1,0 +1,16 @@
+id,phase,text,requires,independent
+A01,T037,Geometry score = 0.69 across 1200 universes,A13,True
+A02,T037,Composition score = 0.0 across all universes,A13,True
+A03,T037,Recurrence detected in 98.3% of universes,A13,True
+A04,T038,Distinction emerged in 995/1000 universes,A13,True
+A05,T038,Persistence emerged in 0/1000 universes,A13,True
+A06,T039,28 assumptions cataloged,none,True
+A09,T040,10/10 candidate substrates failed,none,True
+A10,T041,0/5000 universes produce distinction,A13,True
+A11,T041,Proto-geometry emerges in 85.8%,A13,True
+A12,T042,Trajectory bundles appear in 64.7%,A13,True
+A13,T043,"101,414 detector events recorded",none,True
+A14,T043,Recurrence fires first (98.3%),A13,True
+A15,T043,73 edges in emergence graph (P>0.95),A13,True
+A17,T045,Convergence rate = 0.995,A13,True
+A22,T048,45 detectors cataloged,none,True

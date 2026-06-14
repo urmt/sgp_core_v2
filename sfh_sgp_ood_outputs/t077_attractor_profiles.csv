@@ -1,0 +1,31 @@
+domain,name,region,stability,fertility,dist_to_fertile_centroid,drift_side
+A — Physical universes,Our universe,fertile,0.767,0.85,0.065,fortress
+A — Physical universes,Cyclic universe (bounce),fertile,0.767,0.76,0.278,fortress
+A — Physical universes,Empty universe (Ω<<1),collapse,0.617,0.01,2.263,collapse
+A — Physical universes,Collapsing universe (Ω>>1),collapse,0.3,0.18,1.981,collapse
+A — Physical universes,Thermal equilibrium,collapse,0.483,0.0,2.312,collapse
+A — Physical universes,High-dark-energy universe,collapse,0.5,0.09,2.071,collapse
+A — Physical universes,Strong-coupling universe,collapse,0.267,0.34,1.619,collapse
+A — Physical universes,Super-fertile universe (hypothetical),fertile,0.717,0.94,0.261,collapse
+B — Mathematical systems,ZFC set theory,fertile,0.8,0.87,0.157,collapse
+B — Mathematical systems,Peano arithmetic (PA),fertile,0.833,0.65,0.492,fortress
+B — Mathematical systems,First-order logic (FOL),fortress,0.95,0.24,1.51,fortress
+B — Mathematical systems,Category theory (ETCS),fertile,0.783,0.87,0.202,collapse
+B — Mathematical systems,Computation (Turing/λ),fertile,0.8,0.85,0.249,collapse
+B — Mathematical systems,Inconsistent system,collapse,0.05,0.83,1.467,collapse
+B — Mathematical systems,Presburger arithmetic,fortress,0.967,0.12,1.806,fortress
+B — Mathematical systems,Decidable fragment of FOL,fortress,0.967,0.07,1.936,fortress
+C — Recursive substrate,Full 9-assumption substrate,fertile,0.867,0.81,0.263,fortress
+C — Recursive substrate,Original substrate (IS1↔IS2),collapse,0.2,0.35,1.497,collapse
+C — Recursive substrate,OC2 only (trivial),collapse,0.333,0.01,2.124,collapse
+C — Recursive substrate,Substrate without SR1,fortress,0.783,0.43,0.854,collapse
+C — Recursive substrate,Substrate without EC1,fertile,0.783,0.65,0.263,collapse
+C — Recursive substrate,Substrate without CD2,fortress,0.8,0.55,0.447,collapse
+D — Dynamical manifolds,Lorenz strange attractor,fortress,0.733,0.26,1.118,collapse
+D — Dynamical manifolds,Reaction-diffusion (Turing),fertile,0.817,0.63,0.325,fortress
+D — Dynamical manifolds,Logistic map (r=3.8),fortress,0.567,0.21,1.295,collapse
+D — Dynamical manifolds,Coupled oscillator (Kuramoto),fortress,0.8,0.35,0.893,fortress
+D — Dynamical manifolds,Fixed-point collapse,collapse,0.633,0.0,1.91,collapse
+D — Dynamical manifolds,Boolean network (K=2 critical),fertile,0.733,0.71,0.076,collapse
+D — Dynamical manifolds,Game of Life (CA),fertile,0.717,0.85,0.344,collapse
+D — Dynamical manifolds,Unbounded divergence,collapse,0.133,0.09,1.978,collapse

@@ -1,0 +1,16 @@
+{
+  "phase": "K8",
+  "title": "Recursive Identity",
+  "key_finding": "Recursive identity is rare (16% of CG) and ontologically more fundamental than geometry.",
+  "identity_driven_by": "recursive_closure (r=0.693) >> geometric_continuity (r=0.192)",
+  "identity_vs_geometry": "identity > geometry \u2014 identity can outlive geometry, not vice versa",
+  "n_CG_total": 939,
+  "n_recursive_identity": 469,
+  "n_strong_self": 319,
+  "best_predictor_of_identity": "recursive_closure",
+  "best_predictor_correlation": 0.693,
+  "recovery_probability_strong_self": 0.98,
+  "recovery_probability_weak_self": 0.88,
+  "null_comparison": "recursive_continuity 1.82x > null; org_memory at noise baseline",
+  "sgr_conclusion": "Selfhood is not inherent to process structure. It is an emergent property requiring recursive closure, reconstruction ability, and continuity-through-transformation. Most CG systems are process-like but not self-like."
+}

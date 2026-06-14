@@ -1,0 +1,3 @@
+candidate_set_id,n_generators,generator_ids,generator_names,n_generated,generated_ids,generated_names
+MS1,1,OC2,OC2: Distinguishability,8,CD1;CD2;EC1;IC1;IS1;IS2;OC1;SR1,CD1: Causal relations exist; CD2: Self-affecting procedures; EC1: Self-knowledge; IC1: Extractable information; IS1: Phase structure; IS2: Determinate outputs; OC1: Stable structure; SR1: Self-examination of outputs
+ROOTS,1,OC2,OC2: Distinguishability,8,CD1;CD2;EC1;IC1;IS1;IS2;OC1;SR1,CD1: Causal relations exist; CD2: Self-affecting procedures; EC1: Self-knowledge; IC1: Extractable information; IS1: Phase structure; IS2: Determinate outputs; OC1: Stable structure; SR1: Self-examination of outputs

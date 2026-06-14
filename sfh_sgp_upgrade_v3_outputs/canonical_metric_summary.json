@@ -1,0 +1,43 @@
+{
+  "formula_version": "v1.0",
+  "total_measurements": 96,
+  "total_failures": 0,
+  "observed_ranges": {
+    "m1_signed_ordinal_flow": {
+      "observed_min": -0.3607843137254902,
+      "observed_max": 0.9607843137254902,
+      "expected_range": [
+        -1.0,
+        1.0
+      ],
+      "failures": 0
+    },
+    "m2_half_corr": {
+      "observed_min": -0.9995098666213819,
+      "observed_max": 1.0,
+      "expected_range": [
+        -1.0,
+        1.0
+      ],
+      "failures": 0
+    },
+    "m3_signed_compressibility": {
+      "observed_min": -0.5616438356164384,
+      "observed_max": 0.9569471624266145,
+      "expected_range": [
+        -1.0,
+        1.0
+      ],
+      "failures": 0
+    },
+    "m4_amp_transition_asymmetry": {
+      "observed_min": 0.23937118182057227,
+      "observed_max": 0.929954954954955,
+      "expected_range": [
+        0.0,
+        1.0
+      ],
+      "failures": 0
+    }
+  }
+}

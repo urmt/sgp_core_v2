@@ -1,0 +1,2 @@
+phase,entropy_corr,entropy_p,dominance_corr,dominance_p,participation_corr,participation_p,rank_corr,low_group_mean,mid_group_mean,high_group_mean,verdict
+531,-0.07214059745781828,0.6997492206446378,0.1179668458847277,0.5273650805440606,-0.0910716241180228,0.6260864709826046,0.12756281741815517,0.9636327857142856,0.506871375,0.9000326666666665,RIGID-TAXONOMIC-STRUCTURE

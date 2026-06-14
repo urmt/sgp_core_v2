@@ -1,0 +1,134 @@
+{
+  "chaotic": {
+    "predictive": {
+      "score": 0.8280617333956326,
+      "informative": true
+    },
+    "intervention": {
+      "score": 0.6001910241555213,
+      "informative": true
+    },
+    "counterfactual": {
+      "score": 0.3648430336813142,
+      "informative": true
+    },
+    "information": {
+      "score": 0.9562378961424827,
+      "informative": true
+    },
+    "causal": {
+      "score": 0.9879411675287746,
+      "informative": true
+    }
+  },
+  "uniform": {
+    "predictive": {
+      "score": 0.0,
+      "informative": false
+    },
+    "intervention": {
+      "score": Infinity,
+      "informative": true
+    },
+    "counterfactual": {
+      "score": 0.0026841067241357005,
+      "informative": false
+    },
+    "information": {
+      "score": 1.0,
+      "informative": true
+    },
+    "causal": {
+      "score": 0.9736415696377735,
+      "informative": true
+    }
+  },
+  "deterministic": {
+    "predictive": {
+      "score": 0.9256194899315795,
+      "informative": true
+    },
+    "intervention": {
+      "score": 0.9662573916577687,
+      "informative": true
+    },
+    "counterfactual": {
+      "score": 0.0017745719104051425,
+      "informative": false
+    },
+    "information": {
+      "score": 0.17416148995895792,
+      "informative": false
+    },
+    "causal": {
+      "score": 0.9591370646609386,
+      "informative": true
+    }
+  },
+  "trivial": {
+    "predictive": {
+      "score": 1.0,
+      "informative": true
+    },
+    "intervention": {
+      "score": 0.0,
+      "informative": false
+    },
+    "counterfactual": {
+      "score": 0.0,
+      "informative": false
+    },
+    "information": {
+      "score": 8.569023308666566e-10,
+      "informative": false
+    },
+    "causal": {
+      "score": NaN,
+      "informative": false
+    }
+  },
+  "random": {
+    "predictive": {
+      "score": 0.0,
+      "informative": false
+    },
+    "intervention": {
+      "score": 0.0637098964190763,
+      "informative": false
+    },
+    "counterfactual": {
+      "score": 0.02737541959775703,
+      "informative": true
+    },
+    "information": {
+      "score": 0.7246437833064623,
+      "informative": true
+    },
+    "causal": {
+      "score": 0.6956583170456947,
+      "informative": false
+    }
+  },
+  "normal": {
+    "predictive": {
+      "score": 0.0,
+      "informative": false
+    },
+    "intervention": {
+      "score": 0.5502918805143553,
+      "informative": true
+    },
+    "counterfactual": {
+      "score": 0.06822131981095703,
+      "informative": true
+    },
+    "information": {
+      "score": 0.9728508533093546,
+      "informative": true
+    },
+    "causal": {
+      "score": 0.8878375250595169,
+      "informative": false
+    }
+  }
+}

@@ -1,0 +1,7 @@
+perturbation,agreement,n_features
+remove_spectral,0.07142857142857142,14
+remove_tau_axis,0.2857142857142857,13
+remove_null_audit,0.14285714285714285,14
+remove_replay,0.5714285714285714,16
+remove_ablation,0.07142857142857142,11
+gaussian_noise_0.3 (n=50),0.41714285714285715,17

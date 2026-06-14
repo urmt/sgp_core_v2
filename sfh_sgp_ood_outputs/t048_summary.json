@@ -1,0 +1,96 @@
+{
+  "n_detectors": 45,
+  "n_prerequisite_concepts": 15,
+  "deepest_common_primitive": "distance",
+  "deepest_depth": 10,
+  "common_imported": [
+    "distinction",
+    "sequence",
+    "existence",
+    "temporal_order",
+    "before/after",
+    "identity",
+    "less/greater",
+    "ordering",
+    "comparison",
+    "inequality"
+  ],
+  "ranked_primitives": [
+    {
+      "rank": 1,
+      "concept": "distance",
+      "depth": 10
+    },
+    {
+      "rank": 2,
+      "concept": "logarithm",
+      "depth": 9
+    },
+    {
+      "rank": 3,
+      "concept": "entropy",
+      "depth": 9
+    },
+    {
+      "rank": 4,
+      "concept": "arithmetic",
+      "depth": 8
+    },
+    {
+      "rank": 5,
+      "concept": "linearity",
+      "depth": 7
+    },
+    {
+      "rank": 6,
+      "concept": "equality",
+      "depth": 6
+    },
+    {
+      "rank": 7,
+      "concept": "comparison",
+      "depth": 5
+    },
+    {
+      "rank": 8,
+      "concept": "inequality",
+      "depth": 5
+    },
+    {
+      "rank": 9,
+      "concept": "set",
+      "depth": 3
+    },
+    {
+      "rank": 10,
+      "concept": "ordering",
+      "depth": 3
+    },
+    {
+      "rank": 11,
+      "concept": "grouping",
+      "depth": 3
+    },
+    {
+      "rank": 12,
+      "concept": "membership",
+      "depth": 2
+    },
+    {
+      "rank": 13,
+      "concept": "probability",
+      "depth": 2
+    },
+    {
+      "rank": 14,
+      "concept": "sorting",
+      "depth": 0
+    },
+    {
+      "rank": 15,
+      "concept": "repetition",
+      "depth": 0
+    }
+  ],
+  "contamination_verdict": "All detectors import comparison, arithmetic, and distance before detecting their targets"
+}

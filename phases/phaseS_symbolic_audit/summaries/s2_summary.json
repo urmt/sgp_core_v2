@@ -1,0 +1,11 @@
+{
+  "phase": "S2",
+  "n_compositions": 157,
+  "identity_retention_A": 11,
+  "identity_retention_B": 93,
+  "neither": 53,
+  "emergent": 0,
+  "emergent_rate": 0.0,
+  "mean_symmetry": 1.0,
+  "decomposition_rate": 1.0
+}

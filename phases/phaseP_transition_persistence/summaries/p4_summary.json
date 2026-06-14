@@ -1,0 +1,12 @@
+{
+  "phase": "P4",
+  "shared_survival_rate": 0.835,
+  "by_transition_type": {
+    "coupling_strengthen": 0.9880952380952381,
+    "coupling_weaken": 0.7534246575342466,
+    "bifurcation": 1.0,
+    "fragmentation": 0.49230769230769234,
+    "closure_reorg": 0.8571428571428571,
+    "topology_change": 0.9152542372881356
+  }
+}

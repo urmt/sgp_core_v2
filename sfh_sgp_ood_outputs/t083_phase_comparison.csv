@@ -1,0 +1,8 @@
+phase,n_all,n_none,assumptions,mechanisms,viability_basin,pc1_pct,pc2_pct,pc3_pct,intrinsic_dim,corridor_detected,edge_of_chaos_pct
+Baseline (no geometry mechanism),5,0,9,5,,46.5,37.3,6.75,3,False,30.0
+Hierarchical scaling,3,1,4,0,False,43.3,39.6,7.28,3,False,32.6
+Resource competition,2,1,3,1,True,45.9,36.6,7.68,3,False,33.3
+Adaptive selection,3,0,9,5,,43.5,40.3,6.47,3,True,34.1
+Multi-timescale,6,0,9,5,,42.7,39.6,7.75,3,False,31.6
+Corridor pressure,6,0,9,5,,47.8,33.1,9.28,3,True,32.3
+Combined (all mechanisms),4,0,9,4,,51.6,30.4,7.72,4,True,33.3

@@ -1,0 +1,5 @@
+quadrant,label,count,examples
+HS/HF,"High stability, High fertility",5,ZFC set theory; Peano arithmetic (PA); Computation (Turing/λ); Full 9-assumption substrate; Reaction-diffusion (Turing)
+HS/LF,"High stability, Low fertility",5,First-order logic (FOL); Presburger arithmetic; Decidable fragment of FOL; Substrate without CD2; Coupled oscillator (Kuramoto)
+LS/HF,"Low stability, High fertility",7,Our universe; Cyclic universe (bounce); Super-fertile universe (hypothetical); Category theory (ETCS); Substrate without EC1
+LS/LF,"Low stability, Low fertility",3,Substrate without SR1; Lorenz strange attractor; Logistic map (r=3.8)

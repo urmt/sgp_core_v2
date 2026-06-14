@@ -1,0 +1,403 @@
+{
+  "section_A": [
+    {
+      "null_id": 1,
+      "null_name": "iid_gaussian",
+      "pr": 2.5257469310912413,
+      "pr_ci_lo": 2.3460359039115075,
+      "pr_ci_hi": 2.7097268366232234,
+      "eff_rank": 2.5265573115131064,
+      "knn_r": 0.8255032932457976,
+      "knn_p": 8.033811356443387e-54,
+      "smooth_mean": 162.61784631783217,
+      "dens_flow_r": -0.9160675739973597,
+      "survival_pr": 1.2980567985868436,
+      "survival_knn": 0.9078448375465946
+    },
+    {
+      "null_id": 2,
+      "null_name": "cov_gaussian",
+      "pr": 1.9511713864322848,
+      "pr_ci_lo": 1.7585538125526756,
+      "pr_ci_hi": 2.230591446176519,
+      "eff_rank": 2.1288587615775314,
+      "knn_r": 0.8270585496710842,
+      "knn_p": 3.439170272533048e-54,
+      "smooth_mean": 184.25030677603453,
+      "dens_flow_r": -0.9285226704197358,
+      "survival_pr": 1.002765262104975,
+      "survival_knn": 0.9095552262613458
+    },
+    {
+      "null_id": 3,
+      "null_name": "spectrum_rand",
+      "pr": 1.943349271926529,
+      "pr_ci_lo": 1.7853030073437655,
+      "pr_ci_hi": 2.1756485918784034,
+      "eff_rank": 2.126804031470259,
+      "knn_r": 0.8162302932278434,
+      "knn_p": 1.0678126641038111e-51,
+      "smooth_mean": 262.61752489196755,
+      "dens_flow_r": -0.9443804457543707,
+      "survival_pr": 0.9987452437933485,
+      "survival_knn": 0.8976468828397529
+    },
+    {
+      "null_id": 4,
+      "null_name": "copula_shuffle",
+      "pr": 1.7527308621086097,
+      "pr_ci_lo": 1.600125934779391,
+      "pr_ci_hi": 1.9193684474514383,
+      "eff_rank": 2.008574638066407,
+      "knn_r": 0.9084084878560504,
+      "knn_p": 4.23309252229342e-81,
+      "smooth_mean": 153.34494994939334,
+      "dens_flow_r": -0.9158089267191304,
+      "survival_pr": 0.9007807487150311,
+      "survival_knn": 0.9990195833635119
+    },
+    {
+      "null_id": 5,
+      "null_name": "maxent",
+      "pr": 1.9701888937889747,
+      "pr_ci_lo": 1.7951570552618648,
+      "pr_ci_hi": 2.1750027630607964,
+      "eff_rank": 2.1430527120940956,
+      "knn_r": 0.8622260586009195,
+      "knn_p": 1.1651040387864863e-63,
+      "smooth_mean": 176.22983373376528,
+      "dens_flow_r": -0.912866650848189,
+      "survival_pr": 1.0125389272385048,
+      "survival_knn": 0.9482305915718733
+    },
+    {
+      "null_id": 6,
+      "null_name": "lowrank_adj",
+      "pr": 3.0846665309827856,
+      "pr_ci_lo": 2.8050344190498815,
+      "pr_ci_hi": 3.221722777042701,
+      "eff_rank": 2.849249268135919,
+      "knn_r": 0.8682623100955044,
+      "knn_p": 1.5030803829196594e-65,
+      "smooth_mean": 226.19275676748305,
+      "dens_flow_r": -0.9368864099856743,
+      "survival_pr": 1.5853022773685217,
+      "survival_knn": 0.954868941536469
+    },
+    {
+      "null_id": 7,
+      "null_name": "random_embedding",
+      "pr": 1.9996322920998522,
+      "pr_ci_lo": 1.779784774151311,
+      "pr_ci_hi": 2.263858332742942,
+      "eff_rank": 2.0755930155025553,
+      "knn_r": 0.8778831725751837,
+      "knn_p": 9.198289325571739e-69,
+      "smooth_mean": 138.4092216902835,
+      "dens_flow_r": -0.9471506590578376,
+      "survival_pr": 1.027670769182156,
+      "survival_knn": 0.9654494569703691
+    }
+  ],
+  "section_B": {
+    "info_metrics": [
+      {
+        "null_id": 1,
+        "null_name": "iid_gaussian",
+        "fisher_entropy": 6.424159484432095,
+        "kl_div_vs_gaussian": -0.46273930222030035,
+        "kl_ci_lo": -0.7500171031108813,
+        "kl_ci_hi": -0.6298192708683316,
+        "mean_grad_log_dens": 0.40872132631184954,
+        "real_kl": -1.4230873200001293
+      },
+      {
+        "null_id": 2,
+        "null_name": "cov_gaussian",
+        "fisher_entropy": 5.951866987403208,
+        "kl_div_vs_gaussian": -0.5231826967960318,
+        "kl_ci_lo": -0.8064466652020369,
+        "kl_ci_hi": -0.6894564268923927,
+        "mean_grad_log_dens": 0.4098967835779315,
+        "real_kl": -1.4230873200001293
+      },
+      {
+        "null_id": 3,
+        "null_name": "spectrum_rand",
+        "fisher_entropy": 5.805632523239376,
+        "kl_div_vs_gaussian": -0.4682898176831003,
+        "kl_ci_lo": -0.7608155597674987,
+        "kl_ci_hi": -0.6495985198137841,
+        "mean_grad_log_dens": 0.4717839195061884,
+        "real_kl": -1.4230873200001293
+      },
+      {
+        "null_id": 4,
+        "null_name": "copula_shuffle",
+        "fisher_entropy": 3.576722657048033,
+        "kl_div_vs_gaussian": -0.8693543808529274,
+        "kl_ci_lo": -1.1550507067722873,
+        "kl_ci_hi": -0.9027507541730428,
+        "mean_grad_log_dens": 0.9031099630458542,
+        "real_kl": -1.4230873200001293
+      },
+      {
+        "null_id": 5,
+        "null_name": "maxent",
+        "fisher_entropy": 6.034818084471138,
+        "kl_div_vs_gaussian": -0.5090546952367774,
+        "kl_ci_lo": -0.8132616247404398,
+        "kl_ci_hi": -0.6735303313395291,
+        "mean_grad_log_dens": 0.41706107747158394,
+        "real_kl": -1.4230873200001293
+      },
+      {
+        "null_id": 6,
+        "null_name": "lowrank_adj",
+        "fisher_entropy": 6.45994527561475,
+        "kl_div_vs_gaussian": -0.5282751892344102,
+        "kl_ci_lo": -0.8495375936945524,
+        "kl_ci_hi": -0.7029533199787897,
+        "mean_grad_log_dens": 0.39052472352954193,
+        "real_kl": -1.4230873200001293
+      },
+      {
+        "null_id": 7,
+        "null_name": "random_embedding",
+        "fisher_entropy": 5.3294614020789135,
+        "kl_div_vs_gaussian": -1.016786806674281,
+        "kl_ci_lo": -1.2289093457056222,
+        "kl_ci_hi": -1.0766570855652076,
+        "mean_grad_log_dens": 0.4233874293665855,
+        "real_kl": -1.4230873200001293
+      }
+    ],
+    "wasserstein_vs_real": {
+      "iid_gaussian": 0.5989309784124224,
+      "cov_gaussian": 0.6517565779120031,
+      "copula_shuffle": 0.934746235782999
+    }
+  },
+  "section_C": [
+    {
+      "null_id": 1,
+      "null_name": "iid_gaussian",
+      "decay_exponent": 0.8284323881448882,
+      "stable_rank": 1.937514138121727,
+      "n_components_90pct": 4,
+      "real_decay": 0.9486739922748956,
+      "real_stable_rank": 1.4528239252295003
+    },
+    {
+      "null_id": 2,
+      "null_name": "cov_gaussian",
+      "decay_exponent": 0.9378882246861161,
+      "stable_rank": 1.4780625255328361,
+      "n_components_90pct": 4,
+      "real_decay": 0.9486739922748956,
+      "real_stable_rank": 1.4528239252295003
+    },
+    {
+      "null_id": 3,
+      "null_name": "spectrum_rand",
+      "decay_exponent": 0.9474778661235299,
+      "stable_rank": 1.4555230096889142,
+      "n_components_90pct": 4,
+      "real_decay": 0.9486739922748956,
+      "real_stable_rank": 1.4528239252295003
+    },
+    {
+      "null_id": 4,
+      "null_name": "copula_shuffle",
+      "decay_exponent": 1.0679171959166718,
+      "stable_rank": 1.3685755358557568,
+      "n_components_90pct": 4,
+      "real_decay": 0.9486739922748956,
+      "real_stable_rank": 1.4528239252295003
+    },
+    {
+      "null_id": 5,
+      "null_name": "maxent",
+      "decay_exponent": 0.9458499071577513,
+      "stable_rank": 1.5359856247319026,
+      "n_components_90pct": 4,
+      "real_decay": 0.9486739922748956,
+      "real_stable_rank": 1.4528239252295003
+    },
+    {
+      "null_id": 6,
+      "null_name": "lowrank_adj",
+      "decay_exponent": 0.5085425154016284,
+      "stable_rank": 2.272901972638829,
+      "n_components_90pct": 4,
+      "real_decay": 0.9486739922748956,
+      "real_stable_rank": 1.4528239252295003
+    },
+    {
+      "null_id": 7,
+      "null_name": "random_embedding",
+      "decay_exponent": 1.200213482308877,
+      "stable_rank": 1.80753206341348,
+      "n_components_90pct": 3,
+      "real_decay": 0.9486739922748956,
+      "real_stable_rank": 1.4528239252295003
+    }
+  ],
+  "section_D": {
+    "real_pr": 1.945790764965715,
+    "fake_pr_mean": 3.1310319577693564,
+    "fake_pr_std": 0.022100607839779834,
+    "fake_knn_r_mean": 0.8657706950014263,
+    "fake_knn_r_std": 0.0180378801709961,
+    "pr_overlap": 0.6091308552512971,
+    "fooled": false
+  },
+  "section_E": [
+    {
+      "embedding": "pca_2d",
+      "label": "PCA(2)",
+      "trustworthiness": 0.8533276912660799,
+      "continuity": 0.9471462423832092,
+      "knn_flow_r": 0.9645642510732932,
+      "knn_flow_p": 6.604394698475434e-123,
+      "pr": 1.963536993682305
+    },
+    {
+      "embedding": "pca_4d",
+      "label": "PCA(4)",
+      "trustworthiness": 0.9699966147596479,
+      "continuity": 0.9648645903859174,
+      "knn_flow_r": 0.9260502795306503,
+      "knn_flow_p": 2.118390737466701e-90,
+      "pr": 3.3066409441076523
+    },
+    {
+      "embedding": "isomap",
+      "label": "Isomap",
+      "trustworthiness": 0.9654129993229519,
+      "continuity": 0.9605077860528097,
+      "knn_flow_r": 0.962621649101116,
+      "knn_flow_p": 1.5774530560803513e-120,
+      "pr": 2.684955048419948
+    },
+    {
+      "embedding": "random_proj",
+      "label": "RandProj",
+      "trustworthiness": 0.9385578876100203,
+      "continuity": 0.9464421123899797,
+      "knn_flow_r": 0.8791229923771157,
+      "knn_flow_p": 3.387900829689427e-69,
+      "pr": 2.3604013831029595
+    },
+    {
+      "embedding": "phi_real",
+      "label": "\u03a6_real",
+      "trustworthiness": 1.0,
+      "continuity": 1.0,
+      "knn_flow_r": 0.9092999806833031,
+      "knn_flow_p": 1.5978350572065205e-81,
+      "pr": 1.945790764965715
+    },
+    {
+      "embedding": "null_1",
+      "label": "Null_iid_gaussian",
+      "trustworthiness": 0.5176743398781314,
+      "continuity": 0.48799593771157745,
+      "knn_flow_r": 0.883855516206296,
+      "knn_flow_p": 6.748655885570197e-71,
+      "pr": 2.563560724811775
+    },
+    {
+      "embedding": "null_2",
+      "label": "Null_cov_gaussian",
+      "trustworthiness": 0.5088253215978334,
+      "continuity": 0.5021665538253216,
+      "knn_flow_r": 0.8797967512577214,
+      "knn_flow_p": 1.9597390373900464e-69,
+      "pr": 2.0653844909584964
+    },
+    {
+      "embedding": "null_4",
+      "label": "Null_copula_shuffle",
+      "trustworthiness": 0.49394380501015567,
+      "continuity": 0.4998612051455653,
+      "knn_flow_r": 0.8766159526576499,
+      "knn_flow_p": 2.5247392512344446e-68,
+      "pr": 1.9028685122171745
+    },
+    {
+      "embedding": "null_7",
+      "label": "Null_random_embedding",
+      "trustworthiness": 0.8800304671631686,
+      "continuity": 0.9045463777928233,
+      "knn_flow_r": 0.8767738924481349,
+      "knn_flow_p": 2.227548742820155e-68,
+      "pr": 2.1264845065281794
+    }
+  ],
+  "section_F": {
+    "destruction_levels": [
+      {
+        "level": 0,
+        "name": "original",
+        "pr": 1.945790764965715,
+        "knn_r": 0.909299980684672,
+        "smooth": 163.03059000924515
+      },
+      {
+        "level": 1,
+        "name": "col_shuffled",
+        "pr": 2.2810568853243947,
+        "knn_r": 0.7107078985592375,
+        "smooth": 301.64080277049015
+      },
+      {
+        "level": 2,
+        "name": "row_shuffled",
+        "pr": 1.423459049563112,
+        "knn_r": 0.8871133705843525,
+        "smooth": 154.71784399050398
+      },
+      {
+        "level": 3,
+        "name": "gaussian_copula",
+        "pr": 1.814251407353986,
+        "knn_r": 0.8957265865154812,
+        "smooth": 208.31197924496942
+      },
+      {
+        "level": 4,
+        "name": "decorrelated",
+        "pr": 2.4102986594785643,
+        "knn_r": 0.9026122058101343,
+        "smooth": 137.05479757756285
+      },
+      {
+        "level": 5,
+        "name": "white_noise",
+        "pr": 2.6066158442334775,
+        "knn_r": 0.82371148629843,
+        "smooth": 227.93454994698322
+      }
+    ],
+    "collapse_at_level": 2,
+    "collapse_at_name": "row_shuffled",
+    "original_pr": 1.945790764965715,
+    "final_pr": 2.6066158442334775
+  },
+  "section_G": {
+    "passed": 6,
+    "total": 7,
+    "score": 0.8571428571428571,
+    "verdict": "GENUINE DYNAMICAL GEOMETRY",
+    "details": [
+      "\u223c G1: Geometry partially survives statistical nulls  (mean survival PR=1.118)",
+      "\u2713 G2: Adversarial low-rank nulls fail to fool metrics",
+      "\u2713 G3: Causal destruction reduces topology (\u0394PR=0.522 at worst level)",
+      "\u2713 G4: Information geometry differs from Gaussian baseline",
+      "\u2713 G5: Representation robustness (mean TW=0.792)",
+      "\u2713 G6: Spectral structure not sufficient to explain geometry",
+      "\u2713 G7: Persistence collapses under causal destruction (min PR=1.423)"
+    ]
+  }
+}

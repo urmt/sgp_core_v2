@@ -1,0 +1,31 @@
+{
+  "phase": "O8",
+  "temporal_null_shared_closure_collapse": -0.011576266018452852,
+  "temporal_null_closure_convergence_collapse": 0.37244564659962087,
+  "temporal_null_cross_corr_collapse": 0.9467673805034182,
+  "no_coupling_shared_closure_collapse": 0.47441060701917837,
+  "no_coupling_cross_corr_collapse": 0.30669987821562417,
+  "collapse_by_cluster": {
+    "0": {
+      "label": "distributed",
+      "collapse": -0.06046476691478708
+    },
+    "1": {
+      "label": "weakly coupled",
+      "collapse": -0.04276738635414579
+    },
+    "2": {
+      "label": "closure-linked",
+      "collapse": -0.018155367170063608
+    },
+    "3": {
+      "label": "closure-linked",
+      "collapse": 0.028739815758684006
+    },
+    "4": {
+      "label": "distributed",
+      "collapse": 0.015353246037911439
+    }
+  },
+  "key_observation": "Shared closure survives temporal scramble but cross-correlation collapses \u2014 same pattern as Phase N"
+}

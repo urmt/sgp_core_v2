@@ -1,0 +1,10 @@
+assumption_id,assumption_name,derived_from_mcs,derivation_chain,derivable_from_MC2_MC3
+OC2,Distinguishability,MC3,MC3 (Constraint Balance): Distinguishability is the minimal constraint that separates 'nothing' from 'something'. Withou,YES
+OC1,Stable structure,MC1+MC3,MC1 (Information Preservation): Stable structure is what information preservation looks like at the substrate level. Wit,YES
+CD1,Causal relations exist,MC3,"MC3 (Constraint Balance): Causal relations are the expression of constraint in time. Without causality, change is arbitr",YES
+IC1,Extractable information,MC1+MC2,"MC2 (Productive Transformation): Extractable information is the raw material for novelty generation. Without IC1, nothin",YES
+IS1,Phase structure (change),MC3,MC3 (Constraint Balance): Phase structure/change is the temporal expression of bounded freedom. A system that never chan,YES
+IS2,Determinate outputs,MC1+MC2,MC2 (Productive Transformation) + MC1 (Information Preservation): Determinate outputs are the products of transformation,YES
+CD2,Self-affecting procedures,MC2+MC4,"MC4 (Recursive Accessibility): Self-affecting procedures are recursion at the procedural level. Without CD2, nothing can",YES
+EC1,Self-knowledge,MC4,MC4 (Recursive Accessibility): Self-knowledge is the simplest form of recursive accessibility — the system can inspect i,NO
+SR1,Self-examination of outputs,MC2+MC4+MC5,MC4 (Recursive Accessibility) + MC5 (Recoverable Perturbation): Self-examination of outputs closes the recursive loop. S,YES

@@ -1,0 +1,146 @@
+{
+  "phase": "E",
+  "title": "Organizational Curvature & Possibility Space",
+  "git_hash": "35e927d2e21d78bc558c315407a84ae008f06fab",
+  "seed": 3000,
+  "k_neighbors_default": 30,
+  "completed_phases": [
+    "e1",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6"
+  ],
+  "total_runtime_seconds": 158,
+  "file_inventory": {
+    "raw/local_coeff_vectors.csv": {
+      "exists": true,
+      "size_bytes": 524789,
+      "description": "E1 coefficient vectors"
+    },
+    "raw/neighborhood_graph.csv": {
+      "exists": true,
+      "size_bytes": 6139218,
+      "description": "E1 neighborhood graph"
+    },
+    "raw/curvature_tensors.npz": {
+      "exists": true,
+      "size_bytes": 150753,
+      "description": "E1 curvature tensors"
+    },
+    "raw/leakage_audit.csv": {
+      "exists": true,
+      "size_bytes": 2283,
+      "description": "E2 leakage audit"
+    },
+    "processed/curvature_metrics.csv": {
+      "exists": true,
+      "size_bytes": 585233,
+      "description": "E1 curvature metrics"
+    },
+    "processed/possibility_metrics.csv": {
+      "exists": true,
+      "size_bytes": 662143,
+      "description": "E2 possibility metrics"
+    },
+    "processed/prediction_results.csv": {
+      "exists": true,
+      "size_bytes": 25282,
+      "description": "E3 prediction results"
+    },
+    "processed/per_domain_r2.csv": {
+      "exists": true,
+      "size_bytes": 1388,
+      "description": "E3 per-domain R\u00b2"
+    },
+    "raw/model_comparisons.csv": {
+      "exists": true,
+      "size_bytes": 9212,
+      "description": "E3 model comparisons"
+    },
+    "processed/curvature_regions.csv": {
+      "exists": true,
+      "size_bytes": 8229583,
+      "description": "E4 curvature regions"
+    },
+    "processed/concentration_regions.csv": {
+      "exists": true,
+      "size_bytes": 571,
+      "description": "E4 concentration regions"
+    },
+    "nulls/null1_covariance_synthetic.csv": {
+      "exists": true,
+      "size_bytes": 368,
+      "description": "E5 null 1"
+    },
+    "nulls/null2_k_sensitivity.csv": {
+      "exists": true,
+      "size_bytes": 18654,
+      "description": "E5 null 2"
+    },
+    "nulls/null3_scaling_sensitivity.csv": {
+      "exists": true,
+      "size_bytes": 8170,
+      "description": "E5 null 3"
+    },
+    "nulls/null4_random_manifold_controls.csv": {
+      "exists": true,
+      "size_bytes": 1917,
+      "description": "E5 null 4"
+    },
+    "nulls/null5_cross_domain_persistence.csv": {
+      "exists": true,
+      "size_bytes": 47212,
+      "description": "E5 null 5"
+    },
+    "nulls/null_all_distributions.npz": {
+      "exists": true,
+      "size_bytes": 8126,
+      "description": "E5 null distributions"
+    },
+    "processed/family_transfer.csv": {
+      "exists": true,
+      "size_bytes": 59601,
+      "description": "E6 family transfer"
+    },
+    "processed/geometry_similarity.csv": {
+      "exists": true,
+      "size_bytes": 5460,
+      "description": "E6 geometry similarity"
+    },
+    "processed/regime_alignment.csv": {
+      "exists": true,
+      "size_bytes": 3177,
+      "description": "E6 regime alignment"
+    }
+  },
+  "row_counts": {
+    "raw/local_coeff_vectors.csv": 5000,
+    "raw/neighborhood_graph.csv": 150000,
+    "processed/curvature_metrics.csv": 5000,
+    "processed/possibility_metrics.csv": 5000,
+    "processed/prediction_results.csv": 180,
+    "processed/curvature_regions.csv": 70164,
+    "processed/family_transfer.csv": 600
+  },
+  "key_results": {
+    "E1_curvature_metrics": [],
+    "E2_possibility_metrics": [
+      "poss_reachable_volume",
+      "poss_branching_diversity",
+      "poss_adaptive_recovery",
+      "poss_future_entropy",
+      "poss_divergence_capacity",
+      "poss_stability_fertility_coupling"
+    ],
+    "E3_mean_R2_curvature": 0.184663,
+    "E3_mean_R2_raw_descriptors": 0.285819,
+    "E3_curvature_wins": 11,
+    "E5_verdict": "SURVIVES \u2014 curvature captures genuine geometric structure",
+    "E5_null_survive_count": 5,
+    "E6_within_domain_R2": 0.184663,
+    "E6_cross_domain_R2": -539568896498.88416
+  },
+  "generated_at": "2026-05-24T19:20:34"
+}

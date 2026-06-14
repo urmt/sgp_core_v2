@@ -1,0 +1,11 @@
+condition,K,alpha_c,beta_c,topology,mean_closure,survival_rate
+full_organization,0.8,0.2,0.3,all_to_all,0.6138660552972404,0.93
+no_geometry,0.0,0.2,0.0,none,0.21240641108851144,0.17
+no_synchronization,0.0,0.2,0.3,none,0.21505147954785744,0.2
+no_coupling,0.0,0.2,0.0,none,0.205448989435481,0.15
+no_timing_precision,0.8,0.2,0.3,random_timing,0.63606848404372,0.98
+no_topology,0.8,0.2,0.3,random,0.5678914317978561,0.93
+no_closure_cross,0.8,0.2,0.0,all_to_all,0.6140327673404297,0.94
+minimal_closure,0.0,0.05,0.0,none,0.3464413909772033,0.73
+minimal_sync_only,0.8,0.0,0.0,all_to_all,0.4749127499206838,0.94
+minimal_both,0.3,0.1,0.1,all_to_all,0.35893567235439394,0.69

@@ -1,0 +1,6 @@
+metric,label,fertile_mean,merely_viable_mean,gap,best_threshold,accuracy
+SR,Structural Richness — how many distinguishable structures emerge,0.83,0.36,0.47,0.59,0.95
+NP,Novelty Production — rate of genuinely new structure generation,0.8,0.33,0.47,0.56,1.0
+RC,Recombination Capacity — ability to create higher-order from lower-order,0.82,0.25,0.57,0.54,1.0
+RD,Recursive Depth — how many layers of self-reference can emerge,0.7,0.2,0.5,0.45,0.85
+OE,Open-Endedness — can growth continue indefinitely,0.78,0.26,0.52,0.52,1.0

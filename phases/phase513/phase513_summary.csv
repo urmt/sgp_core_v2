@@ -1,0 +1,2 @@
+phase,radial_stability_corr,radial_fit_r2,angular_entropy,inner_shell_mean,middle_shell_mean,outer_shell_mean,verdict
+513,-0.32352844645813733,0.10467065566761558,0.5175159586992608,0.8793796,1.0106045454545454,0.5735678,NONRADIAL-SPACE

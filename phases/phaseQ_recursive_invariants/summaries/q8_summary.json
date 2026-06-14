@@ -1,0 +1,18 @@
+{
+  "phase": "Q8",
+  "n_nulls": 200,
+  "real_closure": 0.44929187188079056,
+  "null_closure_collapses": {
+    "independent": 0.4606229651306827,
+    "phase_only": 0.022150239987833054,
+    "distribution": 0.0072726317636926385,
+    "full_independent": 0.45431292677683366
+  },
+  "true_invariant": "closure_value_distribution",
+  "destroyed_properties": [
+    "cross_correlation",
+    "temporal_structure",
+    "coupling_dependencies"
+  ],
+  "key_observation": "Closure VALUE is distributionally determined and survives all forms of recursive destruction"
+}

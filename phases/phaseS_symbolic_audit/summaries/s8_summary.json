@@ -1,0 +1,13 @@
+{
+  "phase": "S8",
+  "n_features": 10,
+  "pca_var_pc1": 0.35311915508518155,
+  "pca_var_pc2": 0.27835987493219977,
+  "pca_var_pc3": 0.14456951626933465,
+  "pca_cumvar_3pc": 0.776048546286716,
+  "n_equiv_classes": 4,
+  "mean_random_3d_var": 0.2876850915518506,
+  "pca_vs_random_gain": 0.4883634547348654,
+  "identity_prediction_r2_full": 0.06744680908344458,
+  "identity_prediction_r2_3pc": 0.017312719551328737
+}

@@ -1,0 +1,7 @@
+{
+  "phase": "N8",
+  "synchronization_collapse": 0.2640960193481162,
+  "order_param_collapse": 0.23862247414524362,
+  "closure_corr_collapse": 0.9929538896121295,
+  "n_trajectories_nulled": 500
+}

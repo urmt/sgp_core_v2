@@ -1,0 +1,86 @@
+{
+  "audit": "T091 \u2014 Construct Validity Audit",
+  "objective": "Compare theoretical definitions against operational measurements for all 9 substrate assumptions",
+  "validity_counts": {
+    "VERY LOW": 2,
+    "LOW": 4,
+    "LOW-MODERATE": 1,
+    "MODERATE": 2,
+    "HIGH": 0,
+    "VERY HIGH": 0
+  },
+  "assumptions": {
+    "OC2": {
+      "name": "Distinguishability",
+      "construct_validity": "LOW-MODERATE",
+      "t090_verdict": "Primitive (99-100% in all substrates)",
+      "simulator_dependence": "HIGH \u2014 depends on T_matrix (explicit probabilistic transition matrix per state). Requires row-stochastic matrix with rows per state. In CA/RBN/CML, T_matrix is reconstructed from observed transitions,",
+      "primary_threat": "Category error: distinguishes states, not observer from phenomenon",
+      "remediation": "If OC2 is to remain a theoretical primitive, it should be acknowledged as a pre-empirical axiom, not an empirically measured property. The operational metric should either be abandoned or re-labeled as 'state distinguishability' to avoid conflating measurement with ontology."
+    },
+    "OC1": {
+      "name": "Stable Structure (Boundedness)",
+      "construct_validity": "LOW",
+      "t090_verdict": "Implementation-dependent (41.8-94.8%)",
+      "simulator_dependence": "LOW \u2014 only depends on history sequence. Compatible with any substrate that produces a discrete-state trajectory.",
+      "primary_threat": "Inversion error: structure \u2260 repetitiveness",
+      "remediation": "Replace with a genuine structure measure: permutation entropy, Lempel-Ziv complexity, or autocorrelation structure. The operational measure should assess 'non-randomness,' not 'repetitiveness.'"
+    },
+    "CD1": {
+      "name": "Causal Relations Exist",
+      "construct_validity": "MODERATE",
+      "t090_verdict": "Implementation-dependent (10.2-100%)",
+      "simulator_dependence": "HIGH \u2014 uses the determinism parameter directly, which is an input to the simulator. This parameter is not a measured property of the system. Non-Markov substrates (CA, CML) don't have a determinism pa",
+      "primary_threat": "40% weight is a simulator configuration, not an observation",
+      "remediation": "Remove the parameter component entirely; use only empirical transition consistency. Replace 'most common successor' with conditional entropy or transfer entropy for richer causal assessment."
+    },
+    "IC1": {
+      "name": "Extractable Information",
+      "construct_validity": "LOW",
+      "t090_verdict": "Markov artifact (0-100%)",
+      "simulator_dependence": "EXTREME \u2014 requires probabilistic branching (multiple distinct successor states). In deterministic substrates (CA, CML), each state has exactly one successor, giving IC1 \u2248 0 regardless of how much info",
+      "primary_threat": "Inversion: branching diversity \u2260 extractable information",
+      "remediation": "Replace with an actual information-theoretic measure: mutual information between consecutive states, or Shannon entropy of the transition distribution. If the theoretical construct is 'information can be extracted,' then the metric should measure how much information is available, not how many branches exist."
+    },
+    "IS1": {
+      "name": "Phase Structure (Investigative Change)",
+      "construct_validity": "MODERATE",
+      "t090_verdict": "Implementation-dependent (23.2-100%)",
+      "simulator_dependence": "LOW \u2014 only depends on history sequence. Compatible with any discrete-state trajectory substrate.",
+      "primary_threat": "Block size (5) is arbitrary \u2014 determines what counts as a phase",
+      "remediation": "Use recurrence quantification analysis or change-point detection to identify phase boundaries from data rather than imposing them. Alternatively, make block size a parameter and test robustness."
+    },
+    "IS2": {
+      "name": "Determinate Outputs (Coincidence)",
+      "construct_validity": "VERY LOW",
+      "t090_verdict": "Primitive (100% everywhere \u2014 floor artifact)",
+      "simulator_dependence": "LOW \u2014 only depends on history. Compatible with any discrete-state substrate.",
+      "primary_threat": "0.5 measurement floor makes the metric uninformative for most systems",
+      "remediation": "Redesign from scratch: 'determinate outputs' should be measured as test-retest reliability, output variance under repeated identical conditions, or inter-annotator agreement. The current operational measure should be discarded."
+    },
+    "CD2": {
+      "name": "Self-Affecting Procedures",
+      "construct_validity": "LOW",
+      "t090_verdict": "Markov artifact (0-84.6%)",
+      "simulator_dependence": "EXTREME \u2014 70% of the weight comes from simulator parameters (self_model_level, self_model_influence) that are direct inputs to T082's simulator. These parameters have no equivalent in non-Markov subst",
+      "primary_threat": "70% weight is simulator configuration, not observation",
+      "remediation": "Abandon the parametric approach entirely. Self-affecting procedures should be measured behaviorally: detect whether system state at time t+1 depends on system state at time t in a way that creates feedback loops (e.g., autocorrelation in transition patterns, or detection of second-order dynamics). The current measure conflates configuration with observation."
+    },
+    "EC1": {
+      "name": "Self-Knowledge",
+      "construct_validity": "LOW",
+      "t090_verdict": "Markov artifact (<1-79.8%)",
+      "simulator_dependence": "EXTREME \u2014 80% of the weight comes from simulator parameters. Same root problem as CD2: the measure reads the model configuration, not the phenomenon. The self_model parameters are specific to T082.",
+      "primary_threat": "80% weight is simulator configuration, not observed self-knowledge",
+      "remediation": "Replace with a behavioral measure of self-monitoring: detect whether the system's transition behavior changes as a function of its own recent history in a way that indicates state-awareness (e.g., state-dependent modulation of transition probabilities based on visit frequency). The current measure is uninterpretable as 'self-knowledge.'"
+    },
+    "SR1": {
+      "name": "Self-Examination of Outputs",
+      "construct_validity": "VERY LOW",
+      "t090_verdict": "Markov artifact (0-76%)",
+      "simulator_dependence": "EXTREME \u2014 primary driver is self_model_level parameter. The bifurcation at sm=2 means the formula changes structurally based on a simulator configuration input.",
+      "primary_threat": "Entirely driven by simulator configuration, not observation",
+      "remediation": "Requires a fundamentally different approach. Self-examination of outputs should be measured by detecting whether the system's behavior at time t+k reflects analysis of its own output at time t \u2014 i.e., whether outputs become inputs to subsequent behavior. This would require tracking information flow from outputs back into the system's state, not reading simulator parameters."
+    }
+  }
+}

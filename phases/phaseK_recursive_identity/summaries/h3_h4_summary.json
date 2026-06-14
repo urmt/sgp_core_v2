@@ -1,0 +1,14 @@
+{
+  "phase": "K3+K4",
+  "identity_vs_geometry": {
+    "n_total": 5000,
+    "geo_without_id": 0,
+    "id_without_geo": 469,
+    "both_survive": 0,
+    "correlation": 0.1920886249796617,
+    "best_identity_predictor": "('recursive_closure', np.float64(0.693446814939357))"
+  },
+  "reconstruction": {
+    "n_recoverable": 671
+  }
+}

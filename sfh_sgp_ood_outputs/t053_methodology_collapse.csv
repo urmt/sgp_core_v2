@@ -1,0 +1,5 @@
+statement_id,text,clean,n_dependencies,dependencies
+A06,28 assumptions cataloged,False,3,"memory, identity, distinction"
+A09,10/10 candidate substrates tested,False,5,"comparison, identity, ordering, memory, distinction"
+A13,"101,414 detector events recorded",False,5,"comparison, identity, ordering, memory, distinction"
+A22,45 detectors cataloged,False,5,"comparison, identity, ordering, memory, distinction"

@@ -1,0 +1,2 @@
+phase,gradient_csr,gradient_rbs,gradient_norm,conserved_I_mean,conserved_I_std,conserved_I_value,is_identity,n_fixed_points,attractor_type,sensitivity_ratio_rbs_csr,generative_ks_p,verdict
+546,0.166819,0.298785,0.3422,0.8272943226,0.0,0.8272943226,True,0,LINEAR-FOLIATION,1.7911,0.0229,DESCRIPTIVE-CORRELATION

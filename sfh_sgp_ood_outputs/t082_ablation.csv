@@ -1,0 +1,6 @@
+removed,n_all,n_none,assumptions_emerged,mechanisms_emerged,viability_basin,fertile_corridor
+MC2,4,77,3,3,True,True
+MC3,12,0,9,4,,True
+MC4,14,0,9,6,,True
+SP,22,8,5,1,True,True
+none_removed,240,240,0,0,False,True

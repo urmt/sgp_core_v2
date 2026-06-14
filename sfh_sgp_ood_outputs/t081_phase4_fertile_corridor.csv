@@ -1,0 +1,4 @@
+group,n_systems,n_fertile,fertile_ratio,mean_stability,mean_fertility
+ALL_MCS,100,2,0.02,0.612,0.686
+NONE_MCS,11,0,0.0,0.837,0.341
+ALL_VIABLE,28,2,0.071,0.775,0.617

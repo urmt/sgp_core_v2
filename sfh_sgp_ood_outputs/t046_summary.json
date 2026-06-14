@@ -1,0 +1,91 @@
+{
+  "n_universes": 3000,
+  "constraint_before_convergence": 1,
+  "convergence_before_constraint": 7,
+  "tied": 0,
+  "constraint_only": 2,
+  "convergence_only": 5,
+  "both": 4,
+  "neither": 2989,
+  "entropy_decreasing_fraction": 1.0,
+  "expanding_sweep": [
+    {
+      "growth": 0.0,
+      "constraint_rate": 1.0,
+      "convergence_rate": 1.0
+    },
+    {
+      "growth": 0.5,
+      "constraint_rate": 1.0,
+      "convergence_rate": 1.0
+    },
+    {
+      "growth": 1.0,
+      "constraint_rate": 1.0,
+      "convergence_rate": 1.0
+    },
+    {
+      "growth": 2.0,
+      "constraint_rate": 1.0,
+      "convergence_rate": 1.0
+    },
+    {
+      "growth": 4.0,
+      "constraint_rate": 1.0,
+      "convergence_rate": 0.998
+    },
+    {
+      "growth": 8.0,
+      "constraint_rate": 1.0,
+      "convergence_rate": 0.994
+    },
+    {
+      "growth": 16.0,
+      "constraint_rate": 1.0,
+      "convergence_rate": 0.992
+    }
+  ],
+  "order_results": [
+    {
+      "detector": "B1_growth_rate",
+      "p_constraint_before_convergence": 0.008018710324089542,
+      "n_universes": 2993
+    },
+    {
+      "detector": "B2_reachable",
+      "p_constraint_before_convergence": 0.0,
+      "n_universes": 2998
+    },
+    {
+      "detector": "B3_entropy",
+      "p_constraint_before_convergence": 0.0,
+      "n_universes": 3000
+    },
+    {
+      "detector": "B4_transition_freedom",
+      "p_constraint_before_convergence": 0.000361271676300578,
+      "n_universes": 2768
+    },
+    {
+      "detector": "B5_possibility_elim",
+      "p_constraint_before_convergence": 0.00033478406427854036,
+      "n_universes": 2987
+    },
+    {
+      "detector": "B8_constraint_persist",
+      "p_constraint_before_convergence": 0.625,
+      "n_universes": 8
+    },
+    {
+      "detector": "B9_constraint_repro",
+      "p_constraint_before_convergence": 0.0,
+      "n_universes": 13
+    },
+    {
+      "detector": "B10_elimination_rate",
+      "p_constraint_before_convergence": 0.0027624309392265192,
+      "n_universes": 362
+    }
+  ],
+  "verdict": "CONVERGENCE_FIRST"
+}

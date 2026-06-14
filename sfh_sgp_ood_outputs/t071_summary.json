@@ -1,0 +1,94 @@
+{
+  "audit": "T071 \u2014 Stability-Fertility Meta-Space Audit",
+  "domains_compared": [
+    "A: Physical universes",
+    "B: Mathematical systems",
+    "C: Recursive substrate",
+    "D: Dynamical manifolds"
+  ],
+  "candidate_invariants_tested": [
+    "persistence",
+    "coherence",
+    "generativity",
+    "recursive_closure",
+    "information_growth",
+    "self_modeling"
+  ],
+  "invariant_rankings": {
+    "coherence": {
+      "overall_mean": 0.89,
+      "mean_min": 0.83,
+      "mean_max": 0.95,
+      "cross_domain_variance": 0.003,
+      "stability_across_domains": "HIGH"
+    },
+    "information_growth": {
+      "overall_mean": 0.6,
+      "mean_min": 0.52,
+      "mean_max": 0.73,
+      "cross_domain_variance": 0.007,
+      "stability_across_domains": "HIGH"
+    },
+    "generativity": {
+      "overall_mean": 0.74,
+      "mean_min": 0.6,
+      "mean_max": 0.84,
+      "cross_domain_variance": 0.008,
+      "stability_across_domains": "HIGH"
+    },
+    "recursive_closure": {
+      "overall_mean": 0.56,
+      "mean_min": 0.46,
+      "mean_max": 0.7,
+      "cross_domain_variance": 0.009,
+      "stability_across_domains": "HIGH"
+    },
+    "persistence": {
+      "overall_mean": 0.73,
+      "mean_min": 0.58,
+      "mean_max": 0.89,
+      "cross_domain_variance": 0.012,
+      "stability_across_domains": "HIGH"
+    },
+    "self_modeling": {
+      "overall_mean": 0.39,
+      "mean_min": 0.22,
+      "mean_max": 0.57,
+      "cross_domain_variance": 0.016,
+      "stability_across_domains": "HIGH"
+    }
+  },
+  "pairwise_similarities": {
+    "A: Physical universes \u00d7 B: Mathematical systems": 0.993,
+    "A: Physical universes \u00d7 C: Recursive substrate": 0.989,
+    "A: Physical universes \u00d7 D: Dynamical manifolds": 0.985,
+    "B: Mathematical systems \u00d7 C: Recursive substrate": 0.982,
+    "B: Mathematical systems \u00d7 D: Dynamical manifolds": 0.986,
+    "C: Recursive substrate \u00d7 D: Dynamical manifolds": 0.984
+  },
+  "level_below_substrate_candidates": [
+    {
+      "invariant": "coherence",
+      "label": "Coherence \u2014 internal consistency, no contradictions",
+      "mean": 0.89,
+      "variance": 0.003,
+      "reason": "Present in all domains (min 0.83), high overall mean (0.89), low cross-domain variance (0.003)"
+    },
+    {
+      "invariant": "generativity",
+      "label": "Generativity \u2014 capacity to produce novel structures",
+      "mean": 0.74,
+      "variance": 0.008,
+      "reason": "Present in all domains (min 0.60), high overall mean (0.74), low cross-domain variance (0.008)"
+    },
+    {
+      "invariant": "persistence",
+      "label": "Persistence \u2014 system endures through time without collapse",
+      "mean": 0.73,
+      "variance": 0.012,
+      "reason": "Present in all domains (min 0.58), high overall mean (0.73), low cross-domain variance (0.012)"
+    }
+  ],
+  "n_failure_modes": 13,
+  "conclusion": "Best candidate for level-below-substrate: coherence"
+}

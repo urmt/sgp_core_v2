@@ -1,0 +1,8 @@
+detector,count,rate,mean_depth
+D02_trajectory_convergence,3000,1.0,5.0
+D05_persistence,3000,1.0,5.0
+D08_neighborhood,1639,0.5463333333333333,5.0
+D13_composition,2998,0.9993333333333333,6.136424282855237
+D15_selfref,3000,1.0,6.035666666666667
+D18_separability,3000,1.0,8.0
+D20_distance,3000,1.0,5.0

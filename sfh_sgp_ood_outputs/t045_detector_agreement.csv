@@ -1,0 +1,6 @@
+detector,rate
+C1_pairwise,0.9945
+C2_basin,0.9945
+C3_entropy,0.9945
+C4_clustering,0.993
+C5_lyapunov,0.9535

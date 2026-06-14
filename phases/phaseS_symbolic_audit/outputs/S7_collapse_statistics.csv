@@ -1,0 +1,6 @@
+test,collapse,significant
+shuffle_labels,0.0,False
+shuffle_pairs,0.0,False
+temporal_scramble,0.0,False
+full_random,0.0,False
+operator_ordering,0.0,False

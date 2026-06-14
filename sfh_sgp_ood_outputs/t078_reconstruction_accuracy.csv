@@ -1,0 +1,5 @@
+latent_dim,region_accuracy,fertility_accuracy,viability_accuracy
+2,0.9,0.933,0.867
+3,0.9,0.933,0.867
+4,0.9,0.933,0.867
+10,0.933,0.933,0.867

@@ -1,0 +1,13 @@
+{
+  "completed": [
+    "canonical_metrics_validation",
+    "transform_displacement_geometry",
+    "signal_manifold_geometry",
+    "replay_structure",
+    "asymptotic_scaling",
+    "null_audit",
+    "old_vs_new_comparison"
+  ],
+  "failed": [],
+  "warnings": []
+}

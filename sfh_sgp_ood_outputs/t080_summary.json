@@ -1,0 +1,66 @@
+{
+  "audit": "T080 \u2014 Substrate Reconciliation Audit",
+  "n_assumptions": 9,
+  "n_mechanisms": 8,
+  "n_constraints": 5,
+  "combined_predictive_ranking": [
+    {
+      "id": "MC3",
+      "name": "Constraint Balance",
+      "net": 13,
+      "coverage": 0.7647058823529411
+    },
+    {
+      "id": "MC1",
+      "name": "Information Preservation",
+      "net": 6,
+      "coverage": 0.35294117647058826
+    },
+    {
+      "id": "MC4",
+      "name": "Recursive Accessibility",
+      "net": 6,
+      "coverage": 0.35294117647058826
+    },
+    {
+      "id": "MC2",
+      "name": "Productive Transformation",
+      "net": 5,
+      "coverage": 0.47058823529411764
+    },
+    {
+      "id": "MC5",
+      "name": "Recoverable Perturbation",
+      "net": -1,
+      "coverage": 0.058823529411764705
+    }
+  ],
+  "derivation": {
+    "MC2_MC3_coverage": "8/9",
+    "not_derived_from_MC2_MC3": [
+      "EC1"
+    ],
+    "MC3_alone_coverage": "4/9"
+  },
+  "direction_test": {
+    "avg_assumption_predicts_mcs": 2.0,
+    "avg_mc_predicts_assumptions": 3.6,
+    "direction": "TOP-DOWN"
+  },
+  "verdict": "NEAR-COMPLETE EMERGENCE \u2014 MC2+MC3 generate 8/9 assumptions; MC4 adds EC1",
+  "evidence_for": [
+    "MC3 (Constraint Balance) predicts 5/9 assumptions \u2014 tied for highest with MC2",
+    "MC2 (Productive Transformation) predicts 5/9 assumptions \u2014 tied for highest with MC3",
+    "MC2+MC3 together derive 8/9 assumptions (all except EC1)",
+    "EC1 requires MC4 (Recursive Accessibility) \u2014 a specialized addition for self-knowledge",
+    "MC1 (Information Preservation) predicts 4/9 but also contradicts fertility findings (T079)",
+    "Direction test: meta-constraints predict assumptions more strongly than reverse"
+  ],
+  "evidence_against": [
+    "No single MC predicts all 9 assumptions \u2014 the substrate is not a simple projection",
+    "MC4 is needed for the recursive assumptions (CD2, EC1, SR1)",
+    "The substrate has its own dependency structure (OC2 root) that is not derivable from MCs alone",
+    "The bootstrap deadlock (IS1\u2192IS2 edge) was resolved within the substrate, not by MCs",
+    "Mechanism classes M05-M07 contradict MC2 \u2014 failure modes are not generative"
+  ]
+}

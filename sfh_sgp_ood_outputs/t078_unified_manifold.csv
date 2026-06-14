@@ -1,0 +1,31 @@
+domain,name,region,viable,fertile,PC1,PC2,PC3,C,P,G,R,S,SR,NP,RC,RD,OE
+A — Physical universes,Our universe,fertile,True,True,1.058,-0.004,0.128,0.85,0.85,0.9,0.6,0.8,0.9,0.85,0.9,0.8,0.8
+A — Physical universes,Cyclic universe (bounce),fertile,True,True,0.816,0.05,0.03,0.75,0.85,0.8,0.7,0.65,0.8,0.75,0.85,0.7,0.7
+A — Physical universes,Empty universe (Ω<<1),collapse,False,False,-1.184,0.173,0.238,0.8,0.95,0.05,0.1,0.0,0.05,0.0,0.0,0.0,0.0
+A — Physical universes,Collapsing universe (Ω>>1),collapse,False,False,-0.844,-0.475,0.036,0.75,0.15,0.3,0.0,0.1,0.3,0.25,0.2,0.1,0.05
+A — Physical universes,Thermal equilibrium,collapse,False,False,-1.236,-0.028,0.235,0.5,0.9,0.05,0.05,0.0,0.0,0.0,0.0,0.0,0.0
+A — Physical universes,High-dark-energy universe,collapse,False,False,-1.016,-0.073,0.144,0.8,0.6,0.15,0.1,0.05,0.15,0.1,0.1,0.05,0.05
+A — Physical universes,Strong-coupling universe,collapse,False,False,-0.443,-0.603,-0.093,0.4,0.3,0.5,0.1,0.15,0.5,0.45,0.4,0.2,0.15
+A — Physical universes,Super-fertile universe (hypothetical),fertile,True,True,1.262,-0.128,0.177,0.8,0.8,0.95,0.55,0.9,0.95,0.95,0.95,0.9,0.95
+B — Mathematical systems,ZFC set theory,fertile,True,True,1.082,0.042,0.013,0.8,0.9,0.9,0.7,0.7,0.9,0.9,0.85,0.8,0.9
+B — Mathematical systems,Peano arithmetic (PA),fertile,True,True,0.578,0.202,-0.187,0.85,0.9,0.8,0.75,0.5,0.7,0.75,0.6,0.4,0.8
+B — Mathematical systems,First-order logic (FOL),fortress,True,False,-0.432,0.611,-0.234,1.0,0.95,0.4,0.9,0.1,0.3,0.3,0.2,0.1,0.3
+B — Mathematical systems,Category theory (ETCS),fertile,True,True,1.094,0.03,0.152,0.8,0.85,0.85,0.7,0.8,0.85,0.85,0.9,0.9,0.85
+B — Mathematical systems,Computation (Turing/λ),fertile,True,True,1.053,0.075,0.277,0.85,0.9,0.8,0.65,0.85,0.8,0.8,0.85,0.95,0.85
+B — Mathematical systems,Inconsistent system,collapse,False,False,0.566,-1.241,-0.392,0.05,0.1,0.95,0.0,0.1,0.9,0.95,0.8,0.6,0.9
+B — Mathematical systems,Presburger arithmetic,fortress,True,False,-0.719,0.715,-0.176,1.0,0.95,0.25,0.95,0.05,0.15,0.15,0.1,0.05,0.15
+B — Mathematical systems,Decidable fragment of FOL,fortress,True,False,-0.848,0.749,-0.137,1.0,0.95,0.15,0.95,0.05,0.1,0.1,0.05,0.0,0.1
+C — Recursive substrate,Full 9-assumption substrate,fertile,True,True,1.04,0.202,0.185,0.95,0.85,0.85,0.8,0.9,0.85,0.8,0.8,0.85,0.75
+C — Recursive substrate,Original substrate (IS1↔IS2),collapse,False,False,-0.405,-0.669,0.168,0.2,0.3,0.4,0.1,0.35,0.4,0.35,0.3,0.4,0.3
+C — Recursive substrate,OC2 only (trivial),collapse,False,False,-1.261,-0.293,0.104,0.6,0.3,0.05,0.1,0.0,0.05,0.0,0.0,0.0,0.0
+C — Recursive substrate,Substrate without SR1,fortress,True,False,0.021,0.217,-0.213,0.85,0.8,0.7,0.7,0.25,0.5,0.5,0.45,0.3,0.4
+C — Recursive substrate,Substrate without EC1,fertile,True,True,0.574,0.126,-0.009,0.85,0.8,0.75,0.7,0.6,0.7,0.7,0.7,0.55,0.6
+C — Recursive substrate,Substrate without CD2,fortress,True,False,0.4,0.23,0.211,0.9,0.8,0.65,0.7,0.75,0.6,0.55,0.5,0.6,0.5
+D — Dynamical manifolds,Lorenz strange attractor,fortress,True,False,-0.343,0.234,-0.067,0.8,0.8,0.6,0.6,0.3,0.4,0.3,0.2,0.2,0.2
+D — Dynamical manifolds,Reaction-diffusion (Turing),fertile,True,True,0.486,0.163,-0.324,0.85,0.85,0.8,0.75,0.35,0.8,0.7,0.75,0.3,0.6
+D — Dynamical manifolds,Logistic map (r=3.8),fortress,True,False,-0.544,-0.049,-0.117,0.75,0.65,0.65,0.3,0.15,0.35,0.3,0.15,0.1,0.15
+D — Dynamical manifolds,Coupled oscillator (Kuramoto),fortress,True,False,-0.093,0.304,-0.074,0.85,0.85,0.65,0.7,0.4,0.45,0.4,0.35,0.25,0.3
+D — Dynamical manifolds,Fixed-point collapse,collapse,False,False,-1.168,0.226,0.091,0.7,0.8,0.05,0.4,0.0,0.0,0.0,0.0,0.0,0.0
+D — Dynamical manifolds,Boolean network (K=2 critical),fertile,True,True,0.651,-0.004,-0.117,0.8,0.8,0.8,0.6,0.5,0.8,0.75,0.8,0.5,0.7
+D — Dynamical manifolds,Game of Life (CA),fertile,True,True,0.969,-0.109,-0.019,0.85,0.8,0.9,0.5,0.6,0.9,0.85,0.9,0.7,0.9
+D — Dynamical manifolds,Unbounded divergence,collapse,False,False,-1.115,-0.673,-0.032,0.3,0.1,0.2,0.0,0.0,0.1,0.2,0.05,0.0,0.1

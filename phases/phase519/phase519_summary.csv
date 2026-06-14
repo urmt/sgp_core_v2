@@ -1,0 +1,2 @@
+phase,largest_component_before,largest_component_after,fragmentation_drop,betweenness_stability_corr,degree_stability_corr,verdict
+519,31,30,1,-0.07618537776119017,0.20140161448594368,DISTRIBUTED-CLUSTER-TOPOLOGY

@@ -1,0 +1,27 @@
+{
+  "phase": "H2_05+H2_06",
+  "seed": 3000,
+  "n_domain_pairs": 45,
+  "within_cluster_KS": 0.3489250000000001,
+  "across_cluster_KS": 0.3921363636363636,
+  "process_transfer_possible": true,
+  "most_process_similar_pair": [
+    "lotka_volterra-nonlinear_oscillator",
+    "nonlinear_oscillator-population",
+    "branching-nonlinear_oscillator"
+  ],
+  "most_process_dissimilar_pair": [
+    "coupled_map_lattice-graph_diffusion",
+    "cellular_automata-graph_diffusion",
+    "cellular_automata-gray_scott"
+  ],
+  "null_N1_survived": true,
+  "null_N2_survived": true,
+  "null_N1_zscore": 188.775,
+  "null_N2_zscore": -55.934,
+  "true_half_life": 12.96059637912673,
+  "null_shuffled_regime_half_life": 1.2450999999999999,
+  "true_boundary_density": 0.2164,
+  "null_shuffled_org_space_boundary": 0.641914,
+  "n_null_iterations": 100
+}

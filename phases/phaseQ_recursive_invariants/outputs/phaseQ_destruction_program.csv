@@ -1,0 +1,13 @@
+condition,K,alpha_c,beta_c,topology,closure_perturbation,phase_perturbation,mean_closure,survival_rate
+baseline,0.6,0.2,0.3,all_to_all,none,none,0.5161395564799655,0.84
+no_coupling+no_closure,0.0,0.0,0.0,none,none,none,0.4897290362583262,0.9466666666666667
+no_coupling+random_phases,0.0,0.2,0.3,none,none,random_each_step,0.20424873482099717,0.0
+negative_coupling,-0.5,0.2,0.3,repulsive,none,none,0.20209539023547146,0.15333333333333332
+alternating_coupling,0.0,0.2,0.3,alternating,none,none,0.21867314605930724,0.18666666666666668
+low_coupling+low_closure,0.1,0.05,0.1,all_to_all,none,none,0.324267067698945,0.6133333333333333
+anti_sync_pulse,0.6,0.2,0.3,all_to_all,none,anti_phase_pulse,0.5017722722947836,0.7866666666666666
+phase_noise+closure_drop,0.3,0.1,0.15,noisy,drop_mid,noise,0.15927106113007322,0.0
+topology_destruction,0.6,0.2,0.3,sparse_10pct,none,none,0.33671919684495055,0.5466666666666666
+all_destroyed,0.0,0.0,0.0,none,drop_mid,random_each_step,0.09761632802240576,0.0
+reversal_coupling,1.0,0.2,0.3,repulsive,none,none,0.21877318931312822,0.18666666666666668
+chaotic_reset,0.0,0.0,0.0,none,zero_out,full_random,0.06626187287704972,0.0

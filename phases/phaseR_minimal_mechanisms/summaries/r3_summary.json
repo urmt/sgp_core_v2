@@ -1,0 +1,40 @@
+{
+  "phase": "R3",
+  "classification": {
+    "phase_coupling": {
+      "continuity_survival": "SUFFICIENT (56%)",
+      "high_integration": "NEITHER (74%)",
+      "closure_stability": "SUFFICIENT (54%)"
+    },
+    "closure_dynamics": {
+      "continuity_survival": "SUFFICIENT (96%)",
+      "high_integration": "NEITHER (78%)",
+      "closure_stability": "SUFFICIENT (62%)"
+    },
+    "cross_coupling": {
+      "continuity_survival": "SUFFICIENT (94%)",
+      "high_integration": "NEITHER (80%)",
+      "closure_stability": "NEITHER (48%)"
+    },
+    "reconstruction": {
+      "continuity_survival": "SUFFICIENT (90%)",
+      "high_integration": "NEITHER (70%)",
+      "closure_stability": "SUFFICIENT (50%)"
+    },
+    "topology": {
+      "continuity_survival": "SUFFICIENT (94%)",
+      "high_integration": "NEITHER (58%)",
+      "closure_stability": "SUFFICIENT (50%)"
+    },
+    "temporal_order": {
+      "continuity_survival": "SUFFICIENT (86%)",
+      "high_integration": "NEITHER (80%)",
+      "closure_stability": "NEITHER (42%)"
+    },
+    "freq_alignment": {
+      "continuity_survival": "SUFFICIENT (94%)",
+      "high_integration": "NEITHER (80%)",
+      "closure_stability": "NEITHER (40%)"
+    }
+  }
+}

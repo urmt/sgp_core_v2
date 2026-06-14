@@ -1,0 +1,8 @@
+mechanism,continuity_survival,high_integration,closure_stability
+phase_coupling,SUFFICIENT (56%),NEITHER (74%),SUFFICIENT (54%)
+closure_dynamics,SUFFICIENT (96%),NEITHER (78%),SUFFICIENT (62%)
+cross_coupling,SUFFICIENT (94%),NEITHER (80%),NEITHER (48%)
+reconstruction,SUFFICIENT (90%),NEITHER (70%),SUFFICIENT (50%)
+topology,SUFFICIENT (94%),NEITHER (58%),SUFFICIENT (50%)
+temporal_order,SUFFICIENT (86%),NEITHER (80%),NEITHER (42%)
+freq_alignment,SUFFICIENT (94%),NEITHER (80%),NEITHER (40%)

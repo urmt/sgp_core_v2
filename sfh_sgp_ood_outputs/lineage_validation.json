@@ -1,0 +1,88 @@
+{
+  "ontology": {
+    "primes": "arithmetic_generative",
+    "fibonacci": "arithmetic_generative",
+    "modular_arithmetic": "arithmetic_generative",
+    "additive_recurrence": "arithmetic_generative",
+    "lorenz": "deterministic_chaotic",
+    "logistic_map": "deterministic_chaotic",
+    "henon_map": "deterministic_chaotic",
+    "ising_magnetization": "spatial_emergent",
+    "reaction_diffusion": "spatial_emergent",
+    "cfg_expansion": "combinatorial_statphys",
+    "lambda_reduction": "symbolic_recursion",
+    "rewrite_system": "symbolic_recursion",
+    "iid_gaussian": "stochastic_noise",
+    "colored_noise": "stochastic_noise"
+  },
+  "partition_P0": {
+    "primes": 1,
+    "fibonacci": 1,
+    "modular_arithmetic": 1,
+    "additive_recurrence": 3,
+    "lorenz": 2,
+    "logistic_map": 3,
+    "henon_map": 3,
+    "ising_magnetization": 2,
+    "reaction_diffusion": 2,
+    "cfg_expansion": 1,
+    "lambda_reduction": 1,
+    "rewrite_system": 1,
+    "iid_gaussian": 3,
+    "colored_noise": 3
+  },
+  "partition_P1": {
+    "primes": 2,
+    "fibonacci": 2,
+    "modular_arithmetic": 2,
+    "additive_recurrence": 3,
+    "lorenz": 1,
+    "logistic_map": 3,
+    "henon_map": 3,
+    "ising_magnetization": 3,
+    "reaction_diffusion": 1,
+    "cfg_expansion": 2,
+    "lambda_reduction": 2,
+    "rewrite_system": 2,
+    "iid_gaussian": 3,
+    "colored_noise": 3
+  },
+  "scores": [
+    {
+      "partition": "P0_ward_euclidean",
+      "AMI": 0.31891,
+      "VI": 1.243675,
+      "MDL": 39.523403,
+      "Bayes_logZ": -24.2845,
+      "PMC": 0.714286
+    },
+    {
+      "partition": "P1_complete_euclidean",
+      "AMI": 0.176074,
+      "VI": 1.498419,
+      "MDL": 40.963119,
+      "Bayes_logZ": -25.296101,
+      "PMC": 0.659341
+    }
+  ],
+  "ari_P0_vs_P1": 0.8246628131021194,
+  "null_sig_P0": {
+    "ami": 0.31890963823950386,
+    "pct_95": 0.21045323528915694,
+    "exceeds": true
+  },
+  "null_sig_P1": {
+    "ami": 0.17607441040673683,
+    "pct_95": 0.24386833004287353,
+    "exceeds": false
+  },
+  "inconsistent_pairs": 7,
+  "winner_by_metric": {
+    "AMI": "P0",
+    "VI": "P0",
+    "MDL": "P0",
+    "Bayes_logZ": "P0",
+    "PMC": "P0"
+  },
+  "verdict": "P0 (Ward+euclidean) \u2014 continuous-state emergent organization"
+}

@@ -1,0 +1,15 @@
+{
+  "phase": "E6",
+  "seed": 3000,
+  "n_transfer_pairs": 600,
+  "n_geometry_pairs": 55,
+  "n_alignment_pairs": 45,
+  "within_domain_R2": 0.184663,
+  "cross_domain_R2": -539568896498.88416,
+  "best_source_domain": "graph_diffusion",
+  "best_source_R2": -4.530607,
+  "best_target_domain": "branching",
+  "best_target_R2": -3.203753,
+  "geometry_transfer_correlation": 0.232266,
+  "runtime": 26
+}

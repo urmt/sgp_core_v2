@@ -1,0 +1,9 @@
+law,mean_depth,std_depth,n_universes,description,mean_score,mean_top,mean_all,mean_dimension_score
+distinction_threshold,2.6705882352941175,1.4665957847764457,255.0,distinction typically appears at depth 2.7 ± 1.5,,,,
+persistence_threshold,5.470588235294118,8.983696828574255,255.0,persistence typically appears at depth 5.5 ± 9.0,,,,
+composition_threshold,5.035294117647059,9.195317696048582,255.0,composition typically appears at depth 5.0 ± 9.2,,,,
+arithmetic_threshold,0.6470588235294118,0.9311649086372148,255.0,arithmetic typically appears at depth 0.6 ± 0.9,,,,
+geometry_threshold,2.6705882352941175,1.4665957847764457,255.0,geometry typically appears at depth 2.7 ± 1.5,,,,
+closure_threshold,,,,Successful universes have mean closure=0.897,0.8972850678733032,,,
+emergence_separation,,,,Top 20% mean EI=0.516 vs all=0.489,,0.5161371552268283,0.48904430055175946,
+dimension_emergence,,,,Mean dimension score in successful universes: 0.023,,,,0.022836590498213398

@@ -1,0 +1,2 @@
+phase,best_features,n_features,best_ARI,best_anova_F,best_anova_p,mean_cluster_variance,verdict
+524,"('CSR', 'ADI', 'RBS')",3,0.4955193438496756,182.63629167187108,7.727314604776106e-19,0.004685558032729814,NONREDUCIBLE-CLUSTERING

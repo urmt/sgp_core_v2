@@ -1,0 +1,8 @@
+{
+  "phase": "M1",
+  "n_pairs": 5000,
+  "mean_co_stabilization": 0.820275822826559,
+  "same_domain_co_stab": 0.8382311152022999,
+  "cross_domain_co_stab": 0.8127046830502656,
+  "best_predictor": "('interaction_stability', np.float64(0.66460540480535))"
+}

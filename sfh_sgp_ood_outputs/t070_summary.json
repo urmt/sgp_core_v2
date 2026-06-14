@@ -1,0 +1,15 @@
+{
+  "audit": "T070 \u2014 Self-Examination Requirement Audit",
+  "accepted_level": 2,
+  "accepted_name": "outputs + change",
+  "n_assumptions": 9,
+  "generative": true,
+  "unique_root": "OC2",
+  "eliminated_assumptions": [
+    "IS1b"
+  ],
+  "unrequired_assumptions": [
+    "BA1"
+  ],
+  "remaining_open_question": "Whether Level 2 SR1 is interpretively adequate \u2014 a definitional question, not a structural one."
+}

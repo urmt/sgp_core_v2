@@ -1,0 +1,9 @@
+mode,label,n_domains,n_instances,domain_A_instances,domain_B_instances,domain_C_instances,domain_D_instances
+LG,Loss of generativity — system stops producing novel structures,4,8,2,2,3,1
+FR,Fragmentation — parts do not fit together or refer to different domains,4,11,2,1,7,1
+CT,"Collapse into triviality — system becomes vacuous, empty, or meaningless",3,3,0,1,1,1
+LD,Loss of differentiation — everything becomes indistinguishable,3,5,2,1,0,2
+LP,Loss of persistence — system ceases to exist or maintain structure,3,6,2,0,2,2
+CC,Contradiction / inconsistency — internal conflict destroys coherence,3,5,1,2,2,0
+LR,"Loss of recoverability — perturbation is permanent, no return to viability",3,4,1,1,0,2
+RD,"Runaway divergence — uncontrolled growth, explosion, or infinite regress",2,4,0,2,0,2

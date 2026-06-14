@@ -1,0 +1,2 @@
+phase,best_metric,best_pearson_r,best_pearson_p,best_spearman_rho,low_shell_mean,mid_shell_mean,high_shell_mean,mean_transitionality,verdict
+535,triadicity,-0.3907248064680999,0.029758601162493153,-0.4715732892288609,0.946031909090909,0.9531792222222221,0.6055600000000001,0.11326559924642149,NONTRANSITIONAL-STRUCTURE

@@ -1,0 +1,396 @@
+{
+  "phase": 508,
+  "seed": 508,
+  "tier": 3,
+  "surviving_systems": [
+    "EnergyMomentumConservation",
+    "DoubleSlitInterference",
+    "ChemicalEquilibriumNetwork",
+    "TurbulenceEnergyCascade",
+    "SuperconductorCoherence"
+  ],
+  "recursive_stability_tensor": [
+    [
+      0.8910950906443026,
+      0.922493339634368,
+      0.8084048789019731,
+      0.8616584289400162,
+      0.8861802838788169
+    ],
+    [
+      1.0625254285065089,
+      1.3239729650382042,
+      1.1826220354289345,
+      1.0489750839825047,
+      1.2332728982220889
+    ],
+    [
+      1.3839670599651128,
+      0.9394452709989612,
+      0.9931910090070212,
+      1.7216083523364685,
+      1.9482988988391516
+    ],
+    [
+      0.8441558441558442,
+      0.4432859034524394,
+      0.3821462821969885,
+      0.7142857142857143,
+      0.7797619047619049
+    ],
+    [
+      0.24086088455483287,
+      0.25911780280762325,
+      0.2646218828556123,
+      0.1724148566209758,
+      0.1542559906724221
+    ]
+  ],
+  "metric_labels": [
+    "CSR",
+    "RBS",
+    "RTP",
+    "ADI",
+    "SRD"
+  ],
+  "step1_latent_decomposition": {
+    "C": [
+      [
+        4.608988624792799,
+        3.9655592670304936,
+        3.737803322733234,
+        4.909528001223818,
+        5.491831017314861
+      ],
+      [
+        3.9655592670304936,
+        3.7501002189556307,
+        3.4825246167067387,
+        4.162354186042636,
+        4.6662635061639115
+      ],
+      [
+        3.737803322733234,
+        3.4825246167067387,
+        3.2546022291700045,
+        3.9655822375397465,
+        4.448723742991543
+      ],
+      [
+        4.909528001223818,
+        4.162354186042636,
+        3.9655822375397465,
+        5.346670258230454,
+        5.995033723870288
+      ],
+      [
+        5.491831017314861,
+        4.6662635061639115,
+        4.448723742991543,
+        5.995033723870288,
+        6.733969675018747
+      ]
+    ],
+    "eigenvalues": [
+      23.082986977910515,
+      0.5417311261794556,
+      0.06427045592853568,
+      0.003814873014353203,
+      0.0015275731347781391
+    ],
+    "eigenvectors": [
+      [
+        -0.4443368346505115,
+        -0.08085406362415046,
+        -0.8638711908389519,
+        0.07571689492765094,
+        0.20981161843240204
+      ],
+      [
+        -0.3896163220493927,
+        0.6729417145499157,
+        0.01795060080845062,
+        0.24306878084735692,
+        -0.5796066891603244
+      ],
+      [
+        -0.36795998675054375,
+        0.47689510464497964,
+        0.27833046891217905,
+        -0.33213851779345743,
+        0.6703675576796719
+      ],
+      [
+        -0.4778034256727297,
+        -0.36930579484648507,
+        0.1256148762340243,
+        -0.6835000804345693,
+        -0.3903404401579712
+      ],
+      [
+        -0.5357921551603867,
+        -0.42047159032750536,
+        0.4001966947801344,
+        0.5980770557744187,
+        0.1351918970917134
+      ]
+    ],
+    "lambda1_ratio": 0.9741987217069774,
+    "regime": "hidden invariant candidate",
+    "dominant_modes": 1
+  },
+  "step2_adversarial_geometry": {
+    "condition_names": [
+      "coherence_scrambling",
+      "asymmetric_inversion",
+      "recursive_transport_interruption",
+      "phase_decorrelation",
+      "redistribution_saturation",
+      "propagation_fragmentation",
+      "delayed_recursive_coupling"
+    ],
+    "cosine_similarity_matrix": [
+      [
+        1.0,
+        0.9021336759059256,
+        0.9771908001765992,
+        0.9962845980429808,
+        0.9866051152080743,
+        0.9177212861759172,
+        0.9840831530568901
+      ],
+      [
+        0.9021336759059256,
+        1.0,
+        0.8782924584399193,
+        0.913994319907642,
+        0.8614318427610593,
+        0.8469518503755874,
+        0.9168458634994664
+      ],
+      [
+        0.9771908001765992,
+        0.8782924584399193,
+        1.0,
+        0.9667095046520241,
+        0.9780841113529923,
+        0.96380741590013,
+        0.960758623216156
+      ],
+      [
+        0.9962845980429808,
+        0.913994319907642,
+        0.9667095046520241,
+        1.0,
+        0.9812540766569999,
+        0.901688778154478,
+        0.9914596295719523
+      ],
+      [
+        0.9866051152080743,
+        0.8614318427610593,
+        0.9780841113529923,
+        0.9812540766569999,
+        1.0,
+        0.8910098552784355,
+        0.955945071874015
+      ],
+      [
+        0.9177212861759172,
+        0.8469518503755874,
+        0.96380741590013,
+        0.901688778154478,
+        0.8910098552784355,
+        1.0,
+        0.9240973125646379
+      ],
+      [
+        0.9840831530568901,
+        0.9168458634994664,
+        0.960758623216156,
+        0.9914596295719523,
+        0.955945071874015,
+        0.9240973125646379,
+        1.0
+      ]
+    ]
+  },
+  "step3_recursive_coupling": {
+    "coupling_matrix": [
+      [
+        1.0,
+        0.3569483024947519,
+        0.09014244534812052,
+        0.3302769422709393,
+        -0.1015704429541138
+      ],
+      [
+        0.3569483024947519,
+        1.0,
+        -0.38204102859362754,
+        -0.5773697862880047,
+        0.24921489054594984
+      ],
+      [
+        0.09014244534812052,
+        -0.38204102859362754,
+        1.0,
+        0.7988136290903591,
+        -0.9685801754308466
+      ],
+      [
+        0.3302769422709393,
+        -0.5773697862880047,
+        0.7988136290903591,
+        1.0,
+        -0.6522872773071803
+      ],
+      [
+        -0.1015704429541138,
+        0.24921489054594984,
+        -0.9685801754308466,
+        -0.6522872773071803,
+        1.0
+      ]
+    ],
+    "metric_labels": [
+      "CSR",
+      "RBS",
+      "RTP",
+      "ADI",
+      "SRD"
+    ],
+    "mean_off_diagonal_coupling": 0.36057959362591147,
+    "structure": "moderately coupled"
+  },
+  "step4_collapse_topology": {
+    "per_system": {
+      "EnergyMomentumConservation": {
+        "trajectory_points": [
+          2.1276215149120703,
+          2.3214534105907516,
+          1.8761448604965896,
+          1.9112879301592227,
+          3.2940513030054177,
+          2.5040395397718394,
+          1.9870018942796244
+        ],
+        "conditions": [
+          "coherence_scrambling",
+          "asymmetric_inversion",
+          "recursive_transport_interruption",
+          "phase_decorrelation",
+          "redistribution_saturation",
+          "propagation_fragmentation",
+          "delayed_recursive_coupling"
+        ],
+        "mean_curvature": 0.9825923245068673,
+        "discontinuities": [],
+        "smooth_degradation": true
+      },
+      "DoubleSlitInterference": {
+        "trajectory_points": [
+          2.166656509220314,
+          1.9514703577476729,
+          1.529538783354529,
+          1.6834449607736501,
+          2.977421337861425,
+          1.90839677616295,
+          2.071319152589283
+        ],
+        "conditions": [
+          "coherence_scrambling",
+          "asymmetric_inversion",
+          "recursive_transport_interruption",
+          "phase_decorrelation",
+          "redistribution_saturation",
+          "propagation_fragmentation",
+          "delayed_recursive_coupling"
+        ],
+        "mean_curvature": 1.103520250262496,
+        "discontinuities": [],
+        "smooth_degradation": true
+      },
+      "ChemicalEquilibriumNetwork": {
+        "trajectory_points": [
+          1.5216804942602846,
+          1.9514703577476729,
+          1.7792107220666737,
+          2.0423198600797052,
+          2.44601905304679,
+          1.9124074312458799,
+          2.0249225556229624
+        ],
+        "conditions": [
+          "coherence_scrambling",
+          "asymmetric_inversion",
+          "recursive_transport_interruption",
+          "phase_decorrelation",
+          "redistribution_saturation",
+          "propagation_fragmentation",
+          "delayed_recursive_coupling"
+        ],
+        "mean_curvature": 0.5522891777524916,
+        "discontinuities": [],
+        "smooth_degradation": true
+      },
+      "TurbulenceEnergyCascade": {
+        "trajectory_points": [
+          2.6613158194892,
+          2.2837491028936756,
+          1.2417971729087585,
+          2.8274551768198997,
+          3.2492312654306312,
+          2.463468623668163,
+          2.5277639620956447
+        ],
+        "conditions": [
+          "coherence_scrambling",
+          "asymmetric_inversion",
+          "recursive_transport_interruption",
+          "phase_decorrelation",
+          "redistribution_saturation",
+          "propagation_fragmentation",
+          "delayed_recursive_coupling"
+        ],
+        "mean_curvature": 1.3026947546298022,
+        "discontinuities": [],
+        "smooth_degradation": true
+      },
+      "SuperconductorCoherence": {
+        "trajectory_points": [
+          3.181049309823165,
+          2.2837491028936756,
+          2.379369834428139,
+          2.946774101719381,
+          3.0713235427551036,
+          2.449489742783178,
+          2.607201032192661
+        ],
+        "conditions": [
+          "coherence_scrambling",
+          "asymmetric_inversion",
+          "recursive_transport_interruption",
+          "phase_decorrelation",
+          "redistribution_saturation",
+          "propagation_fragmentation",
+          "delayed_recursive_coupling"
+        ],
+        "mean_curvature": 0.6866975261730615,
+        "discontinuities": [],
+        "smooth_degradation": true
+      }
+    },
+    "cluster_assignments": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "n_clusters": 1
+  },
+  "interpretation": "hidden invariant candidate",
+  "dominant_modes": 1,
+  "lambda1_ratio": 0.9741987217069774
+}

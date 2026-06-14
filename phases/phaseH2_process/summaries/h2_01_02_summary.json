@@ -1,0 +1,47 @@
+{
+  "phase": "H2_01+H2_02",
+  "seed": 3000,
+  "n_systems_analyzed": 5000,
+  "process_transitional_systems": 1082,
+  "process_transitional_pct": 21.6,
+  "transition_geometry_metrics": [
+    "transition_continuity",
+    "transition_curvature",
+    "transition_smoothness",
+    "transition_reversibility",
+    "transition_branching",
+    "transition_fragmentation"
+  ],
+  "cg_vs_noncg_geometry": {
+    "transition_continuity": {
+      "CG_mean": 0.2127,
+      "nonCG_mean": 0.1613,
+      "ratio": 1.319
+    },
+    "transition_curvature": {
+      "CG_mean": 0.4087,
+      "nonCG_mean": 0.6272,
+      "ratio": 0.652
+    },
+    "transition_smoothness": {
+      "CG_mean": 0.9991,
+      "nonCG_mean": 0.9995,
+      "ratio": 1.0
+    },
+    "transition_reversibility": {
+      "CG_mean": 0.4933,
+      "nonCG_mean": 0.2253,
+      "ratio": 2.189
+    },
+    "transition_branching": {
+      "CG_mean": 0.2226,
+      "nonCG_mean": 0.2546,
+      "ratio": 0.874
+    },
+    "transition_fragmentation": {
+      "CG_mean": 0.4851,
+      "nonCG_mean": 0.3909,
+      "ratio": 1.241
+    }
+  }
+}

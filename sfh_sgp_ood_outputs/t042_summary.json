@@ -1,0 +1,15 @@
+{
+  "n_universes": 3000,
+  "n_bundled": 29,
+  "n_persistent": 2875,
+  "n_constrained": 341,
+  "n_structured": 1885,
+  "n_proximity": 1942,
+  "n_near_distinction": 1186,
+  "n_distinction": 0,
+  "chain_validity": {
+    "proximity_to_persistence": true,
+    "persistence_to_distinction": false
+  },
+  "first_stable_structure": "trajectory bundles (organized proximity without separability)"
+}

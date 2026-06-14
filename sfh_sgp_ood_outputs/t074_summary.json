@@ -1,0 +1,44 @@
+{
+  "audit": "T074 \u2014 Fertility Audit",
+  "n_nonviable": 10,
+  "n_merely_viable": 8,
+  "n_fertile": 12,
+  "best_discriminator": "RC",
+  "discriminator_rankings": [
+    {
+      "metric": "RC",
+      "gap": 0.57,
+      "accuracy": 1.0
+    },
+    {
+      "metric": "OE",
+      "gap": 0.52,
+      "accuracy": 1.0
+    },
+    {
+      "metric": "RD",
+      "gap": 0.5,
+      "accuracy": 0.85
+    },
+    {
+      "metric": "NP",
+      "gap": 0.47,
+      "accuracy": 1.0
+    },
+    {
+      "metric": "SR",
+      "gap": 0.47,
+      "accuracy": 0.95
+    }
+  ],
+  "cross_domain_fertility_signature": {
+    "SR": 0.7,
+    "NP": 0.7,
+    "RC": 0.6,
+    "RD": 0.3,
+    "OE": 0.6
+  },
+  "fertility_signature_description": "Fertile systems satisfy: SR \u2265 0.7 AND NP \u2265 0.7 AND RC \u2265 0.6 AND RD \u2265 0.3 AND OE \u2265 0.6",
+  "key_insight": "Fertility is partially independent of viability. A system must first be viable, then have specific architectural properties (multiple generative mechanisms + recursive self-modeling) to achieve fertility. The 9-assumption substrate achieves both.",
+  "answer_to_director_question": "Reality occupies a highly productive region because it has multiple independent generative mechanisms coupled with recursive self-modeling capacity \u2014 not because it is merely persistent. Persistence is necessary but insufficient."
+}

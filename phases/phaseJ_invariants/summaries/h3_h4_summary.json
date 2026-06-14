@@ -1,0 +1,19 @@
+{
+  "phase": "J3+J4",
+  "recursive_conservation": {
+    "n_chains": 200,
+    "n_steps": 6,
+    "cg_rate_convergence": {
+      "step_0_mean": 0.11278949999999999,
+      "step_5_mean": 0.11061399999999999
+    }
+  },
+  "operator_conservation_laws": {
+    "strongest": "recursive_feedback",
+    "strongest_value": 0.6367,
+    "weakest": "branching",
+    "weakest_value": 0.3235,
+    "n_strict_laws": 0,
+    "n_total_operators": 10
+  }
+}

@@ -1,0 +1,4 @@
+ablation,n,viable,fertile,mean_fertility,mean_stability
+Remove MC2,3,0,0,0.413,0.756
+Remove MC3,126,21,0,0.618,0.692
+Remove MC4,78,4,0,0.678,0.604

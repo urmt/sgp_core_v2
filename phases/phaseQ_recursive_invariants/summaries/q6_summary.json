@@ -1,0 +1,17 @@
+{
+  "phase": "Q6",
+  "baseline_closure": 0.5161395564799655,
+  "most_destructive_failed": "low_coupling+low_closure",
+  "interventions_that_destroyed": [
+    "no_coupling+random_phases",
+    "negative_coupling",
+    "alternating_coupling",
+    "phase_noise+closure_drop",
+    "all_destroyed",
+    "reversal_coupling",
+    "chaotic_reset"
+  ],
+  "n_survived": 4,
+  "n_destroyed": 7,
+  "key_observation": "Repulsive coupling and chaotic reset are the only interventions that destroy continuity."
+}

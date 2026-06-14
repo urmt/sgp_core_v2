@@ -1,0 +1,5 @@
+"""Entry point for interaction-first ontology experiments."""
+from . import run_all
+
+if __name__ == "__main__":
+    run_all()

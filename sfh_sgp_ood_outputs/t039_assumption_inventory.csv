@@ -1,0 +1,31 @@
+assumption,description,t037_present,t038_present,requires_distinction,requires_relation,requires_identity,requires_observer
+symbols,Discrete symbolic objects (integers 0-N),True,False,False,False,False,False
+identity,"Objects have fixed, recoverable identity (hashable)",True,True,True,False,False,False
+state,A 'state' exists at each interaction step,True,True,False,False,False,False
+memory,Full trajectory is retained across steps,True,True,False,False,False,False
+ordering,States are ordered sequences (position matters),True,True,False,False,False,False
+recursion,Rules apply iteratively to their own outputs,True,True,False,False,False,False
+rule_tables,Deterministic input->output mapping exists,True,True,False,False,False,False
+continuous_state,"States are vectors in R^n (continuous, not discrete)",False,True,False,False,False,False
+vector_space,"States exist in a vector space (addition, scalar multiplication defined)",False,True,False,False,False,False
+comparison,States can be compared to each other,True,True,True,True,True,False
+similarity,A notion of 'similar' vs 'different' exists,True,True,True,True,True,False
+distance,A scalar distance between states is defined,True,True,True,True,True,False
+metric,Distance satisfies triangle inequality and positivity,True,True,True,True,True,False
+clustering,States can be grouped into clusters,True,True,True,True,True,False
+classification,States can be assigned to discrete classes,True,True,True,False,True,False
+time,A sequence of discrete steps exists,True,True,False,False,False,False
+history,The sequence of past states is accessible,True,True,False,False,False,False
+continuity,State space is continuous (not discrete),False,True,False,False,False,False
+topology,A notion of 'nearby' states exists,False,True,False,True,False,False
+neighborhood,"For each state, nearby states can be identified",False,True,False,True,False,False
+persistence_criteria,Thresholds for what counts as 'persistent',True,True,True,False,False,True
+closure_criteria,Thresholds for what counts as 'returned',True,True,True,True,False,True
+selfref_criteria,Thresholds for what counts as 'self-referential',True,True,True,True,False,True
+observer,An external entity measures and classifies states,True,True,False,False,False,False
+measurement,An act of extracting information from states,True,True,True,False,False,True
+difference,Two things can be non-identical,True,True,True,False,True,False
+existence,Something exists (at least one state),True,True,False,False,False,False
+change,States can differ across time steps,True,True,True,False,True,False
+distinction,TARGET: Two things can be non-identical (the concept itself),True,True,False,False,False,False
+relation,TARGET: A connection between two states exists,True,True,True,False,False,False

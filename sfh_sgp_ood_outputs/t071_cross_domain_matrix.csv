@@ -1,0 +1,25 @@
+domain,config,persistence,coherence,generativity,recursive_closure,information_growth,self_modeling
+A: Physical universes,"Our universe (low-entropy start, fine-tuned constants)",0.9,0.95,0.95,0.7,0.9,0.8
+A: Physical universes,"Empty universe (Ω << 1, no structure formation)",0.95,0.95,0.1,0.1,0.1,0.0
+A: Physical universes,"Collapsing universe (Ω >> 1, recollapse)",0.3,0.9,0.4,0.3,0.4,0.2
+A: Physical universes,Chaotic inflation (multiverse with varying constants),0.6,0.6,0.7,0.4,0.6,0.3
+A: Physical universes,Cyclic universe (bounce cosmology),0.7,0.8,0.85,0.8,0.6,0.7
+B: Mathematical systems,Peano arithmetic (PA),0.9,0.95,0.9,0.6,0.8,0.5
+B: Mathematical systems,Zermelo-Fraenkel set theory (ZFC),0.85,0.85,0.95,0.85,0.9,0.7
+B: Mathematical systems,First-order logic (FOL),0.95,1.0,0.6,0.2,0.4,0.1
+B: Mathematical systems,Category theory (ETCS/SEARS),0.85,0.85,0.9,0.9,0.85,0.75
+B: Mathematical systems,"Computational models (Turing machines, λ-calculus)",0.9,0.95,0.85,0.95,0.7,0.8
+C: Recursive substrate,CD1 — Causal relations exist,0.88,0.95,0.8,0.3,0.4,0.2
+C: Recursive substrate,CD2 — Self-affecting procedures,1.0,0.95,0.5,0.9,0.4,0.2
+C: Recursive substrate,EC1 — Self-knowledge,0.88,0.95,0.8,0.9,0.8,0.9
+C: Recursive substrate,IC1 — Extractable information,0.5,0.95,0.8,0.3,0.4,0.2
+C: Recursive substrate,IS1a — Investigative change,0.38,0.95,0.8,0.3,0.4,0.2
+C: Recursive substrate,IS2 — Determinate outputs,0.62,0.95,0.8,0.3,0.8,0.2
+C: Recursive substrate,OC1 — Stable structure,0.25,0.95,0.8,0.3,0.4,0.2
+C: Recursive substrate,OC2 — Distinguishability,0.0,0.95,1.0,0.3,0.4,0.2
+C: Recursive substrate,SR1 — Self-examination of outputs,0.75,0.95,0.8,0.9,0.8,0.9
+D: Dynamical manifolds,Lorenz attractor (chaotic system),0.9,0.9,0.6,0.7,0.5,0.2
+D: Dynamical manifolds,Coupled map lattice (spatiotemporal chaos),0.7,0.7,0.8,0.5,0.7,0.3
+D: Dynamical manifolds,Logistic map (Feigenbaum period-doubling cascade),0.6,0.85,0.7,0.8,0.5,0.1
+D: Dynamical manifolds,Reaction-diffusion systems (Turing patterns),0.85,0.9,0.85,0.4,0.75,0.2
+D: Dynamical manifolds,"Boolean network (Kauffman, NK model)",0.75,0.8,0.8,0.6,0.65,0.3

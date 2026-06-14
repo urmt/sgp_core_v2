@@ -1,0 +1,12 @@
+{
+  "phase": "P1",
+  "continuity_survival_rate": 0.736,
+  "by_transition_type": {
+    "coupling_strengthen": 0.8032786885245902,
+    "coupling_weaken": 0.6666666666666666,
+    "bifurcation": 0.9878048780487805,
+    "fragmentation": 0.3888888888888889,
+    "closure_reorg": 0.76,
+    "topology_change": 0.8873239436619719
+  }
+}

@@ -1,0 +1,90 @@
+# Phase 505: Directional-Recursive-Discrimination Framework
+
+## Objective
+Repair the correspondence framework by distinguishing:
+true recursive organizational propagation
+FROM
+mere monotonic structural ordering.
+
+## Core Question
+Can SFH-SGP detect:
+directional recursive stabilization structure,
+rather than generic ordered progression?
+
+## Primary Hypotheses
+H1: True recursive systems show directional propagation signatures not reproducible by monotonic imposters.
+H2: Adversarial monotonic systems lose correspondence under directional recursive metrics.
+H3: Recursive asymmetry metrics restore discrimination capability.
+H4: Depth-coupled propagation signatures separate authentic recursion from static ordering artifacts.
+H5: Refined metrics preserve Phase 501–503 legitimate correspondences while rejecting Phase 504 adversarial systems.
+
+## New Required Metrics
+1. directional_recursive_gradient - Measures direction-specific recursive progression
+2. propagation_asymmetry_index - Quantifies asymmetry in propagation patterns
+3. recursive_dependency_score - Measures dependency strength across recursive levels
+4. depth_coupling_coherence - Assesses coherence across different depth levels
+5. causal_order_retention - Evaluates preservation of causal ordering
+6. recursive_transfer_entropy - Measures information transfer in recursive systems
+7. asymmetry_preservation_ratio - Ratio of asymmetry preservation in authentic vs adversarial systems
+
+## Required Adversarial Tests
+- monotonic fake hierarchies - Systems with monotonic ordering but no recursive structure
+- order-preserving shuffles - Shuffled systems that preserve ordinal relationships
+- mirrored recursion - Systems with mirrored (inverted) recursive patterns
+- static-scale ordering - Systems with ordering but no scale-dependent recursion
+- synthetic directional inversion - Artificially inverted directional patterns
+- pseudo-depth generators - Systems that simulate depth without actual recursion
+- recursive decoupling systems - Systems where recursive levels are decoupled
+
+## Critical Success Condition
+Authentic recursive systems retain strong correspondence under new metrics,
+while adversarial monotonic systems collapse significantly.
+
+## Critical Failure Condition
+Refined metrics still fail to distinguish authentic recursive organization
+from generic ordered structure.
+
+## Scientific Importance
+This phase determines whether:
+SFH-SGP correspondence is:
+- genuinely recursive,
+OR
+- merely order-sensitive.
+
+## Interpretation Discipline
+A successful result implies ONLY:
+improved structural discrimination.
+
+NOT:
+validation of ontology,
+physics,
+or consciousness claims.
+
+## Status
+AUTHORIZED.
+READY TO BEGIN.
+
+## Methodology Overview
+1. Use the same 18 authentic physical systems from Phase 503 as the "true" systems.
+2. Generate adversarial pseudo-physical systems for each domain that:
+   - Mimic superficial properties of real physical systems
+   - Lack genuine recursive stability structure
+   - Specifically test the new directional recursive metrics
+3. Compute correspondence using both original and new directional recursive metrics
+4. Apply null hypothesis testing (1,000 permutations) for validation
+5. Compute discrimination metrics to assess improved discrimination capability
+
+## SFH-SGP Reference Structure (from Phase 407)
+Using the established SFH-SGP emergence hierarchy:
+1. P-A-N (Most emergent): 0.9285
+2. P-A: 0.9283
+3. Projection: 0.9279
+4. P-N: 0.9244
+5. Antisymmetry: 0.9225
+6. Neutral: 0.9031
+7. A-N (Least emergent): 0.8864
+
+This 7-level hierarchy serves as the reference for all correspondence tests.
+
+## Anti-Retrofitting Protocol
+All authentic physical system definitions, adversarial generation methods, comparison metrics, and computational procedures will be defined in this framework document BEFORE any computation begins. No adjustments will be made based on preliminary results.

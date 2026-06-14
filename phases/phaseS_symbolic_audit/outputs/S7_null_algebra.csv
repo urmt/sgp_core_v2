@@ -1,0 +1,5 @@
+null_type,real_closure_rate,null_mean_closure_rate,null_std,collapse,collapse_pct
+shuffle_labels,0.0,0.0,0.0,0.0,0.0
+shuffle_pairs,0.0,0.0,0.0,0.0,0.0
+temporal_scramble,0.0,0.0,0.0,0.0,0.0
+full_random,0.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,14 @@
+{
+  "phase": "F",
+  "n_domains": 10,
+  "n_geometry_clusters": 4,
+  "n_operator_signatures": 17,
+  "n_transition_windows": 697,
+  "null_surviving_operators": [
+    "multiplicative_gain",
+    "network_sync",
+    "log_log_scale"
+  ],
+  "n_operator_shifts": 194,
+  "conclusion": "Organizational families better understood as operator geometries than equations"
+}

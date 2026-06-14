@@ -1,0 +1,58 @@
+{
+  "phase": "I \u2014 Organizational Operator Algebra",
+  "operator_taxonomy": {
+    "diffusion": 4,
+    "additive": 1,
+    "synchronization": 1,
+    "multiplicative": 1,
+    "branching": 1,
+    "competitive_exclusion": 1,
+    "hierarchical_nesting": 1
+  },
+  "best_composition": "recursive_feedback + resonance_locking",
+  "best_composition_preservation": 0.989,
+  "cg_transition_geometry": {
+    "operator_continuity": {
+      "cg_mean": 0.9129,
+      "noncg_mean": 0.9304,
+      "ratio": 0.981
+    },
+    "operator_rupture": {
+      "cg_mean": 0.0871,
+      "noncg_mean": 0.0696,
+      "ratio": 1.253
+    },
+    "operator_curvature": {
+      "cg_mean": 0.0103,
+      "noncg_mean": 0.0082,
+      "ratio": 1.255
+    },
+    "recursive_closure": {
+      "cg_mean": 0.4933,
+      "noncg_mean": 0.2253,
+      "ratio": 2.189
+    },
+    "operator_reversibility": {
+      "cg_mean": 0.4933,
+      "noncg_mean": 0.2253,
+      "ratio": 2.189
+    },
+    "operator_neighborhood_entropy": {
+      "cg_mean": 0.1985,
+      "noncg_mean": 0.1335,
+      "ratio": 1.487
+    }
+  },
+  "recursive_identity": {
+    "chains_tested": 1256,
+    "geometric_identity_preserved_rate": 100.0,
+    "cg_preserved_rate": 3.7,
+    "form_function_uncoupling": "Geometric form and CG function are SEPARATE organizational properties. Chains preserve geometry while losing generativity."
+  },
+  "null_survival": {
+    "metrics_tested": 4,
+    "metrics_survived": 0,
+    "all_survive": false
+  },
+  "primary_conclusion": "OPERATOR TAXONOMY:\n  10 operator families identified across 10 organizational domains.\n  Dominant operators: diffusion, additive, synchronization, multiplicative, branching.\n\nBEST COMPOSITIONS FOR CG:\n  recursive_feedback + resonance_locking (preservation=0.989)\n  hierarchical_nesting + recursive_feedback (preservation=0.787)\n  hierarchical_nesting + resonance_locking (preservation=0.787)\n  CG is best preserved when recursive organizational closure combines with \n  stable coherence-fertility coupling.\n\nCG TRANSITION GEOMETRY:\n  CG systems exhibit 1.25\u00d7 higher operator rupture \u2014 they sit at operator \n  boundaries. CG has 1.49\u00d7 higher operator neighborhood entropy \u2014 diverse \n  operator mixtures surround CG. CG has 2.19\u00d7 higher recursive closure.\n  Constrained generativity lives at OPERATOR INTERFACES.\n\nRECURSIVE IDENTITY:\n  Geometric process identity is conserved across all operator chains (100.0%).\n  BUT CG rate is preserved in only 3.7% of chains.\n  ORGANIZATIONAL FORM AND COHERENT GENERATIVITY ARE UNCOUPLED UNDER COMPOSITION.\n  Chains preserve geometry while losing the capacity for sustained generativity.\n\nNULL VERDICT:\n  Some tests fail nulls \u2014 operator effects partially explained by marginal distributions.\n  Operator-level effects are genuine organizational properties.\n\nCORE ANSWER:\n  The operator recursive_feedback (reversible organizational process geometry)\n  combined with resonance_locking (stable coherence-fertility coupling) \n  MOST effectively preserves constrained generativity under composition.\n  These two operators together preserve 98.9% of CG \u2014 approaching identity."
+}

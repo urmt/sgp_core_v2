@@ -1,0 +1,50 @@
+{
+  "phase": "H1+H2",
+  "seed": 3000,
+  "n_interventions": 19615,
+  "n_domains": 10,
+  "overall_transition_probability": 0.40458832526127964,
+  "best_intervention_per_domain": {
+    "branching": {
+      "desc": "ADI",
+      "prob": 0.40145985401459855
+    },
+    "cellular_automata": {
+      "desc": "RBS",
+      "prob": 0.34794520547945207
+    },
+    "coupled_map_lattice": {
+      "desc": "RBS",
+      "prob": 0.648
+    },
+    "graph_diffusion": {
+      "desc": "ADI",
+      "prob": 0.524
+    },
+    "gray_scott": {
+      "desc": "RTP",
+      "prob": 0.714
+    },
+    "kuramoto": {
+      "desc": "RBS",
+      "prob": 0.496
+    },
+    "lotka_volterra": {
+      "desc": "RTP",
+      "prob": 0.048
+    },
+    "nonlinear_oscillator": {
+      "desc": "CSR",
+      "prob": 0.634
+    },
+    "population": {
+      "desc": "CSR",
+      "prob": 0.534
+    },
+    "replicator": {
+      "desc": "SRD",
+      "prob": 0.2896551724137931
+    }
+  },
+  "runtime_seconds": 55
+}

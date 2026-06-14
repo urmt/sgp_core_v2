@@ -1,0 +1,91 @@
+{
+  "per_assumption": [],
+  "hypothesis_scores": {
+    "h1_over_mapping": 3,
+    "h2_missing_interaction": 3,
+    "h3_threshold_artifact": 4
+  },
+  "final_table": [
+    {
+      "assumption": "OC2",
+      "predicted": true,
+      "t081_delta": 0.121,
+      "t081_emerged": false,
+      "t082_emerged": false,
+      "divergence_magnitude": "HIGH",
+      "best_explanation": "H1: Over-mapping"
+    },
+    {
+      "assumption": "OC1",
+      "predicted": true,
+      "t081_delta": -0.399,
+      "t081_emerged": false,
+      "t082_emerged": false,
+      "divergence_magnitude": "HIGH",
+      "best_explanation": "H1: Over-mapping"
+    },
+    {
+      "assumption": "CD1",
+      "predicted": false,
+      "t081_delta": -0.249,
+      "t081_emerged": false,
+      "t082_emerged": false,
+      "divergence_magnitude": "NONE",
+      "best_explanation": "Not predicted"
+    },
+    {
+      "assumption": "IC1",
+      "predicted": true,
+      "t081_delta": 0.219,
+      "t081_emerged": false,
+      "t082_emerged": true,
+      "divergence_magnitude": "MODERATE",
+      "best_explanation": "H2: Missing interaction"
+    },
+    {
+      "assumption": "IS1",
+      "predicted": true,
+      "t081_delta": 0.772,
+      "t081_emerged": true,
+      "t082_emerged": true,
+      "divergence_magnitude": "LOW",
+      "best_explanation": "Match"
+    },
+    {
+      "assumption": "IS2",
+      "predicted": true,
+      "t081_delta": -0.45,
+      "t081_emerged": false,
+      "t082_emerged": false,
+      "divergence_magnitude": "HIGH",
+      "best_explanation": "H1: Over-mapping"
+    },
+    {
+      "assumption": "CD2",
+      "predicted": true,
+      "t081_delta": 0.085,
+      "t081_emerged": false,
+      "t082_emerged": true,
+      "divergence_magnitude": "MODERATE",
+      "best_explanation": "H2: Missing interaction"
+    },
+    {
+      "assumption": "EC1",
+      "predicted": true,
+      "t081_delta": -0.044,
+      "t081_emerged": false,
+      "t082_emerged": true,
+      "divergence_magnitude": "NONE",
+      "best_explanation": "H1: Over-mapping"
+    },
+    {
+      "assumption": "SR1",
+      "predicted": true,
+      "t081_delta": 0.163,
+      "t081_emerged": false,
+      "t082_emerged": true,
+      "divergence_magnitude": "MODERATE",
+      "best_explanation": "H2: Missing interaction"
+    }
+  ]
+}

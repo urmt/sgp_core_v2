@@ -1,0 +1,11 @@
+domain,dominant_operator,top_operator_score,second_operator_score,operator_dominance_gap,cg_rate
+branching,op_diffusion,0.8407,0.7831,0.0577,0.244
+cellular_automata,op_diffusion,1.0,0.6739,0.3261,0.0
+coupled_map_lattice,op_additive,1.0,1.0,0.0,0.168
+graph_diffusion,op_synchronization,1.0,1.0,0.0,0.0
+gray_scott,op_multiplicative,1.0,1.0,0.0,0.35
+kuramoto,op_diffusion,1.0,0.8605,0.1395,0.358
+lotka_volterra,op_branching,1.0,0.8483,0.1517,0.0
+nonlinear_oscillator,op_competitive_exclusion,0.7512,0.6968,0.0544,0.52
+population,op_hierarchical_nesting,1.0,0.9558,0.0442,0.238
+replicator,op_diffusion,1.0,0.9789,0.0211,0.0

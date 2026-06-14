@@ -1,0 +1,2 @@
+phase,variance_corr,range_corr,laplacian_corr,smoothness_index,low_variance_mean,mid_variance_mean,high_variance_mean,verdict
+521,-0.256123398848804,-0.2769137852635622,-0.1278547927461338,0.7624523148988843,1.0091826999999998,0.8223680999999999,0.6664196363636363,NONSMOOTH-TOPOLOGY

@@ -1,0 +1,22 @@
+{
+  "bu_transformations": [
+    "forbidden_states_of_fermions",
+    "forbidden_configurations_of_geometry",
+    "bounded_error_of_copying",
+    "reachable_states_under_regulation",
+    "reachable_behaviors_under_morphology",
+    "reachable_thoughts_under_resource_limit",
+    "derivable_statements_under_axioms"
+  ],
+  "td_transformations": [
+    "closure_under_inference_rules",
+    "partition_under_distinction",
+    "reachable_conclusions_under_rules",
+    "representable_states_under_encoding",
+    "computable_functions_under_resources",
+    "reachable_trajectories_under_control",
+    "reachable_states_under_physics"
+  ],
+  "verdict": "genuine_junction",
+  "underlying_transformation": "reachable_states_under_bounding_rule"
+}

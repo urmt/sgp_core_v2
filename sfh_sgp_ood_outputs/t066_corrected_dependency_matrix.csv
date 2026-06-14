@@ -1,0 +1,10 @@
+source → target,CD1,CD2,EC1,IC1,IS1,IS2,OC1,OC2,SR1
+CD1: Causal relations exist,independent_of,presupposed_by,independent_of,independent_of,independent_of,independent_of,presupposes,presupposes,independent_of
+CD2: Self-affecting procedures,presupposes,independent_of,presupposes,independent_of,presupposes,independent_of,independent_of,independent_of,independent_of
+EC1: Self-knowledge,independent_of,presupposed_by,independent_of,independent_of,presupposes,presupposes,independent_of,independent_of,presupposes
+IC1: Extractable information,independent_of,independent_of,independent_of,independent_of,presupposes,presupposed_by,presupposes,presupposes,independent_of
+IS1: Phase structure,independent_of,presupposed_by,presupposed_by,presupposed_by,independent_of,presupposed_by,independent_of,presupposes,presupposed_by
+IS2: Determinate outputs,independent_of,independent_of,presupposed_by,presupposes,presupposes,independent_of,presupposes,independent_of,presupposed_by
+OC1: Stable structure,presupposed_by,independent_of,independent_of,presupposed_by,independent_of,presupposed_by,independent_of,presupposes,independent_of
+OC2: Distinguishability,presupposed_by,independent_of,independent_of,presupposed_by,presupposed_by,independent_of,presupposed_by,independent_of,independent_of
+SR1: Self-examination of outputs,independent_of,independent_of,presupposed_by,independent_of,presupposes,presupposes,independent_of,independent_of,independent_of

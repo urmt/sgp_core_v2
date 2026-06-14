@@ -1,0 +1,21 @@
+{
+  "phase": "J1+J2",
+  "property_invariance_ranking": {
+    "cg_rate": 0.6496662420382165,
+    "mean_coherence": 0.9600121019108281,
+    "mean_continuity": 0.9622261146496816,
+    "mean_fertility": 0.6232216560509554,
+    "mean_reconstruction": 0.6860229299363058,
+    "mean_recursive_closure": 0.6016363057324841,
+    "mean_reversibility": 0.6016363057324841
+  },
+  "most_invariant_property": "mean_continuity",
+  "least_invariant_property": "mean_recursive_closure",
+  "conservation_classification": {
+    "mixed_collapse": 107,
+    "maintained_CG": 38,
+    "dead_coherence": 12
+  },
+  "form_function_uncoupling_rate": 1.3,
+  "form_function_coupling_rate": 14.6
+}

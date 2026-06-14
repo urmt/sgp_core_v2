@@ -1,0 +1,27 @@
+phase,statement,confidence,evidence
+T037,Geometry score = 0.69 across 1200 universes,high,Direct measurement from detector output.
+T037,Composition score = 0.0 across all universes,high,Direct measurement from detector output.
+T037,Recurrence detected in 98.3% of universes,high,Direct measurement from detector output.
+T038,Distinction emerged in 995/1000 universes,high,Direct measurement from detector output.
+T038,Persistence emerged in 0/1000 universes,high,Direct measurement from detector output.
+T039,28 assumptions cataloged,high,Direct enumeration of conceptual inventory.
+T039,34 dependency edges identified,high,Direct graph construction from specification.
+T039,12 circular dependency chains found,high,Direct graph analysis.
+T040,10/10 candidate substrates failed,high,Direct test of each candidate.
+T041,0/5000 universes produce distinction,high,Direct measurement with strict 4-criterion detector.
+T041,Proto-geometry emerges in 85.8% of universes,high,"Direct measurement, but detector may be artifact (T044)."
+T042,Trajectory bundles appear in 64.7% of universes,high,Direct measurement with proximity detectors.
+T043,"101,414 detector events recorded",high,"Direct measurement from 10,000 universes."
+T043,Recurrence fires first (98.3%),high,Direct measurement with specific detector.
+T043,73 edges in emergence graph (P>0.95),high,Direct computation from pairwise order probabilities.
+T044,Recurrence kills in recursive vs nonrecursive test,high,Direct comparison with effect size and permutation test.
+T045,Convergence rate = 0.995 in real universes,high,Direct measurement with 5 independent detectors.
+T045,Convergence beats all null models (14× effect),high,"Direct comparison with random walk, Brownian, OU models."
+T045,Convergence survives temporal shuffling,high,Direct comparison with shuffled trajectories.
+T046,Convergence before constraint (7/8 detectors),high,Direct pairwise order computation.
+T047,All detectors smuggle hidden primitives,high,Direct audit of detector implementations.
+T048,45 detectors cataloged,high,Direct inventory.
+T048,63 dependency edges identified,high,Direct graph construction.
+T048,"Every detector imports comparison, arithmetic, distance",high,Direct audit of all 45 detector implementations.
+T050,All 5 primitives are proven necessary for observer models,high,Direct proof from T049 model analysis.
+T050,No primitive is proven necessary for observation itself,high,Direct proof from T050 separation analysis.

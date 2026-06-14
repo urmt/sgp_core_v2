@@ -1,0 +1,4 @@
+group,n_systems,n_viable,viable_ratio
+ALL_MCS,100,7,0.07
+NONE_MCS,11,0,0.0
+ALL,240,28,0.117

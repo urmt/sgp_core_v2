@@ -1,0 +1,22 @@
+{
+  "bu_transformations": [
+    "identity_from_exclusion",
+    "identity_from_structure",
+    "identity_from_information",
+    "identity_from_expression",
+    "identity_from_behavior",
+    "identity_from_self_model",
+    "identity_from_truth_value"
+  ],
+  "td_transformations": [
+    "identity_from_grammar",
+    "identity_from_boundary",
+    "identity_from_validity",
+    "identity_from_encoding",
+    "identity_from_termination",
+    "identity_from_regulation",
+    "identity_from_lawfulness"
+  ],
+  "verdict": "genuine_junction",
+  "underlying_transformation": "identity_from_distinction"
+}

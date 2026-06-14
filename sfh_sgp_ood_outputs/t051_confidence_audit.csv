@@ -1,0 +1,52 @@
+phase,statement,category,confidence
+T037,Geometry score = 0.69 across 1200 universes,A,high
+T037,Composition score = 0.0 across all universes,A,high
+T037,Recurrence detected in 98.3% of universes,A,high
+T037,Geometry emerges from interaction,D,low
+T037,Distinction requires no prerequisites,D,low
+T038,Distinction emerged in 995/1000 universes,A,high
+T038,Persistence emerged in 0/1000 universes,A,high
+T038,Distinction can emerge from pure Ω,D,low
+T039,28 assumptions cataloged,A,high
+T039,34 dependency edges identified,A,high
+T039,12 circular dependency chains found,A,high
+T039,Distinction is foundational,E,low
+T039,Distinction cannot be produced from non-distinction,C,medium
+T040,10/10 candidate substrates failed,A,high
+T040,Every candidate reintroduces distinction,B,medium
+T040,Nothing exists below distinction,D,low
+T041,0/5000 universes produce distinction,A,high
+T041,Distinction never emerges from interaction,B,medium
+T041,Proto-geometry emerges in 85.8% of universes,A,high
+T042,Trajectory bundles appear in 64.7% of universes,A,high
+T042,Proximity precedes distinction,B,medium
+T042,The first stable structure is trajectory bundles,D,low
+T043,"101,414 detector events recorded",A,high
+T043,Recurrence fires first (98.3%),A,high
+T043,73 edges in emergence graph (P>0.95),A,high
+T043,Recurrence is the first emergent structure,D,low
+T044,Recurrence kills in recursive vs nonrecursive test,A,high
+T044,Recurrence is an artifact of bounded state spaces,B,medium
+T045,Convergence rate = 0.995 in real universes,A,high
+T045,Convergence beats all null models (14× effect),A,high
+T045,Convergence survives temporal shuffling,A,high
+T045,Convergence is genuine,D,low
+T046,Convergence before constraint (7/8 detectors),A,high
+T046,Convergence is fundamental,D,low
+T047,All detectors smuggle hidden primitives,A,high
+T047,No primitive is currently accepted,B,high
+T048,45 detectors cataloged,A,high
+T048,63 dependency edges identified,A,high
+T048,"Every detector imports comparison, arithmetic, distance",A,high
+T048,Distance is the deepest imported primitive,C,medium
+T048,No detector can discover distinction,B,medium
+T049,Observation fails when comparison is removed,C,medium
+T049,Observation fails when ordering is removed,C,medium
+T049,Observation fails when identity is removed,C,medium
+T049,Observation fails when difference is removed,C,medium
+T049,Observation fails when distinction is removed,C,medium
+T049,All five primitives are necessary for observation,D,low
+T050,All 5 primitives are proven necessary for observer models,A,high
+T050,No primitive is proven necessary for observation itself,A,high
+T050,The gap between model requirements and observation requireme,B,high
+T050,We know what models need but not what observation needs,B,high

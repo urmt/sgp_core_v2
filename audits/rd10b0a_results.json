@@ -1,0 +1,172 @@
+{
+  "graph \u2194 timeseries": {
+    "information_preservation": {
+      "score": 0.07759730490863927,
+      "method": "linear_correlation",
+      "direction": "a_to_b"
+    },
+    "predictive_equivalence": {
+      "score": 1.0,
+      "method": "trivial_equivalence",
+      "note": "Both representations correspond to same trajectory"
+    },
+    "causal_structure": {
+      "score": 0.06074753776505881,
+      "method": "autocorrelation_pattern"
+    },
+    "combined": 0.3794482808912327
+  },
+  "graph \u2194 state_transition": {
+    "information_preservation": {
+      "score": 0.049842670755960064,
+      "method": "linear_correlation",
+      "direction": "a_to_b"
+    },
+    "predictive_equivalence": {
+      "score": 1.0,
+      "method": "trivial_equivalence",
+      "note": "Both representations correspond to same trajectory"
+    },
+    "causal_structure": {
+      "score": 0.7243327954992996,
+      "method": "autocorrelation_pattern"
+    },
+    "combined": 0.5913918220850866
+  },
+  "graph \u2194 correlation": {
+    "information_preservation": {
+      "score": 0.01712954923883615,
+      "method": "linear_correlation",
+      "direction": "a_to_b"
+    },
+    "predictive_equivalence": {
+      "score": 1.0,
+      "method": "trivial_equivalence",
+      "note": "Both representations correspond to same trajectory"
+    },
+    "causal_structure": {
+      "score": 0.0,
+      "method": "insufficient_data"
+    },
+    "combined": 0.33904318307961206
+  },
+  "graph \u2194 phasespace": {
+    "information_preservation": {
+      "score": 0.05102862454211258,
+      "method": "linear_correlation",
+      "direction": "a_to_b"
+    },
+    "predictive_equivalence": {
+      "score": 1.0,
+      "method": "trivial_equivalence",
+      "note": "Both representations correspond to same trajectory"
+    },
+    "causal_structure": {
+      "score": 0.49332021386269925,
+      "method": "autocorrelation_pattern"
+    },
+    "combined": 0.5147829461349372
+  },
+  "timeseries \u2194 state_transition": {
+    "information_preservation": {
+      "score": 0.1793917696557181,
+      "method": "linear_correlation",
+      "direction": "a_to_b"
+    },
+    "predictive_equivalence": {
+      "score": 1.0,
+      "method": "trivial_equivalence",
+      "note": "Both representations correspond to same trajectory"
+    },
+    "causal_structure": {
+      "score": NaN,
+      "method": "autocorrelation_pattern"
+    },
+    "combined": NaN
+  },
+  "timeseries \u2194 correlation": {
+    "information_preservation": {
+      "score": 0.2091916519031301,
+      "method": "linear_correlation",
+      "direction": "a_to_b"
+    },
+    "predictive_equivalence": {
+      "score": 1.0,
+      "method": "trivial_equivalence",
+      "note": "Both representations correspond to same trajectory"
+    },
+    "causal_structure": {
+      "score": 0.0,
+      "method": "insufficient_data"
+    },
+    "combined": 0.40306388396771003
+  },
+  "timeseries \u2194 phasespace": {
+    "information_preservation": {
+      "score": 0.11334302611771606,
+      "method": "linear_correlation",
+      "direction": "a_to_b"
+    },
+    "predictive_equivalence": {
+      "score": 1.0,
+      "method": "trivial_equivalence",
+      "note": "Both representations correspond to same trajectory"
+    },
+    "causal_structure": {
+      "score": 0.704626621803443,
+      "method": "autocorrelation_pattern"
+    },
+    "combined": 0.6059898826403863
+  },
+  "state_transition \u2194 correlation": {
+    "information_preservation": {
+      "score": 0.05349089497364647,
+      "method": "linear_correlation",
+      "direction": "a_to_b"
+    },
+    "predictive_equivalence": {
+      "score": 1.0,
+      "method": "trivial_equivalence",
+      "note": "Both representations correspond to same trajectory"
+    },
+    "causal_structure": {
+      "score": 0.0,
+      "method": "insufficient_data"
+    },
+    "combined": 0.35116363165788217
+  },
+  "state_transition \u2194 phasespace": {
+    "information_preservation": {
+      "score": 0.0414320138141309,
+      "method": "linear_correlation",
+      "direction": "a_to_b"
+    },
+    "predictive_equivalence": {
+      "score": 1.0,
+      "method": "trivial_equivalence",
+      "note": "Both representations correspond to same trajectory"
+    },
+    "causal_structure": {
+      "score": NaN,
+      "method": "autocorrelation_pattern"
+    },
+    "combined": NaN
+  },
+  "correlation \u2194 phasespace": {
+    "information_preservation": {
+      "score": 0.16042072204824695,
+      "method": "linear_correlation",
+      "direction": "a_to_b"
+    },
+    "predictive_equivalence": {
+      "score": 1.0,
+      "method": "trivial_equivalence",
+      "note": "Both representations correspond to same trajectory"
+    },
+    "causal_structure": {
+      "score": 0.0,
+      "method": "insufficient_data"
+    },
+    "combined": 0.38680690734941564
+  }
+}

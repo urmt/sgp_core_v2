@@ -1,0 +1,24 @@
+c_center,f_center,n_systems,mean_balance,top_domains
+0.025,0.025,62,0.0,"{'graph_diffusion': 61, 'branching': 1}"
+0.475,0.025,27,0.002,"{'graph_diffusion': 19, 'branching': 8}"
+0.475,0.525,34,0.2498,{'branching': 34}
+0.475,0.575,42,0.2725,{'branching': 42}
+0.525,0.025,91,0.0062,"{'graph_diffusion': 41, 'population': 16, 'nonlinear_oscillator': 15}"
+0.525,0.075,30,0.0411,"{'nonlinear_oscillator': 14, 'lotka_volterra': 8, 'population': 7}"
+0.525,0.125,73,0.07,"{'lotka_volterra': 52, 'nonlinear_oscillator': 18, 'population': 3}"
+0.525,0.175,234,0.0941,"{'lotka_volterra': 208, 'nonlinear_oscillator': 19, 'population': 6}"
+0.525,0.225,216,0.1164,"{'lotka_volterra': 199, 'nonlinear_oscillator': 15, 'population': 2}"
+0.525,0.575,28,0.2979,{'branching': 28}
+0.525,0.625,34,0.3228,{'branching': 34}
+0.575,0.025,1527,0.006,"{'cellular_automata': 488, 'graph_diffusion': 369, 'replicator': 369}"
+0.575,0.075,257,0.0439,"{'gray_scott': 75, 'nonlinear_oscillator': 67, 'population': 66}"
+0.575,0.125,221,0.0721,"{'nonlinear_oscillator': 126, 'kuramoto': 43, 'population': 20}"
+0.575,0.175,197,0.1018,"{'kuramoto': 75, 'nonlinear_oscillator': 55, 'gray_scott': 39}"
+0.575,0.225,303,0.1291,"{'kuramoto': 186, 'gray_scott': 58, 'population': 30}"
+0.575,0.275,235,0.1546,"{'kuramoto': 148, 'gray_scott': 48, 'coupled_map_lattice': 15}"
+0.575,0.325,93,0.1842,"{'coupled_map_lattice': 39, 'kuramoto': 26, 'gray_scott': 22}"
+0.575,0.375,43,0.2115,"{'coupled_map_lattice': 39, 'gray_scott': 4}"
+0.625,0.025,316,0.0183,"{'replicator': 118, 'gray_scott': 65, 'coupled_map_lattice': 64}"
+0.625,0.075,298,0.0445,"{'population': 113, 'coupled_map_lattice': 75, 'nonlinear_oscillator': 74}"
+0.625,0.125,134,0.0761,"{'nonlinear_oscillator': 57, 'population': 47, 'gray_scott': 23}"
+0.625,0.175,38,0.1056,"{'population': 15, 'gray_scott': 12, 'coupled_map_lattice': 6}"

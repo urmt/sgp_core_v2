@@ -1,0 +1,14 @@
+{
+  "phase": "F2",
+  "seed": 3000,
+  "n_domains": 10,
+  "tests": [
+    "composition_fidelity",
+    "closure_score",
+    "associativity_score",
+    "scaling_preservation",
+    "transport_score",
+    "symmetry_score"
+  ],
+  "runtime_seconds": 2
+}

@@ -1,0 +1,37 @@
+system,type,domain,description,spearman_rho,spearman_p,kendall_tau,z_score,significant
+CriticalPhenomenaScaling,authentic,renormalization_scaling,Critical phenomena scaling exponents (Ising model universality class),1.0,0.0,1.0,2.358656127905237,True
+TurbulenceEnergyCascade,authentic,renormalization_scaling,Turbulence energy cascade scaling (Kolmogorov spectrum),1.0,0.0,1.0,2.358656127905237,True
+EnergyMomentumConservation,authentic,conservation_structures,Energy-momentum conservation in particle collisions,1.0,0.0,1.0,2.358656127905237,True
+ChargeConservationEM,authentic,conservation_structures,Charge conservation in electromagnetic systems,1.0,0.0,1.0,2.358656127905237,True
+StandingWavePatterns,authentic,wave_interference_organization,Standing wave patterns in resonant cavities,1.0,0.0,1.0,2.358656127905237,True
+DoubleSlitInterference,authentic,wave_interference_organization,Interference fringes in double-slit experiments,1.0,0.0,1.0,2.358656127905237,True
+LimitCycleOscillations,authentic,attractor_persistence,Limit cycles in oscillating chemical reactions (BZ),1.0,0.0,1.0,2.358656127905237,True
+StrangeAttractorLorenz,authentic,attractor_persistence,Strange attractors in fluid convection (Lorenz system),1.0,0.0,1.0,2.358656127905237,True
+ElectronTransportMesoscopic,authentic,transport_dynamics,Electron transport in mesoscopic systems,1.0,0.0,1.0,2.358656127905237,True
+HeatTransportPhononic,authentic,transport_dynamics,Heat transport in phononic crystals,1.0,0.0,1.0,2.358656127905237,True
+AndersonLocalization,authentic,localization_behavior,Anderson localization in disordered systems,1.0,0.0,1.0,2.358656127905237,True
+PhotonicBandgapLocalization,authentic,localization_behavior,Localization in photonic bandgap materials,1.0,0.0,1.0,2.358656127905237,True
+PhaseEquilibriumMulticomponent,authentic,equilibrium_systems,Phase equilibrium in multicomponent systems,1.0,0.0,1.0,2.358656127905237,True
+ChemicalEquilibriumNetwork,authentic,equilibrium_systems,Chemical equilibrium in reaction networks,1.0,0.0,1.0,2.358656127905237,True
+FerromagneticMagnetization,authentic,symmetry_breaking,Spontaneous magnetization in ferromagnets,1.0,0.0,1.0,2.358656127905237,True
+CrystallizationFromLiquid,authentic,symmetry_breaking,Crystal formation from liquid phases,1.0,0.0,1.0,2.358656127905237,True
+SuperconductorCoherence,authentic,field_coherence_structures,Cooper pair coherence in superconductors,1.0,0.0,1.0,2.358656127905237,True
+LaserOpticalCoherence,authentic,field_coherence_structures,Optical coherence in laser systems,1.0,0.0,1.0,2.358656127905237,True
+CriticalPhenomenaScaling_Adversarial,adversarial,renormalization_scaling,Adversarial version of Critical phenomena scaling exponents (Ising model universality class),-1.0,0.0,-1.0,-2.377601157045038,True
+TurbulenceEnergyCascade_Adversarial,adversarial,renormalization_scaling,Adversarial version of Turbulence energy cascade scaling (Kolmogorov spectrum),-1.0,0.0,-1.0,-2.377601157045038,True
+EnergyMomentumConservation_Adversarial,adversarial,conservation_structures,Adversarial version of Energy-momentum conservation in particle collisions,-1.0,0.0,-1.0,-2.377601157045038,True
+ChargeConservationEM_Adversarial,adversarial,conservation_structures,Adversarial version of Charge conservation in electromagnetic systems,-1.0,0.0,-1.0,-2.377601157045038,True
+StandingWavePatterns_Adversarial,adversarial,wave_interference_organization,Adversarial version of Standing wave patterns in resonant cavities,-1.0,0.0,-1.0,-2.377601157045038,True
+DoubleSlitInterference_Adversarial,adversarial,wave_interference_organization,Adversarial version of Interference fringes in double-slit experiments,-1.0,0.0,-1.0,-2.377601157045038,True
+LimitCycleOscillations_Adversarial,adversarial,attractor_persistence,Adversarial version of Limit cycles in oscillating chemical reactions (BZ),-1.0,0.0,-1.0,-2.377601157045038,True
+StrangeAttractorLorenz_Adversarial,adversarial,attractor_persistence,Adversarial version of Strange attractors in fluid convection (Lorenz system),-1.0,0.0,-1.0,-2.377601157045038,True
+ElectronTransportMesoscopic_Adversarial,adversarial,transport_dynamics,Adversarial version of Electron transport in mesoscopic systems,-1.0,0.0,-1.0,-2.377601157045038,True
+HeatTransportPhononic_Adversarial,adversarial,transport_dynamics,Adversarial version of Heat transport in phononic crystals,-0.9642857142857145,0.0004541491691941689,-0.9047619047619049,-2.293025134099498,True
+AndersonLocalization_Adversarial,adversarial,localization_behavior,Adversarial version of Anderson localization in disordered systems,-1.0,0.0,-1.0,-2.377601157045038,True
+PhotonicBandgapLocalization_Adversarial,adversarial,localization_behavior,Adversarial version of Localization in photonic bandgap materials,-0.9642857142857145,0.0004541491691941689,-0.9047619047619049,-2.293025134099498,True
+PhaseEquilibriumMulticomponent_Adversarial,adversarial,equilibrium_systems,Adversarial version of Phase equilibrium in multicomponent systems,-0.9642857142857145,0.0004541491691941689,-0.9047619047619049,-2.293025134099498,True
+ChemicalEquilibriumNetwork_Adversarial,adversarial,equilibrium_systems,Adversarial version of Chemical equilibrium in reaction networks,-1.0,0.0,-1.0,-2.377601157045038,True
+FerromagneticMagnetization_Adversarial,adversarial,symmetry_breaking,Adversarial version of Spontaneous magnetization in ferromagnets,-1.0,0.0,-1.0,-2.377601157045038,True
+CrystallizationFromLiquid_Adversarial,adversarial,symmetry_breaking,Adversarial version of Crystal formation from liquid phases,-1.0,0.0,-1.0,-2.377601157045038,True
+SuperconductorCoherence_Adversarial,adversarial,field_coherence_structures,Adversarial version of Cooper pair coherence in superconductors,-1.0,0.0,-1.0,-2.377601157045038,True
+LaserOpticalCoherence_Adversarial,adversarial,field_coherence_structures,Adversarial version of Optical coherence in laser systems,-1.0,0.0,-1.0,-2.377601157045038,True

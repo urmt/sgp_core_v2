@@ -1,0 +1,7 @@
+requirement,source_assumptions,covered,notes
+distinguishable states,OC2,YES,OC2 provides the general capacity for distinction
+temporal ordering,IS1a;OC2,YES,
+state transition,IS1a,YES,
+interval partitioning,NONE,NO,No single assumption provides this — requires conjunction
+boundary identifiability,OC2;IS2;EC1;SR1;IC1;CD2,YES,Multiple sources but requires criteria for boundary placement
+interval coherence,OC1;IS2;SR1,YES,What makes a set of changes 'belong together'?

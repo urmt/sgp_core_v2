@@ -1,0 +1,15 @@
+{
+  "phase": "E3",
+  "seed": 3000,
+  "n_predictions": 180,
+  "n_comparisons": 60,
+  "mean_R2_curvature": 0.184663,
+  "mean_R2_raw_descriptors": 0.285819,
+  "mean_R2_combined": 0.311979,
+  "curvature_vs_raw_delta": -0.101157,
+  "combined_vs_raw_delta": 0.026159,
+  "n_curv_wins": 11,
+  "n_combined_wins": 56,
+  "n_total_comparisons": 60,
+  "runtime_seconds": 88
+}

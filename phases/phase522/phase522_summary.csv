@@ -1,0 +1,2 @@
+phase,silhouette,margin_stability_corr,nearest_distance_corr,boundary_mean,mid_mean,interior_mean,mean_intra_variance,mean_inter_variance,variance_ratio,verdict
+522,0.5702524416154876,0.1304768915787899,-0.2592668224513293,0.7417936,0.9408224117647057,0.55855175,0.012119296295936933,0.20915315442149363,17.257848701423896,NONBOUNDARY-ORGANIZATION

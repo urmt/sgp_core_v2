@@ -1,0 +1,106 @@
+{
+  "seed": 42,
+  "description": "Shuffled order of Q3 responses for C3 clustering",
+  "responses": [
+    {
+      "position": 1,
+      "original_id": "T042",
+      "response": "Universes were analyzed for proximity structure and the chain was tested."
+    },
+    {
+      "position": 2,
+      "original_id": "IF-3",
+      "response": "A co-occurrence matrix was built, noise was filtered, and clustering was applied."
+    },
+    {
+      "position": 3,
+      "original_id": "RD-06",
+      "response": "Pre-perturbation level was measured and its predictive power for recovery was tested."
+    },
+    {
+      "position": 4,
+      "original_id": "RD-10B.J2",
+      "response": "Multiple sequences were generated and the same four features appeared in all of them."
+    },
+    {
+      "position": 5,
+      "original_id": "RD-10B.R1",
+      "response": "The study sequence was re-read and the timing of gain relative to interaction was recorded."
+    },
+    {
+      "position": 6,
+      "original_id": "RD-10B.J6",
+      "response": "Each junction was expressed as an operator and composition was tested."
+    },
+    {
+      "position": 7,
+      "original_id": "RD-10B.3",
+      "response": "Worlds were generated without pattern vocabulary and patterns were detected after evolution."
+    },
+    {
+      "position": 8,
+      "original_id": "RD-05",
+      "response": "Removal fraction was varied and recovery metrics were measured."
+    },
+    {
+      "position": 9,
+      "original_id": "RD-10B.J4",
+      "response": "Each junction was removed and the effect on the others was measured."
+    },
+    {
+      "position": 10,
+      "original_id": "IF-ST",
+      "response": "Reconstruction was tested under four degradation conditions and breakpoints were identified."
+    },
+    {
+      "position": 11,
+      "original_id": "RD-10B.R3b",
+      "response": "Audits were decomposed by type and the contribution of each component was analyzed."
+    },
+    {
+      "position": 12,
+      "original_id": "RD-10B.M6b",
+      "response": "Comparisons were classified by type and collapse rates were measured."
+    },
+    {
+      "position": 13,
+      "original_id": "RD-10B.M5",
+      "response": "Audits were classified by whether descriptions collapsed or were maintained, and gain was compared."
+    },
+    {
+      "position": 14,
+      "original_id": "RD-019",
+      "response": "Box width was varied and the effect on packing structure and outcome was measured."
+    },
+    {
+      "position": 15,
+      "original_id": "T040",
+      "response": "Ten candidates were tested and all required separation."
+    },
+    {
+      "position": 16,
+      "original_id": "RD-10B.R0R",
+      "response": "A classification scheme was applied to prior studies, separating them into two groups based on what remained stable."
+    },
+    {
+      "position": 17,
+      "original_id": "RD-10B.0",
+      "response": "One world was represented in multiple ways and the same detectors were applied to each."
+    },
+    {
+      "position": 18,
+      "original_id": "T043",
+      "response": "Universes were generated and detectors were applied to determine which appeared first."
+    },
+    {
+      "position": 19,
+      "original_id": "T038",
+      "response": "Universes were generated with continuous dynamics and the emergence of separable clusters was measured."
+    },
+    {
+      "position": 20,
+      "original_id": "RD-5",
+      "response": "Removal fraction was varied and recovery metrics were measured."
+    }
+  ]
+}

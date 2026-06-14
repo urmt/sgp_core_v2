@@ -1,0 +1,4 @@
+model,rate
+random_walk,0.072
+brownian,0.072
+ornstein_uhlenbeck,0.087

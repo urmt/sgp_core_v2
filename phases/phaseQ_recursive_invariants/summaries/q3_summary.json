@@ -1,0 +1,6 @@
+{
+  "phase": "Q3",
+  "n_conditions": 10,
+  "most_destructive": "no_coupling",
+  "least_destructive": "no_timing_precision"
+}

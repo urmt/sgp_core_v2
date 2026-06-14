@@ -1,0 +1,12 @@
+{
+  "phase": "M6",
+  "most_destructive": "temporal_alignment",
+  "most_destructive_value": 0.9334091905491092,
+  "collapse_by_type": {
+    "synchronization": 0.8040573399,
+    "closure_compatibility": 0.579765917359,
+    "temporal_alignment": 0.9334091905491092,
+    "recursive_alignment": 0.185544568,
+    "continuity_transfer": 0.8202758227265589
+  }
+}

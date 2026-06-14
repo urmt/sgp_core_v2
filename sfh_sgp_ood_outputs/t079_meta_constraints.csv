@@ -1,0 +1,6 @@
+constraint_id,name,formulation,total_score,supports,contradictions,neutrals,robustness,coverage,substrate_independent_net,cross_domain_coverage
+MC1,Information Preservation,Systems survive only when structure can be retained across transitions,-5,6,11,15,0.353,0.188,-3,0.375
+MC2,Productive Transformation,Systems must be able to generate novel structure from existing structure,19,19,0,13,1.0,0.594,19,0.625
+MC3,Constraint Balance,Too much freedom causes collapse; too much rigidity causes sterility,22,22,0,10,1.0,0.688,22,1.0
+MC4,Recursive Accessibility,Systems unable to act upon their own internal structure lose fertility,5,5,0,27,1.0,0.156,3,0.0
+MC5,Recoverable Perturbation,Successful systems must absorb disruption without permanent collapse,13,13,0,19,1.0,0.406,12,0.75

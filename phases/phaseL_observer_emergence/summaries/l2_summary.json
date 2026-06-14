@@ -1,0 +1,8 @@
+{
+  "phase": "L2",
+  "mean_passive_persistence": 0.7649405272402224,
+  "mean_active_continuity": 0.12990941619799998,
+  "mean_observer_continuity": 0.01175667962792416,
+  "CG_active_passive_ratio": 0.6786969238796685,
+  "CL_active_passive_ratio": 0.02640168304273695
+}

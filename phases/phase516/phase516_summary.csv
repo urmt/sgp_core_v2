@@ -1,0 +1,2 @@
+phase,neighbor_corr,cluster_corr,component_corr,variance_corr,max_component_drop,largest_component_initial,largest_component_final,verdict
+516,0.8205938896741184,0.37861811004018225,,-0.42719632636156374,-13.0,31,1,PERCOLATION-THRESHOLD-STRUCTURE

@@ -1,0 +1,63 @@
+{
+  "audit": "RD-HIST.2A",
+  "analysis": "Null Compression Test",
+  "description": "Testing how much explanatory structure is lost at each compression level",
+  "compression_levels": {
+    "compression_a": {
+      "description": "All discovered categories from Q3 clustering",
+      "categories": [
+        "Generation and Testing",
+        "Classification and Categorization",
+        "Variation and Measurement",
+        "Comparison and Reinterpretation",
+        "Removal and Degradation Testing"
+      ],
+      "total_categories": 5,
+      "information_lost": "None - all categories preserved",
+      "studies_covered": 20
+    },
+    "compression_b": {
+      "description": "Collapsed into four categories: Distinction / Comparison / Preservation / Persistence",
+      "mapping": {
+        "Generation and Testing": "Comparison (generating new instances to compare)",
+        "Classification and Categorization": "Distinction (separating items into groups)",
+        "Variation and Measurement": "Preservation (testing whether patterns persist under variation)",
+        "Comparison and Reinterpretation": "Comparison (comparing multiple descriptions)",
+        "Removal and Degradation Testing": "Preservation (testing whether function persists under removal)"
+      },
+      "total_categories": 4,
+      "information_lost": "Moderate - five categories collapsed to four; some nuance lost",
+      "studies_covered": 20
+    },
+    "compression_c": {
+      "description": "Collapsed into two categories: Change occurred / No change occurred",
+      "mapping": {
+        "Generation and Testing": "Change occurred",
+        "Classification and Categorization": "Change occurred",
+        "Variation and Measurement": "Change occurred",
+        "Comparison and Reinterpretation": "Change occurred",
+        "Removal and Degradation Testing": "Change occurred"
+      },
+      "total_categories": 2,
+      "information_lost": "High - all methodological nuance lost; only binary distinction remains",
+      "studies_covered": 20,
+      "note": "All 20 studies involved change; no study had 'no change occurred'"
+    }
+  },
+  "analysis": {
+    "compression_a_to_b": {
+      "information_lost": "One category lost (5 -> 4); some methodological nuance lost",
+      "explanatory_structure_preserved": "High - the four categories still capture the main types of change"
+    },
+    "compression_b_to_c": {
+      "information_lost": "Three categories lost (4 -> 2); all methodological nuance lost",
+      "explanatory_structure_preserved": "Low - only binary change/non-change remains; no information about what type of change"
+    },
+    "compression_a_to_c": {
+      "information_lost": "Four categories lost (5 -> 2); almost all methodological nuance lost",
+      "explanatory_structure_preserved": "Very low - only binary change/non-change remains"
+    }
+  },
+  "key_finding": "Compression C loses almost all explanatory structure. The ontology (5 categories) carries real information beyond 'change occurred'. The question is whether the 5-category ontology is the right level, or whether a simpler ontology (like 4 categories) would suffice.",
+  "implication": "The archive's explanatory structure is not overbuilt at the 5-category level, but may be overbuilt at finer granularity. The 4-category compression (Compression B) preserves most of the explanatory structure while being simpler."
+}

@@ -1,0 +1,19 @@
+{
+  "total_edges": 18,
+  "sufficient": 17,
+  "insufficient": 1,
+  "hidden_compressions": 1,
+  "ba1_relevant_edges": 2,
+  "insufficient_edges": [
+    {
+      "edge": "IS1 \u2192 OC2",
+      "reason": "OC2 supplies external demarcation (this vs that) but not internal architecture (stage A then stage B). A boundary separates two things; it does not organize either side internally. IS1 requires the latter. The leap from 'distinguishable from the phenomenon' to 'has stages' smuggles in a hidden assumption about temporal extension or internal differentiation of the investigation itself."
+    }
+  ],
+  "ba1_assessment": {
+    "needed_for_generativity": false,
+    "needed_for_sufficiency": true,
+    "gap": "IS1\u2192OC2 is insufficient \u2014 OC2 provides boundary but not internal structure",
+    "evidence_base": "T066 corrected the bootstrap artifact. T067 reveals a dependency-sufficiency gap at the same location."
+  }
+}

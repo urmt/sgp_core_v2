@@ -1,0 +1,2 @@
+phase,best_metric,best_pearson_r,best_pearson_p,best_spearman_rho,low_lock_mean,mid_lock_mean,high_lock_mean,mean_locking,verdict
+537,margin,-0.4049430516950382,0.02383622514455954,-0.1651850320446558,0.7883861999999999,0.8884481111111111,0.5900653333333333,0.6609516195274019,PARTIAL-ASSIGNMENT-LOCKING

@@ -1,0 +1,36 @@
+{
+  "audit": "RD-HIST.2B.M1",
+  "analysis": "Stability Metric Audit",
+  "description": "Metric validation: are the reported stability values properties of the clusterings or artifacts of the metric?",
+  "metrics": {},
+  "pair_results": {
+    "c1_vs_c2": {
+      "metric_a_current": 0.0421,
+      "metric_b_jaccard": 0.1667,
+      "metric_c_ari": 0.1264,
+      "metric_d_nmi": 0.499,
+      "metric_e_vi": 2.4365
+    },
+    "c1_vs_c3": {
+      "metric_a_current": 0.0316,
+      "metric_b_jaccard": 0.1176,
+      "metric_c_ari": 0.0202,
+      "metric_d_nmi": 0.4341,
+      "metric_e_vi": 2.7365
+    },
+    "c2_vs_c3": {
+      "metric_a_current": 0.0263,
+      "metric_b_jaccard": 0.1087,
+      "metric_c_ari": 0.0781,
+      "metric_d_nmi": 0.4956,
+      "metric_e_vi": 2.5629
+    }
+  },
+  "interpretation": {
+    "metric_a": "Low",
+    "metric_b": "Low",
+    "metric_c": "Low",
+    "metric_d": "Moderate",
+    "metric_e_vi": "High (more different)"
+  }
+}

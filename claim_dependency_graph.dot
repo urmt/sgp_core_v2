@@ -1,0 +1,138 @@
+digraph SFH_Claim_Graph {
+    rankdir=TB;
+    splines=true;
+    ranksep=0.5;
+    nodesep=0.3;
+    pad=0.4;
+    margin=0.3;
+    fontname="Helvetica";
+    fontsize=11;
+    bgcolor="white";
+    label="SFH Fine-Tuning Argument: Critical Path & Breaks\n\n";
+    labelloc=t;
+    labeljust=l;
+    fontsize=16;
+    fontname="Helvetica-Bold";
+
+    node [style="filled,rounded", shape=box, fontsize=10, fontname="Helvetica"];
+    edge [fontname="Helvetica", fontsize=9];
+
+    // ====== Legend ======
+    subgraph cluster_legend {
+        label="Node Types";
+        fontsize=10;
+        fontname="Helvetica";
+        style="dashed";
+        color="#bbbbbb";
+        bgcolor="#fafafa";
+        
+        legend_O [label="Observation", fillcolor="#d4edda", fontcolor="#155724", fontsize=9, shape=note, style="filled"];
+        legend_I [label="Interpretation", fillcolor="#fff3cd", fontcolor="#856404", fontsize=9, shape=note, style="filled"];
+        legend_R [label="Assertion (no derivation)", fillcolor="#f8d7da", fontcolor="#721c24", fontsize=9, shape=note, style="filled"];
+        legend_D [label="Definition", fillcolor="#cce5ff", fontcolor="#004085", fontsize=9, shape=note, style="filled"];
+        legend_EC [label="Empirical Claim", fillcolor="#e8daef", fontcolor="#6c3483", fontsize=9, shape=note, style="filled"];
+        legend_C [label="Conclusion", fillcolor="#d6d8db", fontcolor="#383d41", fontsize=9, shape=note, style="filled"];
+        
+        legend_O -> legend_I -> legend_R -> legend_D -> legend_EC -> legend_C [style=invis];
+    }
+
+    // ====== Layer 1: Observations ======
+    subgraph cluster_layer1 {
+        label="Layer 1: Empirical";
+        fontsize=11;
+        fontname="Helvetica-Bold";
+        style="filled";
+        color="#a3d9b1";
+        fillcolor="#f0fff4";
+        
+        N06 [label="N06: Physical constants\nhave observed values", fillcolor="#d4edda", fontcolor="#155724"];
+        N07 [label="N07: These constants\nappear fine-tuned", fillcolor="#d4edda", fontcolor="#155724"];
+    }
+
+    // ====== Layer 2: Interpretation ======
+    subgraph cluster_layer2 {
+        label="Layer 2: Interpretation";
+        fontsize=11;
+        fontname="Helvetica-Bold";
+        style="filled";
+        color="#e6c300";
+        fillcolor="#fffef0";
+        
+        N08 [label="N08: Materialism describes\nhow, not why", fillcolor="#fff3cd", fontcolor="#856404"];
+    }
+
+    // ====== Layer 3: Asserted Mechanism ======
+    subgraph cluster_layer3 {
+        label="Layer 3: Asserted Mechanism";
+        fontsize=11;
+        fontname="Helvetica-Bold";
+        style="filled";
+        color="#e88";
+        fillcolor="#fff5f5";
+        
+        N09 [label="N09: SF \"selects\" constants\nto maximize coherence", fillcolor="#f8d7da", fontcolor="#721c24"];
+        N49 [label="N49: SF optimizes coherence\nacross all scales", fillcolor="#f8d7da", fontcolor="#721c24"];
+    }
+
+    // ====== Layer 4: Metric & Predictions ======
+    subgraph cluster_layer4 {
+        label="Layer 4: Metric & Predictions";
+        fontsize=11;
+        fontname="Helvetica-Bold";
+        style="filled";
+        color="#bb8fce";
+        fillcolor="#fdf8ff";
+        
+        N14 [label="N14: Coherence metric\nC defined", fillcolor="#cce5ff", fontcolor="#004085"];
+        N33 [label="N33-N44: C >= threshold\npredictions (14 claims)", fillcolor="#e8daef", fontcolor="#6c3483"];
+    }
+
+    // ====== Layer 5: Conclusion ======
+    subgraph cluster_layer5 {
+        label="Layer 5: Conclusion";
+        fontsize=11;
+        fontname="Helvetica-Bold";
+        style="filled";
+        color="#bbb";
+        fillcolor="#fcfcfc";
+        
+        N54 [label="N54: SFH is\ntestable/falsifiable", fillcolor="#d6d8db", fontcolor="#383d41"];
+    }
+
+    // ====== Orphans ======
+    subgraph cluster_orphans {
+        label="Mathematical Orphans";
+        fontsize=10;
+        fontname="Helvetica-Bold";
+        style="dashed";
+        color="#999";
+        fillcolor="#fafafa";
+        
+        N16 [label="N16-N18: Transition\nfunctions (f_t, g_s)", fillcolor="#e2e3e5", fontcolor="#666", fontsize=9];
+        N19 [label="N19: 3D vs 4D+\nstability table", fillcolor="#e2e3e5", fontcolor="#666", fontsize=9];
+    }
+
+    // ====== Edges ======
+    N06 -> N07 [color="#555", penwidth=1.5];
+    N07 -> N08 [color="#555", penwidth=1.5];
+    
+    N08 -> N09 [color="#cc0000", penwidth=2.5, style="dashed",
+                xlabel="BREAK 1: Observation does not imply sentient selection. No mechanism given."];
+    
+    N09 -> N14 [color="#cc0000", penwidth=2.5, style="dashed",
+                xlabel="BREAK 2: C defined independently of SF/fiber bundles. Assertion, not derivation."];
+    
+    N09 -> N49 [color="#cc0000", penwidth=1.5, style="dashed"];
+    N49 -> N14 [color="#999", penwidth=1, style="dotted"];
+    
+    N14 -> N33 [color="#555", penwidth=1.5];
+    
+    N33 -> N54 [color="#cc0000", penwidth=2.5, style="dashed",
+                xlabel="BREAK 3: Each threshold depends on asserted baselines. Free parameters = unfalsifiable."];
+
+    // BREAK 4: orphan nodes have no connections at all — implicit
+    
+    // Invisible edges for layout
+    N08 -> N16 [style=invis];
+    N08 -> N19 [style=invis];
+}

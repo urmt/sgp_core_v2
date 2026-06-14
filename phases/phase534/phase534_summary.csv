@@ -1,0 +1,2 @@
+phase,best_metric,best_pearson_r,best_pearson_p,best_spearman_rho,low_shell_mean,mid_shell_mean,high_shell_mean,verdict
+534,spread,-0.3907248064680999,0.029758601162493153,-0.4715732892288609,0.5683975,1.018495818181818,0.8758695,NONBOUNDARY-ACCESSIBILITY

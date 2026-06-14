@@ -1,0 +1,31 @@
+domain,name,viable,fertile,stability,fertility,quadrant
+A — Physical universes,Our universe,True,True,0.767,0.85,LS/HF
+A — Physical universes,Cyclic universe (bounce),True,True,0.767,0.76,LS/HF
+A — Physical universes,Empty universe (Ω<<1),False,False,0.617,0.01,nonviable
+A — Physical universes,Collapsing universe (Ω>>1),False,False,0.3,0.18,nonviable
+A — Physical universes,Thermal equilibrium,False,False,0.483,0.0,nonviable
+A — Physical universes,High-dark-energy universe,False,False,0.5,0.09,nonviable
+A — Physical universes,Strong-coupling universe,False,False,0.267,0.34,nonviable
+A — Physical universes,Super-fertile universe (hypothetical),True,True,0.717,0.94,LS/HF
+B — Mathematical systems,ZFC set theory,True,True,0.8,0.87,HS/HF
+B — Mathematical systems,Peano arithmetic (PA),True,True,0.833,0.65,HS/HF
+B — Mathematical systems,First-order logic (FOL),True,False,0.95,0.24,HS/HF
+B — Mathematical systems,Category theory (ETCS),True,True,0.783,0.87,LS/HF
+B — Mathematical systems,Computation (Turing/λ),True,True,0.8,0.85,HS/HF
+B — Mathematical systems,Inconsistent system,False,False,0.05,0.83,nonviable
+B — Mathematical systems,Presburger arithmetic,True,False,0.967,0.12,HS/LF
+B — Mathematical systems,Decidable fragment of FOL,True,False,0.967,0.07,HS/LF
+C — Recursive substrate,Full 9-assumption substrate,True,True,0.867,0.81,HS/HF
+C — Recursive substrate,Original substrate (IS1↔IS2),False,False,0.2,0.35,nonviable
+C — Recursive substrate,OC2 only (trivial),False,False,0.333,0.01,nonviable
+C — Recursive substrate,Substrate without SR1,True,False,0.783,0.43,LS/HF
+C — Recursive substrate,Substrate without EC1,True,True,0.783,0.65,LS/HF
+C — Recursive substrate,Substrate without CD2,True,False,0.8,0.55,HS/HF
+D — Dynamical manifolds,Lorenz strange attractor,True,False,0.733,0.26,LS/HF
+D — Dynamical manifolds,Reaction-diffusion (Turing),True,True,0.817,0.63,HS/HF
+D — Dynamical manifolds,Logistic map (r=3.8),True,False,0.567,0.21,LS/LF
+D — Dynamical manifolds,Coupled oscillator (Kuramoto),True,False,0.8,0.35,HS/HF
+D — Dynamical manifolds,Fixed-point collapse,False,False,0.633,0.0,nonviable
+D — Dynamical manifolds,Boolean network (K=2 critical),True,True,0.733,0.71,LS/HF
+D — Dynamical manifolds,Game of Life (CA),True,True,0.717,0.85,LS/HF
+D — Dynamical manifolds,Unbounded divergence,False,False,0.133,0.09,nonviable

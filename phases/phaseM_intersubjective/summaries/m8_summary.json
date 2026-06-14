@@ -1,0 +1,31 @@
+{
+  "phase": "M8",
+  "null_comparison": {
+    "co_stabilization_probability": {
+      "real": 0.820275822826559,
+      "null": 0.820275822826559,
+      "collapse": 1.2191025966501456e-10
+    },
+    "shared_closure": {
+      "real": 0.4633749451669187,
+      "null": 0.4633749451669187,
+      "collapse": 2.158079270841995e-10
+    },
+    "manifold_convergence": {
+      "real": 0.3717519963551685,
+      "null": 0.3717519963551685,
+      "collapse": 2.6899660277024395e-10
+    },
+    "reciprocal_reconstruction": {
+      "real": 0.8782947138000873,
+      "null": 0.6075830179675484,
+      "collapse": 0.3082242118143209
+    },
+    "compatibility_composite": {
+      "real": 0.8109917682442137,
+      "null": 0.7650496330743064,
+      "collapse": 0.056649323782541616
+    }
+  },
+  "co_stabilization_collapse": 1.2191025966501456e-10
+}

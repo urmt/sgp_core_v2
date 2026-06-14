@@ -1,0 +1,25 @@
+{
+  "predictive": {
+    "successes": 10,
+    "failures": 0
+  },
+  "intervention": {
+    "successes": 10,
+    "failures": 0
+  },
+  "counterfactual": {
+    "successes": 10,
+    "failures": 0
+  },
+  "information": {
+    "successes": 10,
+    "failures": 0
+  },
+  "causal": {
+    "successes": 4,
+    "failures": 6,
+    "invisible": [
+      "long_range_dependencies"
+    ]
+  }
+}

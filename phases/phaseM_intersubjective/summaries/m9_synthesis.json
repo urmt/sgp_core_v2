@@ -1,0 +1,15 @@
+{
+  "phase": "M9",
+  "title": "Intersubjective Organization \u2014 Synthesis",
+  "key_finding": "Observer-like continuities show high compatibility (0.81), but true co-stabilization requires nonlinear dynamical modeling beyond static similarity metrics.",
+  "co_stabilization_mean": 0.820275822826559,
+  "compatibility_mean": 0.8109917682442137,
+  "same_domain_bias": 0.025526432152034317,
+  "most_destructive_failure": "temporal alignment destruction",
+  "null_test_insight": "Current linear interaction model cannot be falsified by null \u2014 nonlinear transition models needed",
+  "n_criteria_met": 1926,
+  "distributed_identity": 0.16848244617874494,
+  "collective_closure": 0.3757208211638765,
+  "position_in_v2": "Phase M reveals that recursive continuity interaction is itself a process requiring dynamical modeling \u2014 static similarity metrics capture marginal distributions, not interaction organization.",
+  "next_phase": "Phase N should implement dynamical coupling between recursive continuity processes."
+}

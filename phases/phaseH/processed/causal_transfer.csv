@@ -1,0 +1,16 @@
+cluster,intervention,n_domains,within_cluster_variance,cross_cluster_variance,transfer_ratio,within_split_corr,domains
+1,perturb_CSR,2,0.0123,0.0326,0.3779,1.0,coupled_map_lattice+gray_scott
+1,perturb_RBS,2,0.0001,0.0304,0.0027,1.0,coupled_map_lattice+gray_scott
+1,perturb_ADI,2,0.0095,0.0263,0.3609,1.0,coupled_map_lattice+gray_scott
+1,perturb_RTP,2,0.0013,0.0319,0.0415,1.0,coupled_map_lattice+gray_scott
+1,perturb_SRD,2,0.0061,0.009,0.6736,1.0,coupled_map_lattice+gray_scott
+2,perturb_CSR,5,0.0446,0.0151,2.9504,1.0,cellular_automata+kuramoto+lotka_volterra+nonlinear_oscillator+replicator
+2,perturb_RBS,5,0.0445,0.0212,2.0967,1.0,cellular_automata+kuramoto+lotka_volterra+nonlinear_oscillator+replicator
+2,perturb_ADI,5,0.0347,0.0079,4.4045,1.0,cellular_automata+kuramoto+lotka_volterra+nonlinear_oscillator+replicator
+2,perturb_RTP,5,0.0397,0.0182,2.183,1.0,cellular_automata+kuramoto+lotka_volterra+nonlinear_oscillator+replicator
+2,perturb_SRD,5,0.0139,0.006,2.2956,1.0,cellular_automata+kuramoto+lotka_volterra+nonlinear_oscillator+replicator
+3,perturb_CSR,2,0.0061,0.0393,0.1549,1.0,graph_diffusion+population
+3,perturb_RBS,2,0.0004,0.049,0.009,1.0,graph_diffusion+population
+3,perturb_ADI,2,0.0099,0.0263,0.3775,1.0,graph_diffusion+population
+3,perturb_RTP,2,0.0021,0.0656,0.0325,1.0,graph_diffusion+population
+3,perturb_SRD,2,0.0035,0.0145,0.2408,1.0,graph_diffusion+population

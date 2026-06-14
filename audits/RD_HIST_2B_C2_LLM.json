@@ -1,0 +1,67 @@
+{
+  "clustering": "C2",
+  "source": "Blind LLM Clustering",
+  "status": "frozen",
+  "description": "Blind LLM clustering with no prior labels, no theoretical vocabulary",
+  "category_count": 6,
+  "categories": [
+    {
+      "id": 1,
+      "name": "generation and detection",
+      "description": "Generated universes, sequences, or worlds and applied detectors or measurements to observe outcomes",
+      "statements": [1, 5, 9, 10, 16]
+    },
+    {
+      "id": 2,
+      "name": "parameter variation and measurement",
+      "description": "Varied a parameter or condition and measured resulting effects or metrics",
+      "statements": [4, 12, 19]
+    },
+    {
+      "id": 3,
+      "name": "decomposition and compositional analysis",
+      "description": "Broke systems into components, expressed as operators, or tested composition and contribution",
+      "statements": [7, 14, 18]
+    },
+    {
+      "id": 4,
+      "name": "classification and comparison",
+      "description": "Sorted items into categories or compared states such as collapse versus maintenance",
+      "statements": [2, 11, 17]
+    },
+    {
+      "id": 5,
+      "name": "testing specific conditions",
+      "description": "Tested candidates, reconstruction under degradation, or predictive power of measurements",
+      "statements": [3, 13, 15]
+    },
+    {
+      "id": 6,
+      "name": "structure and sequence analysis",
+      "description": "Built matrices, analyzed proximity structure, or represented worlds in multiple ways to apply detectors",
+      "statements": [6, 8, 20]
+    }
+  ],
+  "assignments": {
+    "1": 1,
+    "2": 4,
+    "3": 5,
+    "4": 2,
+    "5": 1,
+    "6": 6,
+    "7": 3,
+    "8": 6,
+    "9": 1,
+    "10": 1,
+    "11": 4,
+    "12": 2,
+    "13": 5,
+    "14": 3,
+    "15": 5,
+    "16": 1,
+    "17": 4,
+    "18": 3,
+    "19": 2,
+    "20": 6
+  }
+}

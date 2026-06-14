@@ -1,0 +1,11 @@
+claim,status,proof_type,evidence
+Our observer models require comparison,PROVEN,formal,All 45 detectors and all observer models use comparison.
+Observation itself requires comparison,UNPROVEN,assumed,"We cannot describe observation without comparison, but this is a limitation of description, not proof about observation."
+Our observer models require ordering,PROVEN,formal,All temporal tracking requires ordering.
+Observation itself requires ordering,UNPROVEN,assumed,"We experience observation as sequential, but cannot prove non-sequential observation is impossible."
+Our observer models require identity,PROVEN,formal,All persistence tracking requires identity.
+Observation itself requires identity,UNPROVEN,assumed,Identity may be required for reporting but not for observing.
+Our observer models require difference,PROVEN,formal,All information extraction requires difference.
+Observation itself requires difference,UNPROVEN,circular,The argument uses comparison (which requires difference) to prove difference is needed.
+Our observer models require distinction,PROVEN,formal,All observer-observed splits require distinction.
+Observation itself requires distinction,UNPROVEN,assumed,Distinction may be necessary for the observer boundary but not for observation itself.

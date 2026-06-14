@@ -1,0 +1,41 @@
+{
+  "audit": "T077 \u2014 Attractor Audit",
+  "question": "Does the fertile corridor act as an attractor across domains?",
+  "per_domain_classification": {
+    "A \u2014 Physical universes": "Type III \u2014 Transit",
+    "B \u2014 Mathematical systems": "Type II \u2014 Saddle",
+    "C \u2014 Recursive substrate": "Type II \u2014 Saddle",
+    "D \u2014 Dynamical manifolds": "Type II \u2014 Saddle"
+  },
+  "type_distribution": {
+    "Transit": 1,
+    "Saddle": 3
+  },
+  "drift_patterns": {
+    "A \u2014 Physical universes": "collapse-ward",
+    "B \u2014 Mathematical systems": "fortress-ward",
+    "C \u2014 Recursive substrate": "collapse-ward",
+    "D \u2014 Dynamical manifolds": "collapse-ward"
+  },
+  "retention_strengths": {
+    "A \u2014 Physical universes": 1.627,
+    "B \u2014 Mathematical systems": 1.404,
+    "C \u2014 Recursive substrate": 0.496,
+    "D \u2014 Dynamical manifolds": 0.913
+  },
+  "recovery_potentials": {
+    "A \u2014 Physical universes": null,
+    "B \u2014 Mathematical systems": 0,
+    "C \u2014 Recursive substrate": 0.238,
+    "D \u2014 Dynamical manifolds": 0
+  },
+  "basin_fill_ratios": {
+    "A \u2014 Physical universes": 1.0,
+    "B \u2014 Mathematical systems": 0.272,
+    "C \u2014 Recursive substrate": 1.0,
+    "D \u2014 Dynamical manifolds": 0.4
+  },
+  "universal_attractor_type": false,
+  "attractor_type_if_universal": null,
+  "conclusion": "The fertile corridor shows 2 distinct attractor type(s) across the 4 domains."
+}

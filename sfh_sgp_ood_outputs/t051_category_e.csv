@@ -1,0 +1,2 @@
+phase,statement,confidence,evidence
+T039,Distinction is foundational,low,"Based on authored dependency graph, not measured. T048 shows graph was specified, not discovered."

@@ -1,0 +1,2 @@
+phase,best_k_CV_R2,best_k_silhouette,k6_LOOCV_R2,k6_silhouette,k6_seed_ARI,k6_ANOVA_F,max_LOOCV_R2,max_silhouette,plateau_size,plateau_ks,verdict
+542,13,5,0.6188,0.611,0.9624,116.03,0.731,0.6536,5,"[11, 12, 13, 14, 15]",k-PLATEAU-STRUCTURE

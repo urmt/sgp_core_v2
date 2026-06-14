@@ -1,0 +1,10 @@
+assumption,Baseline (no persistence)_delta,Baseline (no persistence)_emerged,SP (Structural Persistence) original_delta,SP (Structural Persistence) original_emerged,SI (State Inertia)_delta,SI (State Inertia)_emerged,SB (Structural Bonds)_delta,SB (Structural Bonds)_emerged,TA (Temporal Averaging)_delta,TA (Temporal Averaging)_emerged,CQ (Conservation Quantity)_delta,CQ (Conservation Quantity)_emerged,FM (Fixed-Point Memory)_delta,FM (Fixed-Point Memory)_emerged,Avg (SI+SB+TA+CQ+FM)/5_delta,Avg (SI+SB+TA+CQ+FM)/5_emerged
+OC2,0.965,True,1.0,True,1.0,True,1.0,True,1.0,True,0.962,True,0.961,True,1.0,True
+OC1,0.543,True,0.95,True,0.95,True,0.7,True,0.95,True,0.525,True,0.576,True,0.883,True
+CD1,0.67,True,0.398,True,0.523,True,0.499,True,0.523,True,0.681,True,0.659,True,0.531,True
+IC1,0.614,True,0.182,False,0.222,True,0.116,False,0.222,True,0.642,True,0.601,True,0.188,False
+IS1,0.49,True,0.25,True,0.262,True,0.463,True,0.262,True,0.501,True,0.5,True,0.307,True
+IS2,0.0,False,0.0,False,0.0,False,0.0,False,0.0,False,0.0,False,0.0,False,0.0,False
+CD2,0.834,True,0.74,True,0.842,True,0.573,True,0.842,True,0.841,True,0.807,True,0.751,True
+EC1,0.323,True,0.319,True,0.325,True,0.309,True,0.325,True,0.323,True,0.322,True,0.318,True
+SR1,0.592,True,0.744,True,0.754,True,0.562,True,0.754,True,0.589,True,0.601,True,0.685,True

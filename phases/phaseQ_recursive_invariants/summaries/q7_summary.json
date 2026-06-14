@@ -1,0 +1,32 @@
+{
+  "phase": "Q7",
+  "n_clusters": 4,
+  "cluster_labels": {
+    "0": "temporal_structure",
+    "1": "conditional_invariant",
+    "2": "fragile_property",
+    "3": "robust_invariant"
+  },
+  "classes": [
+    {
+      "label": "temporal_structure",
+      "size": 2,
+      "score": 0.03009327566054665
+    },
+    {
+      "label": "conditional_invariant",
+      "size": 11,
+      "score": 0.8394168624552968
+    },
+    {
+      "label": "fragile_property",
+      "size": 5,
+      "score": 0.23938941727423568
+    },
+    {
+      "label": "robust_invariant",
+      "size": 4,
+      "score": 0.8149963396795262
+    }
+  ]
+}

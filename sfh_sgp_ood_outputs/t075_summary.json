@@ -1,0 +1,23 @@
+{
+  "audit": "T075 \u2014 Stability/Fertility Tradeoff Audit",
+  "global_correlation_r": 0.271,
+  "viable_only_correlation_r": -0.331,
+  "relationship_type": "NEGATIVELY COUPLED \u2014 stability opposes fertility",
+  "quadrant_distribution": {
+    "HS/HF (sweet spot)": 5,
+    "HS/LF (sterile fortress)": 5,
+    "LS/HF (edge of chaos)": 7,
+    "LS/LF (collapse zone)": 3
+  },
+  "max_fertility_system": {
+    "name": "Super-fertile universe (hypothetical)",
+    "domain": "A \u2014 Physical universes",
+    "stability": 0.717,
+    "fertility": 0.94
+  },
+  "boundary_regime_found": true,
+  "fertile_mean_distance_from_midpoint": 0.037,
+  "merely_viable_mean_distance_from_midpoint": 0.112,
+  "tradeoff_pattern": "EDGE OF CHAOS \u2014 most fertile systems are lower-stability",
+  "conclusion": "Across all four domains, fertility and stability show a boundary relationship: maximum fertility occurs not at extreme stability but at intermediate values, consistent with the 'edge of chaos' hypothesis."
+}

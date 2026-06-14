@@ -1,0 +1,11 @@
+det_a,det_b,agreement
+D1_exact,D2_epsilon,0.0
+D1_exact,D3_topological,0.0
+D1_exact,D4_nn,0.0
+D1_exact,D5_rqa,0.0
+D2_epsilon,D3_topological,1.0
+D2_epsilon,D4_nn,1.0
+D2_epsilon,D5_rqa,1.0
+D3_topological,D4_nn,1.0
+D3_topological,D5_rqa,1.0
+D4_nn,D5_rqa,1.0

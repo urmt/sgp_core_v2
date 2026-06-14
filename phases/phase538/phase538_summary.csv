@@ -1,0 +1,2 @@
+phase,best_metric,best_pearson_r,best_pearson_p,best_spearman_rho,low_shell_mean,mid_shell_mean,high_shell_mean,mean_interface_balance,verdict
+538,hybridity,0.4410968465816103,0.012996611733811666,0.41947488112466397,0.6674086,0.9298797333333332,0.837307,-2.1257184526904815,PARTIAL-INTERFACE-STRUCTURE

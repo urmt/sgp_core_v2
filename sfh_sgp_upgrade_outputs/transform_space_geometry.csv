@@ -1,0 +1,4 @@
+dataset,pc1_variance_transform_space,effective_rank_transform_space
+white_noise,0.6276438640242206,1.9739485695063572
+sine_wave,0.9418991797123385,1.2939464694886473
+random_walk,0.88045795790022,1.469291125139918

@@ -1,0 +1,7 @@
+{
+  "phase": "L4",
+  "mean_perspective_drift": 0.9200298642,
+  "mean_identity_frame_continuity": 0.0014515848249538363,
+  "CG_identity_frame": 0.006928032923777139,
+  "CL_identity_frame": 1.601179611562471e-07
+}

@@ -1,0 +1,9 @@
+detector,p_constraint_before_convergence,n_universes
+B1_growth_rate,0.008018710324089542,2993
+B2_reachable,0.0,2998
+B3_entropy,0.0,3000
+B4_transition_freedom,0.000361271676300578,2768
+B5_possibility_elim,0.00033478406427854036,2987
+B8_constraint_persist,0.625,8
+B9_constraint_repro,0.0,13
+B10_elimination_rate,0.0027624309392265192,362

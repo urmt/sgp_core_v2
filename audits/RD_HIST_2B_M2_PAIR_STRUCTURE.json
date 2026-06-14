@@ -1,0 +1,626 @@
+{
+  "audit": "RD-HIST.2B.M2",
+  "analysis": "Pair Structure Audit",
+  "description": "Cluster size distribution, pair overlap, and stable core detection",
+  "cluster_size_distribution": {
+    "c1": [
+      {
+        "cluster": "Cluster_2",
+        "size": 5
+      },
+      {
+        "cluster": "Cluster_1",
+        "size": 4
+      },
+      {
+        "cluster": "Cluster_3",
+        "size": 4
+      },
+      {
+        "cluster": "Cluster_4",
+        "size": 4
+      },
+      {
+        "cluster": "Cluster_5",
+        "size": 3
+      }
+    ],
+    "c2": [
+      {
+        "cluster": "Cluster_1",
+        "size": 5
+      },
+      {
+        "cluster": "Cluster_4",
+        "size": 3
+      },
+      {
+        "cluster": "Cluster_5",
+        "size": 3
+      },
+      {
+        "cluster": "Cluster_2",
+        "size": 3
+      },
+      {
+        "cluster": "Cluster_6",
+        "size": 3
+      },
+      {
+        "cluster": "Cluster_3",
+        "size": 3
+      }
+    ],
+    "c3": [
+      {
+        "cluster": "Cluster_5",
+        "size": 5
+      },
+      {
+        "cluster": "Cluster_4",
+        "size": 4
+      },
+      {
+        "cluster": "Cluster_6",
+        "size": 3
+      },
+      {
+        "cluster": "Cluster_1",
+        "size": 3
+      },
+      {
+        "cluster": "Cluster_3",
+        "size": 3
+      },
+      {
+        "cluster": "Cluster_2",
+        "size": 2
+      }
+    ]
+  },
+  "pair_overlap": {
+    "agreed_all_3": 2,
+    "agreed_exactly_2": 13,
+    "agreed_exactly_1": 50,
+    "agreed_none": 125,
+    "total_pairs": 190,
+    "agreed_all_3_pairs": [
+      {
+        "study_a": "RD-5",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "RD-10B.0",
+        "study_b": "T042"
+      }
+    ],
+    "agreed_none_pairs": [
+      {
+        "study_a": "T038",
+        "study_b": "RD-10B.M5"
+      },
+      {
+        "study_a": "T038",
+        "study_b": "RD-5"
+      },
+      {
+        "study_a": "T038",
+        "study_b": "RD-10B.J4"
+      },
+      {
+        "study_a": "T038",
+        "study_b": "RD-10B.0"
+      },
+      {
+        "study_a": "T038",
+        "study_b": "RD-019"
+      },
+      {
+        "study_a": "T038",
+        "study_b": "IF-ST"
+      },
+      {
+        "study_a": "T038",
+        "study_b": "RD-10B.J6"
+      },
+      {
+        "study_a": "T038",
+        "study_b": "RD-06"
+      },
+      {
+        "study_a": "T038",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "T038",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "T040"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "RD-5"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "IF-3"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "RD-10B.J4"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "RD-10B.0"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "RD-10B.R1"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "RD-019"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "IF-ST"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "RD-10B.J6"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "RD-06"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "RD-10B.R3b"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "RD-10B.M5",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "T040",
+        "study_b": "RD-5"
+      },
+      {
+        "study_a": "T040",
+        "study_b": "RD-10B.J2"
+      },
+      {
+        "study_a": "T040",
+        "study_b": "RD-10B.J4"
+      },
+      {
+        "study_a": "T040",
+        "study_b": "RD-10B.0"
+      },
+      {
+        "study_a": "T040",
+        "study_b": "T043"
+      },
+      {
+        "study_a": "T040",
+        "study_b": "RD-019"
+      },
+      {
+        "study_a": "T040",
+        "study_b": "RD-10B.J6"
+      },
+      {
+        "study_a": "T040",
+        "study_b": "RD-10B.3"
+      },
+      {
+        "study_a": "T040",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "T040",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "RD-5",
+        "study_b": "RD-10B.J2"
+      },
+      {
+        "study_a": "RD-5",
+        "study_b": "IF-3"
+      },
+      {
+        "study_a": "RD-5",
+        "study_b": "RD-10B.0"
+      },
+      {
+        "study_a": "RD-5",
+        "study_b": "T043"
+      },
+      {
+        "study_a": "RD-5",
+        "study_b": "RD-10B.R1"
+      },
+      {
+        "study_a": "RD-5",
+        "study_b": "RD-10B.M6b"
+      },
+      {
+        "study_a": "RD-5",
+        "study_b": "IF-ST"
+      },
+      {
+        "study_a": "RD-5",
+        "study_b": "RD-10B.J6"
+      },
+      {
+        "study_a": "RD-5",
+        "study_b": "RD-10B.3"
+      },
+      {
+        "study_a": "RD-5",
+        "study_b": "RD-10B.R0R"
+      },
+      {
+        "study_a": "RD-5",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "RD-10B.J2",
+        "study_b": "IF-3"
+      },
+      {
+        "study_a": "RD-10B.J2",
+        "study_b": "RD-10B.J4"
+      },
+      {
+        "study_a": "RD-10B.J2",
+        "study_b": "RD-10B.0"
+      },
+      {
+        "study_a": "RD-10B.J2",
+        "study_b": "RD-10B.M6b"
+      },
+      {
+        "study_a": "RD-10B.J2",
+        "study_b": "RD-019"
+      },
+      {
+        "study_a": "RD-10B.J2",
+        "study_b": "IF-ST"
+      },
+      {
+        "study_a": "RD-10B.J2",
+        "study_b": "RD-10B.J6"
+      },
+      {
+        "study_a": "RD-10B.J2",
+        "study_b": "RD-06"
+      },
+      {
+        "study_a": "RD-10B.J2",
+        "study_b": "RD-10B.R3b"
+      },
+      {
+        "study_a": "RD-10B.J2",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "RD-10B.J2",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "IF-3",
+        "study_b": "RD-10B.J4"
+      },
+      {
+        "study_a": "IF-3",
+        "study_b": "T043"
+      },
+      {
+        "study_a": "IF-3",
+        "study_b": "RD-019"
+      },
+      {
+        "study_a": "IF-3",
+        "study_b": "RD-06"
+      },
+      {
+        "study_a": "IF-3",
+        "study_b": "RD-10B.3"
+      },
+      {
+        "study_a": "IF-3",
+        "study_b": "RD-10B.R0R"
+      },
+      {
+        "study_a": "IF-3",
+        "study_b": "RD-10B.R3b"
+      },
+      {
+        "study_a": "IF-3",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "RD-10B.J4",
+        "study_b": "T043"
+      },
+      {
+        "study_a": "RD-10B.J4",
+        "study_b": "RD-10B.M6b"
+      },
+      {
+        "study_a": "RD-10B.J4",
+        "study_b": "RD-019"
+      },
+      {
+        "study_a": "RD-10B.J4",
+        "study_b": "IF-ST"
+      },
+      {
+        "study_a": "RD-10B.J4",
+        "study_b": "RD-06"
+      },
+      {
+        "study_a": "RD-10B.J4",
+        "study_b": "RD-10B.3"
+      },
+      {
+        "study_a": "RD-10B.J4",
+        "study_b": "RD-10B.R0R"
+      },
+      {
+        "study_a": "RD-10B.0",
+        "study_b": "T043"
+      },
+      {
+        "study_a": "RD-10B.0",
+        "study_b": "RD-10B.M6b"
+      },
+      {
+        "study_a": "RD-10B.0",
+        "study_b": "RD-019"
+      },
+      {
+        "study_a": "RD-10B.0",
+        "study_b": "IF-ST"
+      },
+      {
+        "study_a": "RD-10B.0",
+        "study_b": "RD-06"
+      },
+      {
+        "study_a": "RD-10B.0",
+        "study_b": "RD-10B.3"
+      },
+      {
+        "study_a": "RD-10B.0",
+        "study_b": "RD-10B.R0R"
+      },
+      {
+        "study_a": "RD-10B.0",
+        "study_b": "RD-10B.R3b"
+      },
+      {
+        "study_a": "RD-10B.0",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "T043",
+        "study_b": "RD-10B.M6b"
+      },
+      {
+        "study_a": "T043",
+        "study_b": "RD-019"
+      },
+      {
+        "study_a": "T043",
+        "study_b": "IF-ST"
+      },
+      {
+        "study_a": "T043",
+        "study_b": "RD-10B.J6"
+      },
+      {
+        "study_a": "T043",
+        "study_b": "RD-10B.R0R"
+      },
+      {
+        "study_a": "T043",
+        "study_b": "RD-10B.R3b"
+      },
+      {
+        "study_a": "T043",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "T043",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "RD-10B.R1",
+        "study_b": "RD-019"
+      },
+      {
+        "study_a": "RD-10B.R1",
+        "study_b": "IF-ST"
+      },
+      {
+        "study_a": "RD-10B.R1",
+        "study_b": "RD-10B.J6"
+      },
+      {
+        "study_a": "RD-10B.R1",
+        "study_b": "RD-06"
+      },
+      {
+        "study_a": "RD-10B.R1",
+        "study_b": "RD-10B.R0R"
+      },
+      {
+        "study_a": "RD-10B.R1",
+        "study_b": "RD-10B.R3b"
+      },
+      {
+        "study_a": "RD-10B.R1",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "RD-10B.M6b",
+        "study_b": "RD-019"
+      },
+      {
+        "study_a": "RD-10B.M6b",
+        "study_b": "IF-ST"
+      },
+      {
+        "study_a": "RD-10B.M6b",
+        "study_b": "RD-10B.J6"
+      },
+      {
+        "study_a": "RD-10B.M6b",
+        "study_b": "RD-06"
+      },
+      {
+        "study_a": "RD-10B.M6b",
+        "study_b": "RD-10B.3"
+      },
+      {
+        "study_a": "RD-10B.M6b",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "RD-10B.M6b",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "RD-019",
+        "study_b": "RD-10B.J6"
+      },
+      {
+        "study_a": "RD-019",
+        "study_b": "RD-10B.R0R"
+      },
+      {
+        "study_a": "RD-019",
+        "study_b": "RD-10B.R3b"
+      },
+      {
+        "study_a": "RD-019",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "IF-ST",
+        "study_b": "RD-10B.R0R"
+      },
+      {
+        "study_a": "IF-ST",
+        "study_b": "RD-10B.R3b"
+      },
+      {
+        "study_a": "IF-ST",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "IF-ST",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "RD-10B.J6",
+        "study_b": "RD-06"
+      },
+      {
+        "study_a": "RD-10B.J6",
+        "study_b": "RD-10B.3"
+      },
+      {
+        "study_a": "RD-10B.J6",
+        "study_b": "RD-10B.R0R"
+      },
+      {
+        "study_a": "RD-10B.J6",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "RD-06",
+        "study_b": "RD-10B.3"
+      },
+      {
+        "study_a": "RD-06",
+        "study_b": "RD-10B.R0R"
+      },
+      {
+        "study_a": "RD-06",
+        "study_b": "RD-10B.R3b"
+      },
+      {
+        "study_a": "RD-06",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "RD-10B.3",
+        "study_b": "RD-10B.R0R"
+      },
+      {
+        "study_a": "RD-10B.3",
+        "study_b": "RD-10B.R3b"
+      },
+      {
+        "study_a": "RD-10B.3",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "RD-10B.3",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "RD-10B.R0R",
+        "study_b": "RD-05"
+      },
+      {
+        "study_a": "RD-10B.R0R",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "RD-10B.R3b",
+        "study_b": "T042"
+      },
+      {
+        "study_a": "RD-05",
+        "study_b": "T042"
+      }
+    ]
+  },
+  "stable_cores": [
+    {
+      "core_id": 1,
+      "size": 2,
+      "studies": [
+        "RD-5",
+        "RD-05"
+      ],
+      "study_indices": [
+        "4",
+        "19"
+      ]
+    },
+    {
+      "core_id": 2,
+      "size": 2,
+      "studies": [
+        "RD-10B.0",
+        "T042"
+      ],
+      "study_indices": [
+        "8",
+        "20"
+      ]
+    }
+  ]
+}

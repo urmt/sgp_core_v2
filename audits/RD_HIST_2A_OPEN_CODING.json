@@ -1,0 +1,162 @@
+[
+  {
+    "study_number": 1,
+    "original_id": "RD-10B.R0R",
+    "coded": true,
+    "Q1": "The classification of studies into a 5-level hierarchy based on what remained stable at each level.",
+    "Q2": "Yes - the result could be described as 'studies fall into two groups: those where something remained stable across levels, and those where nothing did.'",
+    "Q3": "A classification scheme was applied to prior studies, separating them into two groups based on what remained stable."
+  },
+  {
+    "study_number": 2,
+    "original_id": "RD-10B.J2",
+    "coded": true,
+    "Q1": "The generation of multiple sequences and checking whether the same four features appear in all.",
+    "Q2": "Yes - the result could be described as 'the same four features appear regardless of the order in which they are derived.'",
+    "Q3": "Multiple sequences were generated and the same four features appeared in all of them."
+  },
+  {
+    "study_number": 3,
+    "original_id": "RD-10B.M5",
+    "coded": true,
+    "Q1": "The classification of audits by whether collapse occurred, whether tension was maintained, and explanatory gain.",
+    "Q2": "Yes - the result could be described as 'maintaining multiple descriptions simultaneously correlates with higher explanatory gain.'",
+    "Q3": "Audits were classified by whether descriptions collapsed or were maintained, and gain was compared."
+  },
+  {
+    "study_number": 4,
+    "original_id": "RD-10B.M6b",
+    "coded": true,
+    "Q1": "The classification of comparisons as viewpoint or claim type and measurement of collapse rates.",
+    "Q2": "Yes - the result could be described as 'comparisons where different perspectives on the same thing were compared did not collapse, while comparisons of competing answers did.'",
+    "Q3": "Comparisons were classified by type and collapse rates were measured."
+  },
+  {
+    "study_number": 5,
+    "original_id": "RD-10B.0",
+    "coded": true,
+    "Q1": "The generation of one world, representation in multiple ways, and application of the same detectors.",
+    "Q2": "Yes - the result could be described as 'some features appear regardless of how we represent the world, while others depend on the representation.'",
+    "Q3": "One world was represented in multiple ways and the same detectors were applied to each."
+  },
+  {
+    "study_number": 6,
+    "original_id": "RD-10B.J4",
+    "coded": true,
+    "Q1": "The removal of each junction and checking whether the others remain meaningful.",
+    "Q2": "Yes - the result could be described as 'the four features form a chain where each depends on the previous one.'",
+    "Q3": "Each junction was removed and the effect on the others was measured."
+  },
+  {
+    "study_number": 7,
+    "original_id": "RD-5",
+    "coded": true,
+    "Q1": "The systematic variation of removal fraction and measurement of recovery metrics.",
+    "Q2": "Yes - the result could be described as 'recovery metrics scale systematically with the magnitude of removal.'",
+    "Q3": "Removal fraction was varied and recovery metrics were measured."
+  },
+  {
+    "study_number": 8,
+    "original_id": "RD-019",
+    "coded": true,
+    "Q1": "The variation of box width and measurement of packing structure and outcome variable.",
+    "Q2": "Yes - the result could be described as 'changing the container size changed the packing structure but did not predict the outcome.'",
+    "Q3": "Box width was varied and the effect on packing structure and outcome was measured."
+  },
+  {
+    "study_number": 9,
+    "original_id": "RD-10B.J6",
+    "coded": true,
+    "Q1": "The expression of each junction as an operator and checking whether they can be composed from each other.",
+    "Q2": "Yes - the result could be described as 'all four features can be generated from a single feature plus composition rules.'",
+    "Q3": "Each junction was expressed as an operator and composition was tested."
+  },
+  {
+    "study_number": 10,
+    "original_id": "RD-10B.R1",
+    "coded": true,
+    "Q1": "The re-reading of the study sequence using an interaction lens and recording whether gain appeared before or after interaction.",
+    "Q2": "Yes - the result could be described as 'explanatory gain appeared after interactions were available, not before.'",
+    "Q3": "The study sequence was re-read and the timing of gain relative to interaction was recorded."
+  },
+  {
+    "study_number": 11,
+    "original_id": "T038_distinction_genesis",
+    "coded": false,
+    "Q1": "The generation of universes with only a continuous transformation operator and measurement of clustering.",
+    "Q2": "Yes - the result could be described as 'separable clusters emerged from continuous dynamics when nonlinearity and rotation were present.'",
+    "Q3": "Universes were generated with continuous dynamics and the emergence of separable clusters was measured."
+  },
+  {
+    "study_number": 12,
+    "original_id": "T043_order_discovery",
+    "coded": false,
+    "Q1": "The generation of universes, application of detectors, and computation of temporal ordering.",
+    "Q2": "Yes - the result could be described as 'detectors form a layered temporal order with some appearing reliably before others.'",
+    "Q3": "Universes were generated and detectors were applied to determine which appeared first."
+  },
+  {
+    "study_number": 13,
+    "original_id": "RD-05_perturbation_sweep",
+    "coded": false,
+    "Q1": "The sweeping of removal fractions and measurement of recovery metrics.",
+    "Q2": "Yes - the result could be described as 'recovery metrics scale with removal fraction.'",
+    "Q3": "Removal fraction was varied and recovery metrics were measured."
+  },
+  {
+    "study_number": 14,
+    "original_id": "T042_proximity_genesis",
+    "coded": false,
+    "Q1": "The analysis of universes with proximity detectors and testing of the chain bundling -> persistence -> categories.",
+    "Q2": "Yes - the result could be described as 'bundling appears, persistence appears less often, but categories never appear.'",
+    "Q3": "Universes were analyzed for proximity structure and the chain was tested."
+  },
+  {
+    "study_number": 15,
+    "original_id": "RD-06_ensemble_resilience",
+    "coded": false,
+    "Q1": "The measurement of pre-perturbation level and testing whether it predicts recovery.",
+    "Q2": "Yes - the result could be described as 'higher pre-perturbation values predict recovery after disruption.'",
+    "Q3": "Pre-perturbation level was measured and its predictive power for recovery was tested."
+  },
+  {
+    "study_number": 16,
+    "original_id": "RD-10B.3_emergence_first",
+    "coded": false,
+    "Q1": "The generation of worlds with no predefined pattern vocabulary and post-hoc detection of patterns.",
+    "Q2": "Yes - the result could be described as 'transitions occur in most worlds and certain patterns appear frequently.'",
+    "Q3": "Worlds were generated without pattern vocabulary and patterns were detected after evolution."
+  },
+  {
+    "study_number": 17,
+    "original_id": "experiment_if3",
+    "coded": false,
+    "Q1": "The building of a co-occurrence matrix, subtraction of baseline, and spectral clustering.",
+    "Q2": "Yes - the result could be described as 'community structure can be recovered from interaction events by filtering noise and clustering.'",
+    "Q3": "A co-occurrence matrix was built, noise was filtered, and clustering was applied."
+  },
+  {
+    "study_number": 18,
+    "original_id": "if_stress_test",
+    "coded": false,
+    "Q1": "The testing of reconstruction under four degradation conditions.",
+    "Q2": "Yes - the result could be described as 'reconstruction works under moderate degradation but breaks down at high levels.'",
+    "Q3": "Reconstruction was tested under four degradation conditions and breakpoints were identified."
+  },
+  {
+    "study_number": 19,
+    "original_id": "T040_pre_distinction_failure",
+    "coded": false,
+    "Q1": "The testing of 10 candidate concepts for whether they require separation.",
+    "Q2": "Yes - the result could be described as 'all candidates required separation when stated or tested.'",
+    "Q3": "Ten candidates were tested and all required separation."
+  },
+  {
+    "study_number": 20,
+    "original_id": "RD-10B.R3b_component_analysis",
+    "coded": false,
+    "Q1": "The decomposition of audits into falsifications vs. genuine successes.",
+    "Q2": "Yes - the result could be described as 'the simpler combination produced gain through productive failure, while the full combination required all components for new structure.'",
+    "Q3": "Audits were decomposed by type and the contribution of each component was analyzed."
+  }
+]

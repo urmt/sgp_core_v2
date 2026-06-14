@@ -1,0 +1,26 @@
+assumption_id,domain,statement,M01,M02,M03,M04,M05,M06,M07,M08,n_classes
+CD1,causal,"Causal, dependency, or explanatory relationships exist between elements of the phenomenon.",REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,8
+CD2,causal,The investigation's procedures produce effects on the investigation itself or its object.,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,8
+CD3,causal,Some explanations are better than others — there is a basis for preferring one account.,neutral,neutral,REQUIRES,neutral,neutral,neutral,neutral,REQUIRES,2
+CT1,closure,The investigation can in principle reach a stopping point or recognize when further investigation is unproductive.,REQUIRES,REQUIRES,REJECTS,neutral,REQUIRES,REJECTS,REQUIRES,REJECTS,4
+CT2,closure,External reference is in principle possible — something exists outside the investigation's current frame.,REQUIRES,neutral,REJECTS,REJECTS,REQUIRES,REQUIRES,REJECTS,REJECTS,3
+EC1,epistemic,The investigation can have knowledge about its own state and outputs.,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,8
+EC2,epistemic,The investigation can know when it has reached a limit of its current method or framework.,REQUIRES,neutral,neutral,neutral,REQUIRES,neutral,REQUIRES,neutral,3
+EC3,epistemic,The investigation can distinguish between different causal explanations that fit the same observations.,neutral,REQUIRES,REQUIRES,REQUIRES,neutral,neutral,REQUIRES,REQUIRES,5
+EC4,epistemic,The investigation can communicate its results and compare them across different formulations.,neutral,neutral,REQUIRES,REQUIRES,neutral,neutral,neutral,neutral,2
+IC1,informational,There is information about the phenomenon that the investigation can extract and process.,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,8
+IC2,informational,The available information about the phenomenon is finite.,REQUIRES,REQUIRES,neutral,neutral,REQUIRES,neutral,neutral,neutral,3
+IC3,informational,"Processing information can change it — information can be lost, transformed, or degraded.",neutral,neutral,neutral,REQUIRES,REQUIRES,REQUIRES,neutral,neutral,3
+IS1,investigation_structure,"The investigation is a process with identifiable stages, phases, or states.",REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,8
+IS2,investigation_structure,The investigation produces determinate results — outputs that can be compared across phases.,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,8
+IS3,investigation_structure,"The investigation's trajectory can be represented abstractly (state space, sequence, graph).",neutral,REQUIRES,neutral,neutral,neutral,REQUIRES,neutral,neutral,2
+MC1,methodological,Multiple legitimate methods or approaches exist for investigating the phenomenon.,neutral,REJECTS,REQUIRES,neutral,neutral,neutral,REQUIRES,neutral,2
+MC2,methodological,The choice of method constrains or shapes what can be discovered.,neutral,REJECTS,REQUIRES,neutral,neutral,neutral,neutral,neutral,1
+MC3,methodological,"Methodological choices can be changed, and their effects observed.",neutral,REJECTS,REQUIRES,REQUIRES,neutral,neutral,neutral,neutral,2
+OC1,ontological,The phenomenon under study has some stable structure — it is not pure randomness or noise.,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,8
+OC2,ontological,The phenomenon and the investigation of it are distinguishable (even if inseparable in practice).,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,8
+OC3,ontological,There exists an inside/outside boundary relative to the investigative system.,REQUIRES,neutral,neutral,REJECTS,neutral,REQUIRES,neutral,REJECTS,2
+OC4,ontological,The target has properties that are not entirely constituted by the investigation of it.,REQUIRES,REQUIRES,REJECTS,REJECTS,REQUIRES,neutral,REJECTS,REJECTS,3
+SR1,self_reference,The investigation can examine its own outputs as objects of analysis.,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,8
+SR2,self_reference,The investigation can reflect on its own procedures and methods.,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,neutral,7
+SR3,self_reference,The investigation can detect recurrence — whether it has been in its current state before.,REQUIRES,neutral,neutral,REQUIRES,REQUIRES,REQUIRES,REQUIRES,REQUIRES,6

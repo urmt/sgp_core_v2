@@ -1,0 +1,11 @@
+id,statement
+N01,Geometry emergence was not demonstrated without detector contamination.
+N02,Distinction emergence was not demonstrated without hidden assumptions.
+N03,Recurrence was not demonstrated to be non-artifactual.
+N04,Convergence was not demonstrated without detector contamination.
+N05,No primitive was found that survives full assumption audit.
+N06,The dependency graph among primitives contains circular chains.
+N07,"All 45 detectors import comparison, arithmetic, and distinction."
+N08,The gap between model requirements and observation requirements cannot be closed.
+N09,No statement from T037-T050 about 'what exists' survived audit.
+N10,The only surviving statements are methodological records.

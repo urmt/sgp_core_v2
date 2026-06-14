@@ -1,0 +1,11 @@
+step,operator,cumulative_var_explained
+1,op_competitive_exclusion,0.554897634061987
+2,op_hierarchical_nesting,0.6352365304140071
+3,op_recursive_feedback,0.6863110213634955
+4,dominant_operator,0.7309822611544758
+5,op_synchronization,0.7639752902326156
+6,op_branching,0.8086922934977796
+7,op_resonance_locking,0.8560442577646132
+8,op_9,0.9171137817847367
+9,op_constraint_propagation,0.9483631443084644
+10,op_diffusion,1.0

@@ -1,0 +1,44 @@
+{
+  "phase": "S7",
+  "n_trials": 100,
+  "null_results": [
+    {
+      "null_type": "shuffle_labels",
+      "real_closure_rate": 0.0,
+      "null_mean_closure_rate": 0.0,
+      "null_std": 0.0,
+      "collapse": 0.0,
+      "collapse_pct": 0.0
+    },
+    {
+      "null_type": "shuffle_pairs",
+      "real_closure_rate": 0.0,
+      "null_mean_closure_rate": 0.0,
+      "null_std": 0.0,
+      "collapse": 0.0,
+      "collapse_pct": 0.0
+    },
+    {
+      "null_type": "temporal_scramble",
+      "real_closure_rate": 0.0,
+      "null_mean_closure_rate": 0.0,
+      "null_std": 0.0,
+      "collapse": 0.0,
+      "collapse_pct": 0.0
+    },
+    {
+      "null_type": "full_random",
+      "real_closure_rate": 0.0,
+      "null_mean_closure_rate": 0.0,
+      "null_std": 0.0,
+      "collapse": 0.0,
+      "collapse_pct": 0.0
+    }
+  ],
+  "operator_ordering_collapse": {
+    "real": 0.0,
+    "null": 0.0,
+    "drop": 0.0,
+    "significant": false
+  }
+}

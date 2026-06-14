@@ -1,0 +1,45 @@
+{
+  "test_A": {
+    "survived": false,
+    "effect": -0.0055,
+    "p": 0.0
+  },
+  "test_B": {
+    "survived": true,
+    "effect": 0.773,
+    "p": 0.0
+  },
+  "test_D": {
+    "survived": true,
+    "effect": 0.904,
+    "p": 0.0
+  },
+  "test_E": {
+    "survived": true,
+    "real": 0.9945,
+    "nulls": {
+      "random_walk": 0.072,
+      "brownian": 0.072,
+      "ornstein_uhlenbeck": 0.087
+    }
+  },
+  "test_F": {
+    "survived": true,
+    "agreement": 0.9945
+  },
+  "test_G": {
+    "survived": true,
+    "metric": 0.9945,
+    "ordinal": 0.3005
+  },
+  "scale_dependence": {
+    "1": 1.0,
+    "2": 0.998,
+    "4": 1.0,
+    "8": 0.942,
+    "16": 0.732,
+    "32": 0.638
+  },
+  "tests_survived": 5,
+  "first_without_convergence": "persistence"
+}

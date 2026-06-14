@@ -1,0 +1,16 @@
+rank,concept,max_depth
+1,distance,10
+2,logarithm,9
+3,entropy,9
+4,arithmetic,8
+5,linearity,7
+6,equality,6
+7,comparison,5
+8,inequality,5
+9,set,3
+10,ordering,3
+11,grouping,3
+12,membership,2
+13,probability,2
+14,sorting,0
+15,repetition,0

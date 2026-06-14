@@ -1,0 +1,50 @@
+{
+  "pc1_empirical_pct": 75.14177635465526,
+  "pc2_empirical_pct": 17.479898245811697,
+  "pc1_generated_pct": 41.718011994632406,
+  "pc2_generated_pct": 39.92275885817551,
+  "pc1_loading_corr_aligned": 0.710997729929226,
+  "pc2_loading_corr_aligned": 0.5326232760608105,
+  "dim_empirical": {
+    "kaiser": 0,
+    "elbow": 2,
+    "cum90": 2,
+    "cum95": 3,
+    "explained": [
+      75.14,
+      17.48,
+      3.11,
+      1.65,
+      1.23,
+      0.77,
+      0.35,
+      0.19,
+      0.04,
+      0.04
+    ]
+  },
+  "dim_generated": {
+    "kaiser": 0,
+    "elbow": 2,
+    "cum90": 4,
+    "cum95": 4,
+    "explained": [
+      41.72,
+      39.92,
+      8.3,
+      5.86,
+      1.81,
+      0.98,
+      0.81,
+      0.27,
+      0.22,
+      0.11
+    ]
+  },
+  "occupancy_pc1_variance_ratio": 0.1088028032842576,
+  "occupancy_pc2_variance_ratio": 0.2460276429279759,
+  "generated_in_emp_range_pct": 100.0,
+  "best_mixture_pc1": 67.84343691708598,
+  "target_pc1": 75.1,
+  "between_within_ratio": 2.9694070371317194
+}

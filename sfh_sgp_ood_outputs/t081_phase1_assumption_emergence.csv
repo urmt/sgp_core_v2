@@ -1,0 +1,10 @@
+assumption,name,all_mcs_mean,none_mcs_mean,delta,emergent
+OC2,Distinguishability,0.92,0.799,0.121,False
+OC1,Stable structure,0.528,0.927,-0.399,False
+CD1,Causal relations,0.445,0.694,-0.249,False
+IC1,Extractable info,0.74,0.52,0.219,True
+IS1,Phase structure,0.91,0.138,0.772,True
+IS2,Determinate outputs,0.505,0.955,-0.45,False
+CD2,Self-affecting procedures,0.483,0.398,0.085,False
+EC1,Self-knowledge,0.392,0.436,-0.044,False
+SR1,Self-examination of outputs,0.38,0.216,0.163,False

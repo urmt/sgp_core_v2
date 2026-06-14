@@ -1,0 +1,4 @@
+boundary,min_latent_distance,overlap_possible
+collapse_to_fortress,0.54,YES
+collapse_to_fertile,1.227,NO
+fortress_to_fertile,0.299,YES

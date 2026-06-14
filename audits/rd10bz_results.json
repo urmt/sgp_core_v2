@@ -1,0 +1,22 @@
+{
+  "bu_transformations": [
+    "stable_eigenstate",
+    "stable_configuration",
+    "copy_with_error_correction",
+    "state_restoration_under_perturbation",
+    "stable_representation_of_experience",
+    "stable_self_model",
+    "truth_invariance_under_inference"
+  ],
+  "td_transformations": [
+    "truth_invariance_under_inference",
+    "identity_invariance_under_distinction",
+    "truth_invariance_under_rule_application",
+    "invariance_of_relevant_features",
+    "invariance_of_input_output_map",
+    "invariance_of_desired_behavior",
+    "conservation_under_dynamics"
+  ],
+  "verdict": "genuine_junction",
+  "underlying_transformation": "invariance_under_operation"
+}

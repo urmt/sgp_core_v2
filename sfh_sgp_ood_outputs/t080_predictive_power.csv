@@ -1,0 +1,6 @@
+constraint_id,constraint_name,assumptions_supported,assumptions_contradicted,mechanisms_supported,mechanisms_contradicted,total_supported,total_contradicted,net,coverage
+MC3,Constraint Balance,5,0,8,0,13,0,13,0.765
+MC1,Information Preservation,4,0,2,0,6,0,6,0.353
+MC4,Recursive Accessibility,3,0,3,0,6,0,6,0.353
+MC2,Productive Transformation,5,0,3,3,8,3,5,0.471
+MC5,Recoverable Perturbation,1,0,0,2,1,2,-1,0.059

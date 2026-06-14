@@ -1,0 +1,2 @@
+phase,intrinsic_dim_95pct,mle_intrinsic_dim,pca_pc1_ratio,pca_pc2_ratio,pca_pc3_ratio,mean_curvature,max_curvature,mean_geodesic_distortion,median_geodesic_distortion,mean_local_linearity,min_local_linearity,manifold_thickness,mean_tangent_variance,bootstrap_dim_mode,bootstrap_dim_fraction,verdict
+545,2,3.4845,0.81104339,0.18895661,0.0,0.1570778143,0.4791024295,0.0341876946,0.0043837744,1.0,1.0,0.0,0.84292219,2,0.996,LINEAR-MANIFOLD-LAW

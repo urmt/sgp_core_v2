@@ -1,0 +1,2 @@
+phase,train_R2,LOOCV_R2,LOOCV_r,LOOCV_p,LOOCV_RMSE,LOOCV_MAE,LOOCV_residual_var,L3O_median_R2,L3O_MAD_R2,L3O_median_RMSE,L3O_median_MAE,mean_asn_stability,bootstrap_mean_ARI,bootstrap_std_ARI,median_centroid_drift,p95_centroid_drift,mean_PI_width,R2_drop,verdict
+541,0.9734,0.6196,0.8002,6.55e-08,0.2588,0.1373,0.066587,0.529,0.3707,0.1231,0.0926,0.3619,0.1155,0.0733,0.8402,1.3691,0.3076,0.3537,PARTIAL-GENERALIZATION

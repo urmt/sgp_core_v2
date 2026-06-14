@@ -1,0 +1,27 @@
+{
+  "n_runs": 200,
+  "n_survived": 170,
+  "n_collapsed": 30,
+  "collapse_rate": 0.15,
+  "C_pre_mean_all": 0.4859,
+  "C_pre_std_all": 0.0236,
+  "C_pre_mean_survived": 0.4854,
+  "C_pre_mean_collapsed": 0.4882,
+  "welch_t": -0.631,
+  "welch_p": 0.5317,
+  "cohens_d": -0.123,
+  "logistic_slope_w": 3.009,
+  "logistic_se": 7.479,
+  "logistic_z": 0.402,
+  "logistic_p": 0.6875,
+  "auc": 0.473,
+  "auc_ci_95": [
+    0.365,
+    0.577
+  ],
+  "cohens_d_bootstrap": -0.124,
+  "cohens_d_ci_95": [
+    -0.502,
+    0.253
+  ]
+}

@@ -1,0 +1,2 @@
+phase,flexibility_stability_corr,flexibility_stability_p,consensus_stability_corr,consensus_stability_p,rank_corr,low_group_mean,mid_group_mean,high_group_mean,verdict
+529,0.24652161345054455,0.18125169556596074,0.43661314226499415,0.014060355395418753,0.5794453740052758,0.7486784,,0.9702323636363634,NONFLEXIBLE-TAXONOMY

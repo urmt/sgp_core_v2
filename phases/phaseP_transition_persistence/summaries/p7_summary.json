@@ -1,0 +1,18 @@
+{
+  "phase": "P7",
+  "n_clusters": 5,
+  "cluster_labels": {
+    "0": "reorganizing",
+    "1": "collapsing",
+    "2": "reorganizing",
+    "3": "reorganizing",
+    "4": "fragmenting"
+  },
+  "cluster_sizes": {
+    "0": 19.2,
+    "1": 21.2,
+    "2": 19.2,
+    "3": 21.0,
+    "4": 19.4
+  }
+}

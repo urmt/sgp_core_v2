@@ -1,0 +1,4 @@
+link,correlation,significant
+bundle → persistence,0.12677503263493523,True
+persistence → constraint,0.1095605790358581,True
+constraint → separation,-0.08725566824106679,False

@@ -1,0 +1,29 @@
+domain,config,viable,C,P,G,R,S,note
+A — Physical universes,"Our universe (low-entropy, fine-tuned)",True,0.85,0.85,0.9,0.6,0.8,"Produces galaxies, life, consciousness. Some recoverability via natural processes but not guaranteed."
+A — Physical universes,"Empty universe (Ω<<1, no structure)",False,0.8,0.95,0.05,0.1,0.0,Fails via F1 trivialization + F5 information loss. High persistence but zero generativity.
+A — Physical universes,Collapsing universe (Ω>>1),False,0.75,0.15,0.3,0.0,0.1,Fails via F5 persistence loss. Recollapses before structure matures.
+A — Physical universes,Chaotic inflation multiverse,False,0.45,0.6,0.7,0.2,0.25,"Fails via F3 fragmentation — measure problem, disconnected sectors."
+A — Physical universes,Cyclic universe (bounce),True,0.75,0.85,0.8,0.7,0.65,Alternative viable regime — information may survive bounces.
+A — Physical universes,Thermal equilibrium universe,False,0.5,0.9,0.05,0.05,0.0,"Fails via F1 trivialization + F5 information loss. Maximum entropy, no gradients."
+B — Mathematical systems,ZFC set theory,True,0.8,0.9,0.9,0.7,0.7,Cannot prove own consistency but highly generative. Self-reference via set membership.
+B — Mathematical systems,Peano arithmetic (PA),True,0.85,0.9,0.8,0.75,0.5,Consistent via Gentzen (meta-level). Limited self-reference.
+B — Mathematical systems,First-order logic (FOL),True,1.0,0.95,0.4,0.9,0.1,Perfectly coherent but low generativity. No self-modeling (Tarski).
+B — Mathematical systems,Category theory (ETCS),True,0.8,0.85,0.85,0.7,0.8,High recursive closure via n-categories. Rich structural generativity.
+B — Mathematical systems,Computation (Turing/λ-calculus),True,0.85,0.9,0.8,0.65,0.85,UTM self-simulation. Halting problem bounds self-knowledge.
+B — Mathematical systems,Inconsistent system (naive comprehension),False,0.05,0.1,0.95,0.0,0.1,Fails via F2 incoherence. Explosion proves everything = trivial.
+B — Mathematical systems,Frege's Grundgesetze (Russell paradox),False,0.1,0.15,0.6,0.05,0.15,Fails via F2 incoherence. Self-reference not contained.
+C — Recursive substrate,Full 9-assumption substrate (T066 corrected),True,0.95,0.85,0.85,0.8,0.9,"Clean DAG, OC2 unique root, SR1+EC1 provide self-modeling."
+C — Recursive substrate,OC2 knockout,False,0.0,0.0,0.0,0.0,0.0,"Fails via F1+F2+F5. Complete collapse — no root, no system."
+C — Recursive substrate,OC1 knockout (no stable structure),False,0.3,0.2,0.4,0.15,0.3,Fails via F3 fragmentation + F5 persistence loss.
+C — Recursive substrate,IS1a knockout (no change),False,0.5,0.4,0.3,0.3,0.25,Fails via F1 trivialization + F5 generativity loss.
+C — Recursive substrate,IS2 knockout (no outputs),False,0.4,0.35,0.25,0.25,0.2,Fails via F1+F5. No content to examine or generate from.
+C — Recursive substrate,Trivial substrate (OC2 only),False,0.6,0.3,0.05,0.1,0.0,Fails via F1 trivialization. Distinguishability with nothing to distinguish.
+C — Recursive substrate,Original substrate (with IS1↔IS2 cycle),False,0.2,0.3,0.4,0.1,0.35,Fails via F2 incoherence. Bootstrap deadlock prevents resolution.
+D — Dynamical manifolds,Lorenz strange attractor,True,0.8,0.8,0.6,0.6,0.3,Stable attractor. Deterministic chaos. Bounded complexity.
+D — Dynamical manifolds,Reaction-diffusion (Turing patterns),True,0.85,0.85,0.8,0.75,0.35,Stable pattern formation. Robust to noise. High generativity.
+D — Dynamical manifolds,"Logistic map (r=3.8, chaotic)",True,0.75,0.65,0.65,0.3,0.15,Chaotic dynamics. Sensitive to initial conditions. Low recoverability.
+D — Dynamical manifolds,Fixed-point collapse (overdamped),False,0.7,0.8,0.05,0.4,0.0,Fails via F1 trivialization. All trajectories converge to single point.
+D — Dynamical manifolds,Unbounded chaotic divergence,False,0.3,0.1,0.2,0.0,0.0,Fails via F4 runaway + F5 persistence loss. Trajectories escape to infinity.
+D — Dynamical manifolds,Stochastic resonance drowning (high noise),False,0.2,0.5,0.3,0.2,0.05,Fails via F3 fragmentation + F5 differentiation loss.
+D — Dynamical manifolds,Hysteresis loop (irreversible),False,0.6,0.7,0.4,0.1,0.2,Fails via F5 recoverability loss. No return path after bifurcation.
+D — Dynamical manifolds,Coupled oscillator sync (Kuramoto),True,0.85,0.85,0.65,0.7,0.4,Synchronization emerges from coupling. Moderate complexity.

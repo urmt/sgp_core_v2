@@ -1,0 +1,15 @@
+system,flow,stability_norm,singular_value_1,singular_value_2,is_bridge
+primes,1.496,14.0308,10.0357,8.678,False
+fibonacci,1.808,13.8792,9.6619,8.8126,False
+modular_arithmetic,3.504,14.1045,9.5706,9.2527,False
+additive_recurrence,2.108,13.9462,9.7591,8.791,False
+lorenz,8.969,15.2602,9.5365,9.1135,True
+logistic_map,0.0,14.0803,9.7968,8.7525,False
+henon_map,2.745,13.9562,9.812,8.7176,False
+ising_magnetization,7.932,14.9169,9.7468,8.7235,True
+reaction_diffusion,8.302,14.3855,9.9926,9.2291,True
+cfg_expansion,1.038,14.0446,10.0371,8.6818,False
+lambda_reduction,1.247,14.0695,10.0399,8.6755,False
+rewrite_system,1.903,13.8779,9.6557,8.8176,False
+iid_gaussian,1.039,14.4589,9.6985,8.9765,False
+colored_noise,1.0,13.9909,9.7203,8.9042,False

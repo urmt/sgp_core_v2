@@ -1,0 +1,19 @@
+{
+  "primitives_tested": 5,
+  "survival_order": [
+    "P001_comparison",
+    "P002_ordering",
+    "P003_identity",
+    "P004_difference",
+    "P005_distinction"
+  ],
+  "first_removal_that_fails_observation": "P001_comparison",
+  "observation_possible_without": {
+    "P001_comparison": false,
+    "P002_ordering": false,
+    "P003_identity": false,
+    "P004_difference": false,
+    "P005_distinction": false
+  },
+  "conclusion": "Observation fails when P001_comparison is removed. This is not a claim that P001_comparison is fundamental. It is a claim that observation requires P001_comparison."
+}

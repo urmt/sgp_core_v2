@@ -1,0 +1,9 @@
+section,detail
+NONTRIVIAL_SCCs,0 found
+
+SIMPLE_CYCLES,0 found
+
+STRUCTURAL_SUMMARY,
+total_assumptions,9
+roots,OC2
+correction,Removed IS1 → IS2 (E01)

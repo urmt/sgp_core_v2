@@ -1,0 +1,6 @@
+metric,threshold,n_fertile_pass,n_merely_viable_misclass,min_fertile,max_merely_viable
+SR,0.7,12,0,0.7,0.6
+NP,0.7,12,0,0.7,0.55
+RC,0.6,12,0,0.6,0.5
+RD,0.3,12,2,0.3,0.6
+OE,0.6,12,0,0.6,0.5

@@ -1,0 +1,13 @@
+assumption,description,circular_chain
+identity,"Objects have fixed, recoverable identity (hashable)",distinction -> identity
+comparison,States can be compared to each other,distinction -> relation -> identity -> comparison
+similarity,A notion of 'similar' vs 'different' exists,distinction -> relation -> identity -> similarity
+distance,A scalar distance between states is defined,distinction -> relation -> identity -> distance
+metric,Distance satisfies triangle inequality and positivity,distinction -> relation -> identity -> metric
+clustering,States can be grouped into clusters,distinction -> relation -> identity -> clustering
+classification,States can be assigned to discrete classes,distinction -> identity -> classification
+persistence_criteria,Thresholds for what counts as 'persistent',distinction -> observer -> persistence_criteria
+closure_criteria,Thresholds for what counts as 'returned',distinction -> relation -> observer -> closure_criteria
+selfref_criteria,Thresholds for what counts as 'self-referential',distinction -> relation -> observer -> selfref_criteria
+measurement,An act of extracting information from states,distinction -> observer -> measurement
+difference,Two things can be non-identical,distinction -> identity -> difference

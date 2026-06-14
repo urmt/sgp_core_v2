@@ -1,0 +1,55 @@
+{
+  "phase": "I3+I4 (revised)",
+  "operator_transition_geometry": {
+    "n_systems": 5000,
+    "method": "cross-domain k-nearest neighborhoods in combined organizational state space",
+    "cg_vs_noncg": {
+      "operator_continuity": {
+        "CG_mean": 0.9129,
+        "nonCG_mean": 0.9304,
+        "ratio": 0.981
+      },
+      "operator_rupture": {
+        "CG_mean": 0.0871,
+        "nonCG_mean": 0.0696,
+        "ratio": 1.253
+      },
+      "operator_curvature": {
+        "CG_mean": 0.0103,
+        "nonCG_mean": 0.0082,
+        "ratio": 1.255
+      },
+      "transition_smoothness": {
+        "CG_mean": 0.9993,
+        "nonCG_mean": 0.9995,
+        "ratio": 1.0
+      },
+      "recursive_closure": {
+        "CG_mean": 0.4933,
+        "nonCG_mean": 0.2253,
+        "ratio": 2.189
+      },
+      "operator_reversibility": {
+        "CG_mean": 0.4933,
+        "nonCG_mean": 0.2253,
+        "ratio": 2.189
+      },
+      "compositional_stability": {
+        "CG_mean": 0.1381,
+        "nonCG_mean": 0.0665,
+        "ratio": 2.075
+      },
+      "operator_neighborhood_entropy": {
+        "CG_mean": 0.1985,
+        "nonCG_mean": 0.1335,
+        "ratio": 1.487
+      }
+    }
+  },
+  "recursive_identity": {
+    "n_chains_tested": 1256,
+    "n_geometric_identity_preserved": 1256,
+    "n_cg_rate_preserved": 46,
+    "identity_cg_correlation": 0.014442046214499819
+  }
+}

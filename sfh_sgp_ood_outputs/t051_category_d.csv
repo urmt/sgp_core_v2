@@ -1,0 +1,10 @@
+phase,statement,confidence,evidence
+T037,Geometry emerges from interaction,low,Detector artifact identified in T044.
+T037,Distinction requires no prerequisites,low,Contradicted by T038/T039 circular dependency analysis.
+T038,Distinction can emerge from pure Ω,low,Detector smuggled distinction (T039 audit).
+T040,Nothing exists below distinction,low,Only 10 candidates tested. Universe of possible candidates is larger.
+T042,The first stable structure is trajectory bundles,low,Based on contaminated detectors (T047 audit).
+T043,Recurrence is the first emergent structure,low,KILLED in T044 (artifact of boundedness).
+T045,Convergence is genuine,low,"Detector assumes distance, arithmetic, comparison (T047 audit)."
+T046,Convergence is fundamental,low,Detector assumptions contaminate (T047 audit).
+T049,All five primitives are necessary for observation,low,"Only proven for models, not for observation itself (T050 correction)."

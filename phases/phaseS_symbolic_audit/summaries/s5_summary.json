@@ -1,0 +1,12 @@
+{
+  "phase": "S5",
+  "n_compositions": 157,
+  "closure_rate": 0.0,
+  "n_both_preserve": 0,
+  "associative_count": 46,
+  "n_triples": 1256,
+  "commutative_pairs": 33,
+  "identity_like_operators": [],
+  "annihilator_like_operators": [],
+  "idempotent_operators": []
+}

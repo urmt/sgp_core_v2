@@ -1,0 +1,208 @@
+{
+  "audits": [
+    {
+      "audit": "RD-5",
+      "initial_explanation": "C (coherence) predicts resilience",
+      "later_explanation": "C is a projection of MSE; 95% of variance is in PC1",
+      "migrated_to": "latent factor structure",
+      "migration": true
+    },
+    {
+      "audit": "RD-9E",
+      "initial_explanation": "SP (surprise persistence) measures architectural novelty",
+      "later_explanation": "SP is a binary artifact of discretization",
+      "migrated_to": "measurement methodology",
+      "migration": true
+    },
+    {
+      "audit": "RD-10A.1-6",
+      "initial_explanation": "Specific properties enable organization",
+      "later_explanation": "Constraints are more fundamental than specific properties",
+      "migrated_to": "constraint topology",
+      "migration": true
+    },
+    {
+      "audit": "RD-10A.8",
+      "initial_explanation": "Constraint set determines organization",
+      "later_explanation": "Constraint topology (relationships) matters more than constraint set",
+      "migrated_to": "topology",
+      "migration": true
+    },
+    {
+      "audit": "RD-10A.9",
+      "initial_explanation": "Topology is fundamental",
+      "later_explanation": "Protected distinctions are more fundamental than topology",
+      "migrated_to": "distinctions",
+      "migration": true
+    },
+    {
+      "audit": "RD-10A.10",
+      "initial_explanation": "Distinctions are fundamental",
+      "later_explanation": "Distinction preservation is more fundamental than distinctions",
+      "migrated_to": "preservation",
+      "migration": true
+    },
+    {
+      "audit": "RD-10A.11",
+      "initial_explanation": "Preservation is fundamental",
+      "later_explanation": "Construction vs. preservation is the key axis",
+      "migrated_to": "construction",
+      "migration": true
+    },
+    {
+      "audit": "RD-10A.12",
+      "initial_explanation": "Construction/preservation is fundamental",
+      "later_explanation": "Lens participation is more fundamental",
+      "migrated_to": "lenses",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.3",
+      "initial_explanation": "Post-hoc detectors measure architecture",
+      "later_explanation": "Detectors measure time-series properties, not architecture",
+      "migrated_to": "detector validity",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.0",
+      "initial_explanation": "Motifs are world properties",
+      "later_explanation": "Motifs are world-representation pair properties",
+      "migrated_to": "representation dependence",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.0A",
+      "initial_explanation": "Representations correspond consistently",
+      "later_explanation": "Correspondence varies widely across pairs",
+      "migrated_to": "correspondence quality",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.0B",
+      "initial_explanation": "\"Same world\" has unified meaning",
+      "later_explanation": "Identity criteria disagree on what counts as \"same\"",
+      "migrated_to": "identity criteria",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.0C",
+      "initial_explanation": "Identity criteria are competing definitions",
+      "later_explanation": "Criteria are tools for different tasks",
+      "migrated_to": "purpose",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.0D",
+      "initial_explanation": "Causal identity is universally applicable",
+      "later_explanation": "Causal identity fails 60% of the time",
+      "migrated_to": "failure modes",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.0E",
+      "initial_explanation": "Criteria have universal domains",
+      "later_explanation": "Each criterion has a specific domain",
+      "migrated_to": "domain specificity",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.0F",
+      "initial_explanation": "Stress worlds are neutral observers",
+      "later_explanation": "Worlds have hidden assumptions",
+      "migrated_to": "world assumptions",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.X",
+      "initial_explanation": "Recursion is a genuine junction",
+      "later_explanation": "Junctions may be vocabulary-dependent",
+      "migrated_to": "vocabulary independence",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.J4",
+      "initial_explanation": "Four junctions are independent",
+      "later_explanation": "Junctions form dependency chain",
+      "migrated_to": "dependency structure",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.J6",
+      "initial_explanation": "Distinction is the generator",
+      "later_explanation": "Generator is decomposition-dependent",
+      "migrated_to": "decomposition independence",
+      "migration": true
+    },
+    {
+      "audit": "RD-10B.J7",
+      "initial_explanation": "Compression is isomorphism-invariant",
+      "later_explanation": "Invariant may be translation-dependent",
+      "migrated_to": "translation invariants",
+      "migration": true
+    }
+  ],
+  "counterexamples": [
+    {
+      "audit": "RD-019-021 (causal interventions)",
+      "explanation": "C is not causally sufficient",
+      "status": "SURVIVED - never migrated",
+      "note": "This is a negative result, not an explanation"
+    },
+    {
+      "audit": "RD-10B.J5 (topology)",
+      "explanation": "Four junctions form linear chain",
+      "status": "SURVIVED - but interpretation changed",
+      "note": "Topology survived; interpretation of topology migrated"
+    },
+    {
+      "audit": "C is projection of MSE",
+      "finding": "Within granular domain, C \u2248 -MSE",
+      "status": "LOCAL - never promoted",
+      "note": "This finding stayed specific to granular domain"
+    }
+  ],
+  "null_model": {
+    "null_model": "methodology_driven"
+  },
+  "topology": {
+    "migrations": 19,
+    "destinations": {
+      "latent factors": 1,
+      "measurement": 1,
+      "constraints": 1,
+      "topology": 2,
+      "distinctions": 1,
+      "preservation": 1,
+      "construction": 1,
+      "lenses": 1,
+      "validity": 1,
+      "representation": 1,
+      "quality": 1,
+      "purpose": 1,
+      "domains": 1,
+      "assumptions": 1,
+      "dependency": 1,
+      "compression": 1,
+      "isomorphism": 1,
+      "translation": 1
+    },
+    "category_shifts": {
+      "objects \u2192 structure": 1,
+      "object \u2192 method": 1,
+      "objects \u2192 relations": 3,
+      "relations \u2192 structure": 2,
+      "structure \u2192 objects": 1,
+      "relations \u2192 processes": 1,
+      "processes \u2192 mappings": 1,
+      "tools \u2192 meta-tools": 1,
+      "objects \u2192 mappings": 1,
+      "structure \u2192 evaluation": 1,
+      "ontology \u2192 pragmatics": 1,
+      "pragmatics \u2192 structure": 1,
+      "structure \u2192 meta-structure": 1,
+      "structure \u2192 mapping": 1,
+      "mapping \u2192 equivalence": 1,
+      "equivalence \u2192 mapping": 1
+    }
+  }
+}

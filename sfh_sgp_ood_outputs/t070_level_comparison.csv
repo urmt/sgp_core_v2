@@ -1,0 +1,5 @@
+level,name,coherent,generative,n_assumptions,roots,capability_loss,verdict
+1,outputs only,False,True,9,OC2,No examining agent,REJECTED — outputs without an examiner is not self-examination
+2,outputs + change,True,True,9,OC2,No explicit temporal ordering (but ordering is implicit in change),ACCEPTABLE — minimal coherent formulation
+3,outputs + ordering,True,True,9,OC2,No discrete stages (but ordering adds nothing beyond IS1a),EQUIVALENT TO LEVEL 2 — no structural distinction
+4,outputs + stages,True,True,10,OC2,Requires additional assumption (IS1b or BA1),STRONGER THAN NECESSARY — adds requirement not forced by SR1 definition

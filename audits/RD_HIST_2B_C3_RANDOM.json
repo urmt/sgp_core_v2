@@ -1,0 +1,67 @@
+{
+  "clustering": "C3",
+  "source": "Randomized Blind Clustering",
+  "status": "frozen",
+  "description": "Blind LLM clustering with statements in randomized order",
+  "category_count": 6,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Vary parameter, measure effect",
+      "description": "Systematically varying an input parameter and measuring the resulting change in structure or recovery",
+      "statements": [8, 14, 20]
+    },
+    {
+      "id": 2,
+      "name": "Remove element, measure effect",
+      "description": "Removing specific components and measuring the impact on the remaining system or other components",
+      "statements": [9, 15]
+    },
+    {
+      "id": 3,
+      "name": "Classify by type, measure rates or compare",
+      "description": "Applying a classification scheme to entities and measuring frequencies, rates, or comparing outcomes",
+      "statements": [12, 13, 16]
+    },
+    {
+      "id": 4,
+      "name": "Generate worlds/universes, then detect or order",
+      "description": "Generating or evolving multiple instances and applying detectors or measuring what emerges",
+      "statements": [4, 7, 18, 19]
+    },
+    {
+      "id": 5,
+      "name": "Test predictive or compositional relationships",
+      "description": "Testing whether one measurement predicts another, or whether elements compose or interact as expected",
+      "statements": [1, 3, 6, 10, 11]
+    },
+    {
+      "id": 6,
+      "name": "Build structure from data, then analyze",
+      "description": "Constructing a representation from data and applying analysis or detection methods to it",
+      "statements": [2, 5, 17]
+    }
+  ],
+  "assignments": {
+    "1": 5,
+    "2": 6,
+    "3": 5,
+    "4": 4,
+    "5": 6,
+    "6": 5,
+    "7": 4,
+    "8": 1,
+    "9": 2,
+    "10": 5,
+    "11": 5,
+    "12": 3,
+    "13": 3,
+    "14": 1,
+    "15": 2,
+    "16": 3,
+    "17": 6,
+    "18": 4,
+    "19": 4,
+    "20": 1
+  }
+}

@@ -1,0 +1,9 @@
+mechanism,all_mean,none_mean,delta,emerged
+M01,0.0,0,0.0,False
+M02,0.25,0,0.25,True
+M03,0.662,0,0.662,True
+M04,0.483,0,0.483,True
+M05,0.126,0,0.126,False
+M06,0.5,0,0.5,True
+M07,0.0,0,0.0,False
+M08,0.375,0,0.375,True

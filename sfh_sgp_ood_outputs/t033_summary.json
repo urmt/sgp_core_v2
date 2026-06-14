@@ -1,0 +1,72 @@
+{
+  "n_systems": 211,
+  "n_tasks": 5,
+  "tasks": [
+    "chaos_onset",
+    "synchronization_onset",
+    "stability_collapse",
+    "extinction",
+    "regime_transition"
+  ],
+  "manifold_dimensions": 4,
+  "benchmarks": [
+    "random",
+    "family_labels",
+    "features_knn",
+    "manifold_knn",
+    "surrogate_manifold"
+  ],
+  "permutation_test": "manifold_knn vs shuffled labels, 500 permutations",
+  "bootstrap": "200 iterations",
+  "tasks_significant": 5,
+  "tasks_beat_surrogate": 5,
+  "success_criterion": "manifold significantly outperforms surrogate on >=3 tasks",
+  "success_met": true,
+  "task_results": [
+    {
+      "task": "chaos_onset",
+      "manifold_auroc": 0.9593506687365655,
+      "surrogate_auroc": 0.6770721877239073,
+      "family_labels_auroc": 0.9007305349892525,
+      "manifold_advantage_vs_surrogate": 0.2822784810126582,
+      "permutation_p": 0.0,
+      "significant": true
+    },
+    {
+      "task": "synchronization_onset",
+      "manifold_auroc": 0.9310191441441441,
+      "surrogate_auroc": 0.6708148326898328,
+      "family_labels_auroc": 0.8898501179751179,
+      "manifold_advantage_vs_surrogate": 0.26020431145431133,
+      "permutation_p": 0.0,
+      "significant": true
+    },
+    {
+      "task": "stability_collapse",
+      "manifold_auroc": 0.9827490883740883,
+      "surrogate_auroc": 0.6676144894894895,
+      "family_labels_auroc": 0.9093181574431575,
+      "manifold_advantage_vs_surrogate": 0.3151345988845987,
+      "permutation_p": 0.0,
+      "significant": true
+    },
+    {
+      "task": "extinction",
+      "manifold_auroc": 0.9865103295915931,
+      "surrogate_auroc": 0.6768727609266779,
+      "family_labels_auroc": 0.8765975041796036,
+      "manifold_advantage_vs_surrogate": 0.3096375686649152,
+      "permutation_p": 0.0,
+      "significant": true
+    },
+    {
+      "task": "regime_transition",
+      "manifold_auroc": 0.974695819272591,
+      "surrogate_auroc": 0.6552073959505063,
+      "family_labels_auroc": 0.8908274746906638,
+      "manifold_advantage_vs_surrogate": 0.3194884233220847,
+      "permutation_p": 0.0,
+      "significant": true
+    }
+  ]
+}

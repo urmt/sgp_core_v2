@@ -1,0 +1,728 @@
+{
+  "audit": "RD-HIST.2B",
+  "analysis": "Breakpoint Analysis",
+  "description": "Where do clusterings disagree?",
+  "breakpoints": {
+    "c1": {
+      "count": 16,
+      "breakpoints": [
+        {
+          "position": 1,
+          "between": [
+            "1",
+            "2"
+          ],
+          "cluster_boundary": [
+            2,
+            1
+          ]
+        },
+        {
+          "position": 2,
+          "between": [
+            "2",
+            "3"
+          ],
+          "cluster_boundary": [
+            1,
+            2
+          ]
+        },
+        {
+          "position": 3,
+          "between": [
+            "3",
+            "4"
+          ],
+          "cluster_boundary": [
+            2,
+            3
+          ]
+        },
+        {
+          "position": 4,
+          "between": [
+            "4",
+            "5"
+          ],
+          "cluster_boundary": [
+            3,
+            1
+          ]
+        },
+        {
+          "position": 5,
+          "between": [
+            "5",
+            "6"
+          ],
+          "cluster_boundary": [
+            1,
+            5
+          ]
+        },
+        {
+          "position": 6,
+          "between": [
+            "6",
+            "7"
+          ],
+          "cluster_boundary": [
+            5,
+            4
+          ]
+        },
+        {
+          "position": 8,
+          "between": [
+            "8",
+            "9"
+          ],
+          "cluster_boundary": [
+            4,
+            1
+          ]
+        },
+        {
+          "position": 9,
+          "between": [
+            "9",
+            "10"
+          ],
+          "cluster_boundary": [
+            1,
+            4
+          ]
+        },
+        {
+          "position": 10,
+          "between": [
+            "10",
+            "11"
+          ],
+          "cluster_boundary": [
+            4,
+            2
+          ]
+        },
+        {
+          "position": 11,
+          "between": [
+            "11",
+            "12"
+          ],
+          "cluster_boundary": [
+            2,
+            3
+          ]
+        },
+        {
+          "position": 12,
+          "between": [
+            "12",
+            "13"
+          ],
+          "cluster_boundary": [
+            3,
+            5
+          ]
+        },
+        {
+          "position": 14,
+          "between": [
+            "14",
+            "15"
+          ],
+          "cluster_boundary": [
+            5,
+            3
+          ]
+        },
+        {
+          "position": 15,
+          "between": [
+            "15",
+            "16"
+          ],
+          "cluster_boundary": [
+            3,
+            1
+          ]
+        },
+        {
+          "position": 16,
+          "between": [
+            "16",
+            "17"
+          ],
+          "cluster_boundary": [
+            1,
+            2
+          ]
+        },
+        {
+          "position": 18,
+          "between": [
+            "18",
+            "19"
+          ],
+          "cluster_boundary": [
+            2,
+            3
+          ]
+        },
+        {
+          "position": 19,
+          "between": [
+            "19",
+            "20"
+          ],
+          "cluster_boundary": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    "c2": {
+      "count": 18,
+      "breakpoints": [
+        {
+          "position": 1,
+          "between": [
+            "1",
+            "2"
+          ],
+          "cluster_boundary": [
+            1,
+            4
+          ]
+        },
+        {
+          "position": 2,
+          "between": [
+            "2",
+            "3"
+          ],
+          "cluster_boundary": [
+            4,
+            5
+          ]
+        },
+        {
+          "position": 3,
+          "between": [
+            "3",
+            "4"
+          ],
+          "cluster_boundary": [
+            5,
+            2
+          ]
+        },
+        {
+          "position": 4,
+          "between": [
+            "4",
+            "5"
+          ],
+          "cluster_boundary": [
+            2,
+            1
+          ]
+        },
+        {
+          "position": 5,
+          "between": [
+            "5",
+            "6"
+          ],
+          "cluster_boundary": [
+            1,
+            6
+          ]
+        },
+        {
+          "position": 6,
+          "between": [
+            "6",
+            "7"
+          ],
+          "cluster_boundary": [
+            6,
+            3
+          ]
+        },
+        {
+          "position": 7,
+          "between": [
+            "7",
+            "8"
+          ],
+          "cluster_boundary": [
+            3,
+            6
+          ]
+        },
+        {
+          "position": 8,
+          "between": [
+            "8",
+            "9"
+          ],
+          "cluster_boundary": [
+            6,
+            1
+          ]
+        },
+        {
+          "position": 10,
+          "between": [
+            "10",
+            "11"
+          ],
+          "cluster_boundary": [
+            1,
+            4
+          ]
+        },
+        {
+          "position": 11,
+          "between": [
+            "11",
+            "12"
+          ],
+          "cluster_boundary": [
+            4,
+            2
+          ]
+        },
+        {
+          "position": 12,
+          "between": [
+            "12",
+            "13"
+          ],
+          "cluster_boundary": [
+            2,
+            5
+          ]
+        },
+        {
+          "position": 13,
+          "between": [
+            "13",
+            "14"
+          ],
+          "cluster_boundary": [
+            5,
+            3
+          ]
+        },
+        {
+          "position": 14,
+          "between": [
+            "14",
+            "15"
+          ],
+          "cluster_boundary": [
+            3,
+            5
+          ]
+        },
+        {
+          "position": 15,
+          "between": [
+            "15",
+            "16"
+          ],
+          "cluster_boundary": [
+            5,
+            1
+          ]
+        },
+        {
+          "position": 16,
+          "between": [
+            "16",
+            "17"
+          ],
+          "cluster_boundary": [
+            1,
+            4
+          ]
+        },
+        {
+          "position": 17,
+          "between": [
+            "17",
+            "18"
+          ],
+          "cluster_boundary": [
+            4,
+            3
+          ]
+        },
+        {
+          "position": 18,
+          "between": [
+            "18",
+            "19"
+          ],
+          "cluster_boundary": [
+            3,
+            2
+          ]
+        },
+        {
+          "position": 19,
+          "between": [
+            "19",
+            "20"
+          ],
+          "cluster_boundary": [
+            2,
+            6
+          ]
+        }
+      ]
+    },
+    "c3": {
+      "count": 16,
+      "breakpoints": [
+        {
+          "position": 1,
+          "between": [
+            "1",
+            "2"
+          ],
+          "cluster_boundary": [
+            5,
+            6
+          ]
+        },
+        {
+          "position": 2,
+          "between": [
+            "2",
+            "3"
+          ],
+          "cluster_boundary": [
+            6,
+            5
+          ]
+        },
+        {
+          "position": 3,
+          "between": [
+            "3",
+            "4"
+          ],
+          "cluster_boundary": [
+            5,
+            4
+          ]
+        },
+        {
+          "position": 4,
+          "between": [
+            "4",
+            "5"
+          ],
+          "cluster_boundary": [
+            4,
+            6
+          ]
+        },
+        {
+          "position": 5,
+          "between": [
+            "5",
+            "6"
+          ],
+          "cluster_boundary": [
+            6,
+            5
+          ]
+        },
+        {
+          "position": 6,
+          "between": [
+            "6",
+            "7"
+          ],
+          "cluster_boundary": [
+            5,
+            4
+          ]
+        },
+        {
+          "position": 7,
+          "between": [
+            "7",
+            "8"
+          ],
+          "cluster_boundary": [
+            4,
+            1
+          ]
+        },
+        {
+          "position": 8,
+          "between": [
+            "8",
+            "9"
+          ],
+          "cluster_boundary": [
+            1,
+            2
+          ]
+        },
+        {
+          "position": 9,
+          "between": [
+            "9",
+            "10"
+          ],
+          "cluster_boundary": [
+            2,
+            5
+          ]
+        },
+        {
+          "position": 11,
+          "between": [
+            "11",
+            "12"
+          ],
+          "cluster_boundary": [
+            5,
+            3
+          ]
+        },
+        {
+          "position": 13,
+          "between": [
+            "13",
+            "14"
+          ],
+          "cluster_boundary": [
+            3,
+            1
+          ]
+        },
+        {
+          "position": 14,
+          "between": [
+            "14",
+            "15"
+          ],
+          "cluster_boundary": [
+            1,
+            2
+          ]
+        },
+        {
+          "position": 15,
+          "between": [
+            "15",
+            "16"
+          ],
+          "cluster_boundary": [
+            2,
+            3
+          ]
+        },
+        {
+          "position": 16,
+          "between": [
+            "16",
+            "17"
+          ],
+          "cluster_boundary": [
+            3,
+            6
+          ]
+        },
+        {
+          "position": 17,
+          "between": [
+            "17",
+            "18"
+          ],
+          "cluster_boundary": [
+            6,
+            4
+          ]
+        },
+        {
+          "position": 19,
+          "between": [
+            "19",
+            "20"
+          ],
+          "cluster_boundary": [
+            4,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "breakpoint_similarity": {
+    "c1_vs_c2": {
+      "jaccard_similarity": 0.7895,
+      "interpretation": "High"
+    },
+    "c1_vs_c3": {
+      "jaccard_similarity": 0.6842,
+      "interpretation": "Moderate"
+    },
+    "c2_vs_c3": {
+      "jaccard_similarity": 0.7895,
+      "interpretation": "High"
+    }
+  },
+  "disagreements": [
+    {
+      "study": "1",
+      "c1": 2,
+      "c2": 1,
+      "c3": 5,
+      "q3": "Universes were generated with continuous dynamics and the emergence of separable clusters was measured."
+    },
+    {
+      "study": "2",
+      "c1": 1,
+      "c2": 4,
+      "c3": 6,
+      "q3": "Audits were classified by whether descriptions collapsed or were maintained, and gain was compared."
+    },
+    {
+      "study": "3",
+      "c1": 2,
+      "c2": 5,
+      "c3": 5,
+      "q3": "Ten candidates were tested and all required separation."
+    },
+    {
+      "study": "4",
+      "c1": 3,
+      "c2": 2,
+      "c3": 4,
+      "q3": "Removal fraction was varied and recovery metrics were measured."
+    },
+    {
+      "study": "5",
+      "c1": 1,
+      "c2": 1,
+      "c3": 6,
+      "q3": "Multiple sequences were generated and the same four features appeared in all of them."
+    },
+    {
+      "study": "6",
+      "c1": 5,
+      "c2": 6,
+      "c3": 5,
+      "q3": "A co-occurrence matrix was built, noise was filtered, and clustering was applied."
+    },
+    {
+      "study": "7",
+      "c1": 4,
+      "c2": 3,
+      "c3": 4,
+      "q3": "Each junction was removed and the effect on the others was measured."
+    },
+    {
+      "study": "8",
+      "c1": 4,
+      "c2": 6,
+      "c3": 1,
+      "q3": "One world was represented in multiple ways and the same detectors were applied to each."
+    },
+    {
+      "study": "9",
+      "c1": 1,
+      "c2": 1,
+      "c3": 2,
+      "q3": "Universes were generated and detectors were applied to determine which appeared first."
+    },
+    {
+      "study": "10",
+      "c1": 4,
+      "c2": 1,
+      "c3": 5,
+      "q3": "The study sequence was re-read and the timing of gain relative to interaction was recorded."
+    },
+    {
+      "study": "11",
+      "c1": 2,
+      "c2": 4,
+      "c3": 5,
+      "q3": "Comparisons were classified by type and collapse rates were measured."
+    },
+    {
+      "study": "12",
+      "c1": 3,
+      "c2": 2,
+      "c3": 3,
+      "q3": "Box width was varied and the effect on packing structure and outcome was measured."
+    },
+    {
+      "study": "13",
+      "c1": 5,
+      "c2": 5,
+      "c3": 3,
+      "q3": "Reconstruction was tested under four degradation conditions and breakpoints were identified."
+    },
+    {
+      "study": "14",
+      "c1": 5,
+      "c2": 3,
+      "c3": 1,
+      "q3": "Each junction was expressed as an operator and composition was tested."
+    },
+    {
+      "study": "15",
+      "c1": 3,
+      "c2": 5,
+      "c3": 2,
+      "q3": "Pre-perturbation level was measured and its predictive power for recovery was tested."
+    },
+    {
+      "study": "16",
+      "c1": 1,
+      "c2": 1,
+      "c3": 3,
+      "q3": "Worlds were generated without pattern vocabulary and patterns were detected after evolution."
+    },
+    {
+      "study": "17",
+      "c1": 2,
+      "c2": 4,
+      "c3": 6,
+      "q3": "A classification scheme was applied to prior studies, separating them into two groups based on what remained stable."
+    },
+    {
+      "study": "18",
+      "c1": 2,
+      "c2": 3,
+      "c3": 4,
+      "q3": "Audits were decomposed by type and the contribution of each component was analyzed."
+    },
+    {
+      "study": "19",
+      "c1": 3,
+      "c2": 2,
+      "c3": 4,
+      "q3": "Removal fraction was varied and recovery metrics were measured."
+    },
+    {
+      "study": "20",
+      "c1": 4,
+      "c2": 6,
+      "c3": 1,
+      "q3": "Universes were analyzed for proximity structure and the chain was tested."
+    }
+  ]
+}

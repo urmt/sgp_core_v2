@@ -1,0 +1,53 @@
+{
+  "audit": "T081 \u2014 Constraint Generativity Audit",
+  "n_systems": 240,
+  "n_all_mcs": 100,
+  "n_none_mcs": 11,
+  "phase1": {
+    "emergent_assumptions": [
+      "IC1",
+      "IS1"
+    ],
+    "n_emergent": 2,
+    "n_total": 9,
+    "emergent_pct": 22.2,
+    "pass": false
+  },
+  "phase2": {
+    "emergent_mechanisms": [
+      "M08"
+    ],
+    "n_emergent": 1,
+    "n_total": 8,
+    "pass": false
+  },
+  "phase3": {
+    "viable_all_mcs": 7,
+    "viable_none_mcs": 0,
+    "pass": true
+  },
+  "phase4": {
+    "n_fertile": 2,
+    "n_fertile_none": 0,
+    "pass": false
+  },
+  "phase5": {
+    "pc1_explained": 41.7,
+    "intrinsic_dim": 4,
+    "pass": false
+  },
+  "phase6": {
+    "mc2_ablation_fertility": 0.413,
+    "mc3_ablation_viability_ratio": 0.167,
+    "mc4_ablation_sr1": 0.297,
+    "pass_mc2": false,
+    "pass_mc3": true,
+    "pass_mc4": true
+  },
+  "overall": {
+    "n_pass": 2,
+    "n_possible": 8,
+    "outcome": "C \u2014 Failure",
+    "description": "Generated systems do not reproduce observed structures \u2014 substrate remains fundamental"
+  }
+}

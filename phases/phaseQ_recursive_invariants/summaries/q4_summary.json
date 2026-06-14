@@ -1,0 +1,26 @@
+{
+  "phase": "Q4",
+  "strong_invariants": [
+    "shared_closure_value",
+    "continuity_through_transition",
+    "closure_under_no_timing_precision",
+    "closure_under_no_topology",
+    "closure_under_no_closure_cross",
+    "closure_under_minimal_closure",
+    "closure_under_minimal_sync_only",
+    "closure_under_minimal_both",
+    "buffering",
+    "individual_transition_survival",
+    "shared_transition_survival",
+    "closure_recovery_under_transition",
+    "reconstruction_probability"
+  ],
+  "weak_invariants": [
+    "closure_correlation",
+    "cross_correlation",
+    "closure_under_no_geometry",
+    "closure_under_no_synchronization",
+    "closure_under_no_coupling",
+    "persistence_gain"
+  ]
+}

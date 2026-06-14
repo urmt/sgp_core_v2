@@ -1,0 +1,2 @@
+phase,critical_threshold,max_drop,critical_susceptibility,scaling_exponent,threshold_component_corr,susceptibility_component_corr,verdict
+517,0.9456561632653061,-10.0,1.0,0.09513967177838184,-0.9358102176840234,-0.08817634695621848,BOUNDED-PERCOLATION

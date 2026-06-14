@@ -1,0 +1,9 @@
+phase,statement,confidence,evidence
+T040,Every candidate reintroduces distinction,medium,Inference from 10 test failures. May miss candidates not tested.
+T041,Distinction never emerges from interaction,medium,Inference from 5000-universe sample. Detector assumptions may contaminate.
+T042,Proximity precedes distinction,medium,Inferred from timing of detector firings. Detectors may be contaminated.
+T044,Recurrence is an artifact of bounded state spaces,medium,"Inference from T044 test D (effect=0, p=1.0)."
+T047,No primitive is currently accepted,high,Inference from universal contamination of detectors.
+T048,No detector can discover distinction,medium,Inference from contamination analysis. True within current detector families.
+T050,The gap between model requirements and observation requirements cannot be closed,high,Inference from T050 separation analysis.
+T050,We know what models need but not what observation needs,high,Direct conclusion from T050 proof inventory.

@@ -1,0 +1,10 @@
+assumption,t082_sp_all_mean,t082_sp_none_mean,t082_sp_delta,t082_sp_emerged,t086_sp_all_mean,t086_sp_none_mean,t086_sp_delta,t086_sp_emerged
+OC2,0.792,0,0.792,True,0.792,0.925,-0.134,False
+OC1,0.71,0,0.71,True,0.71,0.491,0.219,True
+CD1,0.61,0,0.61,True,0.61,0.43,0.18,False
+IC1,0.866,0,0.866,True,0.866,0.752,0.114,False
+IS1,0.579,0,0.579,True,0.579,0.97,-0.39,False
+IS2,0.5,0,0.5,True,0.5,0.5,0.0,False
+CD2,0.671,0,0.671,True,0.671,0.694,-0.024,False
+EC1,0.63,0,0.63,True,0.63,0.627,0.003,False
+SR1,0.67,0,0.67,True,0.67,0.646,0.024,False

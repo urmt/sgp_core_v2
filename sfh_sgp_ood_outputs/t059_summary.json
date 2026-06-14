@@ -1,0 +1,24 @@
+{
+  "starting_candidates": 70,
+  "ending_classes": 8,
+  "compression_ratio": 8.75,
+  "largest_class": "M01",
+  "largest_class_name": "System cannot fully examine itself",
+  "largest_class_size": 12,
+  "smallest_class": "M08",
+  "smallest_class_name": "Recursion IS the identity",
+  "smallest_class_size": 5,
+  "irreducible_classes": [],
+  "n_irreducible": 0,
+  "class_sizes": [
+    12,
+    11,
+    8,
+    8,
+    9,
+    11,
+    6,
+    5
+  ],
+  "interpretation": "70 candidates compressed to 8 mechanism classes (ratio 8.8:1). The largest class (System cannot fully examine itself) absorbs 12 candidates. 0 classes are irreducible (single-family origin). The landscape's apparent breadth is largely a vocabulary effect: 8 independent mechanism structures exist."
+}

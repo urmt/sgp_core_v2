@@ -1,0 +1,188 @@
+{
+  "audit": "T090 \u2014 Substrate Independence Audit",
+  "objective": "Determine whether 9 substrate assumptions are Markov artifacts, generic dynamical properties, or true primitives",
+  "n_per_substrate": 500,
+  "n_actual": {
+    "Markov": 500,
+    "Cellular Automaton": 500,
+    "Boolean Network": 500,
+    "Coupled Map Lattice": 500
+  },
+  "substrates": [
+    "Markov",
+    "Cellular Automaton",
+    "Boolean Network",
+    "Coupled Map Lattice"
+  ],
+  "verdicts": {
+    "OC2": {
+      "prevalence_by_substrate_02": {
+        "Markov": 100.0,
+        "Cellular Automaton": 99.0,
+        "Boolean Network": 99.8,
+        "Coupled Map Lattice": 100.0
+      },
+      "verdict": "primitive"
+    },
+    "OC1": {
+      "prevalence_by_substrate_02": {
+        "Markov": 99.4,
+        "Cellular Automaton": 41.8,
+        "Boolean Network": 94.8,
+        "Coupled Map Lattice": 13.8
+      },
+      "verdict": "implementation_dependent"
+    },
+    "CD1": {
+      "prevalence_by_substrate_02": {
+        "Markov": 100.0,
+        "Cellular Automaton": 53.0,
+        "Boolean Network": 86.4,
+        "Coupled Map Lattice": 10.2
+      },
+      "verdict": "implementation_dependent"
+    },
+    "IC1": {
+      "prevalence_by_substrate_02": {
+        "Markov": 100.0,
+        "Cellular Automaton": 10.6,
+        "Boolean Network": 76.0,
+        "Coupled Map Lattice": 0.0
+      },
+      "verdict": "markov_artifact"
+    },
+    "IS1": {
+      "prevalence_by_substrate_02": {
+        "Markov": 98.2,
+        "Cellular Automaton": 88.0,
+        "Boolean Network": 23.2,
+        "Coupled Map Lattice": 100.0
+      },
+      "verdict": "implementation_dependent"
+    },
+    "IS2": {
+      "prevalence_by_substrate_02": {
+        "Markov": 100.0,
+        "Cellular Automaton": 100.0,
+        "Boolean Network": 100.0,
+        "Coupled Map Lattice": 100.0
+      },
+      "verdict": "primitive"
+    },
+    "CD2": {
+      "prevalence_by_substrate_02": {
+        "Markov": 84.6,
+        "Cellular Automaton": 1.8,
+        "Boolean Network": 3.6,
+        "Coupled Map Lattice": 0.0
+      },
+      "verdict": "markov_artifact"
+    },
+    "EC1": {
+      "prevalence_by_substrate_02": {
+        "Markov": 79.8,
+        "Cellular Automaton": 0.6,
+        "Boolean Network": 0.4,
+        "Coupled Map Lattice": 0.0
+      },
+      "verdict": "substrate_specific"
+    },
+    "SR1": {
+      "prevalence_by_substrate_02": {
+        "Markov": 76.0,
+        "Cellular Automaton": 0.0,
+        "Boolean Network": 0.0,
+        "Coupled Map Lattice": 0.0
+      },
+      "verdict": "substrate_specific"
+    }
+  },
+  "Markov_at_02": {
+    "OC2": 100.0,
+    "OC1": 99.4,
+    "CD1": 100.0,
+    "IC1": 100.0,
+    "IS1": 98.2,
+    "IS2": 100.0,
+    "CD2": 84.6,
+    "EC1": 79.8,
+    "SR1": 76.0
+  },
+  "Markov_at_05": {
+    "OC2": 99.2,
+    "OC1": 71.6,
+    "CD1": 33.8,
+    "IC1": 99.0,
+    "IS1": 95.0,
+    "IS2": 100.0,
+    "CD2": 43.8,
+    "EC1": 33.8,
+    "SR1": 23.8
+  },
+  "Cellular Automaton_at_02": {
+    "OC2": 99.0,
+    "OC1": 41.8,
+    "CD1": 53.0,
+    "IC1": 10.6,
+    "IS1": 88.0,
+    "IS2": 100.0,
+    "CD2": 1.8,
+    "EC1": 0.6,
+    "SR1": 0.0
+  },
+  "Cellular Automaton_at_05": {
+    "OC2": 93.0,
+    "OC1": 34.4,
+    "CD1": 26.4,
+    "IC1": 2.6,
+    "IS1": 82.4,
+    "IS2": 100.0,
+    "CD2": 0.0,
+    "EC1": 0.0,
+    "SR1": 0.0
+  },
+  "Boolean Network_at_02": {
+    "OC2": 99.8,
+    "OC1": 94.8,
+    "CD1": 86.4,
+    "IC1": 76.0,
+    "IS1": 23.2,
+    "IS2": 100.0,
+    "CD2": 3.6,
+    "EC1": 0.4,
+    "SR1": 0.0
+  },
+  "Boolean Network_at_05": {
+    "OC2": 99.8,
+    "OC1": 90.0,
+    "CD1": 30.8,
+    "IC1": 33.8,
+    "IS1": 22.2,
+    "IS2": 100.0,
+    "CD2": 0.0,
+    "EC1": 0.0,
+    "SR1": 0.0
+  },
+  "Coupled Map Lattice_at_02": {
+    "OC2": 100.0,
+    "OC1": 13.8,
+    "CD1": 10.2,
+    "IC1": 0.0,
+    "IS1": 100.0,
+    "IS2": 100.0,
+    "CD2": 0.0,
+    "EC1": 0.0,
+    "SR1": 0.0
+  },
+  "Coupled Map Lattice_at_05": {
+    "OC2": 98.4,
+    "OC1": 6.4,
+    "CD1": 0.2,
+    "IC1": 0.0,
+    "IS1": 99.8,
+    "IS2": 100.0,
+    "CD2": 0.0,
+    "EC1": 0.0,
+    "SR1": 0.0
+  }
+}

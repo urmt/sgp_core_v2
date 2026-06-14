@@ -1,0 +1,7 @@
+test,real,expanding,effect,p,survived,repel,shuffled,high_agreement,metric,ordinal
+A_expanding,0.9945,1.0,-0.005499999999999949,0.0,False,,,,,
+B_repel,0.9945,,0.773,0.0,True,0.2215,,,,
+D_shuffled,0.9945,,0.9035000000000001,0.0,True,,0.091,,,
+E_nulls,0.9945,,,,True,,,,,
+F_agreement,,,,,True,,,0.9945,,
+G_nonmetric,,,,,True,,,,0.9945,0.3005

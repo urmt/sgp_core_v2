@@ -1,0 +1,2 @@
+phase,best_model,linear_CV_R2,ridge_CV_R2,kernelridge_CV_R2,poly3_CV_R2,rf_CV_R2,cluster_law_CV_R2,R2_delta_linear_vs_cluster,verdict
+543,Linear,1.0,0.997,0.984,0.976,0.676,0.6196,0.3804,CONTINUOUS-GEOMETRIC-STRUCTURE

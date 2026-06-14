@@ -1,0 +1,12 @@
+term,requires_identity,requires_distinction,requires_comparison,requires_ordering,requires_memory,total_imports
+demonstrated,True,True,True,False,True,4
+survives,True,True,True,True,True,5
+audit,True,True,True,True,True,5
+gap,True,True,True,False,False,3
+closed,True,True,True,True,False,4
+primitive,True,True,False,False,False,2
+geometry,True,True,True,False,False,3
+found,True,True,False,False,True,3
+imported,True,True,False,False,True,3
+cannot,False,True,True,False,False,2
+meaningful,True,True,True,False,False,3

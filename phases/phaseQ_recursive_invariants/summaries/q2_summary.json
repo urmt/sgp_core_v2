@@ -1,0 +1,14 @@
+{
+  "phase": "Q2",
+  "n_properties": 6,
+  "trajectory_dependent": [
+    "closure_correlation",
+    "cross_correlation"
+  ],
+  "distribution_dependent": [
+    "synchronization",
+    "shared_closure_value",
+    "closure_convergence",
+    "continuity_through_transition"
+  ]
+}

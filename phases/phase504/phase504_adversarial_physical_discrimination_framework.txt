@@ -1,0 +1,80 @@
+# Phase 504: Adversarial-Physical-Discrimination Framework
+
+## Objective
+Determine whether Phase 503 correspondence reflects genuine structural specificity OR overgeneralized correspondence capture.
+
+## Core Question
+Can SFH-SGP distinguish:
+- physical systems with recursive stability structure
+FROM
+- physically plausible systems lacking such structure?
+
+## Primary Hypotheses
+H1: True recursive-stability physical systems retain strong correspondence.
+H2: Pseudo-physical adversarial systems show significantly reduced correspondence.
+H3: Blind randomized physical ensembles fail correspondence.
+H4: Correspondence depends on recursive organizational constraints, NOT merely "physical-looking" behavior.
+H5: Correspondence discrimination thresholds are reproducible and measurable.
+
+## Required Adversarial Conditions
+We will generate adversarial pseudo-physical systems that mimic the appearance of real physical systems but lack genuine recursive stability structure:
+- randomized conservation systems,
+- fake renormalization structures,
+- pseudo-wave generators,
+- nonrecursive transport systems,
+- adversarial equilibrium mimics,
+- synthetic field-like noise,
+- shallow symmetry artifacts,
+- stochastic attractor imposters.
+
+## Primary Metrics
+1. discrimination_ratio: Ratio of correspondence strength (true vs adversarial)
+2. adversarial_false_positive_rate: Fraction of adversarial systems showing significant correspondence
+3. recursive_specificity_index: Degree to which correspondence depends on recursive structure
+4. null_physical_separation: Separation from null physical ensembles
+5. pseudo_system_rejection_rate: Rate at which pseudo-physical systems are correctly rejected
+6. structural_authenticity_score: Score indicating authenticity of physical system structure
+
+## Success Condition
+SFH-SGP strongly distinguishes authentic recursive physical organization from adversarial physical-like systems.
+
+## Failure Condition
+Correspondence remains universally high across adversarial pseudo-physical systems.
+
+## Scientific Importance
+This phase determines whether SFH-SGP correspondence is:
+- structurally selective,
+OR
+- overgeneralized pattern capture.
+
+## Interpretation Discipline
+Even successful discrimination implies ONLY:
+bounded organizational specificity.
+
+NOT:
+physical derivation
+or ontology.
+
+## Methodology Overview
+1. Use the same 18 authentic physical systems from Phase 503 as the "true" systems.
+2. Generate adversarial pseudo-physical systems for each domain that:
+   - Have similar superficial properties (e.g., same range of values, similar distributions)
+   - But lack genuine recursive stability structure (e.g., by shuffling values, adding noise, breaking hierarchies)
+3. Compute correspondence (Spearman rho, p-value) for both authentic and adversarial systems against SFH-SGP emergence hierarchy.
+4. Apply the same null hypothesis testing (1,000 permutations) used in previous phases.
+5. Compute discrimination metrics to assess SFH-SGP's ability to distinguish true from false.
+
+## SFH-SGP Reference Structure (from Phase 407)
+Using the established SFH-SGP emergence hierarchy:
+1. P-A-N (Most emergent): 0.9285
+2. P-A: 0.9283
+3. Projection: 0.9279
+4. P-N: 0.9244
+5. Antisymmetry: 0.9225
+6. Neutral: 0.9031
+7. A-N (Least emergent): 0.8864
+
+This 7-level hierarchy serves as the reference for all correspondence tests.
+
+## Anti-Retrofitting Protocol
+All authentic physical system definitions, adversarial generation methods, and comparison metrics will be defined in this framework document BEFORE any computation begins. No adjustments will be made based on preliminary results.

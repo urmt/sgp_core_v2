@@ -1,0 +1,72 @@
+{
+  "audit": "T088 \u2014 Missing Assumption Localization Audit",
+  "objective": "Identify what generates OC2, OC1, CD1, and IS2",
+  "baseline_emergence": [
+    "IC1",
+    "IS1",
+    "CD2",
+    "EC1",
+    "SR1"
+  ],
+  "missing": [
+    "OC2",
+    "OC1",
+    "CD1",
+    "IS2"
+  ],
+  "classification": {
+    "OC2": {
+      "classification": "weakly_generated",
+      "mean": 0.908,
+      "max": 1.0,
+      "pct_ge_02": 99.2,
+      "pct_ge_05": 96.7,
+      "emergent_in_baseline": false,
+      "emergent_at_higher_thresholds": [
+        false,
+        false,
+        false
+      ]
+    },
+    "OC1": {
+      "classification": "weakly_generated",
+      "mean": 0.619,
+      "max": 0.95,
+      "pct_ge_02": 97.9,
+      "pct_ge_05": 77.1,
+      "emergent_in_baseline": false,
+      "emergent_at_higher_thresholds": [
+        false,
+        false,
+        false
+      ]
+    },
+    "CD1": {
+      "classification": "weakly_generated",
+      "mean": 0.488,
+      "max": 0.98,
+      "pct_ge_02": 100.0,
+      "pct_ge_05": 47.1,
+      "emergent_in_baseline": false,
+      "emergent_at_higher_thresholds": [
+        false,
+        false,
+        false
+      ]
+    },
+    "IS2": {
+      "classification": "weakly_generated",
+      "mean": 0.573,
+      "max": 1.0,
+      "pct_ge_02": 100.0,
+      "pct_ge_05": 100.0,
+      "emergent_in_baseline": false,
+      "emergent_at_higher_thresholds": [
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  "n_systems": 240
+}

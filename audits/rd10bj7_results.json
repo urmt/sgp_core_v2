@@ -1,0 +1,83 @@
+{
+  "decompositions": {
+    "A": {
+      "name": "distinction-based",
+      "nodes": [
+        "distinction",
+        "constraint",
+        "preservation",
+        "recursion"
+      ],
+      "generator": "distinction (D: X \u00d7 X \u2192 {0,1})",
+      "composition": [
+        "C = h(D)",
+        "P = g(D, C)",
+        "R = f(D, C, P)"
+      ]
+    },
+    "B": {
+      "name": "symmetry-based",
+      "nodes": [
+        "symmetry_breaking",
+        "closure",
+        "invariance",
+        "feedback"
+      ],
+      "generator": "symmetry breaking (S: G \u00d7 X \u2192 X/G)",
+      "composition": [
+        "C = orbit_closing(S)",
+        "P = invariant_preserving(S, C)",
+        "R = self_referential_feedback(S, C, P)"
+      ]
+    },
+    "C": {
+      "name": "identity-based",
+      "nodes": [
+        "identity",
+        "limitation",
+        "memory",
+        "self_reference"
+      ],
+      "generator": "identity (I: X \u2192 {id(x) | x \u2208 X})",
+      "composition": [
+        "L = bounding(I)",
+        "M = persistence(I, L)",
+        "R = meta_identity(I, L, M)"
+      ]
+    },
+    "D": {
+      "name": "biological",
+      "nodes": [
+        "boundary",
+        "selection",
+        "persistence",
+        "reproduction"
+      ],
+      "generator": "boundary (B: X \u00d7 X \u2192 inside/outside)",
+      "composition": [
+        "S = differential_survival(B)",
+        "P = hereditary_persistence(B, S)",
+        "R = self_reproduction(B, S, P)"
+      ]
+    }
+  },
+  "generators": {
+    "A": {
+      "core": "distinction",
+      "signature": "X \u00d7 X \u2192 {0,1}"
+    },
+    "B": {
+      "core": "symmetry breaking",
+      "signature": "G \u00d7 X \u2192 X/G"
+    },
+    "C": {
+      "core": "identity",
+      "signature": "X \u2192 {id(x"
+    },
+    "D": {
+      "core": "boundary",
+      "signature": "X \u00d7 X \u2192 inside/outside"
+    }
+  },
+  "verdict": "outcome_c"
+}

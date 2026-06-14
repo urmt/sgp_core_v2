@@ -1,0 +1,20 @@
+{
+  "phase": "S4",
+  "n_systems": 5000,
+  "n_transition_classes": 3,
+  "silhouette_score": 0.5794896065841787,
+  "null_silhouette": 0.3094126879166244,
+  "class_sizes": [
+    126,
+    1781,
+    636
+  ],
+  "transition_taxonomy": {
+    "class_0": "reversible",
+    "class_1": "pseudo_collapse",
+    "class_2": "identity_preserving"
+  },
+  "reversible_count": 1,
+  "identity_preserving_count": 1,
+  "continuity_fracture_count": 0
+}

@@ -1,0 +1,2 @@
+phase,ARI,pearson_cluster_values,spearman_cluster_values,membership_stability_corr,dispersion_523,dispersion_partial,dispersion_ratio,verdict
+526,0.4955193438496756,0.327258736198857,0.3142857142857143,-0.3538753041338444,0.7691578977837397,0.767908223543884,0.9983752565926851,STRUCTURE-VALUE-DECOUPLING

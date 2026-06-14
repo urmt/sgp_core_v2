@@ -1,0 +1,55 @@
+source_id,citation,variation_type,α_αs_pair,αs_μ_pair,αs_αG_pair,αs_vMPl_pair,μ_vMPl_pair,vMPl_Λ_pair,independent_count,effective_count,notes
+1,Dicke 1961,OaA,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Only constrains time of observation; no constant variation
+2,Carter 1974,OaA,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Established WAP framework
+3,Barrow & Tipler 1986,OaA,independent,independent,independent,not_relevant,not_relevant,not_relevant,6,3,Encyclopedic; aggregates triangle as 3 independent DoF
+4,Carr & Rees 1979,OaA,not_relevant,not_relevant,linked_but_varied_OaA,not_relevant,not_relevant,not_relevant,1,1,α_G-m_p link recognized
+5,Weinberg 1987,OaA,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,1,1,Single parameter Λ analysis — valid
+6,Weinberg 1989,review,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,link_noted,0,0,Review of Λ problem
+7,Leslie 1989,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Philosophical defense of design inference
+8,Hoyle 1954,prediction,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Predicted Hoyle state; no parameter variation
+9,Penrose 1989,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,1,1,Phase space estimate; single initial condition
+10,Rees 2000,OaA,independent,independent,independent,not_relevant,not_relevant,not_relevant,6,3,Popular synthesis; all 6 treated independently
+11,Smolin 1992,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Population dynamics of universes; no standard bounds
+12,Livio et al. 1989,OaA,correlation_flagged,αs_μ_coupled,not_relevant,not_relevant,not_relevant,not_relevant,2,1,Flags α-αs correlation; notes μ changes with αs
+13,Oberhummer et al. 2000,OaA,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,1,1,Single parameter (αs via nuclear binding)
+14,Hogan 2000,review,independent,independent,independent,not_relevant,not_relevant,not_relevant,6,3,Review — reviews each constant OaA; no new calculations
+15,Agrawal et al. 1998,joint,not_relevant,not_relevant,not_relevant,varied_together,link_modeled,link_noted,1,1,BEST: explicit SM parameter counting; Λ_QCD scaling with v^β
+16,Harnik et al. 2006,OaA,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,1,1,Weakless universe; single parameter variation (g→0)
+17,MacDonald & Mullan 2009,OaA,not_relevant,noted_μ_changes,not_relevant,not_relevant,not_relevant,not_relevant,1,1,Single parameter (αs in BBN); notes μ is derived
+18,Tegmark et al. 2006,joint,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,2,2,Joint Λ-Q analysis; notes correlations matter
+19,Adams 2019,review,correlation_flagged,noted_derived,noted_derived,not_relevant,not_relevant,link_noted,26,~12,Most thorough; reviews each bound individually; no multiplication
+20,Grohs & Adams 2019,OaA,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,1,1,Single parameter (αs); deuterium specific
+21,Bronnikov et al. 2025,review,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,1,1,Observational α variation; not anthropic
+22,Langacker & Segrè 1994,OaA,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,1,1,Single parameter (Λ) Bayesian analysis
+23,Aguirre 2001,OaA,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,2,2,Λ + initial conditions
+24,Damour & Donoghue 2008,joint,joint_modeled,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,ONLY source to model α-αs correlation quantitatively
+25,Uzan 2011,review,warns_against_OaA,warns_against_OaA,warns_against_OaA,not_relevant,not_relevant,not_relevant,0,0,Most explicit warning against independent variation
+26,Linde 1986,review,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Eternal inflation mechanism
+27,Vilenkin 1995,analytic,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Quantum cosmology; no parameter-specific bounds
+28,Bousso & Polchinski 2000,analytic,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Λ flux quantization
+29,Susskind 2003,review,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,String landscape review
+30,Susskind 2005,review,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Popular landscape exposition
+31,Vilenkin 2007,review,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Popular multiverse exposition
+32,Guth 2007,review,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Eternal inflation review; measure problem
+33,Garriga & Vilenkin 2003,OaA,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,1,1,Single parameter (dark energy)
+34,Schellekens 2008,review,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Landscape review
+35,Schellekens 2013,review,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,String phenomenology review
+36,Earman 1987,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,SAP critique; no constant bounds
+37,Sober 2003,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,OSE critique; no constant bounds
+38,Ellis 2006,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Multiverse testability critique
+39,Stenger 2011,OaA_MC,independent,independent,independent,independent,independent,independent,6,6,"MAXIMALLY PERMISSIVE: all independent in MC; use as outer bound only"
+40,Lewis & Barnes 2016,OaA,independent,independent,independent,independent,independent,independent,6,3,Pedagogical; multiplies bounds without dependency correction
+41,Bostrom 2002,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,OSE methodology; no constant bounds
+42,McMullin 1993,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Indifference principle critique
+43,Aguirre & Tegmark 2005,joint,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,2,2,Joint Λ-Q causal patch analysis
+44,Carr (ed.) 2007,review,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Multi-author volume
+45,Page 2009,OaA,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,2,2,e and m_p separately; Bayesian OaA
+46,Davies 1993,OaA,independent,independent,independent,not_relevant,not_relevant,not_relevant,3,1,Diproton claim refuted by MacDonald & Mullan
+47,Barnes 2012,OaA+review,warns_against_OaA,noted_derived,noted_derived,not_relevant,not_relevant,not_relevant,8,~5,Comprehensive; reviews dependencies but analyzes OaA
+48,Wilczek 2005,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Philosophical essay
+49,Collins 2009,OaA+Bayesian,warns_against_OaA,noted_derived,noted_derived,not_relevant,not_relevant,not_relevant,~30,~15,Most comprehensive Bayesian; acknowledges dependencies but doesn't correct
+50,White 2000,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Multiverse-design Bayesian; no bound calculations
+51,Hossenfelder 2018,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Critique of naturalness/finetuning; no bound calculations
+52,McGrew et al. 2001,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Normalization problem critique
+53,Piran & Jimenez 2023,OaA_simulation,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,1,1,Single parameter Λ N-body simulation
+54,Carroll 2019,philosophical,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,not_relevant,0,0,Measure critique; no bound calculations

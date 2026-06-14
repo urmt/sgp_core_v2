@@ -1,0 +1,127 @@
+{
+  "audit": "RD-HIST.2A",
+  "analysis": "Survivor Ladder",
+  "description": "Tracking information loss across compression levels",
+  "ladder": [
+    {
+      "level": "Raw Q3 Responses",
+      "description": "Exact operational statements from blind coding",
+      "total_items": 20,
+      "information_content": "Maximum - each response is a unique operational description",
+      "examples": [
+        "A classification scheme was applied to prior studies, separating them into two groups based on what remained stable.",
+        "Multiple sequences were generated and the same four features appeared in all of them.",
+        "Removal fraction was varied and recovery metrics were measured."
+      ],
+      "information_lost": "None"
+    },
+    {
+      "level": "Clustered Responses",
+      "description": "Emergent categories from Q3 clustering",
+      "total_categories": 5,
+      "information_content": "High - categories capture main patterns while preserving diversity",
+      "categories": [
+        "Generation and Testing (5 studies)",
+        "Classification and Categorization (4 studies)",
+        "Variation and Measurement (4 studies)",
+        "Comparison and Reinterpretation (4 studies)",
+        "Removal and Degradation Testing (3 studies)"
+      ],
+      "information_lost": "Some nuance - individual variations within categories lost"
+    },
+    {
+      "level": "Compression A",
+      "description": "All discovered categories preserved",
+      "total_categories": 5,
+      "information_content": "Same as clustered responses",
+      "information_lost": "None beyond clustering"
+    },
+    {
+      "level": "Compression B",
+      "description": "Collapsed into Distinction / Comparison / Preservation / Persistence",
+      "total_categories": 4,
+      "information_content": "Moderate - most explanatory structure preserved",
+      "mapping": {
+        "Generation and Testing": "Comparison",
+        "Classification and Categorization": "Distinction",
+        "Variation and Measurement": "Preservation",
+        "Comparison and Reinterpretation": "Comparison",
+        "Removal and Degradation Testing": "Preservation"
+      },
+      "information_lost": "One category lost; some methodological nuance lost"
+    },
+    {
+      "level": "Compression C",
+      "description": "Collapsed into Change occurred / No change occurred",
+      "total_categories": 2,
+      "information_content": "Low - only binary distinction remains",
+      "information_lost": "Almost all methodological nuance lost; no information about what type of change"
+    }
+  ],
+  "analysis": {
+    "information_loss_per_level": [
+      {"level": "Raw -> Clustered", "loss": "Low - some nuance lost but main patterns preserved"},
+      {"level": "Clustered -> Compression A", "loss": "None"},
+      {"level": "Compression A -> Compression B", "loss": "Moderate - one category lost, some nuance lost"},
+      {"level": "Compression B -> Compression C", "loss": "High - three categories lost, almost all nuance lost"}
+    ],
+    "highest_compression_with_structure": "Compression B (4 categories)",
+    "critical_finding": "Compression C loses almost all explanatory structure. The ontology (5 categories) carries real information. But Compression B (4 categories) preserves most structure while being simpler."
+  },
+  "operational_compression_ratio": {
+    "description": "Information retained ÷ number of categories. Measures how many studies each category captures on average.",
+    "formula": "OCR = Number of studies correctly classified / Number of categories",
+    "levels": [
+      {
+        "level": "Raw Q3 Responses",
+        "studies": 20,
+        "categories": 20,
+        "ocr": 1.0,
+        "interpretation": "Each category captures 1 study - maximum specificity"
+      },
+      {
+        "level": "Emergent Clusters",
+        "studies": 20,
+        "categories": 5,
+        "ocr": 4.0,
+        "interpretation": "Each category captures 4 studies on average - categories are specific"
+      },
+      {
+        "level": "Compression A",
+        "studies": 20,
+        "categories": 5,
+        "ocr": 4.0,
+        "interpretation": "Same as emergent clusters - no additional compression"
+      },
+      {
+        "level": "Compression B",
+        "studies": 20,
+        "categories": 4,
+        "ocr": 5.0,
+        "interpretation": "Each category captures 5 studies - categories are moderately broad"
+      },
+      {
+        "level": "Compression C",
+        "studies": 20,
+        "categories": 2,
+        "ocr": 10.0,
+        "interpretation": "Each category captures 10 studies - categories are very broad"
+      }
+    ],
+    "ocr_change_between_levels": [
+      {"transition": "Raw -> Emergent", "ocr_change": "1.0 -> 4.0 (4x increase)", "interpretation": "Large jump - clustering loses significant specificity"},
+      {"transition": "Emergent -> Compression A", "ocr_change": "4.0 -> 4.0 (no change)", "interpretation": "No additional compression"},
+      {"transition": "Compression A -> Compression B", "ocr_change": "4.0 -> 5.0 (1.25x increase)", "interpretation": "Small jump - 4-category ontology similar to 5-category"},
+      {"transition": "Compression B -> Compression C", "ocr_change": "5.0 -> 10.0 (2x increase)", "interpretation": "Large jump - binary compression loses significant specificity"}
+    ],
+    "key_finding": "The biggest OCR jumps are Raw->Emergent (4x) and Compression B->Compression C (2x). The jump from Compression A to Compression B is small (1.25x), suggesting the 4-category and 5-category ontologies carry similar information. The binary ontology (Compression C) is too broad to be useful."
+  },
+  "survivor": {
+    "raw_level": "No single response dominates - 20 unique responses",
+    "clustered_level": "Generation and Testing (25%) is most common, but no category exceeds 25%",
+    "compression_a": "Same as clustered",
+    "compression_b": "Comparison appears twice (Generation and Testing + Comparison and Reinterpretation), but no single category dominates",
+    "compression_c": "All studies show change - no discrimination power",
+    "key_finding": "No single category dominates at any level. The archive does not converge on one type of change. The strongest statement is: 'The archive shows multiple types of change, with generation/testing being slightly more common.'"
+  }
+}

@@ -1,0 +1,3 @@
+category,count,outcome
+positive_survivors,0,B: negative survivor exists
+negative_survivors,2,B: negative survivor exists

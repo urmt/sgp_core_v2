@@ -1,0 +1,70 @@
+{
+  "phase": "F",
+  "title": "Organizational Geometry Taxonomy",
+  "git_hash": "35e927d2e21d78bc558c315407a84ae008f06fab",
+  "seed": 3000,
+  "completed": [
+    "f1",
+    "f2",
+    "f3",
+    "f5"
+  ],
+  "file_inventory": {
+    "processed/operator_signatures.csv": {
+      "exists": true,
+      "size": 2267,
+      "desc": "F1 signatures"
+    },
+    "raw/composition_tests.csv": {
+      "exists": true,
+      "size": 663,
+      "desc": "F2 tests"
+    },
+    "processed/family_geometry_classes.csv": {
+      "exists": true,
+      "size": 1020,
+      "desc": "F3 classification"
+    },
+    "processed/geometry_distance_matrix.csv": {
+      "exists": true,
+      "size": 1943,
+      "desc": "F3 distance matrix"
+    },
+    "nulls/nullA_uniform_manifolds.csv": {
+      "exists": true,
+      "size": 6371,
+      "desc": "F4 null A"
+    },
+    "nulls/nullB_covariance_synthetic.csv": {
+      "exists": true,
+      "size": 6341,
+      "desc": "F4 null B"
+    },
+    "nulls/nullC_shuffled_mapping.csv": {
+      "exists": true,
+      "size": 6386,
+      "desc": "F4 null C"
+    },
+    "nulls/nullD_gold_standard.csv": {
+      "exists": true,
+      "size": 6366,
+      "desc": "F4 null D"
+    },
+    "processed/operator_transition_regions.csv": {
+      "exists": true,
+      "size": 86899,
+      "desc": "F5 transitions"
+    }
+  },
+  "row_counts": {
+    "processed/operator_signatures.csv": 10,
+    "processed/family_geometry_classes.csv": 10,
+    "processed/operator_transition_regions.csv": 697
+  },
+  "key_results": {
+    "geometry_clusters": 4,
+    "silhouette_score": 0.2354,
+    "n_operator_shifts": 194
+  },
+  "generated_at": "2026-05-24T20:26:59"
+}

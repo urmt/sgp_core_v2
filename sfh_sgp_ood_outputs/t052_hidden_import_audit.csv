@@ -1,0 +1,16 @@
+statement_id,phase,text,uses_arithmetic,uses_comparison,uses_ordering,uses_distinction,uses_identity,contaminated,reason
+A01,T037,Geometry score = 0.69 across 1200 universes,True,True,False,True,False,True,"Score computation uses norm (arithmetic+comparison), detector uses clustering (distinction)"
+A02,T037,Composition score = 0.0 across all universes,True,True,False,True,False,True,Score = 0 requires arithmetic to compute
+A03,T037,Recurrence detected in 98.3% of universes,True,True,True,True,False,True,"Recurrence detector uses norm (arithmetic), comparison, and ordering"
+A04,T038,Distinction emerged in 995/1000 universes,True,True,False,True,False,True,Clustering detector uses distance (arithmetic+comparison)
+A05,T038,Persistence emerged in 0/1000 universes,True,True,False,True,False,True,Same detector as A04
+A06,T039,28 assumptions cataloged,False,False,False,False,False,False,Pure enumeration. No computation required.
+A09,T040,10/10 candidate substrates failed,False,False,False,False,False,False,Direct test results. No computation required.
+A10,T041,0/5000 universes produce distinction,True,True,False,True,False,True,Detector uses distance (arithmetic+comparison)
+A11,T041,Proto-geometry emerges in 85.8%,True,True,False,True,False,True,Detector uses distance and clustering
+A12,T042,Trajectory bundles appear in 64.7%,True,True,False,True,False,True,Detector uses distance and clustering
+A13,T043,"101,414 detector events recorded",False,False,False,False,False,False,Pure data collection. No computation required.
+A14,T043,Recurrence fires first (98.3%),True,True,True,True,False,True,"Detector uses norm, comparison, ordering"
+A15,T043,73 edges in emergence graph (P>0.95),True,True,False,True,False,True,Graph construction from pairwise probabilities
+A17,T045,Convergence rate = 0.995,True,True,False,True,False,True,"Detector uses norm, comparison"
+A22,T048,45 detectors cataloged,False,False,False,False,False,False,Pure enumeration. No computation required.

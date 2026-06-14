@@ -1,0 +1,16 @@
+component,statement_id,phase,text
+1,A15,T043,73 edges in emergence graph (P>0.95)
+1,A14,T043,Recurrence fires first (98.3%)
+1,A02,T037,Composition score = 0.0 across all universes
+1,A17,T045,Convergence rate = 0.995
+1,A10,T041,0/5000 universes produce distinction
+1,A12,T042,Trajectory bundles appear in 64.7%
+1,A04,T038,Distinction emerged in 995/1000 universes
+1,A13,T043,"101,414 detector events recorded"
+1,A11,T041,Proto-geometry emerges in 85.8%
+1,A05,T038,Persistence emerged in 0/1000 universes
+1,A03,T037,Recurrence detected in 98.3% of universes
+1,A01,T037,Geometry score = 0.69 across 1200 universes
+2,A09,T040,10/10 candidate substrates failed
+3,A06,T039,28 assumptions cataloged
+4,A22,T048,45 detectors cataloged

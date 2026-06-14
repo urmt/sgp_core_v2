@@ -1,0 +1,7 @@
+{
+  "phase": "L3",
+  "mean_internal_modeling": 0.34485535158043074,
+  "CG_mean": 0.5382211740870624,
+  "CL_mean": 0.28315714389575763,
+  "enabling_condition": "recursive_closure"
+}

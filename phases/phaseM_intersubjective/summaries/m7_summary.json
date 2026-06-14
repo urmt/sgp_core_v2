@@ -1,0 +1,9 @@
+{
+  "phase": "M7",
+  "n_pairs": 5000,
+  "mean_compatibility": 0.8109917682442137,
+  "same_domain_comp": 0.8302513148763728,
+  "cross_domain_comp": 0.8028706685412019,
+  "n_highly_compatible": 500,
+  "n_incompatible": 500
+}

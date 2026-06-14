@@ -1,0 +1,6 @@
+rank,constraint_id,name,total_score,single_coverage
+1,MC3,Constraint Balance,22,22/32
+2,MC2,Productive Transformation,19,19/32
+3,MC5,Recoverable Perturbation,13,13/32
+4,MC4,Recursive Accessibility,5,5/32
+5,MC1,Information Preservation,-5,6/32

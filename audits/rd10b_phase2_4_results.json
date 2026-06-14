@@ -1,0 +1,936 @@
+{
+  "discovery": {
+    "binding": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "True"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "network": {
+      "binding": {
+        "present": "False"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "True"
+      },
+      "template": {
+        "present": "True"
+      },
+      "boundary": {
+        "present": "False"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "True"
+      },
+      "formal_inference": {
+        "present": "True"
+      }
+    },
+    "cycle": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "True"
+      },
+      "template": {
+        "present": "True"
+      },
+      "boundary": {
+        "present": "False"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "True"
+      },
+      "formal_inference": {
+        "present": "True"
+      }
+    },
+    "template": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "True"
+      },
+      "template": {
+        "present": "True"
+      },
+      "boundary": {
+        "present": "False"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "boundary": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "True"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "hierarchy": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "True"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "True"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "recursion": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "True"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "True"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "formal_inference": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "True"
+      },
+      "template": {
+        "present": "True"
+      },
+      "boundary": {
+        "present": "False"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "True"
+      }
+    }
+  },
+  "nulls": {
+    "random": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "True"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "shuffled_binding": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "True"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "shuffled_network": {
+      "binding": {
+        "present": "False"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "False"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "shuffled_cycle": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "True"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "shuffled_template": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "False"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "shuffled_boundary": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "True"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "shuffled_hierarchy": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "False"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "shuffled_recursion": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "False"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "shuffled_formal_inference": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "False"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "degenerate_binding": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "False"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "degenerate_boundary": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "True"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    },
+    "degenerate_hierarchy": {
+      "binding": {
+        "present": "True"
+      },
+      "network": {
+        "present": "True"
+      },
+      "cycle": {
+        "present": "False"
+      },
+      "template": {
+        "present": "False"
+      },
+      "boundary": {
+        "present": "True"
+      },
+      "hierarchy": {
+        "present": "False"
+      },
+      "recursion": {
+        "present": "False"
+      },
+      "formal_inference": {
+        "present": "False"
+      }
+    }
+  },
+  "removal": {
+    "binding": {
+      "network": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.5146690941847474,
+        "d_persist_modified": 0.017268624864790354,
+        "reduction": 0.497400469319957
+      },
+      "cycle": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.5146690941847474,
+        "d_persist_modified": 0.5152741712095986,
+        "reduction": -0.0006050770248512416
+      },
+      "template": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.5146690941847474,
+        "d_persist_modified": 0.3432055989064478,
+        "reduction": 0.17146349527829957
+      },
+      "boundary": {
+        "original_present": "True",
+        "modified_present": "False",
+        "d_persist_original": 0.5146690941847474,
+        "d_persist_modified": 0.5297978673563112,
+        "reduction": -0.015128773171563803
+      },
+      "hierarchy": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.5146690941847474,
+        "d_persist_modified": 0.5297978673563112,
+        "reduction": -0.015128773171563803
+      },
+      "recursion": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.5146690941847474,
+        "d_persist_modified": 0.20723530448590533,
+        "reduction": 0.30743378969884205
+      },
+      "formal_inference": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.5146690941847474,
+        "d_persist_modified": 0.1324822847310422,
+        "reduction": 0.3821868094537052
+      }
+    },
+    "network": {
+      "binding": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 1.0,
+        "d_persist_modified": 0.9741274831392732,
+        "reduction": 0.02587251686072678
+      },
+      "cycle": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 1.0,
+        "d_persist_modified": 1.0,
+        "reduction": 0.0
+      },
+      "template": {
+        "original_present": "True",
+        "modified_present": "False",
+        "d_persist_original": 1.0,
+        "d_persist_modified": 0.5048177098623416,
+        "reduction": 0.49518229013765835
+      },
+      "boundary": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 1.0,
+        "d_persist_modified": 1.0,
+        "reduction": 0.0
+      },
+      "hierarchy": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 1.0,
+        "d_persist_modified": 1.0,
+        "reduction": 0.0
+      },
+      "recursion": {
+        "original_present": "True",
+        "modified_present": "False",
+        "d_persist_original": 1.0,
+        "d_persist_modified": 0.33962219171983904,
+        "reduction": 0.660377808280161
+      },
+      "formal_inference": {
+        "original_present": "True",
+        "modified_present": "False",
+        "d_persist_original": 1.0,
+        "d_persist_modified": 0.25628885838650567,
+        "reduction": 0.7437111416134943
+      }
+    },
+    "cycle": {
+      "binding": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.9633851745327813,
+        "d_persist_modified": 0.9923904179830684,
+        "reduction": -0.0290052434502871
+      },
+      "network": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.9633851745327813,
+        "d_persist_modified": 0.010443810872982856,
+        "reduction": 0.9529413636597984
+      },
+      "template": {
+        "original_present": "True",
+        "modified_present": "False",
+        "d_persist_original": 0.9633851745327813,
+        "d_persist_modified": 0.485733655563755,
+        "reduction": 0.4776515189690263
+      },
+      "boundary": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.9633851745327813,
+        "d_persist_modified": 0.982371901129666,
+        "reduction": -0.018986726596884718
+      },
+      "hierarchy": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.9633851745327813,
+        "d_persist_modified": 0.982371901129666,
+        "reduction": -0.018986726596884718
+      },
+      "recursion": {
+        "original_present": "True",
+        "modified_present": "False",
+        "d_persist_original": 0.9633851745327813,
+        "d_persist_modified": 0.3265959378041381,
+        "reduction": 0.6367892367286432
+      },
+      "formal_inference": {
+        "original_present": "True",
+        "modified_present": "False",
+        "d_persist_original": 0.9633851745327813,
+        "d_persist_modified": 0.24691536346317663,
+        "reduction": 0.7164698110696046
+      }
+    },
+    "template": {
+      "binding": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.6683652595019082,
+        "d_persist_modified": 0.9426935912852682,
+        "reduction": -0.27432833178336
+      },
+      "network": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.6683652595019082,
+        "d_persist_modified": 0.01188597669590836,
+        "reduction": 0.6564792828059998
+      },
+      "cycle": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.6683652595019082,
+        "d_persist_modified": 0.6703628953273667,
+        "reduction": -0.0019976358254585325
+      },
+      "boundary": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.6683652595019082,
+        "d_persist_modified": 0.7048904328461378,
+        "reduction": -0.03652517334422967
+      },
+      "hierarchy": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.6683652595019082,
+        "d_persist_modified": 0.7048904328461378,
+        "reduction": -0.03652517334422967
+      },
+      "recursion": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.6683652595019082,
+        "d_persist_modified": 0.23981025045332796,
+        "reduction": 0.42855500904858024
+      },
+      "formal_inference": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.6683652595019082,
+        "d_persist_modified": 0.18205924851776242,
+        "reduction": 0.4863060109841457
+      }
+    },
+    "boundary": {
+      "binding": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.5001360944126972,
+        "d_persist_modified": 0.9187000313827919,
+        "reduction": -0.41856393697009464
+      },
+      "network": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.5001360944126972,
+        "d_persist_modified": 0.017576157177480456,
+        "reduction": 0.4825599372352168
+      },
+      "cycle": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.5001360944126972,
+        "d_persist_modified": 0.5072906610317595,
+        "reduction": -0.007154566619062219
+      },
+      "template": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.5001360944126972,
+        "d_persist_modified": 0.243111736513674,
+        "reduction": 0.2570243578990232
+      },
+      "hierarchy": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.5001360944126972,
+        "d_persist_modified": 0.538640172029316,
+        "reduction": -0.03850407761661878
+      },
+      "recursion": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.5001360944126972,
+        "d_persist_modified": 0.16084094796266804,
+        "reduction": 0.33929514645002923
+      },
+      "formal_inference": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.5001360944126972,
+        "d_persist_modified": 0.12699876380685074,
+        "reduction": 0.37313733060584653
+      }
+    },
+    "hierarchy": {
+      "binding": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.6153694382896965,
+        "d_persist_modified": 0.9353000611195236,
+        "reduction": -0.3199306228298271
+      },
+      "network": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.6153694382896965,
+        "d_persist_modified": 0.0112085954058005,
+        "reduction": 0.6041608428838959
+      },
+      "cycle": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.6153694382896965,
+        "d_persist_modified": 0.6217794229752917,
+        "reduction": -0.006409984685595171
+      },
+      "template": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.6153694382896965,
+        "d_persist_modified": 0.28632691675391453,
+        "reduction": 0.32904252153578195
+      },
+      "boundary": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.6153694382896965,
+        "d_persist_modified": 0.6875942355281962,
+        "reduction": -0.07222479723849973
+      },
+      "recursion": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.6153694382896965,
+        "d_persist_modified": 0.19037801773467325,
+        "reduction": 0.42499142055502326
+      },
+      "formal_inference": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.6153694382896965,
+        "d_persist_modified": 0.14601335728408174,
+        "reduction": 0.46935608100561477
+      }
+    },
+    "recursion": {
+      "binding": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.6453070082369912,
+        "d_persist_modified": 0.9360037681289916,
+        "reduction": -0.2906967598920004
+      },
+      "network": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.6453070082369912,
+        "d_persist_modified": 0.011273521663529703,
+        "reduction": 0.6340334865734615
+      },
+      "cycle": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.6453070082369912,
+        "d_persist_modified": 0.6498918843913962,
+        "reduction": -0.00458487615440506
+      },
+      "template": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.6453070082369912,
+        "d_persist_modified": 0.2792312518610824,
+        "reduction": 0.3660757563759088
+      },
+      "boundary": {
+        "original_present": "True",
+        "modified_present": "False",
+        "d_persist_original": 0.6453070082369912,
+        "d_persist_modified": 0.683719148763307,
+        "reduction": -0.03841214052631581
+      },
+      "hierarchy": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.6453070082369912,
+        "d_persist_modified": 0.683719148763307,
+        "reduction": -0.03841214052631581
+      },
+      "formal_inference": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.6453070082369912,
+        "d_persist_modified": 0.13153353128513026,
+        "reduction": 0.5137734769518609
+      }
+    },
+    "formal_inference": {
+      "binding": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.7619195589538649,
+        "d_persist_modified": 0.9666481077287599,
+        "reduction": -0.204728548774895
+      },
+      "network": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.7619195589538649,
+        "d_persist_modified": 0.00669718976929683,
+        "reduction": 0.7552223691845681
+      },
+      "cycle": {
+        "original_present": "True",
+        "modified_present": "True",
+        "d_persist_original": 0.7619195589538649,
+        "d_persist_modified": 0.7857513818299123,
+        "reduction": -0.02383182287604746
+      },
+      "template": {
+        "original_present": "True",
+        "modified_present": "False",
+        "d_persist_original": 0.7619195589538649,
+        "d_persist_modified": 0.41463141910489393,
+        "reduction": 0.34728813984897094
+      },
+      "boundary": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.7619195589538649,
+        "d_persist_modified": 0.8483938498851243,
+        "reduction": -0.08647429093125947
+      },
+      "hierarchy": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.7619195589538649,
+        "d_persist_modified": 0.8483938498851243,
+        "reduction": -0.08647429093125947
+      },
+      "recursion": {
+        "original_present": "False",
+        "modified_present": "False",
+        "d_persist_original": 0.7619195589538649,
+        "d_persist_modified": 0.2984155893456962,
+        "reduction": 0.4635039696081687
+      }
+    }
+  }
+}

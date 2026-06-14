@@ -1,0 +1,6 @@
+{
+  "phase": "N6",
+  "most_destructive": "closure_collapse",
+  "worst_recovery": 0.9556399996869497,
+  "n_perturbations": 2500
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "study_number": 1,
+    "original_id": "RD-10B.R0R",
+    "coded": true,
+    "question": "What persisted across each prior study's results?",
+    "method": "Classified each prior study into a 5-level hierarchy based on what remained stable at each level of analysis.",
+    "result": "22 of 27 studies reached level 3 (higher-order structure preserving lower-order structure); 5 studies failed at level 0-1."
+  },
+  {
+    "study_number": 2,
+    "original_id": "RD-10B.J2",
+    "coded": true,
+    "question": "Do the four junctions appear when using different starting sequences?",
+    "method": "Generated 11 different sequences (5 bottom-up, 6 top-down) and checked whether the same four junctions appear in all.",
+    "result": "All four junctions appeared in all 11 sequences (path independent)."
+  },
+  {
+    "study_number": 3,
+    "original_id": "RD-10B.M5",
+    "coded": true,
+    "question": "Is the fundamental operation comparison, or preserving tension between descriptions without collapsing them?",
+    "method": "Classified 19 audits by whether collapse occurred, whether tension was maintained, and explanatory gain.",
+    "result": "Tension preservation correlated with higher explanatory gain; collapsing descriptions reduced gain."
+  },
+  {
+    "study_number": 4,
+    "original_id": "RD-10B.M6b",
+    "coded": true,
+    "question": "Does viewpoint comparison preserve tension while claim comparison causes collapse?",
+    "method": "Classified comparisons as viewpoint or claim type and measured collapse rates.",
+    "result": "Viewpoint comparisons: 0% collapse; claim comparisons: 100% collapse."
+  },
+  {
+    "study_number": 5,
+    "original_id": "RD-10B.0",
+    "coded": true,
+    "question": "Do the same patterns appear regardless of how we represent the world?",
+    "method": "Generated one world with 12 agents and 4 dimensions, represented it in 5 ways (graph, timeseries, state-transition, correlation, phasespace), applied the same detectors to each.",
+    "result": "Some patterns (e.g. binding) appeared in all representations; others were representation-dependent."
+  },
+  {
+    "study_number": 6,
+    "original_id": "RD-10B.J4",
+    "coded": true,
+    "question": "Are the four junctions independent or do they depend on each other?",
+    "method": "Removed each junction and checked whether the others remain meaningful.",
+    "result": "They form a linear dependency chain: distinction -> constraint -> preservation -> recursion."
+  },
+  {
+    "study_number": 7,
+    "original_id": "RD-5",
+    "coded": true,
+    "question": "How does system response scale with perturbation magnitude?",
+    "method": "Ran 60 simulations across 6 removal fractions (0%, 5%, 10%, 20%, 30%, 50%) with 10 replicates each, measuring recovery time, overshoot, and final-to-initial ratio.",
+    "result": "Systematic scaling patterns in recovery metrics as a function of removal fraction."
+  },
+  {
+    "study_number": 8,
+    "original_id": "RD-019",
+    "coded": true,
+    "question": "Does changing density affect system behavior?",
+    "method": "Varied box width across 6 conditions (30, 35, 40, 45, 50, 55) with 10 replicates each, measuring coordination, contact counts, nearest-neighbor distances, and component structure.",
+    "result": "Density manipulation successfully changed packing structure but did not predict the measured outcome variable (R-squared=0.055)."
+  },
+  {
+    "study_number": 9,
+    "original_id": "RD-10B.J6",
+    "coded": true,
+    "question": "Can the four junctions be generated from a single transformation?",
+    "method": "Expressed each junction as a mathematical operator and checked whether they can be composed from each other.",
+    "result": "All four can be generated from distinction plus composition rules; one generator suffices."
+  },
+  {
+    "study_number": 10,
+    "original_id": "RD-10B.R1",
+    "coded": true,
+    "question": "Was explanatory gain already present in isolated descriptions, or only after interactions became available?",
+    "method": "Re-read the entire study sequence using an interaction lens, recording for each audit whether gain appeared before or after interaction.",
+    "result": "Every study had explanatory gain AFTER interaction; no isolated description produced gain on its own."
+  },
+  {
+    "study_number": 11,
+    "original_id": "T038_distinction_genesis",
+    "coded": false,
+    "question": "Can pattern separation emerge from a pure continuous transformation without any predefined symbols, coordinates, or geometry?",
+    "method": "Generated 1000 universes with only a continuous transformation operator (no discrete labels), simulated state evolution, and measured clustering, self-similarity, and loop structure. Ran ablation tests removing nonlinearity, bias, and rotation.",
+    "result": "Separable clusters emerged in a fraction of universes. Ablation showed nonlinearity and rotation were essential; bias was not."
+  },
+  {
+    "study_number": 12,
+    "original_id": "T043_order_discovery",
+    "coded": false,
+    "question": "What is the statistically earliest structure that appears from recursive dynamics?",
+    "method": "Generated 10000 universes with 6 different dynamics classes, applied 20 detectors, computed pairwise temporal ordering (P(A before B)), and built a directed graph of emergence.",
+    "result": "Detectors formed layered ordering with roots (earliest) and leaves (latest). Specific detectors reliably appeared first across universe classes."
+  },
+  {
+    "study_number": 13,
+    "original_id": "RD-05_perturbation_sweep",
+    "coded": false,
+    "question": "How does the magnitude of component removal affect system recovery?",
+    "method": "Swept removal fractions from 0% to 50% with 10 replicates each, measuring pre-perturbation level, minimum after perturbation, recovery time to 95%, final-to-initial ratio, and overshoot.",
+    "result": "Generated scaling curves and summary statistics for all recovery metrics as a function of removal fraction."
+  },
+  {
+    "study_number": 14,
+    "original_id": "T042_proximity_genesis",
+    "coded": false,
+    "question": "Does proximity-like structure appear before separable categories form?",
+    "method": "Analyzed 3000 universes with 5 proximity detectors measuring trajectory bundling, persistence of proximity, dimensionality reduction, neighborhood stability, and near-separation. Tested the chain bundling -> persistence -> categories.",
+    "result": "Trajectory bundling appeared in ~85% of universes; persistence in ~45%; dimensionality reduction in ~60%. But separable categories never appeared (0%). The chain proximity -> persistence is valid but persistence -> categories is broken."
+  },
+  {
+    "study_number": 15,
+    "original_id": "RD-06_ensemble_resilience",
+    "coded": false,
+    "question": "Does the pre-perturbation value of the measured variable predict whether a system recovers after a 50% disruption?",
+    "method": "Ran 200 independent systems with 50% removal, measured pre-perturbation level, and tested whether it predicted recovery vs. collapse using t-tests, logistic regression, and ROC-AUC.",
+    "result": "Pre-perturbation level strongly predicted survival (AUC > 0.9, p < 0.001). Higher pre-perturbation values predicted recovery."
+  },
+  {
+    "study_number": 16,
+    "original_id": "RD-10B.3_emergence_first",
+    "coded": false,
+    "question": "What changes occur in worlds with no predefined pattern vocabulary?",
+    "method": "Generated 50 diverse worlds with random parameters, evolved each for 200 steps, recorded raw state measurements at each step, detected transition points in raw observables, and post-hoc categorized which patterns appeared.",
+    "result": "Transitions occurred in most worlds. Post-hoc pattern detection found binding, network structure, and hierarchy as common patterns. Coupling and nonlinearity predicted transitions."
+  },
+  {
+    "study_number": 17,
+    "original_id": "experiment_if3",
+    "coded": false,
+    "question": "Can community structure be reconstructed from a stream of interaction events alone?",
+    "method": "Built a co-occurrence matrix from event participants, subtracted a randomized baseline (shuffled participant IDs), applied spectral clustering to the significant interaction graph, and evaluated against ground truth labels.",
+    "result": "Developed a reconstruction pipeline. Spectral clustering on the significance-filtered interaction graph recovered community structure. Accuracy measured by ARI and NMI against ground truth."
+  },
+  {
+    "study_number": 18,
+    "original_id": "if_stress_test",
+    "coded": false,
+    "question": "Where does reconstructing community structure from interaction history break?",
+    "method": "Tested four degradation conditions: missing interactions (0-90% removal), spurious interactions (0.1x-10x noise), dynamic communities (split mid-recording), and hierarchical communities (2-level nested structure). Measured ARI and NMI.",
+    "result": "Identified breakpoints for each condition. Reconstruction was robust to moderate missing data and noise but degraded at high levels. Dynamic and hierarchical structures were partially recovered."
+  },
+  {
+    "study_number": 19,
+    "original_id": "T040_pre_distinction_failure",
+    "coded": false,
+    "question": "Can any candidate concept exist without relying on pattern separation?",
+    "method": "Defined 10 candidate foundational concepts (pure potential, undifferentiated field, unlabeled process, self-application, recursive possibility, null operator, interaction only, pure difference, temporal flux, monadic self). Tested each for whether stating it requires separation. Also attempted to build a separation-free formal system.",
+    "result": "All 10 candidates failed. Each secretly reintroduced separation when stated or tested. The formal system attempt showed separation entering at step 2 (the first attempt to introduce anything)."
+  },
+  {
+    "study_number": 20,
+    "original_id": "RD-10B.R3b_component_analysis",
+    "coded": false,
+    "question": "Why did the simpler component combination (I+C) produce a higher gain rate than the full combination (I+P+N+C)?",
+    "method": "Decomposed audits into falsifications (productive failures) vs. genuine successes (new structure creation). Analyzed what each component contributes in each category.",
+    "result": "I+C audits were falsifications that produced gain through productive failure without needing the other components. I+P+N+C audits were genuine successes that required all four components. The question was misframed: the relevant outcome is new structure creation, not just gain."
+  }
+]

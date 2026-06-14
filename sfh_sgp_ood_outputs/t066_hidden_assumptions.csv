@@ -1,0 +1,4 @@
+issue_id,description,affected_node,severity,proposed_resolution
+HA1,IS1 depends only on OC2; distinguishability gives external boundary but not internal stage structure,IS1,medium,BA1 (Baseline Activity) may be needed: 'The investigation exists as a temporally extended process'
+HA2,No assumption encodes 'the investigation exists' — this is implicitly treated as framework-native,ALL,medium,Explicitly state investigation-existence as a precondition
+HA3,IS1 → IS2 removal assumes phases can be defined without outputs; this weakens but does not eliminate the temporal structure requirement,IS1,low,Monitor whether comparator assumptions require phase-output coupling

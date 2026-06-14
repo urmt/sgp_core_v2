@@ -1,0 +1,40 @@
+{
+  "all_assumptions": [
+    "symbols",
+    "identity",
+    "distinction",
+    "recursion",
+    "state_persistence",
+    "rule_tables",
+    "ordering",
+    "memory"
+  ],
+  "essential_for_geometry": [
+    "symbols"
+  ],
+  "minimal_surviving_substrate": [
+    "identity",
+    "distinction",
+    "recursion",
+    "state_persistence",
+    "rule_tables",
+    "ordering",
+    "memory"
+  ],
+  "n_essential": 1,
+  "n_minimal": 7,
+  "assumption_details": {
+    "symbols": "Discrete symbolic objects (integers 0-N)",
+    "identity": "Symbols have fixed identity (hashable, stable)",
+    "distinction": "Different symbols are fully distinguishable",
+    "recursion": "Rules apply iteratively to their own outputs",
+    "state_persistence": "Output of step t becomes input of step t+1",
+    "rule_tables": "Deterministic input->output mapping",
+    "ordering": "States are ordered sequences (position matters)",
+    "memory": "Full trajectory is retained"
+  },
+  "geometry_baseline": 0.003441364793780417,
+  "geometry_retention_without_essential": {
+    "symbols": 0.0
+  }
+}

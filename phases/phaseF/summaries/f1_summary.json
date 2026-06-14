@@ -1,0 +1,40 @@
+{
+  "phase": "F1",
+  "seed": 3000,
+  "n_domains": 10,
+  "operator_types": [
+    "additive",
+    "multiplicative",
+    "hierarchical",
+    "topological",
+    "network",
+    "symmetry"
+  ],
+  "operator_signature_columns": [
+    "additive_linear_r2",
+    "additive_superposition",
+    "additive_closure",
+    "multiplicative_interaction_r2_gain",
+    "multiplicative_log_log_slope",
+    "multiplicative_log_log_slope_std",
+    "multiplicative_sensitivity_amplification",
+    "hierarchical_tree_depth",
+    "hierarchical_tree_r2",
+    "hierarchical_multiscale_var_ratio",
+    "topological_neighborhood_corr",
+    "topological_continuity",
+    "topological_deformation_stability",
+    "network_graph_behav_corr",
+    "network_propagation",
+    "network_sync_coupling",
+    "symmetry_invariance",
+    "symmetry_conservation",
+    "op_score_additive",
+    "op_score_multiplicative",
+    "op_score_hierarchical",
+    "op_score_topological",
+    "op_score_network",
+    "op_score_symmetry"
+  ],
+  "runtime_seconds": 19
+}

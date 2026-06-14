@@ -1,0 +1,2 @@
+phase,mean_curvature,max_curvature,transition_stability_corr,high_curvature_count,verdict
+511,0.01388224190501503,0.11795241288621139,-0.5233676909090049,8,FLAT-MANIFOLD

@@ -1,0 +1,9 @@
+mechanism,name,all_mcs_mean,none_mcs_mean,delta,emergent
+M01,Cannot fully examine self,0.44,0.636,-0.196,False
+M02,Fixed-point finder,0.21,1.0,-0.79,False
+M03,Method determines result,0.464,0.665,-0.2,False
+M04,Observer/observed entangled,0.248,0.599,-0.351,False
+M05,"Info exhausted, artifacts",0.046,0.521,-0.475,False
+M06,Trapped in attractor,0.34,0.909,-0.569,False
+M07,Incoherent question,0.016,0.0,0.016,False
+M08,Recursion is identity,0.295,0.0,0.295,True

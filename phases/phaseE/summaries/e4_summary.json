@@ -1,0 +1,30 @@
+{
+  "phase": "E4",
+  "seed": 3000,
+  "rolling_window": 20,
+  "n_concentration_records": 70164,
+  "n_descriptors": 5,
+  "n_metrics": 12,
+  "descriptors": [
+    "CSR",
+    "RBS",
+    "ADI",
+    "RTP",
+    "SRD"
+  ],
+  "metrics": [
+    "tangent_rotation",
+    "local_curvature",
+    "predictive_shear",
+    "geodesic_instab",
+    "jacobian_vol",
+    "desc_switch_vel",
+    "poss_reachable_volume",
+    "poss_branching_diversity",
+    "poss_adaptive_recovery",
+    "poss_future_entropy",
+    "poss_divergence_capacity",
+    "poss_stability_fertility_coupling"
+  ],
+  "runtime_seconds": 6
+}

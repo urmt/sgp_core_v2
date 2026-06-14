@@ -1,0 +1,120 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\title{Appendix: Methods and Proofs}
+\author{Mark Rowe Traver}
+
+\begin{document}
+\maketitle
+
+\section{Emergence Coordinate Derivation}
+\label{sec:appendix_coords}
+
+The four emergence coordinates $(C, F, A, R)$ are linear composites of z-scored features. Let $\mathbf{x} \in \mathbb{R}^{17}$ be the raw feature vector and $\mathbf{z} = (\mathbf{x} - \boldsymbol{\mu}) \oslash \boldsymbol{\sigma}$ be the z-scored vector, where $\boldsymbol{\mu}$ and $\boldsymbol{\sigma}$ are the empirical mean and standard deviation across all systems.
+
+\subsection{Curvature coordinate $C$}
+
+\[
+C = \frac{1}{4} \left( -z_{\text{temporal\_corr}} - z_{\text{eff\_rank}} + z_{\text{pc1\_ratio}} - z_{\text{replay}} \right)
+\]
+
+$C$ captures the balance between temporal coherence (negative loading on temporal correlation and effective rank) and structural complexity (positive loading on PC1 ratio, negative on replay displacement).
+
+\subsection{Flow coordinate $F$}
+
+\[
+F = \frac{1}{4} \left( z_{\tau_{m2}} + z_{\tau_{m4}} + z_{\phi_{\text{corr}}} + z_{pc2} \right)
+\]
+
+$F$ captures the amplitude and phase structure of the dynamical flow through the second and fourth moment timescales and the phase-space correlation.
+
+\subsection{Amplitude coordinate $A$}
+
+\[
+A = \frac{1}{3} \left( \|\mathbf{z}_{\text{abl}}\|_2 + \sigma(\mathbf{z}_{\text{abl}}) + z_{\tau_{m1}} \right)
+\]
+
+where $\mathbf{z}_{\text{abl}} = (z_{\text{abl\_full}}, z_{\text{abl\_no\_m1}}, z_{\text{abl\_no\_m2}}, z_{\text{abl\_no\_m3}}, z_{\text{abl\_no\_m4}}, z_{m2\_\text{contrib}})$.
+
+$A$ captures the amplitude structure through the norm and spread of ablation sensitivities and the first moment timescale.
+
+\subsection{Recurrence coordinate $R$}
+
+\[
+R = \frac{1}{3} \left( z_{pc1} + \bar{z}_{\tau} + \sigma(z_{\tau}) \right)
+\]
+
+where $\bar{z}_{\tau}$ is the mean of the four $\tau$ features and $\sigma(z_{\tau})$ is their standard deviation.
+
+$R$ captures the recurrence structure through the primary PC amplitude and the mean and spread of the moment-based timescales.
+
+\section{Participation Ratio Properties}
+\label{sec:appendix_pr}
+
+\begin{theorem}
+For a Gaussian point cloud $\phi_i \sim \mathcal{N}(\boldsymbol{\mu}, \mathbf{C})$ in $\mathbb{R}^d$, the expected participation ratio is:
+\[
+\mathbb{E}[\text{PR}] \approx \frac{(\sum_k \lambda_k)^2}{\sum_k \lambda_k^2}
+\]
+where $\lambda_k$ are the eigenvalues of $\mathbf{C}$.
+\end{theorem}
+
+\begin{proof}
+For a finite sample of size $N$, the sample covariance matrix $\hat{\mathbf{C}}$ has eigenvalues $\hat{\lambda}_k$ that converge to $\lambda_k$ as $N \to \infty$. The participation ratio is:
+\[
+\text{PR} = \frac{(\sum_k \hat{\lambda}_k)^2}{\sum_k \hat{\lambda}_k^2}
+\]
+By the continuous mapping theorem and the convergence $\hat{\lambda}_k \to \lambda_k$, the result follows.
+\end{proof}
+
+\section{Adversarial Null Construction}
+\label{sec:appendix_adversarial}
+
+The adversarial low-rank null (N6) is designed to produce a manifold with the same participation ratio as the real geometry but with randomized eigenvector orientations.
+
+\begin{enumerate}
+\item Compute the target PR from the real $\Phi$-coordinates.
+\item Construct eigenvalues $\lambda_k = e^{-k/\alpha}$ where $\alpha$ is chosen so that $\frac{(\sum \lambda_k)^2}{\sum \lambda_k^2} = \text{PR}_{\text{target}}$.
+\item Generate random orthogonal eigenvectors $\mathbf{v}_k$ via QR decomposition of Gaussian random matrices.
+\item Construct covariance matrix $\mathbf{C} = \sum_k \lambda_k \mathbf{v}_k \mathbf{v}_k^\top$.
+\item Sample $\phi_i \sim \mathcal{N}(\mathbf{0}, \mathbf{C})$.
+\end{enumerate}
+
+This produces a manifold with matched PR but no meaningful structure in the eigenvector directions.
+
+\section{Causal Destruction Levels}
+\label{sec:appendix_destruction}
+
+The causal destruction hierarchy applies progressive transformations to the feature matrix $\mathbf{X} \in \mathbb{R}^{N \times 17}$:
+
+\begin{enumerate}
+\item \textbf{Level 0: Original} -- No transformation.
+\item \textbf{Level 1: Column shuffle} -- For each feature $j$, randomly permute the values across systems. Destroys feature-system associations.
+\item \textbf{Level 2: Row shuffle} -- Randomly permute the rows of $\mathbf{X}$. Destroys system-level feature covariance.
+\item \textbf{Level 3: Gaussian copula} -- Transform to Gaussian marginals via rank-based CDF, then back. Preserves marginal distributions but destroys nonlinear structure.
+\item \textbf{Level 4: Decorrelated} -- Apply whitening transform to decorrelate features, then remix with random rotation.
+\item \textbf{Level 5: White noise} -- Replace $\mathbf{X}$ with i.i.d. Gaussian noise.
+\end{enumerate}
+
+\section{Information Geometry}
+\label{sec:appendix_info}
+
+The Fisher information matrix for a parametric family $p(\phi; \theta)$ is:
+\[
+\mathbf{F}(\theta) = \mathbb{E}\left[ \nabla_\theta \log p(\phi; \theta) \nabla_\theta \log p(\phi; \theta)^\top \right]
+\]
+
+For the KDE-based density estimate $\hat{\rho}(\phi)$, the Fisher entropy is:
+\[
+H_F = -\int \log \hat{\rho}(\phi) \, d\phi
+\]
+
+The KL divergence from a Gaussian with the same mean and covariance is:
+\[
+D_{\text{KL}}(\hat{\rho} \| \mathcal{N}) = \int \hat{\rho}(\phi) \log \frac{\hat{\rho}(\phi)}{\mathcal{N}(\phi; \boldsymbol{\mu}, \boldsymbol{\Sigma})} \, d\phi
+\]
+
+\end{document}

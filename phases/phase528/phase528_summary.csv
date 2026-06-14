@@ -1,0 +1,2 @@
+phase,n_invariant_pairs,mean_pair_consensus,mean_pair_stability_diff,n_hub_nodes,hub_nodes,degree_stability_corr,verdict
+528,62,0.9540942928039701,0.044697903225806454,10,"['LaserOpticalCoherence', 'FerromagneticMagnetization', 'ElectronTransportMesoscopic', 'LimitCycleOscillations', 'AndersonLocalization', 'PhaseEquilibriumMulticomponent', 'PhotonicBandgapLocalization', 'CriticalPhenomenaScaling', 'ChargeConservationEM', 'StandingWavePatterns']",0.3398698500489106,INVARIANT-ARCHETYPE-CORE

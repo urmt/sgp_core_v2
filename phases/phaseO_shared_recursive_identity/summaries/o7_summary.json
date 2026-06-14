@@ -1,0 +1,18 @@
+{
+  "phase": "O7",
+  "n_clusters": 5,
+  "cluster_labels": {
+    "0": "distributed",
+    "1": "weakly coupled",
+    "2": "closure-linked",
+    "3": "closure-linked",
+    "4": "distributed"
+  },
+  "cluster_sizes": {
+    "0": 62,
+    "1": 55,
+    "2": 52,
+    "3": 48,
+    "4": 83
+  }
+}

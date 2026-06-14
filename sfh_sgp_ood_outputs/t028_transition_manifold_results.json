@@ -1,0 +1,892 @@
+{
+  "section_a_trajectories": {
+    "final_drift": {
+      "primes": 8.071542887377309,
+      "fibonacci": 7.1234396169108,
+      "modular_arithmetic": 7.253623226695468,
+      "additive_recurrence": 8.656044091936982,
+      "lorenz": 7.018725131945954,
+      "logistic_map": 7.285068986533771,
+      "henon_map": 6.953449820794519,
+      "ising_magnetization": 6.2053097292096036,
+      "reaction_diffusion": 7.406463571630666,
+      "cfg_expansion": 7.922937281678496,
+      "lambda_reduction": 6.634825920600947,
+      "rewrite_system": 7.458504672747703,
+      "iid_gaussian": 6.717519005602662,
+      "colored_noise": 7.58806782262717
+    },
+    "drift_flow_corr": {
+      "r": -0.3342897424917829,
+      "p": 0.24273594502449583
+    },
+    "velocity_low": {
+      "primes": 0.642080252593906,
+      "fibonacci": 0.3973455620629005,
+      "modular_arithmetic": 0.5744840305088255,
+      "additive_recurrence": 0.8114857319065364,
+      "lorenz": 0.5950382997975091,
+      "logistic_map": 0.8507595932526185,
+      "henon_map": 0.8573652751492773,
+      "ising_magnetization": 0.6561331769308705,
+      "reaction_diffusion": 0.626312951549815,
+      "cfg_expansion": 0.3566886302982015,
+      "lambda_reduction": 0.7084867787751487,
+      "rewrite_system": 0.592510076689786,
+      "iid_gaussian": 0.6390924932811198,
+      "colored_noise": 0.8632469335768508
+    },
+    "velocity_flow_corr": {
+      "r": -0.13385766457793716,
+      "p": 0.6482345150002776
+    },
+    "straightness": {
+      "primes": 0.5017748012086797,
+      "fibonacci": 0.6761157841043199,
+      "modular_arithmetic": 0.41903249217060806,
+      "additive_recurrence": 0.5266367976809758,
+      "lorenz": 0.36586482863686054,
+      "logistic_map": 0.3597315123056256,
+      "henon_map": 0.37681789490550666,
+      "ising_magnetization": 0.42484996542789666,
+      "reaction_diffusion": 0.5421733946544057,
+      "cfg_expansion": 0.4652213857341241,
+      "lambda_reduction": 0.5196686459127641,
+      "rewrite_system": 0.550112872137153,
+      "iid_gaussian": 0.40470932512391306,
+      "colored_noise": 0.4144108556831224
+    },
+    "straightness_flow_corr": {
+      "r": -0.11422512442796061,
+      "p": 0.697408706428856
+    }
+  },
+  "section_b_basin_dynamics": {
+    "approaching_bridge": [],
+    "receding_from_bridge": [
+      "primes",
+      "fibonacci",
+      "modular_arithmetic",
+      "additive_recurrence",
+      "lorenz",
+      "logistic_map",
+      "henon_map",
+      "ising_magnetization",
+      "reaction_diffusion",
+      "cfg_expansion",
+      "lambda_reduction",
+      "rewrite_system",
+      "iid_gaussian",
+      "colored_noise"
+    ],
+    "bridge_direction_flow_corr": {
+      "r": 0.4585693325040317,
+      "p": 0.09910827055359184
+    },
+    "basin_escape_flow_corr": {
+      "r": -0.08629533737059213,
+      "p": 0.7692694253509914
+    },
+    "bridge_crossing_flow_corr": {
+      "r": 0.9549166075819014,
+      "p": 1.0996643548613758e-07
+    },
+    "transiting_systems": []
+  },
+  "section_c_stability_tensor": {
+    "feature_sensitivity": {
+      "pc1": 2.191199353996395,
+      "pc2": 1.9702164718843471,
+      "tau_m4": 1.3470354103006457,
+      "tau_m2": 1.0145556481304907,
+      "tau_m1": 0.861260899920428,
+      "m2_contribution": 0.7505685806194924,
+      "tau_m3": 0.37881354930586975,
+      "effective_rank": 0.323834502773009
+    },
+    "system_stability_norm": {
+      "primes": 14.030842081190997,
+      "fibonacci": 13.879151642586846,
+      "modular_arithmetic": 14.10449731589095,
+      "additive_recurrence": 13.94621356936027,
+      "lorenz": 15.260180607678384,
+      "logistic_map": 14.080310377347073,
+      "henon_map": 13.956209653880752,
+      "ising_magnetization": 14.916899765245567,
+      "reaction_diffusion": 14.385497018104846,
+      "cfg_expansion": 14.04464513978775,
+      "lambda_reduction": 14.069498651742949,
+      "rewrite_system": 13.877936959309963,
+      "iid_gaussian": 14.458857231807858,
+      "colored_noise": 13.990862991329491
+    },
+    "stability_flow_corr": {
+      "r": 0.798648372417356,
+      "p": 0.0006138708599187015
+    },
+    "axis_anisotropy_ratio": 4.325488458255829,
+    "leading_modes": [
+      {
+        "system": "primes",
+        "singular_values": [
+          10.035716988825325,
+          8.677995667780612,
+          4.050634179698565,
+          2.1056276878312308
+        ],
+        "leading_feature": "pc1",
+        "leading_strength": 10.035716988825325
+      },
+      {
+        "system": "fibonacci",
+        "singular_values": [
+          9.661878270590543,
+          8.812606200226432,
+          4.145269907036304,
+          2.1056276878312263
+        ],
+        "leading_feature": "pc2",
+        "leading_strength": 9.661878270590543
+      },
+      {
+        "system": "modular_arithmetic",
+        "singular_values": [
+          9.570555907592937,
+          9.252666153925755,
+          4.158822578308455,
+          2.105627687831229
+        ],
+        "leading_feature": "pc1",
+        "leading_strength": 9.570555907592937
+      },
+      {
+        "system": "additive_recurrence",
+        "singular_values": [
+          9.759058843239265,
+          8.791040494927687,
+          4.188267239943284,
+          2.1056276878312357
+        ],
+        "leading_feature": "pc1",
+        "leading_strength": 9.759058843239265
+      },
+      {
+        "system": "lorenz",
+        "singular_values": [
+          9.536490868377616,
+          9.113544451716056,
+          7.378217512593939,
+          2.1056276878312294
+        ],
+        "leading_feature": "pc1",
+        "leading_strength": 9.536490868377616
+      },
+      {
+        "system": "logistic_map",
+        "singular_values": [
+          9.796805853197181,
+          8.752490921271265,
+          4.6084672192055045,
+          2.10562768783123
+        ],
+        "leading_feature": "pc1",
+        "leading_strength": 9.796805853197181
+      },
+      {
+        "system": "henon_map",
+        "singular_values": [
+          9.81196745346259,
+          8.7175658905457,
+          4.251053937495695,
+          2.1056276878312303
+        ],
+        "leading_feature": "pc1",
+        "leading_strength": 9.81196745346259
+      },
+      {
+        "system": "ising_magnetization",
+        "singular_values": [
+          9.746830673347871,
+          8.723468152699667,
+          6.85424145041166,
+          2.1056276878312374
+        ],
+        "leading_feature": "pc2",
+        "leading_strength": 9.746830673347871
+      },
+      {
+        "system": "reaction_diffusion",
+        "singular_values": [
+          9.992559542068951,
+          9.229125265021771,
+          4.181011497100378,
+          2.105627687831232
+        ],
+        "leading_feature": "pc1",
+        "leading_strength": 9.992559542068951
+      },
+      {
+        "system": "cfg_expansion",
+        "singular_values": [
+          10.037124180395029,
+          8.68182489030236,
+          4.086617660640404,
+          2.1056276878312303
+        ],
+        "leading_feature": "pc1",
+        "leading_strength": 10.037124180395029
+      },
+      {
+        "system": "lambda_reduction",
+        "singular_values": [
+          10.039946051542843,
+          8.67550656179926,
+          4.177582258905549,
+          2.105627687831235
+        ],
+        "leading_feature": "pc1",
+        "leading_strength": 10.039946051542843
+      },
+      {
+        "system": "rewrite_system",
+        "singular_values": [
+          9.655710711183996,
+          8.81757196789425,
+          4.145014057847337,
+          2.105627687831232
+        ],
+        "leading_feature": "pc2",
+        "leading_strength": 9.655710711183996
+      },
+      {
+        "system": "iid_gaussian",
+        "singular_values": [
+          9.698535859940229,
+          8.976456146012897,
+          5.475995044026392,
+          2.105627687831231
+        ],
+        "leading_feature": "pc1",
+        "leading_strength": 9.698535859940229
+      },
+      {
+        "system": "colored_noise",
+        "singular_values": [
+          9.720313391482817,
+          8.904217863807816,
+          4.188196639079546,
+          2.1056276878312303
+        ],
+        "leading_feature": "pc1",
+        "leading_strength": 9.720313391482817
+      }
+    ],
+    "lyapunov_flow_corr": {
+      "r": -0.21223179358942454,
+      "p": 0.4663538149811064
+    }
+  },
+  "section_d_geodesic": {
+    "betweenness": {
+      "primes": 0.0,
+      "fibonacci": 0.0,
+      "modular_arithmetic": 0.0,
+      "additive_recurrence": 0.02564102564102564,
+      "lorenz": 0.0,
+      "logistic_map": 0.28205128205128205,
+      "henon_map": 0.01282051282051282,
+      "ising_magnetization": 0.10256410256410256,
+      "reaction_diffusion": 0.0,
+      "cfg_expansion": 0.0,
+      "lambda_reduction": 0.5128205128205128,
+      "rewrite_system": 0.01282051282051282,
+      "iid_gaussian": 0.5384615384615384,
+      "colored_noise": 0.0
+    },
+    "betweenness_flow_corr": {
+      "r": -0.32403672578504783,
+      "p": 0.2583789513426126
+    },
+    "bridge_path_inclusion": {
+      "primes": 0.0,
+      "fibonacci": 0.0,
+      "modular_arithmetic": 0.0,
+      "additive_recurrence": 0.02564102564102564,
+      "lorenz": 0.0,
+      "logistic_map": 0.28205128205128205,
+      "henon_map": 0.01282051282051282,
+      "ising_magnetization": 0.10256410256410256,
+      "reaction_diffusion": 0.0,
+      "cfg_expansion": 0.0,
+      "lambda_reduction": 0.5128205128205128,
+      "rewrite_system": 0.01282051282051282,
+      "iid_gaussian": 0.5384615384615384,
+      "colored_noise": 0.0
+    },
+    "bridge_avg_inclusion": 0.034188034188034185,
+    "non_bridge_avg_inclusion": 0.12587412587412586,
+    "is_corridor": false,
+    "knot_scores": {
+      "primes": 0.0,
+      "fibonacci": 0.0,
+      "modular_arithmetic": 0.0,
+      "additive_recurrence": 0.05403861734008301,
+      "lorenz": 0.0,
+      "logistic_map": 0.0,
+      "henon_map": 0.03519262375151783,
+      "ising_magnetization": 0.813519572136785,
+      "reaction_diffusion": 0.0,
+      "cfg_expansion": 0.0,
+      "lambda_reduction": 0.6394120885929566,
+      "rewrite_system": 0.024399976791192414,
+      "iid_gaussian": 0.5595740652399754,
+      "colored_noise": 0.0
+    }
+  },
+  "section_e_temporal_flow": {
+    "autocorrelations": [
+      0.2990167038592708,
+      0.9693865436566945,
+      0.7665670942390574,
+      0.6023831371924456,
+      0.012433904458318282,
+      0.6841461220088302,
+      0.3277634282998851,
+      0.23369630639468764
+    ],
+    "persistence_sigma": 0.1,
+    "decay_rates": {
+      "primes": -0.1656235051866075,
+      "fibonacci": -0.09802786364939439,
+      "modular_arithmetic": 0.02823105746937231,
+      "additive_recurrence": 0.06851490581619217,
+      "lorenz": -0.02756270056116345,
+      "logistic_map": 0.22902601433523084,
+      "henon_map": -0.08155309220224873,
+      "ising_magnetization": 0.16767424849279938,
+      "reaction_diffusion": -0.008862903090302266,
+      "cfg_expansion": 0.08924431879792435,
+      "lambda_reduction": -0.07143983415390234,
+      "rewrite_system": -0.09181805878050893,
+      "iid_gaussian": 0.1641469757904562,
+      "colored_noise": -0.05006785427064717
+    },
+    "decay_flow_corr": {
+      "r": -0.40449989886291887,
+      "p": 0.15140966155308053
+    },
+    "rank_preservation": [
+      1.0,
+      0.4593406593406593,
+      0.48571428571428577,
+      0.23956043956043957,
+      0.2,
+      0.48571428571428577,
+      0.5648351648351648,
+      0.37142857142857144,
+      0.48571428571428577
+    ],
+    "ranks_stable": false
+  },
+  "section_f_synthetic_continua": {
+    "continua": {
+      "logistic_map\u2192lorenz": {
+        "straightness": 0.867913427079545,
+        "max_curvature": 0.00598734129522005,
+        "min_dist_to_bridge": 1.2500814358858903,
+        "peak_flow": 0.9999991565781743
+      },
+      "cfg_expansion\u2192lambda_reduction": {
+        "straightness": 0.09074098481972862,
+        "max_curvature": 0.004061428282889246,
+        "min_dist_to_bridge": 3.884117896163875,
+        "peak_flow": 0.9999999999996693
+      },
+      "iid_gaussian\u2192ising_magnetization": {
+        "straightness": 0.8238098475976472,
+        "max_curvature": 0.003169501843189204,
+        "min_dist_to_bridge": 1.3656268733725505,
+        "peak_flow": 0.9999871960167412
+      },
+      "colored_noise\u2192reaction_diffusion": {
+        "straightness": 0.8696170416230358,
+        "max_curvature": 0.005563320892766455,
+        "min_dist_to_bridge": 1.4455342116830587,
+        "peak_flow": 0.999999852721634
+      },
+      "primes\u2192lorenz": {
+        "straightness": 0.9830874172849232,
+        "max_curvature": 0.00011085862244075706,
+        "min_dist_to_bridge": 1.138643470562116,
+        "peak_flow": 0.9999936220526949
+      },
+      "fibonacci\u2192henon_map": {
+        "straightness": 0.5475923997679555,
+        "max_curvature": 0.05023409941528745,
+        "min_dist_to_bridge": 3.090003797849154,
+        "peak_flow": 0.9999988190065318
+      }
+    },
+    "bridge_passages": [
+      "logistic_map\u2192lorenz",
+      "iid_gaussian\u2192ising_magnetization",
+      "colored_noise\u2192reaction_diffusion",
+      "primes\u2192lorenz"
+    ]
+  },
+  "section_g_bifurcation": {
+    "jump_events": [
+      {
+        "system": "additive_recurrence",
+        "sigma": 3.0,
+        "delta": 4.644573990265863,
+        "flow_before": 2.1075060762632374
+      },
+      {
+        "system": "reaction_diffusion",
+        "sigma": 3.0,
+        "delta": 4.284674113714057,
+        "flow_before": 8.302310289825469
+      },
+      {
+        "system": "cfg_expansion",
+        "sigma": 3.0,
+        "delta": 4.2549583375245055,
+        "flow_before": 1.038301297600371
+      },
+      {
+        "system": "primes",
+        "sigma": 3.0,
+        "delta": 3.771512689300758,
+        "flow_before": 1.4956841008690396
+      },
+      {
+        "system": "rewrite_system",
+        "sigma": 3.0,
+        "delta": 3.598115878203368,
+        "flow_before": 1.9031981897130084
+      },
+      {
+        "system": "lorenz",
+        "sigma": 3.0,
+        "delta": 3.265271751150682,
+        "flow_before": 8.96905888019484
+      },
+      {
+        "system": "modular_arithmetic",
+        "sigma": 3.0,
+        "delta": 3.2085553806398663,
+        "flow_before": 3.503977108343641
+      },
+      {
+        "system": "henon_map",
+        "sigma": 3.0,
+        "delta": 3.0932353433459108,
+        "flow_before": 2.7450246526183912
+      },
+      {
+        "system": "iid_gaussian",
+        "sigma": 3.0,
+        "delta": 3.0040633344595147,
+        "flow_before": 1.0392089783028116
+      },
+      {
+        "system": "colored_noise",
+        "sigma": 3.0,
+        "delta": 3.0000320791906034,
+        "flow_before": 1.0
+      },
+      {
+        "system": "fibonacci",
+        "sigma": 3.0,
+        "delta": 2.725790239933539,
+        "flow_before": 1.8080956179246577
+      },
+      {
+        "system": "logistic_map",
+        "sigma": 3.0,
+        "delta": 2.7050649243454634,
+        "flow_before": 0.0
+      },
+      {
+        "system": "ising_magnetization",
+        "sigma": 3.0,
+        "delta": 2.5281188949523323,
+        "flow_before": 7.931815828333654
+      },
+      {
+        "system": "modular_arithmetic",
+        "sigma": 2.0,
+        "delta": 2.3228563959438406,
+        "flow_before": 3.503977108343641
+      },
+      {
+        "system": "lambda_reduction",
+        "sigma": 3.0,
+        "delta": 2.257457487999285,
+        "flow_before": 1.2468535727562655
+      },
+      {
+        "system": "primes",
+        "sigma": 1.5,
+        "delta": 2.0456729692194897,
+        "flow_before": 1.4956841008690396
+      },
+      {
+        "system": "ising_magnetization",
+        "sigma": 2.0,
+        "delta": 2.0123900185351267,
+        "flow_before": 7.931815828333654
+      },
+      {
+        "system": "colored_noise",
+        "sigma": 1.5,
+        "delta": 1.9858464347432412,
+        "flow_before": 1.0
+      },
+      {
+        "system": "lambda_reduction",
+        "sigma": 2.0,
+        "delta": 1.9493427253837734,
+        "flow_before": 1.2468535727562655
+      },
+      {
+        "system": "lorenz",
+        "sigma": 2.0,
+        "delta": 1.8433670339013177,
+        "flow_before": 8.96905888019484
+      },
+      {
+        "system": "additive_recurrence",
+        "sigma": 2.0,
+        "delta": 1.8324924349074132,
+        "flow_before": 2.1075060762632374
+      },
+      {
+        "system": "logistic_map",
+        "sigma": 1.5,
+        "delta": 1.8063695053114133,
+        "flow_before": 0.0
+      },
+      {
+        "system": "fibonacci",
+        "sigma": 2.0,
+        "delta": 1.793385496957225,
+        "flow_before": 1.8080956179246577
+      },
+      {
+        "system": "logistic_map",
+        "sigma": 2.0,
+        "delta": 1.7629110325200064,
+        "flow_before": 0.0
+      },
+      {
+        "system": "rewrite_system",
+        "sigma": 2.0,
+        "delta": 1.6296217522617067,
+        "flow_before": 1.9031981897130084
+      },
+      {
+        "system": "colored_noise",
+        "sigma": 2.0,
+        "delta": 1.5772451544699015,
+        "flow_before": 1.0
+      },
+      {
+        "system": "modular_arithmetic",
+        "sigma": 1.5,
+        "delta": 1.434206270376269,
+        "flow_before": 3.503977108343641
+      },
+      {
+        "system": "henon_map",
+        "sigma": 1.5,
+        "delta": 1.4273580783664575,
+        "flow_before": 2.7450246526183912
+      },
+      {
+        "system": "iid_gaussian",
+        "sigma": 1.5,
+        "delta": 1.4250940809344113,
+        "flow_before": 1.0392089783028116
+      },
+      {
+        "system": "lorenz",
+        "sigma": 1.5,
+        "delta": 1.3593373396452308,
+        "flow_before": 8.96905888019484
+      },
+      {
+        "system": "iid_gaussian",
+        "sigma": 2.0,
+        "delta": 1.333295173842005,
+        "flow_before": 1.0392089783028116
+      },
+      {
+        "system": "additive_recurrence",
+        "sigma": 1.5,
+        "delta": 1.3162396941894992,
+        "flow_before": 2.1075060762632374
+      },
+      {
+        "system": "logistic_map",
+        "sigma": 1.0,
+        "delta": 1.3119682492479867,
+        "flow_before": 0.0
+      },
+      {
+        "system": "henon_map",
+        "sigma": 2.0,
+        "delta": 1.3044918179280733,
+        "flow_before": 2.7450246526183912
+      },
+      {
+        "system": "primes",
+        "sigma": 2.0,
+        "delta": 1.298828527734839,
+        "flow_before": 1.4956841008690396
+      },
+      {
+        "system": "reaction_diffusion",
+        "sigma": 1.5,
+        "delta": 1.288085531347248,
+        "flow_before": 8.302310289825469
+      },
+      {
+        "system": "cfg_expansion",
+        "sigma": 1.5,
+        "delta": 1.2496921628517463,
+        "flow_before": 1.038301297600371
+      },
+      {
+        "system": "cfg_expansion",
+        "sigma": 2.0,
+        "delta": 1.2310525420700964,
+        "flow_before": 1.038301297600371
+      },
+      {
+        "system": "fibonacci",
+        "sigma": 1.5,
+        "delta": 1.2203975559046631,
+        "flow_before": 1.8080956179246577
+      },
+      {
+        "system": "reaction_diffusion",
+        "sigma": 2.0,
+        "delta": 1.1764332629373675,
+        "flow_before": 8.302310289825469
+      },
+      {
+        "system": "ising_magnetization",
+        "sigma": 1.5,
+        "delta": 1.1217991307399835,
+        "flow_before": 7.931815828333654
+      },
+      {
+        "system": "rewrite_system",
+        "sigma": 1.5,
+        "delta": 1.120824159460884,
+        "flow_before": 1.9031981897130084
+      },
+      {
+        "system": "reaction_diffusion",
+        "sigma": 1.0,
+        "delta": 1.103736804987349,
+        "flow_before": 8.302310289825469
+      },
+      {
+        "system": "primes",
+        "sigma": 1.0,
+        "delta": 1.1032100334988355,
+        "flow_before": 1.4956841008690396
+      },
+      {
+        "system": "lambda_reduction",
+        "sigma": 1.5,
+        "delta": 1.0020781246808894,
+        "flow_before": 1.2468535727562655
+      },
+      {
+        "system": "henon_map",
+        "sigma": 1.0,
+        "delta": 0.9731111832238096,
+        "flow_before": 2.7450246526183912
+      },
+      {
+        "system": "fibonacci",
+        "sigma": 1.0,
+        "delta": 0.9427369250483006,
+        "flow_before": 1.8080956179246577
+      },
+      {
+        "system": "lambda_reduction",
+        "sigma": 1.0,
+        "delta": 0.8666022088701145,
+        "flow_before": 1.2468535727562655
+      },
+      {
+        "system": "cfg_expansion",
+        "sigma": 1.0,
+        "delta": 0.7796728714293613,
+        "flow_before": 1.038301297600371
+      },
+      {
+        "system": "iid_gaussian",
+        "sigma": 0.7,
+        "delta": 0.7721466408179685,
+        "flow_before": 1.0392089783028116
+      },
+      {
+        "system": "additive_recurrence",
+        "sigma": 1.0,
+        "delta": 0.7153810081681005,
+        "flow_before": 2.1075060762632374
+      },
+      {
+        "system": "cfg_expansion",
+        "sigma": 0.7,
+        "delta": 0.6996546711477308,
+        "flow_before": 1.038301297600371
+      },
+      {
+        "system": "rewrite_system",
+        "sigma": 1.0,
+        "delta": 0.6761931163510042,
+        "flow_before": 1.9031981897130084
+      },
+      {
+        "system": "additive_recurrence",
+        "sigma": 0.7,
+        "delta": 0.6627528774907163,
+        "flow_before": 2.1075060762632374
+      },
+      {
+        "system": "colored_noise",
+        "sigma": 1.0,
+        "delta": 0.6491068555788763,
+        "flow_before": 1.0
+      },
+      {
+        "system": "iid_gaussian",
+        "sigma": 1.0,
+        "delta": 0.6381674343907844,
+        "flow_before": 1.0392089783028116
+      },
+      {
+        "system": "lorenz",
+        "sigma": 0.7,
+        "delta": 0.6018320067046183,
+        "flow_before": 8.96905888019484
+      },
+      {
+        "system": "lorenz",
+        "sigma": 1.0,
+        "delta": 0.5419548563308845,
+        "flow_before": 8.96905888019484
+      },
+      {
+        "system": "modular_arithmetic",
+        "sigma": 1.0,
+        "delta": 0.5246832380906088,
+        "flow_before": 3.503977108343641
+      }
+    ],
+    "n_jumps": 59,
+    "n_inversions": 3,
+    "rank_shifts": {
+      "primes": 2.0,
+      "fibonacci": 3.0,
+      "modular_arithmetic": 2.0,
+      "additive_recurrence": 3.0,
+      "lorenz": 2.0,
+      "logistic_map": 4.0,
+      "henon_map": 4.0,
+      "ising_magnetization": 4.0,
+      "reaction_diffusion": 0.0,
+      "cfg_expansion": 3.0,
+      "lambda_reduction": 3.0,
+      "rewrite_system": 3.0,
+      "iid_gaussian": 4.0,
+      "colored_noise": 4.0
+    },
+    "rank_shift_flow_corr": {
+      "r": -0.5169822150292752,
+      "p": 0.058351527219026554
+    }
+  },
+  "section_h_null_destruction": {
+    "baseline_flow_collapse_r": -0.7784072554161842,
+    "null_axis_shuffle": {
+      "mean_r": 0.020341298331526047,
+      "std_r": 0.2780350746078191
+    },
+    "null_flow_shuffle": {
+      "mean_r": 0.018781775644439103,
+      "std_r": 0.2645630129009096
+    },
+    "null_feature_shuffle": {
+      "mean_r": 0.043591664246862886,
+      "std_r": 0.26181298333529707
+    },
+    "null_geodesic_noise": {
+      "mean_r": -0.4105623506342756,
+      "std_r": 0.1717140952040305
+    },
+    "null_density_shuffle": {
+      "mean_r": 0.01165704594079008,
+      "std_r": 0.29095540838901046
+    },
+    "null_full_destruction": {
+      "mean_r": 0.058963961787915874,
+      "std_r": 0.28647133792214363
+    }
+  },
+  "final_verdict": {
+    "criteria": {
+      "C1": {
+        "name": "A: Drift correlates with flow (p<0.05)",
+        "passed": false,
+        "evidence": "r=-0.334, p=0.2427"
+      },
+      "C2": {
+        "name": "B: Basin escape correlates with flow (p<0.05)",
+        "passed": false,
+        "evidence": "r=-0.086"
+      },
+      "C3": {
+        "name": "B: Bridge crossing correlates with flow",
+        "passed": true,
+        "evidence": "r=0.955"
+      },
+      "C4": {
+        "name": "C: Stability correlates with flow",
+        "passed": true,
+        "evidence": "r=0.799"
+      },
+      "C5": {
+        "name": "D: Bridge is transit corridor",
+        "passed": false,
+        "evidence": "NO"
+      },
+      "C6": {
+        "name": "D: Betweenness correlates with flow",
+        "passed": false,
+        "evidence": "r=-0.324"
+      },
+      "C7": {
+        "name": "E: Flow ranks stable under perturbation",
+        "passed": false,
+        "evidence": "LOST"
+      },
+      "C8": {
+        "name": "H: Null destruction breaks prediction",
+        "passed": false,
+        "evidence": "real - null = -0.837"
+      }
+    },
+    "n_passed": 2,
+    "n_total": 8,
+    "is_dynamical": false,
+    "is_partial": false
+  }
+}

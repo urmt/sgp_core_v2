@@ -1,0 +1,10 @@
+assumption_id,assumption_name,role,MC1,MC2,MC3,MC4,MC5,total
+OC2,Distinguishability,Root — the generative seed,0,0,1,0,0,1
+OC1,Stable structure,"Bootstrap — requires OC2, enables CD1",1,0,1,0,0,2
+CD1,Causal relations exist,"Bootstrap — requires OC1, enables IC1",1,0,0,0,0,1
+IC1,Extractable information,"Closure — requires OC2+CD1, enables IS1",1,1,0,0,0,2
+IS1,Phase structure (change),"Closure — requires OC2+IC1 (edge IC1->IS1, not IS2)",0,1,1,0,0,2
+IS2,Determinate outputs,Closure — requires IC1 (edge IS2->IC1 reversed),1,1,0,0,0,2
+CD2,Self-affecting procedures,Downstream — requires CD1+IS1,0,1,1,1,0,3
+EC1,Self-knowledge,Downstream — requires IS1+IS2,0,0,0,1,0,1
+SR1,Self-examination of outputs,"Capstone — requires IS1a+IS2, enables fertility",0,1,1,1,1,4

@@ -1,0 +1,7 @@
+model,mean_closure,survival_rate,preserves
+full_recursive,0.619871008423512,0.965,continuity
+minimal_coupled,0.5787238748062896,0.945,continuity
+phase_only,0.8053552219020572,1.0,continuity
+frequency_only,0.6985289195392985,1.0,continuity
+scalar_closure,0.48731052865730023,0.9,continuity
+no_dynamics,0.49452298337117534,0.69,weak

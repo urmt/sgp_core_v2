@@ -1,0 +1,35 @@
+{
+  "tests": [
+    {
+      "test": "distinction_without_others",
+      "result": "logically_possible_but_insufficient_for_organization"
+    },
+    {
+      "test": "constraint_without_distinction",
+      "result": "depends_on_distinction"
+    },
+    {
+      "test": "preservation_without_distinction",
+      "result": "depends_on_distinction"
+    },
+    {
+      "test": "preservation_without_constraint",
+      "result": "partially_possible_but_trivial"
+    },
+    {
+      "test": "recursion_without_distinction",
+      "result": "depends_on_distinction"
+    },
+    {
+      "test": "recursion_without_constraint",
+      "result": "depends_on_constraint"
+    },
+    {
+      "test": "recursion_without_preservation",
+      "result": "depends_on_preservation"
+    }
+  ],
+  "dependency_structure": "chain",
+  "verdict": "outcome_b_compresses",
+  "true_junction": "the_chain_itself"
+}

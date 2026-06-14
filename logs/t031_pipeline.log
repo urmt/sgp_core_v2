@@ -1,0 +1,137 @@
+======================================================================
+T031: NULL GEOMETRY DISENTANGLEMENT
+Test: Is surviving Φ-space geometry genuine dynamical structure
+      or statistical artifact?
+======================================================================
+
+Loading existing T030 ensemble data...
+  Loaded 211 systems, Φ shape=(211, 4)
+
+======================================================================
+SECTION A: MANIFOLD SURVIVAL ACROSS NULLS
+
+======================================================================
+  REAL: PR=1.9458, eff_rank=2.1285, kNN r=0.9093, smooth=163.03
+  iid_gaussian      : PR=2.5257 [2.3460, 2.7097] surv(PR)=1.298 kNN_r=0.8255
+  cov_gaussian      : PR=1.9512 [1.7586, 2.2306] surv(PR)=1.003 kNN_r=0.8271
+  spectrum_rand     : PR=1.9433 [1.7853, 2.1756] surv(PR)=0.999 kNN_r=0.8162
+  copula_shuffle    : PR=1.7527 [1.6001, 1.9194] surv(PR)=0.901 kNN_r=0.9084
+  maxent            : PR=1.9702 [1.7952, 2.1750] surv(PR)=1.013 kNN_r=0.8622
+  lowrank_adj       : PR=3.0847 [2.8050, 3.2217] surv(PR)=1.585 kNN_r=0.8683
+  random_embedding  : PR=1.9996 [1.7798, 2.2639] surv(PR)=1.028 kNN_r=0.8779
+
+  Section A complete — saved t031_null_metrics.csv
+  Section A time: 0.3s
+
+======================================================================
+SECTION B: INFORMATION GEOMETRY
+
+======================================================================
+  REAL: Fisher entropy=4.8810, KL_vs_Gaussian=-1.4231
+  REAL: Mean |grad(log ρ)| = 0.517184
+  iid_gaussian      : H=6.4242 KL=-0.4627 [-0.7500,-0.6298]
+  cov_gaussian      : H=5.9519 KL=-0.5232 [-0.8064,-0.6895]
+  spectrum_rand     : H=5.8056 KL=-0.4683 [-0.7608,-0.6496]
+  copula_shuffle    : H=3.5767 KL=-0.8694 [-1.1551,-0.9028]
+  maxent            : H=6.0348 KL=-0.5091 [-0.8133,-0.6735]
+  lowrank_adj       : H=6.4599 KL=-0.5283 [-0.8495,-0.7030]
+  random_embedding  : H=5.3295 KL=-1.0168 [-1.2289,-1.0767]
+
+  Section B complete — saved t031_information_geometry.csv
+  Section B time: 1.7s
+
+======================================================================
+SECTION C: SPECTRAL ANALYSIS
+
+======================================================================
+  REAL: decay_exp=0.9487, stable_rank=1.4528, components_90%=4
+  iid_gaussian      : decay_exp=0.8284 stable_rank=1.9375 n90=4
+  cov_gaussian      : decay_exp=0.9379 stable_rank=1.4781 n90=4
+  spectrum_rand     : decay_exp=0.9475 stable_rank=1.4555 n90=4
+  copula_shuffle    : decay_exp=1.0679 stable_rank=1.3686 n90=4
+  maxent            : decay_exp=0.9458 stable_rank=1.5360 n90=4
+  lowrank_adj       : decay_exp=0.5085 stable_rank=2.2729 n90=4
+  random_embedding  : decay_exp=1.2002 stable_rank=1.8075 n90=3
+  Section C time: 0.0s
+
+======================================================================
+SECTION D: ADVERSARIAL TESTING
+
+======================================================================
+  REAL: PR=1.9458
+  FAKE (20 trials): PR=3.1310±0.0221, kNN_r=0.8658±0.0180
+  PR overlap: 0.609 ✗ NOT FOOLED
+
+  Section D complete
+  Section D time: 0.5s
+
+======================================================================
+SECTION E: REPRESENTATION ROBUSTNESS
+
+======================================================================
+  PCA(2)            : TW=0.8533 cont=0.9471 kNN_r=0.9646 PR=1.9635
+  PCA(4)            : TW=0.9700 cont=0.9649 kNN_r=0.9261 PR=3.3066
+  Isomap            : TW=0.9654 cont=0.9605 kNN_r=0.9626 PR=2.6850
+  RandProj          : TW=0.9386 cont=0.9464 kNN_r=0.8791 PR=2.3604
+  Φ_real            : TW=1.0000 cont=1.0000 kNN_r=0.9093 PR=1.9458
+  Null_iid_gaussian : TW=0.5177 cont=0.4880 kNN_r=0.8839 PR=2.5636
+  Null_cov_gaussian : TW=0.5088 cont=0.5022 kNN_r=0.8798 PR=2.0654
+  Null_copula_shuffle: TW=0.4939 cont=0.4999 kNN_r=0.8766 PR=1.9029
+  Null_random_embedding: TW=0.8800 cont=0.9045 kNN_r=0.8768 PR=2.1265
+
+  Section E complete — saved t031_embedding_stability.csv
+  Section E time: 0.3s
+
+======================================================================
+SECTION F: CAUSAL DESTRUCTION TEST
+
+======================================================================
+  Level 0 (original): PR=1.9458, kNN_r=0.9093
+  Level 1 (col_shuffle): PR=2.2811, kNN_r=0.7107
+  Level 2 (row_shuffle): PR=1.4235, kNN_r=0.8871
+  Level 3 (gauss_copula): PR=1.8143, kNN_r=0.8957
+  Level 4 (decorrelate): PR=2.4103, kNN_r=0.9026
+  Level 5 (white_noise): PR=2.6066, kNN_r=0.8237
+
+  Collapse at level 2: row_shuffled
+  Section F complete
+  Section F time: 0.2s
+
+======================================================================
+SECTION G: DECISION FRAMEWORK
+
+======================================================================
+
+  T031 FINAL VERDICT: 6/7 criteria passed
+  ∼ G1: Geometry partially survives statistical nulls  (mean survival PR=1.118)
+  ✓ G2: Adversarial low-rank nulls fail to fool metrics
+  ✓ G3: Causal destruction reduces topology (ΔPR=0.522 at worst level)
+  ✓ G4: Information geometry differs from Gaussian baseline
+  ✓ G5: Representation robustness (mean TW=0.792)
+  ✓ G6: Spectral structure not sufficient to explain geometry
+  ✓ G7: Persistence collapses under causal destruction (min PR=1.423)
+
+  OVERALL: GENUINE DYNAMICAL GEOMETRY
+  Section G time: 0.0s
+
+======================================================================
+GENERATING FIGURES
+
+======================================================================
+  Saved fig_t031_null_pr_comparison.png
+  Saved fig_t031_spectral_decay.png
+  Saved fig_t031_metric_failure_heatmap.png
+  Saved fig_t031_information_geometry.png
+  Saved fig_t031_manifold_survival.png
+  All figures generated
+
+Saving results...
+  Saved t031_geometry_comparison.csv
+  Saved t031_null_rankings.csv
+  Saved t031_null_geometry_results.json
+
+  Total time: 4.1s
+
+======================================================================
+T031 COMPLETE
+======================================================================

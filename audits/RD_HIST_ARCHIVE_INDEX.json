@@ -1,0 +1,1903 @@
+{
+  "total_studies": 236,
+  "series_counts": {
+    "T": 93,
+    "RD-audit": 75,
+    "interaction_first": 6,
+    "scripts": 62
+  },
+  "status_counts": {
+    "substantive": 235,
+    "minimal": 1
+  },
+  "studies": [
+    {
+      "id": "T028_TRANSITION_MANIFOLD_DYNAMICS",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T028_TRANSITION_MANIFOLD_DYNAMICS.py",
+      "size": 52173,
+      "modified": "2026-05-28T14:25:50.228718",
+      "status": "substantive"
+    },
+    {
+      "id": "T028b_PUBLICATION_TABLES",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T028b_PUBLICATION_TABLES.py",
+      "size": 5764,
+      "modified": "2026-05-28T14:26:48.718786",
+      "status": "substantive"
+    },
+    {
+      "id": "T028c_VISUALIZATION",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T028c_VISUALIZATION.py",
+      "size": 16447,
+      "modified": "2026-05-28T14:29:41.236040",
+      "status": "substantive"
+    },
+    {
+      "id": "T029_GEODESIC_EMBEDDING",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T029_GEODESIC_EMBEDDING.py",
+      "size": 24892,
+      "modified": "2026-05-28T14:29:46.613954",
+      "status": "substantive"
+    },
+    {
+      "id": "T029_THEORY_LOCK_AND_AXIOMS",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T029_THEORY_LOCK_AND_AXIOMS.py",
+      "size": 2443,
+      "modified": "2026-05-17T09:07:49.649795",
+      "status": "substantive"
+    },
+    {
+      "id": "T030_PREDICTIVE_GEOMETRY_TEST",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T030_PREDICTIVE_GEOMETRY_TEST.py",
+      "size": 4486,
+      "modified": "2026-05-17T09:24:00.210377",
+      "status": "substantive"
+    },
+    {
+      "id": "T030_TRANSITION_FIELD_GENERALIZATION",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T030_TRANSITION_FIELD_GENERALIZATION.py",
+      "size": 61031,
+      "modified": "2026-05-28T17:35:11.447699",
+      "status": "substantive"
+    },
+    {
+      "id": "T031_NULL_GEOMETRY_DISENTANGLEMENT",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T031_NULL_GEOMETRY_DISENTANGLEMENT.py",
+      "size": 44147,
+      "modified": "2026-05-28T19:08:01.541211",
+      "status": "substantive"
+    },
+    {
+      "id": "T031_STRUCTURED_OPERATOR_CLOSURE",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T031_STRUCTURED_OPERATOR_CLOSURE.py",
+      "size": 4140,
+      "modified": "2026-05-17T09:33:03.264401",
+      "status": "substantive"
+    },
+    {
+      "id": "T032_OOS_PREDICTION",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T032_OOS_PREDICTION.py",
+      "size": 22176,
+      "modified": "2026-05-30T07:54:56.317559",
+      "status": "substantive"
+    },
+    {
+      "id": "T032_REPLAY_ABSORPTION_LAW",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T032_REPLAY_ABSORPTION_LAW.py",
+      "size": 4360,
+      "modified": "2026-05-17T09:40:18.393081",
+      "status": "substantive"
+    },
+    {
+      "id": "T033_OPERATOR_FLOW_RENORMALIZATION",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T033_OPERATOR_FLOW_RENORMALIZATION.py",
+      "size": 4241,
+      "modified": "2026-05-17T09:44:13.561813",
+      "status": "substantive"
+    },
+    {
+      "id": "T033_forecast",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T033_forecast.py",
+      "size": 18937,
+      "modified": "2026-05-30T15:33:34.429331",
+      "status": "substantive"
+    },
+    {
+      "id": "T034_FLOW_GENERATOR_ANALYSIS",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T034_FLOW_GENERATOR_ANALYSIS.py",
+      "size": 3568,
+      "modified": "2026-05-17T09:48:27.879429",
+      "status": "substantive"
+    },
+    {
+      "id": "T034_cross_family_transfer",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T034_cross_family_transfer.py",
+      "size": 27043,
+      "modified": "2026-05-30T16:19:05.998627",
+      "status": "substantive"
+    },
+    {
+      "id": "T035_R1_leakage_removal",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T035_R1_leakage_removal.py",
+      "size": 24951,
+      "modified": "2026-05-30T19:37:14.758104",
+      "status": "substantive"
+    },
+    {
+      "id": "T035_SPECTRAL_SEMIGROUP_DECOMP",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T035_SPECTRAL_SEMIGROUP_DECOMP.py",
+      "size": 3108,
+      "modified": "2026-05-17T09:51:15.380200",
+      "status": "substantive"
+    },
+    {
+      "id": "T035_invariant_search",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T035_invariant_search.py",
+      "size": 27155,
+      "modified": "2026-05-30T17:42:15.096908",
+      "status": "substantive"
+    },
+    {
+      "id": "T036_SECTOR_DYNAMICS",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T036_SECTOR_DYNAMICS.py",
+      "size": 3113,
+      "modified": "2026-05-17T09:56:21.764123",
+      "status": "substantive"
+    },
+    {
+      "id": "T036_family_boundary_geometry",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T036_family_boundary_geometry.py",
+      "size": 19619,
+      "modified": "2026-05-30T20:56:38.931589",
+      "status": "substantive"
+    },
+    {
+      "id": "T037_INFORMATION_DYNAMICS",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T037_INFORMATION_DYNAMICS.py",
+      "size": 2884,
+      "modified": "2026-05-17T09:59:21.506731",
+      "status": "substantive"
+    },
+    {
+      "id": "T037_audit_assumption_ablation",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T037_audit_assumption_ablation.py",
+      "size": 23617,
+      "modified": "2026-05-30T21:43:28.875221",
+      "status": "substantive"
+    },
+    {
+      "id": "T037_primitive_interaction_genesis",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T037_primitive_interaction_genesis.py",
+      "size": 24343,
+      "modified": "2026-05-30T21:34:23.236549",
+      "status": "substantive"
+    },
+    {
+      "id": "T038_ENTROPY_FLOW_GEOMETRY",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T038_ENTROPY_FLOW_GEOMETRY.py",
+      "size": 2916,
+      "modified": "2026-05-17T10:10:13.889559",
+      "status": "substantive"
+    },
+    {
+      "id": "T038_distinction_genesis",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T038_distinction_genesis.py",
+      "size": 27547,
+      "modified": "2026-05-30T21:55:41.447507",
+      "status": "substantive"
+    },
+    {
+      "id": "T039_DUAL_TAU_EQUIVALENCE",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T039_DUAL_TAU_EQUIVALENCE.py",
+      "size": 3081,
+      "modified": "2026-05-17T10:14:52.554211",
+      "status": "substantive"
+    },
+    {
+      "id": "T039_assumption_dependency_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T039_assumption_dependency_audit.py",
+      "size": 23125,
+      "modified": "2026-05-30T22:01:57.875932",
+      "status": "substantive"
+    },
+    {
+      "id": "T040_DUAL_GEOMETRY_COUPLING",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T040_DUAL_GEOMETRY_COUPLING.py",
+      "size": 2808,
+      "modified": "2026-05-17T10:17:51.970404",
+      "status": "substantive"
+    },
+    {
+      "id": "T040_pre_distinction_failure",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T040_pre_distinction_failure.py",
+      "size": 23915,
+      "modified": "2026-05-30T22:10:14.897142",
+      "status": "substantive"
+    },
+    {
+      "id": "T041_LATENT_MANIFOLD_RECOVERY",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T041_LATENT_MANIFOLD_RECOVERY.py",
+      "size": 3301,
+      "modified": "2026-05-17T10:25:46.249961",
+      "status": "substantive"
+    },
+    {
+      "id": "T041_interaction_distinction_genesis",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T041_interaction_distinction_genesis.py",
+      "size": 29873,
+      "modified": "2026-05-30T22:19:21.600575",
+      "status": "substantive"
+    },
+    {
+      "id": "T042_SECTOR_CURVATURE_DYNAMICS",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T042_SECTOR_CURVATURE_DYNAMICS.py",
+      "size": 2812,
+      "modified": "2026-05-17T10:29:42.869248",
+      "status": "substantive"
+    },
+    {
+      "id": "T042_proximity_genesis",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T042_proximity_genesis.py",
+      "size": 23979,
+      "modified": "2026-05-30T22:29:50.522671",
+      "status": "substantive"
+    },
+    {
+      "id": "T043_EMERGENT_GEOMETRY_TEST",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T043_EMERGENT_GEOMETRY_TEST.py",
+      "size": 1697,
+      "modified": "2026-05-17T10:35:04.337160",
+      "status": "substantive"
+    },
+    {
+      "id": "T043_order_discovery",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T043_order_discovery.py",
+      "size": 33285,
+      "modified": "2026-05-30T22:38:39.885595",
+      "status": "substantive"
+    },
+    {
+      "id": "T044_CONSERVED_QUANTITIES",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T044_CONSERVED_QUANTITIES.py",
+      "size": 1729,
+      "modified": "2026-05-17T10:37:30.043796",
+      "status": "substantive"
+    },
+    {
+      "id": "T044_recurrence_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T044_recurrence_audit.py",
+      "size": 25615,
+      "modified": "2026-05-30T22:50:24.928423",
+      "status": "substantive"
+    },
+    {
+      "id": "T045_COMPRESSIBILITY_INVARIANT",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T045_COMPRESSIBILITY_INVARIANT.py",
+      "size": 1760,
+      "modified": "2026-05-17T10:39:32.422811",
+      "status": "substantive"
+    },
+    {
+      "id": "T045_EMERGENT_METRIC_GEOMETRY",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T045_EMERGENT_METRIC_GEOMETRY.py",
+      "size": 2571,
+      "modified": "2026-05-17T10:41:10.923213",
+      "status": "substantive"
+    },
+    {
+      "id": "T045_convergence_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T045_convergence_audit.py",
+      "size": 25889,
+      "modified": "2026-05-31T08:34:42.481613",
+      "status": "substantive"
+    },
+    {
+      "id": "T046_EMERGENT_CAUSAL_STRUCTURE",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T046_EMERGENT_CAUSAL_STRUCTURE.py",
+      "size": 2062,
+      "modified": "2026-05-17T10:45:44.393776",
+      "status": "substantive"
+    },
+    {
+      "id": "T046_boundedness_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T046_boundedness_audit.py",
+      "size": 27302,
+      "modified": "2026-05-31T08:52:59.515143",
+      "status": "substantive"
+    },
+    {
+      "id": "T047_EMERGENT_CONSERVATION_ALGEBRA",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T047_EMERGENT_CONSERVATION_ALGEBRA.py",
+      "size": 2549,
+      "modified": "2026-05-17T10:49:05.281517",
+      "status": "substantive"
+    },
+    {
+      "id": "T047_assumption_lockdown",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T047_assumption_lockdown.py",
+      "size": 6553,
+      "modified": "2026-05-31T09:18:03.847293",
+      "status": "substantive"
+    },
+    {
+      "id": "T048_EMERGENT_DIMENSIONAL_SCALING",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T048_EMERGENT_DIMENSIONAL_SCALING.py",
+      "size": 2242,
+      "modified": "2026-05-17T10:51:32.410143",
+      "status": "substantive"
+    },
+    {
+      "id": "T048_detector_genesis_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T048_detector_genesis_audit.py",
+      "size": 25102,
+      "modified": "2026-05-31T09:29:37.483071",
+      "status": "substantive"
+    },
+    {
+      "id": "T049_EMERGENT_RG_FLOW",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T049_EMERGENT_RG_FLOW.py",
+      "size": 2619,
+      "modified": "2026-05-17T10:53:49.257986",
+      "status": "substantive"
+    },
+    {
+      "id": "T049_primitive_observability_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T049_primitive_observability_audit.py",
+      "size": 16260,
+      "modified": "2026-05-31T09:45:20.329159",
+      "status": "substantive"
+    },
+    {
+      "id": "T050_EMERGENT_ACTION_PRINCIPLE",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T050_EMERGENT_ACTION_PRINCIPLE.py",
+      "size": 2935,
+      "modified": "2026-05-17T10:56:32.783409",
+      "status": "substantive"
+    },
+    {
+      "id": "T050_model_observation_split",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T050_model_observation_split.py",
+      "size": 16935,
+      "modified": "2026-05-31T09:50:14.074942",
+      "status": "substantive"
+    },
+    {
+      "id": "T051_METRIC_TENSOR_STRUCTURE",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T051_METRIC_TENSOR_STRUCTURE.py",
+      "size": 2655,
+      "modified": "2026-05-17T11:09:19.775329",
+      "status": "substantive"
+    },
+    {
+      "id": "T051_unknown_boundary_mapping",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T051_unknown_boundary_mapping.py",
+      "size": 17951,
+      "modified": "2026-05-31T09:58:07.393586",
+      "status": "substantive"
+    },
+    {
+      "id": "T052_dependency_collapse_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T052_dependency_collapse_audit.py",
+      "size": 19480,
+      "modified": "2026-05-31T10:01:56.524026",
+      "status": "substantive"
+    },
+    {
+      "id": "T053_audit_the_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T053_audit_the_audit.py",
+      "size": 13836,
+      "modified": "2026-05-31T10:05:18.756883",
+      "status": "substantive"
+    },
+    {
+      "id": "T054_negation_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T054_negation_audit.py",
+      "size": 14898,
+      "modified": "2026-05-31T11:20:30.739335",
+      "status": "substantive"
+    },
+    {
+      "id": "T055_self_destruction_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T055_self_destruction_audit.py",
+      "size": 17419,
+      "modified": "2026-05-31T11:47:11.355535",
+      "status": "substantive"
+    },
+    {
+      "id": "T056_audit_invariant_search",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T056_audit_invariant_search.py",
+      "size": 30035,
+      "modified": "2026-05-31T12:41:42.524912",
+      "status": "substantive"
+    },
+    {
+      "id": "T058_possibility_landscape",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T058_possibility_landscape.py",
+      "size": 49735,
+      "modified": "2026-05-31T12:57:38.984128",
+      "status": "substantive"
+    },
+    {
+      "id": "T059_compression_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T059_compression_audit.py",
+      "size": 23381,
+      "modified": "2026-05-31T14:09:21.852730",
+      "status": "substantive"
+    },
+    {
+      "id": "T060_class_discrimination",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T060_class_discrimination.py",
+      "size": 26136,
+      "modified": "2026-05-31T14:40:23.361276",
+      "status": "substantive"
+    },
+    {
+      "id": "T061_assumption_extraction_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T061_assumption_extraction_audit.py",
+      "size": 25521,
+      "modified": "2026-05-31T15:21:06.869922",
+      "status": "substantive"
+    },
+    {
+      "id": "T062_assumption_dependency_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T062_assumption_dependency_audit.py",
+      "size": 18272,
+      "modified": "2026-05-31T15:34:37.346448",
+      "status": "substantive"
+    },
+    {
+      "id": "T063_substrate_perturbation_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T063_substrate_perturbation_audit.py",
+      "size": 11926,
+      "modified": "2026-05-31T18:29:06.195010",
+      "status": "substantive"
+    },
+    {
+      "id": "T064_bootstrap_completion_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T064_bootstrap_completion_audit.py",
+      "size": 12540,
+      "modified": "2026-05-31T18:50:27.332913",
+      "status": "substantive"
+    },
+    {
+      "id": "T065_edge_legitimacy_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T065_edge_legitimacy_audit.py",
+      "size": 24038,
+      "modified": "2026-05-31T19:14:54.124485",
+      "status": "substantive"
+    },
+    {
+      "id": "T066_corrected_substrate_validation",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T066_corrected_substrate_validation.py",
+      "size": 23925,
+      "modified": "2026-05-31T20:18:52.248000",
+      "status": "substantive"
+    },
+    {
+      "id": "T067_dependency_sufficiency_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T067_dependency_sufficiency_audit.py",
+      "size": 30221,
+      "modified": "2026-05-31T20:34:31.311072",
+      "status": "substantive"
+    },
+    {
+      "id": "T068_IS1_resolution_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T068_IS1_resolution_audit.py",
+      "size": 19932,
+      "modified": "2026-05-31T20:41:58.737503",
+      "status": "substantive"
+    },
+    {
+      "id": "T069_stage_emergence_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T069_stage_emergence_audit.py",
+      "size": 23948,
+      "modified": "2026-05-31T20:46:42.023710",
+      "status": "substantive"
+    },
+    {
+      "id": "T070_self_examination_requirement_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T070_self_examination_requirement_audit.py",
+      "size": 19354,
+      "modified": "2026-05-31T20:58:28.314758",
+      "status": "substantive"
+    },
+    {
+      "id": "T071_meta_space_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T071_meta_space_audit.py",
+      "size": 31668,
+      "modified": "2026-05-31T21:20:09.911786",
+      "status": "substantive"
+    },
+    {
+      "id": "T072_failure_boundary_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T072_failure_boundary_audit.py",
+      "size": 38701,
+      "modified": "2026-05-31T21:27:46.797096",
+      "status": "substantive"
+    },
+    {
+      "id": "T072b_meta_failure_clustering",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T072b_meta_failure_clustering.py",
+      "size": 14332,
+      "modified": "2026-05-31T21:46:24.810302",
+      "status": "substantive"
+    },
+    {
+      "id": "T073_viability_landscape_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T073_viability_landscape_audit.py",
+      "size": 27218,
+      "modified": "2026-05-31T21:49:09.811524",
+      "status": "substantive"
+    },
+    {
+      "id": "T074_fertility_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T074_fertility_audit.py",
+      "size": 28650,
+      "modified": "2026-05-31T21:54:18.688324",
+      "status": "substantive"
+    },
+    {
+      "id": "T075_stability_fertility_tradeoff",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T075_stability_fertility_tradeoff.py",
+      "size": 27763,
+      "modified": "2026-05-31T21:58:18.166292",
+      "status": "substantive"
+    },
+    {
+      "id": "T076_boundary_geometry_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T076_boundary_geometry_audit.py",
+      "size": 30969,
+      "modified": "2026-05-31T22:12:15.777235",
+      "status": "substantive"
+    },
+    {
+      "id": "T077_attractor_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T077_attractor_audit.py",
+      "size": 35420,
+      "modified": "2026-05-31T22:17:39.650821",
+      "status": "substantive"
+    },
+    {
+      "id": "T078_meta_space_reconstruction",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T078_meta_space_reconstruction.py",
+      "size": 34490,
+      "modified": "2026-05-31T22:22:59.958536",
+      "status": "substantive"
+    },
+    {
+      "id": "T079_meta_constraint_inference",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T079_meta_constraint_inference.py",
+      "size": 38081,
+      "modified": "2026-05-31T22:27:19.543253",
+      "status": "substantive"
+    },
+    {
+      "id": "T080_substrate_reconciliation_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T080_substrate_reconciliation_audit.py",
+      "size": 40023,
+      "modified": "2026-05-31T22:31:37.737993",
+      "status": "substantive"
+    },
+    {
+      "id": "T081_constraint_generativity_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T081_constraint_generativity_audit.py",
+      "size": 47568,
+      "modified": "2026-05-31T22:59:35.672025",
+      "status": "substantive"
+    },
+    {
+      "id": "T082_structural_realization_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T082_structural_realization_audit.py",
+      "size": 42590,
+      "modified": "2026-06-01T06:49:13.262501",
+      "status": "substantive"
+    },
+    {
+      "id": "T083_latent_geometry_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T083_latent_geometry_audit.py",
+      "size": 44982,
+      "modified": "2026-06-01T09:30:48.774804",
+      "status": "substantive"
+    },
+    {
+      "id": "T084B_blind_reliability_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T084B_blind_reliability_audit.py",
+      "size": 33016,
+      "modified": "2026-06-01T10:11:06.935508",
+      "status": "substantive"
+    },
+    {
+      "id": "T084C_descriptive_generative_correspondence_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T084C_descriptive_generative_correspondence_audit.py",
+      "size": 21728,
+      "modified": "2026-06-01T10:22:07.514472",
+      "status": "substantive"
+    },
+    {
+      "id": "T085_mapping_generation_divergence_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T085_mapping_generation_divergence_audit.py",
+      "size": 28232,
+      "modified": "2026-06-01T11:02:45.068753",
+      "status": "substantive"
+    },
+    {
+      "id": "T086_minimal_necessity_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T086_minimal_necessity_audit.py",
+      "size": 25992,
+      "modified": "2026-06-01T11:27:41.576025",
+      "status": "substantive"
+    },
+    {
+      "id": "T087_contradiction_resolution",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T087_contradiction_resolution.py",
+      "size": 27153,
+      "modified": "2026-06-01T11:56:23.494547",
+      "status": "substantive"
+    },
+    {
+      "id": "T088_missing_assumption_localization",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T088_missing_assumption_localization.py",
+      "size": 29336,
+      "modified": "2026-06-01T14:07:32.197898",
+      "status": "substantive"
+    },
+    {
+      "id": "T089_background_prevalence_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T089_background_prevalence_audit.py",
+      "size": 17280,
+      "modified": "2026-06-01T14:11:49.604500",
+      "status": "substantive"
+    },
+    {
+      "id": "T090_substrate_independence_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T090_substrate_independence_audit.py",
+      "size": 29615,
+      "modified": "2026-06-01T15:15:33.439773",
+      "status": "substantive"
+    },
+    {
+      "id": "T091_construct_validity_audit",
+      "series": "T",
+      "path": "/home/student/sgp_core_v2/T091_construct_validity_audit.py",
+      "size": 37215,
+      "modified": "2026-06-01T17:07:50.425074",
+      "status": "substantive"
+    },
+    {
+      "id": "rd015_numerical_analysis",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd015_numerical_analysis.py",
+      "size": 20862,
+      "modified": "2026-06-05T20:39:30.774129",
+      "status": "substantive"
+    },
+    {
+      "id": "rd016_numerical_analysis",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd016_numerical_analysis.py",
+      "size": 14897,
+      "modified": "2026-06-05T21:14:54.438705",
+      "status": "substantive"
+    },
+    {
+      "id": "rd017_analysis",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd017_analysis.py",
+      "size": 30880,
+      "modified": "2026-06-06T08:18:54.983856",
+      "status": "substantive"
+    },
+    {
+      "id": "rd018_analysis",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd018_analysis.py",
+      "size": 40783,
+      "modified": "2026-06-06T08:32:57.786255",
+      "status": "substantive"
+    },
+    {
+      "id": "rd018_within_level_fix",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd018_within_level_fix.py",
+      "size": 7175,
+      "modified": "2026-06-06T08:33:32.073621",
+      "status": "substantive"
+    },
+    {
+      "id": "rd019_causal_models",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd019_causal_models.py",
+      "size": 13411,
+      "modified": "2026-06-06T13:49:04.143296",
+      "status": "substantive"
+    },
+    {
+      "id": "rd019_density_intervention",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd019_density_intervention.py",
+      "size": 17019,
+      "modified": "2026-06-06T13:45:08.897589",
+      "status": "substantive"
+    },
+    {
+      "id": "rd020_causal_models",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd020_causal_models.py",
+      "size": 17944,
+      "modified": "2026-06-06T14:07:11.797162",
+      "status": "substantive"
+    },
+    {
+      "id": "rd020_selective_intervention",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd020_selective_intervention.py",
+      "size": 15513,
+      "modified": "2026-06-06T14:02:40.327414",
+      "status": "substantive"
+    },
+    {
+      "id": "rd021_causal_models",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd021_causal_models.py",
+      "size": 13907,
+      "modified": "2026-06-06T15:11:40.117963",
+      "status": "substantive"
+    },
+    {
+      "id": "rd021_velocity_intervention",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd021_velocity_intervention.py",
+      "size": 20509,
+      "modified": "2026-06-06T15:06:29.631967",
+      "status": "substantive"
+    },
+    {
+      "id": "rd022_analysis",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd022_analysis.py",
+      "size": 30192,
+      "modified": "2026-06-06T19:16:16.268280",
+      "status": "substantive"
+    },
+    {
+      "id": "rd022_estimator_audit",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd022_estimator_audit.py",
+      "size": 11392,
+      "modified": "2026-06-06T19:08:28.138868",
+      "status": "substantive"
+    },
+    {
+      "id": "rd022_explainer",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd022_explainer.py",
+      "size": 10147,
+      "modified": "2026-06-09T13:05:20.300418",
+      "status": "substantive"
+    },
+    {
+      "id": "rd022_tts_narration",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd022_tts_narration.py",
+      "size": 5989,
+      "modified": "2026-06-09T13:13:06.374242",
+      "status": "substantive"
+    },
+    {
+      "id": "rd05_analysis",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd05_analysis.py",
+      "size": 8917,
+      "modified": "2026-06-09T19:49:31.446899",
+      "status": "substantive"
+    },
+    {
+      "id": "rd05_perturbation_sweep",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd05_perturbation_sweep.py",
+      "size": 6309,
+      "modified": "2026-06-09T19:47:06.438437",
+      "status": "substantive"
+    },
+    {
+      "id": "rd06_ensemble_resilience",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd06_ensemble_resilience.py",
+      "size": 11025,
+      "modified": "2026-06-09T20:06:40.229887",
+      "status": "substantive"
+    },
+    {
+      "id": "rd06_figures",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd06_figures.py",
+      "size": 7242,
+      "modified": "2026-06-09T20:14:31.088635",
+      "status": "substantive"
+    },
+    {
+      "id": "rd07_figures",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd07_figures.py",
+      "size": 8357,
+      "modified": "2026-06-09T20:41:33.437219",
+      "status": "substantive"
+    },
+    {
+      "id": "rd07_variance_decomposition",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd07_variance_decomposition.py",
+      "size": 15456,
+      "modified": "2026-06-09T20:40:32.037293",
+      "status": "substantive"
+    },
+    {
+      "id": "rd07a_figures",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd07a_figures.py",
+      "size": 9173,
+      "modified": "2026-06-10T06:30:00.523115",
+      "status": "substantive"
+    },
+    {
+      "id": "rd07a_novelty_audit",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd07a_novelty_audit.py",
+      "size": 13415,
+      "modified": "2026-06-10T06:28:04.268339",
+      "status": "substantive"
+    },
+    {
+      "id": "rd08_figures",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd08_figures.py",
+      "size": 7251,
+      "modified": "2026-06-10T13:02:19.443862",
+      "status": "substantive"
+    },
+    {
+      "id": "rd08_friction_sweep",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd08_friction_sweep.py",
+      "size": 10474,
+      "modified": "2026-06-10T12:57:50.610872",
+      "status": "substantive"
+    },
+    {
+      "id": "rd08_state_space_cartography",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd08_state_space_cartography.py",
+      "size": 10363,
+      "modified": "2026-06-10T12:34:35.610594",
+      "status": "substantive"
+    },
+    {
+      "id": "rd08_state_space_v2",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd08_state_space_v2.py",
+      "size": 10668,
+      "modified": "2026-06-10T12:40:43.580870",
+      "status": "substantive"
+    },
+    {
+      "id": "rd08_state_space_v3",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd08_state_space_v3.py",
+      "size": 9298,
+      "modified": "2026-06-10T12:48:59.445146",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b0_multi_world",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b0_multi_world.py",
+      "size": 5670,
+      "modified": "2026-06-11T17:37:01.431804",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b0_representation_audit",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b0_representation_audit.py",
+      "size": 14767,
+      "modified": "2026-06-11T17:36:38.647980",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b0a_correspondence_audit",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b0a_correspondence_audit.py",
+      "size": 12312,
+      "modified": "2026-06-11T17:53:50.797268",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b0b_identity_audit",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b0b_identity_audit.py",
+      "size": 11694,
+      "modified": "2026-06-11T18:07:13.694502",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b0c_identity_purpose",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b0c_identity_purpose.py",
+      "size": 11795,
+      "modified": "2026-06-11T18:12:49.040752",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b0d_failure_mode",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b0d_failure_mode.py",
+      "size": 12915,
+      "modified": "2026-06-11T18:22:18.408238",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b0e_stress_test",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b0e_stress_test.py",
+      "size": 14639,
+      "modified": "2026-06-11T18:32:23.993281",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b0f_world_audit",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b0f_world_audit.py",
+      "size": 16485,
+      "modified": "2026-06-11T18:39:16.283950",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b3_discriminating_analysis",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b3_discriminating_analysis.py",
+      "size": 4949,
+      "modified": "2026-06-11T17:20:45.038833",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b3_emergence_first",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b3_emergence_first.py",
+      "size": 14297,
+      "modified": "2026-06-11T17:17:17.890502",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b_architectural_invariants",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b_architectural_invariants.py",
+      "size": 20868,
+      "modified": "2026-06-11T16:48:00.558104",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b_phase2_4",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b_phase2_4.py",
+      "size": 22337,
+      "modified": "2026-06-11T16:48:59.931021",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10b_phase5_6",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10b_phase5_6.py",
+      "size": 20903,
+      "modified": "2026-06-11T16:50:29.901380",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bj2_path_independence",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bj2_path_independence.py",
+      "size": 12671,
+      "modified": "2026-06-11T19:58:07.507837",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bj3_description_language",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bj3_description_language.py",
+      "size": 13799,
+      "modified": "2026-06-12T05:20:23.435231",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bj4_dependency",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bj4_dependency.py",
+      "size": 9180,
+      "modified": "2026-06-12T05:54:33.528924",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bj5_topology",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bj5_topology.py",
+      "size": 8174,
+      "modified": "2026-06-12T06:02:01.678414",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bj6_compression",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bj6_compression.py",
+      "size": 7184,
+      "modified": "2026-06-12T07:03:51.208134",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bj7_decomposition",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bj7_decomposition.py",
+      "size": 6325,
+      "modified": "2026-06-12T07:52:30.724154",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bj8_translation",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bj8_translation.py",
+      "size": 8772,
+      "modified": "2026-06-12T09:52:31.231254",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bm1_migration",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bm1_migration.py",
+      "size": 16307,
+      "modified": "2026-06-12T12:57:49.389869",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bm2_migration_map",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bm2_migration_map.py",
+      "size": 9924,
+      "modified": "2026-06-12T13:39:10.076941",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bm3_comparative",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bm3_comparative.py",
+      "size": 14332,
+      "modified": "2026-06-12T14:12:30.864980",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bm4_comparative_structure",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bm4_comparative_structure.py",
+      "size": 9826,
+      "modified": "2026-06-12T14:14:17.848845",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bm5_tension_preservation",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bm5_tension_preservation.py",
+      "size": 8955,
+      "modified": "2026-06-12T14:14:54.066287",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bm6_tension_conditions",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bm6_tension_conditions.py",
+      "size": 8665,
+      "modified": "2026-06-12T14:15:26.181792",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bm6b_viewpoint_vs_claim",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bm6b_viewpoint_vs_claim.py",
+      "size": 3132,
+      "modified": "2026-06-12T14:15:49.749429",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10br0r_persistence_ladder",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10br0r_persistence_ladder.py",
+      "size": 17796,
+      "modified": "2026-06-12T19:05:18.748664",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10br1_interaction_reinterpretation",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10br1_interaction_reinterpretation.py",
+      "size": 22968,
+      "modified": "2026-06-12T15:56:17.231900",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10br2_failed_interactions",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10br2_failed_interactions.py",
+      "size": 9217,
+      "modified": "2026-06-12T17:52:59.170741",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10br3_fertile_interactions",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10br3_fertile_interactions.py",
+      "size": 13309,
+      "modified": "2026-06-12T18:07:03.708446",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10br3b_component_analysis",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10br3b_component_analysis.py",
+      "size": 4450,
+      "modified": "2026-06-12T18:07:25.517054",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10br4_experience_reinterpretation",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10br4_experience_reinterpretation.py",
+      "size": 19130,
+      "modified": "2026-06-12T18:43:20.925269",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bw_distinction_junction",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bw_distinction_junction.py",
+      "size": 10055,
+      "modified": "2026-06-11T19:27:16.436872",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bx_junction_audit",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bx_junction_audit.py",
+      "size": 12534,
+      "modified": "2026-06-11T19:23:18.601123",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10by_constraint_junction",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10by_constraint_junction.py",
+      "size": 10027,
+      "modified": "2026-06-11T19:26:05.530230",
+      "status": "substantive"
+    },
+    {
+      "id": "rd10bz_preservation_junction",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd10bz_preservation_junction.py",
+      "size": 9815,
+      "modified": "2026-06-11T19:26:50.077710",
+      "status": "substantive"
+    },
+    {
+      "id": "rd8a_assemble_matrix",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd8a_assemble_matrix.py",
+      "size": 7218,
+      "modified": "2026-06-10T13:46:07.752954",
+      "status": "substantive"
+    },
+    {
+      "id": "rd8a_figures",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd8a_figures.py",
+      "size": 7818,
+      "modified": "2026-06-10T13:47:59.042299",
+      "status": "substantive"
+    },
+    {
+      "id": "rd8a_geometry_recon",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd8a_geometry_recon.py",
+      "size": 14012,
+      "modified": "2026-06-10T13:47:04.469111",
+      "status": "substantive"
+    },
+    {
+      "id": "rd8b_fertility_recon",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd8b_fertility_recon.py",
+      "size": 10029,
+      "modified": "2026-06-10T14:05:20.600804",
+      "status": "substantive"
+    },
+    {
+      "id": "rd8b_fertility_v2",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd8b_fertility_v2.py",
+      "size": 13243,
+      "modified": "2026-06-10T14:10:50.314783",
+      "status": "substantive"
+    },
+    {
+      "id": "rd9_novelty_shootout",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd9_novelty_shootout.py",
+      "size": 23791,
+      "modified": "2026-06-10T19:53:59.553296",
+      "status": "substantive"
+    },
+    {
+      "id": "rd9e_quick",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd9e_quick.py",
+      "size": 8331,
+      "modified": "2026-06-10T21:09:19.051771",
+      "status": "substantive"
+    },
+    {
+      "id": "rd9e_sp_audit",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd9e_sp_audit.py",
+      "size": 25011,
+      "modified": "2026-06-10T20:27:05.829401",
+      "status": "substantive"
+    },
+    {
+      "id": "rd9e_steps123",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd9e_steps123.py",
+      "size": 6902,
+      "modified": "2026-06-10T20:58:04.009710",
+      "status": "substantive"
+    },
+    {
+      "id": "rd_hist_archive_census",
+      "series": "RD-audit",
+      "path": "/home/student/sgp_core_v2/audits/rd_hist_archive_census.py",
+      "size": 4532,
+      "modified": "2026-06-12T19:19:02.719180",
+      "status": "substantive"
+    },
+    {
+      "id": "__init__",
+      "series": "interaction_first",
+      "path": "/home/student/sgp_core_v2/coherence-benchmark/interaction_first/__init__.py",
+      "size": 6182,
+      "modified": "2026-06-05T04:24:01.632239",
+      "status": "substantive"
+    },
+    {
+      "id": "experiment_if1",
+      "series": "interaction_first",
+      "path": "/home/student/sgp_core_v2/coherence-benchmark/interaction_first/experiment_if1.py",
+      "size": 5042,
+      "modified": "2026-06-05T04:22:54.032136",
+      "status": "substantive"
+    },
+    {
+      "id": "experiment_if2",
+      "series": "interaction_first",
+      "path": "/home/student/sgp_core_v2/coherence-benchmark/interaction_first/experiment_if2.py",
+      "size": 3838,
+      "modified": "2026-06-05T04:23:31.961609",
+      "status": "substantive"
+    },
+    {
+      "id": "experiment_if3",
+      "series": "interaction_first",
+      "path": "/home/student/sgp_core_v2/coherence-benchmark/interaction_first/experiment_if3.py",
+      "size": 4646,
+      "modified": "2026-06-05T04:24:39.317770",
+      "status": "substantive"
+    },
+    {
+      "id": "if_stress_test",
+      "series": "interaction_first",
+      "path": "/home/student/sgp_core_v2/coherence-benchmark/interaction_first/if_stress_test.py",
+      "size": 14727,
+      "modified": "2026-06-05T11:04:38.262177",
+      "status": "substantive"
+    },
+    {
+      "id": "run_all",
+      "series": "interaction_first",
+      "path": "/home/student/sgp_core_v2/coherence-benchmark/interaction_first/run_all.py",
+      "size": 126,
+      "modified": "2026-06-05T04:24:06.980173",
+      "status": "minimal"
+    },
+    {
+      "id": "adversarial_systems",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/adversarial_breaking/adversarial_systems.py",
+      "size": 9245,
+      "modified": "2026-05-13T17:14:35.511344",
+      "status": "substantive"
+    },
+    {
+      "id": "metric_breaking_suite",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/adversarial_breaking/metric_breaking_suite.py",
+      "size": 9877,
+      "modified": "2026-05-13T17:15:10.802525",
+      "status": "substantive"
+    },
+    {
+      "id": "discrimination_metrics",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/core/discrimination_metrics.py",
+      "size": 8009,
+      "modified": "2026-05-13T16:54:30.944657",
+      "status": "substantive"
+    },
+    {
+      "id": "dk_computation",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/core/dk_computation.py",
+      "size": 5691,
+      "modified": "2026-05-13T16:28:20.165027",
+      "status": "substantive"
+    },
+    {
+      "id": "adversarial_metric_test",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/core/metric_redesign/adversarial_metric_test.py",
+      "size": 7443,
+      "modified": "2026-05-13T17:06:03.199271",
+      "status": "substantive"
+    },
+    {
+      "id": "new_metrics",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/core/metric_redesign/new_metrics.py",
+      "size": 12971,
+      "modified": "2026-05-13T17:07:04.058849",
+      "status": "substantive"
+    },
+    {
+      "id": "synthetic_systems",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/core/synthetic_systems.py",
+      "size": 15884,
+      "modified": "2026-05-13T16:46:50.050183",
+      "status": "substantive"
+    },
+    {
+      "id": "universal_dk_pipeline",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/core/universal_dk_pipeline.py",
+      "size": 12057,
+      "modified": "2026-05-13T16:48:20.100086",
+      "status": "substantive"
+    },
+    {
+      "id": "visualization",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/core/visualization.py",
+      "size": 9460,
+      "modified": "2026-05-13T16:49:48.589025",
+      "status": "substantive"
+    },
+    {
+      "id": "cross_domain_generalization",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/cross_domain_generalization/cross_domain_generalization.py",
+      "size": 5051,
+      "modified": "2026-05-13T18:55:04.995342",
+      "status": "substantive"
+    },
+    {
+      "id": "dataset_ingest",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/dataset_ingest/dataset_ingest.py",
+      "size": 7840,
+      "modified": "2026-05-13T18:52:01.840703",
+      "status": "substantive"
+    },
+    {
+      "id": "anti_spoof_detectors",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/ensemble_validation/anti_spoof_detectors.py",
+      "size": 9132,
+      "modified": "2026-05-13T17:21:47.648310",
+      "status": "substantive"
+    },
+    {
+      "id": "ensemble_metrics",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/ensemble_validation/ensemble_metrics.py",
+      "size": 12188,
+      "modified": "2026-05-13T17:22:36.767170",
+      "status": "substantive"
+    },
+    {
+      "id": "large_scale_validation",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/large_scale_validation/large_scale_validation.py",
+      "size": 4293,
+      "modified": "2026-05-13T18:39:49.737075",
+      "status": "substantive"
+    },
+    {
+      "id": "final_combined_detection",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/nonreplay_adversarial/final_combined_detection.py",
+      "size": 4204,
+      "modified": "2026-05-13T18:19:40.860494",
+      "status": "substantive"
+    },
+    {
+      "id": "full_system_test",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/nonreplay_adversarial/full_system_test.py",
+      "size": 4461,
+      "modified": "2026-05-13T18:18:28.292197",
+      "status": "substantive"
+    },
+    {
+      "id": "nonreplay_detection",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/nonreplay_adversarial/nonreplay_detection.py",
+      "size": 4621,
+      "modified": "2026-05-13T18:18:07.701140",
+      "status": "substantive"
+    },
+    {
+      "id": "tuned_detection",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/nonreplay_adversarial/tuned_detection.py",
+      "size": 5897,
+      "modified": "2026-05-13T18:19:09.403232",
+      "status": "substantive"
+    },
+    {
+      "id": "null_models",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/nulls/null_models.py",
+      "size": 10235,
+      "modified": "2026-05-13T16:27:58.612529",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_041_oriented_causal_graph",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/oriented_causal_graph/v2_041_oriented_causal_graph.py",
+      "size": 6840,
+      "modified": "2026-05-14T21:10:39.552209",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_045_orthogonalized_temporal_mass",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/orthogonalized_temporal_mass/v2_045_orthogonalized_temporal_mass.py",
+      "size": 5703,
+      "modified": "2026-05-14T21:27:25.828139",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_043_positional_causal_index",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/positional_causal_index/v2_043_positional_causal_index.py",
+      "size": 7211,
+      "modified": "2026-05-14T21:19:10.559986",
+      "status": "substantive"
+    },
+    {
+      "id": "real_data_pilot",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/real_data_pilot/real_data_pilot.py",
+      "size": 7662,
+      "modified": "2026-05-13T18:45:18.759268",
+      "status": "substantive"
+    },
+    {
+      "id": "real_world_benchmark",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/real_world_benchmark/real_world_benchmark.py",
+      "size": 6977,
+      "modified": "2026-05-13T18:50:20.841100",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_046_metrics",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/redundancy_decoupled_temporal/v2_046_metrics.py",
+      "size": 1497,
+      "modified": "2026-05-14T21:35:09.558047",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_046_redundancy_decoupled_temporal",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/redundancy_decoupled_temporal/v2_046_redundancy_decoupled_temporal.py",
+      "size": 5837,
+      "modified": "2026-05-14T21:30:33.494650",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_047_multi_seed_scale_audit",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/redundancy_decoupled_temporal/v2_047_multi_seed_scale_audit.py",
+      "size": 3888,
+      "modified": "2026-05-14T21:35:51.647040",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_048_asymptotic_orthogonality_audit",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/redundancy_decoupled_temporal/v2_048_asymptotic_orthogonality_audit.py",
+      "size": 5240,
+      "modified": "2026-05-14T21:45:22.925375",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_049_high_frequency_isolated_replay_audit",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/redundancy_decoupled_temporal/v2_049_high_frequency_isolated_replay_audit.py",
+      "size": 3965,
+      "modified": "2026-05-14T21:49:15.957801",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_050_geometry_stabilization_audit",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/redundancy_decoupled_temporal/v2_050_geometry_stabilization_audit.py",
+      "size": 4432,
+      "modified": "2026-05-15T07:13:21.003508",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_051_adversarial_optimization_audit",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/redundancy_decoupled_temporal/v2_051_adversarial_optimization_audit.py",
+      "size": 5340,
+      "modified": "2026-05-15T07:55:51.849443",
+      "status": "substantive"
+    },
+    {
+      "id": "adversarial_graph_systems",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/relational_hardening/adversarial_graph_systems.py",
+      "size": 10842,
+      "modified": "2026-05-13T17:51:06.012517",
+      "status": "substantive"
+    },
+    {
+      "id": "interaction_graphs",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/relational_invariance/interaction_graphs.py",
+      "size": 13134,
+      "modified": "2026-05-13T17:33:39.858773",
+      "status": "substantive"
+    },
+    {
+      "id": "persistence_metrics",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/relational_invariance/persistence_metrics.py",
+      "size": 18513,
+      "modified": "2026-05-13T17:34:28.615641",
+      "status": "substantive"
+    },
+    {
+      "id": "perturbation_geometry",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/relational_invariance/perturbation_geometry.py",
+      "size": 9888,
+      "modified": "2026-05-13T17:33:59.600315",
+      "status": "substantive"
+    },
+    {
+      "id": "enhanced_replay_detection",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/replay_resistance/enhanced_replay_detection.py",
+      "size": 5560,
+      "modified": "2026-05-13T18:10:15.045765",
+      "status": "substantive"
+    },
+    {
+      "id": "final_replay_detection",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/replay_resistance/final_replay_detection.py",
+      "size": 5149,
+      "modified": "2026-05-13T18:11:15.865658",
+      "status": "substantive"
+    },
+    {
+      "id": "full_system_test",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/replay_resistance/full_system_test.py",
+      "size": 3135,
+      "modified": "2026-05-13T18:09:37.575644",
+      "status": "substantive"
+    },
+    {
+      "id": "hardened_temporal",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/replay_resistance/hardened_temporal.py",
+      "size": 3793,
+      "modified": "2026-05-13T18:12:16.932906",
+      "status": "substantive"
+    },
+    {
+      "id": "multi_seed_replay_test",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/replay_resistance/multi_seed_replay_test.py",
+      "size": 2083,
+      "modified": "2026-05-13T18:11:57.257368",
+      "status": "substantive"
+    },
+    {
+      "id": "replay_resistance",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/replay_resistance/replay_resistance.py",
+      "size": 3798,
+      "modified": "2026-05-13T18:08:53.753672",
+      "status": "substantive"
+    },
+    {
+      "id": "tuned_replay_detection",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/replay_resistance/tuned_replay_detection.py",
+      "size": 3707,
+      "modified": "2026-05-13T18:09:53.717560",
+      "status": "substantive"
+    },
+    {
+      "id": "advanced_normalization",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/scale_recovery/advanced_normalization.py",
+      "size": 4314,
+      "modified": "2026-05-13T18:24:03.270638",
+      "status": "substantive"
+    },
+    {
+      "id": "final_scale_metric",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/scale_recovery/final_scale_metric.py",
+      "size": 5025,
+      "modified": "2026-05-13T18:26:55.006312",
+      "status": "substantive"
+    },
+    {
+      "id": "invariant_combined",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/scale_recovery/invariant_combined.py",
+      "size": 4142,
+      "modified": "2026-05-13T18:25:04.101913",
+      "status": "substantive"
+    },
+    {
+      "id": "real_system_test",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/scale_recovery/real_system_test.py",
+      "size": 4016,
+      "modified": "2026-05-13T18:23:13.656503",
+      "status": "substantive"
+    },
+    {
+      "id": "relative_metrics",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/scale_recovery/relative_metrics.py",
+      "size": 3836,
+      "modified": "2026-05-13T18:24:35.337588",
+      "status": "substantive"
+    },
+    {
+      "id": "scale_recovery",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/scale_recovery/scale_recovery.py",
+      "size": 3382,
+      "modified": "2026-05-13T18:22:52.942989",
+      "status": "substantive"
+    },
+    {
+      "id": "semi_structured_test",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/semi_structured_real_signal/semi_structured_test.py",
+      "size": 4760,
+      "modified": "2026-05-13T19:09:27.325771",
+      "status": "substantive"
+    },
+    {
+      "id": "advanced_temporal_adversaries",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/temporal_adversarial_expansion/advanced_temporal_adversaries.py",
+      "size": 10318,
+      "modified": "2026-05-13T17:58:30.517234",
+      "status": "substantive"
+    },
+    {
+      "id": "ensemble_hardening",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/temporal_adversarial_expansion/ensemble_hardening.py",
+      "size": 3723,
+      "modified": "2026-05-13T18:02:47.987250",
+      "status": "substantive"
+    },
+    {
+      "id": "hysteresis_expansion",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/temporal_adversarial_expansion/hysteresis_expansion.py",
+      "size": 1848,
+      "modified": "2026-05-13T18:03:49.597806",
+      "status": "substantive"
+    },
+    {
+      "id": "multi_seed_validation",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/temporal_adversarial_expansion/multi_seed_validation.py",
+      "size": 5197,
+      "modified": "2026-05-13T18:00:26.538550",
+      "status": "substantive"
+    },
+    {
+      "id": "recovery_robustness",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/temporal_adversarial_expansion/recovery_robustness.py",
+      "size": 2484,
+      "modified": "2026-05-13T18:02:28.005719",
+      "status": "substantive"
+    },
+    {
+      "id": "scale_breaking_tests",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/temporal_adversarial_expansion/scale_breaking_tests.py",
+      "size": 2714,
+      "modified": "2026-05-13T18:01:06.965615",
+      "status": "substantive"
+    },
+    {
+      "id": "temporal_classifier",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/temporal_adversarial_expansion/temporal_classifier.py",
+      "size": 6009,
+      "modified": "2026-05-13T18:01:44.560738",
+      "status": "substantive"
+    },
+    {
+      "id": "visualizations",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/temporal_adversarial_expansion/visualizations.py",
+      "size": 4736,
+      "modified": "2026-05-13T18:05:01.898110",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_044_temporal_mass_amplification",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/temporal_mass_amplification/v2_044_temporal_mass_amplification.py",
+      "size": 5353,
+      "modified": "2026-05-14T21:23:11.111232",
+      "status": "substantive"
+    },
+    {
+      "id": "memory_metrics",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/temporal_memory/memory_metrics.py",
+      "size": 10572,
+      "modified": "2026-05-13T17:54:57.289964",
+      "status": "substantive"
+    },
+    {
+      "id": "temporal_dynamics",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/temporal_memory/temporal_dynamics.py",
+      "size": 9552,
+      "modified": "2026-05-13T17:54:43.200493",
+      "status": "substantive"
+    },
+    {
+      "id": "v2_042_time_order_causal_chain",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/time_order_causal_chain/v2_042_time_order_causal_chain.py",
+      "size": 7353,
+      "modified": "2026-05-14T21:15:23.697412",
+      "status": "substantive"
+    },
+    {
+      "id": "validation_runner",
+      "series": "scripts",
+      "path": "/home/student/sgp_core_v2/scripts/validation/validation_runner.py",
+      "size": 10590,
+      "modified": "2026-05-13T16:32:08.675708",
+      "status": "substantive"
+    }
+  ]
+}

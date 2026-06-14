@@ -1,0 +1,2 @@
+phase,within_mean_R2,cross_mean_R2,cross_positive_rate,best_cross_R2,worst_cross_R2,mean_asymmetry
+B1,0.7273,-6.722,0.0677,1.0,-20.0,7.5937

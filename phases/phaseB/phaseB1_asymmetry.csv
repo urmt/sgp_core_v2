@@ -1,0 +1,7 @@
+pair,forward,reverse,asymmetry
+cellular_automata↔graph_diffusion,-10.9875,-6.3397,4.6478
+cellular_automata↔nonlinear_oscillator,-1.8296,-10.1706,8.341
+cellular_automata↔population,-1.3612,-6.773,5.4118
+graph_diffusion↔nonlinear_oscillator,-3.0382,-16.792,13.7538
+graph_diffusion↔population,-3.4647,-15.4364,11.9717
+nonlinear_oscillator↔population,-2.9538,-1.5178,1.436

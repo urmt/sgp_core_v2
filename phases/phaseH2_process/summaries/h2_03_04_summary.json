@@ -1,0 +1,12 @@
+{
+  "phase": "H2_03+H2_04",
+  "seed": 3000,
+  "n_cg_systems_analyzed": 939,
+  "global_persistence_half_life": 12.96059637912673,
+  "global_persistence_max": 37.96059637912673,
+  "global_perturbation_tolerance": Infinity,
+  "n_cg_recoverable": 671,
+  "n_cg_non_recoverable": 268,
+  "global_recovery_probability": 0.9298760059612518,
+  "global_recovery_steps": 5.7056482861400895
+}

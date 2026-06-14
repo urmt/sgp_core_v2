@@ -1,0 +1,75 @@
+{
+  "n_phases_analyzed": 19,
+  "universal_operations": [
+    "examine",
+    "report",
+    "separate"
+  ],
+  "skeleton_invariant": true,
+  "skeleton": {
+    "1": "select_target: acquire previous output",
+    "2": "separate: break into constituent units",
+    "3": "examine: check each unit for hidden requirements",
+    "4": "report: produce verdict",
+    "5": "feed_forward: verdict becomes next target"
+  },
+  "all_phases_follow_skeleton": true,
+  "target_chain_continuous": true,
+  "can_procedure_stop": false,
+  "why_procedure_cannot_stop": "Every phase's output is a statement about prior phases. That statement itself becomes a target for the next phase. The only way to stop is to produce no statement \u2014 but that is not a phase output.",
+  "fixed_point_analysis": {
+    "n_candidates_tested": 5,
+    "results": {
+      "This procedure separates targets into units, checks each uni": "CANDIDATE_FIXED_POINT",
+      "The audit procedure applies itself to its own results.": "CANDIDATE_FIXED_POINT",
+      "This investigation targets a thing, separates it, checks the": "CANDIDATE_FIXED_POINT",
+      "What the investigation cannot stop doing is separating, chec": "non_terminating",
+      "Each phase selects a target, breaks it apart, examines the p": "non_terminating"
+    }
+  },
+  "conserved_quantity": "The generator G: separate(examine(feed_forward(select_target)))",
+  "what_investigation_cannot_stop_doing": [
+    "selecting the previous output as the next target",
+    "separating the target into constituent units",
+    "examining each unit for undeclared requirements",
+    "feeding the report forward as the next target"
+  ],
+  "banned_word_check": [
+    {
+      "word": "distinction",
+      "occurrences": 7
+    },
+    {
+      "word": "identity",
+      "occurrences": 3
+    },
+    {
+      "word": "comparison",
+      "occurrences": 4
+    },
+    {
+      "word": "ordering",
+      "occurrences": 3
+    },
+    {
+      "word": "existence",
+      "occurrences": 2
+    },
+    {
+      "word": "observation",
+      "occurrences": 8
+    },
+    {
+      "word": "concept",
+      "occurrences": 4
+    },
+    {
+      "word": "primitive",
+      "occurrences": 8
+    },
+    {
+      "word": "ontology",
+      "occurrences": 2
+    }
+  ]
+}

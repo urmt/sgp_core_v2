@@ -1,0 +1,284 @@
+{
+  "audits": [
+    {
+      "audit": "RD-5",
+      "descriptions": [
+        "C",
+        "MSE",
+        "factors"
+      ],
+      "n_descriptions": 3,
+      "comparison_present": true,
+      "comparison_type": "metric comparison",
+      "translation_present": false,
+      "translation_type": null,
+      "explanatory_gain": "C is projection of MSE",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-9E",
+      "descriptions": [
+        "SP",
+        "discretization"
+      ],
+      "n_descriptions": 2,
+      "comparison_present": true,
+      "comparison_type": "method vs artifact",
+      "translation_present": false,
+      "translation_type": null,
+      "explanatory_gain": "SP is binary artifact",
+      "gain_magnitude": "medium"
+    },
+    {
+      "audit": "RD-10B.3",
+      "descriptions": [
+        "world",
+        "detector",
+        "motif"
+      ],
+      "n_descriptions": 3,
+      "comparison_present": true,
+      "comparison_type": "detector variants",
+      "translation_present": false,
+      "translation_type": null,
+      "explanatory_gain": "Detectors measure time-series, not architecture",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.0",
+      "descriptions": [
+        "graph",
+        "timeseries",
+        "state-transition",
+        "correlation",
+        "phasespace"
+      ],
+      "n_descriptions": 5,
+      "comparison_present": true,
+      "comparison_type": "representation comparison",
+      "translation_present": true,
+      "translation_type": "cross-representation mapping",
+      "explanatory_gain": "Motifs are world-representation pairs",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.0A",
+      "descriptions": [
+        "rep1",
+        "rep2",
+        "rep3",
+        "rep4",
+        "rep5"
+      ],
+      "n_descriptions": 5,
+      "comparison_present": true,
+      "comparison_type": "correspondence analysis",
+      "translation_present": true,
+      "translation_type": "representation correspondence",
+      "explanatory_gain": "Correspondence varies widely",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.0B",
+      "descriptions": [
+        "predictive",
+        "intervention",
+        "counterfactual",
+        "information",
+        "causal"
+      ],
+      "n_descriptions": 5,
+      "comparison_present": true,
+      "comparison_type": "identity criteria comparison",
+      "translation_present": false,
+      "translation_type": null,
+      "explanatory_gain": "Criteria disagree on \"same world\"",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.0C",
+      "descriptions": [
+        "criteria",
+        "tasks",
+        "purposes"
+      ],
+      "n_descriptions": 3,
+      "comparison_present": true,
+      "comparison_type": "criteria vs tasks",
+      "translation_present": true,
+      "translation_type": "criteria-task mapping",
+      "explanatory_gain": "Criteria are task-specific tools",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.0D",
+      "descriptions": [
+        "causal",
+        "other criteria"
+      ],
+      "n_descriptions": 2,
+      "comparison_present": true,
+      "comparison_type": "criterion stress test",
+      "translation_present": false,
+      "translation_type": null,
+      "explanatory_gain": "Causal fails 60% of time",
+      "gain_magnitude": "medium"
+    },
+    {
+      "audit": "RD-10B.0E",
+      "descriptions": [
+        "stress worlds"
+      ],
+      "n_descriptions": 5,
+      "comparison_present": true,
+      "comparison_type": "world comparison",
+      "translation_present": false,
+      "translation_type": null,
+      "explanatory_gain": "Each criterion has domain",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.0F",
+      "descriptions": [
+        "world types"
+      ],
+      "n_descriptions": 5,
+      "comparison_present": true,
+      "comparison_type": "world comparison",
+      "translation_present": false,
+      "translation_type": null,
+      "explanatory_gain": "Worlds have hidden assumptions",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.X",
+      "descriptions": [
+        "bottom-up",
+        "top-down"
+      ],
+      "n_descriptions": 2,
+      "comparison_present": true,
+      "comparison_type": "chain comparison",
+      "translation_present": true,
+      "translation_type": "cross-chain mapping",
+      "explanatory_gain": "Recursion is junction candidate",
+      "gain_magnitude": "medium"
+    },
+    {
+      "audit": "RD-10B.J2",
+      "descriptions": [
+        "11 ladders"
+      ],
+      "n_descriptions": 11,
+      "comparison_present": true,
+      "comparison_type": "path comparison",
+      "translation_present": false,
+      "translation_type": null,
+      "explanatory_gain": "Path independence confirmed",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.J3",
+      "descriptions": [
+        "5 vocabularies"
+      ],
+      "n_descriptions": 5,
+      "comparison_present": true,
+      "comparison_type": "vocabulary comparison",
+      "translation_present": true,
+      "translation_type": "cross-vocabulary mapping",
+      "explanatory_gain": "Vocabulary independence confirmed",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.J4",
+      "descriptions": [
+        "junctions"
+      ],
+      "n_descriptions": 4,
+      "comparison_present": true,
+      "comparison_type": "dependency analysis",
+      "translation_present": false,
+      "translation_type": null,
+      "explanatory_gain": "Junctions are dependent",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.J6",
+      "descriptions": [
+        "decompositions"
+      ],
+      "n_descriptions": 4,
+      "comparison_present": true,
+      "comparison_type": "decomposition comparison",
+      "translation_present": true,
+      "translation_type": "cross-decomposition mapping",
+      "explanatory_gain": "Compression is decomposition-dependent",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.J7",
+      "descriptions": [
+        "decompositions"
+      ],
+      "n_descriptions": 4,
+      "comparison_present": true,
+      "comparison_type": "isomorphism analysis",
+      "translation_present": true,
+      "translation_type": "cross-decomposition translation",
+      "explanatory_gain": "Isomorphism class identified",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.J8",
+      "descriptions": [
+        "decompositions"
+      ],
+      "n_descriptions": 2,
+      "comparison_present": true,
+      "comparison_type": "translation analysis",
+      "translation_present": true,
+      "translation_type": "explicit translation maps",
+      "explanatory_gain": "Translation invariants identified",
+      "gain_magnitude": "high"
+    },
+    {
+      "audit": "RD-10B.M1",
+      "descriptions": [
+        "migration pattern"
+      ],
+      "n_descriptions": 1,
+      "comparison_present": false,
+      "comparison_type": null,
+      "translation_present": false,
+      "translation_type": null,
+      "explanatory_gain": "Migration is methodological",
+      "gain_magnitude": "medium"
+    },
+    {
+      "audit": "RD-10B.M2",
+      "descriptions": [
+        "migration graph"
+      ],
+      "n_descriptions": 1,
+      "comparison_present": false,
+      "comparison_type": null,
+      "translation_present": false,
+      "translation_type": null,
+      "explanatory_gain": "Progression is oscillation",
+      "gain_magnitude": "high"
+    }
+  ],
+  "h1": {
+    "rate_with": 0.875,
+    "rate_without": 0.7272727272727273
+  },
+  "h2": {
+    "rate_with": 0.8235294117647058,
+    "rate_without": 0.5
+  },
+  "h3": {
+    "comparison_first": 8,
+    "translation_first": 0
+  }
+}

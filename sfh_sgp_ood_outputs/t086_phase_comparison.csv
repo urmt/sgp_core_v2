@@ -1,0 +1,9 @@
+phase,label,n_all,n_none,assumptions_emerged,assumptions_total,mechanisms_emerged,mechanisms_total,viability_basin,fertile_corridor,pc1_pct,intrinsic_dim
+Baseline (no persistence),88.9,67,0,8,9,8,8,,True,42.5,4
+SP (Structural Persistence) original,77.8,1,0,7,9,7,8,,True,42.5,4
+SI (State Inertia),88.9,2,0,8,9,7,8,,True,42.5,4
+SB (Structural Bonds),77.8,2,0,7,9,7,8,,True,42.5,4
+TA (Temporal Averaging),88.9,2,0,8,9,7,8,,True,42.5,4
+CQ (Conservation Quantity),88.9,62,0,8,9,8,8,,True,42.5,4
+FM (Fixed-Point Memory),88.9,49,0,8,9,8,8,,True,42.5,4
+Avg (SI+SB+TA+CQ+FM)/5,77.8,3,0,7,9,8,8,,True,42.5,4

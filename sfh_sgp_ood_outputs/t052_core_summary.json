@@ -1,0 +1,84 @@
+{
+  "n_statements_total": 26,
+  "n_statements_core": 15,
+  "core_statements": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A09",
+    "A10",
+    "A11",
+    "A12",
+    "A13",
+    "A14",
+    "A15",
+    "A17",
+    "A22"
+  ],
+  "n_components": 4,
+  "components": [
+    {
+      "id": 1,
+      "size": 12,
+      "members": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14",
+        "A15",
+        "A17"
+      ]
+    },
+    {
+      "id": 2,
+      "size": 1,
+      "members": [
+        "A09"
+      ]
+    },
+    {
+      "id": 3,
+      "size": 1,
+      "members": [
+        "A06"
+      ]
+    },
+    {
+      "id": 4,
+      "size": 1,
+      "members": [
+        "A22"
+      ]
+    }
+  ],
+  "n_clean": 4,
+  "n_contaminated": 11,
+  "clean_statements": [
+    "A06",
+    "A09",
+    "A13",
+    "A22"
+  ],
+  "contaminated_statements": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A10",
+    "A11",
+    "A12",
+    "A14",
+    "A15",
+    "A17"
+  ]
+}

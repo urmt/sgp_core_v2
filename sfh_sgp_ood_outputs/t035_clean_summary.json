@@ -1,0 +1,35 @@
+{
+  "n_relationships_tested": 91,
+  "n_independent_relationships": 82,
+  "n_likely_derivational_removed": 1,
+  "whitelist_variables": [
+    "tau_m1",
+    "tau_m2",
+    "tau_m3",
+    "tau_m4",
+    "temporal_corr",
+    "phase_corr",
+    "effective_rank",
+    "spectral_entropy",
+    "mean_curvature",
+    "local_dim",
+    "laminarity",
+    "divergence_rate",
+    "PR",
+    "pc1"
+  ],
+  "best_relationship": {
+    "X": "tau_m2",
+    "Y": "PR",
+    "model": "linear",
+    "pooled_r2": 0.6729857819905214,
+    "mean_transfer_r2": 0.21666666666666667,
+    "invariance_score": 0.0,
+    "cv_slope": 0.0046302437151846815,
+    "permutation_p": 1,
+    "ranking_score": 0.46568626472800767
+  },
+  "n_top20_pass_criteria": 0,
+  "success_criterion": "pooled_R2>0.50 AND transfer_R2>0.30 AND p<0.01 AND CV_slope<0.25",
+  "success_met": false
+}

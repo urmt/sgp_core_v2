@@ -1,0 +1,10 @@
+assumption,name,construct_validity,simulator_dependence,scoring_dependence,t090_verdict,primary_threat
+OC2,Distinguishability,LOW-MODERATE,HIGH,MODERATE,Primitive (99-100% in all substrates),"Category error: distinguishes states, not observer from phenomenon"
+OC1,Stable Structure (Boundedness),LOW,LOW,HIGH,Implementation-dependent (41.8-94.8%),Inversion error: structure ≠ repetitiveness
+CD1,Causal Relations Exist,MODERATE,HIGH,HIGH,Implementation-dependent (10.2-100%),"40% weight is a simulator configuration, not an observation"
+IC1,Extractable Information,LOW,EXTREME,HIGH,Markov artifact (0-100%),Inversion: branching diversity ≠ extractable information
+IS1,Phase Structure (Investigative Change),MODERATE,LOW,HIGH,Implementation-dependent (23.2-100%),Block size (5) is arbitrary — determines what counts as a phase
+IS2,Determinate Outputs (Coincidence),VERY LOW,LOW,EXTREME,Primitive (100% everywhere — floor artifact),0.5 measurement floor makes the metric uninformative for most systems
+CD2,Self-Affecting Procedures,LOW,EXTREME,HIGH,Markov artifact (0-84.6%),"70% weight is simulator configuration, not observation"
+EC1,Self-Knowledge,LOW,EXTREME,HIGH,Markov artifact (<1-79.8%),"80% weight is simulator configuration, not observed self-knowledge"
+SR1,Self-Examination of Outputs,VERY LOW,EXTREME,EXTREME,Markov artifact (0-76%),"Entirely driven by simulator configuration, not observation"

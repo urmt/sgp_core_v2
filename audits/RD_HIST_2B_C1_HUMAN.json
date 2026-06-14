@@ -1,0 +1,66 @@
+{
+  "clustering": "C1",
+  "source": "RD-HIST.2A Human Clustering",
+  "status": "frozen",
+  "description": "Original human clustering from RD-HIST.2A",
+  "category_count": 5,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Generation and Testing",
+      "description": "Studies that generated new instances and tested whether patterns appeared",
+      "studies": [2, 11, 12, 16, 17],
+      "study_ids": ["RD-10B.J2", "T038", "T043", "RD-10B.3", "IF-3"]
+    },
+    {
+      "id": 2,
+      "name": "Classification and Categorization",
+      "description": "Studies that classified or categorized existing data into groups",
+      "studies": [1, 3, 4, 20],
+      "study_ids": ["RD-10B.R0R", "RD-10B.M5", "RD-10B.M6b", "RD-10B.R3b"]
+    },
+    {
+      "id": 3,
+      "name": "Variation and Measurement",
+      "description": "Studies that varied a parameter and measured the effect on outcomes",
+      "studies": [7, 8, 13, 15],
+      "study_ids": ["RD-5", "RD-019", "RD-05", "RD-06"]
+    },
+    {
+      "id": 4,
+      "name": "Comparison and Reinterpretation",
+      "description": "Studies that compared multiple descriptions or reinterpreted existing data",
+      "studies": [5, 9, 10, 19],
+      "study_ids": ["RD-10B.0", "RD-10B.J4", "RD-10B.R1", "T040"]
+    },
+    {
+      "id": 5,
+      "name": "Removal and Degradation Testing",
+      "description": "Studies that removed components or degraded conditions to test robustness",
+      "studies": [6, 14, 18],
+      "study_ids": ["RD-10B.J6", "IF-ST", "T042"]
+    }
+  ],
+  "assignments": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 3,
+    "5": 1,
+    "6": 5,
+    "7": 4,
+    "8": 4,
+    "9": 1,
+    "10": 4,
+    "11": 2,
+    "12": 3,
+    "13": 5,
+    "14": 5,
+    "15": 3,
+    "16": 1,
+    "17": 2,
+    "18": 2,
+    "19": 3,
+    "20": 4
+  }
+}

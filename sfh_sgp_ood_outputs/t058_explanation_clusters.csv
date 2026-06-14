@@ -1,0 +1,16 @@
+cluster_id,name,member_ids,n_members,core_theme,families_represented
+CLU01,Fixed-point mechanisms,C005;C030;C031;C033;C034;C035,6,The audit procedure is mathematically forced to find fixed points because it IS a fixed-point-finding operation.,computational;mathematical_fixed_point;self_reference
+CLU02,Limits of formal systems,C002;C003;C029;C032,4,"The investigation has encountered fundamental limits of formal systems (incompleteness, undecidability, undefinability).",computational;mathematical_fixed_point;language_structure
+CLU03,Self-reference as structure,C013;C014;C015;C016;C017,5,The investigation is a self-referential system; the recursion is what self-reference looks like from inside.,self_reference
+CLU04,Observer entanglement,C018;C019;C021;C022;C023,5,"The observer and observed cannot be separated; every result is about the joint system, not the phenomenon.",observer_model;measurement_framework
+CLU05,Methodological prior dominance,C020;C053;C054;C055;C057,5,"The investigation's methodology rigidly determines its findings; the recursion reflects method, not world.",observer_model;cognitive
+CLU06,Language as cage,C024;C025;C026;C027;C028;C029,6,The investigation's descriptive language imposes the recursive structure it seeks to explain.,language_structure
+CLU07,Information degradation,C007;C008;C009;C010;C011;C012,6,The investigation has exhausted the available information and is now processing its own noise.,information_theoretic
+CLU08,Attractor dynamics,C001;C041;C042;C043;C044;C045;C046,7,The investigation's trajectory through explanation space converges to a basin of attraction from which it cannot escape.,computational;dynamical_system
+CLU09,Evolutionary dead ends,C047;C048;C049;C050;C051;C052,6,The investigation has been trapped by its own optimization dynamics into a local optimum or evolutionary dead end.,evolutionary
+CLU10,Category mismatch,C036;C037;C038;C039;C040,5,"The investigation is looking in the wrong categorical direction (initial vs terminal, object vs relation).",category_theoretic
+CLU11,Measurement artifact,C058;C059;C060;C061;C062;C063,6,"The recursion is an artifact of the measurement instruments, not a property of the measured system.",measurement_framework
+CLU12,Genuine unknowns,C064;C065;C066;C067;C068;C069;C070,7,The recursion may point to something genuinely outside the current framework's capacity to formulate.,unknown
+CLU13,Emergent complexity from simplicity,C001;C030;C041;C047;C070,5,The recursion is the simplest possible behavior of a wide class of systems; it is what emerges when nothing else is forced.,computational;mathematical_fixed_point;dynamical_system;evolutionary;unknown
+CLU14,Infinite regress variants,C018;C022;C057;C067;C069,5,The investigation has entered an infinite regress that is structurally necessary for certain types of questions.,observer_model;cognitive;unknown
+CLU15,Question-reformulation needed,C027;C054;C056;C064;C065,5,The question itself may be malformed; the recursion is what happens when you ask a question that has no answer in the form requested.,language_structure;cognitive;unknown

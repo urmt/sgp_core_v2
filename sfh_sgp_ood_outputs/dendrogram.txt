@@ -1,0 +1,16 @@
+Dendrogram merge sequence:
+  Merge 1: c1+c1 at d=0.064 (size=2)
+  Merge 2: c0+c0 at d=0.265 (size=2)
+  Merge 3: c3+c3 at d=0.851 (size=2)
+  Merge 4: c5+c5 at d=1.066 (size=2)
+  Merge 5: c2+c2 at d=1.271 (size=3)
+  Merge 6: c6+c6 at d=1.839 (size=3)
+  Merge 7: c10+c10 at d=2.199 (size=4)
+  Merge 8: c4+c4 at d=5.345 (size=2)
+  Merge 9: c8+c8 at d=7.566 (size=3)
+  Merge 10: c16+c16 at d=7.646 (size=5)
+  Merge 11: c15+c15 at d=8.110 (size=6)
+  Merge 12: c22+c22 at d=10.591 (size=8)
+  Merge 13: c24+c24 at d=11.918 (size=14)
+
+Leaf order: primes → cfg_expansion → lambda_reduction → modular_arithmetic → fibonacci → rewrite_system → reaction_diffusion → lorenz → ising_magnetization → additive_recurrence → colored_noise → henon_map → logistic_map → iid_gaussian

@@ -1,0 +1,94 @@
+{
+  "invariant_attractor": {
+    "binding": {
+      "pathway_consistency": 1.0,
+      "cross_domain_presence": 1.0,
+      "n_pathways": 5,
+      "n_domains": 5
+    },
+    "network": {
+      "pathway_consistency": 1.0,
+      "cross_domain_presence": 1.0,
+      "n_pathways": 5,
+      "n_domains": 5
+    },
+    "cycle": {
+      "pathway_consistency": 1.0,
+      "cross_domain_presence": 0.2,
+      "n_pathways": 5,
+      "n_domains": 5
+    },
+    "template": {
+      "pathway_consistency": 1.0,
+      "cross_domain_presence": 0.2,
+      "n_pathways": 5,
+      "n_domains": 5
+    },
+    "boundary": {
+      "pathway_consistency": 1.0,
+      "cross_domain_presence": 0.4,
+      "n_pathways": 5,
+      "n_domains": 5
+    },
+    "hierarchy": {
+      "pathway_consistency": 0.0,
+      "cross_domain_presence": 0.0,
+      "n_pathways": 5,
+      "n_domains": 5
+    },
+    "recursion": {
+      "pathway_consistency": 0.0,
+      "cross_domain_presence": 0.2,
+      "n_pathways": 5,
+      "n_domains": 5
+    },
+    "formal_inference": {
+      "pathway_consistency": 1.0,
+      "cross_domain_presence": 0.0,
+      "n_pathways": 5,
+      "n_domains": 5
+    }
+  },
+  "cross_domain": {
+    "granular": {
+      "present": [
+        "binding",
+        "network",
+        "boundary"
+      ],
+      "d_persist": 0.1893365851618668
+    },
+    "reaction_diffusion": {
+      "present": [
+        "binding",
+        "network"
+      ],
+      "d_persist": 0.5803217118208474
+    },
+    "graph_rewriting": {
+      "present": [
+        "binding",
+        "network",
+        "boundary"
+      ],
+      "d_persist": 0.5530540208911079
+    },
+    "cellular_automaton": {
+      "present": [
+        "binding",
+        "network",
+        "template",
+        "recursion"
+      ],
+      "d_persist": 0.21263721288167722
+    },
+    "ecosystem": {
+      "present": [
+        "binding",
+        "network",
+        "cycle"
+      ],
+      "d_persist": 0.7503060034020405
+    }
+  }
+}

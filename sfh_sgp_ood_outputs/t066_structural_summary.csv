@@ -1,0 +1,8 @@
+property,original_value,corrected_value
+generative,False,True
+n_satisfied,3,9
+roots,OC2,OC2
+n_non_trivial_sccs,1,0
+n_cycles,2,0
+min_generating_set_size,1,1
+n_minimal_generating_sets,1,1

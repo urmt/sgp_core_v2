@@ -1,0 +1,9 @@
+{
+  "phase": "R1",
+  "n_ablations": 11,
+  "full_closure": 0.6270018833325582,
+  "first_failure_mechanisms": [
+    "2_no_phase_coupling",
+    "8_closure_only"
+  ]
+}

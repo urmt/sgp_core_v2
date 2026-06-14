@@ -1,0 +1,2 @@
+phase,homogeneity_corr,neighbor_mean_corr,neighbor_std_corr,homogeneity_r2,low_shell_mean,mid_shell_mean,high_shell_mean,verdict
+515,0.6435446904248373,0.8487810093355558,-0.613577860711128,0.4141497685739999,0.6167557291666667,1.0460903888888888,0.9951855000000001,PARTIAL-HOMOGENEITY-STRUCTURE

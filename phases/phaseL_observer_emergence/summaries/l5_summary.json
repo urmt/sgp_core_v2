@@ -1,0 +1,9 @@
+{
+  "n_level0": 4623,
+  "n_level1": 0,
+  "n_level2": 1,
+  "n_level3": 376,
+  "CG_mean_level": 1.2034078807241746,
+  "CL_mean_level": 0.0,
+  "top_distinguishing_condition": "('self_model_consistency', np.float64(46.30696636533526))"
+}

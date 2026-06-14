@@ -1,0 +1,49 @@
+{
+  "phase": "E2",
+  "seed": 3000,
+  "n_systems": 5000,
+  "n_domains": 10,
+  "possibility_metrics": [
+    "poss_reachable_volume",
+    "poss_branching_diversity",
+    "poss_adaptive_recovery",
+    "poss_future_entropy",
+    "poss_divergence_capacity",
+    "poss_stability_fertility_coupling"
+  ],
+  "metric_means": {
+    "poss_reachable_volume": 0.251201,
+    "poss_branching_diversity": 0.248559,
+    "poss_adaptive_recovery": 0.051371,
+    "poss_future_entropy": 14.827595,
+    "poss_divergence_capacity": 696.468572,
+    "poss_stability_fertility_coupling": 0.275638
+  },
+  "metric_stds": {
+    "poss_reachable_volume": 0.369175,
+    "poss_branching_diversity": 0.229905,
+    "poss_adaptive_recovery": 0.14523,
+    "poss_future_entropy": 17.223523,
+    "poss_divergence_capacity": 2401.81825,
+    "poss_stability_fertility_coupling": 0.299564
+  },
+  "n_leakage_flagged": 3,
+  "leakage_details": [
+    {
+      "possibility_metric": "poss_reachable_volume",
+      "fertility_metric": "fertility_state_diversity",
+      "pearson_r": 0.916837
+    },
+    {
+      "possibility_metric": "poss_reachable_volume",
+      "fertility_metric": "fertility_state_coverage",
+      "pearson_r": 0.969498
+    },
+    {
+      "possibility_metric": "poss_stability_fertility_coupling",
+      "fertility_metric": "fertility_state_coverage",
+      "pearson_r": 0.853806
+    }
+  ],
+  "runtime_seconds": 2
+}

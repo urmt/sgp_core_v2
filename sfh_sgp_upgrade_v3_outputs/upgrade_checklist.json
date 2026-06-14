@@ -1,0 +1,10 @@
+{
+  "canonical_metrics": true,
+  "transform_geometry_separation": true,
+  "manifold_estimators": true,
+  "expanded_transforms": true,
+  "null_audit": true,
+  "asymptotic_scaling": true,
+  "proof_language_removed": true,
+  "old_vs_new_comparison": true
+}

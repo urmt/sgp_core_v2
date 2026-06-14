@@ -1,0 +1,8 @@
+phase,statement,confidence,evidence
+T039,Distinction cannot be produced from non-distinction,medium,"True within the authored dependency graph, but graph may be incomplete."
+T048,Distance is the deepest imported primitive,medium,Based on authored prerequisite graph. Graph may be incomplete.
+T049,Observation fails when comparison is removed,medium,"True for observer MODELS, not proven for observation itself."
+T049,Observation fails when ordering is removed,medium,"True for observer MODELS, not proven for observation itself."
+T049,Observation fails when identity is removed,medium,"True for observer MODELS, not proven for observation itself."
+T049,Observation fails when difference is removed,medium,"True for observer MODELS, not proven for observation itself."
+T049,Observation fails when distinction is removed,medium,"True for observer MODELS, not proven for observation itself."

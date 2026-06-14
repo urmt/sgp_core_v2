@@ -1,0 +1,65 @@
+{
+  "phase": "M8R",
+  "method": "Nulls operate at organizational level, then rebuild pairwise interactions from scratch",
+  "robust_effects": [],
+  "moderate_effects": [],
+  "weak_effects": [],
+  "no_effect": [
+    {
+      "metric": "co_stabilization_probability",
+      "real_mean": 0.6117490306688145,
+      "max_collapse": 0.022579575362128956,
+      "effect_type": "NONE"
+    },
+    {
+      "metric": "shared_closure",
+      "real_mean": 0.20701727319836633,
+      "max_collapse": 0.04821522403571277,
+      "effect_type": "NONE"
+    },
+    {
+      "metric": "manifold_convergence",
+      "real_mean": 0.12224201585603887,
+      "max_collapse": 0.06653985259414186,
+      "effect_type": "NONE"
+    },
+    {
+      "metric": "continuity_transfer_efficiency",
+      "real_mean": 0.21581128589804766,
+      "max_collapse": 0.0936889100350572,
+      "effect_type": "NONE"
+    },
+    {
+      "metric": "compatibility_composite",
+      "real_mean": 0.5818109075165708,
+      "max_collapse": 0.044099948787310383,
+      "effect_type": "NONE"
+    },
+    {
+      "metric": "external_continuity_prediction",
+      "real_mean": 0.46503073510464565,
+      "max_collapse": 0.008667351616183261,
+      "effect_type": "NONE"
+    },
+    {
+      "metric": "reciprocal_reconstruction",
+      "real_mean": 0.42280540219479046,
+      "max_collapse": 0.02489891847817549,
+      "effect_type": "NONE"
+    },
+    {
+      "metric": "mutual_anticipation",
+      "real_mean": 0.1745986896510328,
+      "max_collapse": 0.0597302018800534,
+      "effect_type": "NONE"
+    },
+    {
+      "metric": "interaction_stability",
+      "real_mean": 0.42280540219479046,
+      "max_collapse": 0.03398750795315597,
+      "effect_type": "NONE"
+    }
+  ],
+  "correction_of_M8": "Original M8 shuffled already-derived pair metrics. M8R shuffles organizational metrics then rebuilds pairs.",
+  "conclusion": "Effects surviving the most destructive null (temporal decoherence) are the most organizationally meaningful."
+}

@@ -1,0 +1,9 @@
+assumption,description
+symbols,Discrete symbolic objects (integers 0-N)
+identity,"Symbols have fixed identity (hashable, stable)"
+distinction,Different symbols are fully distinguishable
+recursion,Rules apply iteratively to their own outputs
+state_persistence,Output of step t becomes input of step t+1
+rule_tables,Deterministic input->output mapping
+ordering,States are ordered sequences (position matters)
+memory,Full trajectory is retained

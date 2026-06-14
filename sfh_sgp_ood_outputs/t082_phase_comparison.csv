@@ -1,0 +1,8 @@
+phase,label,n_all,n_none,assumptions_emerged,assumptions_total,mechanisms_emerged,mechanisms_total,viability_basin,fertile_corridor,pc1_pct,intrinsic_dim
+"Baseline (MC2+MC3+MC4, threshold 0.5)",55.6,22,8,5,9,1,8,True,True,41.7,4
+SP (Structural Persistence) added,100.0,4,0,9,9,5,8,,True,41.7,4
+MC5 (Recoverable Perturbation) added,100.0,17,0,9,9,5,8,,True,41.7,4
+MC1 (Information Preservation) added,100.0,22,0,9,9,5,8,,True,41.7,4
+Higher thresholds (MC2/MC3/MC4 >= 0.7),33.3,2,56,3,9,1,8,True,True,41.7,4
+Interaction (MC2 x MC3 x MC4 >= 0.216),33.3,45,195,3,9,1,8,False,True,41.7,4
+SP + MC5 combined,100.0,4,0,9,9,5,8,,True,41.7,4

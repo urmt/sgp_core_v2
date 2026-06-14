@@ -1,0 +1,11 @@
+domain,metastability_entropy,hysteresis_asymmetry,n_transitions
+branching,1.2036,-0.9323,1300
+cellular_automata,-0.0,-2.2032,2203
+coupled_map_lattice,3.6224,-0.0192,2432
+graph_diffusion,-0.0,-2.3462,2360
+gray_scott,3.6508,0.2472,2009
+kuramoto,1.6602,1.1547,2000
+lotka_volterra,-0.0,-1.7776,2000
+nonlinear_oscillator,3.1165,0.2836,2000
+population,3.2469,0.2786,2483
+replicator,-0.0,-2.6464,828

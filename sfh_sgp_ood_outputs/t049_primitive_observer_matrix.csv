@@ -1,0 +1,6 @@
+primitive,observation_possible,capabilities_lost,capabilities_total,survival_rate,cap_detect_anything,cap_detect_boundary,cap_detect_causation,cap_detect_change,cap_detect_comparison,cap_detect_convergence,cap_detect_difference,cap_detect_entropy,cap_detect_grouping,cap_detect_identity,cap_detect_information,cap_detect_multiple_states,cap_detect_patterns,cap_detect_persistence,cap_detect_progress,cap_detect_recurrence,cap_detect_same_input_output,cap_detect_self,cap_detect_structure,cap_detect_temporal_sequence,cap_detect_variation,cap_distinguish_signals,cap_distinguish_success,cap_exist_as_observer,cap_maintain_memory,cap_rank_outcomes,cap_report_anything,cap_report_results,cap_track_objects,cap_verify_predictions
+P001_comparison,False,8,8,0.0,,,,False,,False,False,,,False,,,False,,,False,,,,,,,False,,,,False,,,
+P002_ordering,False,8,8,0.0,,,False,False,,False,,,,,,,,,False,False,,,,False,,,,,,False,,False,,
+P003_identity,False,8,8,0.0,,,,,,,,,,,,,False,False,,False,False,False,,,,,,,False,,,,False,False
+P004_difference,False,8,8,0.0,,False,,,,,,False,False,,False,False,,,,,,,False,,False,False,,,,,,,,
+P005_distinction,False,7,7,0.0,False,,,False,False,,False,,,False,,,,,,,,,,,,,,False,,,False,,,

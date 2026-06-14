@@ -1,0 +1,16 @@
+{
+  "phase": "N7",
+  "n_clusters": 4,
+  "cluster_labels": {
+    "0": "synchronizing",
+    "1": "weakly coupled",
+    "2": "unsynchronized",
+    "3": "stabilizing"
+  },
+  "cluster_sizes": {
+    "0": 796,
+    "1": 184,
+    "2": 324,
+    "3": 696
+  }
+}

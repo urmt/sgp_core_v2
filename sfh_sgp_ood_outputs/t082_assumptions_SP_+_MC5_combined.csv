@@ -1,0 +1,10 @@
+assumption,all_mean,none_mean,delta,emerged
+OC2,0.875,0,0.875,True
+OC1,0.675,0,0.675,True
+CD1,0.524,0,0.524,True
+IC1,0.941,0,0.941,True
+IS1,0.538,0,0.538,True
+IS2,0.5,0,0.5,True
+CD2,0.726,0,0.726,True
+EC1,0.696,0,0.696,True
+SR1,0.713,0,0.713,True

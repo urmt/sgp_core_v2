@@ -1,0 +1,7 @@
+{
+  "phase": "P8",
+  "pre_post_shuffle_collapse": -0.08860759479891045,
+  "timing_shuffle_collapse": -0.037974683412914434,
+  "no_transition_collapse": -0.0063291137966672295,
+  "key_observation": "Continuity-through-transition is robust to temporal shuffling within pre/post but depends on coupling change direction"
+}

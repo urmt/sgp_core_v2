@@ -1,0 +1,201 @@
+{
+  "audit": "RD-HIST.2A",
+  "description": "Open Coding Audit — 20 studies selected for blind coding",
+  "selection_criteria": {
+    "coded_studies": "10 studies from RD-HIST.1 with locus assignments, stratified by locus type",
+    "uncoded_studies": "10 studies from the unclassified 195, balanced by apparent outcome: 3 successes, 3 failures, 2 abandoned, 2 ambiguous"
+  },
+  "total_studies": 20,
+  "studies": [
+    {
+      "id": "RD-10B.R0R",
+      "series": "RD",
+      "coded": true,
+      "rd_hist_1_locus": "Persistence",
+      "rd_hist_1_confidence": 0.9,
+      "file_path": "/home/student/sgp_core_v2/audits/rd10br0r_persistence_ladder.py",
+      "result_path": null,
+      "sample_reason": "Latest claim — hierarchical persistence of interaction — must be tested under blind coding"
+    },
+    {
+      "id": "RD-10B.J2",
+      "series": "RD",
+      "coded": true,
+      "rd_hist_1_locus": "Persistence",
+      "rd_hist_1_confidence": 0.9,
+      "file_path": "/home/student/sgp_core_v2/audits/rd10bj2_path_independence.py",
+      "result_path": "/home/student/sgp_core_v2/audits/rd10bj2_results.json",
+      "sample_reason": "High-confidence persistence finding — path independence across 11 ladders"
+    },
+    {
+      "id": "RD-10B.M5",
+      "series": "RD",
+      "coded": true,
+      "rd_hist_1_locus": "Persistence",
+      "rd_hist_1_confidence": 0.9,
+      "file_path": "/home/student/sgp_core_v2/audits/rd10bm5_tension_preservation.py",
+      "result_path": "/home/student/sgp_core_v2/audits/rd10bm5_results.json",
+      "sample_reason": "Tension-preservation as distinguishing factor — core persistence claim"
+    },
+    {
+      "id": "RD-10B.M6b",
+      "series": "RD",
+      "coded": true,
+      "rd_hist_1_locus": "Comparison",
+      "rd_hist_1_confidence": 0.9,
+      "file_path": "/home/student/sgp_core_v2/audits/rd10bm6b_viewpoint_vs_claim.py",
+      "result_path": null,
+      "sample_reason": "Clean comparison finding — viewpoint 0% collapse, claim 100% collapse"
+    },
+    {
+      "id": "RD-10B.0",
+      "series": "RD",
+      "coded": true,
+      "rd_hist_1_locus": "Comparison",
+      "rd_hist_1_confidence": 0.9,
+      "file_path": "/home/student/sgp_core_v2/audits/rd10b0_representation_audit.py",
+      "result_path": "/home/student/sgp_core_v2/audits/rd10b0_results.json",
+      "sample_reason": "Representation audit — motifs are world-representation pairs"
+    },
+    {
+      "id": "RD-10B.J4",
+      "series": "RD",
+      "coded": true,
+      "rd_hist_1_locus": "Relation",
+      "rd_hist_1_confidence": 0.9,
+      "file_path": "/home/student/sgp_core_v2/audits/rd10bj4_dependency.py",
+      "result_path": "/home/student/sgp_core_v2/audits/rd10bj4_results.json",
+      "sample_reason": "Junction dependency — linear chain confirmed"
+    },
+    {
+      "id": "RD-5",
+      "series": "RD",
+      "coded": true,
+      "rd_hist_1_locus": "Relation",
+      "rd_hist_1_confidence": 0.9,
+      "file_path": "/home/student/sgp_core_v2/audits/rd05_analysis.py",
+      "result_path": "/home/student/sgp_core_v2/audits/rd05_fine_results.json",
+      "sample_reason": "C ≈ −MSE projection — r=−0.89"
+    },
+    {
+      "id": "RD-019",
+      "series": "RD",
+      "coded": true,
+      "rd_hist_1_locus": "Other (falsification)",
+      "rd_hist_1_confidence": 0.9,
+      "file_path": "/home/student/sgp_core_v2/audits/rd019_density_intervention.py",
+      "result_path": "/home/student/sgp_core_v2/coherence-benchmark/results/rd019_density_ensemble.json",
+      "sample_reason": "Density falsification — R²=0.055"
+    },
+    {
+      "id": "RD-10B.J6",
+      "series": "RD",
+      "coded": true,
+      "rd_hist_1_locus": "Other (falsification)",
+      "rd_hist_1_confidence": 0.8,
+      "file_path": "/home/student/sgp_core_v2/audits/rd10bj6_compression.py",
+      "result_path": "/home/student/sgp_core_v2/audits/rd10bj6_results.json",
+      "sample_reason": "Compression is decomposition-dependent — falsification of unique generator"
+    },
+    {
+      "id": "RD-10B.R1",
+      "series": "RD",
+      "coded": true,
+      "rd_hist_1_locus": "Interaction",
+      "rd_hist_1_confidence": 0.8,
+      "file_path": "/home/student/sgp_core_v2/audits/rd10br1_interaction_reinterpretation.py",
+      "result_path": "/home/student/sgp_core_v2/audits/rd10br1_results.json",
+      "sample_reason": "Interaction reinterpretation — every gain involved interaction"
+    },
+    {
+      "id": "T038_distinction_genesis",
+      "series": "T",
+      "coded": false,
+      "apparent_outcome": "success",
+      "file_path": "/home/student/sgp_core_v2/T038_distinction_genesis.py",
+      "result_path": "/home/student/sgp_core_v2/T038_RESULTS.json",
+      "sample_reason": "All 3 hypotheses confirmed — substantial simulation, clear positive results"
+    },
+    {
+      "id": "T043_order_discovery",
+      "series": "T",
+      "coded": false,
+      "apparent_outcome": "success",
+      "file_path": "/home/student/sgp_core_v2/T043_order_discovery.py",
+      "result_path": null,
+      "sample_reason": "894-line simulation across 10K universes — discovers statistically unavoidable structure"
+    },
+    {
+      "id": "RD-05_perturbation_sweep",
+      "series": "RD",
+      "coded": false,
+      "apparent_outcome": "success",
+      "file_path": "/home/student/sgp_core_v2/audits/rd05_perturbation_sweep.py",
+      "result_path": "/home/student/sgp_core_v2/audits/rd05_fine_results.json",
+      "sample_reason": "60 runs, 6 perturbation levels — rich recovery data"
+    },
+    {
+      "id": "T042_proximity_genesis",
+      "series": "T",
+      "coded": false,
+      "apparent_outcome": "failure",
+      "file_path": "/home/student/sgp_core_v2/T042_proximity_genesis.py",
+      "result_path": "/home/student/sgp_core_v2/T042_sector_curvature_results.json",
+      "sample_reason": "2/3 hypotheses failed, BROKEN marker — explicit failure"
+    },
+    {
+      "id": "RD-06_ensemble_resilience",
+      "series": "RD",
+      "coded": false,
+      "apparent_outcome": "failure",
+      "file_path": "/home/student/sgp_core_v2/audits/rd06_ensemble_resilience.py",
+      "result_path": "/home/student/sgp_core_v2/audits/rd06_analysis.json",
+      "sample_reason": "AUC=0.473, all statistical tests fail — pre-C does not predict recovery"
+    },
+    {
+      "id": "RD-10B.3_emergence_first",
+      "series": "RD",
+      "coded": false,
+      "apparent_outcome": "failure",
+      "file_path": "/home/student/sgp_core_v2/audits/rd10b3_emergence_first.py",
+      "result_path": "/home/student/sgp_core_v2/audits/rd10b3_results.json",
+      "sample_reason": "Detectors don't discriminate — every motif appears in every world"
+    },
+    {
+      "id": "experiment_if3",
+      "series": "interaction_first",
+      "coded": false,
+      "apparent_outcome": "abandoned",
+      "file_path": "/home/student/sgp_core_v2/coherence-benchmark/interaction_first/experiment_if3.py",
+      "result_path": null,
+      "sample_reason": "Fully coded reconstruction pipeline — never executed"
+    },
+    {
+      "id": "if_stress_test",
+      "series": "interaction_first",
+      "coded": false,
+      "apparent_outcome": "abandoned",
+      "file_path": "/home/student/sgp_core_v2/coherence-benchmark/interaction_first/if_stress_test.py",
+      "result_path": null,
+      "sample_reason": "411-line stress test — runnable but never executed"
+    },
+    {
+      "id": "T040_pre_distinction_failure",
+      "series": "T",
+      "coded": false,
+      "apparent_outcome": "ambiguous",
+      "file_path": "/home/student/sgp_core_v2/T040_pre_distinction_failure.py",
+      "result_path": null,
+      "sample_reason": "Study designed to fail — failure confirms T039's conclusion"
+    },
+    {
+      "id": "RD-10B.R3b_component_analysis",
+      "series": "RD",
+      "coded": false,
+      "apparent_outcome": "ambiguous",
+      "file_path": "/home/student/sgp_core_v2/audits/rd10br3b_component_analysis.py",
+      "result_path": null,
+      "sample_reason": "Opens question without closing it — I+C vs I+P+N+C paradox"
+    }
+  ]
+}

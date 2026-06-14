@@ -1,0 +1,11 @@
+domain,hierarchical_cluster,kmeans_cluster,dominant_operator,dominant_score,score_additive,score_hierarchical,score_multiplicative,score_network,score_symmetry,score_topological
+branching,4,3,hierarchical,1.2996,-6470827272.6915,1.2996,0.2511,0.7775,,0.2179
+cellular_automata,2,0,hierarchical,1.2388,-2603405621.8035,1.2388,0.0965,0.7228,0.8689,0.1666
+coupled_map_lattice,1,1,hierarchical,1.3515,-1035901.0807,1.3515,0.9893,0.9979,,0.4689
+graph_diffusion,3,2,multiplicative,3.0286,-9471693.2325,1.2594,3.0286,0.9889,0.765,0.2964
+gray_scott,1,1,multiplicative,3.7993,-3246214.2634,1.3492,3.7993,0.9724,,0.2721
+kuramoto,2,0,hierarchical,1.1981,-144926260.4709,1.1981,0.1357,0.8737,,0.2694
+lotka_volterra,2,0,hierarchical,1.1087,0.3144,1.1087,0.0457,0.9566,,0.0065
+nonlinear_oscillator,2,0,hierarchical,1.2346,-291890.3012,1.2346,0.1306,0.9502,,0.1969
+population,3,0,hierarchical,1.3317,-51346705.6549,1.3317,0.6096,0.7821,0.7706,0.4342
+replicator,2,0,hierarchical,1.0717,-567291012.8904,1.0717,0.3995,0.4699,0.9348,0.1013

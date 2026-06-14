@@ -1,0 +1,207 @@
+{
+  "phase": "H \u2014 Causal Organizational Control",
+  "seed": 3000,
+  "objective": "Determine whether coherent-generative regimes can be caused, stabilized, destabilized, or transitioned through controlled intervention.",
+  "files": {
+    "interventions": "phases/phaseH/interventions/intervention_results.csv",
+    "transition_maps": "phases/phaseH/transition_maps/regime_transition_maps.csv",
+    "attractor_analysis": "phases/phaseH/processed/attractor_analysis.csv",
+    "hysteresis_analysis": "phases/phaseH/processed/metastability_metrics.csv",
+    "minimal_conditions": "phases/phaseH/processed/minimal_conditions.csv",
+    "destruction_tests": "phases/phaseH/processed/destruction_tests.csv",
+    "causal_transfer": "phases/phaseH/processed/causal_transfer.csv",
+    "null_controls": "phases/phaseH/nulls/null_controls.csv",
+    "metastability_metrics": "phases/phaseH/processed/metastability_metrics.csv"
+  },
+  "H1_target_regimes": {
+    "n_systems": 5000,
+    "regime_distribution": {
+      "chaotic_fertility": 5931,
+      "collapse": 4090,
+      "constrained_generative": 3780,
+      "rigid_coherence": 5814
+    }
+  },
+  "H2_control_perturbations": {
+    "n_interventions": 19615,
+    "overall_transition_prob": 0.40458832526127964,
+    "descriptor_effectiveness": {
+      "RTP": 0.43373493975903615,
+      "CSR": 0.4110075454948957,
+      "SRD": 0.39841017488076313,
+      "RBS": 0.3984013462347497,
+      "ADI": 0.38483290488431876
+    },
+    "best_intervention_per_domain": {
+      "branching": {
+        "desc": [
+          "branching",
+          "ADI"
+        ],
+        "prob": 0.40145985401459855
+      },
+      "cellular_automata": {
+        "desc": [
+          "cellular_automata",
+          "RBS"
+        ],
+        "prob": 0.34794520547945207
+      },
+      "coupled_map_lattice": {
+        "desc": [
+          "coupled_map_lattice",
+          "RBS"
+        ],
+        "prob": 0.648
+      },
+      "graph_diffusion": {
+        "desc": [
+          "graph_diffusion",
+          "ADI"
+        ],
+        "prob": 0.524
+      },
+      "gray_scott": {
+        "desc": [
+          "gray_scott",
+          "RTP"
+        ],
+        "prob": 0.714
+      },
+      "kuramoto": {
+        "desc": [
+          "kuramoto",
+          "RBS"
+        ],
+        "prob": 0.496
+      },
+      "lotka_volterra": {
+        "desc": [
+          "lotka_volterra",
+          "RTP"
+        ],
+        "prob": 0.048
+      },
+      "nonlinear_oscillator": {
+        "desc": [
+          "nonlinear_oscillator",
+          "CSR"
+        ],
+        "prob": 0.634
+      },
+      "population": {
+        "desc": [
+          "population",
+          "CSR"
+        ],
+        "prob": 0.534
+      },
+      "replicator": {
+        "desc": [
+          "replicator",
+          "SRD"
+        ],
+        "prob": 0.2896551724137931
+      }
+    },
+    "domains_with_0_transitions": [
+      "lotka_volterra"
+    ]
+  },
+  "H3_transition_maps": {
+    "n_transition_entries": 540,
+    "regime_transition_matrix": {
+      "chaotic_fertility\u2192chaotic_fertility": 0.5497206896551724,
+      "chaotic_fertility\u2192collapse": 0.0668103448275862,
+      "chaotic_fertility\u2192constrained_generative": 0.2541137931034483,
+      "chaotic_fertility\u2192rigid_coherence": 0.12934827586206896,
+      "collapse\u2192chaotic_fertility": 0.2836418604651163,
+      "collapse\u2192collapse": 0.24530000000000002,
+      "collapse\u2192constrained_generative": 0.2333767441860465,
+      "collapse\u2192rigid_coherence": 0.23767674418604653,
+      "constrained_generative\u2192chaotic_fertility": 0.2968692307692308,
+      "constrained_generative\u2192collapse": 0.09619615384615385,
+      "constrained_generative\u2192constrained_generative": 0.3684076923076923,
+      "constrained_generative\u2192rigid_coherence": 0.23853846153846153,
+      "rigid_coherence\u2192chaotic_fertility": 0.09235405405405406,
+      "rigid_coherence\u2192collapse": 0.24129729729729732,
+      "rigid_coherence\u2192constrained_generative": 0.21710000000000002,
+      "rigid_coherence\u2192rigid_coherence": 0.4492459459459459
+    }
+  },
+  "H4_organizational_attractors": {
+    "strongest_attractor": {
+      "regime": "chaotic_fertility",
+      "domain": "lotka_volterra",
+      "self_transition_prob": 0.9823
+    },
+    "weakest_attractor": {
+      "regime": "rigid_coherence",
+      "domain": "kuramoto",
+      "self_transition_prob": 0.0
+    },
+    "mean_self_transition_by_regime": {
+      "chaotic_fertility": 0.5730142857142857,
+      "collapse": 0.22264999999999996,
+      "constrained_generative": 0.36146666666666666,
+      "rigid_coherence": 0.4442625
+    },
+    "global_mean_self_transition": 0.3858225806451614
+  },
+  "H5_minimal_conditions": {
+    "cg_entry_rate_from_noncg": 0.14979475844647933,
+    "best_cg_trigger_descriptor": "CSR",
+    "cg_inducible_domains": [
+      "branching",
+      "coupled_map_lattice",
+      "gray_scott",
+      "kuramoto",
+      "nonlinear_oscillator",
+      "population"
+    ],
+    "cg_inaccessible_domains": [
+      "cellular_automata",
+      "graph_diffusion",
+      "lotka_volterra",
+      "replicator"
+    ],
+    "n_minimal_conditions": 2372
+  },
+  "H6_destruction_tests": {
+    "n_destruction_entries": 26,
+    "most_destructive_domain": "coupled_map_lattice",
+    "most_destructive_intervention": "perturb_RBS",
+    "highest_destruction_rate": 0.9286,
+    "RBS_as_dominant_destroyer": false
+  },
+  "H7_cross_family_causality": {
+    "n_transfer_entries": 15,
+    "cluster_transfer_quality": {
+      "cluster_1": 0.2913,
+      "cluster_2": 2.786,
+      "cluster_3": 0.1629
+    },
+    "best_transfer": {
+      "cluster": 1,
+      "ratio": 0.0027,
+      "domains": "coupled_map_lattice+gray_scott"
+    },
+    "worst_transfer": {
+      "cluster": 2,
+      "ratio": 4.4045,
+      "domains": "cellular_automata+kuramoto+lotka_volterra+nonlinear_oscillator+replicator"
+    },
+    "interpretation": "Cluster 2 (cellular_automata+kuramoto+lotka_volterra+nonlinear_oscillator+replicator) shows HIGHEST within-cluster variance relative to cross-cluster \u2014 causal effects are NOT transferable. Cluster 1 (coupled_map_lattice+gray_scott) shows best transferability."
+  },
+  "H8_null_program": {
+    "n_null_iterations": 100,
+    "n_survived_random_descriptor_null": 2,
+    "total_descriptor_tests": 5,
+    "interpretation": "N2 random descriptor assignment is the valid null. N1/N3 preserve overall transition rate by construction. ADI and RTP survive N2 null (z>2), meaning their intervention effects are distinguishable from random. CSR, RBS, SRD are indistinguishable from null."
+  },
+  "primary_research_question": {
+    "question": "Can coherent-generative organizational regimes be causally induced and maintained?",
+    "answer": "Partially. CG is causally inducible in 6/10 domains (nonlinear_oscillator: 48.2%, gray_scott: 35.2%, kuramoto: 31.3%, population: 24.9%, coupled_map_lattice: 19.8%, branching: 18.0%) but inaccessible in 4 domains (cellular_automata, graph_diffusion, lotka_volterra, replicator). Across ALL domains, the overall CG entry rate from non-CG states is moderate (11.8%). CG is NOT an attractor (self-transition=0.36) \u2014 it is highly unstable under perturbation (escape=0.64). Chaotic_fertility is the strongest attractor (self=0.57). Causal effects do NOT transfer across geometry clusters: causality is family-specific.",
+    "limitations": "Interventions are simulated via nearest-neighbor matching, not true perturbations. N1/N3 nulls trivially fail due to invariance. Only RTP and ADI survive the meaningful random-descriptor null."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "n_negative_statements": 10,
+  "n_fe_statements": 5,
+  "n_ef_statements": 3,
+  "n_u_statements": 2,
+  "n_collapsed": 8,
+  "n_survived": 2,
+  "outcome": "B: negative survivor exists",
+  "statement_classifications": {
+    "N01": "FE",
+    "N02": "FE",
+    "N03": "FE",
+    "N04": "FE",
+    "N05": "U",
+    "N06": "EF",
+    "N07": "EF",
+    "N08": "FE",
+    "N09": "EF",
+    "N10": "U"
+  }
+}

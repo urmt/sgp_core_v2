@@ -1,0 +1,33 @@
+{
+  "bu_transformations": [
+    "fixed_point_iteration",
+    "cyclic_causation",
+    "self_application_with_preservation",
+    "state_dependent_control_of_control",
+    "signal_processing_of_signal_processing",
+    "model_of_modeling",
+    "encoding_of_encoding"
+  ],
+  "td_transformations": [
+    "fixed_point_of_reflection",
+    "fixed_point_of_distinction",
+    "fixed_point_of_inference_operator",
+    "fixed_point_of_representation_operator",
+    "fixed_point_of_evaluation",
+    "fixed_point_of_control_operator",
+    "fixed_point_of_physical_dynamics"
+  ],
+  "bu_operators": [],
+  "td_operators": [
+    "reflection",
+    "distinction",
+    "inference_operator",
+    "representation_operator",
+    "evaluation",
+    "control_operator",
+    "physical_dynamics"
+  ],
+  "common_operators": [],
+  "verdict": "genuine_junction",
+  "underlying_transformation": "fixed_point_of_self_referential_operator"
+}

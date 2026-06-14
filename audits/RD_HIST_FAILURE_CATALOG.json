@@ -1,0 +1,701 @@
+{
+  "total_failures": 136,
+  "type_counts": {
+    "empty_directory": 126,
+    "minimal_file": 1,
+    "abandoned_experiment": 6,
+    "incomplete_marker": 3
+  },
+  "failures": [
+    {
+      "id": "synthetic_universes",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "pipelines",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "null_models",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "benchmarks",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "transformers",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "neuroscience",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "physics",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "ecology",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "dynamics",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "interaction_models",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "validation",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "visualization",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "manuscripts",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "archive_legacy",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "governance",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "obsidian_core",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "archive_old_scripts",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "archive_old_outputs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "archive_old_analysis",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "experiments/phase_a_validation",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "experiments/full_scale_runs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/tables",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/raw",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/v2_073",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phase325",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "docs/glossary",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "docs/methodology",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "docs/publication_notes",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "results/summaries",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "results/metrics",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "results/stability",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "analysis/scripts",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "analysis/notebooks",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "analysis/utilities",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "analysis/rg_analysis",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "figures/publication",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "figures/exploratory",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "figures/archived",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "papers/drafts",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "papers/submitted",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "papers/published",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "papers/references",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "archive/deprecated",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "archive/legacy_tests",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "archive/frozen_snapshots",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "coherence-benchmark/competitors",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "media/images/rd022_explainer",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": ".git/refs/tags",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseE/manifests",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseE/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseE/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseF/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseF/manifests",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseG/raw",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseG/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseG/manifests",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseH/raw",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseN_dynamical_coupling/plots",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseO_shared_recursive_identity/plots",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseP_transition_persistence/plots",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseQ_recursive_invariants/plots",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseR_minimal_mechanisms/plots",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseS_symbolic_audit/plots",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseT_generative_math/outputs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseT_generative_math/plots",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseT_generative_math/summaries",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phases/phaseT_generative_math/checkpoints",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/metric_redesign/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/adversarial_breaking/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/adversarial_breaking/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/ensemble_validation/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/ensemble_validation/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/relational_invariance/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/relational_invariance/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/relational_hardening/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/relational_hardening/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/temporal_memory/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/temporal_memory/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/temporal_adversarial_expansion/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/replay_resistance/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/replay_resistance/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/replay_resistance/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/nonreplay_adversarial/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/nonreplay_adversarial/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/nonreplay_adversarial/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/scale_recovery/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/scale_recovery/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/scale_recovery/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/large_scale_validation/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/large_scale_validation/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/large_scale_validation/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/real_data_pilot/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/real_data_pilot/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/real_data_pilot/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/real_world_benchmark/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/real_world_benchmark/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/real_world_benchmark/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/dataset_ingest/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/dataset_ingest/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/dataset_ingest/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/cross_domain_generalization/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/cross_domain_generalization/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/cross_domain_generalization/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/semi_structured_real_signal/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/semi_structured_real_signal/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/semi_structured_real_signal/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/phase_coherence/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/phase_coherence/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/phase_coherence/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/unified_reality/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/unified_reality/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/unified_reality/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/windowed_reality/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/windowed_reality/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/windowed_reality/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/cross_window_continuity/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/cross_window_continuity/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/cross_window_continuity/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/eeg_window_pilot/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/eeg_window_pilot/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/eeg_window_pilot/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/temporal_novelty/reports",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/temporal_novelty/figures",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "outputs/temporal_novelty/logs",
+      "type": "empty_directory",
+      "detail": "Directory created but never populated"
+    },
+    {
+      "id": "phaseT_master",
+      "type": "minimal_file",
+      "detail": "File only 77 bytes",
+      "path": "phases/phaseT_generative_math/scripts/phaseT_master.py"
+    },
+    {
+      "id": "experiment_if1",
+      "type": "abandoned_experiment",
+      "detail": "Interaction experiment coded but never completed",
+      "path": "coherence-benchmark/interaction_first/experiment_if1.py"
+    },
+    {
+      "id": "experiment_if2",
+      "type": "abandoned_experiment",
+      "detail": "Interaction experiment coded but never completed",
+      "path": "coherence-benchmark/interaction_first/experiment_if2.py"
+    },
+    {
+      "id": "experiment_if3",
+      "type": "abandoned_experiment",
+      "detail": "Interaction experiment coded but never completed",
+      "path": "coherence-benchmark/interaction_first/experiment_if3.py"
+    },
+    {
+      "id": "__init__",
+      "type": "abandoned_experiment",
+      "detail": "Interaction experiment coded but never completed",
+      "path": "coherence-benchmark/interaction_first/__init__.py"
+    },
+    {
+      "id": "run_all",
+      "type": "abandoned_experiment",
+      "detail": "Interaction experiment coded but never completed",
+      "path": "coherence-benchmark/interaction_first/run_all.py"
+    },
+    {
+      "id": "if_stress_test",
+      "type": "abandoned_experiment",
+      "detail": "Interaction experiment coded but never completed",
+      "path": "coherence-benchmark/interaction_first/if_stress_test.py"
+    },
+    {
+      "id": "interaction_models",
+      "type": "empty_directory",
+      "detail": "Directory created for interaction models, never populated"
+    },
+    {
+      "id": "T042_proximity_genesis",
+      "type": "incomplete_marker",
+      "detail": "Contains TODO/FIXME/BROKEN markers",
+      "path": "T042_proximity_genesis.py"
+    },
+    {
+      "id": "sfh_sgp_upgrade_pipeline_v2",
+      "type": "incomplete_marker",
+      "detail": "Contains TODO/FIXME/BROKEN markers",
+      "path": "archive_old_cruft/sfh_sgp_upgrade_pipeline_v2.py"
+    },
+    {
+      "id": "rd_hist_failure_reconstruction",
+      "type": "incomplete_marker",
+      "detail": "Contains TODO/FIXME/BROKEN markers",
+      "path": "audits/rd_hist_failure_reconstruction.py"
+    }
+  ]
+}

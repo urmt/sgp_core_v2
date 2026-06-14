@@ -1,0 +1,31 @@
+{
+  "operators": {
+    "distinction": {
+      "operator": "D: X \u00d7 X \u2192 {0,1}",
+      "description": "Distinguishes elements of X",
+      "input": "pair of elements from X",
+      "output": "binary: same or different"
+    },
+    "constraint": {
+      "operator": "C: P(X) \u2192 P(X)",
+      "description": "Restricts a subset of X to a smaller subset",
+      "input": "subset of X (possible states)",
+      "output": "subset of X (reachable states)"
+    },
+    "preservation": {
+      "operator": "P: (X \u2192 X) \u00d7 P(X) \u2192 P(X)",
+      "description": "Identifies properties invariant under transformation",
+      "input": "transformation T and subset S",
+      "output": "subset of S preserved by T"
+    },
+    "recursion": {
+      "operator": "R: (X \u2192 X) \u2192 Fix(X)",
+      "description": "Finds fixed points of a transformation",
+      "input": "transformation T",
+      "output": "fixed points: {x | T(x) = x}"
+    }
+  },
+  "verdict": "one_generator",
+  "generator": "distinction",
+  "caution": "analysis_performed_by_us"
+}

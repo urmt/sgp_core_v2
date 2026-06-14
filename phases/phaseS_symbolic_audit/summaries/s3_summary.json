@@ -1,0 +1,125 @@
+{
+  "phase": "S3",
+  "n_transforms": 1099,
+  "n_properties": 7,
+  "mean_invariance": -0.07151453555915042,
+  "null_mean_invariance": -4.1834390048607055,
+  "top_properties": [
+    {
+      "property": "mean_continuity",
+      "mean": 0.9607511989841664,
+      "std": 0.0226991825698925
+    },
+    {
+      "property": "mean_coherence",
+      "mean": 0.9548205011267987,
+      "std": 0.0396893221768809
+    },
+    {
+      "property": "mean_reconstruction",
+      "mean": 0.32149884767875914,
+      "std": 0.3957136413530284
+    },
+    {
+      "property": "cg_rate",
+      "mean": 0.25668620065184383,
+      "std": 0.3139457147761852
+    },
+    {
+      "property": "mean_recursive_closure",
+      "mean": -0.24408487073041754,
+      "std": 2.0853378477366284
+    }
+  ],
+  "continuity_invariance": null,
+  "hierarchy": [
+    {
+      "property": "shared_closure_value",
+      "invariant_score": 0.988423733757916
+    },
+    {
+      "property": "closure_under_no_timing_precision",
+      "invariant_score": 0.98
+    },
+    {
+      "property": "closure_under_no_closure_cross",
+      "invariant_score": 0.94
+    },
+    {
+      "property": "closure_under_minimal_sync_only",
+      "invariant_score": 0.94
+    },
+    {
+      "property": "closure_under_no_topology",
+      "invariant_score": 0.93
+    },
+    {
+      "property": "continuity_through_transition",
+      "invariant_score": 0.9113924050632912
+    },
+    {
+      "property": "buffering",
+      "invariant_score": 0.8834559957718625
+    },
+    {
+      "property": "shared_transition_survival",
+      "invariant_score": 0.835
+    },
+    {
+      "property": "reconstruction_probability",
+      "invariant_score": 0.785
+    },
+    {
+      "property": "closure_recovery_under_transition",
+      "invariant_score": 0.7841294912364021
+    },
+    {
+      "property": "individual_transition_survival",
+      "invariant_score": 0.736
+    },
+    {
+      "property": "synchronization",
+      "invariant_score": 0.7326148663755411
+    },
+    {
+      "property": "closure_under_minimal_closure",
+      "invariant_score": 0.73
+    },
+    {
+      "property": "closure_under_minimal_both",
+      "invariant_score": 0.69
+    },
+    {
+      "property": "closure_convergence",
+      "invariant_score": 0.6275543535213564
+    },
+    {
+      "property": "reconstruction_fidelity",
+      "invariant_score": 0.5720276350996989
+    },
+    {
+      "property": "closure_under_no_synchronization",
+      "invariant_score": 0.2
+    },
+    {
+      "property": "closure_under_no_geometry",
+      "invariant_score": 0.17
+    },
+    {
+      "property": "closure_under_no_coupling",
+      "invariant_score": 0.15
+    },
+    {
+      "property": "persistence_gain",
+      "invariant_score": 0.1049194512714794
+    },
+    {
+      "property": "cross_correlation",
+      "invariant_score": 0.053232619503613
+    },
+    {
+      "property": "closure_correlation",
+      "invariant_score": 0.0069539318174803
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+phase,best_k,best_silhouette,best_shell_corr,cluster_separation,lattice_spacing_std,verdict
+518,6,0.5702524416154876,-0.2592668224513293,0.7734703147833408,0.3271104776273985,BOUNDED-CLUSTER-STRUCTURE

@@ -1,0 +1,106 @@
+{
+  "phase": "F3",
+  "seed": 3000,
+  "n_domains": 10,
+  "n_features": 23,
+  "features": [
+    "additive_linear_r2",
+    "additive_superposition",
+    "additive_closure",
+    "multiplicative_interaction_r2_gain",
+    "multiplicative_log_log_slope",
+    "multiplicative_sensitivity_amplification",
+    "hierarchical_tree_depth",
+    "hierarchical_tree_r2",
+    "hierarchical_multiscale_var_ratio",
+    "topological_neighborhood_corr",
+    "topological_continuity",
+    "topological_deformation_stability",
+    "network_graph_behav_corr",
+    "network_propagation",
+    "network_sync_coupling",
+    "symmetry_invariance",
+    "symmetry_conservation",
+    "composition_fidelity",
+    "closure_score",
+    "associativity_score",
+    "scaling_preservation",
+    "transport_score",
+    "symmetry_score"
+  ],
+  "optimal_clusters": 4,
+  "silhouette_score": 0.2354,
+  "cluster_assignments": {
+    "1": [
+      "coupled_map_lattice",
+      "gray_scott"
+    ],
+    "2": [
+      "cellular_automata",
+      "kuramoto",
+      "lotka_volterra",
+      "nonlinear_oscillator",
+      "replicator"
+    ],
+    "3": [
+      "graph_diffusion",
+      "population"
+    ],
+    "4": [
+      "branching"
+    ]
+  },
+  "dominant_operators": [
+    {
+      "domain": "branching",
+      "dominant_operator": "hierarchical",
+      "dominant_score": 1.2996
+    },
+    {
+      "domain": "cellular_automata",
+      "dominant_operator": "hierarchical",
+      "dominant_score": 1.2388
+    },
+    {
+      "domain": "coupled_map_lattice",
+      "dominant_operator": "hierarchical",
+      "dominant_score": 1.3515
+    },
+    {
+      "domain": "graph_diffusion",
+      "dominant_operator": "multiplicative",
+      "dominant_score": 3.0286
+    },
+    {
+      "domain": "gray_scott",
+      "dominant_operator": "multiplicative",
+      "dominant_score": 3.7993
+    },
+    {
+      "domain": "kuramoto",
+      "dominant_operator": "hierarchical",
+      "dominant_score": 1.1981
+    },
+    {
+      "domain": "lotka_volterra",
+      "dominant_operator": "hierarchical",
+      "dominant_score": 1.1087
+    },
+    {
+      "domain": "nonlinear_oscillator",
+      "dominant_operator": "hierarchical",
+      "dominant_score": 1.2346
+    },
+    {
+      "domain": "population",
+      "dominant_operator": "hierarchical",
+      "dominant_score": 1.3317
+    },
+    {
+      "domain": "replicator",
+      "dominant_operator": "hierarchical",
+      "dominant_score": 1.0717
+    }
+  ],
+  "runtime_seconds": 0
+}

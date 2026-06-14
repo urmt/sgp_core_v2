@@ -1,0 +1,83 @@
+{
+  "n_clean_statements_found": 0,
+  "clean_statements": [],
+  "n_negative_statements": 10,
+  "methodology_dependencies": {
+    "catalog": [
+      "identity",
+      "distinction",
+      "memory"
+    ],
+    "count": [
+      "identity",
+      "distinction",
+      "memory"
+    ],
+    "event": [
+      "identity",
+      "distinction",
+      "memory",
+      "ordering"
+    ],
+    "test": [
+      "identity",
+      "distinction",
+      "memory",
+      "ordering",
+      "comparison"
+    ],
+    "detector": [
+      "identity",
+      "distinction",
+      "memory",
+      "ordering",
+      "comparison"
+    ],
+    "record": [
+      "identity",
+      "distinction",
+      "memory"
+    ]
+  },
+  "statement_audit": {
+    "A06": {
+      "clean": false,
+      "deps": [
+        "memory",
+        "identity",
+        "distinction"
+      ]
+    },
+    "A09": {
+      "clean": false,
+      "deps": [
+        "comparison",
+        "identity",
+        "ordering",
+        "memory",
+        "distinction"
+      ]
+    },
+    "A13": {
+      "clean": false,
+      "deps": [
+        "comparison",
+        "identity",
+        "ordering",
+        "memory",
+        "distinction"
+      ]
+    },
+    "A22": {
+      "clean": false,
+      "deps": [
+        "comparison",
+        "identity",
+        "ordering",
+        "memory",
+        "distinction"
+      ]
+    }
+  },
+  "verdict": "No positive statement survives full audit. Only negative statements remain."
+}

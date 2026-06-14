@@ -1,0 +1,14 @@
+property,baseline,path_A_independent_IS1,path_B_BA1_mediation,path_C_IS1_refinement
+n_assumptions,9,9,10,10
+generative,True,True,True,True
+n_satisfied,9,9,10,10
+roots,['OC2'],"['IS1', 'OC2']",['OC2'],['OC2']
+n_roots,1,2,1,1
+leaves,['CD2'],['CD2'],['CD2'],['CD2']
+n_scc,0,0,0,0
+n_cycles,0,0,0,0
+min_gen_set_size,1,2,1,1
+n_gen_sets,1,1,1,1
+max_depth,6,6,7,6
+oc2_knockout_survivors,0,1,0,0
+unique_root,OC2,OC2+IS1,OC2,OC2

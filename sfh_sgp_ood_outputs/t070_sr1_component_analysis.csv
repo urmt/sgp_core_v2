@@ -1,0 +1,6 @@
+component,provided_by,necessary,sufficient_alone,reason
+outputs exist,IS2,True,False,"Without outputs, there is nothing to examine."
+examiner exists,IS1a,True,False,Examination requires an active entity that does the examining. IS2 alone provides outputs but no examiner.
+examiner can orient to outputs,IS1a;OC2,True,False,The investigation must be able to treat outputs as objects of analysis rather than as production byproducts. This requires the investigation to be capable of different functional orientations (IS1a) and to distinguish outputs from the phenomenon (OC2).
+production precedes examination,IS1a (implicitly),False,False,Temporal ordering is implicit in IS1a (change implies before/after). But ordering is not strictly necessary — the investigation can examine an output while producing it if examination is a functional orientation rather than a temporal phase.
+discrete stage separation,IS1b;BA1,False,False,"Stage separation is the strongest requirement. It is necessary only if examination cannot coexist with production — if examining precludes producing and vice versa. This is a claim about cognitive or procedural capacity, not about logical necessity."

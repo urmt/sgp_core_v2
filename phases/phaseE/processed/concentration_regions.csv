@@ -1,0 +1,6 @@
+descriptor,desc_switch_vel,geodesic_instab,jacobian_vol,local_curvature,poss_adaptive_recovery,poss_branching_diversity,poss_divergence_capacity,poss_future_entropy,poss_reachable_volume,poss_stability_fertility_coupling,predictive_shear,tangent_rotation
+ADI,921,1196,1197,1196,1198,1197,1198,1196,1195,1198,1196,1195
+CSR,894,1196,1197,1197,1198,1196,1193,1191,1192,1197,1196,1080
+RBS,913,1199,1199,1197,1198,1199,1196,1196,1190,1197,1197,1197
+RTP,901,1196,1195,1195,1196,1199,1199,1197,1079,1197,1194,1195
+SRD,1083,1197,1199,1199,1199,1198,1198,1195,1193,1196,1199,1077

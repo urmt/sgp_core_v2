@@ -1,0 +1,6 @@
+primitive,requires,description
+P001_comparison,"P002_ordering, P004_difference",Comparison requires ordering (before/after) and difference (A≠B)
+P002_ordering,P004_difference,Ordering requires difference (A≠B for A<B to be meaningful)
+P003_identity,P005_distinction,Identity (X=X) requires distinction to separate X from non-X
+P004_difference,P005_distinction,Difference (A≠B) requires distinction to separate A from B
+P005_distinction,none,Distinction requires nothing else (by hypothesis)

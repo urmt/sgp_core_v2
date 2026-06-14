@@ -1,0 +1,7 @@
+{
+  "phase": "N5",
+  "n_simulations": 2000,
+  "mean_higher_order_continuity": -0.0005597695238358304,
+  "fraction_higher_order": 0.1015,
+  "mean_collective_closure_emergent": 0.6220532790448521
+}

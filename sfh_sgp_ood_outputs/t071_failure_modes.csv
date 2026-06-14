@@ -1,0 +1,14 @@
+domain,config,failed_invariants,n_failed,severity
+A: Physical universes,"Empty universe (Ω << 1, no structure formation)",generativity;recursive_closure;information_growth;self_modeling,4,critical
+A: Physical universes,"Collapsing universe (Ω >> 1, recollapse)",self_modeling,1,mild
+B: Mathematical systems,First-order logic (FOL),recursive_closure;self_modeling,2,moderate
+C: Recursive substrate,CD1 — Causal relations exist,self_modeling,1,mild
+C: Recursive substrate,CD2 — Self-affecting procedures,self_modeling,1,mild
+C: Recursive substrate,IC1 — Extractable information,self_modeling,1,mild
+C: Recursive substrate,IS1a — Investigative change,self_modeling,1,mild
+C: Recursive substrate,IS2 — Determinate outputs,self_modeling,1,mild
+C: Recursive substrate,OC1 — Stable structure,persistence;self_modeling,2,moderate
+C: Recursive substrate,OC2 — Distinguishability,persistence;self_modeling,2,moderate
+D: Dynamical manifolds,Lorenz attractor (chaotic system),self_modeling,1,mild
+D: Dynamical manifolds,Logistic map (Feigenbaum period-doubling cascade),self_modeling,1,mild
+D: Dynamical manifolds,Reaction-diffusion systems (Turing patterns),self_modeling,1,mild

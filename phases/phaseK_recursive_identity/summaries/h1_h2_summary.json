@@ -1,0 +1,19 @@
+{
+  "phase": "K1+K2",
+  "recursive_identity_distribution": {
+    "total_cg": 939,
+    "statistical_persistence": 306,
+    "recursive_identity": 152,
+    "ratio": 0.5
+  },
+  "identity_retention_ranking": {
+    "transition_smoothness": 0.9998452229299363,
+    "recursive_continuity": 0.9244401273885351,
+    "recursive_identity_score": 0.6533031847133758,
+    "reconstruction_ability": 0.2928617834394905,
+    "trajectory_coherence": 0.26421910828025474,
+    "org_memory": 0.20332866242038217,
+    "closure_persistence": 0.20332866242038217
+  },
+  "best_identity_preserver": "{'domain_A': 'graph_diffusion', 'domain_B': 'replicator'}"
+}

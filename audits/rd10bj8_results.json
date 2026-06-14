@@ -1,0 +1,31 @@
+{
+  "preserved": [
+    "binary output",
+    "fixed point concept",
+    "invariance concept",
+    "partition structure",
+    "restriction structure",
+    "self-reference",
+    "subset containment",
+    "transformation dependence"
+  ],
+  "lost": [
+    "automorphism information",
+    "closure algorithm",
+    "group structure",
+    "group-specific structure",
+    "pairwise comparison",
+    "pointwise detail",
+    "quotient-specific detail",
+    "quotient-specific fixed points",
+    "quotient-specific operator",
+    "quotient-specific structure",
+    "reference dependence",
+    "specific constraint rule",
+    "specific fixed point",
+    "specific operator",
+    "specific property",
+    "specific transformation"
+  ],
+  "verdict": "outcome_a"
+}

@@ -1,0 +1,18 @@
+{
+  "phase": "G1+G2",
+  "seed": 3000,
+  "n_systems": 5000,
+  "n_domains": 10,
+  "median_coherence": 0.5732371876718755,
+  "median_fertility": 0.08580254789892414,
+  "coherence_fertility_correlation": -0.139629,
+  "region_counts": {
+    "rigid_coherence": 1561,
+    "chaotic_fertility": 1561,
+    "collapse": 939,
+    "constrained_generative": 939
+  },
+  "constrained_generative_count": 939,
+  "constrained_generative_pct": 18.8,
+  "runtime_seconds": 0
+}

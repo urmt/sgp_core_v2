@@ -1,0 +1,125 @@
+{
+  "family_classifier_accuracy": 0.7488151658767772,
+  "family_classifier_balanced_accuracy": 0.7174358974358974,
+  "most_confused_pairs": [
+    {
+      "families": [
+        "ising",
+        "branching"
+      ],
+      "count": 4
+    },
+    {
+      "families": [
+        "kuramoto",
+        "reaction"
+      ],
+      "count": 3
+    },
+    {
+      "families": [
+        "reaction",
+        "kuramoto"
+      ],
+      "count": 3
+    },
+    {
+      "families": [
+        "branching",
+        "gbm"
+      ],
+      "count": 2
+    },
+    {
+      "families": [
+        "ca",
+        "gbm"
+      ],
+      "count": 2
+    },
+    {
+      "families": [
+        "ca",
+        "ising"
+      ],
+      "count": 2
+    },
+    {
+      "families": [
+        "henon",
+        "ising"
+      ],
+      "count": 2
+    },
+    {
+      "families": [
+        "kuramoto",
+        "branching"
+      ],
+      "count": 2
+    },
+    {
+      "families": [
+        "logistic",
+        "branching"
+      ],
+      "count": 2
+    },
+    {
+      "families": [
+        "logistic",
+        "ca"
+      ],
+      "count": 2
+    }
+  ],
+  "most_isolated_family": "lotka",
+  "most_overlapping_family": "logistic",
+  "mean_family_purity": 0.542654028436019,
+  "n_boundary_systems": 135,
+  "n_total_systems": 211,
+  "n_metafamilies": 4,
+  "metafamily_map": {
+    "branching": 2,
+    "ca": 1,
+    "gbm": 1,
+    "henon": 3,
+    "ising": 2,
+    "kuramoto": 2,
+    "logistic": 2,
+    "lorenz": 2,
+    "lotka": 4,
+    "markov": 1,
+    "rbn": 2,
+    "reaction": 2,
+    "sandpile": 2
+  },
+  "transfer_barriers": [
+    {
+      "metric": "mean_centroid_distance",
+      "pearson_r": -0.2763079289102055,
+      "pearson_p": 0.02587975307332463,
+      "spearman_rho": -0.2509324231659335,
+      "spearman_p": 0.04377782524909858,
+      "permutation_p": 0.052
+    },
+    {
+      "metric": "min_centroid_distance",
+      "pearson_r": -0.2758080495581849,
+      "pearson_p": 0.026160791810486465,
+      "spearman_rho": -0.22025893433552962,
+      "spearman_p": 0.07789200098637404,
+      "permutation_p": 0.058
+    },
+    {
+      "metric": "mean_purity",
+      "pearson_r": -0.09035310829947678,
+      "pearson_p": 0.4741261130338352,
+      "spearman_rho": -0.10738592781773576,
+      "spearman_p": 0.39452491434535175,
+      "permutation_p": 0.506
+    }
+  ],
+  "success_criterion": "at least one quantitative explanation for transfer failure",
+  "success_met": false
+}

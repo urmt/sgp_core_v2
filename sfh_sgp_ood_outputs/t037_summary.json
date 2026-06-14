@@ -1,0 +1,115 @@
+{
+  "n_universes": 1200,
+  "n_with_all_5_criteria": 0,
+  "best_universe_id": 192,
+  "best_emergence_index": 0.5823076923076923,
+  "best_scores": {
+    "distinction_score": 1.0,
+    "persistence_score": 0.2,
+    "composition_score": 1.0,
+    "closure_score": 0.9230769230769231,
+    "arithmetic_score": 0.0,
+    "geometry_score": 1.0,
+    "dimension_score": 0.0
+  },
+  "best_transitions": {
+    "distinction_transition": 2,
+    "persistence_transition": 26,
+    "composition_transition": 1,
+    "closure_transition": 2,
+    "arithmetic_transition": 0,
+    "geometry_transition": 2
+  },
+  "candidate_laws": [
+    {
+      "law": "distinction_threshold",
+      "mean_depth": 2.6705882352941175,
+      "std_depth": 1.4665957847764457,
+      "n_universes": 255.0,
+      "description": "distinction typically appears at depth 2.7 \u00b1 1.5",
+      "mean_score": NaN,
+      "mean_top": NaN,
+      "mean_all": NaN,
+      "mean_dimension_score": NaN
+    },
+    {
+      "law": "persistence_threshold",
+      "mean_depth": 5.470588235294118,
+      "std_depth": 8.983696828574255,
+      "n_universes": 255.0,
+      "description": "persistence typically appears at depth 5.5 \u00b1 9.0",
+      "mean_score": NaN,
+      "mean_top": NaN,
+      "mean_all": NaN,
+      "mean_dimension_score": NaN
+    },
+    {
+      "law": "composition_threshold",
+      "mean_depth": 5.035294117647059,
+      "std_depth": 9.195317696048582,
+      "n_universes": 255.0,
+      "description": "composition typically appears at depth 5.0 \u00b1 9.2",
+      "mean_score": NaN,
+      "mean_top": NaN,
+      "mean_all": NaN,
+      "mean_dimension_score": NaN
+    },
+    {
+      "law": "arithmetic_threshold",
+      "mean_depth": 0.6470588235294118,
+      "std_depth": 0.9311649086372148,
+      "n_universes": 255.0,
+      "description": "arithmetic typically appears at depth 0.6 \u00b1 0.9",
+      "mean_score": NaN,
+      "mean_top": NaN,
+      "mean_all": NaN,
+      "mean_dimension_score": NaN
+    },
+    {
+      "law": "geometry_threshold",
+      "mean_depth": 2.6705882352941175,
+      "std_depth": 1.4665957847764457,
+      "n_universes": 255.0,
+      "description": "geometry typically appears at depth 2.7 \u00b1 1.5",
+      "mean_score": NaN,
+      "mean_top": NaN,
+      "mean_all": NaN,
+      "mean_dimension_score": NaN
+    },
+    {
+      "law": "closure_threshold",
+      "mean_depth": NaN,
+      "std_depth": NaN,
+      "n_universes": NaN,
+      "description": "Successful universes have mean closure=0.897",
+      "mean_score": 0.8972850678733032,
+      "mean_top": NaN,
+      "mean_all": NaN,
+      "mean_dimension_score": NaN
+    },
+    {
+      "law": "emergence_separation",
+      "mean_depth": NaN,
+      "std_depth": NaN,
+      "n_universes": NaN,
+      "description": "Top 20% mean EI=0.516 vs all=0.489",
+      "mean_score": NaN,
+      "mean_top": 0.5161371552268283,
+      "mean_all": 0.48904430055175946,
+      "mean_dimension_score": NaN
+    },
+    {
+      "law": "dimension_emergence",
+      "mean_depth": NaN,
+      "std_depth": NaN,
+      "n_universes": NaN,
+      "description": "Mean dimension score in successful universes: 0.023",
+      "mean_score": NaN,
+      "mean_top": NaN,
+      "mean_all": NaN,
+      "mean_dimension_score": 0.022836590498213398
+    }
+  ],
+  "success_criterion": "at least one universe exhibits distinction+persistence+composition+arithmetic+proto-geometry",
+  "success_met": false
+}

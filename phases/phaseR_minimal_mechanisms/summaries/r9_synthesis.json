@@ -1,0 +1,57 @@
+{
+  "phase": "R9",
+  "title": "Minimal Generative Mechanisms for Recursive Continuity",
+  "primary_finding": {
+    "statement": "Phase coupling is the single ESSENTIAL mechanism for recursive continuity. All other mechanisms (closure dynamics, cross-coupling, reconstruction, topology, temporal ordering, frequency alignment) are individually removable without catastrophic failure.",
+    "single_essential_mechanism": "phase_coupling (Kuramoto-style synchronization)",
+    "threshold": "K \u2265 0.2 (coupling strength) for robust continuity (>50% survival)"
+  },
+  "taxonomy_summary": {
+    "phase_coupling": "ESSENTIAL",
+    "closure_dynamics": "DECORATIVE",
+    "cross_coupling": "EPIPHENOMENAL",
+    "reconstruction": "EPIPHENOMENAL",
+    "topology": "SUPPORTING",
+    "temporal_order": "EPIPHENOMENAL",
+    "freq_alignment": "EPIPHENOMENAL"
+  },
+  "necessary_sufficient_summary": {
+    "finding": "No single mechanism is NECESSARY for continuity under all conditions. All mechanisms are individually SUFFICIENT (removing any one alone does not break continuity).",
+    "implication": "Continuity is overdetermined \u2014 multiple mechanisms redundantly support it."
+  },
+  "degeneracy_finding": {
+    "phase": "R4",
+    "n_architectures": 12,
+    "degenerate_count": 10
+  },
+  "compression_finding": {
+    "dimensionality_reduction": "0.0x compression to 90% variance",
+    "minimal_prediction_dim": "2 PCs predict final closure with R\u00b2 = 0.89",
+    "temporal_minimality": "Last 5 timesteps achieve perfect prediction (R\u00b2 = 1.0)"
+  },
+  "null_results": {
+    "catastrophic_nulls": [
+      "negative_coupling",
+      "inverted_closure",
+      "all_adversarial"
+    ],
+    "resilient_nulls": [
+      "baseline",
+      "all_zero_closure",
+      "all_one_closure",
+      "low_initial_closure",
+      "high_initial_closure",
+      "aligned_theta",
+      "anti_aligned_theta",
+      "single_freq",
+      "bimodal_freq",
+      "chaotic_coupling",
+      "anti_closure"
+    ]
+  },
+  "minimal_closure_model": {
+    "simplest_robust_model": "minimal_coupled (N=2, K=0.2, alpha=0.1)",
+    "baseline_floor": "no_dynamics (static random) achieves 69% survival",
+    "interpretation": "Even without any dynamics, initial closure distribution alone produces apparent continuity 69% of the time (random baseline effect). True continuity requires phase coupling to drive convergence above baseline."
+  }
+}

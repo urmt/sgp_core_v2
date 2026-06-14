@@ -1,0 +1,12 @@
+{
+  "phase": "R2",
+  "models_tested": [
+    "full_recursive",
+    "minimal_coupled",
+    "phase_only",
+    "frequency_only",
+    "scalar_closure",
+    "no_dynamics"
+  ],
+  "simplest_preserving": "[{'model': 'minimal_coupled', 'mean_closure': 0.5787238748062896, 'survival_rate': 0.945, 'preserves': 'continuity'}, {'model': 'phase_only', 'mean_closure': 0.8053552219020572, 'survival_rate': 1.0, 'preserves': 'continuity'}, {'model': 'frequency_only', 'mean_closure': 0.6985289195392985, 'survival_rate': 1.0, 'preserves': 'continuity'}, {'model': 'scalar_closure', 'mean_closure': 0.48731052865730023, 'survival_rate': 0.9, 'preserves': 'continuity'}, {'model': 'no_dynamics', 'mean_closure': 0.49452298337117534, 'survival_rate': 0.69, 'preserves': 'weak'}]"
+}

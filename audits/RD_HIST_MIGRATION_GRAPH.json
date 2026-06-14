@@ -1,0 +1,255 @@
+{
+  "nodes": [
+    "RD-10B.R4",
+    "RD-10B.M1",
+    "RD-020",
+    "RD-10B.0D",
+    "RD-10B.0B",
+    "RD-10B.R1",
+    "RD-10B.0A",
+    "RD-10B.J3",
+    "RD-022",
+    "RD-10B.X",
+    "RD-10B.J5",
+    "RD-10B.J6",
+    "phase398_interaction_framework",
+    "RD-9E",
+    "RD-10B.0F",
+    "RD-10B.J7",
+    "RD-10B.J2",
+    "RD-10A.1",
+    "RD-10B.0E",
+    "RD-10B.R3",
+    "RD-10B.J4",
+    "RD-10B.M5",
+    "RD-10B.M2",
+    "RD-10A.9",
+    "RD-10B.0",
+    "RD-10A.10",
+    "RD-10A.12",
+    "RD-019",
+    "RD-10B.Y",
+    "RD-5",
+    "RD-10B.0C",
+    "RD-021",
+    "RD-10B.W",
+    "T037_primitive_interaction_genesis",
+    "RD-10B.M6b",
+    "RD-10B.Z",
+    "RD-10B.J8",
+    "RD-10B.R0R",
+    "RD-10A.8",
+    "RD-10B.M3"
+  ],
+  "edges": [
+    {
+      "src": "T037_primitive_interaction_genesis",
+      "dst": "phase398_interaction_framework",
+      "label": "interaction persistence"
+    },
+    {
+      "src": "phase398_interaction_framework",
+      "dst": "RD-019",
+      "label": "new research direction"
+    },
+    {
+      "src": "RD-019",
+      "dst": "RD-020",
+      "label": "density failed, try structure"
+    },
+    {
+      "src": "RD-020",
+      "dst": "RD-021",
+      "label": "structure failed, try velocity"
+    },
+    {
+      "src": "RD-021",
+      "dst": "RD-022",
+      "label": "velocity failed, measure C robustness"
+    },
+    {
+      "src": "RD-022",
+      "dst": "RD-5",
+      "label": "C robustness \u2192 metric comparison"
+    },
+    {
+      "src": "RD-5",
+      "dst": "RD-9E",
+      "label": "metrics compared \u2192 SP tested"
+    },
+    {
+      "src": "RD-9E",
+      "dst": "RD-10A.1",
+      "label": "SP falsified \u2192 constraint framework"
+    },
+    {
+      "src": "RD-10A.1",
+      "dst": "RD-10A.8",
+      "label": "taxonomy \u2192 topology"
+    },
+    {
+      "src": "RD-10A.8",
+      "dst": "RD-10A.9",
+      "label": "topology \u2192 distinctions"
+    },
+    {
+      "src": "RD-10A.9",
+      "dst": "RD-10A.10",
+      "label": "distinctions \u2192 preservation"
+    },
+    {
+      "src": "RD-10A.10",
+      "dst": "RD-10A.12",
+      "label": "preservation \u2192 lenses"
+    },
+    {
+      "src": "RD-10A.12",
+      "dst": "RD-10B.0",
+      "label": "lenses \u2192 representation audit"
+    },
+    {
+      "src": "RD-10B.0",
+      "dst": "RD-10B.0A",
+      "label": "representation \u2192 correspondence"
+    },
+    {
+      "src": "RD-10B.0A",
+      "dst": "RD-10B.0B",
+      "label": "correspondence \u2192 identity"
+    },
+    {
+      "src": "RD-10B.0B",
+      "dst": "RD-10B.0C",
+      "label": "identity \u2192 purpose"
+    },
+    {
+      "src": "RD-10B.0C",
+      "dst": "RD-10B.0D",
+      "label": "purpose \u2192 failure modes"
+    },
+    {
+      "src": "RD-10B.0D",
+      "dst": "RD-10B.0E",
+      "label": "failure modes \u2192 domains"
+    },
+    {
+      "src": "RD-10B.0E",
+      "dst": "RD-10B.0F",
+      "label": "domains \u2192 world assumptions"
+    },
+    {
+      "src": "RD-10B.0F",
+      "dst": "RD-10B.X",
+      "label": "world assumptions \u2192 junction search"
+    },
+    {
+      "src": "RD-10B.X",
+      "dst": "RD-10B.Y",
+      "label": "recursion \u2192 constraint"
+    },
+    {
+      "src": "RD-10B.Y",
+      "dst": "RD-10B.Z",
+      "label": "constraint \u2192 preservation"
+    },
+    {
+      "src": "RD-10B.Z",
+      "dst": "RD-10B.W",
+      "label": "preservation \u2192 distinction"
+    },
+    {
+      "src": "RD-10B.W",
+      "dst": "RD-10B.J2",
+      "label": "distinction \u2192 path independence"
+    },
+    {
+      "src": "RD-10B.J2",
+      "dst": "RD-10B.J3",
+      "label": "path \u2192 vocabulary"
+    },
+    {
+      "src": "RD-10B.J3",
+      "dst": "RD-10B.J4",
+      "label": "vocabulary \u2192 dependency"
+    },
+    {
+      "src": "RD-10B.J4",
+      "dst": "RD-10B.J5",
+      "label": "dependency \u2192 topology"
+    },
+    {
+      "src": "RD-10B.J5",
+      "dst": "RD-10B.J6",
+      "label": "topology \u2192 compression"
+    },
+    {
+      "src": "RD-10B.J6",
+      "dst": "RD-10B.J7",
+      "label": "compression \u2192 isomorphism"
+    },
+    {
+      "src": "RD-10B.J7",
+      "dst": "RD-10B.J8",
+      "label": "isomorphism \u2192 translation"
+    },
+    {
+      "src": "RD-10B.J8",
+      "dst": "RD-10B.M1",
+      "label": "translation \u2192 migration"
+    },
+    {
+      "src": "RD-10B.M1",
+      "dst": "RD-10B.M2",
+      "label": "migration \u2192 oscillation"
+    },
+    {
+      "src": "RD-10B.M2",
+      "dst": "RD-10B.M3",
+      "label": "oscillation \u2192 comparison"
+    },
+    {
+      "src": "RD-10B.M3",
+      "dst": "RD-10B.M5",
+      "label": "comparison \u2192 tension"
+    },
+    {
+      "src": "RD-10B.M5",
+      "dst": "RD-10B.M6b",
+      "label": "tension \u2192 viewpoint"
+    },
+    {
+      "src": "RD-10B.M6b",
+      "dst": "RD-10B.R1",
+      "label": "viewpoint \u2192 interaction"
+    },
+    {
+      "src": "RD-10B.R1",
+      "dst": "RD-10B.R3",
+      "label": "interaction \u2192 fertile interaction"
+    },
+    {
+      "src": "RD-10B.R3",
+      "dst": "RD-10B.R4",
+      "label": "fertile \u2192 experience"
+    },
+    {
+      "src": "RD-10B.R4",
+      "dst": "RD-10B.R0R",
+      "label": "experience \u2192 persistence ladder"
+    }
+  ],
+  "cycles": [],
+  "attractors": {
+    "phase398_interaction_framework": 1,
+    "RD-019": 1,
+    "RD-020": 1,
+    "RD-021": 1,
+    "RD-022": 1
+  },
+  "dead_ends": [
+    "RD-10B.R0R"
+  ],
+  "sources": [
+    "T037_primitive_interaction_genesis"
+  ]
+}

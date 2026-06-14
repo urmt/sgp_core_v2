@@ -1,0 +1,33 @@
+finding_id,finding,MC1,MC2,MC3,MC4,MC5,total
+F01,Generativity loss is a universal failure mode across all 4 domains,1,1,1,0,1,4
+F02,Fragmentation is a universal failure mode,1,0,1,0,1,3
+F03,5/6 failure classes (F1–F6) are universal; only F4 (runaway divergence) is domain-contingent,1,0,1,0,1,3
+F04,Failure boundaries are sharper than success conditions,1,0,1,0,1,3
+F05,"Viability constraints are ABOVE the substrate, not beneath it",0,0,0,0,0,0
+F06,Three-layer architecture: Viability Basin → Mechanisms → Substrate,0,0,0,0,0,0
+F07,"C ≥ 0.75, P ≥ 0.65, G ≥ 0.40, R ≥ 0.30, S ≥ 0.10 defines viability basin",1,1,1,1,1,5
+F08,Minimal constraint set rejects 100% nonviable with 0 false positives,0,0,1,0,0,1
+F09,RC (Recombination Capacity) is the best discriminator of fertile vs merely-viable,-1,1,0,0,0,0
+F10,"Fertile signature: SR≥0.7, NP≥0.7, RC≥0.6, RD≥0.3, OE≥0.6",-1,1,0,1,0,1
+F11,Fertility is partially independent of viability,0,1,1,0,1,3
+F12,Fertile systems show higher generativity but slightly lower coherence/recoverability,-1,1,1,0,1,2
+F13,Stability and fertility are negatively coupled within viable region (r=-0.331),0,0,1,0,0,1
+F14,"Boundary regime: fertile systems cluster at intermediate stability, not maximum",-1,1,1,0,0,1
+F15,"Maximum fertility occurs at stability 0.72, not at maximum stability",-1,1,1,0,0,1
+F16,Edge-of-chaos quadrant (LS/HF) largest at 35% of viable systems,-1,1,1,0,0,1
+F17,Fertile corridor with finite measurable width exists in ALL domains,0,1,1,0,1,3
+F18,Corridor widths cluster near 0.05–0.10 in all domains,0,0,1,0,0,1
+F19,Three-zone landscape: Collapse → Fertile Corridor → Fortress,0,1,1,0,1,3
+F20,Collapse-to-viable transition is very steep in physics (9.3) and dynamics (16.5),0,0,0,0,0,0
+F21,Axis profiles show consistent progression: collapse < fortress < fertile for most axes,1,1,1,0,1,4
+F22,Fertile corridor is NOT a universal attractor; 3/4 domains are saddles,-1,1,1,0,1,2
+F23,Drift is predominantly collapse-ward (3/4 domains),-1,0,1,0,0,0
+F24,Recursive substrate is exceptional — shows near-attractor properties,-1,0,0,1,1,1
+F25,Fertile corridor persists even when attractors do not,0,1,1,0,1,3
+F26,S gap (self-modeling) separates fertile from fortress (+0.25 to +0.65),0,0,0,1,0,1
+F27,10 metrics compress to 2 latent dimensions (92.6% variance),0,1,0,0,0,1
+F28,PC1 (75.1%) = generative capacity; PC2 (17.5%) = structural stability,-1,1,0,0,0,0
+F29,Fertile corridor is a SINGLE connected region in latent space,0,1,1,0,0,2
+F30,All 4 domains share the same fertile region in latent space (centroid offsets 0.08–0.26),0,1,1,0,0,2
+F31,Fertile corridor survives dimensional compression (90% classification in 2D),0,1,1,0,0,2
+F32,Recursive depth (RD) and self-modeling (S) form a separate minor axis (PC3),-1,0,0,1,0,0

@@ -1,0 +1,41 @@
+{
+  "trajectory_shape": [
+    200,
+    12,
+    4
+  ],
+  "representations": [
+    "graph",
+    "timeseries",
+    "state_transition",
+    "correlation",
+    "phasespace"
+  ],
+  "motifs": {
+    "graph": {
+      "binding": -0.06251003656827991,
+      "network": 0.11688311688311688,
+      "hierarchy": 0.2282177322881138
+    },
+    "timeseries": {
+      "binding": -0.0714992409181058,
+      "recursion": 0.2737589461359566,
+      "cycle": 0.9561747677846958,
+      "template": 0.9418267461485211
+    },
+    "state_transition": {
+      "binding": 1.745701448876929,
+      "recursion": 0.8592964824116286,
+      "network": 16.583333333333332
+    },
+    "correlation": {
+      "binding": 0.47340477180752627,
+      "hierarchy": 0.6275853627057566
+    },
+    "phasespace": {
+      "cycle": 0.2441821743892866,
+      "recursion": 0.22758813158478142,
+      "binding": 0.9952037011277565
+    }
+  }
+}

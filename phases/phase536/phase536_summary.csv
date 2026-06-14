@@ -1,0 +1,2 @@
+phase,best_metric,best_pearson_r,best_pearson_p,best_spearman_rho,low_entropy_mean,mid_entropy_mean,high_entropy_mean,mean_entropy,verdict
+536,max_prob,-0.2782846154887359,0.1295509363473021,-0.1548480463096961,0.794111722222222,1.0024484999999999,0.849746909090909,0.9777228844924513,NONENTROPIC-STRUCTURE

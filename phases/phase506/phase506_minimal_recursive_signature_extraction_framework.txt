@@ -1,0 +1,142 @@
+# Phase 506: Minimal-Recursive-Signature-Extraction Framework
+
+## Objective
+Determine the minimal structural features
+shared ONLY by the surviving Phase 505 systems.
+
+## Core Question
+What exact recursive organizational structures
+are shared by:
+
+- EnergyMomentumConservation
+- DoubleSlitInterference
+- ChemicalEquilibriumNetwork
+- TurbulenceEnergyCascade
+- SuperconductorCoherence
+
+that are NOT shared
+by rejected systems?
+
+## Primary Hypotheses
+H1:
+The surviving systems
+share a common directional recursive signature.
+
+H2:
+The shared signature
+depends on recursive coherence preservation.
+
+H3:
+Propagation asymmetry
+is necessary for survival.
+
+H4:
+Recursive redistribution stability
+is a defining feature.
+
+H5:
+Non-surviving systems
+lack at least one core recursive signature component.
+
+## Required Analysis
+- feature intersection mapping,
+- recursive propagation tracing,
+- asymmetry localization,
+- coherence persistence analysis,
+- depth-coupled stability extraction,
+- transport recursion analysis,
+- iterative redistribution mapping.
+
+## Required Comparisons
+Compare surviving systems against:
+- rejected physical systems,
+- adversarial monotonic systems,
+- null recursive controls.
+
+## Primary Metrics
+- recursive_signature_overlap,
+- coherence_retention_index,
+- propagation_dependency_score,
+- redistribution_recursion_strength,
+- asymmetry_persistence_measure,
+- depth_stability_gradient,
+- minimal_signature_density.
+
+## Success Condition
+A reproducible minimal recursive signature
+is isolated across surviving systems only.
+
+## Failure Condition
+No unique recursive structure
+distinguishes surviving systems
+from rejected systems.
+
+## Scientific Importance
+This phase attempts to identify:
+the smallest nontrivial recursive organizational class
+remaining after adversarial filtering.
+
+## Interpretation Discipline
+Even successful extraction implies ONLY:
+bounded recursive organizational similarity.
+
+NOT:
+physics derivation,
+ontology,
+or fundamental explanation.
+
+## Status
+AUTHORIZED.
+READY TO BEGIN.
+
+## Methodology Overview
+1. Load the Phase 505 results to identify surviving and rejected systems
+2. Extract time series data for all physical systems (surviving, rejected, adversarial)
+3. Apply feature intersection mapping to find common properties
+4. Analyze recursive propagation tracing in surviving vs rejected systems
+5. Measure asymmetry localization and coherence persistence
+6. Extract depth-coupled stability and transport recursion properties
+7. Compute iterative redistribution mapping
+8. Calculate the seven primary metrics to quantify signature strength
+9. Validate that the signature is unique to surviving systems
+10. Determine if a minimal recursive signature can be isolated
+
+## Systems Classification (from Phase 505 Results)
+Surviving Systems (directional_recursive_gradient > 0.3):
+1. EnergyMomentumConservation
+2. DoubleSlitInterference
+3. ChemicalEquilibriumNetwork
+4. TurbulenceEnergyCascade
+5. SuperconductorCoherence
+
+Rejected Systems (directional_recursive_gradient <= 0.3):
+1. CriticalPhenomenaScaling
+2. ChargeConservationEM
+3. StandingWavePatterns
+4. LimitCycleOscillations
+5. StrangeAttractorLorenz
+6. ElectronTransportMesoscopic
+7. HeatTransportPhononic
+8. AndersonLocalization
+9. PhotonicBandgapLocalization
+10. PhaseEquilibriumMulticomponent
+11. FerromagneticMagnetization
+12. CrystallizationFromLiquid
+13. LaserOpticalCoherence
+
+Adversarial Systems: All 126 systems from Phase 505 adversarial suite
+
+## SFH-SGP Reference Structure (from Phase 407)
+Using the established SFH-SGP emergence hierarchy:
+1. P-A-N (Most emergent): 0.9285
+2. P-A: 0.9283
+3. Projection: 0.9279
+4. P-N: 0.9244
+5. Antisymmetry: 0.9225
+6. Neutral: 0.9031
+7. A-N (Least emergent): 0.8864
+
+This 7-level hierarchy serves as the reference for all analyses.
+
+## Anti-Retrofitting Protocol
+All system classifications, analysis methods, comparison procedures, and metric definitions will be defined in this framework document BEFORE any computation begins. No adjustments will be made based on preliminary results.

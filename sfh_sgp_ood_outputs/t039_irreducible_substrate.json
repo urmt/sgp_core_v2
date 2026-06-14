@@ -1,0 +1,302 @@
+{
+  "irreducible_assumptions": [
+    "change",
+    "classification",
+    "closure_criteria",
+    "clustering",
+    "comparison",
+    "continuity",
+    "continuous_state",
+    "difference",
+    "distance",
+    "distinction",
+    "existence",
+    "history",
+    "identity",
+    "measurement",
+    "memory",
+    "metric",
+    "neighborhood",
+    "observer",
+    "ordering",
+    "persistence_criteria",
+    "recursion",
+    "rule_tables",
+    "selfref_criteria",
+    "similarity",
+    "state",
+    "symbols",
+    "time",
+    "topology",
+    "vector_space"
+  ],
+  "n_irreducible": 29,
+  "details": {
+    "change": {
+      "description": "States can differ across time steps",
+      "dependencies": [
+        "distinction",
+        "identity"
+      ],
+      "classification": "UNRESOLVED",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "classification": {
+      "description": "States can be assigned to discrete classes",
+      "dependencies": [
+        "distinction",
+        "identity"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "closure_criteria": {
+      "description": "Thresholds for what counts as 'returned'",
+      "dependencies": [
+        "distinction",
+        "relation",
+        "observer"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "clustering": {
+      "description": "States can be grouped into clusters",
+      "dependencies": [
+        "distinction",
+        "relation",
+        "identity"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "comparison": {
+      "description": "States can be compared to each other",
+      "dependencies": [
+        "distinction",
+        "relation",
+        "identity"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "continuity": {
+      "description": "State space is continuous (not discrete)",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": false,
+      "t038_present": true
+    },
+    "continuous_state": {
+      "description": "States are vectors in R^n (continuous, not discrete)",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": false,
+      "t038_present": true
+    },
+    "difference": {
+      "description": "Two things can be non-identical",
+      "dependencies": [
+        "distinction",
+        "identity"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "distance": {
+      "description": "A scalar distance between states is defined",
+      "dependencies": [
+        "distinction",
+        "relation",
+        "identity"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "distinction": {
+      "description": "TARGET: Two things can be non-identical (the concept itself)",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "existence": {
+      "description": "Something exists (at least one state)",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "history": {
+      "description": "The sequence of past states is accessible",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "identity": {
+      "description": "Objects have fixed, recoverable identity (hashable)",
+      "dependencies": [
+        "distinction"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "measurement": {
+      "description": "An act of extracting information from states",
+      "dependencies": [
+        "distinction",
+        "observer"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "memory": {
+      "description": "Full trajectory is retained across steps",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "metric": {
+      "description": "Distance satisfies triangle inequality and positivity",
+      "dependencies": [
+        "distinction",
+        "relation",
+        "identity"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "neighborhood": {
+      "description": "For each state, nearby states can be identified",
+      "dependencies": [
+        "relation"
+      ],
+      "classification": "UNRESOLVED",
+      "t037_present": false,
+      "t038_present": true
+    },
+    "observer": {
+      "description": "An external entity measures and classifies states",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "ordering": {
+      "description": "States are ordered sequences (position matters)",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "persistence_criteria": {
+      "description": "Thresholds for what counts as 'persistent'",
+      "dependencies": [
+        "distinction",
+        "observer"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "recursion": {
+      "description": "Rules apply iteratively to their own outputs",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "rule_tables": {
+      "description": "Deterministic input->output mapping exists",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "selfref_criteria": {
+      "description": "Thresholds for what counts as 'self-referential'",
+      "dependencies": [
+        "distinction",
+        "relation",
+        "observer"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "similarity": {
+      "description": "A notion of 'similar' vs 'different' exists",
+      "dependencies": [
+        "distinction",
+        "relation",
+        "identity"
+      ],
+      "classification": "CIRCULAR",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "state": {
+      "description": "A 'state' exists at each interaction step",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "symbols": {
+      "description": "Discrete symbolic objects (integers 0-N)",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": true,
+      "t038_present": false
+    },
+    "time": {
+      "description": "A sequence of discrete steps exists",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": true,
+      "t038_present": true
+    },
+    "topology": {
+      "description": "A notion of 'nearby' states exists",
+      "dependencies": [
+        "relation"
+      ],
+      "classification": "UNRESOLVED",
+      "t037_present": false,
+      "t038_present": true
+    },
+    "vector_space": {
+      "description": "States exist in a vector space (addition, scalar multiplication defined)",
+      "dependencies": [],
+      "classification": "FOUNDATIONAL",
+      "t037_present": false,
+      "t038_present": true
+    }
+  },
+  "collapse_rounds": [
+    {
+      "removed": [
+        "relation"
+      ],
+      "remaining": 29
+    }
+  ],
+  "t037_had": [
+    "relation"
+  ],
+  "t038_had": [
+    "relation"
+  ]
+}

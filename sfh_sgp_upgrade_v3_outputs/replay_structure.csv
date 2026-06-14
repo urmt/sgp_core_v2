@@ -1,0 +1,4 @@
+dataset,idempotent_mse,displacement_magnitude,rank_estimate
+white_noise,0.0,0.9632471304368336,1
+sine_wave,0.0,1.9995197978546182,1
+random_walk,0.0,1.0738511623842992,1

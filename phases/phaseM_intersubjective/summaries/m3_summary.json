@@ -1,0 +1,10 @@
+{
+  "phase": "M3",
+  "n_pairs": 5000,
+  "mean_shared_closure": 0.4633749451669188,
+  "mean_continuity_overlap": 0.8243376703266756,
+  "mean_manifold_convergence": 0.3717519963551685,
+  "mean_shared_space_composite": 0.5606743873263124,
+  "high_high_shared": 0.5606743873263124,
+  "low_low_shared": 0
+}

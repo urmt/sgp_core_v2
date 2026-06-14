@@ -1,0 +1,11 @@
+domain,N,composition_fidelity,closure_score,associativity_score,scaling_preservation,transport_score,symmetry_score
+branching,500,0.284632,1.0,1.0,1.0,-50.765302,0.892132
+cellular_automata,500,0.078797,1.0,1.0,1.0,-0.270315,0.99677
+coupled_map_lattice,500,1.0,1.0,1.0,1.0,0.0,1.0
+graph_diffusion,500,0.006248,1.0,1.0,1.0,-23.607766,0.779539
+gray_scott,500,1.0,1.0,1.0,1.0,0.0,1.0
+kuramoto,500,0.117347,1.0,1.0,1.0,-0.60984,0.970772
+lotka_volterra,500,0.069775,1.0,1.0,1.0,-0.08219,0.99833
+nonlinear_oscillator,500,0.016406,1.0,1.0,1.0,-0.119434,0.899887
+population,500,0.033201,1.0,1.0,1.0,-0.911775,0.882378
+replicator,500,0.040405,1.0,1.0,1.0,0.048983,0.962883

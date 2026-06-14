@@ -1,0 +1,5 @@
+domain,classification,retention,drift,basin_fill,fertile_stab_min,fertile_stab_max
+A — Physical universes,Type III — Transit,1.627,collapse-ward,1.0,0.717,0.767
+B — Mathematical systems,Type II — Saddle,1.404,fortress-ward,0.272,0.783,0.833
+C — Recursive substrate,Type II — Saddle,0.496,collapse-ward,1.0,0.783,0.867
+D — Dynamical manifolds,Type II — Saddle,0.913,collapse-ward,0.4,0.717,0.817

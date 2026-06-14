@@ -1,0 +1,31 @@
+{
+  "phase": "G",
+  "title": "Coherent-Fertile Organizational Conditions",
+  "git_hash": "35e927d2e21d78bc558c315407a84ae008f06fab",
+  "seed": 3000,
+  "completed": [
+    "g1g2",
+    "g3",
+    "g4g5",
+    "g6",
+    "g7"
+  ],
+  "file_inventory": {
+    "processed/coherence_fertility_phase_space.csv": 369274,
+    "processed/organizational_regions.csv": 363616,
+    "processed/constrained_generativity_candidates.csv": 74532,
+    "processed/transition_dynamics.csv": 1644,
+    "processed/balance_metrics.csv": 132,
+    "processed/cross_family_positions.csv": 816,
+    "processed/metastable_regimes.csv": 1851,
+    "nulls/null_controls.csv": 118
+  },
+  "key_results": {
+    "constrained_generative_count": 939,
+    "constrained_generative_pct": 18.8,
+    "null_survive_count": 4,
+    "meta_stable_regimes": 23
+  },
+  "conclusion": "Constrained generativity exists in 6/10 families under moderate geometric conditions",
+  "generated_at": "2026-05-24T20:47:53"
+}

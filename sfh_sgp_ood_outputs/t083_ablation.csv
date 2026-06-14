@@ -1,0 +1,6 @@
+removed,pc1_pct,intrinsic_dim,corridor_detected
+hierarchy_depth,53.5,4,False
+resource_limit,50.3,4,False
+adaptation_rate,48.1,4,False
+context_sensitivity,50.9,3,True
+corridor_feedback,46.9,4,True

@@ -1,0 +1,31 @@
+domain,name,viable,fertile,C,P,G,R,S,SR,NP,RC,RD,OE,note
+A — Physical universes,Our universe,True,True,0.85,0.85,0.9,0.6,0.8,0.9,0.85,0.9,0.8,0.8,"Produces galaxies, stars, planets, life, consciousness. Open-ended cosmic evolution."
+A — Physical universes,Cyclic universe (bounce),True,True,0.75,0.85,0.8,0.7,0.65,0.8,0.75,0.85,0.7,0.7,Rich structure each cycle. Information may survive bounces. Highly generative.
+A — Physical universes,Empty universe (Ω<<1),False,False,0.8,0.95,0.05,0.1,0.0,0.05,0.0,0.0,0.0,0.0,"Expands forever, no structure forms. Merely persists but produces nothing."
+A — Physical universes,Collapsing universe (Ω>>1),False,False,0.75,0.15,0.3,0.0,0.1,0.3,0.25,0.2,0.1,0.05,Recollapses before structure matures. Brief window of limited generativity.
+A — Physical universes,Thermal equilibrium universe,False,False,0.5,0.9,0.05,0.05,0.0,0.0,0.0,0.0,0.0,0.0,"Maximum entropy, no energy gradients. Perfectly sterile, perfectly persistent."
+A — Physical universes,High-dark-energy universe,False,False,0.8,0.6,0.15,0.1,0.05,0.15,0.1,0.1,0.05,0.05,Dark energy dominates before structure can form. Dilutes everything rapidly.
+A — Physical universes,Strong-coupling universe,False,False,0.4,0.3,0.5,0.1,0.15,0.5,0.45,0.4,0.2,0.15,"Forces too strong; matter clumps too rapidly, burns through fuel. Some structure but collapses."
+A — Physical universes,Hypothetical super-fertile universe,True,True,0.8,0.8,0.95,0.55,0.9,0.95,0.95,0.95,0.9,0.95,Imagined universe with even richer phase space. Multiple force-balance sweet spots.
+B — Mathematical systems,ZFC set theory,True,True,0.8,0.9,0.9,0.7,0.7,0.9,0.9,0.85,0.8,0.9,Virtually all mathematics encoded. Rich combinatorial and structural generativity.
+B — Mathematical systems,Peano arithmetic (PA),True,True,0.85,0.9,0.8,0.75,0.5,0.7,0.75,0.6,0.4,0.8,Infinite theorems via induction. Limited self-reference but open-ended generativity.
+B — Mathematical systems,First-order logic (FOL),True,False,1.0,0.95,0.4,0.9,0.1,0.3,0.3,0.2,0.1,0.3,"Perfectly coherent, perfectly sterile. Decidable fragments have limited structure."
+B — Mathematical systems,Category theory (ETCS),True,True,0.8,0.85,0.85,0.7,0.8,0.85,0.85,0.9,0.9,0.85,"Higher-dimensional categorical closure. Functor categories, n-categories enable deep recursion."
+B — Mathematical systems,Computation (Turing/λ-calculus),True,True,0.85,0.9,0.8,0.65,0.85,0.8,0.8,0.85,0.95,0.85,UTM self-simulation. Fixed-point combinators. Deep recursive capacity.
+B — Mathematical systems,Inconsistent system (naive comprehension),False,False,0.05,0.1,0.95,0.0,0.1,0.9,0.95,0.8,0.6,0.9,Maximum apparent generativity — but every statement is provable. Spurious fertility = triviality.
+B — Mathematical systems,Presburger arithmetic (no multiplication),True,False,1.0,0.95,0.25,0.95,0.05,0.15,0.15,0.1,0.05,0.15,"Decidable, complete, consistent. No multiplication means almost no interesting structures."
+B — Mathematical systems,Decidable fragment of FOL,True,False,1.0,0.95,0.15,0.95,0.05,0.1,0.1,0.05,0.0,0.1,Both conjunctively and disjunctively decidable. No interesting structure at all.
+C — Recursive substrate,Full 9-assumption substrate (T066 corrected),True,True,0.95,0.85,0.85,0.8,0.9,0.85,0.8,0.8,0.85,0.75,"Clean DAG, OC2 unique root. Multiple generative paths. SR1→EC1→CD2 self-modeling."
+C — Recursive substrate,Original substrate (IS1↔IS2 cycle),False,False,0.2,0.3,0.4,0.1,0.35,0.4,0.35,0.3,0.4,0.3,Bootstrap deadlock prevents resolution. Apparent structure is illusory.
+C — Recursive substrate,OC2 only (trivial substrate),False,False,0.6,0.3,0.05,0.1,0.0,0.05,0.0,0.0,0.0,0.0,Distinguishability with nothing to distinguish. Completely sterile.
+C — Recursive substrate,Substrate without SR1 (no self-examination),True,False,0.85,0.8,0.7,0.7,0.25,0.5,0.5,0.45,0.3,0.4,"Produces outputs and structure, but cannot examine itself. Self-knowledge and self-effects lost."
+C — Recursive substrate,Substrate without EC1 (no self-knowledge),True,True,0.85,0.8,0.75,0.7,0.6,0.7,0.7,0.7,0.55,0.6,Produces rich structure but limited recursive depth. Self-examination without actionable self-knowledge.
+C — Recursive substrate,Substrate without CD2 (no self-effects),True,False,0.9,0.8,0.65,0.7,0.75,0.6,0.55,0.5,0.6,0.5,Can know and examine self but cannot act on that knowledge. Generativity plateau.
+D — Dynamical manifolds,Lorenz strange attractor,True,False,0.8,0.8,0.6,0.6,0.3,0.4,0.3,0.2,0.2,0.2,Deterministic chaos on bounded attractor. Novel trajectories but within fixed structure.
+D — Dynamical manifolds,Reaction-diffusion (Turing patterns),True,True,0.85,0.85,0.8,0.75,0.35,0.8,0.7,0.75,0.3,0.6,"Rich pattern formation, morphogenesis. Recombines patterns into higher-order structures."
+D — Dynamical manifolds,"Logistic map (r=3.8, chaotic)",True,False,0.75,0.65,0.65,0.3,0.15,0.35,0.3,0.15,0.1,0.15,Chaotic but one-dimensional. Rich visit sequence but no recombining structures.
+D — Dynamical manifolds,Coupled oscillator sync (Kuramoto),True,False,0.85,0.85,0.65,0.7,0.4,0.45,0.4,0.35,0.25,0.3,Synchronization emerges but limited further structure. Reaches attractor and stabilizes.
+D — Dynamical manifolds,Fixed-point collapse,False,False,0.7,0.8,0.05,0.4,0.0,0.0,0.0,0.0,0.0,0.0,All trajectories to single point. Completely sterile.
+D — Dynamical manifolds,Boolean network (K=2 critical),True,True,0.8,0.8,0.8,0.6,0.5,0.8,0.75,0.8,0.5,0.7,Critical regime maximizes complexity. Robust attractors with rich state-space structure.
+D — Dynamical manifolds,Cellular automata (Game of Life),True,True,0.85,0.8,0.9,0.5,0.6,0.9,0.85,0.9,0.7,0.9,"Turing-complete. Gliders, oscillators, universal computation. Open-ended structures."
+D — Dynamical manifolds,Unbounded chaotic divergence,False,False,0.3,0.1,0.2,0.0,0.0,0.1,0.2,0.05,0.0,0.1,"Trajectories escape to infinity. No persistent structure, no generativity."

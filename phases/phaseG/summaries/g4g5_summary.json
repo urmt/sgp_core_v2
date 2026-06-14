@@ -1,0 +1,11 @@
+{
+  "phase": "G4+G5",
+  "seed": 3000,
+  "constrained_generative_count": 939,
+  "expected_under_independence": 1250,
+  "coherence_fertility_correlation": -0.1396,
+  "chi2_domain_uniformity": 832.7,
+  "null_curvature_permutation_p": 0.56,
+  "null_survive_count": 4,
+  "verdict": "Constrained generativity is a real but rare organizational state"
+}

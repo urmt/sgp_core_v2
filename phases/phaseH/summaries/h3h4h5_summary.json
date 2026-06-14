@@ -1,0 +1,11 @@
+{
+  "phase": "H3+H4+H5",
+  "seed": 3000,
+  "n_transition_map_entries": 540,
+  "n_attractor_entries": 31,
+  "n_minimal_conditions": 2372,
+  "strongest_self_attractor": "chaotic_fertility",
+  "weakest_self_attractor": "rigid_coherence",
+  "cg_entry_rate_from_noncg": 0.14979475844647933,
+  "runtime_seconds": 1
+}

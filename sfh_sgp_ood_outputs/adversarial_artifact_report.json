@@ -1,0 +1,6 @@
+{
+  "real_silhouette_mean": 0.3516556767466198,
+  "synthetic_silhouette_mean": 0.2795306791020888,
+  "silhouette_ratio_real_vs_synthetic": 1.2580217594584309,
+  "verdict": "MODERATE ARTIFACT RISK: synthetic clusters but less cleanly"
+}

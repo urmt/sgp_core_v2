@@ -1,0 +1,2 @@
+phase,neighbor_mean_corr,neighbor_gradient_corr,local_diffusion_corr,laplacian_energy,field_coherence,verdict
+520,0.8205938896741184,-0.1046605064464047,-0.3544267680034426,0.4062116383688708,0.7111305103120508,PARTIAL-PROPAGATION-STRUCTURE

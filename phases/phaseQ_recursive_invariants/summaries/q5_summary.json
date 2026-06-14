@@ -1,0 +1,14 @@
+{
+  "phase": "Q5",
+  "n_claims": 6,
+  "robust": 4,
+  "refined": 1,
+  "partially_supported": 1,
+  "invalidated": 0,
+  "unresolved_questions": [
+    "mechanism of coupling enabling closure persistence",
+    "multiple successive regime transitions",
+    "lower bound on closure recovery",
+    "two-level model extension to all properties"
+  ]
+}

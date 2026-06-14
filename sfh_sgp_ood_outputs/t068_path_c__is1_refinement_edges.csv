@@ -1,0 +1,20 @@
+source,target,source_label,target_label
+CD1,OC1,Causal relations exist,Stable structure
+CD1,OC2,Causal relations exist,Distinguishability
+CD2,CD1,Self-affecting procedures,Causal relations exist
+CD2,IS1a,Self-affecting procedures,Investigative change
+CD2,EC1,Self-affecting procedures,Self-knowledge
+EC1,SR1,Self-knowledge,Self-examination of outputs
+EC1,IS2,Self-knowledge,Determinate outputs
+EC1,IS1a,Self-knowledge,Investigative change
+IC1,OC1,Extractable information,Stable structure
+IC1,OC2,Extractable information,Distinguishability
+IC1,IS1a,Extractable information,Investigative change
+IS1a,OC2,Investigative change,Distinguishability
+IS1b,IS1a,Identifiable stages,Investigative change
+IS2,IC1,Determinate outputs,Extractable information
+IS2,OC1,Determinate outputs,Stable structure
+IS2,IS1a,Determinate outputs,Investigative change
+OC1,OC2,Stable structure,Distinguishability
+SR1,IS2,Self-examination of outputs,Determinate outputs
+SR1,IS1b,Self-examination of outputs,Identifiable stages

@@ -1,0 +1,7 @@
+claim,status,evidence
+identity > geometry (Phase K),REFINED,"Closure requires coupling (K>0). Without coupling, survival drops to 15-17%. Identity > geometry, but identity requires coupling context."
+observer-like persistence requires 5 conditions (Phase L),PARTIALLY SUPPORTED,"Minimal closure survives with fewer conditions, but observer-like organization requires all 5."
+static interaction models fail (Phase M),ROBUST,Closure VALUE is distributional but closure CORRELATION is trajectory-dependent (0.993 collapse). Static models cannot capture correlation-level organization.
+"two-level model: shallow distributional, deep trajectory-dependent (Phase N)",ROBUST,"Across N, O, P: closure VALUES survive scrambling (-0.012 to 0.267 collapse), closure CORRELATIONS collapse (0.947-0.993). No timing precision also survives (98%)."
+recursive identity can be organizationally shared (Phase O),ROBUST,Shared closure value is the strongest invariant (0.988). Buffering (0.884) confirms collective stability.
+continuity persiss through organizational transformation (Phase P),ROBUST,"Individual survival 0.736, shared 0.835, reconstruction 0.785. Null collapse = -0.089 (distributional)."

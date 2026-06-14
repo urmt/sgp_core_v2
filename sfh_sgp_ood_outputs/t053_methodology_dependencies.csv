@@ -1,0 +1,7 @@
+term,requires_identity,requires_distinction,requires_memory,requires_ordering,requires_comparison,total_dependencies
+catalog,True,True,True,False,False,3
+count,True,True,True,False,False,3
+event,True,True,True,True,False,4
+test,True,True,True,True,True,5
+detector,True,True,True,True,True,5
+record,True,True,True,False,False,3

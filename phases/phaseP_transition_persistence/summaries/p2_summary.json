@@ -1,0 +1,11 @@
+{
+  "phase": "P2",
+  "preservation_hierarchy": {
+    "coupling_strengthen": 0.31392448403626766,
+    "coupling_weaken": -0.3252422728390815,
+    "bifurcation": 0.014922823005054181,
+    "fragmentation": -0.28095223836772276,
+    "closure_reorg": 0.028315891135112,
+    "topology_change": 0.059827848809325936
+  }
+}

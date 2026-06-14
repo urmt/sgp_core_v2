@@ -1,0 +1,10 @@
+{
+  "vocabularies": 5,
+  "junction_counts": {
+    "recursion": 5,
+    "constraint": 5,
+    "preservation": 5,
+    "distinction": 5
+  },
+  "verdict": "vocabulary_independent"
+}

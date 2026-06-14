@@ -1,0 +1,8 @@
+{
+  "phase": "L8",
+  "real_observer_continuity": 0.011756679627924135,
+  "null_observer_continuity": 0.16358735896192803,
+  "collapse_under_null": -12.914418249684894,
+  "self_reference_collapse": 1.0,
+  "identity_frame_collapse": 1.0
+}

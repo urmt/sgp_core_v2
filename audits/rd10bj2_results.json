@@ -1,0 +1,23 @@
+{
+  "bottom_up_ladders": 5,
+  "top_down_ladders": 6,
+  "junction_counts": {
+    "recursion": {
+      "total": 11,
+      "present": 11
+    },
+    "constraint": {
+      "total": 11,
+      "present": 11
+    },
+    "preservation": {
+      "total": 11,
+      "present": 11
+    },
+    "distinction": {
+      "total": 11,
+      "present": 11
+    }
+  },
+  "verdict": "path_independent"
+}

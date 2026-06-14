@@ -1,0 +1,10 @@
+removed_assumption,removed_label,n_survivors,survivors,n_collapsed,collapsed,notes
+OC2,Distinguishability,0,,8,CD1;CD2;EC1;IC1;IS1;IS2;OC1;SR1,Complete collapse — nothing justifies
+OC1,Stable structure,2,IS1;OC2,6,CD1;CD2;EC1;IC1;IS2;SR1,
+IS1,Phase structure,3,CD1;OC1;OC2,5,CD2;EC1;IC1;IS2;SR1,
+IC1,Extractable information,4,CD1;IS1;OC1;OC2,4,CD2;EC1;IS2;SR1,
+IS2,Determinate outputs,5,CD1;IC1;IS1;OC1;OC2,3,CD2;EC1;SR1,
+SR1,Self-examination of outputs,6,CD1;IC1;IS1;IS2;OC1;OC2,2,CD2;EC1,
+CD1,Causal relations exist,7,EC1;IC1;IS1;IS2;OC1;OC2;SR1,1,CD2,
+EC1,Self-knowledge,7,CD1;IC1;IS1;IS2;OC1;OC2;SR1,1,CD2,
+CD2,Self-affecting procedures,8,CD1;EC1;IC1;IS1;IS2;OC1;OC2;SR1,0,,

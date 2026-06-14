@@ -1,0 +1,5 @@
+feature_set,n_features,features,agreement_with_full
+m2_only,1,abl_no_m2_pc1,0.07142857142857142
+m2_plus_pc1,2,abl_no_m2_pc1+pc1,0.6428571428571429
+m2_plus_tau,2,abl_no_m2_pc1+tau_m2,0.35714285714285715
+non_m2,10,pc1+pc2+effective_rank+tau_m1+tau_m3+tau_m4+temporal_corr+phase_corr+pc1_ratio+replay_displacement,0.07142857142857142

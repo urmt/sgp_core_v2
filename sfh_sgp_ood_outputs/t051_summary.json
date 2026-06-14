@@ -1,0 +1,61 @@
+{
+  "total_statements": 51,
+  "by_category": {
+    "A": 26,
+    "D": 9,
+    "E": 1,
+    "C": 7,
+    "B": 8
+  },
+  "category_definitions": {
+    "A": "Directly demonstrated by procedure",
+    "B": "Inference from demonstrated results",
+    "C": "Model-dependent statement",
+    "D": "Underdetermined statement",
+    "E": "Ontology claim"
+  },
+  "key_findings": {
+    "A_statements": "All are direct measurements or procedures.",
+    "B_statements": "Inferences from measurements. May be contaminated.",
+    "C_statements": "True for models, not proven for observation.",
+    "D_statements": "Underdetermined. Cannot be resolved with current evidence.",
+    "E_statements": "Ontology claims. Untestable."
+  },
+  "boundary_map": {
+    "KNOWN": "26 statements directly demonstrated",
+    "INFERRED": "8 statements inferred from demonstrations",
+    "MODEL_DEPENDENT": "7 statements true only for models",
+    "UNDERDETERMINED": "9 statements that cannot be resolved",
+    "ONTOLOGICAL": "1 statements that are untestable"
+  },
+  "evidence_requirements": {
+    "Distinction can emerge from pure \u03a9": {
+      "to_C": "A detector that does not import distinction successfully detects it.",
+      "to_B": "Multiple independent assumption-free detectors agree on distinction emergence."
+    },
+    "The first stable structure is trajectory bundles": {
+      "to_C": "Assumption-free detectors confirm trajectory bundles as first structure.",
+      "to_B": "Multiple independent detector families agree on trajectory bundles."
+    },
+    "Recurrence is the first emergent structure": {
+      "to_C": "Recurrence survives all audits with clean detectors.",
+      "to_B": "Recurrence is confirmed by multiple independent detector families."
+    },
+    "Convergence is genuine": {
+      "to_C": "Convergence detectors pass full assumption audit.",
+      "to_B": "Convergence is confirmed by assumption-free detectors."
+    },
+    "Convergence is fundamental": {
+      "to_C": "Convergence appears without any imported primitives.",
+      "to_B": "Convergence is confirmed by assumption-free detectors and beats all nulls."
+    },
+    "Nothing exists below distinction": {
+      "to_C": "Exhaustive search of all possible substrates.",
+      "to_B": "Strong evidence from diverse candidate tests."
+    },
+    "All five primitives are necessary for observation": {
+      "to_C": "Observation is proven to require each primitive (not just models).",
+      "to_B": "Strong evidence from diverse observation scenarios."
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "phase": "O4",
+  "high_memory_fraction": 0.935,
+  "key_observation": "Memory sharing requires coupling > 0.5; closure cross-correlation is strong even at moderate coupling"
+}

@@ -1,0 +1,23 @@
+{
+  "phase": "R7",
+  "n_programs": 16,
+  "baseline_survival": 0.94,
+  "catastrophic_programs": [
+    "negative_coupling",
+    "inverted_closure",
+    "all_adversarial"
+  ],
+  "resilient_programs": [
+    "baseline",
+    "all_zero_closure",
+    "all_one_closure",
+    "low_initial_closure",
+    "high_initial_closure",
+    "aligned_theta",
+    "anti_aligned_theta",
+    "single_freq",
+    "bimodal_freq",
+    "chaotic_coupling",
+    "anti_closure"
+  ]
+}

@@ -1,0 +1,12 @@
+Hypothesis,Test,Result,Confidence
+Universal dynamical manifold,T027 flow invariant,FAILED,0.15
+Transit bridge ontology,T028 bridge centrality,FAILED,0.20
+Unique dynamical generation,T030 null destruction,FAILED,0.10
+Universal field equations,T030 Section G,FAILED,0.05
+Partial continuity,T030 parametric,SURVIVED,0.75
+Topological segmentation,T030 Section C,SURVIVED,0.80
+Row-shuffle sensitivity,T031 row-shuffle,SURVIVED,0.85
+Adversarial resistance,T031 adversarial,SURVIVED,0.90
+Representation robustness,T031 trustworthiness,SURVIVED,0.82
+Spectral uniqueness,T031 spectral,SURVIVED,0.78
+Fokker-Planck continuum,T030 Section G,DEGENERATE,---

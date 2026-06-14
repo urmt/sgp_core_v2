@@ -1,0 +1,494 @@
+{
+  "results": {
+    "binding": {
+      "description": "Discrete states via potential wells",
+      "C_mean": 0.01104186724686422,
+      "detections": {
+        "binding": {
+          "binding_ratio": 6.238055692011401,
+          "present": "True"
+        },
+        "network": {
+          "modularity": 0.13573339914561053,
+          "present": "True"
+        },
+        "cycle": {
+          "mean_autocorrelation": 0.512486311847972,
+          "present": "False"
+        },
+        "template": {
+          "mean_copy_correlation": 0.08484320143555685,
+          "present": "False"
+        },
+        "boundary": {
+          "boundary_ratio": 3.821992453539048,
+          "present": "True"
+        },
+        "hierarchy": {
+          "hierarchy_score": 0.0036311722314116,
+          "present": "False"
+        },
+        "recursion": {
+          "recursion_score": 0.08868478677979404,
+          "present": "False"
+        },
+        "formal_inference": {
+          "inference_r2": -0.062332786539536444,
+          "present": "False"
+        }
+      }
+    },
+    "network": {
+      "description": "Connected modules",
+      "C_mean": 1.0,
+      "detections": {
+        "binding": {
+          "binding_ratio": 0.02319587628865979,
+          "present": "False"
+        },
+        "network": {
+          "modularity": 0.5,
+          "present": "True"
+        },
+        "cycle": {
+          "mean_autocorrelation": 1.0,
+          "present": "True"
+        },
+        "template": {
+          "mean_copy_correlation": 1.0,
+          "present": "True"
+        },
+        "boundary": {
+          "boundary_ratio": 0.9999999999,
+          "present": "False"
+        },
+        "hierarchy": {
+          "hierarchy_score": 0.0,
+          "present": "False"
+        },
+        "recursion": {
+          "recursion_score": 1.0,
+          "present": "True"
+        },
+        "formal_inference": {
+          "inference_r2": 1.0,
+          "present": "True"
+        }
+      }
+    },
+    "cycle": {
+      "description": "Self-reinforcing loops",
+      "C_mean": 0.7809729697196978,
+      "detections": {
+        "binding": {
+          "binding_ratio": 7.396750734838262,
+          "present": "True"
+        },
+        "network": {
+          "modularity": 0.48442459501736435,
+          "present": "True"
+        },
+        "cycle": {
+          "mean_autocorrelation": 0.9633851745327813,
+          "present": "True"
+        },
+        "template": {
+          "mean_copy_correlation": 0.695389635390494,
+          "present": "True"
+        },
+        "boundary": {
+          "boundary_ratio": 1.153944786951285,
+          "present": "False"
+        },
+        "hierarchy": {
+          "hierarchy_score": -0.006934556311746665,
+          "present": "False"
+        },
+        "recursion": {
+          "recursion_score": 0.8190763087690751,
+          "present": "True"
+        },
+        "formal_inference": {
+          "inference_r2": 0.662069113433446,
+          "present": "True"
+        }
+      }
+    },
+    "template": {
+      "description": "Information transfer via copying",
+      "C_mean": 0.08626648332542367,
+      "detections": {
+        "binding": {
+          "binding_ratio": 7.257339521301917,
+          "present": "True"
+        },
+        "network": {
+          "modularity": 0.125713056288923,
+          "present": "True"
+        },
+        "cycle": {
+          "mean_autocorrelation": 0.6683652595019082,
+          "present": "True"
+        },
+        "template": {
+          "mean_copy_correlation": 0.6647384896737423,
+          "present": "True"
+        },
+        "boundary": {
+          "boundary_ratio": 1.450204283874514,
+          "present": "False"
+        },
+        "hierarchy": {
+          "hierarchy_score": 0.04985160593681984,
+          "present": "False"
+        },
+        "recursion": {
+          "recursion_score": 0.1660665829353099,
+          "present": "False"
+        },
+        "formal_inference": {
+          "inference_r2": 0.31672778859965045,
+          "present": "False"
+        }
+      }
+    },
+    "boundary": {
+      "description": "Protected interior",
+      "C_mean": 0.059835970337928916,
+      "detections": {
+        "binding": {
+          "binding_ratio": 6.49601298153125,
+          "present": "True"
+        },
+        "network": {
+          "modularity": 0.25903777941222006,
+          "present": "True"
+        },
+        "cycle": {
+          "mean_autocorrelation": 0.5001360944126972,
+          "present": "False"
+        },
+        "template": {
+          "mean_copy_correlation": 0.032095169422970374,
+          "present": "False"
+        },
+        "boundary": {
+          "boundary_ratio": 30.819476335809554,
+          "present": "True"
+        },
+        "hierarchy": {
+          "hierarchy_score": -0.01005208060848306,
+          "present": "False"
+        },
+        "recursion": {
+          "recursion_score": 0.19757829817369127,
+          "present": "False"
+        },
+        "formal_inference": {
+          "inference_r2": 0.044024352165753254,
+          "present": "False"
+        }
+      }
+    },
+    "hierarchy": {
+      "description": "Nested coordination",
+      "C_mean": 0.1563817439133616,
+      "detections": {
+        "binding": {
+          "binding_ratio": 5.990544841553053,
+          "present": "True"
+        },
+        "network": {
+          "modularity": 0.2535954917482739,
+          "present": "True"
+        },
+        "cycle": {
+          "mean_autocorrelation": 0.6153694382896965,
+          "present": "True"
+        },
+        "template": {
+          "mean_copy_correlation": 0.1488910982841696,
+          "present": "False"
+        },
+        "boundary": {
+          "boundary_ratio": 2.938717558841557,
+          "present": "True"
+        },
+        "hierarchy": {
+          "hierarchy_score": -0.06146882270815107,
+          "present": "False"
+        },
+        "recursion": {
+          "recursion_score": 0.2990006214521678,
+          "present": "False"
+        },
+        "formal_inference": {
+          "inference_r2": 0.044296521828764236,
+          "present": "False"
+        }
+      }
+    },
+    "recursion": {
+      "description": "Self-referential representation",
+      "C_mean": 0.11448929235397805,
+      "detections": {
+        "binding": {
+          "binding_ratio": 6.608480921797351,
+          "present": "True"
+        },
+        "network": {
+          "modularity": 0.24428403777235005,
+          "present": "True"
+        },
+        "cycle": {
+          "mean_autocorrelation": 0.6453070082369912,
+          "present": "True"
+        },
+        "template": {
+          "mean_copy_correlation": 0.1213884224481541,
+          "present": "False"
+        },
+        "boundary": {
+          "boundary_ratio": 2.6481863704789914,
+          "present": "True"
+        },
+        "hierarchy": {
+          "hierarchy_score": 0.002582100226427464,
+          "present": "False"
+        },
+        "recursion": {
+          "recursion_score": 0.24580182904398212,
+          "present": "False"
+        },
+        "formal_inference": {
+          "inference_r2": 0.060393054921502855,
+          "present": "False"
+        }
+      }
+    },
+    "formal_inference": {
+      "description": "Derivation from axioms",
+      "C_mean": 0.23021131117374874,
+      "detections": {
+        "binding": {
+          "binding_ratio": 6.084687248190105,
+          "present": "True"
+        },
+        "network": {
+          "modularity": 0.1985656486506453,
+          "present": "True"
+        },
+        "cycle": {
+          "mean_autocorrelation": 0.7619195589538649,
+          "present": "True"
+        },
+        "template": {
+          "mean_copy_correlation": 0.6211129443131297,
+          "present": "True"
+        },
+        "boundary": {
+          "boundary_ratio": 1.1702718739045455,
+          "present": "False"
+        },
+        "hierarchy": {
+          "hierarchy_score": 0.03221197630228373,
+          "present": "False"
+        },
+        "recursion": {
+          "recursion_score": 0.25966320319863784,
+          "present": "False"
+        },
+        "formal_inference": {
+          "inference_r2": 0.6218211957287317,
+          "present": "True"
+        }
+      }
+    }
+  },
+  "independence": {
+    "matrix": [
+      [
+        0.8428580155630958,
+        0.026771820457682158,
+        0.024707159883377006,
+        0.0544971265213544,
+        0.09463588232905068,
+        0.5847982776565034,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.5521791773205504,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.9583864592544837,
+        0.9267504113460662,
+        0.6852889302888298,
+        0.005162558366791302,
+        0.4898855229018927,
+        0.8014696906116421,
+        0.6818973387168661
+      ],
+      [
+        0.9810930797680717,
+        0.0,
+        0.3365499353100005,
+        0.6536214101479512,
+        0.015097658956283002,
+        1.0,
+        0.08491221811395097,
+        0.3568190494938467
+      ],
+      [
+        0.8778421303446857,
+        0.3562099222627822,
+        0.0,
+        0.0,
+        1.0,
+        0.4618805615961923,
+        0.11949050099702957,
+        0.10011659251498725
+      ],
+      [
+        0.8092906447078616,
+        0.34166950679975383,
+        0.23052943529020897,
+        0.12066881492012986,
+        0.06501514436747141,
+        0.0,
+        0.23078275400364032,
+        0.10037279251790493
+      ],
+      [
+        0.8930950093730006,
+        0.3167916580466014,
+        0.29042087696595925,
+        0.09225416611667321,
+        0.05527214334727244,
+        0.5753743828893543,
+        0.17240691254237087,
+        0.11552485531469743
+      ],
+      [
+        0.8220582186180081,
+        0.1946436913865725,
+        0.5237094769497141,
+        0.6085492667073563,
+        0.0057100893418271965,
+        0.841541845919464,
+        0.18761720855583852,
+        0.6440109831278433
+      ]
+    ],
+    "correlation": [
+      [
+        1.0,
+        -0.5482405633997248,
+        -0.5167779033394951,
+        -0.5268927945761491,
+        0.1531795431561845,
+        0.10336971452873585,
+        -0.6494004312921309,
+        -0.6131425654821181
+      ],
+      [
+        -0.5482405633997247,
+        1.0,
+        0.8219663110967074,
+        0.555996896658531,
+        -0.09896279430900956,
+        -0.3197689923299186,
+        0.9616816155662914,
+        0.7096904331905672
+      ],
+      [
+        -0.5167779033394951,
+        0.8219663110967074,
+        1.0,
+        0.8916006826276118,
+        -0.5195206934893446,
+        0.11367815466492784,
+        0.9213023237591532,
+        0.9385651683084755
+      ],
+      [
+        -0.5268927945761491,
+        0.555996896658531,
+        0.8916006826276119,
+        1.0,
+        -0.5104650063035673,
+        0.4224495437525328,
+        0.7416083535734307,
+        0.9501055254307952
+      ],
+      [
+        0.1531795431561845,
+        -0.09896279430900955,
+        -0.5195206934893446,
+        -0.5104650063035672,
+        1.0,
+        -0.18093837096438817,
+        -0.28674586483532577,
+        -0.3907024634894887
+      ],
+      [
+        0.10336971452873585,
+        -0.31976899232991857,
+        0.11367815466492785,
+        0.4224495437525328,
+        -0.18093837096438817,
+        0.9999999999999998,
+        -0.16024087786072957,
+        0.28116369607425956
+      ],
+      [
+        -0.6494004312921309,
+        0.9616816155662914,
+        0.9213023237591531,
+        0.7416083535734307,
+        -0.28674586483532577,
+        -0.16024087786072957,
+        0.9999999999999999,
+        0.8400431575701583
+      ],
+      [
+        -0.6131425654821181,
+        0.7096904331905672,
+        0.9385651683084754,
+        0.9501055254307952,
+        -0.3907024634894887,
+        0.28116369607425956,
+        0.8400431575701585,
+        1.0
+      ]
+    ],
+    "arch_names": [
+      "binding",
+      "network",
+      "cycle",
+      "template",
+      "boundary",
+      "hierarchy",
+      "recursion",
+      "formal_inference"
+    ],
+    "motif_names": [
+      "binding",
+      "network",
+      "cycle",
+      "template",
+      "boundary",
+      "hierarchy",
+      "recursion",
+      "formal_inference"
+    ]
+  }
+}

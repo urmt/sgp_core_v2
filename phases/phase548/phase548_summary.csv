@@ -1,0 +1,2 @@
+phase,tautology_verified,raw_R2_CSR_RBS,raw_csr_coef,raw_rbs_coef,raw_intercept,adi_coef_5model,permutation_mean_R2,permutation_max_R2,bootstrap_csr_std,bootstrap_rbs_std,classification,verdict
+548,True,1.0,1.0,1.0,0.0,-8.33e-17,0.900856,0.939011,0.0,0.0,HIDDEN-NORMALIZATION-IDENTITY,TAUTOLOGY-LAW

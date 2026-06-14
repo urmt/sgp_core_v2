@@ -1,0 +1,17 @@
+perturbation,removed,new_roots,oc2_is_root,oc2_survives,notes
+Remove OC2,OC2,none,False,False,No roots — nothing survives
+Remove OC1,OC1,OC2,True,True,OC2 remains unique root
+Remove CD1,CD1,OC2,True,True,OC2 remains unique root
+Remove CD2,CD2,OC2,True,True,OC2 remains unique root
+Remove EC1,EC1,OC2,True,True,OC2 remains unique root
+Remove IC1,IC1,OC2,True,True,OC2 remains unique root
+Remove IS1,IS1,OC2,True,True,OC2 remains unique root
+Remove IS2,IS2,OC2,True,True,OC2 remains unique root
+Remove SR1,SR1,OC2,True,True,OC2 remains unique root
+
+MODEL_PERTURBATION_TESTS,,,,,
+OC2 depends on IC1,none,,False,False,"Roots: [], Satisfied: 0/9, Cycles: 0"
+OC2 depends on CD1,none,,False,False,"Roots: [], Satisfied: 0/9, Cycles: 0"
+OC2 depends on OC1,none,,False,False,"Roots: [], Satisfied: 0/9, Cycles: 0"
+OC2 depends on IS1,none,,False,False,"Roots: [], Satisfied: 0/9, Cycles: 0"
+"OC2 depends on IC1, OC1",none,,False,False,"Roots: [], Satisfied: 0/9, Cycles: 0"

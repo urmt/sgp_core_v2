@@ -1,0 +1,519 @@
+{
+  "section_A": {
+    "n_systems": 211,
+    "n_families": 13,
+    "systems_per_family": {
+      "logistic": 25,
+      "lorenz": 25,
+      "ising": 25,
+      "reaction_diffusion": 20,
+      "henon": 15,
+      "kuramoto": 20,
+      "ca": 10,
+      "sandpile": 5,
+      "rbn": 6,
+      "markov": 15,
+      "branching": 15,
+      "lotka": 15,
+      "gbm": 15
+    },
+    "flow_range": [
+      0.0,
+      129.0499407905061
+    ],
+    "flow_mean": 49.970224887016556,
+    "flow_std": 33.831953108182894,
+    "phi_range": {
+      "C": [
+        -3.489041241032123,
+        2.0067796367860726
+      ],
+      "F": [
+        -4.8556954228255975,
+        3.8356097614699785
+      ],
+      "A": [
+        -2.6314292834882957,
+        1.3178778931120476
+      ],
+      "R": [
+        -3.7396032836606525,
+        4.853234671326941
+      ]
+    }
+  },
+  "section_B": {
+    "lipschitz_constant": 84.32955733157586,
+    "mean_flow_delta_ratio": 12.146195734318171,
+    "distance_flow_diff_rho": 0.2852968236557706,
+    "distance_flow_diff_p": 0.0,
+    "mean_knn_flow_var": 163.03059000924515,
+    "flow_smoothness": 0.4976303317535545,
+    "density_flow_r": -0.9525357054256178,
+    "direction_coherence": 0.35698940045365424,
+    "parametric_continuity": {
+      "logistic_F": {
+        "rho": 0.7323076923076922,
+        "p": 3.159963170244052e-05,
+        "n": 25
+      },
+      "logistic_A": {
+        "rho": -0.6215384615384615,
+        "p": 0.000911819470339815,
+        "n": 25
+      },
+      "logistic_R": {
+        "rho": -0.5884615384615385,
+        "p": 0.0019731836136078363,
+        "n": 25
+      },
+      "lorenz_C": {
+        "rho": 0.6084615384615384,
+        "p": 0.0012497612490284112,
+        "n": 25
+      },
+      "lorenz_F": {
+        "rho": -0.45384615384615384,
+        "p": 0.022678852863870006,
+        "n": 25
+      },
+      "lorenz_A": {
+        "rho": -0.4160060394101638,
+        "p": 0.03860636546609886,
+        "n": 25
+      },
+      "lorenz_R": {
+        "rho": 0.5976923076923077,
+        "p": 0.0016040762351613622,
+        "n": 25
+      },
+      "ising_C": {
+        "rho": 0.733076923076923,
+        "p": 3.069941468924467e-05,
+        "n": 25
+      },
+      "ising_F": {
+        "rho": 0.5330769230769231,
+        "p": 0.006072828445393005,
+        "n": 25
+      },
+      "ising_A": {
+        "rho": -0.7007692307692307,
+        "p": 9.56604413042009e-05,
+        "n": 25
+      },
+      "ising_R": {
+        "rho": -0.4076923076923077,
+        "p": 0.043077118260726716,
+        "n": 25
+      },
+      "ising_flow": {
+        "rho": -0.2453846153846154,
+        "p": 0.2370897001583282
+      },
+      "reaction_C": {
+        "rho": -0.8812030075187969,
+        "p": 2.88608487615473e-07,
+        "n": 20
+      },
+      "reaction_A": {
+        "rho": -0.77593984962406,
+        "p": 5.796529340653607e-05,
+        "n": 20
+      },
+      "reaction_R": {
+        "rho": -0.6661654135338345,
+        "p": 0.0013421308384466998,
+        "n": 20
+      },
+      "reaction_flow": {
+        "rho": -0.813533834586466,
+        "p": 1.2867962423531951e-05
+      },
+      "henon_F": {
+        "rho": -0.575,
+        "p": 0.024936227942582535,
+        "n": 15
+      },
+      "henon_A": {
+        "rho": -0.4107142857142856,
+        "p": 0.12832864601574887,
+        "n": 15
+      },
+      "henon_flow": {
+        "rho": -0.5392857142857141,
+        "p": 0.03802165626355798
+      },
+      "kuramoto_C": {
+        "rho": -0.512781954887218,
+        "p": 0.0207797266670458,
+        "n": 20
+      },
+      "kuramoto_A": {
+        "rho": -0.9293233082706768,
+        "p": 3.2275217543825784e-09,
+        "n": 20
+      },
+      "kuramoto_flow": {
+        "rho": -0.7819548872180451,
+        "p": 4.6467758941161795e-05
+      },
+      "ca_F": {
+        "rho": -0.7212121212121211,
+        "p": 0.018573155089460208,
+        "n": 10
+      },
+      "ca_A": {
+        "rho": 0.4424242424242424,
+        "p": 0.20042268671194224,
+        "n": 10
+      },
+      "ca_R": {
+        "rho": 0.6121212121212121,
+        "p": 0.05997214247725524,
+        "n": 10
+      },
+      "sandpile_C": {
+        "rho": -0.8999999999999998,
+        "p": 0.03738607346849874,
+        "n": 5
+      },
+      "sandpile_A": {
+        "rho": 0.9999999999999999,
+        "p": 1.4042654220543672e-24,
+        "n": 5
+      },
+      "sandpile_R": {
+        "rho": 0.7999999999999999,
+        "p": 0.10408803866182788,
+        "n": 5
+      },
+      "sandpile_flow": {
+        "rho": 0.7999999999999999,
+        "p": 0.10408803866182788
+      },
+      "rbn_A": {
+        "rho": -0.4285714285714286,
+        "p": 0.3965014577259474,
+        "n": 6
+      },
+      "rbn_flow": {
+        "rho": 0.2,
+        "p": 0.704
+      },
+      "markov_F": {
+        "rho": -0.41785714285714276,
+        "p": 0.1211725360218785,
+        "n": 15
+      },
+      "markov_A": {
+        "rho": -0.9678571428571429,
+        "p": 3.5965355409315713e-09,
+        "n": 15
+      },
+      "markov_flow": {
+        "rho": -0.13928571428571426,
+        "p": 0.6205460876279014
+      },
+      "branching_C": {
+        "rho": -0.5035714285714286,
+        "p": 0.05565451716115848,
+        "n": 15
+      },
+      "branching_flow": {
+        "rho": -0.4035714285714285,
+        "p": 0.13576799650365623
+      },
+      "lotka_C": {
+        "rho": -0.9928571428571428,
+        "p": 2.1681214863293047e-13,
+        "n": 15
+      },
+      "lotka_F": {
+        "rho": 1.0,
+        "p": 0.0,
+        "n": 15
+      },
+      "lotka_A": {
+        "rho": 0.42499999999999993,
+        "p": 0.11429547548052224,
+        "n": 15
+      },
+      "lotka_R": {
+        "rho": -0.982142857142857,
+        "p": 8.15733350897873e-11,
+        "n": 15
+      },
+      "lotka_flow": {
+        "rho": -0.125,
+        "p": 0.6571356681869504
+      },
+      "gbm_C": {
+        "rho": 0.7107142857142856,
+        "p": 0.002978994886802742,
+        "n": 15
+      },
+      "gbm_flow": {
+        "rho": -0.39999999999999997,
+        "p": 0.13959512937214466
+      }
+    }
+  },
+  "section_C": {
+    "flow_divergence_range": [
+      -87.15926720415982,
+      21.55515795115935
+    ],
+    "top_flow_sources": [
+      "gbm_sigma=0.0154",
+      "kuramoto_coupling=5.4737",
+      "ising_T=1.2500"
+    ],
+    "top_flow_sinks": [
+      "logistic_r=3.5625",
+      "lorenz_rho=2.0833",
+      "logistic_r=3.6875"
+    ],
+    "ridge_flow_r": 0.7801224134808317,
+    "clustering_silhouette": 0.41313969941409145,
+    "topology_per_threshold": {
+      "pct_45": {
+        "n_high_flow": 106,
+        "intrinsic_dim": 2.9938429206947363,
+        "centroid": [
+          -0.6000695198860861,
+          -0.9156447699018968,
+          -0.574436006619866,
+          0.7608679775043501
+        ]
+      },
+      "pct_58": {
+        "n_high_flow": 85,
+        "intrinsic_dim": 2.8525086350362394,
+        "centroid": [
+          -0.5354063641896144,
+          -1.033404457431499,
+          -0.722221525442138,
+          0.5942679548434364
+        ]
+      },
+      "pct_73": {
+        "n_high_flow": 64,
+        "intrinsic_dim": 2.82369095862645,
+        "centroid": [
+          -0.6323819481035919,
+          -0.8883570658915018,
+          -0.8756159954186588,
+          0.31268755903994383
+        ]
+      },
+      "pct_82": {
+        "n_high_flow": 43,
+        "intrinsic_dim": 2.8688282060184735,
+        "centroid": [
+          -0.6560715852826884,
+          -0.6539274622799819,
+          -0.9322990621547482,
+          0.01220778473787818
+        ]
+      },
+      "pct_95": {
+        "n_high_flow": 22,
+        "intrinsic_dim": 3.247888385748068,
+        "centroid": [
+          -0.5369096012097582,
+          0.8374176809519518,
+          -1.183070546940984,
+          -0.8750867550845599
+        ]
+      },
+      "pct_108": {
+        "n_high_flow": 11,
+        "intrinsic_dim": 2.9895987769579104,
+        "centroid": [
+          -0.49282498895734894,
+          0.7104718932798822,
+          -1.504143454332734,
+          -0.5241105074367103
+        ]
+      }
+    }
+  },
+  "section_D": {
+    "intrinsic_dim_effective_rank": 2.521032402904251,
+    "intrinsic_dim_participation_ratio": 1.945790764965715,
+    "subsample_pr_stability": [
+      1.919015350479492,
+      1.893914367230602,
+      1.9496137835747223,
+      1.953659571001991
+    ],
+    "bridge_cutoff": 88.54279882362093,
+    "n_bridge_systems": 32,
+    "bridge_separation": -0.8689991684653302,
+    "flow_removal_stability": {
+      "logistic": {
+        "r": 0.9977837510490429,
+        "p": 1.6491496384783218e-218,
+        "n_left": 186
+      },
+      "lorenz": {
+        "r": 0.9856480046953664,
+        "p": 4.150392029660236e-144,
+        "n_left": 186
+      },
+      "ising": {
+        "r": 0.9688141962160298,
+        "p": 1.9652690245076873e-113,
+        "n_left": 186
+      },
+      "reaction": {
+        "r": 0.9911372505083155,
+        "p": 1.1946591138094877e-167,
+        "n_left": 191
+      },
+      "henon": {
+        "r": 0.9945131049509842,
+        "p": 3.6200004213026055e-192,
+        "n_left": 196
+      },
+      "kuramoto": {
+        "r": 0.990466426099256,
+        "p": 1.1432786675547492e-164,
+        "n_left": 191
+      },
+      "ca": {
+        "r": 0.9961984807600565,
+        "p": 6.754861276303698e-213,
+        "n_left": 201
+      },
+      "sandpile": {
+        "r": 0.9983263579162573,
+        "p": 1.6938369214318395e-254,
+        "n_left": 206
+      },
+      "rbn": {
+        "r": 0.9973589334546318,
+        "p": 3.5949570765572247e-233,
+        "n_left": 205
+      },
+      "markov": {
+        "r": 0.9580737099218606,
+        "p": 2.9139585690002326e-107,
+        "n_left": 196
+      },
+      "branching": {
+        "r": 0.9696843612402085,
+        "p": 1.1190628605386235e-120,
+        "n_left": 196
+      },
+      "lotka": {
+        "r": 0.990399629839724,
+        "p": 1.0984168829979404e-168,
+        "n_left": 196
+      },
+      "gbm": {
+        "r": 0.9905318075390871,
+        "p": 2.880579529798632e-169,
+        "n_left": 196
+      }
+    }
+  },
+  "section_E": {
+    "metric_scores": {
+      "euclidean_phi": {
+        "mean_knn_flow_var": 163.03059000924515,
+        "knn_flow_prediction_r": 0.9092999806846719,
+        "knn_flow_prediction_p": 1.5978350548037781e-81
+      },
+      "manhattan_phi": {
+        "mean_knn_flow_var": 175.27130784613132,
+        "knn_flow_prediction_r": 0.8979742314965098,
+        "knn_flow_prediction_p": 1.9015605112321354e-76
+      },
+      "cosine_phi": {
+        "mean_knn_flow_var": 206.75560653374302,
+        "knn_flow_prediction_r": 0.8919826956137327,
+        "knn_flow_prediction_p": 5.3500843138719396e-74
+      },
+      "tensor_combined": {
+        "mean_knn_flow_var": 314.2356761684008,
+        "knn_flow_prediction_r": 0.8441777820825662,
+        "knn_flow_prediction_p": 2.7556692438099596e-28
+      }
+    },
+    "diffusion_knn_flow_var": 480.9522680115738,
+    "diffusion_prediction_r": 0.5375828619559996,
+    "best_metric": "euclidean_phi"
+  },
+  "section_F": {
+    "shuffled_cols": {
+      "participation_ratio": 2.4897490610263997,
+      "flow_corr_with_original": -0.008697716083200795
+    },
+    "shuffled_rows": {
+      "participation_ratio": 1.9457907649657151,
+      "flow_corr_with_original": -0.02127042200732392
+    },
+    "white_noise": {
+      "participation_ratio": 2.4525425111478794
+    },
+    "feature_swapped": {
+      "participation_ratio": 1.2910217085839886
+    },
+    "random_tensor": {
+      "mean_r": -0.011889793972288237,
+      "std_r": 0.07764392864057025
+    },
+    "artifact_score": 1.0508714751079749,
+    "pr_reductions": {
+      "col_shuffled": 1.2795564178095322,
+      "row_shuffled": 1.0000000000000002,
+      "white_noise": 1.2604348603695288,
+      "feature_swapped": 0.6634946222528384
+    }
+  },
+  "section_G": {
+    "gradient_flow": {
+      "grad_norm_flow_r": 0.0,
+      "grad_norm_flow_p": 1.0,
+      "mean_alignment": 0
+    },
+    "continuity": {
+      "mean_divergence_error": 0.8857613420196306
+    },
+    "fokker_planck": {
+      "R2": 1.0,
+      "diffusion_coefficient": 9.848135505894592e-16
+    },
+    "hamilton_jacobi": {
+      "mean_H": 0.0,
+      "std_H": 0.0
+    },
+    "candidate_equations": [
+      "fokker_planck: \u2202\u03c1/\u2202t = -\u2207\u00b7(\u03c1v) + D\u2207\u00b2\u03c1"
+    ],
+    "verdict": "equation_found"
+  },
+  "section_H": {
+    "verdict": "TRANSITION FIELD PARTIALLY CONFIRMED",
+    "passed": 3,
+    "total": 7,
+    "score": 0.42857142857142855,
+    "details": "Some aspects of the transition field survive (null world destruction, parametric continuity), but others fail (metric learning, equation discovery). The transition manifold has elements of genuine dynamical structure, but the field equation remains elusive.",
+    "per_section": [
+      "\u2713 A: Generated 211 systems from continuous families",
+      "\u223c B: Flow field partially continuous (L=84.33, smoothness=0.50)",
+      "\u2713 C: Critical surfaces detected (flow sources/sinks, topology)",
+      "\u223c D: Manifold partially persists (PR=1.95)",
+      "\u223c E: Euclidean \u03a6 is best metric",
+      "\u2717 F: Null worlds retain manifold structure (artifact_score=1.051)",
+      "\u2713 G: Field equation candidate(s): fokker_planck: \u2202\u03c1/\u2202t = -\u2207\u00b7(\u03c1v) + D\u2207\u00b2\u03c1"
+    ]
+  },
+  "metadata": {
+    "n_systems": 211,
+    "n_families": 13,
+    "generated_at": "2026-05-28 18:04:44"
+  }
+}
