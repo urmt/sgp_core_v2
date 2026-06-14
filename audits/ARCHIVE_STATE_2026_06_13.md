@@ -119,10 +119,10 @@
 
 | Priority | Audit | Status |
 |----------|-------|--------|
-| P1 | RD-OBSERVER.2 | Not started |
+| P1 | RD-OBSERVER.2 | **COMPLETE** — 13 core structures found by all 6 observers (pseudo-independent) |
 | P2 | RD-RECOVERY.2 completion | In progress |
 | P3 | Recover missing artifacts | Pending |
-| P4 | RD-OSC.2 | Pending |
+| P4 | RD-OSC.2 | Ready to start (observer subtraction complete) |
 | P5 | New theory generation | Blocked |
 
 ---

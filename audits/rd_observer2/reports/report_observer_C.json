@@ -1,0 +1,50 @@
+{
+  "observer": "C",
+  "findings": [
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Two zero-entropy variables (D, F) at low conditions act as threshold indicators; I and H are near-redundant (r=0.909, r²=0.826); condition parameter has high mutual information with A, C, E, G, H, I means.",
+      "evidence": "Metric F: stdev=0 at conditions 0.05, 0.1, 0.2; nonzero only at 0.6 (stdev=0.383) and 0.8 (stdev=0.392). Metric D: constant 37.0 at conditions 0.05-0.2; variance appears at 0.4 (stdev=31.73, range 37-137). I-H correlation: 0.909. Condition A mean decreases monotonically: 0.535→0.511→0.489→0.454→0.409→0.398 across 6 conditions.",
+      "variables_involved": ["condition", "metric_A", "metric_C", "metric_D", "metric_E", "metric_F", "metric_G", "metric_H", "metric_I"],
+      "confidence": 0.92
+    },
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Effective dimensionality reduced from 10 to approximately 3-4 due to strong I-H redundancy and threshold behavior of D and F. Minimal sufficient statistic is approximately {condition, A, G, I, K}.",
+      "evidence": "I-H r=0.909 accounts for ~82.6% shared variance. D and F are degenerate (zero entropy) below condition=0.4. Condition explains monotonic shifts in 6 of 10 metrics. The residual information beyond condition+{A,G,I,K} is noise-dominant.",
+      "variables_involved": ["metric_A", "metric_G", "metric_I", "metric_K", "condition"],
+      "confidence": 0.85
+    },
+    {
+      "dataset": "System Evaluation Results",
+      "significant_structure": "Two near-constant flags carry negligible information (H≈0.14 bits each); flag_2 is near-maximum entropy binary (H≈0.999 bits); var_24 has lowest continuous entropy (stdev=0.116, heavily right-skewed).",
+      "evidence": "flag_1: mean=0.98, stdev=0.141 — only 2% off. flag_5: mean=0.02, stdev=0.141 — only 2% on. flag_2: mean=0.52, stdev=0.505 — nearly uniform binary. var_24: mean=0.078, stdev=0.116, min=0.013, max=0.777 — concentrated near zero with outlier tail.",
+      "variables_involved": ["flag_1", "flag_5", "flag_2", "var_24"],
+      "confidence": 0.88
+    },
+    {
+      "dataset": "System Evaluation Results",
+      "significant_structure": "Of 37 variables, estimated 5 carry negligible information (flag_1, flag_5, and low-variance numerics). Effective dimensionality estimated at 10-15 of 37, given flag structure and variable clustering.",
+      "evidence": "flag_1 and flag_5 each contribute ~0.14 bits (near zero of 1-bit max). var_16: stdev=0.137, min=0.5, compressed range. Multiple numeric variables show overlapping ranges (var_10 through var_24 all in [0,1] with means 0.08-0.92). Minimal sufficient subset: {flag_2, flag_3, flag_4, var_10, var_14, var_15, var_24} plus discriminant numerics.",
+      "variables_involved": ["flag_1", "flag_2", "flag_3", "flag_4", "flag_5", "var_10", "var_14", "var_15", "var_16", "var_24"],
+      "confidence": 0.75
+    },
+    {
+      "dataset": "Historical Study Summary",
+      "significant_structure": "Enormous compression: 236 studies compress to ~10 propositions. Failure rate 57.6% (136/236). Migration graph is acyclic (0 cycles, 39 edges, 40 nodes) — information flows strictly forward. Comparison operation yields explanatory gain in 90.2% of applicable studies (37/41).",
+      "evidence": "Archive census: 236 total (Saudit=75, T=93, scripts=62, relation_gamma_first=6). Failures: empty_directory=126, abandoned=6, incomplete=3, minimal=1. Migration graph: 40 nodes, 39 edges, 0 cycles, 1 dead end, 1 source. Comparison gain: YES=37, NO=4.",
+      "variables_involved": ["study_series", "explanatory_locus", "persistence_type", "failure_type", "migration_graph"],
+      "confidence": 0.95
+    },
+    {
+      "dataset": "Historical Study Summary",
+      "significant_structure": "The deepest information-theoretic structure: claimed objects are high-entropy (constantly changing names) while actual loci are low-entropy (stable: Persistence=14, Comparison=7 dominate). The surface description and the core structure are informationally decoupled.",
+      "evidence": "Explanatory locus: Persistence=14 (most frequent), Comparison=7, Relation=5. Persistence types: pattern=9, structure=7, operator=5, property=5 — the type itself is stable across 32 studies with destruction. The 'Final Compression' reduces S10B sequence to 10 lines.",
+      "variables_involved": ["claimed_object", "actual_locus", "property_beta_type"],
+      "confidence": 0.9
+    }
+  ],
+  "information_structure": "Dataset 1: Information flows from condition to metrics A,C,E,G,H,I via monotonic mean shifts; condition→A has highest mutual information (monotonic, low noise). I and H share 82.6% variance (r=0.909), making H largely redundant given I. D and F are threshold variables — they carry information only about which regime (below/above condition≈0.4), not about continuous variation. Dataset 2: Information is concentrated in flag_2, flag_3, flag_4 (the non-degenerate flags) and high-variance numerics (var_10, var_14, var_15, var_24). flag_1 and flag_5 are informationally empty (H≈0.14 bits). Dataset 3: Information flows as a directed acyclic chain: T037→S019→S5→S10A→S10B.0→...→S10B.R0R. Each node is conditionally dependent only on its predecessor. The 236-study archive has conditional entropy H(studies|compression)=low — the 10-step chain captures the essential structure.",
+  "compression": "Dataset 1: The 10-variable space compresses to ~3-4 effective dimensions. {condition, A, G, I, K} is a minimal sufficient statistic. D and F collapse to binary indicators of regime. I subsumes H (82.6% shared variance). Total compression ratio: 10 observed → 3-4 effective ≈ 2.5-3:1. Dataset 2: Of 37 variables, ~5 are near-constant (H≈0). Minimal sufficient statistic is approximately 10-15 variables. Compression ratio: 37 → 10-15 ≈ 2.5-3.7:1. Dataset 3: Highest compression of all. 236 studies → 10 propositions. Compression ratio: 236:10 ≈ 23.6:1. The 136 failures (57.6%) contribute zero information to the final structure — they are pure noise that was discarded. The migration graph (40 nodes, 39 edges, 0 cycles) shows no information loops, confirming the chain is maximally compressed (no redundant paths).",
+  "summary": "Across all three datasets, information-theoretic analysis reveals that genuine structure is far sparser than the observed dimensionality suggests. In the simulation ensemble, 10 variables reduce to 3-4 effective dimensions due to threshold behavior (D, F), near-perfect redundancy (I-H, r=0.909), and the condition parameter dominating 6 of 10 metric means monotonically. In the system evaluation, 37 variables include 5 near-constant flags contributing ≈0 bits each, yielding an effective dimensionality of 10-15. The historical study archive shows the most dramatic compression: 236 studies collapse to 10 propositions (23.6:1 ratio) with 136 failures (57.6%) contributing zero structural information. The deepest pattern across all datasets is that surface-level variation (high entropy) conceals low-entropy core structure: claimed objects change while actual loci persist, noisy metrics mask a few sufficient statistics, and the entire research trajectory follows a single directed acyclic chain with no cycles."
+}

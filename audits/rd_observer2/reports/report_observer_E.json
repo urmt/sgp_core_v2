@@ -1,0 +1,66 @@
+{
+  "observer": "E",
+  "findings": [
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Metric A declines monotonically as condition increases (0.5347 → 0.3984), while Metric G rises monotonically (0.0351 → 0.0992). Metric D is constant at 37.0 for conditions ≤0.2, then bifurcates into high-variance values at conditions ≥0.4 (stdev jumps from 0.0 to 31.7–49.7). Metric F is uniformly 0.0 until condition 0.6, where it appears at mean 0.1754. Metric H and Metric I are very strongly correlated (r=0.909) and both decline with increasing condition. Metric B transitions from negative (−0.0459 at 0.05) to positive (0.0206 at 0.8), crossing zero near condition 0.4.",
+      "evidence": "Metric A: 0.5347 (cond 0.05) → 0.5109 → 0.4888 → 0.454 → 0.4093 → 0.3984 (cond 0.8). Metric G: 0.0351 → 0.0406 → 0.0525 → 0.0677 → 0.0987 → 0.0992. Metric D stdev: 0.0 for cond 0.05–0.2, then 31.7 (0.4), 49.7 (0.6), 45.7 (0.8). Correlation I vs H: 0.909. Metric B means: −0.0459, −0.0432, −0.0286, 0.0093, 0.0299, 0.0206.",
+      "variables_involved": ["metric_A", "metric_B", "metric_D", "metric_F", "metric_G", "metric_H", "metric_I", "condition"],
+      "confidence": 0.95
+    },
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Metric H and Metric I form a tightly coupled pair with r=0.909, the strongest correlation in the dataset. Both decrease as condition increases: H from 15.26 to 12.98, I from 18.01 to 15.62. Metric K is positively correlated with both H (r=0.493) and I (r=0.436), forming a three-variable cluster. Metric D is negatively correlated with H (r=−0.259) and K (r=−0.159), suggesting inverse coupling. Metric F is weakly negatively correlated with all three (I: −0.14, H: −0.154, K: −0.237), placing it outside the cluster.",
+      "evidence": "H vs I correlation: 0.909. H means across conditions: 15.2614, 14.7948, 14.9655, 13.9261, 13.3393, 12.9767. I means: 18.0067, 17.0611, 17.7412, 16.8358, 16.1288, 15.6205. K vs H: 0.493. K vs I: 0.436. D vs H: −0.259.",
+      "variables_involved": ["metric_H", "metric_I", "metric_K", "metric_D", "metric_F"],
+      "confidence": 0.92
+    },
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Metric D exhibits a threshold bifurcation: it is fixed at exactly 37.0 (zero variance) for conditions 0.05, 0.1, and 0.2, then becomes highly variable at condition 0.4 (mean 49.5, stdev 31.7, range 37–137). At conditions 0.6 and 0.8, mean D reaches 67.0 and 69.5 with stdev ~46–50. The minimum remains 37.0 in all conditions, suggesting 37 is a floor value. Metric F shows a parallel onset pattern: zero at conditions ≤0.4, nonzero (0.1754, 0.1923) at conditions 0.6 and 0.8. This indicates a regime transition between conditions 0.2–0.4 for D and between 0.4–0.6 for F.",
+      "evidence": "Metric D means: 37.0 (0.05), 37.0 (0.1), 37.0 (0.2), 49.5 (0.4), 67.0 (0.6), 69.5 (0.8). D min: always 37.0. D max: 37, 37, 37, 137, 187, 187. Metric F means: 0.0 (0.05–0.4), 0.1754 (0.6), 0.1923 (0.8). F range at 0.6: 0.0–1.2152.",
+      "variables_involved": ["metric_D", "metric_F", "condition"],
+      "confidence": 0.97
+    },
+    {
+      "dataset": "System Evaluation Results",
+      "significant_structure": "Flag_1 is near-universal (mean 0.98), acting as a system-wide constant. Flag_5 is near-absent (mean 0.02). Flag_2 (mean 0.52), flag_3 (mean 0.28), and flag_4 (mean 0.14) show hierarchical prevalence. Among numeric variables, var_11 is concentrated near maximum (mean 0.9179, stdev 0.1724, max 1.0). var_24 has extreme right skew (mean 0.0777 but max 0.777, stdev 0.1156 — stdev exceeds mean). var_16 is compressed (min 0.5, max 1.0, mean 0.54), suggesting a constrained variable. var_20 and var_21 are binary (0/1) despite being labeled as continuous.",
+      "evidence": "Flag_1 mean: 0.98 (49/50 true). Flag_5 mean: 0.02 (1/50 true). var_11 mean: 0.9179, stdev: 0.1724. var_24 mean: 0.0777, stdev: 0.1156. var_16 min: 0.5, max: 1.0. Raw system 0: var_20=0.0, var_21=0.0; system 1: var_20=0.0, var_21=1.0; system 3: var_20=1.0, var_21=1.0.",
+      "variables_involved": ["flag_1", "flag_2", "flag_3", "flag_4", "flag_5", "var_11", "var_16", "var_20", "var_21", "var_24"],
+      "confidence": 0.88
+    },
+    {
+      "dataset": "System Evaluation Results",
+      "significant_structure": "Variables var_6 through var_9 form a high-value cluster (all means >0.6 in raw data), while var_22 through var_24 form a low-value cluster (means 0.46, 0.28, 0.08). Within the raw systems, var_34 is consistently near 1.0 (0.898, 0.98, 0.986, 0.975, 0.991), making it the most stable high-value variable. var_36 shows high variance across systems (0.544, 0.647, 0.574, 0.31, 0.064), suggesting sensitivity to system configuration.",
+      "evidence": "Raw var_34 values: 0.898, 0.98, 0.986, 0.975, 0.991 (range 0.898–0.991). Raw var_36 values: 0.544, 0.647, 0.574, 0.31, 0.064 (range 0.064–0.647). var_6 mean across 5 systems: ~0.632. var_9 mean: ~0.483.",
+      "variables_involved": ["var_6", "var_9", "var_22", "var_23", "var_24", "var_34", "var_36"],
+      "confidence": 0.82
+    },
+    {
+      "dataset": "Historical Study Summary",
+      "significant_structure": "Persistence is the dominant explanatory locus (14 of 41 classified studies, 34%), followed by comparison (7, 17%). 37 of 41 studies (90.2%) showed gain after comparison became available, indicating comparison is the most productive interaction in the system. The migration graph is acyclic (0 cycles) with a single source (T037) and 1 dead end (S10B.R0R), forming a linear chain of 40 nodes and 39 edges. 32 studies involved destruction (something falsified or superseded). 136 of 236 studies (57.6%) were failures (empty directories, abandoned experiments).",
+      "evidence": "Persistence locus: 14 studies. Comparison locus: 7 studies. Gain after comparison: YES 37, NO 4 (90.2% gain). Migration graph: 40 nodes, 39 edges, 0 cycles. Destruction: 32 studies. Failures: 136 (126 empty_directory, 6 abandoned_experiment, 3 incomplete_marker, 1 minimal_file).",
+      "variables_involved": ["locus_type", "persistence_type", "gain_after_comparison", "failure_type", "migration_nodes", "migration_edges"],
+      "confidence": 0.94
+    },
+    {
+      "dataset": "Historical Study Summary",
+      "significant_structure": "The archival series are unevenly distributed: T series dominates (93 studies, 39.4%), followed by Saudit (75, 31.8%) and scripts (62, 26.3%). The relation_gamma_first series has only 6 studies (2.5%). Persistence types are dominated by pattern (9), structure (7), operator (5), and property (5), totaling 26 of 41 typed studies (63.4%). The historical compression reveals that the claimed objects of study changed across the sequence, but the actual explanatory locus and persistence type remained stable, indicating repeated rediscovery of the same structures under different names.",
+      "evidence": "Series sizes: T=93, Saudit=75, scripts=62, relation_gamma_first=6, total=236. Persistence types: pattern=9, structure=7, operator=5, property=5, relation=2, mapping=2, other=7, none=4. Final compression: hierarchical property_beta of relation_gamma.",
+      "variables_involved": ["series", "persistence_type", "claimed_object", "actual_locus"],
+      "confidence": 0.90
+    }
+  ],
+  "persistent_patterns": [
+    "Monotonic decline of metric_A with increasing condition (0.5347→0.3984) paired with monotonic rise of metric_G (0.0351→0.0992) — inverse coupling across the full condition range",
+    "Metric_H and metric_I maintain r=0.909 correlation across all 6 conditions, forming the most stable relational pair in Dataset 1",
+    "Metric_D threshold bifurcation: zero variance at condition ≤0.2, high variance at ≥0.4, with floor value of 37.0 persisting across all conditions",
+    "Metric_F onset at condition 0.6 (from 0.0 to 0.1754) coincides with metric_D's highest variance regime, suggesting a coupled phase transition",
+    "Flag_1 is near-universal (98%) across all systems in Dataset 2, acting as a background constant",
+    "Metric_B sign inversion: negative at low conditions (−0.0459), positive at high conditions (0.0206), crossing zero near condition 0.4",
+    "In Dataset 3, persistence is the dominant explanatory locus (34% of studies) and comparison produces gain in 90.2% of cases — both survive across the entire 236-study archive",
+    "The migration graph is acyclic and linear (40 nodes, 39 edges, 0 cycles), indicating explanations never reverted to prior states"
+  ],
+  "relational_structure": "The relational field is organized around three stable clusters: (1) In Dataset 1, a tightly coupled H-I-K cluster (positive correlations 0.436–0.909) that declines with condition, inversely coupled to D (r=−0.259 with H). (2) In Dataset 2, a binary flag hierarchy (flag_1 near-constant, flag_5 near-absent) that partitions the system space, with continuous variables forming high-value (var_6–var_9, var_34) and low-value (var_22–var_24) clusters. (3) In Dataset 3, the explanatory structure forms an acyclic directed chain: interaction → persistence → comparison → relation_gamma, with persistence and comparison as the two surviving loci across 236 studies. Across all three datasets, the deepest persistent pattern is that interaction produces gain, persistence survives change, and comparison is the mechanism that distinguishes stable from unstable structures.",
+  "summary": "Across three datasets of increasing abstraction — a 60-run particle simulation, a 240-system evaluation, and a 236-study historical archive — the same structural pattern recurs: interaction between variables produces gain (90.2% in Dataset 3, metric_B sign inversion in Dataset 1), persistence is the feature that survives condition changes (metric_D floor at 37.0, metric_H-I correlation at 0.909, persistence as dominant locus in Dataset 3), and comparison reveals which structures are stable vs. transient (metric_D bifurcation at condition 0.4, flag prevalence hierarchy in Dataset 2, comparison as second-most common locus in Dataset 3). The most striking numerical finding is the metric_H vs metric_I correlation of 0.909, which persists across all 6 conditions without exception. The most striking structural finding is that the 236-study archive compresses to a linear acyclic chain where the claimed objects changed but the actual explanatory loci remained stable, indicating the program was repeatedly discovering the same few structures under different names."
+}

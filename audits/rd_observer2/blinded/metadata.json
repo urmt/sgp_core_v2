@@ -1,0 +1,22 @@
+{
+  "description": "Blinded datasets for RD-OBSERVER.2",
+  "datasets": {
+    "granular_ensemble": {
+      "source": "T901 granular simulation",
+      "n_runs": 60,
+      "n_variables": 11,
+      "note": "6 friction conditions x 10 replicates. Variables renamed to generic labels."
+    },
+    "system_results": {
+      "source": "T081 system evaluation",
+      "n_systems": 240,
+      "n_variables": 37,
+      "note": "240 systems evaluated across multiple assumptions. Variables renamed."
+    },
+    "historical_summary": {
+      "source": "Historical reconstruction report",
+      "note": "Text summary with RD-specific terminology replaced by generic labels."
+    }
+  },
+  "warning": "All observers receive identical data. Observer diversity is not observer independence (SR-32)."
+}

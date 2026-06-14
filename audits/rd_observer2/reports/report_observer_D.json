@@ -1,0 +1,105 @@
+{
+  "observer": "D",
+  "findings": [
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Phase transition at condition ~0.4: metric_D shifts from frozen constant (37.0, stdev=0.0) to volatile variable (49.5→67.0→69.5 with stdev 31.7→49.7→45.7). Simultaneously, metric_F activates from zero (conditions 0.05–0.4) to non-zero (0.175 at 0.6, 0.192 at 0.8). This is a coupled activation process — two variables that were silent become active together, indicating a regime shift rather than independent change.",
+      "evidence": "metric_D: mean 37.0 (stdev 0.0) at conditions 0.05–0.2, then 49.5 (stdev 31.7) at 0.4, 67.0 (stdev 49.7) at 0.6, 69.5 (stdev 45.7) at 0.8. metric_F: 0.0 (stdev 0.0) at conditions 0.05–0.4, then 0.1754 (stdev 0.383) at 0.6, 0.1923 (stdev 0.392) at 0.8.",
+      "variables_involved": ["metric_D", "metric_F", "condition"],
+      "confidence": 0.95
+    },
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Strong coupled decline of metrics H and I across conditions (r=0.909). These two variables track each other tightly — not because one causes the other, but because they participate in the same underlying process that weakens as condition increases. H drops from 15.26 to 12.98; I drops from 18.01 to 15.62. The coupling is the structure, not the individual values.",
+      "evidence": "Pearson correlation H vs I = 0.909. H means: 15.2614 → 14.7948 → 14.9655 → 13.9261 → 13.3393 → 12.9767. I means: 18.0067 → 17.0611 → 17.7412 → 16.8358 → 16.1288 → 15.6205. Both decrease monotonically (with noise) as condition increases from 0.05 to 0.8.",
+      "variables_involved": ["metric_H", "metric_I", "condition"],
+      "confidence": 0.92
+    },
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Metric A undergoes steady decay (0.5347→0.3984, -25.5% across the condition range) while metric G undergoes steady growth (0.0351→0.0992, +182.6%). These are anti-correlated processes: as A diminishes, G amplifies. The condition parameter acts as a coupling lever that trades one process for another.",
+      "evidence": "metric_A means: 0.5347, 0.5109, 0.4888, 0.4540, 0.4093, 0.3984. metric_G means: 0.0351, 0.0406, 0.0525, 0.0677, 0.0987, 0.0992. A decreases by ~25.5%; G increases by ~182.6% over the same range.",
+      "variables_involved": ["metric_A", "metric_G", "condition"],
+      "confidence": 0.88
+    },
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Metric B crosses zero as condition increases, shifting from negative (mean -0.0459 at 0.05) to positive (mean 0.0206 at 0.8). This sign reversal is a qualitative transformation — not just a magnitude change but a direction change in the process B represents.",
+      "evidence": "metric_B means: -0.0459, -0.0432, -0.0286, +0.0093, +0.0299, +0.0206. Zero-crossing occurs between condition 0.2 and 0.4. Range of B expands from 0.051 (condition 0.05, min -0.072 to max -0.021) to 0.181 (condition 0.6, min -0.051 to max 0.130), indicating increasing variance alongside the sign shift.",
+      "variables_involved": ["metric_B", "condition"],
+      "confidence": 0.85
+    },
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Metric D transitions from a frozen state (identical value 37.0 across all 10 runs at conditions 0.05–0.2) to a chaotic state with bimodal spread (min 37.0, max 187.0 at conditions 0.6–0.8). The frozen state is not 'stability' but constraint — something was holding D fixed. Above condition 0.4, that constraint breaks.",
+      "evidence": "metric_D: at condition 0.05, mean=37.0, stdev=0.0, min=37.0, max=37.0 (all 10 runs identical). At condition 0.4: mean=49.5, stdev=31.7, range 37–137. At condition 0.6: mean=67.0, stdev=49.7, range 37–187. The minimum stays at 37 (constraint still active in some runs) while the maximum explodes.",
+      "variables_involved": ["metric_D", "condition"],
+      "confidence": 0.93
+    },
+    {
+      "dataset": "System Evaluation Results",
+      "significant_structure": "Flag variables form a nested inclusion hierarchy: flag_1 (98%) ⊃ flag_2 (52%) ⊃ flag_3 (28%) ⊃ flag_4 (14%) ⊃ flag_5 (2%). This is not independent prevalence but a cascade — systems that have flag_5 almost certainly have flags 1–4. The flags represent progressive activation states, not independent features.",
+      "evidence": "flag_1 mean=0.98 (235/240 systems), flag_2 mean=0.52 (125/240), flag_3 mean=0.28 (67/240), flag_4 mean=0.14 (34/240), flag_5 mean=0.02 (5/240). In the first 5 systems: system 0 has flags 1,2; systems 1–3 have flag 1 only; system 4 has flags 1,2. flag_5 is absent in all shown systems.",
+      "variables_involved": ["flag_1", "flag_2", "flag_3", "flag_4", "flag_5"],
+      "confidence": 0.87
+    },
+    {
+      "dataset": "System Evaluation Results",
+      "significant_structure": "High floor clustering: var_11 (mean 0.918, min 0.20), var_15 (mean 0.829, min 0.026), and var_34 (mean ~0.98 in raw data) show near-saturation across systems. These are not varying freely — something is pushing them toward their upper bound. The process is one of convergence, not exploration.",
+      "evidence": "var_11: mean=0.9179, stdev=0.1724, min=0.2, max=1.0. var_15: mean=0.8291, stdev=0.2367, min=0.026, max=1.0. In raw systems: system 0 has var_14=1.0, var_15=1.0, var_37=0.92; system 1 has var_11=1.0, var_34=0.98; system 2 has var_11=1.0, var_34=0.986.",
+      "variables_involved": ["var_11", "var_15", "var_34"],
+      "confidence": 0.82
+    },
+    {
+      "dataset": "System Evaluation Results",
+      "significant_structure": "var_16 has a hard floor at 0.5 (min=0.5, max=1.0, mean=0.54) — every system is at or above 0.5. This is not a natural distribution but a constrained one. var_16 cannot go below 0.5, suggesting a structural minimum or a process that clamps at this threshold.",
+      "evidence": "var_16: mean=0.54, stdev=0.137, min=0.5, max=1.0. All 5 raw systems show var_16=0.5 exactly. The distribution is compressed into [0.5, 1.0] rather than [0, 1].",
+      "variables_involved": ["var_16"],
+      "confidence": 0.90
+    },
+    {
+      "dataset": "Historical Study Summary",
+      "significant_structure": "Persistence (14 studies) is the dominant actual locus of explanatory power, followed by Comparison (7). These are not 'objects' that were found but processes that recurred: the process of persisting through reinterpretation, and the process of comparison producing gain. The archive discovers that processes survive while names change.",
+      "evidence": "Phase 2 locus counts: Persistence=14, Comparison=7, Relation=5, Interaction=3, Property=3, Transformation=2, Falsification=7. Phase 3: 37 of 41 studies showed gain after comparison became available. Phase 4: 32 studies had destruction (something falsified or superseded).",
+      "variables_involved": ["locus_type", "study_count", "gain_after_comparison"],
+      "confidence": 0.91
+    },
+    {
+      "dataset": "Historical Study Summary",
+      "significant_structure": "The migration graph is a linear chain (40 nodes, 39 edges, 0 cycles) with a single source (T037) and one dead end (S10B.R0R). This is not a network of ideas but a directed stream — explanations flow forward without recursion. The absence of cycles means the process never revisited a previous state; it was strictly cumulative, not dialectical.",
+      "evidence": "Phase 6: Nodes=40, Edges=39, Cycles=0, Dead ends=1 (S10B.R0R), Sources=1 (T037_primitive_relation_gamma_genesis). The compression sequence T037→S10B.R0R shows 13 steps of unidirectional conceptual flow.",
+      "variables_involved": ["migration_graph"],
+      "confidence": 0.94
+    },
+    {
+      "dataset": "Historical Study Summary",
+      "significant_structure": "The archive is dominated by failure (136 failed studies vs 100 with content). 126 of 136 failures are empty directories — not wrong results but absent processes. The system's selection mechanism preferentially preserves successes while failures leave no trace. This is a survivorship process, not a truth-tracking process.",
+      "evidence": "Phase 5: empty_directory=126, abandoned_experiment=6, incomplete_marker=3, minimal_file=1, total=136. Phase 1 total=236 studies. Successes with content: 236-136=100. The explanatory locus analysis covers only a subset of these.",
+      "variables_involved": ["failure_type", "count"],
+      "confidence": 0.89
+    },
+    {
+      "dataset": "Historical Study Summary",
+      "significant_structure": "The deepest stable process across the entire archive: 'the claimed object kept changing while the actual locus was stable.' Studies renamed what they were studying (claimed objects changed) but the type of explanation that worked (pattern, structure, operator, relation, mapping) remained consistent. The property_beta type was stable across reinterpretations.",
+      "evidence": "Phase 7 hypotheses: H1 partially true (genuinely different property_beta types), H2 partially true (rediscovery under different names). Persistence types across studies: pattern=9, structure=7, operator=5, property=5, relation=2, mapping=2, none=4, other=7. The final compression: 'hierarchical property_beta of relation_gamma'.",
+      "variables_involved": ["property_beta_type", "persistence_type"],
+      "confidence": 0.86
+    }
+  ],
+  "processes": [
+    "Phase transition in simulation: metric_D and metric_F coupled activation above condition threshold ~0.4 — a constraint-release process where frozen variables become free",
+    "Coupled decline: metrics H and I participate in the same weakening process (r=0.909), not independent decline but shared participation in a diminishing dynamic",
+    "Trade-off process: metric A decays while metric G grows as condition increases — a zero-sum exchange between two system modes",
+    "Sign-reversal process: metric B crosses zero between condition 0.2 and 0.4, indicating qualitative direction change in underlying dynamics",
+    "Constraint-breaking process: metric D shifts from frozen (all runs = 37.0) to chaotic (range 37–187), suggesting a structural threshold",
+    "Cascade inclusion: flags 1–5 form nested hierarchy (98%→52%→28%→14%→2%), each flag requiring prior flags as prerequisites",
+    "Convergence-to-saturation: variables 11, 15, 34 are pushed toward upper bounds — a saturation process constraining free variation",
+    "Floor-clamping process: var_16 cannot drop below 0.5, indicating a structural minimum enforced by system architecture",
+    "Persistence-through-reinterpretation: the most robust process in the historical archive — ideas survive while names change",
+    "Unidirectional accumulation: the migration graph (0 cycles) shows explanations never revisit prior states, a strictly forward-flowing process",
+    "Survivorship bias as selection process: 136 failures (126 empty) are pruned from the archive, leaving a success-dominated record",
+    "Naming instability with locus stability: claimed objects change across studies while the type of explanation that works remains constant"
+  ],
+  "transformations": "The simulation dataset shows a continuous transformation governed by the condition parameter: at low values (0.05–0.2), the system is constrained (metric_D frozen at 37, metric_F zero, metric_B negative). As condition increases past ~0.4, constraints break (metric_D becomes chaotic, metric_F activates, metric_B crosses zero). Two processes weaken (H, I coupled decline) while one strengthens (G growth) and one decays (A decline). The system evaluation dataset shows a different transformation landscape: flags form nested prerequisites (a system must pass through flag states sequentially), numeric variables cluster near saturation, and var_16 is structurally clamped above 0.5. The historical study dataset reveals the deepest transformation: over 236 studies, the actual locus of explanatory power shifted from persistence (14) to comparison (7) to relation (5) to interaction (3) to transformation (2), while the claimed objects of study changed repeatedly. The migration graph's linearity (0 cycles) means this was an accumulating, non-recursive process. The final compression — 'hierarchical property_beta of relation_gamma' — represents the stable structure that survived all name changes. Across all three datasets, the common thread is that processes (coupling, constraint-breaking, convergence, persistence) are more fundamental than the variables or names attached to them.",
+  "summary": "The simulation ensemble reveals a system governed by condition-dependent phase transitions: below ~0.4, metric_D is frozen at 37.0 and metric_F is zero; above this threshold, D becomes chaotic (range 37–187) and F activates, while metrics H and I co-decline (r=0.909) and A trades off against G. The system evaluation shows nested flag cascades (flag_1:98% → flag_5:2%) and structural clamps (var_16 floor at 0.5), indicating prerequisite chains and hard constraints rather than free variation. The historical study archive of 236 studies reveals that persistence (14 studies) and comparison (7 studies) were the dominant loci of explanatory power, the migration graph was strictly linear (40 nodes, 0 cycles, single source T037), and 136 failures were predominantly empty directories (126) — a survivorship selection process. The deepest pattern across all datasets: the names and claimed objects of study changed repeatedly, but the actual types of explanation that survived (pattern, structure, operator, relation, mapping) remained stable. Process is more fundamental than object; becoming is more fundamental than being."
+}

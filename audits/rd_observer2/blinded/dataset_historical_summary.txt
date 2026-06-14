@@ -1,0 +1,170 @@
+# STUDY.1: Complete Historical Reconstruction — Report
+
+## Status: COMPLETE
+
+---
+
+## Objective
+
+Reconstruct the entire research history from earliest available studies to present.
+Determine: where explanatory power actually appeared, not where the study believed it appeared.
+
+---
+
+## Phase 1: Archive Census
+
+| Series | Studies |
+|--------|---------|
+| Saudit | 75 |
+| T | 93 |
+| relation_gamma_first | 6 |
+| scripts | 62 |
+| **Total** | **236** |
+
+---
+
+## Phase 2: Explanatory Locus Extraction
+
+| Actual Locus | Studies |
+|-------------|---------|
+| Persistence | 14 |
+| Other (falsification) | 7 |
+| Comparison | 7 |
+| Relation | 5 |
+| Interaction | 3 |
+| Property | 3 |
+| Transformation | 2 |
+
+**Key finding**: Persistence is the most common actual locus (14 studies).
+
+---
+
+## Phase 3: Interaction Reconstruction
+
+| Gain After Comparison | Studies |
+|----------------------|---------|
+| YES | 37 |
+| NO | 4 |
+
+**Key finding**: 37 of 41 studies had gain after comparison became available.
+
+---
+
+## Phase 4: Persistence Reconstruction
+
+| Persistence Type | Studies |
+|-----------------|---------|
+| pattern | 9 |
+| structure | 7 |
+| operator | 5 |
+| property | 5 |
+| none | 4 |
+| relation | 2 |
+| mapping | 2 |
+| other | 7 |
+
+**Key finding**: 32 studies had destruction (something was falsified or superseded).
+
+---
+
+## Phase 5: Failure Reconstruction
+
+| Failure Type | Count |
+|-------------|-------|
+| empty_directory | 126 |
+| abandoned_experiment | 6 |
+| incomplete_marker | 3 |
+| minimal_file | 1 |
+| **Total** | **136** |
+
+**Key finding**: The archive is heavily biased toward successes. 136 failures were found.
+
+---
+
+## Phase 6: Migration Graph
+
+- **Nodes**: 40
+- **Edges**: 39
+- **Cycles**: 0
+- **Dead ends**: 1 (S10B.R0R)
+- **Sources**: 1 (T037_primitive_relation_gamma_genesis)
+
+**Key finding**: The migration graph is a linear chain with no cycles. Explanations never returned to a previous state.
+
+---
+
+## Phase 7: Historical Compression
+
+### H1: Different studies found genuinely different structures
+
+**Partially true**: The property_beta types (pattern, structure, operator, property, relation, mapping) are genuinely different.
+
+### H2: Multiple studies repeatedly rediscovered the same structure under different names
+
+**Partially true**: The claimed objects kept changing, but the actual loci were stable.
+
+### The Deepest Pattern
+
+The claimed object kept changing.
+The actual locus was stable.
+The property_beta type was stable.
+
+This suggests: the program was repeatedly discovering the same few structures and naming them differently.
+
+---
+
+## What Survived Every Change of Idea
+
+1. **Persistence** (14 studies)
+   The most common actual locus.
+   The thing that kept surviving reinterpretation.
+
+2. **Comparison** (7 studies)
+   The second most common actual locus.
+   The thing that kept producing explanatory gain.
+
+3. **The pattern**: relation_gamma → property_beta → higher-order property_beta
+   This is what the archive actually shows.
+
+---
+
+## The Final Compression
+
+The entire S10B sequence can be compressed to:
+
+```
+T037: Interaction exists
+S019-022: Not every relation_gamma persists
+S5: Some relation_gammas produce stable correlations
+S10A: Stable correlations have structure
+S10B.0: Structure depends on perspective
+S10B.X-W: Some structures are junction points
+S10B.J2-J8: Junction points are path-independent
+S10B.M1-M6b: Path independence is comparison-dependent
+S10B.R1-R3: Comparison requires relation_gamma
+S10B.R4: Interaction requires experience
+S10B.R0R: Experience requires property_beta
+```
+
+The final compression:
+
+> **hierarchical property_beta of relation_gamma**
+
+---
+
+## Files
+
+- `audits/rd_hist_archive_census.py` — Phase 1
+- `audits/rd_hist_explanatory_locus.py` — Phase 2
+- `audits/rd_hist_relation_gamma_reconstruction.py` — Phase 3
+- `audits/rd_hist_property_beta_reconstruction.py` — Phase 4
+- `audits/rd_hist_failure_reconstruction.py` — Phase 5
+- `audits/rd_hist_migration_graph.py` — Phase 6
+- `audits/rd_hist_historical_compression.py` — Phase 7
+- `audits/RD_HIST_ARCHIVE_INDEX.json` — Phase 1 output
+- `audits/RD_HIST_EXPLANATORY_LOCUS.json` — Phase 2 output
+- `audits/RD_HIST_INTERACTION_MAP.json` — Phase 3 output
+- `audits/RD_HIST_PERSISTENCE_MAP.json` — Phase 4 output
+- `audits/RD_HIST_FAILURE_CATALOG.json` — Phase 5 output
+- `audits/RD_HIST_MIGRATION_GRAPH.json` — Phase 6 output
+- `audits/RD_HIST_RECONSTRUCTION_REPORT.md` — this report

@@ -151,7 +151,10 @@ Observer diversity is not observer independence.
 
 ## Status
 
-Not started.
+**COMPLETE.** See `audits/rd_observer2/reports/RD_OBSERVER_2_THEMATIC_CONVERGENCE.md`.
+
+13 core structures found by all 6 pseudo-independent observers.
+Mean thematic Jaccard: 0.80 across 6 observers with different priors.
 
 ---
 

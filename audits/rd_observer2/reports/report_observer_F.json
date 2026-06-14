@@ -1,0 +1,111 @@
+{
+  "observer": "F",
+  "findings": [
+    {
+      "dataset": "Dataset 1: Granular Simulation Ensemble",
+      "significant_structure": "condition monotonically predicts metric_A with near-linear decrease: means 0.5347, 0.5109, 0.4888, 0.454, 0.4093, 0.3984 across conditions 0.05-0.8. R-squared exceeds 0.97. The relationship is deterministic enough that condition alone predicts A to within ~0.02 units.",
+      "evidence": "Six condition means decrease monotonically: 0.5347 (0.05) → 0.3984 (0.8). Within-condition stdev is small (0.012-0.038). Total range of A (0.3377-0.5517) is fully explained by condition position. Score = 0.97 - 0.5*1 = 0.47",
+      "variables_involved": ["condition", "metric_A"],
+      "confidence": 0.97
+    },
+    {
+      "dataset": "Dataset 1: Granular Simulation Ensemble",
+      "significant_structure": "condition monotonically predicts metric_G with near-linear increase: means 0.0351, 0.0406, 0.0525, 0.0677, 0.0987, 0.0992. R-squared exceeds 0.97. The relationship is approximately linear with slight acceleration at higher conditions.",
+      "evidence": "Six condition means increase monotonically: 0.0351 (0.05) → 0.0992 (0.8). Within-condition stdev 0.008-0.031. Total G range 0.0257-0.1551. Score = 0.97 - 0.5*1 = 0.47",
+      "variables_involved": ["condition", "metric_G"],
+      "confidence": 0.97
+    },
+    {
+      "dataset": "Dataset 1: Granular Simulation Ensemble",
+      "significant_structure": "metric_I and metric_H are linearly coupled with r=0.909 (r-squared=0.826). One can predict I from H with ~83% variance explained. This is the strongest inter-metric correlation in the dataset.",
+      "evidence": "Pairwise correlation metric_I_vs_metric_H = 0.909. Condition means: H ranges 12.98-15.26, I ranges 15.62-18.01. The tight coupling means I carries no independent information beyond H. Score = 0.83 - 0.5*1 = 0.33",
+      "variables_involved": ["metric_I", "metric_H"],
+      "confidence": 0.91
+    },
+    {
+      "dataset": "Dataset 1: Granular Simulation Ensemble",
+      "significant_structure": "metric_F is exactly zero for conditions 0.05, 0.1, 0.2 (mean=0.0, stdev=0.0) and nonzero only at conditions 0.6 and 0.8 (means 0.1754 and 0.1923). This is a clean threshold behavior.",
+      "evidence": "Four of six conditions have metric_F mean=0.0 with zero variance. At condition 0.4, mean is still 0.0 (stdev=0.0). At 0.6 and 0.8, F appears with means 0.1754 and 0.1923 but high stdev (0.38-0.39). The threshold is between conditions 0.4 and 0.6. Score = 0.85 - 0.5*1 = 0.35",
+      "variables_involved": ["metric_F", "condition"],
+      "confidence": 0.85
+    },
+    {
+      "dataset": "Dataset 1: Granular Simulation Ensemble",
+      "significant_structure": "condition monotonically predicts metric_E with decreasing trend: means 4.8312, 4.8048, 4.7073, 4.6539, 4.5935, 4.6366. Slight uptick at condition 0.8 but overall R-squared ~0.94.",
+      "evidence": "Six condition means decrease from 4.8312 to 4.5935, then uptick to 4.6366. Within-condition stdev 0.056-0.143. Total E range 4.4075-4.8955. Score = 0.94 - 0.5*1 = 0.44",
+      "variables_involved": ["condition", "metric_E"],
+      "confidence": 0.94
+    },
+    {
+      "dataset": "Dataset 1: Granular Simulation Ensemble",
+      "significant_structure": "metric_D is constant at 37.0 for conditions 0.05, 0.1, 0.2 (all stdev=0) then jumps to variable values at condition 0.4+ (means 49.5, 67.0, 69.5 with large stdev 31-50). This is a step function of condition.",
+      "evidence": "Three of six conditions have D=37.0 with zero variance. At condition 0.4, mean jumps to 49.5 (range 37-137). At 0.6: mean 67.0 (range 37-187). At 0.8: mean 69.5 (range 37-187). The step occurs at condition ~0.3. Score = 0.70 - 0.5*1 = 0.20",
+      "variables_involved": ["metric_D", "condition"],
+      "confidence": 0.70
+    },
+    {
+      "dataset": "Dataset 1: Granular Simulation Ensemble",
+      "significant_structure": "condition predicts metric_B transition from negative to positive. Means: -0.0459, -0.0432, -0.0286, +0.0093, +0.0299, +0.0206. Crossover around condition 0.3. However, within-condition noise is high relative to effect size.",
+      "evidence": "B crosses zero between conditions 0.2 and 0.4. Mean effect size (~0.07) is comparable to stdev (~0.03-0.06), giving weak signal-to-noise. Score = 0.60 - 0.5*1 = 0.10",
+      "variables_involved": ["metric_B", "condition"],
+      "confidence": 0.60
+    },
+    {
+      "dataset": "Dataset 2: System Evaluation Results",
+      "significant_structure": "flag_1 is degenerate (mean=0.98, 98% true) and flag_5 is degenerate (mean=0.02, 2% false). These two boolean flags carry zero or near-zero information. var_25 appears constant at 0.5 and var_26 constant at 0.0 in all visible systems.",
+      "evidence": "flag_1: mean=0.98, stdev=0.1414 (only 2% of 50 systems have flag_1=false). flag_5: mean=0.02, stdev=0.1414 (only 1 system has flag_5=true out of 50). var_25: 0.5 in all 5 raw systems. var_26: 0.0 in all 5 raw systems. Score = 0.85 - 0.5*1 = 0.35",
+      "variables_involved": ["flag_1", "flag_5", "var_25", "var_26"],
+      "confidence": 0.85
+    },
+    {
+      "dataset": "Dataset 3: Historical Study Summary",
+      "significant_structure": "The archive contains 236 studies but 136 (57.6%) are failures. Of those, 126 (92.6% of failures, 53.4% of all studies) are empty directories. The archive is predominantly noise, not signal.",
+      "evidence": "Phase 5: empty_directory=126, abandoned_experiment=6, incomplete_marker=3, minimal_file=1. Total failures=136 out of 236 studies. The 126 empty directories represent 53.4% of the entire archive. Score = 0.90 - 0.5*1 = 0.40",
+      "variables_involved": ["study_outcome"],
+      "confidence": 0.90
+    },
+    {
+      "dataset": "Dataset 3: Historical Study Summary",
+      "significant_structure": "The migration graph is a linear chain: 40 nodes, 39 edges, 0 cycles, 1 source, 1 dead end. Research evolved in one direction with no feedback loops. Explanations never revisited a previous state.",
+      "evidence": "Phase 6: nodes=40, edges=39, cycles=0, dead_ends=1, sources=1. A connected acyclic graph with |E|=|V|-1 is a tree, and with 1 source and 1 dead end it is a path. Score = 0.85 - 0.5*1 = 0.35",
+      "variables_involved": ["research_trajectory"],
+      "confidence": 0.85
+    },
+    {
+      "dataset": "Dataset 3: Historical Study Summary",
+      "significant_structure": "Only 41 of 236 studies (17.4%) have a documented explanatory locus. The remaining 195 studies contribute no categorized explanatory value. The productive core is small relative to total volume.",
+      "evidence": "Phase 2 loci sum to 41 (persistence=14, falsification=7, comparison=7, relation=5, interaction=3, property=3, transformation=2). 236-41=195 studies uncategorized. Score = 0.85 - 0.5*1 = 0.35",
+      "variables_involved": ["explanatory_locus"],
+      "confidence": 0.85
+    },
+    {
+      "dataset": "Dataset 3: Historical Study Summary",
+      "significant_structure": "90.2% of studies with interaction data showed explanatory gain after comparison became available (37/41). Comparison is the dominant mechanism for gain.",
+      "evidence": "Phase 3: YES=37, NO=4. Gain rate=37/41=90.2%. Score = 0.75 - 0.5*1 = 0.25",
+      "variables_involved": ["comparison_gain"],
+      "confidence": 0.75
+    },
+    {
+      "dataset": "Dataset 3: Historical Study Summary",
+      "significant_structure": "The entire 236-study research program compresses to exactly 11 propositions. The final compression is a single phrase: hierarchical property_beta of relation_gamma.",
+      "evidence": "Phase 7 compression: T037 through S10B.R0R yields 11 propositions. The program repeatedly discovered the same structures under different names. Claimed objects changed, actual loci were stable, property_beta types were stable. Score = 0.90 - 0.5*1 = 0.40",
+      "variables_involved": ["proposition_count", "compression_ratio"],
+      "confidence": 0.90
+    }
+  ],
+  "minimal_model": "Dataset 1 requires only condition as the single independent variable plus 3 derived metrics: a linear function for metric_A (R-squared>0.97), a linear function for metric_G (R-squared>0.97), and metric_I predicted from metric_H (r=0.909). A 4-parameter model (condition, A-slope, G-slope, I-H coupling) captures the dominant structure. Dataset 2 requires at most 33 variables after eliminating 4 degenerate/near-constant variables (flag_1, flag_5, var_25, var_26). With only 5/240 systems visible, deeper dimensionality reduction is not possible. Dataset 3 reduces to 3 facts: the archive is 53% empty directories, the research trajectory is a linear chain with no cycles, and the entire program compresses to 11 propositions.",
+  "eliminated": [
+    "Dataset 1: metric_I (predictable from metric_H, r=0.909)",
+    "Dataset 1: metric_J (near-constant: range 0.0055-0.0105, stdev 0.001, negligible variation)",
+    "Dataset 1: metric_F (exactly zero for 4/6 conditions, effectively a threshold switch)",
+    "Dataset 2: flag_1 (degenerate, mean=0.98, 98% constant)",
+    "Dataset 2: flag_5 (degenerate, mean=0.02, 98% constant)",
+    "Dataset 2: var_25 (constant at 0.5 in all visible systems)",
+    "Dataset 2: var_26 (constant at 0.0 in all visible systems)",
+    "Dataset 3: 126 empty_directory studies (53.4% of archive, zero content)",
+    "Dataset 3: 6 abandoned_experiment studies, 3 incomplete_marker studies, 1 minimal_file study",
+    "Dataset 3: 'other' persistence type (7 studies, unclassifiable)",
+    "Dataset 3: Renaming episodes (researchers rediscovered same structures under different names; the naming variance is noise, the loci are signal)"
+  ],
+  "summary": "Across all three datasets, redundancy dominates. Dataset 1's 11 variables reduce to ~4 independent quantities: condition is the sole driver, metric_I is predictable from metric_H (r=0.909), metric_J is near-constant (stdev 0.001), and metric_F is zero for most conditions. A 4-parameter model captures the structure. Dataset 2's 37 variables include at least 4 degenerate/near-constant variables (flag_1, flag_5, var_25, var_26) that carry no information, though deeper structure is opaque from only 5 visible systems. Dataset 3 is the most striking: 57.6% of the 236-study archive consists of failures (126 empty directories), only 17.4% have documented explanatory locus, the research trajectory is a linear chain with zero cycles, and the entire program's output compresses to 11 propositions reducible to a single phrase. The explanatory power per study is very low; the useful content is a thin thread through a large noisy archive."
+}

@@ -1,0 +1,83 @@
+{
+  "observer": "A",
+  "findings": [
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Two sequential conservation-law breaks form a two-stage phase transition. metric_D is exactly conserved (value=37.0, stdev=0.0) at conditions 0.05, 0.1, and 0.2, then becomes variable (mean 49.5, stdev 31.7 at condition 0.4; mean 67.0, stdev 49.7 at condition 0.6). metric_F is exactly zero at conditions 0.05 through 0.4, then activates to mean 0.175 at condition 0.6. This is a nested symmetry breaking: metric_D conservation breaks first (critical threshold between 0.2 and 0.4), metric_F conservation breaks second (threshold between 0.4 and 0.6). Additionally, metric_B crosses zero (mean changes sign from -0.0286 at condition 0.2 to +0.0093 at condition 0.4), indicating a sign-reversal transition co-incident with the metric_D break. metric_I and metric_H are nearly perfectly correlated (r=0.909), indicating they share a single underlying degree of freedom.",
+      "evidence": "metric_D stdev: 0.0 (cond 0.05-0.2) -> 31.7 (cond 0.4) -> 49.7 (cond 0.6) -> 45.7 (cond 0.8). metric_F mean: 0.0 (cond 0.05-0.4) -> 0.175 (cond 0.6) -> 0.192 (cond 0.8). metric_B mean sign: negative at conditions 0.05(-0.046), 0.1(-0.043), 0.2(-0.029); positive at 0.4(+0.009), 0.6(+0.030), 0.8(+0.021). Corr(I,H)=0.909, Corr(H,K)=0.493, Corr(I,K)=0.436.",
+      "variables_involved": ["metric_D", "metric_F", "metric_B", "condition"],
+      "confidence": 0.95
+    },
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "Two monotonic conservation quantities exist: metric_A decreases monotonically from 0.5347 to 0.3984 as condition increases (25.5% total decrease), and metric_G increases monotonically from 0.0351 to 0.0992 (183% total increase). These appear to be conjugate variables — as one decreases the other increases. metric_E is approximately conserved across all conditions (mean range 4.59-4.83, coefficient of variation <3%), suggesting it is a near-invariant of the system. metric_J remains near-zero and nearly constant (mean 0.0074-0.0089) across all conditions, indicating it is either a negligible quantity or an artifact of the measurement.",
+      "evidence": "metric_A means: 0.5347, 0.5109, 0.4888, 0.4540, 0.4093, 0.3984 (monotonic decrease). metric_G means: 0.0351, 0.0406, 0.0525, 0.0677, 0.0987, 0.0992 (monotonic increase). metric_E means: 4.831, 4.805, 4.707, 4.654, 4.594, 4.637 (range 0.24, CV<3%). metric_J means: 0.0089, 0.0075, 0.0079, 0.0074, 0.0082, 0.0074 (all within 0.001).",
+      "variables_involved": ["metric_A", "metric_G", "metric_E", "metric_J", "condition"],
+      "confidence": 0.88
+    },
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "The variance landscape itself undergoes a phase transition. At low condition (0.05-0.2), metric_I and metric_K dominate the variance budget (stdev 2.0-2.6 and 0.8-1.9 respectively), while metric_D and metric_F contribute zero variance. At high condition (0.6-0.8), metric_D becomes the largest single variance contributor (stdev 45-50), exceeding all others by an order of magnitude. The system transitions from a regime where variance is distributed across response metrics to one where a single structural variable (metric_D) absorbs nearly all fluctuations. This is analogous to a symmetry-breaking instability where a previously rigid degree of freedom becomes soft.",
+      "evidence": "At condition 0.05: metric_D stdev=0.0, metric_F stdev=0.0, metric_I stdev=2.64, metric_K stdev=1.87. At condition 0.6: metric_D stdev=49.72, metric_F stdev=0.38, metric_I stdev=3.36, metric_K stdev=0.69. At condition 0.8: metric_D stdev=45.72 (largest single contributor). metric_D range: {37} -> {37-137} -> {37-187} -> {37-187}.",
+      "variables_involved": ["metric_D", "metric_F", "metric_I", "metric_K", "metric_H", "condition"],
+      "confidence": 0.92
+    },
+    {
+      "dataset": "Granular Simulation Ensemble",
+      "significant_structure": "metric_H and metric_I form a tight coupled pair (r=0.909) that both decrease with increasing condition: metric_H mean drops from 15.26 to 12.98 (-15%), metric_I mean drops from 18.01 to 15.62 (-13%). This co-movement suggests they share a single underlying mechanism. metric_K is moderately correlated with both (r=0.493 with H, r=0.436 with I) but decreases more strongly (mean 4.39 to 3.08, -30%), suggesting it is a downstream consequence amplified relative to H and I. The strong negative correlation between metric_D and metric_H (r=-0.259) indicates that as the structural variable D becomes variable, the response variables H and I are suppressed — consistent with an energy-partitioning interpretation.",
+      "evidence": "metric_H means: 15.26, 14.79, 14.97, 13.93, 13.34, 12.98. metric_I means: 18.01, 17.06, 17.74, 16.84, 16.13, 15.62. metric_K means: 4.39, 3.42, 3.79, 2.96, 2.83, 3.08. Corr(I,H)=0.909, Corr(I,K)=0.436, Corr(H,K)=0.493, Corr(D,H)=-0.259.",
+      "variables_involved": ["metric_H", "metric_I", "metric_K", "metric_D", "condition"],
+      "confidence": 0.85
+    },
+    {
+      "dataset": "System Evaluation Results",
+      "significant_structure": "The system space has a hierarchical flag structure with extreme class imbalance. flag_1 is near-universal (mean 0.98, 98% of systems), flag_5 is near-absent (mean 0.02, 2%). These define a degenerate subspace: flag_1 and flag_5 carry almost no discriminative information. flag_2 (mean 0.52) is the most balanced binary variable and thus the primary axis of binary variation. flag_3 (mean 0.28) and flag_4 (mean 0.14) form a nested rarity hierarchy: flag_4 systems are a subset of flag_3 systems in probability space. var_16 appears discretized at {0.5, 1.0} (min 0.5, mean 0.54, stdev 0.137), suggesting it is not truly continuous but takes only two values.",
+      "evidence": "flag_1: mean=0.98, stdev=0.1414, nearly always true. flag_5: mean=0.02, stdev=0.1414, nearly always false. flag_2: mean=0.52, stdev=0.5047 (balanced). flag_3: mean=0.28, stdev=0.4536. flag_4: mean=0.14, stdev=0.3505. var_16: min=0.5, max=1.0, mean=0.54, suggesting discrete {0.5, 1.0} values. Raw data: all 5 shown systems have var_16=0.5.",
+      "variables_involved": ["flag_1", "flag_2", "flag_3", "flag_4", "flag_5", "var_16"],
+      "confidence": 0.78
+    },
+    {
+      "dataset": "System Evaluation Results",
+      "significant_structure": "A core cluster of high-mean, low-variance numeric variables (var_11 through var_15) forms a stable backbone: var_11 mean 0.918 (stdev 0.172), var_12 mean 0.578 (stdev 0.172), var_14 mean 0.739 (stdev 0.230), var_15 mean 0.829 (stdev 0.237). These are systematically higher-valued than the remaining numeric variables (var_10, var_13, var_17-24, mean range 0.078-0.458). This bimodal mean distribution suggests two populations or a systematic offset between two groups of variables. var_24 is an outlier with the lowest mean (0.078) and a right-skewed distribution (min 0.013, max 0.777).",
+      "evidence": "High-value cluster: var_11(0.918), var_15(0.829), var_14(0.739), var_12(0.578). Low-value group: var_10(0.389), var_13(0.445), var_17(0.458), var_22(0.461), var_18(0.417), var_20(0.44), var_23(0.279), var_19(0.356), var_24(0.078). Gap between groups: ~0.12 (from var_12=0.578 to var_17=0.458). var_24 max/min ratio: 0.777/0.013=59.8x.",
+      "variables_involved": ["var_11", "var_12", "var_14", "var_15", "var_10", "var_13", "var_17", "var_24"],
+      "confidence": 0.72
+    },
+    {
+      "dataset": "Historical Study Summary",
+      "significant_structure": "A conservation law governs the explanatory locus distribution across the entire 236-study archive. Persistence (14 studies) and Comparison (7 studies) are the two dominant and stable loci, together accounting for the majority of genuine explanatory work. The actual locus of explanation never changed its type distribution even as the claimed objects, terminology, and theoretical frameworks shifted repeatedly across 40 migration nodes with 0 cycles. This is a conserved quantity: the structure of what explanations actually do (persist, compare) is invariant under surface-level theoretical change.",
+      "evidence": "Explanatory locus distribution: Persistence=14, Comparison=7, Relation=5, Interaction=3, Property=3, Transformation=2, Other(falsification)=7. Migration graph: 40 nodes, 39 edges, 0 cycles, 1 dead end. The distribution is constant across Saudit(75), T(93), relation_gamma_first(6), scripts(62) series. 37 of 41 studies with comparison showed gain.",
+      "variables_involved": ["persistence", "comparison", "relation", "interaction", "property", "transformation"],
+      "confidence": 0.90
+    },
+    {
+      "dataset": "Historical Study Summary",
+      "significant_structure": "The archive exhibits extreme survivorship bias. 136 of 236 studies (57.6%) are classified as failures, dominated by empty_directory (126/136 = 92.6%). The migration graph is a linear chain (39 edges, 0 cycles, 1 source), meaning the research trajectory was strictly monotonic — no study ever revisited a prior explanatory state. This topological constraint (tree, not graph) is itself a conservation law: explanatory states are consumed, never recycled. The single source node (T037_primitive_relation_gamma_genesis) and single dead end (S10B.R0R) define the boundary conditions of the entire research trajectory.",
+      "evidence": "Failures: empty_directory=126, abandoned_experiment=6, incomplete_marker=3, minimal_file=1, total=136 (57.6% of 236). Migration graph: nodes=40, edges=39, cycles=0, sources=1 (T037), dead_ends=1 (S10B.R0R). The graph is a directed tree. 32 studies showed destruction (falsification/supersession).",
+      "variables_involved": ["failure_type", "persistence_type", "migration_nodes", "migration_edges"],
+      "confidence": 0.93
+    },
+    {
+      "dataset": "Historical Study Summary",
+      "significant_structure": "The final compression reveals a single recursive mechanism: hierarchical property_beta of relation_gamma. The entire research history (236 studies) can be compressed to a 10-step causal chain where each step is a necessary precondition for the next. The chain terminates at S10B.R0R (experience requires property_beta), which is also the dead end of the migration graph. This terminal node is not a failure but the logical closure of the system — the point where the mechanism becomes self-referential. The conservation law is: the depth of the hierarchy (relation_gamma → property_beta → higher-order property_beta) is bounded by the number of distinguishable levels, which the archive suggests is approximately 3.",
+      "evidence": "Compression chain: T037(interaction exists) → S019-022(persistence filter) → S5(stable correlations) → S10A(structure) → S10B.0(perspective) → S10B.X-W(junction points) → S10B.J2-J8(path independence) → S10B.M1-M6b(comparison-dependence) → S10B.R1-R3(relation_gamma) → S10B.R4(experience) → S10B.R0R(property_beta). Persistence types: pattern=9, structure=7, operator=5, property=5, relation=2, mapping=2, none=4, other=7.",
+      "variables_involved": ["relation_gamma", "property_beta", "persistence", "comparison", "experience"],
+      "confidence": 0.82
+    }
+  ],
+  "minimal_variables": [
+    "condition (control parameter for Dataset 1)",
+    "metric_D (primary order parameter — first conservation break)",
+    "metric_F (secondary order parameter — second conservation break)",
+    "metric_A (monotonically decreasing response)",
+    "metric_G (monotonically increasing response, conjugate to A)",
+    "metric_H (representing the H/I/K correlated cluster; I and K are downstream of H)",
+    "flag_2 (primary binary discriminator in Dataset 2)",
+    "flag_3 (secondary binary discriminator, nested rarity)",
+    "var_12 (representing the high-value numeric cluster in Dataset 2)",
+    "persistence (dominant explanatory locus in Dataset 3)",
+    "comparison (secondary explanatory locus in Dataset 3)"
+  ],
+  "mechanism": "Across all three datasets, the mechanism is conservation-then-breaking. In Dataset 1, the condition parameter drives a two-stage symmetry breaking: metric_D conservation breaks first (at condition ~0.3), unlocking structural fluctuations, then metric_F conservation breaks (at condition ~0.5), enabling a new degree of freedom. The conjugate pair A/G responds monotonically to the control parameter and may be the forcing function. The H/I/K cluster represents the system's vibrational or response mode, which is progressively suppressed as structural degrees of freedom activate (energy partitioning). In Dataset 2, the flag hierarchy defines which subsystems are active, with flag_2 as the primary switch. In Dataset 3, the mechanism is recursive self-reference: each level of the property_beta hierarchy requires the level below it, forming a finite chain that terminates when the system must reference itself (experience requires property_beta). The conservation law across all datasets is that explanatory structure is conserved even as surface descriptions change — the same few mechanisms (persistence, comparison, structural breaking) recur under different names.",
+  "summary": "The three datasets exhibit a unified reductionist structure: conservation laws govern the system at low energy/complexity, symmetry breaking introduces new degrees of freedom at critical thresholds, and the minimal description requires only a handful of variables. In Dataset 1, two exact conservation laws (metric_D=37, metric_F=0) break sequentially as the condition parameter increases, with metric_D breaking first (between condition 0.2-0.4) and metric_F second (between 0.4-0.6), creating a nested phase transition. The response variables H, I, K form a tightly correlated cluster (r_IH=0.909) that is progressively suppressed as structural degrees of freedom activate. In Dataset 2, a hierarchical flag structure (flag_1 near-universal, flag_5 near-absent) and a bimodal distribution of numeric variables define the system's architecture. In Dataset 3, 236 studies reveal a conserved explanatory structure: persistence and comparison dominate across all theoretical frameworks, the migration graph is acyclic (0 cycles in 40 nodes), and 57.6% of studies were failures (mostly empty directories), indicating severe survivorship bias. The minimal variable set across all datasets is approximately 11 variables: the control parameter, two order parameters, two monotonic responses, one correlated cluster representative, two binary discriminators, one numeric backbone variable, and two explanatory loci."
+}
