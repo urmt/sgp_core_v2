@@ -366,7 +366,9 @@ For each pair of the 6 top metrics, I assess:
 
 ### Q4: Which metrics contribute unique variance?
 
-**Metrics ranked by unique variance contribution (estimated):**
+**Variance source: QUALITATIVE ESTIMATE (expert judgment, not empirical calculation)**
+
+**Metrics ranked by estimated unique variance contribution:**
 
 1. **Empowerment** — Unique on E=4 (only metric scoring this). Provides I=4, F=4 through agent-theoretic mechanism. **~35% unique variance.**
 2. **C_μ** — Unique on C=4 (temporal predictive type). Provides I=4, F=4 through computational mechanics mechanism. **~30% unique variance.**
@@ -375,7 +377,7 @@ For each pair of the 6 top metrics, I assess:
 5. **Mutational Robustness** — Unique on C=4 (biological resilience type). Cross-domain C validator. **~7% unique variance.**
 6. **Transfer Entropy** — Largely redundant with C_μ and Empowerment. Unique semantic (actual flow) but no new dimensional coverage. **~5% unique variance.**
 
-**The top 2 metrics (Empowerment + C_μ) capture ~65% of unique variance. Adding EC, EI, and MR captures the remaining ~25%. TE contributes the least unique variance among the top 6.**
+**The top 2 metrics (Empowerment + C_μ) appear to capture the majority of estimated unique variance. Adding EC, EI, and MR appears to capture most of the remainder. TE appears to contribute the least unique variance among the top 6.** All percentages are qualitative estimates based on dimensional coverage analysis, not empirical variance decomposition.
 
 ---
 
