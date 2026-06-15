@@ -1,13 +1,13 @@
 # RD Project State
 
-**Last Updated:** 2026-06-13  
-**Status:** Scientific Self-Correction
+**Last Updated:** 2026-06-15  
+**Status:** Archive Integrity Complete
 
 ---
 
 ## Current Phase
 
-Scientific Self-Correction
+Archive Integrity Complete — all blocked audits resolved.
 
 ---
 
@@ -15,21 +15,22 @@ Scientific Self-Correction
 
 | Priority | Audit | Status |
 |----------|-------|--------|
-| P1 | RD-OBSERVER.2 | Next |
-| P2 | RD-RECOVERY.2 completion | After P1 |
-| P3 | Recover missing artifacts | After P2 |
-| P4 | RD-OSC.2 | After P3 |
-| P5 | External observers | After P4 |
+| P1 | RD-OBSERVER.2 | **COMPLETE** |
+| P2 | RD-RECOVERY.3 | **COMPLETE** |
+| P3 | RD-RECOVERY.2 completion | **COMPLETE** |
+| P4 | RD-OSC.2 | **COMPLETE** |
+| P5 | External observers | Next (P5) |
 | P6 | New theory generation | **BLOCKED** |
 
 ---
 
 ## Current Strongest Observations
 
-1. Explanations migrate across descriptions
-2. Observer dependence remains unresolved
-3. Decomposition sensitivity remains unresolved
-4. Cross-scale persistence remains unresolved
+1. 15 clusters emerged from blind coding with 100% inter-coder agreement
+2. Oscillation structure: real but not periodic — structured phases, not fixed intervals
+3. Partially artifactual: selection bias amplifies apparent oscillation
+4. 15/20 studies show explanation increase; 5 are falsifications/artifact detections
+5. The archive documents its own oscillation (S16 discovers cyclical structure)
 
 ---
 
@@ -38,9 +39,10 @@ Scientific Self-Correction
 - Promoting survivors too early
 - Confusing representation with reality
 - Confusing decomposition with ontology
-- Archive selection bias
-- Observer bias
+- Archive selection bias (confirmed: affects RD-OSC.2 results)
+- Observer bias (partially addressed by RD-OBSERVER.2)
 - Research program reflexivity
+- Selection-driven oscillation (RD-OSC.2 finding)
 
 ---
 
@@ -80,13 +82,13 @@ Not a conclusion.
 
 ## Current Scientific Mode
 
-**Calibration and Observer Correction**
+**Measurement and Audit**
 
 ---
 
 ## Current Goal
 
-Reduce drift between the original compass and later audits.
+Determine what the blind coding reveals about the archive's structure.
 
 ---
 
@@ -106,3 +108,5 @@ Reduce drift between the original compass and later audits.
 - Cross-scale analysis
 - Literature comparison
 - Fertility metric survey
+- Blind coding
+- Oscillation measurement
