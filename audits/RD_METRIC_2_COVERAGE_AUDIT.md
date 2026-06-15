@@ -241,14 +241,14 @@ No metric bridges these clusters in a balanced way. The "bridge" metrics — Tra
 
 1. **No single metric captures Ψ.** The closest are Crutchfield's C_μ and Empowerment, but each has blind spots.
 2. **Fertility dominates the metric landscape.** 10 of 29 metrics score F=4. This reflects the historical focus of complexity science on generativity and open-ended evolution.
-3. **Interaction and Experience are structural blind spots.** 66% of metrics score I≤1; 79% score E≤1. The existing metric vocabulary is built for observer-independent description, not for relational or experiential phenomena.
+3. **Within the surveyed literature, I and E appear comparatively underrepresented relative to C and F.** 66% of metrics score I≤1; 79% score E≤1. The existing metric vocabulary appears built for observer-independent description, not for relational or experiential phenomena.
 4. **Coherence is moderately covered but never directly measured.** The best C metrics (Effective Complexity, Sophistication) capture structural regularity, not the fit-between-parts in an assembly.
 5. **The ecology/evolutionary and information-theoretic clusters are poorly bridged.** Metrics from one cluster rarely score well on the dimensions emphasized by the other.
 6. **Complementary triples are necessary.** No pair of metrics achieves full four-dimensional coverage at the 4-level. Triples like {Effective Complexity, Transfer Entropy, Empowerment} or {Mutational Robustness, Evolvability Index, Empowerment} are needed.
 
 ### Implications:
 
-The working space Ψ ≈ f(C, F, I, E) is not captured by any existing metric or small combination. The most significant gap is the **I-E interaction-experience axis**: the existing metric landscape is built for describing structures and their generative capacity, not for describing relational events or experiential phenomena. Any future metric development targeting Ψ would need to address this axis directly.
+The working space Ψ ≈ f(C, F, I, E) is not captured by any existing metric or small combination. Within the surveyed literature, the I-E interaction-experience axis appears comparatively underrepresented: the existing metric landscape seems built for describing structures and their generative capacity, not for describing relational events or experiential phenomena. Any future metric development targeting Ψ would need to address this axis directly.
 
 ---
 
