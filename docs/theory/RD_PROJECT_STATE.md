@@ -7,7 +7,7 @@
 
 ## Current Phase
 
-Archive Integrity Complete — all blocked audits resolved.
+Artifact Audit — RD-OSC.2 claims unsupported.
 
 ---
 
@@ -18,19 +18,20 @@ Archive Integrity Complete — all blocked audits resolved.
 | P1 | RD-OBSERVER.2 | **COMPLETE** |
 | P2 | RD-RECOVERY.3 | **COMPLETE** |
 | P3 | RD-RECOVERY.2 completion | **COMPLETE** |
-| P4 | RD-OSC.2 | **COMPLETE** |
-| P5 | External observers | Next (P5) |
-| P6 | New theory generation | **BLOCKED** |
+| P4 | RD-OSC.2 | **PROVISIONAL** — claims unsupported |
+| P4A | RD-OSC.2A | **COMPLETE** — artifact audit |
+| P4B | RD-OSC.2B | Next — redesign blind coding procedure |
+| P5 | External observers | After P4B |
 
 ---
 
 ## Current Strongest Observations
 
-1. 15 clusters emerged from blind coding with 100% inter-coder agreement
-2. Oscillation structure: real but not periodic — structured phases, not fixed intervals
-3. Partially artifactual: selection bias amplifies apparent oscillation
-4. 15/20 studies show explanation increase; 5 are falsifications/artifact detections
-5. The archive documents its own oscillation (S16 discovers cyclical structure)
+1. RD-OSC.2 "100% agreement" claim is NOT supported by artifacts
+2. Blind packets contained RD labels (information leakage)
+3. Packets pre-determine coding (paraphrase, not observation)
+4. Clustering was post-hoc by same agent (not independent)
+5. No assignment matrices, no algorithm, no reproducibility check
 
 ---
 
