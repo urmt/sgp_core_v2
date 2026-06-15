@@ -7,7 +7,7 @@
 
 ## Current Phase
 
-Artifact Audit — RD-OSC.2 claims unsupported.
+Re-Blind Audit Complete — oscillation not found in shuffled sequence.
 
 ---
 
@@ -20,18 +20,18 @@ Artifact Audit — RD-OSC.2 claims unsupported.
 | P3 | RD-RECOVERY.2 completion | **COMPLETE** |
 | P4 | RD-OSC.2 | **PROVISIONAL** — claims unsupported |
 | P4A | RD-OSC.2A | **COMPLETE** — artifact audit |
-| P4B | RD-OSC.2B | Next — redesign blind coding procedure |
-| P5 | External observers | After P4B |
+| P4B | RD-OSC.2B | **COMPLETE** — re-blind audit |
+| P5 | External observers | Next (P5) |
 
 ---
 
 ## Current Strongest Observations
 
-1. RD-OSC.2 "100% agreement" claim is NOT supported by artifacts
-2. Blind packets contained RD labels (information leakage)
-3. Packets pre-determine coding (paraphrase, not observation)
-4. Clustering was post-hoc by same agent (not independent)
-5. No assignment matrices, no algorithm, no reproducibility check
+1. Substance agreement is real (100%): coders describe same findings when blinded
+2. Label agreement is zero (0%): coders use different categories
+3. Oscillation in shuffled sequence: not found
+4. "100% inter-coder agreement" was analyst self-agreement, not coder agreement
+5. The original oscillation was an artifact of chronological ordering
 
 ---
 
