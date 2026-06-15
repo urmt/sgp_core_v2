@@ -12,7 +12,7 @@
 |---|----------|-----------------|----------------|-------------------|----------------------|
 | 1 | RD_HIST_2B_C2_BLIND.json | Renamed (→ C2_LLM.json) | 100% — exists | None | None |
 | 2 | RD_HIST_2B_C3_RANDOMIZED.json | Renamed (→ C3_RANDOM.json) | 100% — exists | None | None |
-| 3 | rd9e_audit.json | Deleted (script exists) | Findings already documented | High → None (SP falsified) | None — SP already demoted |
+| 3 | rd9e_audit.json | Deleted (script exists) | Recovered approximately (findings documented) | High → None (SP falsified) | None — SP already demoted |
 | 4 | audits/interaction_first/ | Wrong path (exists at coherence-benchmark/) | 100% — exists at correct path | Medium → None | None — already supports SR-24 |
 | 5 | interaction_models/ | Never created | 0% — placeholder only | None | None |
 | 6 | docs/publication_notes/ | Never created | 0% — placeholder only | None | None |
@@ -30,6 +30,8 @@
 
 **Verdict:** SP was **falsified**. It is a discretization artifact (SP=1.0 for 99% of all systems). The JSON would just contain raw data supporting this already-documented conclusion.
 
+**Classification:** Recovered approximately — script exists, report exists, verdict documented, regeneration possible.
+
 **Counterfactual impact:** None. SP was already demoted. Recovering the JSON would not change any standing conclusion.
 
 ---
@@ -46,7 +48,7 @@
 > "The abandoned `interaction_first` experiment had I+P+N+C but no gain — because the interaction never occurred. Possible interaction is not enough; actual interaction is required."  
 > — CRITICAL_ASSUMPTIONS_REGISTER.md, A52
 
-**Counterfactual impact:** None. Already supports SR-24 (actual vs possible interaction). The experiments that were never completed provide negative evidence: the interaction never occurred, so no gain was observed.
+**Counterfactual impact:** None. Already supports SR-24 (actual vs possible interaction). The key evidence is not that interaction succeeded or failed, but that the experiment was never executed — absence of evidence ≠ evidence of absence.
 
 ---
 
@@ -73,7 +75,7 @@ For each recovered artifact, ask: If this artifact had existed during RD-HIST.1,
 | interaction_first/ (full 6 studies) | **No effect** — the 4 existing experiments already support SR-24; 2 missing studies were never coded, so their absence is not evidence |
 | Empty directories | **No effect** — placeholders, not data |
 
-**Overall verdict:** No standing conclusion changes.
+**Overall verdict:** No standing conclusion currently appears to change given the recovered evidence.
 
 ---
 
@@ -102,7 +104,7 @@ The archive's missing artifacts are less consequential than initially assessed:
 - **interaction_first/:** Exists at correct path. Never completed. Already supports SR-24.
 - **Empty directories:** Placeholders. No data lost.
 
-**The archive is more complete than it appeared.** The missingness was primarily path confusion and naming mismatches, not lost data.
+**The archive is more complete than it appeared.** The missingness was primarily path confusion and naming mismatches, not lost data. SR-24 is slightly strengthened by the interaction_first finding (the experiment was never executed, not that it failed).
 
 ---
 
