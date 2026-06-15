@@ -45,7 +45,19 @@
 
 ## Status
 
-Complete. 15 clusters emerged from blind coding. 100% inter-coder agreement. Oscillation structure: real but not periodic. Partially artifactual (selection bias). See RD-OSC.2 analysis in `audits/rd_osc2/OSCILLATION_ANALYSIS.md`.
+**PROVISIONAL — AWAITING ARTIFACT REVIEW**
+
+Reason: The following artifacts have not yet been independently inspected:
+
+- blind packets
+- raw coder responses
+- clustering method
+- agreement computation
+- assignment matrices
+
+No claims of "100% agreement", "oscillation is real", or "oscillation is structured" may be promoted until artifact review is complete.
+
+See RD-OSC.2A — Artifact Audit.
 
 ---
 
