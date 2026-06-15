@@ -158,6 +158,30 @@ Not a conclusion.
 
 ---
 
+## Fertility Correction
+
+Persistence alone is insufficient.
+
+A perfectly persistent universe may be sterile.
+
+The research target is not persistence itself.
+
+The research target is:
+
+> persistent structures that enable further coherent experience.
+
+Working intuition:
+
+> Good persistence is persistence that enables further experience.
+
+The value of persistence lies in the experiences it makes possible.
+
+Status:
+
+**WORKING HYPOTHESIS**
+
+---
+
 ## Artifact
 
 `/home/student/sgp_core_v2/docs/theory/RD_RESEARCH_COMPASS.md`

@@ -75,3 +75,34 @@ Not a conclusion.
 ## Artifact
 
 `/home/student/sgp_core_v2/docs/theory/RD_PROJECT_STATE.md`
+
+---
+
+## Current Scientific Mode
+
+**Calibration and Observer Correction**
+
+---
+
+## Current Goal
+
+Reduce drift between the original compass and later audits.
+
+---
+
+## Blocked Activities
+
+- Proving experience
+- Promoting survivors
+- Declaring fundamentals
+
+---
+
+## Allowed Activities
+
+- Archive recovery
+- Observer subtraction
+- Decomposition testing
+- Cross-scale analysis
+- Literature comparison
+- Fertility metric survey
