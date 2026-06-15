@@ -260,7 +260,7 @@ The absence of any 5-score metrics indicates that **no existing metric directly 
 
 5. **The additivity pattern is clear:** Information-theoretic metrics (C_μ, TE, Emp) are complementary to algorithmic (EC, Soph) and evolutionary (MR, EI) metrics. Within the information-theoretic cluster, metrics are partially redundant. The most informative combinations cross cluster boundaries.
 
-6. **Empowerment is the indispensable metric.** It is the only metric scoring E=4, and it appears in every combination that achieves total ≥ 15. Without Empowerment, no combination reaches E=4.
+6. **Within the surveyed metric set, Empowerment appears in every highest-coverage combination.** It is the only metric scoring E=4, and it appears in every combination that achieves total ≥ 15. Without Empowerment, no combination reaches E=4.
 
 ---
 
