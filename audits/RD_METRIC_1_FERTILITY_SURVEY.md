@@ -477,7 +477,7 @@ The closest single metric is **Crutchfield's Statistical Complexity (C_μ)**, wh
 
 ### Recommendation
 
-The existing metric landscape suggests that fertility, as defined in this project, is a genuinely new concept that does not have a direct predecessor. The closest candidates are:
+No existing metric surveyed appears to fully capture the project's current working notion of fertility. The closest candidates are:
 - **Transfer Entropy** (for pairwise enabling)
 - **Crutchfield's C_μ** (for structural generative capacity)
 - **Empowerment** (for capacity to affect future states)
