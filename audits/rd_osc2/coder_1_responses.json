@@ -1,0 +1,82 @@
+[
+  {
+    "blind_id": "S01",
+    "what_changed": "No defined basic operation existed at the start; by the end, one primitive operator was identified and confirmed as the simplest possible starting point."
+  },
+  {
+    "blind_id": "S02",
+    "what_changed": "Two concepts that were treated as separate were shown to produce each other in a reciprocal loop."
+  },
+  {
+    "blind_id": "S03",
+    "what_changed": "A property measured in one configuration was shown to remain stable when tested across multiple different configurations."
+  },
+  {
+    "blind_id": "S04",
+    "what_changed": "A hypothesized cause of a correlation was tested by intervening on it and shown not to produce the correlation."
+  },
+  {
+    "blind_id": "S05",
+    "what_changed": "A second hypothesized cause of a correlation was compared against the correlation and shown not to produce it."
+  },
+  {
+    "blind_id": "S06",
+    "what_changed": "A measured property was found to hold up in relative ranking across different measurement methods, but its absolute value shifted depending on which method was used."
+  },
+  {
+    "blind_id": "S07",
+    "what_changed": "Among seven metrics compared pairwise, one was found to be a mathematical projection of another, and most pairwise relationships turned out to be redundant."
+  },
+  {
+    "blind_id": "S08",
+    "what_changed": "An observed phenomenon was tested against measurement parameters and found to be a binary artifact of how the data was discretized, not a real feature."
+  },
+  {
+    "blind_id": "S09",
+    "what_changed": "The underlying structure of a system was shown to be more fundamental than the specific collection of elements comprising it."
+  },
+  {
+    "blind_id": "S10",
+    "what_changed": "The process of preserving distinctions was shown to be more fundamental than the distinctions themselves."
+  },
+  {
+    "blind_id": "S11",
+    "what_changed": "What counted as a pattern was shown to depend on both the world being described and the representation used to describe it, rather than being an objective feature of the world alone."
+  },
+  {
+    "blind_id": "S12",
+    "what_changed": "A method of explanation assumed to be reliable was shown to fail 60 percent of the time across tested cases."
+  },
+  {
+    "blind_id": "S13",
+    "what_changed": "The order in which operations were performed was shown not to affect the final result, confirmed across eleven different orderings."
+  },
+  {
+    "blind_id": "S14",
+    "what_changed": "Four components that were initially treated as independent were shown to depend on each other in a sequential chain."
+  },
+  {
+    "blind_id": "S15",
+    "what_changed": "An apparent progression across multiple examinations was shown to be an artifact of the examination ordering rather than a genuine shift."
+  },
+  {
+    "blind_id": "S16",
+    "what_changed": "What appeared to be linear forward progress was shown to be a cyclical pattern that repeated rather than converged."
+  },
+  {
+    "blind_id": "S17",
+    "what_changed": "A mechanism whose role was unclear was found to be present in every observed case of improvement, making it a necessary condition."
+  },
+  {
+    "blind_id": "S18",
+    "what_changed": "Four elements previously studied in isolation were shown to require a specific combination of all four together to produce a sustained effect; removing any one broke the configuration."
+  },
+  {
+    "blind_id": "S19",
+    "what_changed": "Objects were reconceived from static things with fixed properties to accumulated traces left by past processes."
+  },
+  {
+    "blind_id": "S20",
+    "what_changed": "A claim based on initial analysis was re-examined but did not gain additional support from the re-examination."
+  }
+]

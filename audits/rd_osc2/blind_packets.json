@@ -1,0 +1,142 @@
+[
+  {
+    "blind_id": "S01",
+    "study_description": "Searched for the minimum substrate from which distinction, persistence, and arithmetic could emerge. Defined a primitive interaction operator and tested whether simpler alternatives existed.",
+    "beginning_state": "No formal definition of interaction existed. The system's basic operations were undefined.",
+    "end_state": "A primitive interaction operator was identified as the irreducible starting point. Simpler alternatives were ruled out.",
+    "raw_data_summary": "Two operator types compared. Minimal substrate confirmed."
+  },
+  {
+    "blind_id": "S02",
+    "study_description": "Examined how interaction produces distinction, and how distinction in turn produces new interaction. Tested whether this was a one-way or reciprocal process.",
+    "beginning_state": "Interaction and distinction were treated as separate concepts.",
+    "end_state": "Interaction and distinction were shown to be mutually generative: interaction produces distinction, distinction enables new interaction.",
+    "raw_data_summary": "Two operator types compared. Reciprocal generative loop confirmed."
+  },
+  {
+    "blind_id": "S03",
+    "study_description": "Built a network framework and tested multiple network conditions to determine whether interaction remained stable across configurations.",
+    "beginning_state": "A single network configuration was in use with no systematic comparison across conditions.",
+    "end_state": "Interaction stability was confirmed across multiple network conditions with interaction coherence of 0.9278 and convergence ratio of 0.9104.",
+    "raw_data_summary": "IC=0.9278, CR=0.9104. Interaction stable across conditions."
+  },
+  {
+    "blind_id": "S04",
+    "study_description": "Tested whether density was the cause of a key correlation C by intervening on density and measuring effects.",
+    "beginning_state": "Density was hypothesized to be a causal factor in producing correlation C.",
+    "end_state": "Density was shown not to cause C. The hypothesis was falsified.",
+    "raw_data_summary": "R-squared = 0.055. Density does not cause C."
+  },
+  {
+    "blind_id": "S05",
+    "study_description": "Tested whether structural importance was the cause of correlation C by comparing structural importance measures against C values.",
+    "beginning_state": "Structural importance was hypothesized to explain correlation C.",
+    "end_state": "Structural importance was shown not to cause C. The hypothesis was falsified.",
+    "raw_data_summary": "p = 0.09. Structural importance does not cause C."
+  },
+  {
+    "blind_id": "S06",
+    "study_description": "Measured the robustness of correlation C across different estimation methods to determine whether C was a stable property or an artifact of measurement.",
+    "beginning_state": "C was measured by a single estimator with unknown robustness.",
+    "end_state": "C was confirmed as robust on rank-ordering but sensitive to estimator choice on absolute level.",
+    "raw_data_summary": "Rank-ordering robust. Level estimator-sensitive."
+  },
+  {
+    "blind_id": "S07",
+    "study_description": "Compared 7 novelty metrics pairwise to determine which relationships among them were genuine and which were artifacts. Identified which metric was a projection of which other.",
+    "beginning_state": "Seven novelty metrics were available with no systematic comparison of their relationships.",
+    "end_state": "C was identified as a projection of MSE with correlation r = -0.89. Most metric relationships were shown to be redundant.",
+    "raw_data_summary": "7 metrics compared pairwise. C projects MSE (r=-0.89)."
+  },
+  {
+    "blind_id": "S08",
+    "study_description": "Tested whether surprise persistence (SP) was a genuine phenomenon or an artifact of discretization choices. Compared SP measurements against discretization parameters.",
+    "beginning_state": "Surprise persistence was observed and treated as a real phenomenon.",
+    "end_state": "SP was shown to be a binary artifact of discretization. The phenomenon was not real.",
+    "raw_data_summary": "SP binary artifact of discretization. Hypothesis falsified."
+  },
+  {
+    "blind_id": "S09",
+    "study_description": "Compared constraint sets against constraint topologies to determine which was more fundamental for understanding system structure.",
+    "beginning_state": "Constraint sets were the primary description of system structure.",
+    "end_state": "Topology was shown to be more fundamental than the specific constraint set. Different constraint sets could share the same topology.",
+    "raw_data_summary": "Constraint set and topology compared. Topology more fundamental."
+  },
+  {
+    "blind_id": "S10",
+    "study_description": "Tested whether the preservation of distinctions was more fundamental than the distinctions themselves. Compared distinction-based and preservation-based descriptions.",
+    "beginning_state": "Distinctions were treated as the fundamental unit of structure.",
+    "end_state": "Preservation of distinctions was shown to be more fundamental than the distinctions themselves.",
+    "raw_data_summary": "Distinctions and preservation compared. Preservation more fundamental."
+  },
+  {
+    "blind_id": "S11",
+    "study_description": "Compared 5 different world-representation pairs to test whether motifs were objective structures or dependent on the representation chosen.",
+    "beginning_state": "Motifs were assumed to be objective structures independent of representation.",
+    "end_state": "Motifs were shown to be world-representation pairs, not objective structures. What counted as a motif depended on both the world and the representation.",
+    "raw_data_summary": "5 representations compared. Motifs are world-representation pairs."
+  },
+  {
+    "blind_id": "S12",
+    "study_description": "Tested whether the causal criterion for explanation failed systematically. Compared causal explanations against other criteria across multiple cases.",
+    "beginning_state": "Causal explanation was assumed to be reliable.",
+    "end_state": "Causal explanation was shown to fail 60% of the time. Other criteria were more reliable in many domains.",
+    "raw_data_summary": "Causal criterion fails 60% of time. Comparison of criteria."
+  },
+  {
+    "blind_id": "S13",
+    "study_description": "Compared 11 different construction ladders to test whether path independence held. Checked whether different orderings of operations led to the same result.",
+    "beginning_state": "Path independence was assumed but not systematically tested across multiple ladders.",
+    "end_state": "Path independence was confirmed across all 11 ladders tested. Different construction orderings converged to the same result.",
+    "raw_data_summary": "11 ladders compared. Path independence confirmed."
+  },
+  {
+    "blind_id": "S14",
+    "study_description": "Compared 4 junction points to determine whether they depended on each other or were independent. Mapped the dependency structure among junctions.",
+    "beginning_state": "Junction points were identified but their dependency structure was unknown.",
+    "end_state": "Junctions were shown to be dependent on each other in a linear chain. No independent junctions existed.",
+    "raw_data_summary": "4 junctions compared. Linear dependency chain confirmed."
+  },
+  {
+    "blind_id": "S15",
+    "study_description": "Compared 20 different audits to test whether the observed progression was a genuine migration of explanations or a methodological artifact of how audits were conducted.",
+    "beginning_state": "The progression across audits was assumed to represent genuine conceptual migration.",
+    "end_state": "Migration was shown to be a methodological artifact. The apparent progression was an artifact of audit ordering, not genuine conceptual change.",
+    "raw_data_summary": "20 audits compared. Migration is methodological artifact."
+  },
+  {
+    "blind_id": "S16",
+    "study_description": "Compared objects and mappings to test whether the observed progression was oscillation rather than linear improvement. Checked for recurring patterns.",
+    "beginning_state": "Progression was assumed to be linear improvement toward a goal.",
+    "end_state": "Progression was shown to be oscillation. The system cycled through recurring patterns rather than converging linearly.",
+    "raw_data_summary": "Objects and mappings compared. Progression is oscillation."
+  },
+  {
+    "blind_id": "S17",
+    "study_description": "Examined how every observed gain in understanding involved interaction between elements. Compared cases with and without interaction to isolate its role.",
+    "beginning_state": "Interaction was one of many possible mechanisms. Its role in producing gains was unclear.",
+    "end_state": "Every observed gain involved interaction. Interaction was identified as the necessary mechanism for explanatory gain.",
+    "raw_data_summary": "2 descriptions compared. Every gain involved interaction."
+  },
+  {
+    "blind_id": "S18",
+    "study_description": "Tested whether a specific configuration of four elements (interaction, persistence, novelty, comparison) was required for persistent novelty. Compared configurations with and without each element.",
+    "beginning_state": "Individual elements (interaction, persistence, novelty, comparison) were studied separately.",
+    "end_state": "The specific I+P+N+C configuration was identified as necessary for persistent novelty. Removing any element broke the configuration.",
+    "raw_data_summary": "4 elements compared. I+P+N+C configuration for persistent novelty."
+  },
+  {
+    "blind_id": "S19",
+    "study_description": "Compared three models of what objects are: objects as things, objects as interactions, and objects as frozen experience. Tested which model best accounted for the data.",
+    "beginning_state": "Objects were modeled as static things with fixed properties.",
+    "end_state": "Objects were reconceived as frozen experience — the accumulated trace of past interactions rather than static entities.",
+    "raw_data_summary": "3 models compared. Objects are frozen experience."
+  },
+  {
+    "blind_id": "S20",
+    "study_description": "Rescored a single description of hierarchical persistence to test whether it held up under re-examination. Checked whether the persistence claim was robust or an artifact of initial scoring.",
+    "beginning_state": "Hierarchical persistence of interaction was claimed based on initial analysis.",
+    "end_state": "The claim was re-scored but did not gain additional support from comparison. The single-description rescore did not produce new explanatory gain.",
+    "raw_data_summary": "1 description re-scored. No gain after comparison."
+  }
+]

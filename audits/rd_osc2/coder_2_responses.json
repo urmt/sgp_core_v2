@@ -1,0 +1,82 @@
+[
+  {
+    "blind_id": "S01",
+    "what_changed": "The system went from having no defined basic operations to having a minimal operator identified as the irreducible starting point, after simpler alternatives were tested and ruled out."
+  },
+  {
+    "blind_id": "S02",
+    "what_changed": "Two concepts that were initially treated as separate were shown to mutually produce each other: one generates the other, which in turn enables the first."
+  },
+  {
+    "blind_id": "S03",
+    "what_changed": "A single network configuration was expanded to multiple conditions, and stability of the core property was confirmed across all of them."
+  },
+  {
+    "blind_id": "S04",
+    "what_changed": "The hypothesis that density caused a particular correlation was tested and falsified; the data showed density was not a causal factor."
+  },
+  {
+    "blind_id": "S05",
+    "what_changed": "The hypothesis that structural importance caused a particular correlation was tested and falsified; the statistical evidence did not support the claim."
+  },
+  {
+    "blind_id": "S06",
+    "what_changed": "A correlation measured by a single method was tested across multiple estimation methods; it proved robust in rank-ordering but sensitive to method on absolute level."
+  },
+  {
+    "blind_id": "S07",
+    "what_changed": "Seven metrics with unknown relationships were compared pairwise; most turned out to be redundant, with one metric shown to be a projection of another."
+  },
+  {
+    "blind_id": "S08",
+    "what_changed": "A phenomenon observed in initial measurements was shown to be a binary artifact of how the data was discretized, not a real effect."
+  },
+  {
+    "blind_id": "S09",
+    "what_changed": "Two ways of describing system structure were compared; the topological description proved more fundamental than the specific set description, as different sets could share the same topology."
+  },
+  {
+    "blind_id": "S10",
+    "what_changed": "Two ways of describing structure were compared; preserving distinctions proved more fundamental than the distinctions themselves."
+  },
+  {
+    "blind_id": "S11",
+    "what_changed": "Patterns assumed to be objective structures were shown to depend on both the world and the representation chosen; different representations yielded different patterns."
+  },
+  {
+    "blind_id": "S12",
+    "what_changed": "Causal explanation was tested against other criteria and shown to fail most of the time; other criteria proved more reliable across many domains."
+  },
+  {
+    "blind_id": "S13",
+    "what_changed": "Path independence, previously assumed, was confirmed across all eleven construction orderings tested; different sequences produced the same result."
+  },
+  {
+    "blind_id": "S14",
+    "what_changed": "Four junction points with unknown relationships were shown to depend on each other in a linear chain; no independent junctions existed."
+  },
+  {
+    "blind_id": "S15",
+    "what_changed": "An apparent progression across audits was shown to be a methodological artifact of audit ordering, not genuine conceptual change."
+  },
+  {
+    "blind_id": "S16",
+    "what_changed": "Progression initially assumed to be linear improvement was shown to be oscillation; the system cycled through recurring patterns instead of converging."
+  },
+  {
+    "blind_id": "S17",
+    "what_changed": "The role of a particular mechanism in producing gains was clarified: every observed gain involved it, making it a necessary condition."
+  },
+  {
+    "blind_id": "S18",
+    "what_changed": "Four elements studied separately were shown to require a specific configuration together; removing any one element broke the configuration."
+  },
+  {
+    "blind_id": "S19",
+    "what_changed": "Objects modeled as static things were reconceived as the accumulated trace of past events rather than fixed entities."
+  },
+  {
+    "blind_id": "S20",
+    "what_changed": "A claim based on initial analysis was rescored under re-examination but did not gain additional support; no new explanatory gain resulted."
+  }
+]

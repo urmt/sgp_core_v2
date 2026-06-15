@@ -1,0 +1,82 @@
+[
+  {
+    "blind_id": "S01",
+    "what_changed": "Started with no defined operations, ended with one minimal operation identified as the simplest possible starting point after ruling out alternatives."
+  },
+  {
+    "blind_id": "S02",
+    "what_changed": "Went from treating two concepts as independent to showing each one produces the other in a loop."
+  },
+  {
+    "blind_id": "S03",
+    "what_changed": "Went from one network setup to confirming that a measured property stayed consistent across multiple different configurations."
+  },
+  {
+    "blind_id": "S04",
+    "what_changed": "Density was tested as a cause of a correlation and shown not to be — the hypothesis was ruled out."
+  },
+  {
+    "blind_id": "S05",
+    "what_changed": "Structural importance was tested as a cause of a correlation and shown not to be — the hypothesis was ruled out."
+  },
+  {
+    "blind_id": "S06",
+    "what_changed": "Went from one measurement method to multiple methods, finding that the rank order of results held up but the absolute values shifted depending on which estimator was used."
+  },
+  {
+    "blind_id": "S07",
+    "what_changed": "Went from seven separate metrics with unknown relationships to showing that most were redundant and one was essentially a mirror of another."
+  },
+  {
+    "blind_id": "S08",
+    "what_changed": "A phenomenon that looked real turned out to be a side effect of how the data was binned — it disappeared when the binning changed."
+  },
+  {
+    "blind_id": "S09",
+    "what_changed": "Went from listing specific constraints as the key description to showing that the overall shape of the constraint pattern mattered more than which constraints were present."
+  },
+  {
+    "blind_id": "S10",
+    "what_changed": "Went from treating distinctions as the basic unit to showing that what matters more is whether distinctions get carried forward."
+  },
+  {
+    "blind_id": "S11",
+    "what_changed": "Went from assuming patterns were objective features of the world to showing they depend on both the world and how you choose to represent it."
+  },
+  {
+    "blind_id": "S12",
+    "what_changed": "A causal approach to explanation was shown to fail most of the time, while other approaches worked better in many cases."
+  },
+  {
+    "blind_id": "S13",
+    "what_changed": "Went from assuming that building order mattered to confirming that all tested orderings produced the same result."
+  },
+  {
+    "blind_id": "S14",
+    "what_changed": "Four junction points went from having an unknown relationship to being shown as a linked chain where each depends on the previous one."
+  },
+  {
+    "blind_id": "S15",
+    "what_changed": "An apparent progression across audits was revealed to be an artifact of the order in which audits were conducted rather than genuine change."
+  },
+  {
+    "blind_id": "S16",
+    "what_changed": "What looked like steady forward movement turned out to be a repeating cycle through the same states."
+  },
+  {
+    "blind_id": "S17",
+    "what_changed": "Went from not knowing whether back-and-forth exchange between elements was necessary to finding that every observed improvement involved it."
+  },
+  {
+    "blind_id": "S18",
+    "what_changed": "Four separate elements were tested in combination, and a specific all-four-present configuration was identified as the only arrangement that sustained novelty over time."
+  },
+  {
+    "blind_id": "S19",
+    "what_changed": "Objects went from being modeled as static things with fixed properties to being modeled as the accumulated residue of past exchanges."
+  },
+  {
+    "blind_id": "S20",
+    "what_changed": "A single claim about layered persistence was re-evaluated and found to have no additional support — the re-check did not strengthen or weaken the original claim."
+  }
+]
