@@ -309,7 +309,7 @@ The provenance audit reveals a **cascade of hardening**:
 
 At each stage, the outputs become inputs to the next stage, and the interpretive character of the original judgments is progressively obscured. By METRIC.4, the overlap percentages and redundancy determinations appear to be findings about the metrics themselves, when they are actually expert estimates built on expert estimates built on expert estimates.
 
-**No numerical claim in this branch is a direct measurement.** Every number is either an expert judgment, a calculation from expert judgments, a literature citation, or a count. The branch contains no data, no experiments, and no empirical observations. This is appropriate for a theoretical survey, but it means every number carries the epistemic status of expert judgment — and the formal presentation risks concealing this.
+**No numerical claim in this branch is a direct measurement — and these audits were not designed to perform them.** Every number is either an expert judgment, a calculation from expert judgments, a literature citation, or a count. A literature survey is expected to contain literature. An orthogonality audit is expected to contain judgments. The important issue is not absence of direct measurement; the important issue is whether the provenance of each claim is tracked honestly. This audit says: yes. But the formal presentation risks concealing the interpretive status of the numbers.
 
 ---
 
