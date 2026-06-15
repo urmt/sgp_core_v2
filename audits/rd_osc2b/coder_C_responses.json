@@ -1,0 +1,102 @@
+[
+  {
+    "blind_id": "S01",
+    "what_changed": "Five criteria produced widely different scores; information form scored highest and predictive form lowest, indicating criteria behave as task-specific tools rather than interchangeable definitions.",
+    "cluster": "Criterion Comparison"
+  },
+  {
+    "blind_id": "S02",
+    "what_changed": "Higher removal fractions increased overshoot and delta_C monotonically, with system collapse emerging only at 50% removal.",
+    "cluster": "Gradual Threshold Collapse"
+  },
+  {
+    "blind_id": "S03",
+    "what_changed": "Shifts between object-level and mapping-level explanation followed a repeating cycle rather than a one-directional hierarchy.",
+    "cluster": "Cyclical Shift Dynamics"
+  },
+  {
+    "blind_id": "S04",
+    "what_changed": "All eight measurement variants produced significant results with high correlation, but the absolute level of the estimate varied while the ranking stayed stable.",
+    "cluster": "Measurement Robustness"
+  },
+  {
+    "blind_id": "S05",
+    "what_changed": "The same underlying system produced different detected features depending on how the data was encoded, with data format exerting more influence than system identity.",
+    "cluster": "Measurement Robustness"
+  },
+  {
+    "blind_id": "S06",
+    "what_changed": "Every single audit showed a shift in interpretation when methodology changed, with zero shifts under a fixed methodology.",
+    "cluster": "Cyclical Shift Dynamics"
+  },
+  {
+    "blind_id": "S07",
+    "what_changed": "Every observed shift was accompanied by element links, and no shift occurred in their absence.",
+    "cluster": "Element Links as Shift Driver"
+  },
+  {
+    "blind_id": "S08",
+    "what_changed": "Audits split sharply into a small number of failures and a large group where lower-order properties were fully retained within higher-order forms.",
+    "cluster": "Retention Hierarchy"
+  },
+  {
+    "blind_id": "S09",
+    "what_changed": "The measured quantity was binary—always one of two values—and only changed when a specific estimator parameter (bin count) was altered.",
+    "cluster": "Binary Discrete Property"
+  },
+  {
+    "blind_id": "S10",
+    "what_changed": "Four transition points could not exist independently; removing an earlier one prevented or weakened later ones, forming a sequential dependency chain.",
+    "cluster": "Ordered Dependency Chain"
+  },
+  {
+    "blind_id": "S11",
+    "what_changed": "Three models of what objects are scored differently, with the element-link model scoring highest and the experience model explaining the most phenomena.",
+    "cluster": "Criterion Comparison"
+  },
+  {
+    "blind_id": "S12",
+    "what_changed": "Four criteria succeeded on every test system while the causal criterion failed 60% of the time, breaking under random dependencies.",
+    "cluster": "Criterion Comparison"
+  },
+  {
+    "blind_id": "S13",
+    "what_changed": "Difference detection emerged in about half of generated systems, and ablation showed it depended critically on nonlinearity, feedback, and memory.",
+    "cluster": "Ablation of Conditions"
+  },
+  {
+    "blind_id": "S14",
+    "what_changed": "Eleven different construction paths all produced the same four transition points, confirming the points are reachable from any starting vocabulary.",
+    "cluster": "Ordered Dependency Chain"
+  },
+  {
+    "blind_id": "S15",
+    "what_changed": "All seven component combinations showed steady behavior across recursion depths, with layering preserved in every condition.",
+    "cluster": "Gradual Threshold Collapse"
+  },
+  {
+    "blind_id": "S16",
+    "what_changed": "Shift occurred in 100% of audits where actual element links and consistency were present, but adding newness or retention to the combination did not change the outcome.",
+    "cluster": "Element Links as Shift Driver"
+  },
+  {
+    "blind_id": "S17",
+    "what_changed": "The same basic forces operated across all transitions, but the element graph grew in nodes and edges with each step, enabling new capabilities.",
+    "cluster": "Element Graph Growth"
+  },
+  {
+    "blind_id": "S18",
+    "what_changed": "At every transition, a vast pool of differences was available but only a tiny subset was retained, with the retention mechanism being what determined the capability that emerged.",
+    "cluster": "Retention Hierarchy"
+  },
+  {
+    "blind_id": "S19",
+    "what_changed": "Among 1200 rule systems, only 18 met all criteria, with the best composite score reaching 0.73 and specific properties appearing at different recursion depths.",
+    "cluster": "Ablation of Conditions"
+  },
+  {
+    "blind_id": "S20",
+    "what_changed": "Changing density effectively altered structural measurements but had no significant effect on the primary variable of interest.",
+    "cluster": "Binary Discrete Property"
+  }
+]

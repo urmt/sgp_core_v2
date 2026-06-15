@@ -1,0 +1,102 @@
+[
+  {
+    "blind_id": "S01",
+    "what_changed": "Five tested criteria turned out to be task-specific tools scoring different aspects, not competing definitions of the same thing: information and causal criteria scored high, predictive scored low.",
+    "cluster": "Necessity/dependency"
+  },
+  {
+    "blind_id": "S02",
+    "what_changed": "Increasing removal fraction caused delta_C to increase in the wrong direction and overshoot to rise monotonically, with system collapse appearing only at 50% removal.",
+    "cluster": "Stress/failure/comparison"
+  },
+  {
+    "blind_id": "S03",
+    "what_changed": "Explanatory shifts followed a cyclical pattern (object-to-mapping and back) rather than a hierarchical progression.",
+    "cluster": "Construction"
+  },
+  {
+    "blind_id": "S04",
+    "what_changed": "All eight measurement variants produced significant predictive results, but the ranking was robust while absolute levels varied depending on estimator parameters.",
+    "cluster": "Measurement-dependent"
+  },
+  {
+    "blind_id": "S05",
+    "what_changed": "The same underlying data encoded in different formats produced substantially different detected features, with data format exerting more influence than the world being measured.",
+    "cluster": "Measurement-dependent"
+  },
+  {
+    "blind_id": "S06",
+    "what_changed": "Every single one of 20 audits showed interpretation shift, while a fixed-methodology null model showed zero shift, indicating methodology changes drive the phenomenon.",
+    "cluster": "Universal"
+  },
+  {
+    "blind_id": "S07",
+    "what_changed": "Every shift in the archive involved element links with zero counterexamples, establishing element links as a necessary condition for explanatory change.",
+    "cluster": "Necessity/dependency"
+  },
+  {
+    "blind_id": "S08",
+    "what_changed": "Twenty of 26 audits showed high retention (level 3) while only 5 failed, and retention emerged as the dividing line between successful and unsuccessful audits.",
+    "cluster": "Necessity/dependency"
+  },
+  {
+    "blind_id": "S09",
+    "what_changed": "The measured quantity SP turned out to be binary (1.0 or 2.0) rather than continuous, and its value depended on the bin count parameter chosen.",
+    "cluster": "Measurement-dependent"
+  },
+  {
+    "blind_id": "S10",
+    "what_changed": "Four tested transition points turned out to form a strict dependency chain rather than operating independently, with each depending on the preceding one.",
+    "cluster": "Necessity/dependency"
+  },
+  {
+    "blind_id": "S11",
+    "what_changed": "Three competing models were scored against 26 audits: one scored highest raw but another explained retention and self-emergence with fewer assumptions.",
+    "cluster": "Stress/failure/comparison"
+  },
+  {
+    "blind_id": "S12",
+    "what_changed": "The causal criterion failed in 6 out of 10 systems while all other tested criteria passed in every system, showing it is not universal under randomized conditions.",
+    "cluster": "Stress/failure/comparison"
+  },
+  {
+    "blind_id": "S13",
+    "what_changed": "Difference detection emerged in 57% of 5000 systems, and ablation revealed nonlinearity, memory, and feedback as critical ingredients while their removal nearly eliminated emergence.",
+    "cluster": "Necessity/dependency"
+  },
+  {
+    "blind_id": "S14",
+    "what_changed": "All four transition points appeared in all eleven alternative construction sequences regardless of starting vocabulary or direction, confirming path independence.",
+    "cluster": "Universal"
+  },
+  {
+    "blind_id": "S15",
+    "what_changed": "All seven tested sectors with different component combinations were classified as steady or bounded, with layering preserved across every condition.",
+    "cluster": "Universal"
+  },
+  {
+    "blind_id": "S16",
+    "what_changed": "Actual element links plus consistency predicted shift at 100% rate, while adding retention and novelty did not improve prediction, establishing a minimal sufficient combination.",
+    "cluster": "Necessity/dependency"
+  },
+  {
+    "blind_id": "S17",
+    "what_changed": "The same basic forces held constant across seven transitions while the element graph grew in node and edge count, with graph changes explaining capability emergence.",
+    "cluster": "Construction"
+  },
+  {
+    "blind_id": "S18",
+    "what_changed": "Across seven transitions, enormous difference space was available but only a tiny discrete subset was retained at each step, with retention mechanisms dominating over creation.",
+    "cluster": "Construction"
+  },
+  {
+    "blind_id": "S19",
+    "what_changed": "Of 1200 generated systems, only 18 (1.5%) met all five tested criteria simultaneously, indicating the conjunction of properties is rare under minimal rule sets.",
+    "cluster": "Construction"
+  },
+  {
+    "blind_id": "S20",
+    "what_changed": "Density manipulation effectively changed structural quantities (nearest-neighbor distance, contact count, coordination) but had no significant effect on the target measure pre_C.",
+    "cluster": "Measurement-dependent"
+  }
+]

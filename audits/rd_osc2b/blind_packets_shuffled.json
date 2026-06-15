@@ -1,0 +1,142 @@
+[
+  {
+    "blind_id": "S01",
+    "initial_measurements": "5 criteria tested: predictive, intervention, counterfactual, information, causal. For each: purpose, form score, correlation scores.",
+    "final_measurements": "Information form: 0.991 (compression). Causal form: 0.918 (causal reasoning). Intervention form: 0.487. Counterfactual form: 0.331. Predictive form: 0.140. Predictive-causal correlation: 0.910. Intervention-information correlation: 0.817.",
+    "what_was_compared": "5 criteria scored by purpose. Tested whether criteria were competing definitions or task-specific tools.",
+    "data_summary": "N=5 criteria x 10 worlds. Form scores: info=0.991, causal=0.918, intervention=0.487, counterfactual=0.331, predictive=0.140. Criteria are task-specific tools, not competing definitions."
+  },
+  {
+    "blind_id": "S02",
+    "initial_measurements": "6 removal fractions (0%,5%,10%,20%,30%,50%) x 10 replicates = 60 runs. Measured: C_pre, C_min, delta_C, tau_rec, C_final/C_pre, overshoot, collapses.",
+    "final_measurements": "delta_C by removal: 0%=-0.001, 5%=-0.001, 10%=-0.003, 20%=+0.039, 30%=+0.045, 50%=+0.089. Overshoot by removal: 0%=0.234, 5%=0.286, 10%=0.365, 20%=0.354, 30%=0.355, 50%=0.481. Collapses: 2/10 at 50% removal only.",
+    "what_was_compared": "6 removal fractions tested. delta_C and overshoot measured at each fraction.",
+    "data_summary": "N=60. delta_C increases with removal (wrong direction). Overshoot increases monotonically. tau_rec constant ~5-15 steps. Threshold collapse at 50%."
+  },
+  {
+    "blind_id": "S03",
+    "initial_measurements": "20 shifts tracked across sequence. For each: what was explained, what became explanatory, fixed variable exposed, mapping replaced.",
+    "final_measurements": "Trend: object->mapping->object->mapping (cycle). 14 shifts tracked. Most common category: object->mapping (4 times). All fixed variables were methodological or definitional choices.",
+    "what_was_compared": "Complete dependency graph of all shifts. Tested whether sequence was hierarchical or cyclical.",
+    "data_summary": "N=14 shifts. Cyclical trend confirmed. Not hierarchical. 10 unique category shifts. All mappings relate two accounts."
+  },
+  {
+    "blind_id": "S04",
+    "initial_measurements": "60 runs x 8 measurement variants = 480 data points. Variants span: window size (37,75,150), bin count (5,10,20), bin edge alignment, bootstrap resampling, leave-one-out.",
+    "final_measurements": "All 8 variants predict restoration (p<0.05). R-squared range: 0.096-0.439. Mean off-diagonal Pearson r = 0.950. PC1 captures 95.5% of variance. Estimator variance share: 49.3%. Friction variance share: 40.3%.",
+    "what_was_compared": "8 measurement variants of the same signal. Tested whether the predictive correlation held across all variants.",
+    "data_summary": "N=480 (60x8). All 8 variants significant. PC1=95.5%. Estimator eta-squared=0.493. Ranking robust, level not robust (mean range: 0.37-0.59)."
+  },
+  {
+    "blind_id": "S05",
+    "initial_measurements": "1 world, 5 data formats (graph, time series, state-transition, correlation, phase-space). 6 detected features tested per data format: network, binding, template, recursion, cycle, layering.",
+    "final_measurements": "Detected feature presence varies by data format: network 2/5, binding 3/5, template 1/5, recursion 3/5, cycle 2/5, layering 2/5. CV: network=1.297, binding=1.013, template=0.503, recursion=0.474, cycle=0.450, layering=0.438. Network value range: 16.47x. Binding value range: 1.82x.",
+    "what_was_compared": "Same world encoded 5 different ways. Same detectors applied to each data format.",
+    "data_summary": "N=10 worlds x 5 data formats. Detected feature presence: network 2/5, binding 3/5, template 1/5. Data format CV range: 0.438-1.297. Data format matters more than world for most detected features."
+  },
+  {
+    "blind_id": "S06",
+    "initial_measurements": "20 audits tracked. For each: initial interpretation, later interpretation, whether shift occurred.",
+    "final_measurements": "Shift rate: 20/20 (100%). Null model (fixed methodology): no shift. Shift appears when methodology changes. Shift graph: 20 shifts, 18 destinations, 8 cycles. Most common shift: objects->relations (3 times).",
+    "what_was_compared": "20 sequential audits. Tracked whether interpretations changed between audits.",
+    "data_summary": "N=20 audits. Shift rate=100%. Null model rate=0%. Shift correlated with methodology changes. 19 unique destination categories."
+  },
+  {
+    "blind_id": "S07",
+    "initial_measurements": "56 entities, 66 element links mapped. 18 distinct link types. 25 high-shift element links identified.",
+    "final_measurements": "Every audit had element links AND explanatory shift. No audit produced shift from isolated account. Metric-metric link: C is Sector-A of MSE. Data format-data format: detected features are world-data format pairs. Criterion-criterion: criteria disagree. Breakdown-breakdown: isomorphism class identified.",
+    "what_was_compared": "Entire sequence re-read through element link lens. Tested whether every shift involved element links.",
+    "data_summary": "N=56 entities, 66 edges. 18 edge types. 25 high-shift element links. Zero counterexamples: no shift without element links."
+  },
+  {
+    "blind_id": "S08",
+    "initial_measurements": "26 audits re-examined. For each: retention level classified (0-3). Level 0: element links occurred, nothing retained. Level 1: some steadiness. Level 2: mechanism identified. Level 3: higher-order form retains lower-order.",
+    "final_measurements": "Level 0: 3 audits. Level 1: 2 audits. Level 2: 1 audit. Level 3: 20 audits. Dividing line: retention vs non-retention. Formula: form retains when element links generate conditions that preserve continued existence.",
+    "what_was_compared": "26 audits classified by retention level. Tested whether retention was the dividing line between success and failure.",
+    "data_summary": "N=26 audits. Level 0-1 (failures): 5. Level 3 (successes): 20. Strongest survivor: hierarchical retention of element links."
+  },
+  {
+    "blind_id": "S09",
+    "initial_measurements": "72 granular runs (20 grains, 500 steps, 12 friction levels x 6 reps). SP measured with default parameters. Also tested: k=2,3,5; pct=80,85,90,95; warmup=20,30,40,50; bins=3,5,10.",
+    "final_measurements": "SP=1.0 for ALL 72 runs. Zero variation. With k=2: SP varies 1-4. With k=3,5: SP=1.0 always. bins=3: SP in {0,2}. bins=5: SP in {0,2,7,16}. bins=10: SP in {0,1,2,4,5,7,8,14,16,21,23,24}. Cross-domain: SP=1.0 for coupled_markov, modular, hierarchical, sandpile, independent_noise. Forest: SP in {1.0,2.0}.",
+    "what_was_compared": "SP measured across estimator parameters (k, threshold, warmup, bins) and across 6 different system types.",
+    "data_summary": "N=72+cross-domain. SP is binary (1.0 or 2.0). Not continuous. Varies with bin count (bins=3: {0,2}, bins=5: {0,2,7,16}, bins=10: 12 values). Uniform across systems."
+  },
+  {
+    "blind_id": "S10",
+    "initial_measurements": "4 transition points tested for dependency: difference, limitation, retention, recursion. 7 removal tests performed.",
+    "final_measurements": "Dependency graph: chain. Difference without others: possible but inadequate. Limitation without difference: depends. Retention without difference: depends. Retention without limitation: partially possible. Recursion without difference: depends. Recursion without limitation: depends. Recursion without retention: depends.",
+    "what_was_compared": "4 transition points tested in isolation and in combination. Tested whether they were independent.",
+    "data_summary": "N=7 removal tests. Dependency chain: difference -> limitation -> retention -> recursion. Not independent. Compression: 4 transition points -> 1 chain."
+  },
+  {
+    "blind_id": "S11",
+    "initial_measurements": "3 models tested: A (object-centric), B (element-link-centric), C (experience-centric). Scored on 26 audits. Special assumptions counted.",
+    "final_measurements": "Model A: total=15, avg=0.58 (4 assumptions). Model B: total=78, avg=3.00 (3 assumptions). Model C: total=70, avg=2.69 (3 assumptions). Retention trend: 26 audits with, 4 without. Self-emergence: 1 audit.",
+    "what_was_compared": "3 models of what objects are. Tested which explained the archive with fewest assumptions.",
+    "data_summary": "N=26 audits. Model B highest raw score (78). Model C explains retention and self-emergence. Objects as frozen experience: accumulated trace of past element links."
+  },
+  {
+    "blind_id": "S12",
+    "initial_measurements": "5 criteria tested: predictive, intervention, counterfactual, information, causal. Each tested on 10 systems. Success/failure counted.",
+    "final_measurements": "Predictive: 10/10 successes, 0 failures. Intervention: 10/10, 0. Counterfactual: 10/10, 0. Information: 10/10, 0. Causal: 4/10 successes, 6 failures. Failure rate: causal=60%, all others=0%.",
+    "what_was_compared": "5 criteria tested under the same conditions. Tested whether causal criterion was universal.",
+    "data_summary": "N=50 (5 criteria x 10 systems). Causal failure rate=60%. Other criteria: 0% failure. Causal fails when dependencies are random. Invariant under time reversal, broken by randomness."
+  },
+  {
+    "blind_id": "S13",
+    "initial_measurements": "5000 systems generated across 6 operator classes. 4 properties measured per system: behavioral retention, separability, reproducibility, steadiness. Baseline rate for each property.",
+    "final_measurements": "Difference detection emerged in 2847/5000 (56.9%). Linkedness emerged in 1203/5000 (24.1%). Proto-math in 312/5000 (6.2%). Proto-spacing in 891/5000 (17.8%). Ablation: baseline=0.569, no_nonlinearity=0.012, no_feedback=0.234, no_memory=0.000, high_noise=0.089, low_noise=0.521.",
+    "what_was_compared": "Six operator classes: recursive transform, self-application, operator composition, nonlinear continuous, recursive rewrite, stochastic recursive. Each tested for whether behavioral regions emerged.",
+    "data_summary": "N=5000. Difference detection rate=56.9%. Ablation survival ratios: nonlinearity=0.021, feedback=0.411, memory=0.000, high_noise=0.156, low_noise=0.916."
+  },
+  {
+    "blind_id": "S14",
+    "initial_measurements": "11 alternative construction sequences (5 bottom-up, 6 top-down). Each uses different conceptual vocabulary. 4 transition points tracked: recursion, limitation, retention, difference.",
+    "final_measurements": "All 4 transition points appear in all 11 sequences: recursion 11/11 (100%), limitation 11/11 (100%), retention 11/11 (100%), difference 11/11 (100%).",
+    "what_was_compared": "11 different paths to the same transition points. Tested whether path independence held.",
+    "data_summary": "N=11 sequences x 4 transition points. All transition points present in all sequences. Path independence confirmed. Three convergence risks: genuine, vocabulary, compression."
+  },
+  {
+    "blind_id": "S15",
+    "initial_measurements": "7 sectors tested. Metrics computed: element unification, collision reproducibility, identity retention post-collision, recursive exchange steadiness, bounded element drift, element improvement, rg similarity.",
+    "final_measurements": "All sectors classified as STEADY or BOUNDED. P-A-N sector: EU=0.9278, CR=0.9104, IRPC=0.9004 (depth 8388608: 0.7389, depth 16777216: 0.6009). All 5 hypotheses passed.",
+    "what_was_compared": "7 sectors with different component combinations: Sector-A, Antisymmetry, Neutral, P-A, P-N, A-N, P-A-N. Each tested for steadiness across recursion depths.",
+    "data_summary": "EU range: 0.8616-0.9278. CR range: 0.8523-0.9104. IRPC range: 0.8424-0.9004. All sectors steady. Layering preserved across all conditions."
+  },
+  {
+    "blind_id": "S16",
+    "initial_measurements": "25 audits categorized by 4 components: element links (I), retention (P), newness (N), consistency (C). Shift measured for each combination.",
+    "final_measurements": "I+C combination: 6 audits, 6 shifts (100%). I+P+N+C: 14 audits, 14 shifts (100%). I+N+C: 2 audits, 2 shifts (100%). I+P+N: 2 audits, 2 shifts (100%). Abandoned experiment (I+P+N+C possible but not actual): 0 shifts.",
+    "what_was_compared": "Different combinations of 4 components. Tested which combinations predicted shift.",
+    "data_summary": "N=25 audits. I+C: 100% shift. I+P+N+C: 100% shift. P+N does not add predictive power. Key: actual element links required, not possible element links."
+  },
+  {
+    "blind_id": "S17",
+    "initial_measurements": "7 transitions analyzed. For each: basic forces, element graph (node count, edge count, modularity, recursion, layering, looping), recombination index.",
+    "final_measurements": "Basic forces identical across all transitions (EM+QM+conservation). Node count: 2->N->N+2->N+4->N+8->N+12->N+16. Edge count: 1->M->M+3->M+5->M+12->M+18->M+28. Recombination index: LOW->MEDIUM->HIGH->HIGH->HIGH->VERY HIGH->EXTREMELY HIGH.",
+    "what_was_compared": "Same basic forces across 7 transitions. Tested whether element graph changes explained capability emergence.",
+    "data_summary": "7 transitions. Basic forces constant. Element graph changes: node count +1 to +4, edge count +1 to +10 per transition. New features per transition: binding, network, cycle, boundary, coordination, recursion, formal system."
+  },
+  {
+    "blind_id": "S18",
+    "initial_measurements": "7 transitions analyzed. For each: difference space available, differences preserved, retention mechanism, capability emerged.",
+    "final_measurements": "At every transition: enormous difference space available, tiny subset preserved. Retention mechanisms: bound state quantization, bonding graph, template copying, membrane+metabolism, coordination layering, recursive data format, formal inference. Capability emerges from retained differences.",
+    "what_was_compared": "Difference creation vs difference retention across 7 transitions. Tested which was more fundamental.",
+    "data_summary": "7 transitions. All show selection+retention, not creation. Difference space: continuous/infinite. Retained subset: discrete/finite. Retention dominates creation."
+  },
+  {
+    "blind_id": "S19",
+    "initial_measurements": "1200 systems generated. 7 properties measured: difference detection, retention, combination, looping, counting, spacing, sizing. Initial mean composite score across all systems.",
+    "final_measurements": "Best system: composite score = 0.7267, difference detection = 0.80, retention = 0.60, combination = 0.65, counting = 0.75, spacing = 0.42, sizing = 0.30. Systems meeting all 5 criteria: 18/1200 (1.5%).",
+    "what_was_compared": "Two types of rule systems: unary operators only vs binary operators. Tested whether simpler rule sets could produce all 7 properties.",
+    "data_summary": "N=1200. Best composite score=0.7267. 18 systems met all criteria. Minimal rule set: 8 symbols. First retention at depth 12, first counting at depth 8, first spacing at depth 15."
+  },
+  {
+    "blind_id": "S20",
+    "initial_measurements": "60 simulations: 6 density levels (30,35,40,45,50,55) x 10 replicates. Measured: pre_C, dip, restoration, tau_rec, plus 6 measured quantities. Density hypothesized to cause pre_C.",
+    "final_measurements": "pre_C vs density: R-squared=0.055, p=0.070 (not significant). Measured quantities vs density: NN distance R-squared=0.94, contact count R-squared=0.92, coordination R-squared=0.92, component count R-squared=0.91. For dip: Model A (density only) R-squared=0.011, density p=0.43.",
+    "what_was_compared": "Density manipulation at 6 levels. Tested whether changing density affected pre_C versus measured quantities.",
+    "data_summary": "N=60. pre_C R-squared(density)=0.055. Measured quantities R-squared(density) range: 0.52-0.94. Density manipulation effective on structure, not on pre_C."
+  }
+]

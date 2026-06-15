@@ -1,0 +1,102 @@
+[
+  {
+    "blind_id": "S01",
+    "what_changed": "A ranking of criteria by form score emerged, with information (0.991) and causal (0.918) scoring highest and predictive (0.140) scoring lowest.",
+    "cluster": "Criterion universality"
+  },
+  {
+    "blind_id": "S02",
+    "what_changed": "Increasing removal fraction caused delta_C and overshoot to increase monotonically, with system collapse appearing at the 50% threshold.",
+    "cluster": "Removal sensitivity and thresholds"
+  },
+  {
+    "blind_id": "S03",
+    "what_changed": "A repeating cycle of object-to-mapping-to-object shifts emerged across the sequence, confirming cyclical rather than hierarchical progression.",
+    "cluster": "Interpretive shift dynamics"
+  },
+  {
+    "blind_id": "S04",
+    "what_changed": "All 8 measurement variants predicted the same outcome significantly (p<0.05), with PC1 capturing 95.5% of variance, confirming robustness across methods.",
+    "cluster": "Measurement robustness"
+  },
+  {
+    "blind_id": "S05",
+    "what_changed": "Detected feature presence varied greatly by data format (CV up to 1.297), showing the encoding choice affects what features are found more than the underlying system.",
+    "cluster": "Representation dependence"
+  },
+  {
+    "blind_id": "S06",
+    "what_changed": "Every audit shifted interpretation (100% shift rate), but a fixed-methodology null model produced zero shifts, tying shifts directly to methodology changes.",
+    "cluster": "Interpretive shift dynamics"
+  },
+  {
+    "blind_id": "S07",
+    "what_changed": "Every single interpretive shift was accompanied by element links; no shift occurred in their absence, establishing them as a necessary condition.",
+    "cluster": "Necessary conditions for shift"
+  },
+  {
+    "blind_id": "S08",
+    "what_changed": "Most audits (20/26) reached level 3 retention where higher-order forms preserve lower-order ones; the five failures lacked this retention.",
+    "cluster": "Necessary conditions for shift"
+  },
+  {
+    "blind_id": "S09",
+    "what_changed": "SP was binary (1.0 or 2.0), not continuous, and remained uniform across different system types while varying only with estimator bin count.",
+    "cluster": "Measurement robustness"
+  },
+  {
+    "blind_id": "S10",
+    "what_changed": "The four transition points formed a strict linear dependency chain: difference -> limitation -> retention -> recursion, each requiring the prior ones.",
+    "cluster": "Dependency chain structure"
+  },
+  {
+    "blind_id": "S11",
+    "what_changed": "Model B (element-link-centric) scored highest overall (78 total), but Model C (experience-centric) uniquely explained retention and self-emergence.",
+    "cluster": "Model comparison"
+  },
+  {
+    "blind_id": "S12",
+    "what_changed": "The causal criterion failed in 6 of 10 systems (60% failure rate), while all other criteria succeeded universally, showing causality is not context-free.",
+    "cluster": "Criterion universality"
+  },
+  {
+    "blind_id": "S13",
+    "what_changed": "Difference detection emerged in 56.9% of systems; ablation showed nonlinearity and memory were essential for emergence (survival ratios 0.021 and 0.000).",
+    "cluster": "Emergence from operators"
+  },
+  {
+    "blind_id": "S14",
+    "what_changed": "All 4 transition points appeared in all 11 construction sequences (100% each), confirming path independence of the transition structure.",
+    "cluster": "Measurement robustness"
+  },
+  {
+    "blind_id": "S15",
+    "what_changed": "All 7 sector combinations were classified steady or bounded, with metrics (EU, CR, IRPC) remaining high even at extreme recursion depths.",
+    "cluster": "Measurement robustness"
+  },
+  {
+    "blind_id": "S16",
+    "what_changed": "Shifts occurred in 100% of audits containing both actual element links and consistency; removing either component eliminated predictive power.",
+    "cluster": "Necessary conditions for shift"
+  },
+  {
+    "blind_id": "S17",
+    "what_changed": "Basic forces stayed constant across all 7 transitions while the element graph grew monotonically (node count +1 to +4, edge count +1 to +10 per step).",
+    "cluster": "Dependency chain structure"
+  },
+  {
+    "blind_id": "S18",
+    "what_changed": "At every transition, enormous difference space was available but only a tiny discrete subset was retained; selection and retention, not creation, drove capability emergence.",
+    "cluster": "Selection and retention"
+  },
+  {
+    "blind_id": "S19",
+    "what_changed": "Only 18 of 1200 systems (1.5%) met all criteria; the best composite score was 0.7267 with 8 symbols, showing minimal rule sets can generate all properties.",
+    "cluster": "Emergence from operators"
+  },
+  {
+    "blind_id": "S20",
+    "what_changed": "Density manipulation strongly predicted structural properties (NN distance R²=0.94) but did not significantly predict pre_C (R²=0.055, p=0.070).",
+    "cluster": "Representation dependence"
+  }
+]
