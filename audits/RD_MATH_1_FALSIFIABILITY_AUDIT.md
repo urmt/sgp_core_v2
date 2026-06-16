@@ -122,9 +122,9 @@ The following audit records falsification conditions for candidate equations. No
 
 **All candidate equations face the same fundamental problem:**
 
-> **Ψ is not independently measurable.**
+> **No measurement protocol for Ψ has yet been established within the project.**
 
-Without an independent Ψ measurement, no equation can be falsified. The equations are:
+Without a Ψ measurement protocol, no equation can be falsified. The equations are:
 
 1. **Untestable** in their current form
 2. **Requires** an operational definition of Ψ
@@ -132,7 +132,7 @@ Without an independent Ψ measurement, no equation can be falsified. The equatio
 
 **This is the real bottleneck.** The problem is not which equation is correct. The problem is:
 
-> **Ψ cannot be measured.**
+> **No measurement protocol for Ψ has yet been established.**
 
 ---
 

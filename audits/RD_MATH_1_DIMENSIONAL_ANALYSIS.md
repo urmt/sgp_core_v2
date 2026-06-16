@@ -127,7 +127,7 @@ The following analysis treats the compass equation as a formal object, not as a 
 
 **The dimensional analysis reveals a fundamental problem:**
 
-> **F and I have units (bits), while C is dimensionless.**
+> **Certain candidate metrics for F and I are naturally expressed in bits, while C is dimensionless. The variables themselves currently have no established units.**
 
 This means:
 

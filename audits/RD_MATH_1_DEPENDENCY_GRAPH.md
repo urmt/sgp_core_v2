@@ -92,7 +92,7 @@ C (coherence)
 
 ## Key Insight
 
-**All four variables require observer assumptions.** None can be measured in a completely observer-independent way.
+**All four variables currently require observer assumptions.** None can be measured in a completely observer-independent way with current operationalizations.
 
 This is not a failure. It is a structural feature:
 
