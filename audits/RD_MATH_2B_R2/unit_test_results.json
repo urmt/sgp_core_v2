@@ -1,0 +1,38 @@
+{
+  "TE_tests": [
+    {
+      "name": "A: X independent of Y",
+      "TE": 0.0,
+      "expected": 0
+    },
+    {
+      "name": "B: Y(t+1) = X(t)",
+      "TE": 0.0,
+      "expected": "positive"
+    },
+    {
+      "name": "C: Y(t+1) = random",
+      "TE": 0.0,
+      "expected": 0
+    }
+  ],
+  "Empowerment_tests": [
+    {
+      "name": "A: 1 action \u2192 1 outcome",
+      "value": 3.6978489394942997,
+      "expected": "low"
+    },
+    {
+      "name": "B: 4 actions \u2192 4 outcomes",
+      "value": 7.483469859549345,
+      "expected": "high"
+    },
+    {
+      "name": "C: many actions \u2192 same outcome",
+      "value": 7.483469859549345,
+      "expected": "low"
+    }
+  ],
+  "te_passed": false,
+  "emp_ordering_passed": false
+}
