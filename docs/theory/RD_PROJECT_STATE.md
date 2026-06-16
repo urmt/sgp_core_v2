@@ -7,7 +7,7 @@
 
 ## Current Phase
 
-Substance Agreement Measured — strongest result in archive.
+Representation Robustness Confirmed — result survives 4 embedding methods.
 
 ---
 
@@ -22,17 +22,18 @@ Substance Agreement Measured — strongest result in archive.
 | P4A | RD-OSC.2A | **COMPLETE** — artifact audit |
 | P4B | RD-OSC.2B | **COMPLETE** — re-blind audit |
 | P4C | RD-OSC.2C | **COMPLETE** — substance agreement audit |
+| P4D | RD-OSC.2D | **COMPLETE** — representation robustness |
 | P5 | External observers | Next (P5) |
 
 ---
 
 ## Current Strongest Observations
 
-1. **Substance agreement is real (p < 0.001, Cohen's d = 3.55)**
-2. **Label agreement is zero (0%)**
-3. Within-study similarity is 25× greater than between-study similarity
-4. Descriptions converge before ontologies converge (HYPOTHESIS)
-5. Observers may agree on observations while disagreeing on explanation (HYPOTHESIS)
+1. **Within-study semantic similarity > between-study (all methods, p < 0.001)**
+2. **Effect sizes enormous (Cohen's d > 2.9 for all methods)**
+3. **Result survives representation change (4 methods)**
+4. Label agreement is zero (0%)
+5. Descriptions converge before ontologies converge (HYPOTHESIS)
 
 ---
 
