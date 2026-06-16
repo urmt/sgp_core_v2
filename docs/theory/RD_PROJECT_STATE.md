@@ -7,7 +7,7 @@
 
 ## Current Phase
 
-Re-Blind Audit Complete — oscillation not found in shuffled sequence.
+Substance Agreement Measured — strongest result in archive.
 
 ---
 
@@ -21,17 +21,18 @@ Re-Blind Audit Complete — oscillation not found in shuffled sequence.
 | P4 | RD-OSC.2 | **PROVISIONAL** — claims unsupported |
 | P4A | RD-OSC.2A | **COMPLETE** — artifact audit |
 | P4B | RD-OSC.2B | **COMPLETE** — re-blind audit |
+| P4C | RD-OSC.2C | **COMPLETE** — substance agreement audit |
 | P5 | External observers | Next (P5) |
 
 ---
 
 ## Current Strongest Observations
 
-1. Substance agreement is real (100%): coders describe same findings when blinded
-2. Label agreement is zero (0%): coders use different categories
-3. Oscillation in shuffled sequence: not found
-4. "100% inter-coder agreement" was analyst self-agreement, not coder agreement
-5. The original oscillation was an artifact of chronological ordering
+1. **Substance agreement is real (p < 0.001, Cohen's d = 3.55)**
+2. **Label agreement is zero (0%)**
+3. Within-study similarity is 25× greater than between-study similarity
+4. Descriptions converge before ontologies converge (HYPOTHESIS)
+5. Observers may agree on observations while disagreeing on explanation (HYPOTHESIS)
 
 ---
 
