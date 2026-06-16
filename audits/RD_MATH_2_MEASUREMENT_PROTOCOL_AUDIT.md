@@ -430,6 +430,8 @@ Step 4: Combine into composite I score
 
 ## Variable 4: Ψ — Experience
 
+**Critical note:** The four candidates below are **candidate correlates of Ψ**, NOT measurements of Ψ itself. They measure integration, coordination, predictability, and reconstruction. These may correlate with Ψ. They are not Ψ itself.
+
 ### 4.1 System
 
 **Primary system:** Same granular bed simulation.
@@ -601,6 +603,45 @@ Step 4: If no candidate satisfies all four criteria, Ψ is not operationalizable
 4. All candidates are unstable across replicates (CV > 0.5)
 
 **Honest conclusion if evidence is against:** Ψ is not operationalizable in the granular system with current methods. This does not mean Ψ does not exist; it means third-person measurement cannot capture it in this domain. The protocol should report this as a finding, not a failure.
+
+---
+
+## Minimal Case: Two Interacting Particles
+
+**System:** Two particles in a box, interacting via soft-sphere potential.
+
+**Observable:** Interaction event — energy exchange, state change, mutual influence.
+
+**Why this matters:** The project defines "anything capable of interaction is an observer at the instant of interaction." This establishes the lower bound of the compass.
+
+**Measured quantities:**
+- Energy exchange: ΔE = |E_before - E_after|
+- State change: Δx = |x_before - x_after|
+- Mutual influence: correlation between particle trajectories
+
+**Not because this proves Ψ.** But because it establishes the minimum system where the compass variables (C, F, I) can be defined.
+
+---
+
+## Layered Measurement Structure
+
+**Critical:** Measurement is layered. Do not collapse layers.
+
+| Layer | What is measured | Example |
+|-------|-----------------|---------|
+| **Layer 0: Physical state** | Positions, velocities, energies | x(t), v(t), E(t) |
+| **Layer 1: Interaction** | Energy exchange, state change, mutual influence | ΔE, Δx, correlation |
+| **Layer 2: Persistent interaction** | Repeated interaction patterns, memory, structure | TE, transfer entropy, structure persistence |
+| **Layer 3: Reflective modeling** | System models itself, predicts its own future | SMC, self-model compression |
+
+**The project has repeatedly discovered that explanatory work migrates between layers.** Do not collapse them.
+
+**Current risk:** RD-MATH.2 may conflate:
+- Measurement of system (Layer 0)
+- Measurement of interaction (Layer 1)
+- Measurement of experience (Layer 3)
+
+These should remain separate.
 
 ---
 
