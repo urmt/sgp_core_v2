@@ -7,7 +7,7 @@
 
 ## Current Phase
 
-Compass Operationalization Audit — Ψ measurement is the bottleneck.
+Measurement Protocol Audit — protocols designed for C, F, I, Ψ.
 
 ---
 
@@ -24,17 +24,18 @@ Compass Operationalization Audit — Ψ measurement is the bottleneck.
 | P4C | RD-OSC.2C | **COMPLETE** — substance agreement audit |
 | P4D | RD-OSC.2D | **COMPLETE** — representation robustness |
 | P5 | RD-MATH.1 | **COMPLETE** — compass operationalization |
-| P6 | External observers | Next (P6) |
+| P6 | RD-MATH.2 | **COMPLETE** — measurement protocols |
+| P7 | Run validation tests | Next (P7) |
 
 ---
 
 ## Current Strongest Observations
 
 1. Within-study semantic similarity > between-study (all methods, p < 0.001)
-2. Effect sizes enormous (Cohen's d > 2.9 for all methods)
-3. Result survives representation change (4 methods)
-4. All four variables require observer assumptions
-5. Ψ cannot be measured — this is the real bottleneck
+2. C is already measurable with known estimator properties
+3. F and I have proxy candidates requiring validation
+4. Ψ has explicit evidence criteria — operationalization may or may not be possible
+5. If no Ψ candidate satisfies all criteria, Ψ is not operationalizable in this domain
 
 ---
 
