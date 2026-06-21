@@ -1,0 +1,33 @@
+{
+  "topological_constraint": {
+    "status": "PLAUSIBLE / UNDER TEST",
+    "definition": "Structural restrictions imposed by field connectivity, conservation laws, or topology that alter measurement behavior.",
+    "examples": [
+      "magnetic flux conservation",
+      "reconnection events",
+      "divergence constraints",
+      "knotting/linking structure"
+    ]
+  },
+  "slice_dependence": {
+    "status": "PLAUSIBLE / UNDER TEST",
+    "definition": "Descriptor values that depend on the orientation of the slicing plane used to extract 2D data from 3D fields.",
+    "evidence": {
+      "mean_range": {
+        "min": 0.9993398785591125,
+        "max": 1.2905009984970093,
+        "std": 0.1294170224769092
+      },
+      "variance_range": {
+        "min": 0.002016071230173111,
+        "max": 0.02227674052119255,
+        "std": 0.007116545558554316
+      },
+      "entropy_range": {
+        "min": 7.230275120657577,
+        "max": 7.569871278189515,
+        "std": 0.11942217999192097
+      }
+    }
+  }
+}

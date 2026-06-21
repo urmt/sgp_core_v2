@@ -1,0 +1,35 @@
+{
+  "domain": "active_matter",
+  "N": 5,
+  "mean_delta_C_rank": 0.0008318934952682211,
+  "std_delta_C_rank": 0.0003153805159722006,
+  "ci_95": 0.0002764432108171771,
+  "temporal_spread": 0.0008805430752160115,
+  "measurements": [
+    {
+      "trajectory": 0,
+      "timepoint": 0,
+      "delta_C_rank": 0.0007755803598106237
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 20,
+      "delta_C_rank": 0.0009609416321582076
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 40,
+      "delta_C_rank": 0.0005653563232089764
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 60,
+      "delta_C_rank": 0.0004885230429736431
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 80,
+      "delta_C_rank": 0.0013690661181896546
+    }
+  ]
+}

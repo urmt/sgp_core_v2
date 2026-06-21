@@ -1,0 +1,74 @@
+{
+  "xy_z32": {
+    "mean": 0.9994493722915649,
+    "variance": 0.018552090972661972,
+    "entropy": 7.442332675556387,
+    "component_count": 1.0,
+    "power_spectrum_peak": 2.0,
+    "power_spectrum_mean": 115419.59349247813
+  },
+  "xz_y32": {
+    "mean": 1.0278592109680176,
+    "variance": 0.02227674052119255,
+    "entropy": 7.5532286832172115,
+    "component_count": 1.0,
+    "power_spectrum_peak": 2.0,
+    "power_spectrum_mean": 135472.93291228544
+  },
+  "yz_x32": {
+    "mean": 0.9993398785591125,
+    "variance": 0.01787768304347992,
+    "entropy": 7.485112239845622,
+    "component_count": 1.0,
+    "power_spectrum_peak": 1.0,
+    "power_spectrum_mean": 111237.00737498421
+  },
+  "mean_z": {
+    "mean": 1.0005757808685303,
+    "variance": 0.0032680206932127476,
+    "entropy": 7.382897944385558,
+    "component_count": 1.0,
+    "power_spectrum_peak": 2.0,
+    "power_spectrum_mean": 126041.21935580671
+  },
+  "mean_y": {
+    "mean": 1.0005756616592407,
+    "variance": 0.002016071230173111,
+    "entropy": 7.569871278189515,
+    "component_count": 1.0,
+    "power_spectrum_peak": 1.0,
+    "power_spectrum_mean": 131842.8267912818
+  },
+  "mean_x": {
+    "mean": 1.0005756616592407,
+    "variance": 0.002661028178408742,
+    "entropy": 7.402728203318846,
+    "component_count": 1.0,
+    "power_spectrum_peak": 1.0,
+    "power_spectrum_mean": 124510.50916980067
+  },
+  "max_z": {
+    "mean": 1.2582331895828247,
+    "variance": 0.01032274216413498,
+    "entropy": 7.258486726767292,
+    "component_count": 1.0,
+    "power_spectrum_peak": 1.0,
+    "power_spectrum_mean": 94385.34456955642
+  },
+  "max_y": {
+    "mean": 1.2905009984970093,
+    "variance": 0.007836034521460533,
+    "entropy": 7.230275120657577,
+    "component_count": 1.0,
+    "power_spectrum_peak": 1.0,
+    "power_spectrum_mean": 85544.8473771587
+  },
+  "max_x": {
+    "mean": 1.2856392860412598,
+    "variance": 0.00821189396083355,
+    "entropy": 7.266360776429351,
+    "component_count": 1.0,
+    "power_spectrum_peak": 1.0,
+    "power_spectrum_mean": 79603.97203183919
+  }
+}

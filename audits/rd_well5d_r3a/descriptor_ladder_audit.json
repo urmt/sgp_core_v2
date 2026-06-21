@@ -1,0 +1,116 @@
+{
+  "field_audits": {
+    "Rayleigh-B\u00e9nard_buoyancy": {
+      "layer_0": [],
+      "layer_1": [
+        "appearance",
+        "disappearance",
+        "repetition",
+        "movement",
+        "stabilization",
+        "boundary_formation"
+      ],
+      "layer_2": [],
+      "unknown": [
+        "field"
+      ]
+    },
+    "Rayleigh-B\u00e9nard_pressure": {
+      "layer_0": [],
+      "layer_1": [
+        "appearance",
+        "disappearance",
+        "repetition",
+        "movement",
+        "stabilization",
+        "boundary_formation"
+      ],
+      "layer_2": [],
+      "unknown": [
+        "field"
+      ]
+    },
+    "Rayleigh-B\u00e9nard_velocity_mag": {
+      "layer_0": [],
+      "layer_1": [
+        "appearance",
+        "disappearance",
+        "repetition",
+        "movement",
+        "stabilization",
+        "boundary_formation"
+      ],
+      "layer_2": [],
+      "unknown": [
+        "field"
+      ]
+    },
+    "Active Matter_concentration": {
+      "layer_0": [],
+      "layer_1": [
+        "appearance",
+        "disappearance",
+        "repetition",
+        "movement",
+        "stabilization",
+        "boundary_formation"
+      ],
+      "layer_2": [],
+      "unknown": [
+        "field"
+      ]
+    },
+    "Active Matter_velocity_mag": {
+      "layer_0": [],
+      "layer_1": [
+        "appearance",
+        "disappearance",
+        "repetition",
+        "movement",
+        "stabilization",
+        "boundary_formation"
+      ],
+      "layer_2": [],
+      "unknown": [
+        "field"
+      ]
+    }
+  },
+  "comparison_audit": [
+    {
+      "descriptor": "appearance_trend",
+      "layer": "Layer_2",
+      "domains": "Rayleigh-B\u00e9nard_buoyancy vs Active Matter_concentration"
+    },
+    {
+      "descriptor": "stabilization_pattern",
+      "layer": "Layer_2",
+      "domains": "Rayleigh-B\u00e9nard_buoyancy vs Active Matter_concentration"
+    },
+    {
+      "descriptor": "boundary_symmetry",
+      "layer": "Layer_2",
+      "domains": "Rayleigh-B\u00e9nard_buoyancy vs Active Matter_concentration"
+    },
+    {
+      "descriptor": "appearance_trend",
+      "layer": "Layer_2",
+      "domains": "Rayleigh-B\u00e9nard_velocity_mag vs Active Matter_velocity_mag"
+    },
+    {
+      "descriptor": "boundary_symmetry",
+      "layer": "Layer_2",
+      "domains": "Rayleigh-B\u00e9nard_velocity_mag vs Active Matter_velocity_mag"
+    },
+    {
+      "descriptor": "stabilization_pattern",
+      "layer": "Layer_2",
+      "domains": "Rayleigh-B\u00e9nard_velocity_mag vs Active Matter_velocity_mag"
+    }
+  ],
+  "reclassification_recommendations": {
+    "appearance_trend": "mean_intensity_over_time",
+    "stabilization_pattern": "frame_difference_trend",
+    "boundary_symmetry": "boundary_formation"
+  }
+}

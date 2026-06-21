@@ -1,0 +1,57 @@
+{
+  "field_shape": [
+    64,
+    64,
+    64
+  ],
+  "slice_shape": [
+    64,
+    64
+  ],
+  "tests": {
+    "bins_64": {
+      "bins": 64,
+      "entropy": 5.4777727529701625
+    },
+    "bins_128": {
+      "bins": 128,
+      "entropy": 6.466181366492105
+    },
+    "bins_256": {
+      "bins": 256,
+      "entropy": 7.442332675556387
+    },
+    "bins_512": {
+      "bins": 512,
+      "entropy": 8.399823316003364
+    },
+    "density_True": {
+      "density": true,
+      "entropy": 7.442332675556387
+    },
+    "density_False": {
+      "density": false,
+      "entropy": 0.0
+    },
+    "rank_transform": {
+      "entropy": 7.999999963067009
+    },
+    "log_transform": {
+      "entropy": 7.44681383949542
+    },
+    "log2": {
+      "use_log2": true,
+      "entropy": 7.442332675556387
+    },
+    "ln": {
+      "use_log2": false,
+      "entropy": 5.158631910851064
+    }
+  },
+  "entropy_range": {
+    "min": 0.0,
+    "max": 8.399823316003364,
+    "std": 2.3284753989192515,
+    "relative_range": 1.327484979341543
+  }
+}

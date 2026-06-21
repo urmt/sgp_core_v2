@@ -1,0 +1,5 @@
+{
+  "warning": "Topologically constrained fields may invalidate segmentation-based measurements developed on unconstrained media.",
+  "status": "ACTIVE WARNING",
+  "extends": "RD-MAGNETISM"
+}

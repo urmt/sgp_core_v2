@@ -1,0 +1,56 @@
+[
+  {
+    "predictor": "entropy",
+    "spearman_rho": -0.7,
+    "p_value": 0.1881204043741873,
+    "status": "exploratory"
+  },
+  {
+    "predictor": "sparsity",
+    "spearman_rho": -0.44721359549995787,
+    "p_value": 0.45018485575210093,
+    "status": "exploratory"
+  },
+  {
+    "predictor": "field_count",
+    "spearman_rho": -0.8660254037844386,
+    "p_value": 0.05766888562243733,
+    "status": "exploratory"
+  },
+  {
+    "predictor": "slice_dependence",
+    "spearman_rho": -0.35355339059327373,
+    "p_value": 0.5594043441634877,
+    "status": "exploratory"
+  },
+  {
+    "predictor": "autocorrelation",
+    "spearman_rho": -0.35355339059327373,
+    "p_value": 0.5594043441634877,
+    "status": "exploratory"
+  },
+  {
+    "predictor": "spectral_peak",
+    "spearman_rho": -0.35355339059327373,
+    "p_value": 0.5594043441634877,
+    "status": "exploratory"
+  },
+  {
+    "predictor": "dimensionality",
+    "spearman_rho": -0.35355339059327373,
+    "p_value": 0.5594043441634877,
+    "status": "exploratory"
+  },
+  {
+    "predictor": "topology",
+    "spearman_rho": -0.35355339059327373,
+    "p_value": 0.5594043441634877,
+    "status": "exploratory"
+  },
+  {
+    "predictor": "boundary_conditions",
+    "spearman_rho": 0.5773502691896257,
+    "p_value": 0.308068009250357,
+    "status": "exploratory"
+  }
+]

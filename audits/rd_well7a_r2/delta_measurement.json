@@ -1,0 +1,236 @@
+{
+  "xy_z32": {
+    "mean": {
+      "absolute": 0.0011262893676757812,
+      "normalized": 0.0011256413790917833
+    },
+    "variance": {
+      "absolute": 0.0031539909541606903,
+      "normalized": 0.14530448032001747
+    },
+    "entropy": {
+      "absolute": 0.36090942444575713,
+      "normalized": 0.050965662077768495
+    },
+    "component_count": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_peak": {
+      "absolute": 1.0,
+      "normalized": 1.0
+    },
+    "power_spectrum_mean": {
+      "absolute": 415693219.1894318,
+      "normalized": 0.9997224213671213
+    }
+  },
+  "xz_y32": {
+    "mean": {
+      "absolute": 0.027283549308776855,
+      "normalized": 0.027267852251705707
+    },
+    "variance": {
+      "absolute": 0.0005706585943698883,
+      "normalized": 0.02629026262287868
+    },
+    "entropy": {
+      "absolute": 0.47180543210658143,
+      "normalized": 0.06662579193138679
+    },
+    "component_count": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_peak": {
+      "absolute": 1.0,
+      "normalized": 1.0
+    },
+    "power_spectrum_mean": {
+      "absolute": 415673165.850012,
+      "normalized": 0.9996741940395736
+    }
+  },
+  "yz_x32": {
+    "mean": {
+      "absolute": 0.0012357831001281738,
+      "normalized": 0.001235072116464328
+    },
+    "variance": {
+      "absolute": 0.003828398883342743,
+      "normalized": 0.17637447864839714
+    },
+    "entropy": {
+      "absolute": 0.4036889887349915,
+      "normalized": 0.057006759011569895
+    },
+    "component_count": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_peak": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_mean": {
+      "absolute": 415697401.7755493,
+      "normalized": 0.9997324802878059
+    }
+  },
+  "mean_z": {
+    "mean": {
+      "absolute": 1.1920928955078125e-07,
+      "normalized": 1.1914070481496435e-07
+    },
+    "variance": {
+      "absolute": 0.018438061233609915,
+      "normalized": 0.8494421653695877
+    },
+    "entropy": {
+      "absolute": 0.30147469327492793,
+      "normalized": 0.04257261324235146
+    },
+    "component_count": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_peak": {
+      "absolute": 1.0,
+      "normalized": 1.0
+    },
+    "power_spectrum_mean": {
+      "absolute": 415682597.5635685,
+      "normalized": 0.9996968768620952
+    }
+  },
+  "mean_y": {
+    "mean": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "variance": {
+      "absolute": 0.01969001069664955,
+      "normalized": 0.9071195235985077
+    },
+    "entropy": {
+      "absolute": 0.4884480270788849,
+      "normalized": 0.06897596849648524
+    },
+    "component_count": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_peak": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_mean": {
+      "absolute": 415676795.956133,
+      "normalized": 0.9996829242721431
+    }
+  },
+  "mean_x": {
+    "mean": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "variance": {
+      "absolute": 0.01904505374841392,
+      "normalized": 0.8774063330554165
+    },
+    "entropy": {
+      "absolute": 0.32130495220821587,
+      "normalized": 0.04537293434025756
+    },
+    "component_count": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_peak": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_mean": {
+      "absolute": 415684128.2737545,
+      "normalized": 0.9997005581472904
+    }
+  },
+  "max_z": {
+    "mean": {
+      "absolute": 0.257657527923584,
+      "normalized": 0.2575092896986062
+    },
+    "variance": {
+      "absolute": 0.011383339762687683,
+      "normalized": 0.524430885364947
+    },
+    "entropy": {
+      "absolute": 0.17706347565666203,
+      "normalized": 0.025003939092172172
+    },
+    "component_count": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_peak": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_mean": {
+      "absolute": 415714253.43835473,
+      "normalized": 0.9997730077353711
+    }
+  },
+  "max_y": {
+    "mean": {
+      "absolute": 0.28992533683776855,
+      "normalized": 0.2897585339593304
+    },
+    "variance": {
+      "absolute": 0.01387004740536213,
+      "normalized": 0.6389935987582641
+    },
+    "entropy": {
+      "absolute": 0.14885186954694696,
+      "normalized": 0.02102004982170801
+    },
+    "component_count": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_peak": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_mean": {
+      "absolute": 415723093.9355471,
+      "normalized": 0.999794268710656
+    }
+  },
+  "max_x": {
+    "mean": {
+      "absolute": 0.28506362438201904,
+      "normalized": 0.2848996185948617
+    },
+    "variance": {
+      "absolute": 0.013494187965989113,
+      "normalized": 0.6216777404361522
+    },
+    "entropy": {
+      "absolute": 0.18493752531872065,
+      "normalized": 0.026115869474362455
+    },
+    "component_count": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_peak": {
+      "absolute": 0.0,
+      "normalized": 0.0
+    },
+    "power_spectrum_mean": {
+      "absolute": 415729034.81089246,
+      "normalized": 0.9998085562333077
+    }
+  }
+}

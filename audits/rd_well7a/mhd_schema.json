@@ -1,0 +1,24 @@
+{
+  "file_path": "hf://datasets/polymathic-ai/mhd_64/data/test/MHD_Ma_0.7_Ms_0.5.hdf5",
+  "file_count": 10,
+  "fields": {
+    "density": {
+      "shape": [
+        1,
+        100,
+        64,
+        64,
+        64
+      ],
+      "dtype": "float32"
+    }
+  },
+  "dimensions": 3,
+  "trajectory_count": 1,
+  "timestep_count": 100,
+  "spatial_dimensions": [
+    64,
+    64,
+    64
+  ]
+}

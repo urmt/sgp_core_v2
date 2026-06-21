@@ -1,0 +1,163 @@
+{
+  "description": "Operational Change Ledger",
+  "forbidden_words": [
+    "coherence",
+    "persistence",
+    "emergence",
+    "interaction",
+    "observer",
+    "sentience",
+    "hierarchy",
+    "intelligence"
+  ],
+  "ledgers": {
+    "bubbles": [
+      {
+        "interval": "t0\u2192t100",
+        "appears": [
+          "B local maxima increased (30 \u2192 3758)",
+          "A local maxima increased (94 \u2192 3073)"
+        ],
+        "disappears": [
+          "none"
+        ],
+        "repeats": [
+          "none"
+        ],
+        "stabilizes": [
+          "A variance decreased (0.021282 \u2192 0.013986)",
+          "B variance decreased (0.016389 \u2192 0.007277)"
+        ]
+      },
+      {
+        "interval": "t100\u2192t500",
+        "appears": [
+          "none"
+        ],
+        "disappears": [
+          "none"
+        ],
+        "repeats": [
+          "A mean stable (~0.9695)",
+          "B mean stable (~0.0193)"
+        ],
+        "stabilizes": [
+          "none"
+        ]
+      },
+      {
+        "interval": "t500\u2192t1000",
+        "appears": [
+          "none"
+        ],
+        "disappears": [
+          "none"
+        ],
+        "repeats": [
+          "A mean stable (~0.9696)",
+          "B mean stable (~0.0192)"
+        ],
+        "stabilizes": [
+          "none"
+        ]
+      }
+    ],
+    "maze": [
+      {
+        "interval": "t0\u2192t100",
+        "appears": [
+          "B local maxima increased (100 \u2192 557)",
+          "A local maxima increased (107 \u2192 199)"
+        ],
+        "disappears": [
+          "none"
+        ],
+        "repeats": [
+          "none"
+        ],
+        "stabilizes": [
+          "none"
+        ]
+      },
+      {
+        "interval": "t100\u2192t500",
+        "appears": [
+          "A local maxima increased (199 \u2192 485)"
+        ],
+        "disappears": [
+          "none"
+        ],
+        "repeats": [
+          "none"
+        ],
+        "stabilizes": [
+          "A variance decreased (0.048657 \u2192 0.021312)",
+          "B variance decreased (0.012316 \u2192 0.009468)"
+        ]
+      },
+      {
+        "interval": "t500\u2192t1000",
+        "appears": [
+          "none"
+        ],
+        "disappears": [
+          "none"
+        ],
+        "repeats": [
+          "A mean stable (~0.5139)",
+          "B mean stable (~0.1639)"
+        ],
+        "stabilizes": [
+          "none"
+        ]
+      }
+    ],
+    "spirals": [
+      {
+        "interval": "t0\u2192t100",
+        "appears": [
+          "B local maxima increased (30 \u2192 520)"
+        ],
+        "disappears": [
+          "none"
+        ],
+        "repeats": [
+          "none"
+        ],
+        "stabilizes": [
+          "B variance decreased (0.016389 \u2192 0.011092)"
+        ]
+      },
+      {
+        "interval": "t100\u2192t500",
+        "appears": [
+          "none"
+        ],
+        "disappears": [
+          "none"
+        ],
+        "repeats": [
+          "none"
+        ],
+        "stabilizes": [
+          "none"
+        ]
+      },
+      {
+        "interval": "t500\u2192t1000",
+        "appears": [
+          "none"
+        ],
+        "disappears": [
+          "none"
+        ],
+        "repeats": [
+          "none"
+        ],
+        "stabilizes": [
+          "none"
+        ]
+      }
+    ]
+  }
+}

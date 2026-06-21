@@ -1,0 +1,10 @@
+{
+  "description": "Stabilization time analysis for bubbles (minimal)",
+  "results": {
+    "pattern": "bubbles",
+    "stabilization_times": {
+      "frame_to_frame_variance_A": 10,
+      "frame_to_frame_variance_B": 10
+    }
+  }
+}

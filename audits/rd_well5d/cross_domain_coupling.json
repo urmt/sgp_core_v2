@@ -1,0 +1,62 @@
+{
+  "description": "Cross-domain coupling audit",
+  "results": {
+    "gs_bubbles": {
+      "S1": {
+        "correlation": -0.9772941124885732,
+        "abs_correlation": 0.9772941124885732,
+        "independent": false
+      },
+      "S2": {
+        "correlation": -0.9455655820003828,
+        "abs_correlation": 0.9455655820003828,
+        "independent": false
+      },
+      "S3": {
+        "correlation": -0.9152180606560641,
+        "abs_correlation": 0.9152180606560641,
+        "independent": false
+      }
+    },
+    "gs_maze": {
+      "S1": {
+        "correlation": -0.7765898140675545,
+        "abs_correlation": 0.7765898140675545,
+        "independent": true
+      },
+      "S2": {
+        "correlation": -0.7281095083948387,
+        "abs_correlation": 0.7281095083948387,
+        "independent": true
+      },
+      "S3": {
+        "correlation": -0.744605998537862,
+        "abs_correlation": 0.744605998537862,
+        "independent": true
+      }
+    },
+    "gs_spirals": {
+      "S1": {
+        "correlation": -0.7946839560280944,
+        "abs_correlation": 0.7946839560280944,
+        "independent": true
+      },
+      "S2": {
+        "correlation": -0.48818961977127706,
+        "abs_correlation": 0.48818961977127706,
+        "independent": true
+      },
+      "S3": {
+        "correlation": -0.1235137060797616,
+        "abs_correlation": 0.1235137060797616,
+        "independent": true
+      }
+    },
+    "rayleigh_benard": {
+      "error": "https://huggingface.co/datasets/polymathic-ai/rayleigh_benard/resolve/main/data/train/rayleigh_benard_Ra1e+08_Pr1_2D_512x128_1000.hdf5"
+    },
+    "active_matter": {
+      "error": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_activity_8.0_noise_0.001.hdf5"
+    }
+  }
+}

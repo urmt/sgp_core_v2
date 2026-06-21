@@ -1,0 +1,360 @@
+{
+  "descriptors": {
+    "GS": {
+      "0": "peaked",
+      "1": "peaked",
+      "2": "unclassified",
+      "3": "peaked",
+      "4": "unclassified"
+    },
+    "RB": {
+      "0": "high_to_low_to_gradual",
+      "1": "high_to_low_to_gradual",
+      "2": "high_to_low_to_gradual",
+      "3": "high_to_low_to_gradual",
+      "4": "high_to_low_to_gradual"
+    },
+    "AM": {
+      "0": "high_to_low_to_gradual",
+      "1": "unclassified"
+    },
+    "MHD": {
+      "0": "insufficient_data",
+      "1": "insufficient_data"
+    },
+    "CML": {
+      "eps0.3_r3.8": "monotonic_increase",
+      "eps0.3_r3.9": "monotonic_increase",
+      "eps0.3_r4.0": "monotonic_increase",
+      "eps0.5_r3.8": "monotonic_increase",
+      "eps0.5_r3.9": "monotonic_increase",
+      "eps0.5_r4.0": "monotonic_increase",
+      "eps0.7_r3.8": "monotonic_increase",
+      "eps0.7_r3.9": "monotonic_increase",
+      "eps0.7_r4.0": "monotonic_increase",
+      "eps0.9_r3.8": "monotonic_increase",
+      "eps0.9_r3.9": "monotonic_increase",
+      "eps0.9_r4.0": "monotonic_increase"
+    }
+  },
+  "metrics": {
+    "GS": {
+      "0": {
+        "temporal_spread": 0.11019756462463215,
+        "peak_timing": 0.4,
+        "recovery_slope": 0.021739868761490498,
+        "persistence": 0.0,
+        "volatility": 0.2768263639299394,
+        "mean_c": 0.15755561100018725,
+        "std_c": 0.04361554693762444
+      },
+      "1": {
+        "temporal_spread": 0.18267831791422595,
+        "peak_timing": 0.4,
+        "recovery_slope": 0.035180324272140594,
+        "persistence": 0.0,
+        "volatility": 0.4322802198402449,
+        "mean_c": 0.16500998312731194,
+        "std_c": 0.07133055182533753
+      },
+      "2": {
+        "temporal_spread": 0.19784622978591626,
+        "peak_timing": 0.8,
+        "recovery_slope": 0.03956924595718325,
+        "persistence": 0.0,
+        "volatility": 0.43787102198706557,
+        "mean_c": 0.1798880291793903,
+        "std_c": 0.07876775522380582
+      },
+      "3": {
+        "temporal_spread": 0.16320985385675202,
+        "peak_timing": 0.6,
+        "recovery_slope": 0.03136656802362855,
+        "persistence": 0.0,
+        "volatility": 0.4160086136508149,
+        "mean_c": 0.15350067041345983,
+        "std_c": 0.06385760113477494
+      },
+      "4": {
+        "temporal_spread": 0.14266037659984554,
+        "peak_timing": 0.2,
+        "recovery_slope": 0.027988348074558588,
+        "persistence": 0.0,
+        "volatility": 0.37721958514224446,
+        "mean_c": 0.14904781411487766,
+        "std_c": 0.056223754644494486
+      }
+    },
+    "RB": {
+      "0": {
+        "temporal_spread": 0.007522041342971297,
+        "peak_timing": 0.8,
+        "recovery_slope": 0.0018805103357428243,
+        "persistence": 0.0,
+        "volatility": 0.39206746687988675,
+        "mean_c": 0.007305948732665768,
+        "std_c": 0.0028644248519773333
+      },
+      "1": {
+        "temporal_spread": 0.0098451581936716,
+        "peak_timing": 0.0,
+        "recovery_slope": 0.0017934780166742603,
+        "persistence": 0.0,
+        "volatility": 0.5121929109290502,
+        "mean_c": 0.007101543380150943,
+        "std_c": 0.0036373602271877288
+      },
+      "2": {
+        "temporal_spread": 0.011407291491870253,
+        "peak_timing": 0.0,
+        "recovery_slope": 0.002120502568208893,
+        "persistence": 0.0,
+        "volatility": 0.5817858249874407,
+        "mean_c": 0.007300102972821976,
+        "std_c": 0.004247096488715084
+      },
+      "3": {
+        "temporal_spread": 0.012072792573952773,
+        "peak_timing": 0.0,
+        "recovery_slope": 0.002242633698326113,
+        "persistence": 0.0,
+        "volatility": 0.5549635677038239,
+        "mean_c": 0.007764918970112422,
+        "std_c": 0.0043092471900810485
+      },
+      "4": {
+        "temporal_spread": 0.012141331733647287,
+        "peak_timing": 0.0,
+        "recovery_slope": 0.002048495018766111,
+        "persistence": 0.0,
+        "volatility": 0.517806979076228,
+        "mean_c": 0.00788974123414483,
+        "std_c": 0.004085363125926383
+      }
+    },
+    "AM": {
+      "0": {
+        "temporal_spread": 0.014133197223360483,
+        "peak_timing": 0.0,
+        "recovery_slope": 0.003828101738048151,
+        "persistence": 0.0,
+        "volatility": 0.30079237617677357,
+        "mean_c": 0.01940759490799395,
+        "std_c": 0.00583765661833099
+      },
+      "1": {
+        "temporal_spread": 0.015381044743530747,
+        "peak_timing": 0.0,
+        "recovery_slope": 0.002007476431568992,
+        "persistence": 0.0,
+        "volatility": 0.29761699733899777,
+        "mean_c": 0.01724587091803855,
+        "std_c": 0.0051326643488842786
+      }
+    },
+    "MHD": {
+      "0": {
+        "temporal_spread": 0.0,
+        "peak_timing": 0.0,
+        "recovery_slope": 0.0,
+        "persistence": 0.0,
+        "volatility": 0.0,
+        "mean_c": 0.0,
+        "std_c": 0.0
+      },
+      "1": {
+        "temporal_spread": 0.0,
+        "peak_timing": 0.0,
+        "recovery_slope": 0.0,
+        "persistence": 0.0,
+        "volatility": 0.0,
+        "mean_c": 0.0,
+        "std_c": 0.0
+      }
+    },
+    "CML": {
+      "eps0.3_r3.8": {
+        "temporal_spread": 0.00033757334229744806,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 0.00011252444743248269,
+        "persistence": 0.0,
+        "volatility": 0.00016853659360739452,
+        "mean_c": 0.8177081127157978,
+        "std_c": 0.00013781373989910564
+      },
+      "eps0.3_r3.9": {
+        "temporal_spread": 0.00024074330746248762,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 8.024776915416254e-05,
+        "persistence": 0.0,
+        "volatility": 0.00012023177390362054,
+        "mean_c": 0.8174465077670616,
+        "std_c": 9.828304371217672e-05
+      },
+      "eps0.3_r4.0": {
+        "temporal_spread": 0.00030991196764662554,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 0.00010330398921554185,
+        "persistence": 0.0,
+        "volatility": 0.00015480085885665346,
+        "mean_c": 0.8173147869141092,
+        "std_c": 0.0001265210309860269
+      },
+      "eps0.5_r3.8": {
+        "temporal_spread": 0.0005472999617288643,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 0.0001824333205762881,
+        "persistence": 0.0,
+        "volatility": 0.00027315271191139586,
+        "mean_c": 0.817982996236581,
+        "std_c": 0.0002234342737467465
+      },
+      "eps0.5_r3.9": {
+        "temporal_spread": 0.00039322120548446193,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 0.00013107373516148732,
+        "persistence": 0.0,
+        "volatility": 0.0001963584598259829,
+        "mean_c": 0.8175450400038886,
+        "std_c": 0.00016053188491317098
+      },
+      "eps0.5_r4.0": {
+        "temporal_spread": 0.00036568504971246085,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 0.00012189501657082029,
+        "persistence": 0.0,
+        "volatility": 0.000182653138883515,
+        "mean_c": 0.8173431745415982,
+        "std_c": 0.0001492902963933049
+      },
+      "eps0.7_r3.8": {
+        "temporal_spread": 0.00042368463450315197,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 0.00014122821150105067,
+        "persistence": 0.0,
+        "volatility": 0.0002114390326778786,
+        "mean_c": 0.8180539114274477,
+        "std_c": 0.00017296852773171842
+      },
+      "eps0.7_r3.9": {
+        "temporal_spread": 0.0006296148380653399,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 0.00020987161268844665,
+        "persistence": 0.0,
+        "volatility": 0.00031439133244394587,
+        "mean_c": 0.8175771871994799,
+        "std_c": 0.000257039181290857
+      },
+      "eps0.7_r4.0": {
+        "temporal_spread": 0.0005057821933840412,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 0.00016859406446134706,
+        "persistence": 0.0,
+        "volatility": 0.0002526199910652853,
+        "mean_c": 0.8173728250883889,
+        "std_c": 0.0002064847157960978
+      },
+      "eps0.9_r3.8": {
+        "temporal_spread": 0.0005030619142019077,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 0.00016768730473396923,
+        "persistence": 0.0,
+        "volatility": 0.0002510618519375275,
+        "mean_c": 0.8180221919832132,
+        "std_c": 0.00020537416647040737
+      },
+      "eps0.9_r3.9": {
+        "temporal_spread": 0.0005030719291505559,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 0.0001676906430501853,
+        "persistence": 0.0,
+        "volatility": 0.000251221056181519,
+        "mean_c": 0.8175200683916977,
+        "std_c": 0.00020537825505607206
+      },
+      "eps0.9_r4.0": {
+        "temporal_spread": 0.0005100520215570725,
+        "peak_timing": 0.6666666666666666,
+        "recovery_slope": 0.00017001734051902417,
+        "persistence": 0.0,
+        "volatility": 0.0002547948321044708,
+        "mean_c": 0.8172373988239108,
+        "std_c": 0.00020822786584831228
+      }
+    }
+  },
+  "stability": {
+    "GS": {
+      "descriptor_consistency": false,
+      "metrics_cv": {
+        "temporal_spread": 0.1931679014934751,
+        "persistence": 0.0,
+        "volatility": 0.15336402454322473
+      }
+    },
+    "RB": {
+      "descriptor_consistency": true,
+      "metrics_cv": {
+        "temporal_spread": 0.16473913367030757,
+        "persistence": 0.0,
+        "volatility": 0.12703653999274428
+      }
+    },
+    "AM": {
+      "descriptor_consistency": false,
+      "metrics_cv": {
+        "temporal_spread": 0.04227950430067243,
+        "persistence": 0.0,
+        "volatility": 0.005306365472051067
+      }
+    },
+    "MHD": {
+      "descriptor_consistency": true,
+      "metrics_cv": {
+        "temporal_spread": 0.0,
+        "persistence": 0.0,
+        "volatility": 0.0
+      }
+    },
+    "CML": {
+      "descriptor_consistency": true,
+      "metrics_cv": {
+        "temporal_spread": 0.2457357327200931,
+        "persistence": 0.0,
+        "volatility": 0.24567433768673308
+      }
+    }
+  },
+  "admissibility": {
+    "GS": {
+      "status": "PROVISIONAL",
+      "reproduced": false,
+      "stable_metrics": "True",
+      "mean_cv": 0.11551064201223327
+    },
+    "RB": {
+      "status": "STABLE",
+      "reproduced": true,
+      "stable_metrics": "True",
+      "mean_cv": 0.09725855788768395
+    },
+    "AM": {
+      "status": "PROVISIONAL",
+      "reproduced": false,
+      "stable_metrics": "True",
+      "mean_cv": 0.01586195659090783
+    },
+    "MHD": {
+      "status": "STABLE",
+      "reproduced": true,
+      "stable_metrics": "True",
+      "mean_cv": 0.0
+    },
+    "CML": {
+      "status": "STABLE",
+      "reproduced": true,
+      "stable_metrics": "True",
+      "mean_cv": 0.1638033568022754
+    }
+  }
+}

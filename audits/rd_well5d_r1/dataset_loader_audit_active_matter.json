@@ -1,0 +1,19 @@
+{
+  "description": "Dataset loader audit (Active Matter URLs)",
+  "results": {
+    "active_matter": [
+      {
+        "status": "success",
+        "url": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_L_10.0_zeta_1.0_alpha_-1.0.hdf5",
+        "top_keys": [
+          "boundary_conditions",
+          "dimensions",
+          "scalars",
+          "t0_fields",
+          "t1_fields",
+          "t2_fields"
+        ]
+      }
+    ]
+  }
+}

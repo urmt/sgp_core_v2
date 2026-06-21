@@ -1,0 +1,302 @@
+[
+  {
+    "file_index": 0,
+    "parameters": "Ma_0.7_Ms_0.5",
+    "timepoint": 0,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.4678078293800354,
+      "variance": 0.029491687193512917,
+      "entropy": 7.442332675556387,
+      "frame_difference": 0.16157139837741852,
+      "component_count": 42.0,
+      "spectral_peak": 2.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.16157139837741852
+    }
+  },
+  {
+    "file_index": 0,
+    "parameters": "Ma_0.7_Ms_0.5",
+    "timepoint": 50,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.47375166416168213,
+      "variance": 0.024161797016859055,
+      "entropy": 7.309412346189805,
+      "frame_difference": 0.19637428224086761,
+      "component_count": 26.0,
+      "spectral_peak": 2.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.19637428224086761
+    }
+  },
+  {
+    "file_index": 0,
+    "parameters": "Ma_0.7_Ms_0.5",
+    "timepoint": 99,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.5117788314819336,
+      "variance": 0.03639964014291763,
+      "entropy": 7.590173048792263,
+      "frame_difference": 0.21624773740768433,
+      "component_count": 22.0,
+      "spectral_peak": 2.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.21624773740768433
+    }
+  },
+  {
+    "file_index": 1,
+    "parameters": "Ma_0.7_Ms_0.7",
+    "timepoint": 0,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.44412630796432495,
+      "variance": 0.03164927661418915,
+      "entropy": 7.484067360041979,
+      "frame_difference": 0.1920737624168396,
+      "component_count": 30.0,
+      "spectral_peak": 1.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.1920737624168396
+    }
+  },
+  {
+    "file_index": 1,
+    "parameters": "Ma_0.7_Ms_0.7",
+    "timepoint": 50,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.39207467436790466,
+      "variance": 0.023743106052279472,
+      "entropy": 7.295611937396744,
+      "frame_difference": 0.20077112317085266,
+      "component_count": 40.0,
+      "spectral_peak": 2.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.20077112317085266
+    }
+  },
+  {
+    "file_index": 1,
+    "parameters": "Ma_0.7_Ms_0.7",
+    "timepoint": 99,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.3359857201576233,
+      "variance": 0.027970368042588234,
+      "entropy": 7.364840223474902,
+      "frame_difference": 0.21035000681877136,
+      "component_count": 26.0,
+      "spectral_peak": 1.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.21035000681877136
+    }
+  },
+  {
+    "file_index": 2,
+    "parameters": "Ma_0.7_Ms_1.5",
+    "timepoint": 0,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.2005876898765564,
+      "variance": 0.021115373820066452,
+      "entropy": 6.898216666034659,
+      "frame_difference": 0.13909576833248138,
+      "component_count": 21.0,
+      "spectral_peak": 2.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.13909576833248138
+    }
+  },
+  {
+    "file_index": 2,
+    "parameters": "Ma_0.7_Ms_1.5",
+    "timepoint": 50,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.1349947452545166,
+      "variance": 0.010573168285191059,
+      "entropy": 6.231919413844471,
+      "frame_difference": 0.12093695998191833,
+      "component_count": 8.0,
+      "spectral_peak": 1.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.12093695998191833
+    }
+  },
+  {
+    "file_index": 2,
+    "parameters": "Ma_0.7_Ms_1.5",
+    "timepoint": 99,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.1751290261745453,
+      "variance": 0.016531076282262802,
+      "entropy": 6.694873310294604,
+      "frame_difference": 0.13096196949481964,
+      "component_count": 20.0,
+      "spectral_peak": 1.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.13096196949481964
+    }
+  },
+  {
+    "file_index": 3,
+    "parameters": "Ma_0.7_Ms_2",
+    "timepoint": 0,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.09205356985330582,
+      "variance": 0.0076718744821846485,
+      "entropy": 5.832704383159766,
+      "frame_difference": 0.07458819448947906,
+      "component_count": 5.0,
+      "spectral_peak": 1.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.07458819448947906
+    }
+  },
+  {
+    "file_index": 3,
+    "parameters": "Ma_0.7_Ms_2",
+    "timepoint": 50,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.0885688066482544,
+      "variance": 0.007872704416513443,
+      "entropy": 5.657064692355807,
+      "frame_difference": 0.06929958611726761,
+      "component_count": 8.0,
+      "spectral_peak": 1.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.06929958611726761
+    }
+  },
+  {
+    "file_index": 3,
+    "parameters": "Ma_0.7_Ms_2",
+    "timepoint": 99,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.07588157057762146,
+      "variance": 0.005543741397559643,
+      "entropy": 5.513342227319536,
+      "frame_difference": 0.14195165038108826,
+      "component_count": 2.0,
+      "spectral_peak": 1.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.14195165038108826
+    }
+  },
+  {
+    "file_index": 4,
+    "parameters": "Ma_0.7_Ms_7",
+    "timepoint": 0,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.20411157608032227,
+      "variance": 0.005657507106661797,
+      "entropy": 4.76729104516055,
+      "frame_difference": 0.09041712433099747,
+      "component_count": 15.0,
+      "spectral_peak": 1.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.09041712433099747
+    }
+  },
+  {
+    "file_index": 4,
+    "parameters": "Ma_0.7_Ms_7",
+    "timepoint": 50,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.13396607339382172,
+      "variance": 0.005371992010623217,
+      "entropy": 5.0668795546561745,
+      "frame_difference": 0.053771521896123886,
+      "component_count": 16.0,
+      "spectral_peak": 3.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.053771521896123886
+    }
+  },
+  {
+    "file_index": 4,
+    "parameters": "Ma_0.7_Ms_7",
+    "timepoint": 99,
+    "field_name": "density",
+    "shape": [
+      64,
+      64
+    ],
+    "descriptors": {
+      "mean": 0.14517414569854736,
+      "variance": 0.0034592323936522007,
+      "entropy": 4.80048670418398,
+      "frame_difference": 0.0,
+      "component_count": 10.0,
+      "spectral_peak": 1.0,
+      "autocorrelation_length": 32.0,
+      "temporal_derivative_norm": 0.0
+    }
+  }
+]

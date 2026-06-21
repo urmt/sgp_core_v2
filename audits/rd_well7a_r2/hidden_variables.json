@@ -1,0 +1,15 @@
+{
+  "observer_geometry": {
+    "status": "PLAUSIBLE / UNDER TEST",
+    "definition": "Measurement behavior that depends on the geometric relationship between observer and field.",
+    "distinction_from_slice_dependence": {
+      "slice_dependence": "choice of projection",
+      "observer_geometry": "orientation relative to structure"
+    }
+  },
+  "slice_dependence": {
+    "status": "PLAUSIBLE / UNDER TEST",
+    "definition": "Measurement outcomes may depend on how higher-dimensional structures are projected or observed.",
+    "generalization": "Applies to tomography, microscopy, cosmology, neuroscience, plasma diagnostics"
+  }
+}

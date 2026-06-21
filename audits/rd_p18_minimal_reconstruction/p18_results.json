@@ -1,0 +1,1134 @@
+{
+  "GS": {
+    "convergence_envelopes": {
+      "target": "convergence_expectation_envelopes",
+      "domain": "GS",
+      "invariants_used": [
+        "cv_positive",
+        "convergence_floor",
+        "cv_decreasing"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "cv_interval": [
+            0.05,
+            3.0
+          ],
+          "convergence_direction": "unknown",
+          "confidence": "high"
+        },
+        {
+          "N": 2,
+          "cv_interval": [
+            0.05,
+            2.1213203435596424
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 3,
+          "cv_interval": [
+            0.05,
+            1.7320508075688774
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 4,
+          "cv_interval": [
+            0.05,
+            1.5
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 5,
+          "cv_interval": [
+            0.05,
+            1.3416407864998738
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 6,
+          "cv_interval": [
+            0.05,
+            1.2247448713915892
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 7,
+          "cv_interval": [
+            0.05,
+            1.1338934190276817
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 8,
+          "cv_interval": [
+            0.05,
+            1.0606601717798212
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 9,
+          "cv_interval": [
+            0.05,
+            1.0
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 10,
+          "cv_interval": [
+            0.05,
+            0.9486832980505138
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        }
+      ]
+    },
+    "admissibility_boundaries": {
+      "target": "admissibility_boundaries",
+      "domain": "GS",
+      "invariants_used": [
+        "warning_coactivation",
+        "structure_disagreement"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 2,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 3,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 4,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 5,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 6,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 7,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 8,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 9,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 10,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        }
+      ]
+    },
+    "perturbation_envelopes": {
+      "target": "perturbation_constraint_envelopes",
+      "domain": "GS",
+      "invariants_used": [
+        "cv_positive",
+        "convergence_floor"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "sensitivity_interval": [
+            0.05,
+            2.0
+          ],
+          "expected_response": 1.025,
+          "response_uncertainty": 0.975
+        },
+        {
+          "N": 2,
+          "sensitivity_interval": [
+            0.05,
+            1.414213562373095
+          ],
+          "expected_response": 0.7321067811865475,
+          "response_uncertainty": 0.6821067811865474
+        },
+        {
+          "N": 3,
+          "sensitivity_interval": [
+            0.05,
+            1.1547005383792517
+          ],
+          "expected_response": 0.6023502691896259,
+          "response_uncertainty": 0.5523502691896258
+        },
+        {
+          "N": 4,
+          "sensitivity_interval": [
+            0.05,
+            1.0
+          ],
+          "expected_response": 0.525,
+          "response_uncertainty": 0.475
+        },
+        {
+          "N": 5,
+          "sensitivity_interval": [
+            0.05,
+            0.8944271909999159
+          ],
+          "expected_response": 0.47221359549995795,
+          "response_uncertainty": 0.4222135954999579
+        },
+        {
+          "N": 6,
+          "sensitivity_interval": [
+            0.05,
+            0.8164965809277261
+          ],
+          "expected_response": 0.4332482904638631,
+          "response_uncertainty": 0.38324829046386305
+        },
+        {
+          "N": 7,
+          "sensitivity_interval": [
+            0.05,
+            0.7559289460184544
+          ],
+          "expected_response": 0.4029644730092272,
+          "response_uncertainty": 0.3529644730092272
+        },
+        {
+          "N": 8,
+          "sensitivity_interval": [
+            0.05,
+            0.7071067811865475
+          ],
+          "expected_response": 0.37855339059327375,
+          "response_uncertainty": 0.3285533905932737
+        },
+        {
+          "N": 9,
+          "sensitivity_interval": [
+            0.05,
+            0.6666666666666666
+          ],
+          "expected_response": 0.35833333333333334,
+          "response_uncertainty": 0.3083333333333333
+        },
+        {
+          "N": 10,
+          "sensitivity_interval": [
+            0.05,
+            0.6324555320336759
+          ],
+          "expected_response": 0.34122776601683796,
+          "response_uncertainty": 0.2912277660168379
+        }
+      ]
+    },
+    "observer_divergence_forecasts": {
+      "target": "observer_divergence_forecasting",
+      "domain": "GS",
+      "invariants_used": [
+        "structure_disagreement",
+        "warning_coactivation"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "divergence_probability": 0.9,
+          "instability_probability": 0.8,
+          "forecast_region": "high_divergence"
+        },
+        {
+          "N": 2,
+          "divergence_probability": 0.9,
+          "instability_probability": 0.8,
+          "forecast_region": "high_divergence"
+        },
+        {
+          "N": 3,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.8,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 4,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.8,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 5,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 6,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 7,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 8,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 9,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 10,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        }
+      ]
+    }
+  },
+  "RB": {
+    "convergence_envelopes": {
+      "target": "convergence_expectation_envelopes",
+      "domain": "RB",
+      "invariants_used": [
+        "cv_positive",
+        "convergence_floor",
+        "cv_decreasing"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "cv_interval": [
+            0.05,
+            3.0
+          ],
+          "convergence_direction": "unknown",
+          "confidence": "high"
+        },
+        {
+          "N": 2,
+          "cv_interval": [
+            0.05,
+            2.1213203435596424
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 3,
+          "cv_interval": [
+            0.05,
+            1.7320508075688774
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 4,
+          "cv_interval": [
+            0.05,
+            1.5
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 5,
+          "cv_interval": [
+            0.05,
+            1.3416407864998738
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 6,
+          "cv_interval": [
+            0.05,
+            1.2247448713915892
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 7,
+          "cv_interval": [
+            0.05,
+            1.1338934190276817
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 8,
+          "cv_interval": [
+            0.05,
+            1.0606601717798212
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 9,
+          "cv_interval": [
+            0.05,
+            1.0
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 10,
+          "cv_interval": [
+            0.05,
+            0.9486832980505138
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        }
+      ]
+    },
+    "admissibility_boundaries": {
+      "target": "admissibility_boundaries",
+      "domain": "RB",
+      "invariants_used": [
+        "warning_coactivation",
+        "structure_disagreement"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 2,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 3,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 4,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 5,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 6,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 7,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 8,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 9,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 10,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        }
+      ]
+    },
+    "perturbation_envelopes": {
+      "target": "perturbation_constraint_envelopes",
+      "domain": "RB",
+      "invariants_used": [
+        "cv_positive",
+        "convergence_floor"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "sensitivity_interval": [
+            0.05,
+            2.0
+          ],
+          "expected_response": 1.025,
+          "response_uncertainty": 0.975
+        },
+        {
+          "N": 2,
+          "sensitivity_interval": [
+            0.05,
+            1.414213562373095
+          ],
+          "expected_response": 0.7321067811865475,
+          "response_uncertainty": 0.6821067811865474
+        },
+        {
+          "N": 3,
+          "sensitivity_interval": [
+            0.05,
+            1.1547005383792517
+          ],
+          "expected_response": 0.6023502691896259,
+          "response_uncertainty": 0.5523502691896258
+        },
+        {
+          "N": 4,
+          "sensitivity_interval": [
+            0.05,
+            1.0
+          ],
+          "expected_response": 0.525,
+          "response_uncertainty": 0.475
+        },
+        {
+          "N": 5,
+          "sensitivity_interval": [
+            0.05,
+            0.8944271909999159
+          ],
+          "expected_response": 0.47221359549995795,
+          "response_uncertainty": 0.4222135954999579
+        },
+        {
+          "N": 6,
+          "sensitivity_interval": [
+            0.05,
+            0.8164965809277261
+          ],
+          "expected_response": 0.4332482904638631,
+          "response_uncertainty": 0.38324829046386305
+        },
+        {
+          "N": 7,
+          "sensitivity_interval": [
+            0.05,
+            0.7559289460184544
+          ],
+          "expected_response": 0.4029644730092272,
+          "response_uncertainty": 0.3529644730092272
+        },
+        {
+          "N": 8,
+          "sensitivity_interval": [
+            0.05,
+            0.7071067811865475
+          ],
+          "expected_response": 0.37855339059327375,
+          "response_uncertainty": 0.3285533905932737
+        },
+        {
+          "N": 9,
+          "sensitivity_interval": [
+            0.05,
+            0.6666666666666666
+          ],
+          "expected_response": 0.35833333333333334,
+          "response_uncertainty": 0.3083333333333333
+        },
+        {
+          "N": 10,
+          "sensitivity_interval": [
+            0.05,
+            0.6324555320336759
+          ],
+          "expected_response": 0.34122776601683796,
+          "response_uncertainty": 0.2912277660168379
+        }
+      ]
+    },
+    "observer_divergence_forecasts": {
+      "target": "observer_divergence_forecasting",
+      "domain": "RB",
+      "invariants_used": [
+        "structure_disagreement",
+        "warning_coactivation"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "divergence_probability": 0.9,
+          "instability_probability": 0.8,
+          "forecast_region": "high_divergence"
+        },
+        {
+          "N": 2,
+          "divergence_probability": 0.9,
+          "instability_probability": 0.8,
+          "forecast_region": "high_divergence"
+        },
+        {
+          "N": 3,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.8,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 4,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.8,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 5,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 6,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 7,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 8,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 9,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 10,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        }
+      ]
+    }
+  },
+  "CML": {
+    "convergence_envelopes": {
+      "target": "convergence_expectation_envelopes",
+      "domain": "CML",
+      "invariants_used": [
+        "cv_positive",
+        "convergence_floor",
+        "cv_decreasing"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "cv_interval": [
+            0.05,
+            3.0
+          ],
+          "convergence_direction": "unknown",
+          "confidence": "high"
+        },
+        {
+          "N": 2,
+          "cv_interval": [
+            0.05,
+            2.1213203435596424
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 3,
+          "cv_interval": [
+            0.05,
+            1.7320508075688774
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 4,
+          "cv_interval": [
+            0.05,
+            1.5
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 5,
+          "cv_interval": [
+            0.05,
+            1.3416407864998738
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 6,
+          "cv_interval": [
+            0.05,
+            1.2247448713915892
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 7,
+          "cv_interval": [
+            0.05,
+            1.1338934190276817
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 8,
+          "cv_interval": [
+            0.05,
+            1.0606601717798212
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 9,
+          "cv_interval": [
+            0.05,
+            1.0
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        },
+        {
+          "N": 10,
+          "cv_interval": [
+            0.05,
+            0.9486832980505138
+          ],
+          "convergence_direction": "decreasing",
+          "confidence": "high"
+        }
+      ]
+    },
+    "admissibility_boundaries": {
+      "target": "admissibility_boundaries",
+      "domain": "CML",
+      "invariants_used": [
+        "warning_coactivation",
+        "structure_disagreement"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 2,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 3,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 4,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 5,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 6,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 7,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 8,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 9,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        },
+        {
+          "N": 10,
+          "warning_probability": 0.4,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_possible"
+        }
+      ]
+    },
+    "perturbation_envelopes": {
+      "target": "perturbation_constraint_envelopes",
+      "domain": "CML",
+      "invariants_used": [
+        "cv_positive",
+        "convergence_floor"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "sensitivity_interval": [
+            0.05,
+            2.0
+          ],
+          "expected_response": 1.025,
+          "response_uncertainty": 0.975
+        },
+        {
+          "N": 2,
+          "sensitivity_interval": [
+            0.05,
+            1.414213562373095
+          ],
+          "expected_response": 0.7321067811865475,
+          "response_uncertainty": 0.6821067811865474
+        },
+        {
+          "N": 3,
+          "sensitivity_interval": [
+            0.05,
+            1.1547005383792517
+          ],
+          "expected_response": 0.6023502691896259,
+          "response_uncertainty": 0.5523502691896258
+        },
+        {
+          "N": 4,
+          "sensitivity_interval": [
+            0.05,
+            1.0
+          ],
+          "expected_response": 0.525,
+          "response_uncertainty": 0.475
+        },
+        {
+          "N": 5,
+          "sensitivity_interval": [
+            0.05,
+            0.8944271909999159
+          ],
+          "expected_response": 0.47221359549995795,
+          "response_uncertainty": 0.4222135954999579
+        },
+        {
+          "N": 6,
+          "sensitivity_interval": [
+            0.05,
+            0.8164965809277261
+          ],
+          "expected_response": 0.4332482904638631,
+          "response_uncertainty": 0.38324829046386305
+        },
+        {
+          "N": 7,
+          "sensitivity_interval": [
+            0.05,
+            0.7559289460184544
+          ],
+          "expected_response": 0.4029644730092272,
+          "response_uncertainty": 0.3529644730092272
+        },
+        {
+          "N": 8,
+          "sensitivity_interval": [
+            0.05,
+            0.7071067811865475
+          ],
+          "expected_response": 0.37855339059327375,
+          "response_uncertainty": 0.3285533905932737
+        },
+        {
+          "N": 9,
+          "sensitivity_interval": [
+            0.05,
+            0.6666666666666666
+          ],
+          "expected_response": 0.35833333333333334,
+          "response_uncertainty": 0.3083333333333333
+        },
+        {
+          "N": 10,
+          "sensitivity_interval": [
+            0.05,
+            0.6324555320336759
+          ],
+          "expected_response": 0.34122776601683796,
+          "response_uncertainty": 0.2912277660168379
+        }
+      ]
+    },
+    "observer_divergence_forecasts": {
+      "target": "observer_divergence_forecasting",
+      "domain": "CML",
+      "invariants_used": [
+        "structure_disagreement",
+        "warning_coactivation"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "divergence_probability": 0.9,
+          "instability_probability": 0.8,
+          "forecast_region": "high_divergence"
+        },
+        {
+          "N": 2,
+          "divergence_probability": 0.9,
+          "instability_probability": 0.8,
+          "forecast_region": "high_divergence"
+        },
+        {
+          "N": 3,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.8,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 4,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.8,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 5,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 6,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 7,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 8,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 9,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        },
+        {
+          "N": 10,
+          "divergence_probability": 0.7,
+          "instability_probability": 0.5,
+          "forecast_region": "moderate_divergence"
+        }
+      ]
+    }
+  },
+  "AM": {
+    "convergence_envelopes": {
+      "target": "convergence_expectation_envelopes",
+      "domain": "AM",
+      "invariants_used": [
+        "cv_positive",
+        "convergence_floor",
+        "cv_decreasing"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "cv_interval": [
+            0.05,
+            3.0
+          ],
+          "convergence_direction": "unknown",
+          "confidence": "low"
+        },
+        {
+          "N": 2,
+          "cv_interval": [
+            0.05,
+            2.1213203435596424
+          ],
+          "convergence_direction": "unknown",
+          "confidence": "low"
+        }
+      ]
+    },
+    "admissibility_boundaries": {
+      "target": "admissibility_boundaries",
+      "domain": "AM",
+      "invariants_used": [
+        "warning_coactivation",
+        "structure_disagreement"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        },
+        {
+          "N": 2,
+          "warning_probability": 0.8,
+          "disagreement_probability": 0.5,
+          "admissibility_status": "warning_likely"
+        }
+      ]
+    },
+    "perturbation_envelopes": {
+      "target": "perturbation_constraint_envelopes",
+      "domain": "AM",
+      "invariants_used": [
+        "cv_positive",
+        "convergence_floor"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "sensitivity_interval": [
+            0.05,
+            2.0
+          ],
+          "expected_response": 1.025,
+          "response_uncertainty": 0.975
+        },
+        {
+          "N": 2,
+          "sensitivity_interval": [
+            0.05,
+            1.414213562373095
+          ],
+          "expected_response": 0.7321067811865475,
+          "response_uncertainty": 0.6821067811865474
+        }
+      ]
+    },
+    "observer_divergence_forecasts": {
+      "target": "observer_divergence_forecasting",
+      "domain": "AM",
+      "invariants_used": [
+        "structure_disagreement",
+        "warning_coactivation"
+      ],
+      "predictions": [
+        {
+          "N": 1,
+          "divergence_probability": 0.9,
+          "instability_probability": 0.8,
+          "forecast_region": "high_divergence"
+        },
+        {
+          "N": 2,
+          "divergence_probability": 0.9,
+          "instability_probability": 0.8,
+          "forecast_region": "high_divergence"
+        }
+      ]
+    }
+  }
+}

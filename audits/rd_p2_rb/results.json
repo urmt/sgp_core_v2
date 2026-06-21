@@ -1,0 +1,127 @@
+[
+  {
+    "trajectory": 0,
+    "frame": 0,
+    "delta_C_rank": 0.009083586754243811
+  },
+  {
+    "trajectory": 0,
+    "frame": 40,
+    "delta_C_rank": 0.0027058552867694763
+  },
+  {
+    "trajectory": 0,
+    "frame": 80,
+    "delta_C_rank": 0.005236169931314705
+  },
+  {
+    "trajectory": 0,
+    "frame": 120,
+    "delta_C_rank": 0.009276235061260074
+  },
+  {
+    "trajectory": 0,
+    "frame": 160,
+    "delta_C_rank": 0.010227896629740774
+  },
+  {
+    "trajectory": 1,
+    "frame": 0,
+    "delta_C_rank": 0.011428279458489343
+  },
+  {
+    "trajectory": 1,
+    "frame": 40,
+    "delta_C_rank": 0.001583121264817744
+  },
+  {
+    "trajectory": 1,
+    "frame": 80,
+    "delta_C_rank": 0.004211623800518871
+  },
+  {
+    "trajectory": 1,
+    "frame": 120,
+    "delta_C_rank": 0.009527659045413972
+  },
+  {
+    "trajectory": 1,
+    "frame": 160,
+    "delta_C_rank": 0.008757033331514785
+  },
+  {
+    "trajectory": 2,
+    "frame": 0,
+    "delta_C_rank": 0.01255497016752205
+  },
+  {
+    "trajectory": 2,
+    "frame": 40,
+    "delta_C_rank": 0.0011476786756517976
+  },
+  {
+    "trajectory": 2,
+    "frame": 80,
+    "delta_C_rank": 0.0035616007536943828
+  },
+  {
+    "trajectory": 2,
+    "frame": 120,
+    "delta_C_rank": 0.009606576318754279
+  },
+  {
+    "trajectory": 2,
+    "frame": 160,
+    "delta_C_rank": 0.00962968894848737
+  },
+  {
+    "trajectory": 3,
+    "frame": 0,
+    "delta_C_rank": 0.013159401560322692
+  },
+  {
+    "trajectory": 3,
+    "frame": 40,
+    "delta_C_rank": 0.001086608986369919
+  },
+  {
+    "trajectory": 3,
+    "frame": 80,
+    "delta_C_rank": 0.004673727527359839
+  },
+  {
+    "trajectory": 3,
+    "frame": 120,
+    "delta_C_rank": 0.00984771299683529
+  },
+  {
+    "trajectory": 3,
+    "frame": 160,
+    "delta_C_rank": 0.010057143779674371
+  },
+  {
+    "trajectory": 4,
+    "frame": 0,
+    "delta_C_rank": 0.013580944675947393
+  },
+  {
+    "trajectory": 4,
+    "frame": 40,
+    "delta_C_rank": 0.0014396129423001058
+  },
+  {
+    "trajectory": 4,
+    "frame": 80,
+    "delta_C_rank": 0.005675222573541361
+  },
+  {
+    "trajectory": 4,
+    "frame": 120,
+    "delta_C_rank": 0.009119332961570747
+  },
+  {
+    "trajectory": 4,
+    "frame": 160,
+    "delta_C_rank": 0.00963359301736455
+  }
+]

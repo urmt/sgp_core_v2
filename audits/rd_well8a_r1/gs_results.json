@@ -1,0 +1,35 @@
+{
+  "domain": "gray_scott_reaction_diffusion",
+  "N": 5,
+  "mean_delta_C_rank": 0.0009569197351517955,
+  "std_delta_C_rank": 0.00030402323919702503,
+  "ci_95": 0.0002664881187970168,
+  "temporal_spread": 0.0007742549743068317,
+  "measurements": [
+    {
+      "trajectory": 0,
+      "timepoint": 0,
+      "delta_C_rank": 0.0010787178355938787
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 250,
+      "delta_C_rank": 0.0013730949099818313
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 500,
+      "delta_C_rank": 0.0005988399356749996
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 750,
+      "delta_C_rank": 0.0011216415292059079
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 1000,
+      "delta_C_rank": 0.0006123044653023602
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "dataset": "gray_scott_reaction_diffusion",
+  "prohibited_words": [
+    "coherence",
+    "fertility",
+    "interaction",
+    "persistence",
+    "emergence",
+    "observer",
+    "sentience",
+    "hierarchy",
+    "organization",
+    "structure",
+    "pattern",
+    "function",
+    "purpose",
+    "adaptive",
+    "self",
+    "collective",
+    "global",
+    "local",
+    "information",
+    "complexity",
+    "dynamics",
+    "stability",
+    "attractor",
+    "state",
+    "variable",
+    "parameter",
+    "system"
+  ],
+  "results": {}
+}

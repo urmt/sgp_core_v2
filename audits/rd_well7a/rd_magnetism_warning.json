@@ -1,0 +1,12 @@
+{
+  "warning": "Fields possessing topological constraints may invalidate measurements that behave well in unconstrained media.",
+  "status": "ACTIVE WARNING",
+  "implication": "MHD may expose entirely new hidden variables.",
+  "new_structures": [
+    "magnetic fields",
+    "reconnection",
+    "turbulence",
+    "multi-scale cascades",
+    "topological constraints"
+  ]
+}

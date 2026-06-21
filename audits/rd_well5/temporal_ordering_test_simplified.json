@@ -1,0 +1,8 @@
+{
+  "description": "Temporal ordering test",
+  "stabilization_time": 10,
+  "results": {
+    "C_before": 0.31469868067146045,
+    "C_after": 0.6478954589552326
+  }
+}

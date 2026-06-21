@@ -1,0 +1,68 @@
+{
+  "S1_spectral_entropy": {
+    "0.01": {
+      "stab_time": 86,
+      "metric_mean": 0.0002574394748080522,
+      "metric_std": 0.00034743358264677227
+    },
+    "0.03": {
+      "stab_time": 75,
+      "metric_mean": 0.0002574394748080522,
+      "metric_std": 0.00034743358264677227
+    },
+    "0.05": {
+      "stab_time": 69,
+      "metric_mean": 0.0002574394748080522,
+      "metric_std": 0.00034743358264677227
+    },
+    "0.1": {
+      "stab_time": 61,
+      "metric_mean": 0.0002574394748080522,
+      "metric_std": 0.00034743358264677227
+    }
+  },
+  "S2_temporal_derivative": {
+    "0.01": {
+      "stab_time": 86,
+      "metric_mean": 0.0006204361561685801,
+      "metric_std": 0.002302661305293441
+    },
+    "0.03": {
+      "stab_time": 35,
+      "metric_mean": 0.0006204361561685801,
+      "metric_std": 0.002302661305293441
+    },
+    "0.05": {
+      "stab_time": 6,
+      "metric_mean": 0.0006204361561685801,
+      "metric_std": 0.002302661305293441
+    },
+    "0.1": {
+      "stab_time": 5,
+      "metric_mean": 0.0006204361561685801,
+      "metric_std": 0.002302661305293441
+    }
+  },
+  "S3_morphology_persistence": {
+    "0.01": {
+      "stab_time": 63,
+      "metric_mean": 14.28140703517588,
+      "metric_std": 82.51761624638145
+    },
+    "0.03": {
+      "stab_time": 5,
+      "metric_mean": 14.28140703517588,
+      "metric_std": 82.51761624638145
+    },
+    "0.05": {
+      "stab_time": 2,
+      "metric_mean": 14.28140703517588,
+      "metric_std": 82.51761624638145
+    },
+    "0.1": {
+      "stab_time": 2,
+      "metric_mean": 14.28140703517588,
+      "metric_std": 82.51761624638145
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "field_shape": [
+    64,
+    64,
+    64
+  ],
+  "tests": {
+    "xy_z32": {
+      "autocorrelation_length": 32.0
+    },
+    "xz_y32": {
+      "autocorrelation_length": 32.0
+    },
+    "yz_x32": {
+      "autocorrelation_length": 32.0
+    },
+    "1d_z_axis": {
+      "autocorrelation_length": 64.0
+    },
+    "1d_y_axis": {
+      "autocorrelation_length": 64.0
+    },
+    "1d_x_axis": {
+      "autocorrelation_length": 64.0
+    }
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "frame_count": 15,
+  "frames": [
+    {
+      "file_index": 0,
+      "parameters": "Ma_0.7_Ms_0.5",
+      "timepoint": 0,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file0_time0.npy",
+      "min": 0.6284149885177612,
+      "max": 1.4215490818023682,
+      "mean": 0.9994493722915649,
+      "std": 0.13620606064796448
+    },
+    {
+      "file_index": 0,
+      "parameters": "Ma_0.7_Ms_0.5",
+      "timepoint": 50,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file0_time50.npy",
+      "min": 0.4922981858253479,
+      "max": 1.5717716217041016,
+      "mean": 1.0037004947662354,
+      "std": 0.16779406368732452
+    },
+    {
+      "file_index": 0,
+      "parameters": "Ma_0.7_Ms_0.5",
+      "timepoint": 99,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file0_time99.npy",
+      "min": 0.5302978157997131,
+      "max": 1.4106346368789673,
+      "mean": 0.9808355569839478,
+      "std": 0.16795672476291656
+    },
+    {
+      "file_index": 1,
+      "parameters": "Ma_0.7_Ms_0.7",
+      "timepoint": 0,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file1_time0.npy",
+      "min": 0.2490479052066803,
+      "max": 1.8468104600906372,
+      "mean": 0.9586562514305115,
+      "std": 0.2842458486557007
+    },
+    {
+      "file_index": 1,
+      "parameters": "Ma_0.7_Ms_0.7",
+      "timepoint": 50,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file1_time50.npy",
+      "min": 0.33008357882499695,
+      "max": 1.9999691247940063,
+      "mean": 0.9848033785820007,
+      "std": 0.25730928778648376
+    },
+    {
+      "file_index": 1,
+      "parameters": "Ma_0.7_Ms_0.7",
+      "timepoint": 99,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file1_time99.npy",
+      "min": 0.4098167419433594,
+      "max": 2.1871421337127686,
+      "mean": 1.0069726705551147,
+      "std": 0.2972460091114044
+    },
+    {
+      "file_index": 2,
+      "parameters": "Ma_0.7_Ms_1.5",
+      "timepoint": 0,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file2_time0.npy",
+      "min": 0.0335075743496418,
+      "max": 4.372415065765381,
+      "mean": 0.9038389921188354,
+      "std": 0.6304923295974731
+    },
+    {
+      "file_index": 2,
+      "parameters": "Ma_0.7_Ms_1.5",
+      "timepoint": 50,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file2_time50.npy",
+      "min": 0.04234906658530235,
+      "max": 7.015972137451172,
+      "mean": 0.9837515950202942,
+      "std": 0.7170692086219788
+    },
+    {
+      "file_index": 2,
+      "parameters": "Ma_0.7_Ms_1.5",
+      "timepoint": 99,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file2_time99.npy",
+      "min": 0.07492179423570633,
+      "max": 5.2830095291137695,
+      "mean": 0.9870091676712036,
+      "std": 0.6696207523345947
+    },
+    {
+      "file_index": 3,
+      "parameters": "Ma_0.7_Ms_2",
+      "timepoint": 0,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file3_time0.npy",
+      "min": 0.00014283129712566733,
+      "max": 11.825972557067871,
+      "mean": 1.0887527465820312,
+      "std": 1.0358153581619263
+    },
+    {
+      "file_index": 3,
+      "parameters": "Ma_0.7_Ms_2",
+      "timepoint": 50,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file3_time50.npy",
+      "min": 0.0574321448802948,
+      "max": 11.209854125976562,
+      "mean": 1.0451889038085938,
+      "std": 0.9895350337028503
+    },
+    {
+      "file_index": 3,
+      "parameters": "Ma_0.7_Ms_2",
+      "timepoint": 99,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file3_time99.npy",
+      "min": -0.0037328493781387806,
+      "max": 16.435148239135742,
+      "mean": 1.2436752319335938,
+      "std": 1.2239784002304077
+    },
+    {
+      "file_index": 4,
+      "parameters": "Ma_0.7_Ms_7",
+      "timepoint": 0,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file4_time0.npy",
+      "min": -4.816120147705078,
+      "max": 24.38125228881836,
+      "mean": 1.1434013843536377,
+      "std": 2.1961214542388916
+    },
+    {
+      "file_index": 4,
+      "parameters": "Ma_0.7_Ms_7",
+      "timepoint": 50,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file4_time50.npy",
+      "min": -1.7451701164245605,
+      "max": 17.934814453125,
+      "mean": 0.8912804126739502,
+      "std": 1.4424223899841309
+    },
+    {
+      "file_index": 4,
+      "parameters": "Ma_0.7_Ms_7",
+      "timepoint": 99,
+      "field_name": "density",
+      "all_fields": [
+        "density"
+      ],
+      "shape": [
+        64,
+        64
+      ],
+      "filename": "frame_file4_time99.npy",
+      "min": -2.624091386795044,
+      "max": 22.05160903930664,
+      "mean": 0.9581825137138367,
+      "std": 1.4513072967529297
+    }
+  ],
+  "descriptor_classification": {
+    "mean": {
+      "layer": "Layer 0",
+      "is_consumable_by_metrics": true,
+      "is_forbidden": false
+    },
+    "variance": {
+      "layer": "Layer 0",
+      "is_consumable_by_metrics": true,
+      "is_forbidden": false
+    },
+    "entropy": {
+      "layer": "Layer 0",
+      "is_consumable_by_metrics": true,
+      "is_forbidden": false
+    },
+    "power_spectrum": {
+      "layer": "Layer 0",
+      "is_consumable_by_metrics": true,
+      "is_forbidden": false
+    },
+    "frame_difference": {
+      "layer": "Layer 0",
+      "is_consumable_by_metrics": true,
+      "is_forbidden": false
+    },
+    "component_count": {
+      "layer": "Layer 0",
+      "is_consumable_by_metrics": true,
+      "is_forbidden": false
+    },
+    "autocorrelation_length": {
+      "layer": "Layer 1a",
+      "is_consumable_by_metrics": true,
+      "is_forbidden": false
+    },
+    "spectral_peak": {
+      "layer": "Layer 1a",
+      "is_consumable_by_metrics": true,
+      "is_forbidden": false
+    },
+    "temporal_derivative_norm": {
+      "layer": "Layer 1a",
+      "is_consumable_by_metrics": true,
+      "is_forbidden": false
+    }
+  },
+  "operational_ledger_summary": {
+    "descriptor_count": 8,
+    "layer_0_count": 6,
+    "layer_1a_count": 3,
+    "forbidden_count": 8
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "GS": {
+    "baseline_signature": "peaked",
+    "max_n": 10,
+    "descriptor_consistency": [
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7,
+      0.8,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "metric_cvs": [
+      2.0,
+      1.414213562373095,
+      1.1547005383792517,
+      1.0,
+      0.8944271909999159,
+      0.8164965809277261,
+      0.7559289460184544,
+      0.7071067811865475,
+      0.6666666666666666,
+      0.6324555320336759
+    ],
+    "perturbation_sensitivity": [
+      1.5,
+      1.0606601717798212,
+      0.8660254037844387,
+      0.75,
+      0.6708203932499369,
+      0.6123724356957946,
+      0.5669467095138409,
+      0.5303300858899106,
+      0.5,
+      0.4743416490252569
+    ],
+    "stabilization_metrics": {
+      "descriptor_consistency": {
+        "slope": 0.0575757575757576,
+        "second_derivative": -0.009469696969696965,
+        "convergence_half_life": 0.0,
+        "plateau_uncertainty": 0.0,
+        "stabilized": false
+      },
+      "metric_cv": {
+        "slope": -0.1247808547855894,
+        "second_derivative": 0.022663653049052483,
+        "convergence_half_life": 5.554916110736524,
+        "plateau_uncertainty": 0.030511589046608,
+        "stabilized": false
+      },
+      "perturbation_sensitivity": {
+        "slope": -0.09358564108919212,
+        "second_derivative": 0.01699773978678935,
+        "convergence_half_life": 7.40655481431536,
+        "plateau_uncertainty": 0.02288369178495601,
+        "stabilized": false
+      }
+    }
+  },
+  "RB": {
+    "baseline_signature": "high_to_low_to_gradual",
+    "max_n": 10,
+    "descriptor_consistency": [
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7,
+      0.8,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "metric_cvs": [
+      2.0,
+      1.414213562373095,
+      1.1547005383792517,
+      1.0,
+      0.8944271909999159,
+      0.8164965809277261,
+      0.7559289460184544,
+      0.7071067811865475,
+      0.6666666666666666,
+      0.6324555320336759
+    ],
+    "perturbation_sensitivity": [
+      1.5,
+      1.0606601717798212,
+      0.8660254037844387,
+      0.75,
+      0.6708203932499369,
+      0.6123724356957946,
+      0.5669467095138409,
+      0.5303300858899106,
+      0.5,
+      0.4743416490252569
+    ],
+    "stabilization_metrics": {
+      "descriptor_consistency": {
+        "slope": 0.0575757575757576,
+        "second_derivative": -0.009469696969696965,
+        "convergence_half_life": 0.0,
+        "plateau_uncertainty": 0.0,
+        "stabilized": false
+      },
+      "metric_cv": {
+        "slope": -0.1247808547855894,
+        "second_derivative": 0.022663653049052483,
+        "convergence_half_life": 5.554916110736524,
+        "plateau_uncertainty": 0.030511589046608,
+        "stabilized": false
+      },
+      "perturbation_sensitivity": {
+        "slope": -0.09358564108919212,
+        "second_derivative": 0.01699773978678935,
+        "convergence_half_life": 7.40655481431536,
+        "plateau_uncertainty": 0.02288369178495601,
+        "stabilized": false
+      }
+    }
+  },
+  "CML": {
+    "baseline_signature": "monotonic_increase",
+    "max_n": 10,
+    "descriptor_consistency": [
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7,
+      0.8,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "metric_cvs": [
+      2.0,
+      1.414213562373095,
+      1.1547005383792517,
+      1.0,
+      0.8944271909999159,
+      0.8164965809277261,
+      0.7559289460184544,
+      0.7071067811865475,
+      0.6666666666666666,
+      0.6324555320336759
+    ],
+    "perturbation_sensitivity": [
+      1.5,
+      1.0606601717798212,
+      0.8660254037844387,
+      0.75,
+      0.6708203932499369,
+      0.6123724356957946,
+      0.5669467095138409,
+      0.5303300858899106,
+      0.5,
+      0.4743416490252569
+    ],
+    "stabilization_metrics": {
+      "descriptor_consistency": {
+        "slope": 0.0575757575757576,
+        "second_derivative": -0.009469696969696965,
+        "convergence_half_life": 0.0,
+        "plateau_uncertainty": 0.0,
+        "stabilized": false
+      },
+      "metric_cv": {
+        "slope": -0.1247808547855894,
+        "second_derivative": 0.022663653049052483,
+        "convergence_half_life": 5.554916110736524,
+        "plateau_uncertainty": 0.030511589046608,
+        "stabilized": false
+      },
+      "perturbation_sensitivity": {
+        "slope": -0.09358564108919212,
+        "second_derivative": 0.01699773978678935,
+        "convergence_half_life": 7.40655481431536,
+        "plateau_uncertainty": 0.02288369178495601,
+        "stabilized": false
+      }
+    }
+  },
+  "AM": {
+    "baseline_signature": "high_to_low_to_gradual",
+    "max_n": 2,
+    "descriptor_consistency": [
+      0.4,
+      0.5
+    ],
+    "metric_cvs": [
+      2.0,
+      1.414213562373095
+    ],
+    "perturbation_sensitivity": [
+      1.5,
+      1.0606601717798212
+    ],
+    "stabilization_metrics": {
+      "descriptor_consistency": {
+        "slope": 0,
+        "second_derivative": 0,
+        "convergence_half_life": Infinity,
+        "plateau_uncertainty": 0,
+        "stabilized": false
+      },
+      "metric_cv": {
+        "slope": 0,
+        "second_derivative": 0,
+        "convergence_half_life": Infinity,
+        "plateau_uncertainty": 0,
+        "stabilized": false
+      },
+      "perturbation_sensitivity": {
+        "slope": 0,
+        "second_derivative": 0,
+        "convergence_half_life": Infinity,
+        "plateau_uncertainty": 0,
+        "stabilized": false
+      }
+    }
+  }
+}

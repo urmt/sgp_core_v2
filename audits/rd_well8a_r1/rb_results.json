@@ -1,0 +1,35 @@
+{
+  "domain": "rayleigh_benard",
+  "N": 5,
+  "mean_delta_C_rank": 0.001442962140637416,
+  "std_delta_C_rank": 0.0010286790972354302,
+  "ci_95": 0.0009016769842730027,
+  "temporal_spread": 0.0026744487254682925,
+  "measurements": [
+    {
+      "trajectory": 0,
+      "timepoint": 0,
+      "delta_C_rank": 0.00043429066760947155
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 50,
+      "delta_C_rank": 0.00037516590893849067
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 100,
+      "delta_C_rank": 0.002147763931308888
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 150,
+      "delta_C_rank": 0.0012079755609234466
+    },
+    {
+      "trajectory": 0,
+      "timepoint": 199,
+      "delta_C_rank": 0.003049614634406783
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "estimate_id": "AM_traj00_frame0000",
+    "trajectory_id": 0,
+    "frame_index": 0,
+    "transform": "rank",
+    "dimensional_reduction": "none (2D field)",
+    "compute_C_version": "gaussian",
+    "audit_provenance": "P3",
+    "C_original": 0.8267647861304763,
+    "C_rank": 0.8003905877961565,
+    "delta_C_rank": 0.026374198334319865
+  },
+  {
+    "estimate_id": "AM_traj00_frame0020",
+    "trajectory_id": 0,
+    "frame_index": 20,
+    "transform": "rank",
+    "dimensional_reduction": "none (2D field)",
+    "compute_C_version": "gaussian",
+    "audit_provenance": "P3",
+    "C_original": 0.8261649639037019,
+    "C_rank": 0.8134733261910262,
+    "delta_C_rank": 0.012691637712675674
+  },
+  {
+    "estimate_id": "AM_traj00_frame0040",
+    "trajectory_id": 0,
+    "frame_index": 40,
+    "transform": "rank",
+    "dimensional_reduction": "none (2D field)",
+    "compute_C_version": "gaussian",
+    "audit_provenance": "P3",
+    "C_original": 0.8247484417802766,
+    "C_rank": 0.8125074406693172,
+    "delta_C_rank": 0.012241001110959382
+  },
+  {
+    "estimate_id": "AM_traj00_frame0060",
+    "trajectory_id": 0,
+    "frame_index": 60,
+    "transform": "rank",
+    "dimensional_reduction": "none (2D field)",
+    "compute_C_version": "gaussian",
+    "audit_provenance": "P3",
+    "C_original": 0.8226560077444578,
+    "C_rank": 0.8006501766875468,
+    "delta_C_rank": 0.022005831056911007
+  },
+  {
+    "estimate_id": "AM_traj00_frame0080",
+    "trajectory_id": 0,
+    "frame_index": 80,
+    "transform": "rank",
+    "dimensional_reduction": "none (2D field)",
+    "compute_C_version": "gaussian",
+    "audit_provenance": "P3",
+    "C_original": 0.8215364605794124,
+    "C_rank": 0.7978111542543086,
+    "delta_C_rank": 0.023725306325103834
+  },
+  {
+    "estimate_id": "AM_traj01_frame0000",
+    "trajectory_id": 1,
+    "frame_index": 0,
+    "transform": "rank",
+    "dimensional_reduction": "none (2D field)",
+    "compute_C_version": "gaussian",
+    "audit_provenance": "P3",
+    "C_original": 0.8270608330430487,
+    "C_rank": 0.8008789671497116,
+    "delta_C_rank": 0.026181865893337042
+  },
+  {
+    "estimate_id": "AM_traj01_frame0020",
+    "trajectory_id": 1,
+    "frame_index": 20,
+    "transform": "rank",
+    "dimensional_reduction": "none (2D field)",
+    "compute_C_version": "gaussian",
+    "audit_provenance": "P3",
+    "C_original": 0.8240065674107453,
+    "C_rank": 0.8057932404878019,
+    "delta_C_rank": 0.018213326922943418
+  },
+  {
+    "estimate_id": "AM_traj01_frame0040",
+    "trajectory_id": 1,
+    "frame_index": 40,
+    "transform": "rank",
+    "dimensional_reduction": "none (2D field)",
+    "compute_C_version": "gaussian",
+    "audit_provenance": "P3",
+    "C_original": 0.8230938835982187,
+    "C_rank": 0.8122930624484124,
+    "delta_C_rank": 0.010800821149806294
+  },
+  {
+    "estimate_id": "AM_traj01_frame0060",
+    "trajectory_id": 1,
+    "frame_index": 60,
+    "transform": "rank",
+    "dimensional_reduction": "none (2D field)",
+    "compute_C_version": "gaussian",
+    "audit_provenance": "P3",
+    "C_original": 0.8230883381290239,
+    "C_rank": 0.8088782479494312,
+    "delta_C_rank": 0.014210090179592738
+  },
+  {
+    "estimate_id": "AM_traj01_frame0080",
+    "trajectory_id": 1,
+    "frame_index": 80,
+    "transform": "rank",
+    "dimensional_reduction": "none (2D field)",
+    "compute_C_version": "gaussian",
+    "audit_provenance": "P3",
+    "C_original": 0.82354000368165,
+    "C_rank": 0.8067167532371368,
+    "delta_C_rank": 0.01682325044451327
+  }
+]

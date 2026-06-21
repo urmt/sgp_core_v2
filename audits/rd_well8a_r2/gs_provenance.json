@@ -1,0 +1,44 @@
+[
+  {
+    "trajectory": 0,
+    "timepoint": 0,
+    "C_original": 0.8100636859462693,
+    "C_rank": 0.7397298011327381,
+    "delta_C_rank": 0.0703338848135312
+  },
+  {
+    "trajectory": 0,
+    "timepoint": 100,
+    "C_original": 0.7396758194279826,
+    "C_rank": 0.5633699813799203,
+    "delta_C_rank": 0.1763058380480622
+  },
+  {
+    "trajectory": 0,
+    "timepoint": 200,
+    "C_original": 0.7500203792692742,
+    "C_rank": 0.5687395263547487,
+    "delta_C_rank": 0.18128085291452556
+  },
+  {
+    "trajectory": 0,
+    "timepoint": 300,
+    "C_original": 0.7523856922355225,
+    "C_rank": 0.5746391959694164,
+    "delta_C_rank": 0.17774649626610617
+  },
+  {
+    "trajectory": 0,
+    "timepoint": 400,
+    "C_original": 0.7527763888275575,
+    "C_rank": 0.5763126792078199,
+    "delta_C_rank": 0.17646370961973756
+  },
+  {
+    "trajectory": 0,
+    "timepoint": 500,
+    "C_original": 0.7541016698354388,
+    "C_rank": 0.5735702203972755,
+    "delta_C_rank": 0.18053144943816335
+  }
+]

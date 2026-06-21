@@ -1,0 +1,52 @@
+[
+  {
+    "trajectory": 0,
+    "frame": 0,
+    "delta_C_rank": 0.026374198334319865
+  },
+  {
+    "trajectory": 0,
+    "frame": 20,
+    "delta_C_rank": 0.012691637712675674
+  },
+  {
+    "trajectory": 0,
+    "frame": 40,
+    "delta_C_rank": 0.012241001110959382
+  },
+  {
+    "trajectory": 0,
+    "frame": 60,
+    "delta_C_rank": 0.022005831056911007
+  },
+  {
+    "trajectory": 0,
+    "frame": 80,
+    "delta_C_rank": 0.023725306325103834
+  },
+  {
+    "trajectory": 1,
+    "frame": 0,
+    "delta_C_rank": 0.026181865893337042
+  },
+  {
+    "trajectory": 1,
+    "frame": 20,
+    "delta_C_rank": 0.018213326922943418
+  },
+  {
+    "trajectory": 1,
+    "frame": 40,
+    "delta_C_rank": 0.010800821149806294
+  },
+  {
+    "trajectory": 1,
+    "frame": 60,
+    "delta_C_rank": 0.014210090179592738
+  },
+  {
+    "trajectory": 1,
+    "frame": 80,
+    "delta_C_rank": 0.01682325044451327
+  }
+]

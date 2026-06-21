@@ -1,0 +1,12 @@
+{
+  "spectral_transport": {
+    "status": "PLAUSIBLE / UNDER TEST",
+    "definition": "The extent to which spectral measurements survive changes in dimensionality or observation geometry.",
+    "question": "Do frequency-like observables survive transport better than morphology-like observables?"
+  },
+  "observer_geometry": {
+    "status": "EVIDENCE ACCUMULATING",
+    "definition": "Measurement behavior that depends on the geometric relationship between observer and field.",
+    "evidence": "Volume vs Slice Audit showed substantial sensitivity to dimensional reduction."
+  }
+}

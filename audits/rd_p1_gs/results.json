@@ -1,0 +1,127 @@
+[
+  {
+    "trajectory": 0,
+    "frame": 0,
+    "delta_C_rank": 0.0703338848135312
+  },
+  {
+    "trajectory": 0,
+    "frame": 250,
+    "delta_C_rank": 0.17861533975895805
+  },
+  {
+    "trajectory": 0,
+    "frame": 500,
+    "delta_C_rank": 0.18053144943816335
+  },
+  {
+    "trajectory": 0,
+    "frame": 750,
+    "delta_C_rank": 0.17926415236929993
+  },
+  {
+    "trajectory": 0,
+    "frame": 1000,
+    "delta_C_rank": 0.1790332286209837
+  },
+  {
+    "trajectory": 1,
+    "frame": 0,
+    "delta_C_rank": 0.022440493506455828
+  },
+  {
+    "trajectory": 1,
+    "frame": 250,
+    "delta_C_rank": 0.19798477742434517
+  },
+  {
+    "trajectory": 1,
+    "frame": 500,
+    "delta_C_rank": 0.20511881142068178
+  },
+  {
+    "trajectory": 1,
+    "frame": 750,
+    "delta_C_rank": 0.2011637184179182
+  },
+  {
+    "trajectory": 1,
+    "frame": 1000,
+    "delta_C_rank": 0.1983421148671588
+  },
+  {
+    "trajectory": 2,
+    "frame": 0,
+    "delta_C_rank": 0.022361496797488667
+  },
+  {
+    "trajectory": 2,
+    "frame": 250,
+    "delta_C_rank": 0.21958390100487957
+  },
+  {
+    "trajectory": 2,
+    "frame": 500,
+    "delta_C_rank": 0.2195850434362428
+  },
+  {
+    "trajectory": 2,
+    "frame": 750,
+    "delta_C_rank": 0.21770197807493563
+  },
+  {
+    "trajectory": 2,
+    "frame": 1000,
+    "delta_C_rank": 0.22020772658340493
+  },
+  {
+    "trajectory": 3,
+    "frame": 0,
+    "delta_C_rank": 0.025920718787133534
+  },
+  {
+    "trajectory": 3,
+    "frame": 250,
+    "delta_C_rank": 0.18156035700254108
+  },
+  {
+    "trajectory": 3,
+    "frame": 500,
+    "delta_C_rank": 0.1881381447284627
+  },
+  {
+    "trajectory": 3,
+    "frame": 750,
+    "delta_C_rank": 0.18913057264388555
+  },
+  {
+    "trajectory": 3,
+    "frame": 1000,
+    "delta_C_rank": 0.18275355890527628
+  },
+  {
+    "trajectory": 4,
+    "frame": 0,
+    "delta_C_rank": 0.036622314071055206
+  },
+  {
+    "trajectory": 4,
+    "frame": 250,
+    "delta_C_rank": 0.17928269067090075
+  },
+  {
+    "trajectory": 4,
+    "frame": 500,
+    "delta_C_rank": 0.1766345476939849
+  },
+  {
+    "trajectory": 4,
+    "frame": 750,
+    "delta_C_rank": 0.17613546369459931
+  },
+  {
+    "trajectory": 4,
+    "frame": 1000,
+    "delta_C_rank": 0.17656405444384815
+  }
+]

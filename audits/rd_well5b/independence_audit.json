@@ -1,0 +1,17 @@
+{
+  "description": "Independence audit: correlation between C and stabilization metrics",
+  "results": {
+    "S1_spectral_entropy": {
+      "correlation": -0.9282726688677174,
+      "independent": false
+    },
+    "S2_temporal_derivative": {
+      "correlation": -0.9455655820003828,
+      "independent": false
+    },
+    "S3_morphology_persistence": {
+      "correlation": -0.9152180606560641,
+      "independent": false
+    }
+  }
+}

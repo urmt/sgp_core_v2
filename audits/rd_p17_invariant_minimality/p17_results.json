@@ -1,0 +1,1762 @@
+{
+  "GS": {
+    "layers": [
+      {
+        "layer": 0,
+        "description": "Full archive conditions",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 1,
+        "description": "Descriptor removal",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 2,
+        "description": "Transform minimality",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 3,
+        "description": "Observer minimality",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 4,
+        "description": "Warning suppression",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          }
+        ]
+      },
+      {
+        "layer": 5,
+        "description": "Information collapse",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      }
+    ],
+    "persistence": {
+      "cv_positive": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "cv_decreasing": {
+        "layer_0": 0.9,
+        "layer_1": 0.9,
+        "layer_2": 0.9,
+        "layer_3": 0.9,
+        "layer_4": 0.9,
+        "layer_5": 0.9
+      },
+      "convergence_floor": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "structure_disagreement": {
+        "layer_0": 0.5,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "warning_coactivation": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 0.0,
+        "layer_5": 1.0
+      }
+    },
+    "hierarchy": {
+      "cv_positive": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "cv_decreasing": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "convergence_floor": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "structure_disagreement": {
+        "collapse_layer": 0,
+        "persistence_depth": -1
+      },
+      "warning_coactivation": {
+        "collapse_layer": 4,
+        "persistence_depth": 3
+      }
+    }
+  },
+  "RB": {
+    "layers": [
+      {
+        "layer": 0,
+        "description": "Full archive conditions",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 1,
+        "description": "Descriptor removal",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 2,
+        "description": "Transform minimality",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 3,
+        "description": "Observer minimality",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 4,
+        "description": "Warning suppression",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          }
+        ]
+      },
+      {
+        "layer": 5,
+        "description": "Information collapse",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      }
+    ],
+    "persistence": {
+      "cv_positive": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "cv_decreasing": {
+        "layer_0": 0.9,
+        "layer_1": 0.9,
+        "layer_2": 0.9,
+        "layer_3": 0.9,
+        "layer_4": 0.9,
+        "layer_5": 0.9
+      },
+      "convergence_floor": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "structure_disagreement": {
+        "layer_0": 0.5,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "warning_coactivation": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 0.0,
+        "layer_5": 1.0
+      }
+    },
+    "hierarchy": {
+      "cv_positive": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "cv_decreasing": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "convergence_floor": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "structure_disagreement": {
+        "collapse_layer": 0,
+        "persistence_depth": -1
+      },
+      "warning_coactivation": {
+        "collapse_layer": 4,
+        "persistence_depth": 3
+      }
+    }
+  },
+  "CML": {
+    "layers": [
+      {
+        "layer": 0,
+        "description": "Full archive conditions",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": false,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 1,
+        "description": "Descriptor removal",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 2,
+        "description": "Transform minimality",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 3,
+        "description": "Observer minimality",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 4,
+        "description": "Warning suppression",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          }
+        ]
+      },
+      {
+        "layer": 5,
+        "description": "Information collapse",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      }
+    ],
+    "persistence": {
+      "cv_positive": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "cv_decreasing": {
+        "layer_0": 0.9,
+        "layer_1": 0.9,
+        "layer_2": 0.9,
+        "layer_3": 0.9,
+        "layer_4": 0.9,
+        "layer_5": 0.9
+      },
+      "convergence_floor": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "structure_disagreement": {
+        "layer_0": 0.5,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "warning_coactivation": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 0.0,
+        "layer_5": 1.0
+      }
+    },
+    "hierarchy": {
+      "cv_positive": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "cv_decreasing": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "convergence_floor": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "structure_disagreement": {
+        "collapse_layer": 0,
+        "persistence_depth": -1
+      },
+      "warning_coactivation": {
+        "collapse_layer": 4,
+        "persistence_depth": 3
+      }
+    }
+  },
+  "AM": {
+    "layers": [
+      {
+        "layer": 0,
+        "description": "Full archive conditions",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 1,
+        "description": "Descriptor removal",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 2,
+        "description": "Transform minimality",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 3,
+        "description": "Observer minimality",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      },
+      {
+        "layer": 4,
+        "description": "Warning suppression",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": false
+          }
+        ]
+      },
+      {
+        "layer": 5,
+        "description": "Information collapse",
+        "invariants": [
+          {
+            "cv_positive": "True",
+            "cv_decreasing": false,
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          },
+          {
+            "cv_positive": "True",
+            "cv_decreasing": "True",
+            "convergence_floor": "True",
+            "structure_disagreement": true,
+            "warning_coactivation": true
+          }
+        ]
+      }
+    ],
+    "persistence": {
+      "cv_positive": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "cv_decreasing": {
+        "layer_0": 0.5,
+        "layer_1": 0.5,
+        "layer_2": 0.5,
+        "layer_3": 0.5,
+        "layer_4": 0.5,
+        "layer_5": 0.5
+      },
+      "convergence_floor": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "structure_disagreement": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 1.0,
+        "layer_5": 1.0
+      },
+      "warning_coactivation": {
+        "layer_0": 1.0,
+        "layer_1": 1.0,
+        "layer_2": 1.0,
+        "layer_3": 1.0,
+        "layer_4": 0.0,
+        "layer_5": 1.0
+      }
+    },
+    "hierarchy": {
+      "cv_positive": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "cv_decreasing": {
+        "collapse_layer": 0,
+        "persistence_depth": -1
+      },
+      "convergence_floor": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "structure_disagreement": {
+        "collapse_layer": "survives_all",
+        "persistence_depth": 5
+      },
+      "warning_coactivation": {
+        "collapse_layer": 4,
+        "persistence_depth": 3
+      }
+    }
+  }
+}

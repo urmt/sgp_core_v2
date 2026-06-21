@@ -1,0 +1,70 @@
+{
+  "GS": {
+    "domain": "GS",
+    "within_variance": 0.004086725326076999,
+    "between_variance": 0.003936277554270239,
+    "ratio": 1.03822082404823,
+    "mean_delta_C_rank": 0.16100042156704542,
+    "std_delta_C_rank": 0.06483428529369524,
+    "min_delta_C_rank": 0.022361496797488667,
+    "max_delta_C_rank": 0.22020772658340493,
+    "spread": 0.19784622978591626,
+    "temporal_spread": 0.15931846855627438,
+    "between_spread": 0.04342032630482301,
+    "n_trajectories": 5,
+    "n_observations": 25
+  },
+  "RB": {
+    "domain": "RB",
+    "within_variance": 1.4946590191061786e-05,
+    "between_variance": 1.4274116910938371e-05,
+    "ratio": 1.047111375388,
+    "mean_delta_C_rank": 0.007472451057979188,
+    "std_delta_C_rank": 0.0038778246200240913,
+    "min_delta_C_rank": 0.001086608986369919,
+    "max_delta_C_rank": 0.013580944675947393,
+    "spread": 0.012494335689577474,
+    "temporal_spread": 0.010597723067222642,
+    "between_spread": 0.0020858938750881297,
+    "n_trajectories": 5,
+    "n_observations": 25
+  },
+  "AM": {
+    "domain": "AM",
+    "within_variance": 3.0211239055925638e-05,
+    "between_variance": 2.4328896056701096e-05,
+    "ratio": 1.2417842135341906,
+    "mean_delta_C_rank": 0.01832673291301625,
+    "std_delta_C_rank": 0.005601740953320924,
+    "min_delta_C_rank": 0.010800821149806294,
+    "max_delta_C_rank": 0.026374198334319865,
+    "spread": 0.01557337718451357,
+    "temporal_spread": 0.014757120983445615,
+    "between_spread": 0.004370399674062497,
+    "n_trajectories": 2,
+    "n_observations": 10
+  },
+  "MHD": {
+    "domain": "MHD",
+    "within_variance": 1.9634448543432333e-07,
+    "between_variance": 1.801630384316577e-07,
+    "ratio": 1.0898155756226537,
+    "mean_delta_C_rank": 0.0013897494183150727,
+    "std_delta_C_rank": 0.0006859113161686584,
+    "min_delta_C_rank": 0.0005689254575640401,
+    "max_delta_C_rank": 0.0024649860124211775,
+    "spread": 0.0018960605548571374,
+    "temporal_spread": 0.0008489123357135475,
+    "between_spread": 0.00104714821914359,
+    "n_trajectories": 2,
+    "n_observations": 4
+  },
+  "summary": {
+    "ratio_mean": 1.1042329971482685,
+    "ratio_std": 0.08177512739612003,
+    "ratio_cv": 0.07405604397559934,
+    "delta_mean": 0.047047338739088986,
+    "delta_std": 0.0660699732907632,
+    "delta_cv": 1.4043296616025036
+  }
+}

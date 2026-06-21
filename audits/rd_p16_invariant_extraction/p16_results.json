@@ -1,0 +1,2356 @@
+{
+  "GS": {
+    "invariants": [
+      {
+        "type": "structure_disagreement",
+        "N": 1,
+        "value": 0.2,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 1,
+        "value": 0.8,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 1,
+        "value": 0.7,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 2,
+        "value": 0.2,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 2,
+        "value": 0.8,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 2,
+        "value": 0.4949747468305832,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 3,
+        "value": 0.6,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 3,
+        "value": 0.4,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 3,
+        "value": 0.40414518843273806,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 4,
+        "value": 0.6,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 4,
+        "value": 0.4,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 4,
+        "value": 0.35,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 5,
+        "value": 0.6,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 5,
+        "value": 0.4,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 5,
+        "value": 0.3130495168499706,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 6,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 6,
+        "value": 0.28577380332470403,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 7,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 7,
+        "value": 0.264575131106459,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 8,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 8,
+        "value": 0.2474873734152916,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 9,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 9,
+        "value": 0.2333333333333334,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 10,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 10,
+        "value": 0.22135943621178655,
+        "description": "Range of metric CV across pipelines"
+      }
+    ],
+    "inequalities": [
+      {
+        "type": "positive_cv",
+        "N": 1,
+        "lower_bound": 1.8,
+        "upper_bound": 2.5,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "positive_cv",
+        "N": 2,
+        "lower_bound": 1.2727922061357855,
+        "upper_bound": 1.7677669529663687,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 2,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 3,
+        "lower_bound": 1.0392304845413265,
+        "upper_bound": 1.4433756729740645,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 3,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 4,
+        "lower_bound": 0.9,
+        "upper_bound": 1.25,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 4,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 5,
+        "lower_bound": 0.8049844718999243,
+        "upper_bound": 1.118033988749895,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 5,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 6,
+        "lower_bound": 0.7348469228349536,
+        "upper_bound": 1.0206207261596576,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 6,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 7,
+        "lower_bound": 0.680336051416609,
+        "upper_bound": 0.944911182523068,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 7,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 8,
+        "lower_bound": 0.6363961030678927,
+        "upper_bound": 0.8838834764831843,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 8,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 9,
+        "lower_bound": 0.6,
+        "upper_bound": 0.8333333333333334,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 9,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 10,
+        "lower_bound": 0.5692099788303082,
+        "upper_bound": 0.7905694150420948,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 10,
+        "description": "Metric CV decreases with N for all pipelines"
+      }
+    ],
+    "bounds": [
+      {
+        "type": "cv_lower_bound",
+        "N": 1,
+        "value": 1.8,
+        "description": "Minimum metric CV across pipelines: 1.8000"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 1,
+        "value": 2.5,
+        "description": "Maximum metric CV across pipelines: 2.5000"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 2,
+        "value": 1.2727922061357855,
+        "description": "Minimum metric CV across pipelines: 1.2728"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 2,
+        "value": 1.7677669529663687,
+        "description": "Maximum metric CV across pipelines: 1.7678"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 3,
+        "value": 1.0392304845413265,
+        "description": "Minimum metric CV across pipelines: 1.0392"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 3,
+        "value": 1.4433756729740645,
+        "description": "Maximum metric CV across pipelines: 1.4434"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 4,
+        "value": 0.9,
+        "description": "Minimum metric CV across pipelines: 0.9000"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 4,
+        "value": 1.25,
+        "description": "Maximum metric CV across pipelines: 1.2500"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 5,
+        "value": 0.8049844718999243,
+        "description": "Minimum metric CV across pipelines: 0.8050"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 5,
+        "value": 1.118033988749895,
+        "description": "Maximum metric CV across pipelines: 1.1180"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 6,
+        "value": 0.7348469228349536,
+        "description": "Minimum metric CV across pipelines: 0.7348"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 6,
+        "value": 1.0206207261596576,
+        "description": "Maximum metric CV across pipelines: 1.0206"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 7,
+        "value": 0.680336051416609,
+        "description": "Minimum metric CV across pipelines: 0.6803"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 7,
+        "value": 0.944911182523068,
+        "description": "Maximum metric CV across pipelines: 0.9449"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 8,
+        "value": 0.6363961030678927,
+        "description": "Minimum metric CV across pipelines: 0.6364"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 8,
+        "value": 0.8838834764831843,
+        "description": "Maximum metric CV across pipelines: 0.8839"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 9,
+        "value": 0.6,
+        "description": "Minimum metric CV across pipelines: 0.6000"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 9,
+        "value": 0.8333333333333334,
+        "description": "Maximum metric CV across pipelines: 0.8333"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 10,
+        "value": 0.5692099788303082,
+        "description": "Minimum metric CV across pipelines: 0.5692"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 10,
+        "value": 0.7905694150420948,
+        "description": "Maximum metric CV across pipelines: 0.7906"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "convergence_rate_bounded",
+        "N": 3,
+        "min_rate": 0.1835034190722738,
+        "max_rate": 0.18350341907227385,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 4,
+        "min_rate": 0.1339745962155614,
+        "max_rate": 0.13397459621556146,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 5,
+        "min_rate": 0.10557280900008408,
+        "max_rate": 0.10557280900008416,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 6,
+        "min_rate": 0.08712907082472296,
+        "max_rate": 0.08712907082472314,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 7,
+        "min_rate": 0.07417990022744861,
+        "max_rate": 0.07417990022744878,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 8,
+        "min_rate": 0.06458565330651461,
+        "max_rate": 0.06458565330651472,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 9,
+        "min_rate": 0.05719095841793651,
+        "max_rate": 0.057190958417936616,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 10,
+        "min_rate": 0.05131670194948612,
+        "max_rate": 0.051316701949486315,
+        "description": "All pipelines show positive convergence"
+      }
+    ],
+    "patterns": [
+      {
+        "type": "warning_coactivation",
+        "N": 1,
+        "active_count": 4,
+        "total_pipelines": 5,
+        "description": "4/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 1,
+        "pipelines": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C', 'D', 'E']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 2,
+        "active_count": 4,
+        "total_pipelines": 5,
+        "description": "4/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 2,
+        "pipelines": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C', 'D', 'E']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 3,
+        "active_count": 2,
+        "total_pipelines": 5,
+        "description": "2/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 3,
+        "pipelines": [
+          "A",
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 4,
+        "active_count": 2,
+        "total_pipelines": 5,
+        "description": "2/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 4,
+        "pipelines": [
+          "A",
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 5,
+        "active_count": 2,
+        "total_pipelines": 5,
+        "description": "2/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 5,
+        "pipelines": [
+          "A",
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 6,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 6,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 7,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 7,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 8,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 8,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 9,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 9,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 10,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 10,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      }
+    ],
+    "envelopes": [
+      {
+        "type": "response_range",
+        "N": 1,
+        "value": 0.7,
+        "description": "Range of perturbation response: 0.7000"
+      },
+      {
+        "type": "response_mean",
+        "N": 1,
+        "value": 2.1,
+        "description": "Mean perturbation response: 2.1000"
+      },
+      {
+        "type": "response_range",
+        "N": 2,
+        "value": 0.4949747468305832,
+        "description": "Range of perturbation response: 0.4950"
+      },
+      {
+        "type": "response_mean",
+        "N": 2,
+        "value": 1.48492424049175,
+        "description": "Mean perturbation response: 1.4849"
+      },
+      {
+        "type": "response_range",
+        "N": 3,
+        "value": 0.40414518843273806,
+        "description": "Range of perturbation response: 0.4041"
+      },
+      {
+        "type": "response_mean",
+        "N": 3,
+        "value": 1.2124355652982142,
+        "description": "Mean perturbation response: 1.2124"
+      },
+      {
+        "type": "response_range",
+        "N": 4,
+        "value": 0.35,
+        "description": "Range of perturbation response: 0.3500"
+      },
+      {
+        "type": "response_mean",
+        "N": 4,
+        "value": 1.05,
+        "description": "Mean perturbation response: 1.0500"
+      },
+      {
+        "type": "response_range",
+        "N": 5,
+        "value": 0.3130495168499706,
+        "description": "Range of perturbation response: 0.3130"
+      },
+      {
+        "type": "response_mean",
+        "N": 5,
+        "value": 0.9391485505499118,
+        "description": "Mean perturbation response: 0.9391"
+      },
+      {
+        "type": "response_range",
+        "N": 6,
+        "value": 0.28577380332470403,
+        "description": "Range of perturbation response: 0.2858"
+      },
+      {
+        "type": "response_mean",
+        "N": 6,
+        "value": 0.8573214099741125,
+        "description": "Mean perturbation response: 0.8573"
+      },
+      {
+        "type": "response_range",
+        "N": 7,
+        "value": 0.264575131106459,
+        "description": "Range of perturbation response: 0.2646"
+      },
+      {
+        "type": "response_mean",
+        "N": 7,
+        "value": 0.7937253933193771,
+        "description": "Mean perturbation response: 0.7937"
+      },
+      {
+        "type": "response_range",
+        "N": 8,
+        "value": 0.2474873734152916,
+        "description": "Range of perturbation response: 0.2475"
+      },
+      {
+        "type": "response_mean",
+        "N": 8,
+        "value": 0.742462120245875,
+        "description": "Mean perturbation response: 0.7425"
+      },
+      {
+        "type": "response_range",
+        "N": 9,
+        "value": 0.2333333333333334,
+        "description": "Range of perturbation response: 0.2333"
+      },
+      {
+        "type": "response_mean",
+        "N": 9,
+        "value": 0.7,
+        "description": "Mean perturbation response: 0.7000"
+      },
+      {
+        "type": "response_range",
+        "N": 10,
+        "value": 0.22135943621178655,
+        "description": "Range of perturbation response: 0.2214"
+      },
+      {
+        "type": "response_mean",
+        "N": 10,
+        "value": 0.6640783086353597,
+        "description": "Mean perturbation response: 0.6641"
+      }
+    ]
+  },
+  "RB": {
+    "invariants": [
+      {
+        "type": "structure_disagreement",
+        "N": 1,
+        "value": 0.2,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 1,
+        "value": 0.8,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 1,
+        "value": 0.7,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 2,
+        "value": 0.2,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 2,
+        "value": 0.8,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 2,
+        "value": 0.4949747468305832,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 3,
+        "value": 0.6,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 3,
+        "value": 0.4,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 3,
+        "value": 0.40414518843273806,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 4,
+        "value": 0.6,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 4,
+        "value": 0.4,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 4,
+        "value": 0.35,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 5,
+        "value": 0.6,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 5,
+        "value": 0.4,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 5,
+        "value": 0.3130495168499706,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 6,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 6,
+        "value": 0.28577380332470403,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 7,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 7,
+        "value": 0.264575131106459,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 8,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 8,
+        "value": 0.2474873734152916,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 9,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 9,
+        "value": 0.2333333333333334,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 10,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 10,
+        "value": 0.22135943621178655,
+        "description": "Range of metric CV across pipelines"
+      }
+    ],
+    "inequalities": [
+      {
+        "type": "positive_cv",
+        "N": 1,
+        "lower_bound": 1.8,
+        "upper_bound": 2.5,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "positive_cv",
+        "N": 2,
+        "lower_bound": 1.2727922061357855,
+        "upper_bound": 1.7677669529663687,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 2,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 3,
+        "lower_bound": 1.0392304845413265,
+        "upper_bound": 1.4433756729740645,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 3,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 4,
+        "lower_bound": 0.9,
+        "upper_bound": 1.25,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 4,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 5,
+        "lower_bound": 0.8049844718999243,
+        "upper_bound": 1.118033988749895,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 5,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 6,
+        "lower_bound": 0.7348469228349536,
+        "upper_bound": 1.0206207261596576,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 6,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 7,
+        "lower_bound": 0.680336051416609,
+        "upper_bound": 0.944911182523068,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 7,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 8,
+        "lower_bound": 0.6363961030678927,
+        "upper_bound": 0.8838834764831843,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 8,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 9,
+        "lower_bound": 0.6,
+        "upper_bound": 0.8333333333333334,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 9,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 10,
+        "lower_bound": 0.5692099788303082,
+        "upper_bound": 0.7905694150420948,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 10,
+        "description": "Metric CV decreases with N for all pipelines"
+      }
+    ],
+    "bounds": [
+      {
+        "type": "cv_lower_bound",
+        "N": 1,
+        "value": 1.8,
+        "description": "Minimum metric CV across pipelines: 1.8000"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 1,
+        "value": 2.5,
+        "description": "Maximum metric CV across pipelines: 2.5000"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 2,
+        "value": 1.2727922061357855,
+        "description": "Minimum metric CV across pipelines: 1.2728"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 2,
+        "value": 1.7677669529663687,
+        "description": "Maximum metric CV across pipelines: 1.7678"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 3,
+        "value": 1.0392304845413265,
+        "description": "Minimum metric CV across pipelines: 1.0392"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 3,
+        "value": 1.4433756729740645,
+        "description": "Maximum metric CV across pipelines: 1.4434"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 4,
+        "value": 0.9,
+        "description": "Minimum metric CV across pipelines: 0.9000"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 4,
+        "value": 1.25,
+        "description": "Maximum metric CV across pipelines: 1.2500"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 5,
+        "value": 0.8049844718999243,
+        "description": "Minimum metric CV across pipelines: 0.8050"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 5,
+        "value": 1.118033988749895,
+        "description": "Maximum metric CV across pipelines: 1.1180"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 6,
+        "value": 0.7348469228349536,
+        "description": "Minimum metric CV across pipelines: 0.7348"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 6,
+        "value": 1.0206207261596576,
+        "description": "Maximum metric CV across pipelines: 1.0206"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 7,
+        "value": 0.680336051416609,
+        "description": "Minimum metric CV across pipelines: 0.6803"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 7,
+        "value": 0.944911182523068,
+        "description": "Maximum metric CV across pipelines: 0.9449"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 8,
+        "value": 0.6363961030678927,
+        "description": "Minimum metric CV across pipelines: 0.6364"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 8,
+        "value": 0.8838834764831843,
+        "description": "Maximum metric CV across pipelines: 0.8839"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 9,
+        "value": 0.6,
+        "description": "Minimum metric CV across pipelines: 0.6000"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 9,
+        "value": 0.8333333333333334,
+        "description": "Maximum metric CV across pipelines: 0.8333"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 10,
+        "value": 0.5692099788303082,
+        "description": "Minimum metric CV across pipelines: 0.5692"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 10,
+        "value": 0.7905694150420948,
+        "description": "Maximum metric CV across pipelines: 0.7906"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "convergence_rate_bounded",
+        "N": 3,
+        "min_rate": 0.1835034190722738,
+        "max_rate": 0.18350341907227385,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 4,
+        "min_rate": 0.1339745962155614,
+        "max_rate": 0.13397459621556146,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 5,
+        "min_rate": 0.10557280900008408,
+        "max_rate": 0.10557280900008416,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 6,
+        "min_rate": 0.08712907082472296,
+        "max_rate": 0.08712907082472314,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 7,
+        "min_rate": 0.07417990022744861,
+        "max_rate": 0.07417990022744878,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 8,
+        "min_rate": 0.06458565330651461,
+        "max_rate": 0.06458565330651472,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 9,
+        "min_rate": 0.05719095841793651,
+        "max_rate": 0.057190958417936616,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 10,
+        "min_rate": 0.05131670194948612,
+        "max_rate": 0.051316701949486315,
+        "description": "All pipelines show positive convergence"
+      }
+    ],
+    "patterns": [
+      {
+        "type": "warning_coactivation",
+        "N": 1,
+        "active_count": 4,
+        "total_pipelines": 5,
+        "description": "4/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 1,
+        "pipelines": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C', 'D', 'E']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 2,
+        "active_count": 4,
+        "total_pipelines": 5,
+        "description": "4/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 2,
+        "pipelines": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C', 'D', 'E']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 3,
+        "active_count": 2,
+        "total_pipelines": 5,
+        "description": "2/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 3,
+        "pipelines": [
+          "A",
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 4,
+        "active_count": 2,
+        "total_pipelines": 5,
+        "description": "2/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 4,
+        "pipelines": [
+          "A",
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 5,
+        "active_count": 2,
+        "total_pipelines": 5,
+        "description": "2/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 5,
+        "pipelines": [
+          "A",
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 6,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 6,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 7,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 7,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 8,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 8,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 9,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 9,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 10,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 10,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      }
+    ],
+    "envelopes": [
+      {
+        "type": "response_range",
+        "N": 1,
+        "value": 0.7,
+        "description": "Range of perturbation response: 0.7000"
+      },
+      {
+        "type": "response_mean",
+        "N": 1,
+        "value": 2.1,
+        "description": "Mean perturbation response: 2.1000"
+      },
+      {
+        "type": "response_range",
+        "N": 2,
+        "value": 0.4949747468305832,
+        "description": "Range of perturbation response: 0.4950"
+      },
+      {
+        "type": "response_mean",
+        "N": 2,
+        "value": 1.48492424049175,
+        "description": "Mean perturbation response: 1.4849"
+      },
+      {
+        "type": "response_range",
+        "N": 3,
+        "value": 0.40414518843273806,
+        "description": "Range of perturbation response: 0.4041"
+      },
+      {
+        "type": "response_mean",
+        "N": 3,
+        "value": 1.2124355652982142,
+        "description": "Mean perturbation response: 1.2124"
+      },
+      {
+        "type": "response_range",
+        "N": 4,
+        "value": 0.35,
+        "description": "Range of perturbation response: 0.3500"
+      },
+      {
+        "type": "response_mean",
+        "N": 4,
+        "value": 1.05,
+        "description": "Mean perturbation response: 1.0500"
+      },
+      {
+        "type": "response_range",
+        "N": 5,
+        "value": 0.3130495168499706,
+        "description": "Range of perturbation response: 0.3130"
+      },
+      {
+        "type": "response_mean",
+        "N": 5,
+        "value": 0.9391485505499118,
+        "description": "Mean perturbation response: 0.9391"
+      },
+      {
+        "type": "response_range",
+        "N": 6,
+        "value": 0.28577380332470403,
+        "description": "Range of perturbation response: 0.2858"
+      },
+      {
+        "type": "response_mean",
+        "N": 6,
+        "value": 0.8573214099741125,
+        "description": "Mean perturbation response: 0.8573"
+      },
+      {
+        "type": "response_range",
+        "N": 7,
+        "value": 0.264575131106459,
+        "description": "Range of perturbation response: 0.2646"
+      },
+      {
+        "type": "response_mean",
+        "N": 7,
+        "value": 0.7937253933193771,
+        "description": "Mean perturbation response: 0.7937"
+      },
+      {
+        "type": "response_range",
+        "N": 8,
+        "value": 0.2474873734152916,
+        "description": "Range of perturbation response: 0.2475"
+      },
+      {
+        "type": "response_mean",
+        "N": 8,
+        "value": 0.742462120245875,
+        "description": "Mean perturbation response: 0.7425"
+      },
+      {
+        "type": "response_range",
+        "N": 9,
+        "value": 0.2333333333333334,
+        "description": "Range of perturbation response: 0.2333"
+      },
+      {
+        "type": "response_mean",
+        "N": 9,
+        "value": 0.7,
+        "description": "Mean perturbation response: 0.7000"
+      },
+      {
+        "type": "response_range",
+        "N": 10,
+        "value": 0.22135943621178655,
+        "description": "Range of perturbation response: 0.2214"
+      },
+      {
+        "type": "response_mean",
+        "N": 10,
+        "value": 0.6640783086353597,
+        "description": "Mean perturbation response: 0.6641"
+      }
+    ]
+  },
+  "CML": {
+    "invariants": [
+      {
+        "type": "structure_disagreement",
+        "N": 1,
+        "value": 0.2,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 1,
+        "value": 0.8,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 1,
+        "value": 0.7,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 2,
+        "value": 0.2,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 2,
+        "value": 0.8,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 2,
+        "value": 0.4949747468305832,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 3,
+        "value": 0.6,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 3,
+        "value": 0.4,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 3,
+        "value": 0.40414518843273806,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 4,
+        "value": 0.6,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 4,
+        "value": 0.4,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 4,
+        "value": 0.35,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 5,
+        "value": 0.6,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 5,
+        "value": 0.4,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 5,
+        "value": 0.3130495168499706,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 6,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 6,
+        "value": 0.28577380332470403,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 7,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 7,
+        "value": 0.264575131106459,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 8,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 8,
+        "value": 0.2474873734152916,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 9,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 9,
+        "value": 0.2333333333333334,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 10,
+        "value": 0.2,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 10,
+        "value": 0.22135943621178655,
+        "description": "Range of metric CV across pipelines"
+      }
+    ],
+    "inequalities": [
+      {
+        "type": "positive_cv",
+        "N": 1,
+        "lower_bound": 1.8,
+        "upper_bound": 2.5,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "positive_cv",
+        "N": 2,
+        "lower_bound": 1.2727922061357855,
+        "upper_bound": 1.7677669529663687,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 2,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 3,
+        "lower_bound": 1.0392304845413265,
+        "upper_bound": 1.4433756729740645,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 3,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 4,
+        "lower_bound": 0.9,
+        "upper_bound": 1.25,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 4,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 5,
+        "lower_bound": 0.8049844718999243,
+        "upper_bound": 1.118033988749895,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 5,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 6,
+        "lower_bound": 0.7348469228349536,
+        "upper_bound": 1.0206207261596576,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 6,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 7,
+        "lower_bound": 0.680336051416609,
+        "upper_bound": 0.944911182523068,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 7,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 8,
+        "lower_bound": 0.6363961030678927,
+        "upper_bound": 0.8838834764831843,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 8,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 9,
+        "lower_bound": 0.6,
+        "upper_bound": 0.8333333333333334,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 9,
+        "description": "Metric CV decreases with N for all pipelines"
+      },
+      {
+        "type": "positive_cv",
+        "N": 10,
+        "lower_bound": 0.5692099788303082,
+        "upper_bound": 0.7905694150420948,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 10,
+        "description": "Metric CV decreases with N for all pipelines"
+      }
+    ],
+    "bounds": [
+      {
+        "type": "cv_lower_bound",
+        "N": 1,
+        "value": 1.8,
+        "description": "Minimum metric CV across pipelines: 1.8000"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 1,
+        "value": 2.5,
+        "description": "Maximum metric CV across pipelines: 2.5000"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 2,
+        "value": 1.2727922061357855,
+        "description": "Minimum metric CV across pipelines: 1.2728"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 2,
+        "value": 1.7677669529663687,
+        "description": "Maximum metric CV across pipelines: 1.7678"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 3,
+        "value": 1.0392304845413265,
+        "description": "Minimum metric CV across pipelines: 1.0392"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 3,
+        "value": 1.4433756729740645,
+        "description": "Maximum metric CV across pipelines: 1.4434"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 4,
+        "value": 0.9,
+        "description": "Minimum metric CV across pipelines: 0.9000"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 4,
+        "value": 1.25,
+        "description": "Maximum metric CV across pipelines: 1.2500"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 5,
+        "value": 0.8049844718999243,
+        "description": "Minimum metric CV across pipelines: 0.8050"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 5,
+        "value": 1.118033988749895,
+        "description": "Maximum metric CV across pipelines: 1.1180"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 6,
+        "value": 0.7348469228349536,
+        "description": "Minimum metric CV across pipelines: 0.7348"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 6,
+        "value": 1.0206207261596576,
+        "description": "Maximum metric CV across pipelines: 1.0206"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 7,
+        "value": 0.680336051416609,
+        "description": "Minimum metric CV across pipelines: 0.6803"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 7,
+        "value": 0.944911182523068,
+        "description": "Maximum metric CV across pipelines: 0.9449"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 8,
+        "value": 0.6363961030678927,
+        "description": "Minimum metric CV across pipelines: 0.6364"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 8,
+        "value": 0.8838834764831843,
+        "description": "Maximum metric CV across pipelines: 0.8839"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 9,
+        "value": 0.6,
+        "description": "Minimum metric CV across pipelines: 0.6000"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 9,
+        "value": 0.8333333333333334,
+        "description": "Maximum metric CV across pipelines: 0.8333"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 10,
+        "value": 0.5692099788303082,
+        "description": "Minimum metric CV across pipelines: 0.5692"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 10,
+        "value": 0.7905694150420948,
+        "description": "Maximum metric CV across pipelines: 0.7906"
+      }
+    ],
+    "constraints": [
+      {
+        "type": "convergence_rate_bounded",
+        "N": 3,
+        "min_rate": 0.1835034190722738,
+        "max_rate": 0.18350341907227385,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 4,
+        "min_rate": 0.1339745962155614,
+        "max_rate": 0.13397459621556146,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 5,
+        "min_rate": 0.10557280900008408,
+        "max_rate": 0.10557280900008416,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 6,
+        "min_rate": 0.08712907082472296,
+        "max_rate": 0.08712907082472314,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 7,
+        "min_rate": 0.07417990022744861,
+        "max_rate": 0.07417990022744878,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 8,
+        "min_rate": 0.06458565330651461,
+        "max_rate": 0.06458565330651472,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 9,
+        "min_rate": 0.05719095841793651,
+        "max_rate": 0.057190958417936616,
+        "description": "All pipelines show positive convergence"
+      },
+      {
+        "type": "convergence_rate_bounded",
+        "N": 10,
+        "min_rate": 0.05131670194948612,
+        "max_rate": 0.051316701949486315,
+        "description": "All pipelines show positive convergence"
+      }
+    ],
+    "patterns": [
+      {
+        "type": "warning_coactivation",
+        "N": 1,
+        "active_count": 4,
+        "total_pipelines": 5,
+        "description": "4/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 1,
+        "pipelines": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C', 'D', 'E']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 2,
+        "active_count": 4,
+        "total_pipelines": 5,
+        "description": "4/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 2,
+        "pipelines": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C', 'D', 'E']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 3,
+        "active_count": 2,
+        "total_pipelines": 5,
+        "description": "2/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 3,
+        "pipelines": [
+          "A",
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 4,
+        "active_count": 2,
+        "total_pipelines": 5,
+        "description": "2/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 4,
+        "pipelines": [
+          "A",
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 5,
+        "active_count": 2,
+        "total_pipelines": 5,
+        "description": "2/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 5,
+        "pipelines": [
+          "A",
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 6,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 6,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 7,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 7,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 8,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 8,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 9,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 9,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 10,
+        "active_count": 1,
+        "total_pipelines": 5,
+        "description": "1/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 10,
+        "pipelines": [
+          "C"
+        ],
+        "description": "Pipelines that always activate warnings: ['C']"
+      }
+    ],
+    "envelopes": [
+      {
+        "type": "response_range",
+        "N": 1,
+        "value": 0.7,
+        "description": "Range of perturbation response: 0.7000"
+      },
+      {
+        "type": "response_mean",
+        "N": 1,
+        "value": 2.1,
+        "description": "Mean perturbation response: 2.1000"
+      },
+      {
+        "type": "response_range",
+        "N": 2,
+        "value": 0.4949747468305832,
+        "description": "Range of perturbation response: 0.4950"
+      },
+      {
+        "type": "response_mean",
+        "N": 2,
+        "value": 1.48492424049175,
+        "description": "Mean perturbation response: 1.4849"
+      },
+      {
+        "type": "response_range",
+        "N": 3,
+        "value": 0.40414518843273806,
+        "description": "Range of perturbation response: 0.4041"
+      },
+      {
+        "type": "response_mean",
+        "N": 3,
+        "value": 1.2124355652982142,
+        "description": "Mean perturbation response: 1.2124"
+      },
+      {
+        "type": "response_range",
+        "N": 4,
+        "value": 0.35,
+        "description": "Range of perturbation response: 0.3500"
+      },
+      {
+        "type": "response_mean",
+        "N": 4,
+        "value": 1.05,
+        "description": "Mean perturbation response: 1.0500"
+      },
+      {
+        "type": "response_range",
+        "N": 5,
+        "value": 0.3130495168499706,
+        "description": "Range of perturbation response: 0.3130"
+      },
+      {
+        "type": "response_mean",
+        "N": 5,
+        "value": 0.9391485505499118,
+        "description": "Mean perturbation response: 0.9391"
+      },
+      {
+        "type": "response_range",
+        "N": 6,
+        "value": 0.28577380332470403,
+        "description": "Range of perturbation response: 0.2858"
+      },
+      {
+        "type": "response_mean",
+        "N": 6,
+        "value": 0.8573214099741125,
+        "description": "Mean perturbation response: 0.8573"
+      },
+      {
+        "type": "response_range",
+        "N": 7,
+        "value": 0.264575131106459,
+        "description": "Range of perturbation response: 0.2646"
+      },
+      {
+        "type": "response_mean",
+        "N": 7,
+        "value": 0.7937253933193771,
+        "description": "Mean perturbation response: 0.7937"
+      },
+      {
+        "type": "response_range",
+        "N": 8,
+        "value": 0.2474873734152916,
+        "description": "Range of perturbation response: 0.2475"
+      },
+      {
+        "type": "response_mean",
+        "N": 8,
+        "value": 0.742462120245875,
+        "description": "Mean perturbation response: 0.7425"
+      },
+      {
+        "type": "response_range",
+        "N": 9,
+        "value": 0.2333333333333334,
+        "description": "Range of perturbation response: 0.2333"
+      },
+      {
+        "type": "response_mean",
+        "N": 9,
+        "value": 0.7,
+        "description": "Mean perturbation response: 0.7000"
+      },
+      {
+        "type": "response_range",
+        "N": 10,
+        "value": 0.22135943621178655,
+        "description": "Range of perturbation response: 0.2214"
+      },
+      {
+        "type": "response_mean",
+        "N": 10,
+        "value": 0.6640783086353597,
+        "description": "Mean perturbation response: 0.6641"
+      }
+    ]
+  },
+  "AM": {
+    "invariants": [
+      {
+        "type": "structure_disagreement",
+        "N": 1,
+        "value": 0.2,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 1,
+        "value": 0.8,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 1,
+        "value": 0.7,
+        "description": "Range of metric CV across pipelines"
+      },
+      {
+        "type": "structure_disagreement",
+        "N": 2,
+        "value": 0.2,
+        "description": "Fraction of pipelines claiming structure"
+      },
+      {
+        "type": "warning_asymmetry",
+        "N": 2,
+        "value": 0.8,
+        "description": "Fraction of pipelines activating warnings"
+      },
+      {
+        "type": "metric_cv_range",
+        "N": 2,
+        "value": 0.4949747468305832,
+        "description": "Range of metric CV across pipelines"
+      }
+    ],
+    "inequalities": [
+      {
+        "type": "positive_cv",
+        "N": 1,
+        "lower_bound": 1.8,
+        "upper_bound": 2.5,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "positive_cv",
+        "N": 2,
+        "lower_bound": 1.2727922061357855,
+        "upper_bound": 1.7677669529663687,
+        "description": "All pipelines show positive metric CV"
+      },
+      {
+        "type": "cv_decreasing",
+        "N": 2,
+        "description": "Metric CV decreases with N for all pipelines"
+      }
+    ],
+    "bounds": [
+      {
+        "type": "cv_lower_bound",
+        "N": 1,
+        "value": 1.8,
+        "description": "Minimum metric CV across pipelines: 1.8000"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 1,
+        "value": 2.5,
+        "description": "Maximum metric CV across pipelines: 2.5000"
+      },
+      {
+        "type": "cv_lower_bound",
+        "N": 2,
+        "value": 1.2727922061357855,
+        "description": "Minimum metric CV across pipelines: 1.2728"
+      },
+      {
+        "type": "cv_upper_bound",
+        "N": 2,
+        "value": 1.7677669529663687,
+        "description": "Maximum metric CV across pipelines: 1.7678"
+      }
+    ],
+    "constraints": [],
+    "patterns": [
+      {
+        "type": "warning_coactivation",
+        "N": 1,
+        "active_count": 4,
+        "total_pipelines": 5,
+        "description": "4/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 1,
+        "pipelines": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C', 'D', 'E']"
+      },
+      {
+        "type": "warning_coactivation",
+        "N": 2,
+        "active_count": 4,
+        "total_pipelines": 5,
+        "description": "4/5 pipelines activate warnings"
+      },
+      {
+        "type": "always_active_pipelines",
+        "N": 2,
+        "pipelines": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "description": "Pipelines that always activate warnings: ['A', 'C', 'D', 'E']"
+      }
+    ],
+    "envelopes": [
+      {
+        "type": "response_range",
+        "N": 1,
+        "value": 0.7,
+        "description": "Range of perturbation response: 0.7000"
+      },
+      {
+        "type": "response_mean",
+        "N": 1,
+        "value": 2.1,
+        "description": "Mean perturbation response: 2.1000"
+      },
+      {
+        "type": "response_range",
+        "N": 2,
+        "value": 0.4949747468305832,
+        "description": "Range of perturbation response: 0.4950"
+      },
+      {
+        "type": "response_mean",
+        "N": 2,
+        "value": 1.48492424049175,
+        "description": "Mean perturbation response: 1.4849"
+      }
+    ]
+  }
+}

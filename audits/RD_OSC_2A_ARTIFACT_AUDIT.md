@@ -37,7 +37,7 @@ The blind packets contain RD labels that were supposed to be hidden:
 | novelty | S07, S18 |
 | gain | S05, S08, S09, S12, S17, S20 |
 
-**Impact:** The packets are not truly blind. Coders could have been influenced by these labels.
+**Impact:** The packets are not truly blind. The coding outputs may be strongly constrained by packet construction.
 
 ---
 
@@ -105,11 +105,11 @@ The "15 clusters" are a manual categorization by one agent, not a computational 
 
 What the artifacts show:
 1. Three coders received non-blind packets (containing RD labels)
-2. The packets were so descriptive that coders paraphrased them
+2. The coding outputs may be strongly constrained by packet construction
 3. One agent (the same one that ran the coders) manually clustered the responses
 4. That agent then declared "100% agreement" based on its own clustering
 
-This is not independent blind coding. This is paraphrase detection with post-hoc categorization.
+This is not independent blind coding. This is packet-constrained output with post-hoc categorization.
 
 ---
 

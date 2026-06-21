@@ -1,0 +1,65 @@
+{
+  "description": "Cross-pattern coupling audit",
+  "results": {
+    "bubbles": {
+      "S1": {
+        "correlation": -0.9282726688677174,
+        "abs_correlation": 0.9282726688677174,
+        "independent": false
+      },
+      "S2": {
+        "correlation": -0.9500064651096138,
+        "abs_correlation": 0.9500064651096138,
+        "independent": false
+      },
+      "S3": {
+        "correlation": -0.912753138601084,
+        "abs_correlation": 0.912753138601084,
+        "independent": false
+      }
+    },
+    "maze": {
+      "S1": {
+        "correlation": -0.9382677629594115,
+        "abs_correlation": 0.9382677629594115,
+        "independent": false
+      },
+      "S2": {
+        "correlation": -0.7560415631573674,
+        "abs_correlation": 0.7560415631573674,
+        "independent": true
+      },
+      "S3": {
+        "correlation": -0.7373152868852755,
+        "abs_correlation": 0.7373152868852755,
+        "independent": true
+      }
+    },
+    "spirals": {
+      "S1": {
+        "correlation": -0.6976728261046519,
+        "abs_correlation": 0.6976728261046519,
+        "independent": true
+      },
+      "S2": {
+        "correlation": -0.490433650424655,
+        "abs_correlation": 0.490433650424655,
+        "independent": true
+      },
+      "S3": {
+        "correlation": -0.09796955873417011,
+        "abs_correlation": 0.09796955873417011,
+        "independent": true
+      }
+    },
+    "spots": {
+      "error": "https://huggingface.co/datasets/polymathic-ai/gray_scott_reaction_diffusion/resolve/main/data/train/gray_scott_reaction_diffusion_spots_F_0.022_k_0.063.hdf5"
+    },
+    "worms": {
+      "error": "https://huggingface.co/datasets/polymathic-ai/gray_scott_reaction_diffusion/resolve/main/data/train/gray_scott_reaction_diffusion_worms_F_0.040_k_0.065.hdf5"
+    },
+    "gliders": {
+      "error": "https://huggingface.co/datasets/polymathic-ai/gray_scott_reaction_diffusion/resolve/main/data/train/gray_scott_reaction_diffusion_gliders_F_0.028_k_0.062.hdf5"
+    }
+  }
+}

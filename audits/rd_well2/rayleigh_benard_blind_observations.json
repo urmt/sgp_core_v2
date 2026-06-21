@@ -1,0 +1,307 @@
+{
+  "dataset": "rayleigh_benard",
+  "prohibited_words": [
+    "coherence",
+    "fertility",
+    "interaction",
+    "persistence",
+    "emergence",
+    "observer",
+    "sentience",
+    "hierarchy",
+    "organization",
+    "structure",
+    "pattern",
+    "function",
+    "purpose",
+    "adaptive",
+    "self",
+    "collective",
+    "global",
+    "local",
+    "information",
+    "complexity",
+    "dynamics",
+    "stability",
+    "attractor",
+    "state",
+    "variable",
+    "parameter",
+    "system"
+  ],
+  "results": {
+    "Ra1e6_Pr1": {
+      "attrs": {
+        "Prandtl": "1.0",
+        "Rayleigh": "1000000.0",
+        "dataset_name": "rayleigh_benard",
+        "grid_type": "cartesian",
+        "n_spatial_dims": "2",
+        "n_trajectories": "40",
+        "simulation_parameters": "['Rayleigh' 'Prandtl']"
+      },
+      "time_series": {
+        "0": {
+          "time_step": 0,
+          "buoyancy_mean": 0.10000039637088776,
+          "buoyancy_std": 0.07071041315793991,
+          "buoyancy_min": 7.413991170324152e-06,
+          "buoyancy_max": 0.1999925971031189,
+          "buoyancy_spatial_variance": 0.004999962169677019,
+          "buoyancy_total": 6553.6259765625,
+          "buoyancy_local_maxima_count": 141
+        },
+        "50": {
+          "time_step": 50,
+          "buoyancy_mean": 0.26934099197387695,
+          "buoyancy_std": 0.325903981924057,
+          "buoyancy_min": 7.497584647353506e-06,
+          "buoyancy_max": 0.9999153017997742,
+          "buoyancy_spatial_variance": 0.10621340572834015,
+          "buoyancy_total": 17651.53125,
+          "buoyancy_local_maxima_count": 11
+        },
+        "100": {
+          "time_step": 100,
+          "buoyancy_mean": 0.357161283493042,
+          "buoyancy_std": 0.24517664313316345,
+          "buoyancy_min": 2.9334431019378826e-05,
+          "buoyancy_max": 0.9998907446861267,
+          "buoyancy_spatial_variance": 0.06011158972978592,
+          "buoyancy_total": 23406.921875,
+          "buoyancy_local_maxima_count": 64
+        },
+        "150": {
+          "time_step": 150,
+          "buoyancy_mean": 0.39719635248184204,
+          "buoyancy_std": 0.2394408881664276,
+          "buoyancy_min": 4.303161767893471e-05,
+          "buoyancy_max": 0.9999180436134338,
+          "buoyancy_spatial_variance": 0.05733194202184677,
+          "buoyancy_total": 26030.66015625,
+          "buoyancy_local_maxima_count": 54
+        },
+        "199": {
+          "time_step": 199,
+          "buoyancy_mean": 0.4239335358142853,
+          "buoyancy_std": 0.23927302658557892,
+          "buoyancy_min": 3.9645357901463285e-05,
+          "buoyancy_max": 0.9999426007270813,
+          "buoyancy_spatial_variance": 0.05725158005952835,
+          "buoyancy_total": 27782.908203125,
+          "buoyancy_local_maxima_count": 41
+        }
+      },
+      "observations": [
+        "Configuration: Ra1e6_Pr1",
+        "Rayleigh: 1000000.0, Prandtl: 1.0",
+        "\nTime step 0:",
+        "  Buoyancy: mean=0.1000, std=0.0707, range=[0.0000, 0.2000]",
+        "  Spatial variance: 0.005000",
+        "  Local maxima: 141",
+        "\nTime step 50:",
+        "  Buoyancy: mean=0.2693, std=0.3259, range=[0.0000, 0.9999]",
+        "  Spatial variance: 0.106213",
+        "  Local maxima: 11",
+        "\nTime step 100:",
+        "  Buoyancy: mean=0.3572, std=0.2452, range=[0.0000, 0.9999]",
+        "  Spatial variance: 0.060112",
+        "  Local maxima: 64",
+        "\nTime step 150:",
+        "  Buoyancy: mean=0.3972, std=0.2394, range=[0.0000, 0.9999]",
+        "  Spatial variance: 0.057332",
+        "  Local maxima: 54",
+        "\nTime step 199:",
+        "  Buoyancy: mean=0.4239, std=0.2393, range=[0.0000, 0.9999]",
+        "  Spatial variance: 0.057252",
+        "  Local maxima: 41",
+        "\nChange from t=0 to t=199:",
+        "  Buoyancy mean: 0.1000 -> 0.4239 (delta=0.323933)",
+        "  Buoyancy spatial variance: 0.005000 -> 0.057252",
+        "  Buoyancy local maxima: 141 -> 41"
+      ]
+    },
+    "Ra1e8_Pr1": {
+      "attrs": {
+        "Prandtl": "1.0",
+        "Rayleigh": "100000000.0",
+        "dataset_name": "rayleigh_benard",
+        "grid_type": "cartesian",
+        "n_spatial_dims": "2",
+        "n_trajectories": "40",
+        "simulation_parameters": "['Rayleigh' 'Prandtl']"
+      },
+      "time_series": {
+        "0": {
+          "time_step": 0,
+          "buoyancy_mean": 0.10000039637088776,
+          "buoyancy_std": 0.07071041315793991,
+          "buoyancy_min": 7.413991170324152e-06,
+          "buoyancy_max": 0.1999925971031189,
+          "buoyancy_spatial_variance": 0.004999962169677019,
+          "buoyancy_total": 6553.6259765625,
+          "buoyancy_local_maxima_count": 141
+        },
+        "50": {
+          "time_step": 50,
+          "buoyancy_mean": 0.18746590614318848,
+          "buoyancy_std": 0.22653856873512268,
+          "buoyancy_min": -0.0005752603756263852,
+          "buoyancy_max": 1.0003422498703003,
+          "buoyancy_spatial_variance": 0.051319725811481476,
+          "buoyancy_total": 12285.765625,
+          "buoyancy_local_maxima_count": 601
+        },
+        "100": {
+          "time_step": 100,
+          "buoyancy_mean": 0.23378169536590576,
+          "buoyancy_std": 0.20200064778327942,
+          "buoyancy_min": -0.00017120818665716797,
+          "buoyancy_max": 1.0001634359359741,
+          "buoyancy_spatial_variance": 0.04080425947904587,
+          "buoyancy_total": 15321.1171875,
+          "buoyancy_local_maxima_count": 1144
+        },
+        "150": {
+          "time_step": 150,
+          "buoyancy_mean": 0.26962271332740784,
+          "buoyancy_std": 0.1976473182439804,
+          "buoyancy_min": 6.0620524891419336e-05,
+          "buoyancy_max": 0.9997578859329224,
+          "buoyancy_spatial_variance": 0.03906445950269699,
+          "buoyancy_total": 17669.994140625,
+          "buoyancy_local_maxima_count": 788
+        },
+        "199": {
+          "time_step": 199,
+          "buoyancy_mean": 0.2969139814376831,
+          "buoyancy_std": 0.19596262276172638,
+          "buoyancy_min": 7.088773418217897e-05,
+          "buoyancy_max": 0.999776303768158,
+          "buoyancy_spatial_variance": 0.03840135037899017,
+          "buoyancy_total": 19458.5546875,
+          "buoyancy_local_maxima_count": 942
+        }
+      },
+      "observations": [
+        "Configuration: Ra1e8_Pr1",
+        "Rayleigh: 100000000.0, Prandtl: 1.0",
+        "\nTime step 0:",
+        "  Buoyancy: mean=0.1000, std=0.0707, range=[0.0000, 0.2000]",
+        "  Spatial variance: 0.005000",
+        "  Local maxima: 141",
+        "\nTime step 50:",
+        "  Buoyancy: mean=0.1875, std=0.2265, range=[-0.0006, 1.0003]",
+        "  Spatial variance: 0.051320",
+        "  Local maxima: 601",
+        "\nTime step 100:",
+        "  Buoyancy: mean=0.2338, std=0.2020, range=[-0.0002, 1.0002]",
+        "  Spatial variance: 0.040804",
+        "  Local maxima: 1144",
+        "\nTime step 150:",
+        "  Buoyancy: mean=0.2696, std=0.1976, range=[0.0001, 0.9998]",
+        "  Spatial variance: 0.039064",
+        "  Local maxima: 788",
+        "\nTime step 199:",
+        "  Buoyancy: mean=0.2969, std=0.1960, range=[0.0001, 0.9998]",
+        "  Spatial variance: 0.038401",
+        "  Local maxima: 942",
+        "\nChange from t=0 to t=199:",
+        "  Buoyancy mean: 0.1000 -> 0.2969 (delta=0.196914)",
+        "  Buoyancy spatial variance: 0.005000 -> 0.038401",
+        "  Buoyancy local maxima: 141 -> 942"
+      ]
+    },
+    "Ra1e10_Pr1": {
+      "attrs": {
+        "Prandtl": "1.0",
+        "Rayleigh": "10000000000.0",
+        "dataset_name": "rayleigh_benard",
+        "grid_type": "cartesian",
+        "n_spatial_dims": "2",
+        "n_trajectories": "40",
+        "simulation_parameters": "['Rayleigh' 'Prandtl']"
+      },
+      "time_series": {
+        "0": {
+          "time_step": 0,
+          "buoyancy_mean": 0.10000039637088776,
+          "buoyancy_std": 0.07071041315793991,
+          "buoyancy_min": 7.413991170324152e-06,
+          "buoyancy_max": 0.1999925971031189,
+          "buoyancy_spatial_variance": 0.004999962169677019,
+          "buoyancy_total": 6553.6259765625,
+          "buoyancy_local_maxima_count": 141
+        },
+        "50": {
+          "time_step": 50,
+          "buoyancy_mean": 0.14944833517074585,
+          "buoyancy_std": 0.17566832900047302,
+          "buoyancy_min": -0.0070786792784929276,
+          "buoyancy_max": 1.009006381034851,
+          "buoyancy_spatial_variance": 0.030859362334012985,
+          "buoyancy_total": 9794.24609375,
+          "buoyancy_local_maxima_count": 9294
+        },
+        "100": {
+          "time_step": 100,
+          "buoyancy_mean": 0.17423947155475616,
+          "buoyancy_std": 0.15343891084194183,
+          "buoyancy_min": -0.11534558981657028,
+          "buoyancy_max": 1.003608226776123,
+          "buoyancy_spatial_variance": 0.023543499410152435,
+          "buoyancy_total": 11418.9580078125,
+          "buoyancy_local_maxima_count": 8123
+        },
+        "150": {
+          "time_step": 150,
+          "buoyancy_mean": 0.19327974319458008,
+          "buoyancy_std": 0.1495494395494461,
+          "buoyancy_min": -0.0636521726846695,
+          "buoyancy_max": 1.0032668113708496,
+          "buoyancy_spatial_variance": 0.022365035489201546,
+          "buoyancy_total": 12666.78125,
+          "buoyancy_local_maxima_count": 8716
+        },
+        "199": {
+          "time_step": 199,
+          "buoyancy_mean": 0.21087050437927246,
+          "buoyancy_std": 0.14756284654140472,
+          "buoyancy_min": -0.010798514820635319,
+          "buoyancy_max": 1.0063047409057617,
+          "buoyancy_spatial_variance": 0.021774794906377792,
+          "buoyancy_total": 13819.609375,
+          "buoyancy_local_maxima_count": 8246
+        }
+      },
+      "observations": [
+        "Configuration: Ra1e10_Pr1",
+        "Rayleigh: 10000000000.0, Prandtl: 1.0",
+        "\nTime step 0:",
+        "  Buoyancy: mean=0.1000, std=0.0707, range=[0.0000, 0.2000]",
+        "  Spatial variance: 0.005000",
+        "  Local maxima: 141",
+        "\nTime step 50:",
+        "  Buoyancy: mean=0.1494, std=0.1757, range=[-0.0071, 1.0090]",
+        "  Spatial variance: 0.030859",
+        "  Local maxima: 9294",
+        "\nTime step 100:",
+        "  Buoyancy: mean=0.1742, std=0.1534, range=[-0.1153, 1.0036]",
+        "  Spatial variance: 0.023543",
+        "  Local maxima: 8123",
+        "\nTime step 150:",
+        "  Buoyancy: mean=0.1933, std=0.1495, range=[-0.0637, 1.0033]",
+        "  Spatial variance: 0.022365",
+        "  Local maxima: 8716",
+        "\nTime step 199:",
+        "  Buoyancy: mean=0.2109, std=0.1476, range=[-0.0108, 1.0063]",
+        "  Spatial variance: 0.021775",
+        "  Local maxima: 8246",
+        "\nChange from t=0 to t=199:",
+        "  Buoyancy mean: 0.1000 -> 0.2109 (delta=0.110870)",
+        "  Buoyancy spatial variance: 0.005000 -> 0.021775",
+        "  Buoyancy local maxima: 141 -> 8246"
+      ]
+    }
+  }
+}

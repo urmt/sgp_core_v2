@@ -1,0 +1,583 @@
+{
+  "perturbations": {
+    "GS": {
+      "baseline_descriptor": "peaked",
+      "baseline_metrics": {
+        "temporal_spread": 0.11019756462463215,
+        "peak_timing": 0.4,
+        "recovery_slope": 0.021739868761490498,
+        "persistence": 0.0,
+        "volatility": 0.2768263639299394,
+        "mean_c": 0.15755561100018725,
+        "std_c": 0.04361554693762444
+      },
+      "perturbations": {
+        "transform_rank": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 4.0,
+            "peak_timing": 0.4,
+            "recovery_slope": 0.4,
+            "persistence": 0.0,
+            "volatility": 0.47140452077531825,
+            "mean_c": 3.0,
+            "std_c": 1.4142135623730951
+          },
+          "descriptor_stable": true
+        },
+        "transform_raw": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.11019756462463215,
+            "peak_timing": 0.4,
+            "recovery_slope": 0.021739868761490498,
+            "persistence": 0.0,
+            "volatility": 0.2768263639299394,
+            "mean_c": 0.15755561100018725,
+            "std_c": 0.04361554693762444
+          },
+          "descriptor_stable": true
+        },
+        "transform_zscore": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 2.5265661527121996,
+            "peak_timing": 0.4,
+            "recovery_slope": 0.49844310774277734,
+            "persistence": 0.0,
+            "volatility": 10000014432.920149,
+            "mean_c": -1.4432899320127036e-16,
+            "std_c": 0.9999999999999998
+          },
+          "descriptor_stable": true
+        },
+        "transform_minmax": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 1.0,
+            "peak_timing": 0.4,
+            "recovery_slope": 0.19728084586572658,
+            "persistence": 0.0,
+            "volatility": 0.5000537003679097,
+            "mean_c": 0.7915032104725808,
+            "std_c": 0.3957941092998999
+          },
+          "descriptor_stable": true
+        },
+        "subsample_1": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.11019756462463215,
+            "peak_timing": 0.4,
+            "recovery_slope": 0.021739868761490498,
+            "persistence": 0.0,
+            "volatility": 0.2768263639299394,
+            "mean_c": 0.15755561100018725,
+            "std_c": 0.04361554693762444
+          },
+          "descriptor_stable": true
+        },
+        "subsample_2": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.11019756462463215,
+            "peak_timing": 0.3333333333333333,
+            "recovery_slope": 0.036233114602484164,
+            "persistence": 0.0,
+            "volatility": 0.36007183482224103,
+            "mean_c": 0.1432995209575594,
+            "std_c": 0.05159812147634379
+          },
+          "descriptor_stable": true
+        },
+        "window_3": {
+          "descriptor": "monotonic_increase",
+          "metrics": {
+            "temporal_spread": 0.03644938547259813,
+            "peak_timing": 0.6666666666666666,
+            "recovery_slope": 0.012149795157532709,
+            "persistence": 0.0,
+            "volatility": 0.10243904412517321,
+            "mean_c": 0.16741338288950233,
+            "std_c": 0.017149666927206153
+          },
+          "descriptor_stable": false
+        },
+        "noise_0.01": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.11528874392213657,
+            "peak_timing": 0.6,
+            "recovery_slope": 0.017228364224673963,
+            "persistence": 0.0,
+            "volatility": 0.2739368805362026,
+            "mean_c": 0.15556503839430277,
+            "std_c": 0.04261500136562358
+          },
+          "descriptor_stable": true
+        },
+        "noise_0.05": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.14481091900056875,
+            "peak_timing": 0.6,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": 0.42650929536500554,
+            "mean_c": 0.14760274797076495,
+            "std_c": 0.06295394407360039
+          },
+          "descriptor_stable": true
+        },
+        "noise_0.1": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.28939091425282126,
+            "peak_timing": 0.6,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": 0.8042231156218302,
+            "mean_c": 0.13764988494134264,
+            "std_c": 0.11070121941293536
+          },
+          "descriptor_stable": true
+        }
+      }
+    },
+    "RB": {
+      "baseline_descriptor": "high_to_low_to_gradual",
+      "baseline_metrics": {
+        "temporal_spread": 0.007522041342971297,
+        "peak_timing": 0.8,
+        "recovery_slope": 0.0018805103357428243,
+        "persistence": 0.0,
+        "volatility": 0.39206746687988675,
+        "mean_c": 0.007305948732665768,
+        "std_c": 0.0028644248519773333
+      },
+      "perturbations": {
+        "transform_rank": {
+          "descriptor": "unclassified",
+          "metrics": {
+            "temporal_spread": 4.0,
+            "peak_timing": 0.8,
+            "recovery_slope": 1.0,
+            "persistence": 0.0,
+            "volatility": 0.47140452077531825,
+            "mean_c": 3.0,
+            "std_c": 1.4142135623730951
+          },
+          "descriptor_stable": false
+        },
+        "transform_raw": {
+          "descriptor": "high_to_low_to_gradual",
+          "metrics": {
+            "temporal_spread": 0.007522041342971297,
+            "peak_timing": 0.8,
+            "recovery_slope": 0.0018805103357428243,
+            "persistence": 0.0,
+            "volatility": 0.39206746687988675,
+            "mean_c": 0.007305948732665768,
+            "std_c": 0.0028644248519773333
+          },
+          "descriptor_stable": true
+        },
+        "transform_zscore": {
+          "descriptor": "high_to_low_to_gradual",
+          "metrics": {
+            "temporal_spread": 2.626021533704673,
+            "peak_timing": 0.8,
+            "recovery_slope": 0.6565053834261683,
+            "persistence": 0.0,
+            "volatility": 10000000000.0,
+            "mean_c": 0.0,
+            "std_c": 1.0
+          },
+          "descriptor_stable": true
+        },
+        "transform_minmax": {
+          "descriptor": "high_to_low_to_gradual",
+          "metrics": {
+            "temporal_spread": 1.0,
+            "peak_timing": 0.8,
+            "recovery_slope": 0.25,
+            "persistence": 0.0,
+            "volatility": 0.6226884051810462,
+            "mean_c": 0.6115485459535109,
+            "std_c": 0.3808041888328483
+          },
+          "descriptor_stable": true
+        },
+        "subsample_1": {
+          "descriptor": "high_to_low_to_gradual",
+          "metrics": {
+            "temporal_spread": 0.007522041342971297,
+            "peak_timing": 0.8,
+            "recovery_slope": 0.0018805103357428243,
+            "persistence": 0.0,
+            "volatility": 0.39206746687988675,
+            "mean_c": 0.007305948732665768,
+            "std_c": 0.0028644248519773333
+          },
+          "descriptor_stable": true
+        },
+        "subsample_2": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.004991726698426069,
+            "peak_timing": 0.6666666666666666,
+            "recovery_slope": 0.0024958633492130344,
+            "persistence": 0.0,
+            "volatility": 0.2609381501643281,
+            "mean_c": 0.008182551105099764,
+            "std_c": 0.0021351397750836256
+          },
+          "descriptor_stable": false
+        },
+        "window_3": {
+          "descriptor": "monotonic_increase",
+          "metrics": {
+            "temporal_spread": 0.0025715632166625193,
+            "peak_timing": 0.6666666666666666,
+            "recovery_slope": 0.0008571877388875064,
+            "persistence": 0.0,
+            "volatility": 0.18270288730581583,
+            "mean_c": 0.006553797097109755,
+            "std_c": 0.0011973976707287152
+          },
+          "descriptor_stable": false
+        },
+        "noise_0.01": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.027964337481969803,
+            "peak_timing": 0.6,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": 2.1657227279333164,
+            "mean_c": 0.005315376126781309,
+            "std_c": 0.011511631101856714
+          },
+          "descriptor_stable": false
+        },
+        "noise_0.05": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.1436283336837718,
+            "peak_timing": 0.6,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": -21.10956787731686,
+            "mean_c": -0.002646914296756528,
+            "std_c": 0.05587521490186556
+          },
+          "descriptor_stable": false
+        },
+        "noise_0.1": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.2882083289360243,
+            "peak_timing": 0.6,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": -8.861562644170977,
+            "mean_c": -0.012599777326178823,
+            "std_c": 0.11165371519238247
+          },
+          "descriptor_stable": false
+        }
+      }
+    },
+    "AM": {
+      "baseline_descriptor": "high_to_low_to_gradual",
+      "baseline_metrics": {
+        "temporal_spread": 0.014133197223360483,
+        "peak_timing": 0.0,
+        "recovery_slope": 0.003828101738048151,
+        "persistence": 0.0,
+        "volatility": 0.30079237617677357,
+        "mean_c": 0.01940759490799395,
+        "std_c": 0.00583765661833099
+      },
+      "perturbations": {
+        "transform_rank": {
+          "descriptor": "high_to_low_to_gradual",
+          "metrics": {
+            "temporal_spread": 4.0,
+            "peak_timing": 0.0,
+            "recovery_slope": 1.0,
+            "persistence": 0.0,
+            "volatility": 0.47140452077531825,
+            "mean_c": 3.0,
+            "std_c": 1.4142135623730951
+          },
+          "descriptor_stable": true
+        },
+        "transform_raw": {
+          "descriptor": "high_to_low_to_gradual",
+          "metrics": {
+            "temporal_spread": 0.014133197223360483,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.003828101738048151,
+            "persistence": 0.0,
+            "volatility": 0.30079237617677357,
+            "mean_c": 0.01940759490799395,
+            "std_c": 0.00583765661833099
+          },
+          "descriptor_stable": true
+        },
+        "transform_zscore": {
+          "descriptor": "high_to_low_to_gradual",
+          "metrics": {
+            "temporal_spread": 2.4210394936523727,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.6557600058262113,
+            "persistence": 0.0,
+            "volatility": 9999977795.58881,
+            "mean_c": 2.220446049250313e-16,
+            "std_c": 1.0
+          },
+          "descriptor_stable": true
+        },
+        "transform_minmax": {
+          "descriptor": "high_to_low_to_gradual",
+          "metrics": {
+            "temporal_spread": 1.0,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.2708588635358995,
+            "persistence": 0.0,
+            "volatility": 0.8145650196604255,
+            "mean_c": 0.5070751991763794,
+            "std_c": 0.41304571966787823
+          },
+          "descriptor_stable": true
+        },
+        "subsample_1": {
+          "descriptor": "high_to_low_to_gradual",
+          "metrics": {
+            "temporal_spread": 0.014133197223360483,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.003828101738048151,
+            "persistence": 0.0,
+            "volatility": 0.30079237617677357,
+            "mean_c": 0.01940759490799395,
+            "std_c": 0.00583765661833099
+          },
+          "descriptor_stable": true
+        },
+        "subsample_2": {
+          "descriptor": "high_to_low_to_gradual",
+          "metrics": {
+            "temporal_spread": 0.014133197223360483,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.005742152607072226,
+            "persistence": 0.0,
+            "volatility": 0.2951938070004992,
+            "mean_c": 0.020780168590127695,
+            "std_c": 0.006134177105751371
+          },
+          "descriptor_stable": true
+        },
+        "window_3": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.0036778895374760534,
+            "peak_timing": 0.6666666666666666,
+            "recovery_slope": 0.0018389447687380267,
+            "persistence": 0.0,
+            "volatility": 0.08712652947294094,
+            "mean_c": 0.01735749394794169,
+            "std_c": 0.0015122982167443887
+          },
+          "descriptor_stable": false
+        },
+        "noise_0.01": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.029119681570552426,
+            "peak_timing": 0.6,
+            "recovery_slope": 0.00048078944707368766,
+            "persistence": 0.0,
+            "volatility": 0.7024558251373758,
+            "mean_c": 0.017417022302109494,
+            "std_c": 0.012234688842909985
+          },
+          "descriptor_stable": false
+        },
+        "noise_0.05": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.1428605199840597,
+            "peak_timing": 0.6,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": 5.893039486483637,
+            "mean_c": 0.009454731878571657,
+            "std_c": 0.05571710888384234
+          },
+          "descriptor_stable": false
+        },
+        "noise_0.1": {
+          "descriptor": "peaked",
+          "metrics": {
+            "temporal_spread": 0.2874405152363122,
+            "peak_timing": 0.6,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": -223.59476511012392,
+            "mean_c": -0.0004981311508506392,
+            "std_c": 0.11137949530900787
+          },
+          "descriptor_stable": false
+        }
+      }
+    },
+    "MHD": {
+      "baseline_descriptor": "insufficient_data",
+      "baseline_metrics": {
+        "temporal_spread": 0.0,
+        "peak_timing": 0.0,
+        "recovery_slope": 0.0,
+        "persistence": 0.0,
+        "volatility": 0.0,
+        "mean_c": 0.0,
+        "std_c": 0.0
+      },
+      "perturbations": {
+        "transform_rank": {
+          "descriptor": "insufficient_data",
+          "metrics": {
+            "temporal_spread": 0.0,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": 0.0,
+            "mean_c": 0.0,
+            "std_c": 0.0
+          },
+          "descriptor_stable": true
+        },
+        "transform_raw": {
+          "descriptor": "insufficient_data",
+          "metrics": {
+            "temporal_spread": 0.0,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": 0.0,
+            "mean_c": 0.0,
+            "std_c": 0.0
+          },
+          "descriptor_stable": true
+        },
+        "transform_zscore": {
+          "descriptor": "insufficient_data",
+          "metrics": {
+            "temporal_spread": 0.0,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": 0.0,
+            "mean_c": 0.0,
+            "std_c": 0.0
+          },
+          "descriptor_stable": true
+        },
+        "transform_minmax": {
+          "descriptor": "insufficient_data",
+          "metrics": {
+            "temporal_spread": 0.0,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": 0.0,
+            "mean_c": 0.0,
+            "std_c": 0.0
+          },
+          "descriptor_stable": true
+        },
+        "noise_0.01": {
+          "descriptor": "insufficient_data",
+          "metrics": {
+            "temporal_spread": 0.0,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": 0.0,
+            "mean_c": 0.0,
+            "std_c": 0.0
+          },
+          "descriptor_stable": true
+        },
+        "noise_0.05": {
+          "descriptor": "insufficient_data",
+          "metrics": {
+            "temporal_spread": 0.0,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": 0.0,
+            "mean_c": 0.0,
+            "std_c": 0.0
+          },
+          "descriptor_stable": true
+        },
+        "noise_0.1": {
+          "descriptor": "insufficient_data",
+          "metrics": {
+            "temporal_spread": 0.0,
+            "peak_timing": 0.0,
+            "recovery_slope": 0.0,
+            "persistence": 0.0,
+            "volatility": 0.0,
+            "mean_c": 0.0,
+            "std_c": 0.0
+          },
+          "descriptor_stable": true
+        }
+      }
+    }
+  },
+  "stability": {
+    "GS": {
+      "descriptor_stability": 0.9,
+      "metric_cvs": {
+        "temporal_spread": 1.5172664284076227,
+        "persistence": 0.0,
+        "volatility": 2.9999999988359045
+      },
+      "mean_cv": 1.5057554757478424,
+      "overall_status": "FRAGILE"
+    },
+    "RB": {
+      "descriptor_stability": 0.4,
+      "metric_cvs": {
+        "temporal_spread": 1.6280262661024205,
+        "persistence": 0.0,
+        "volatility": 3.0000000084945126
+      },
+      "mean_cv": 1.5426754248656442,
+      "overall_status": "FRAGILE"
+    },
+    "AM": {
+      "descriptor_stability": 0.6,
+      "metric_cvs": {
+        "temporal_spread": 1.629493223028843,
+        "persistence": 0.0,
+        "volatility": 3.000000071576626
+      },
+      "mean_cv": 1.5431644315351563,
+      "overall_status": "FRAGILE"
+    },
+    "MHD": {
+      "descriptor_stability": 1.0,
+      "metric_cvs": {
+        "temporal_spread": 0.0,
+        "persistence": 0.0,
+        "volatility": 0.0
+      },
+      "mean_cv": 0.0,
+      "overall_status": "ROBUST"
+    }
+  }
+}

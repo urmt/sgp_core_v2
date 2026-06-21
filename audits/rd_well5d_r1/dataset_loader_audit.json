@@ -1,0 +1,51 @@
+{
+  "description": "Dataset loader audit",
+  "results": {
+    "rayleigh_benard": [
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/rayleigh_benard/resolve/main/data/train/rayleigh_benard_Ra1e+08_Pr1_2D_512x128_1000.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/rayleigh_benard/resolve/main/data/train/rayleigh_benard_Ra1e+08_Pr1_2D_512x128_1000.hdf5"
+      },
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/rayleigh_benard/resolve/main/data/train/rayleigh_benard_Ra1e+08_Pr1_2D_512x128_200.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/rayleigh_benard/resolve/main/data/train/rayleigh_benard_Ra1e+08_Pr1_2D_512x128_200.hdf5"
+      },
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/rayleigh_benard/resolve/main/data/train/rayleigh_benard_Ra1e+06_Pr1_2D_512x128_1000.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/rayleigh_benard/resolve/main/data/train/rayleigh_benard_Ra1e+06_Pr1_2D_512x128_1000.hdf5"
+      }
+    ],
+    "active_matter": [
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_activity_8.0_noise_0.001.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_activity_8.0_noise_0.001.hdf5"
+      },
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_activity_1.0_noise_0.001.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_activity_1.0_noise_0.001.hdf5"
+      },
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_activity_0.1_noise_0.001.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_activity_0.1_noise_0.001.hdf5"
+      }
+    ],
+    "rayleigh_taylor": [
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/rayleigh_taylor_instability/resolve/main/data/train/rayleigh_taylor_instability_A0.5_n4_2D_256x512_2000.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/rayleigh_taylor_instability/resolve/main/data/train/rayleigh_taylor_instability_A0.5_n4_2D_256x512_2000.hdf5"
+      },
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/rayleigh_taylor_instability/resolve/main/data/train/rayleigh_taylor_instability_A0.5_n4_2D_256x512_1000.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/rayleigh_taylor_instability/resolve/main/data/train/rayleigh_taylor_instability_A0.5_n4_2D_256x512_1000.hdf5"
+      }
+    ]
+  }
+}

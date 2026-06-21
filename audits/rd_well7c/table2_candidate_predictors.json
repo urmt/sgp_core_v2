@@ -1,0 +1,57 @@
+{
+  "GS": {
+    "entropy": 4.8,
+    "sparsity": 0.0,
+    "dimensionality": "2D",
+    "topology": "unconstrained",
+    "boundary_conditions": "periodic",
+    "field_count": 2,
+    "slice_dependence": "N/A",
+    "autocorrelation": "N/A",
+    "spectral_peak": "N/A"
+  },
+  "RT": {
+    "entropy": 5.5,
+    "sparsity": 0.1,
+    "dimensionality": "2D",
+    "topology": "unconstrained",
+    "boundary_conditions": "open_bottom",
+    "field_count": 3,
+    "slice_dependence": "N/A",
+    "autocorrelation": "N/A",
+    "spectral_peak": "N/A"
+  },
+  "AM": {
+    "entropy": 5.2,
+    "sparsity": 0.05,
+    "dimensionality": "2D",
+    "topology": "unconstrained",
+    "boundary_conditions": "periodic",
+    "field_count": 2,
+    "slice_dependence": "N/A",
+    "autocorrelation": "N/A",
+    "spectral_peak": "N/A"
+  },
+  "RB": {
+    "entropy": 6.0,
+    "sparsity": 0.0,
+    "dimensionality": "2D",
+    "topology": "unconstrained",
+    "boundary_conditions": "no_slip",
+    "field_count": 3,
+    "slice_dependence": "N/A",
+    "autocorrelation": "N/A",
+    "spectral_peak": "N/A"
+  },
+  "MHD": {
+    "entropy": 6.5,
+    "sparsity": 0.0,
+    "dimensionality": "3D",
+    "topology": "constrained",
+    "boundary_conditions": "periodic",
+    "field_count": 3,
+    "slice_dependence": 0.129,
+    "autocorrelation": 32.0,
+    "spectral_peak": 2
+  }
+}

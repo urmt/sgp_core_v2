@@ -1,0 +1,43 @@
+{
+  "description": "Dataset loader audit (corrected URLs)",
+  "results": {
+    "rayleigh_benard": [
+      {
+        "status": "success",
+        "url": "https://huggingface.co/datasets/polymathic-ai/rayleigh_benard/resolve/main/data/train/rayleigh_benard_Rayleigh_1e8_Prandtl_1.hdf5",
+        "top_keys": [
+          "boundary_conditions",
+          "dimensions",
+          "scalars",
+          "t0_fields",
+          "t1_fields",
+          "t2_fields"
+        ]
+      }
+    ],
+    "active_matter": [
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_activity_8.0_noise_0.001.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_activity_8.0_noise_0.001.hdf5"
+      },
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_activity_1.0_noise_0.001.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/active_matter/resolve/main/data/train/active_matter_activity_1.0_noise_0.001.hdf5"
+      }
+    ],
+    "rayleigh_taylor": [
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/rayleigh_taylor_instability/resolve/main/data/train/rayleigh_taylor_instability_A0.5_n4_2D_256x512_2000.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/rayleigh_taylor_instability/resolve/main/data/train/rayleigh_taylor_instability_A0.5_n4_2D_256x512_2000.hdf5"
+      },
+      {
+        "status": "error",
+        "url": "https://huggingface.co/datasets/polymathic-ai/rayleigh_taylor_instability/resolve/main/data/train/rayleigh_taylor_instability_A0.5_n4_2D_256x512_1000.hdf5",
+        "error": "https://huggingface.co/datasets/polymathic-ai/rayleigh_taylor_instability/resolve/main/data/train/rayleigh_taylor_instability_A0.5_n4_2D_256x512_1000.hdf5"
+      }
+    ]
+  }
+}

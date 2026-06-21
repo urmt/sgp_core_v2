@@ -1,0 +1,40 @@
+{
+  "description": "Threshold sensitivity audit for stabilization",
+  "results": {
+    "0.001": {
+      "t_stab_A": 15,
+      "t_stab_B": 13,
+      "C_before": 0.33207566716257525,
+      "C_after": 0.6888624806148897,
+      "C_increases": true
+    },
+    "0.005": {
+      "t_stab_A": 10,
+      "t_stab_B": 10,
+      "C_before": null,
+      "C_after": null,
+      "C_increases": null
+    },
+    "0.01": {
+      "t_stab_A": 10,
+      "t_stab_B": 10,
+      "C_before": null,
+      "C_after": null,
+      "C_increases": null
+    },
+    "0.02": {
+      "t_stab_A": 10,
+      "t_stab_B": 10,
+      "C_before": null,
+      "C_after": null,
+      "C_increases": null
+    },
+    "0.05": {
+      "t_stab_A": 10,
+      "t_stab_B": 10,
+      "C_before": null,
+      "C_after": null,
+      "C_increases": null
+    }
+  }
+}

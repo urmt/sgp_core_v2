@@ -1,0 +1,244 @@
+{
+  "GS": {
+    "curves": {
+      "descriptor_consistency": [
+        0.4,
+        0.5,
+        0.6000000000000001,
+        0.7,
+        0.8,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ],
+      "metric_cv": [
+        2.0,
+        1.414213562373095,
+        1.1547005383792517,
+        1.0,
+        0.8944271909999159,
+        0.8164965809277261,
+        0.7559289460184544,
+        0.7071067811865475,
+        0.6666666666666666,
+        0.6324555320336759,
+        0.6030226891555273,
+        0.5773502691896258,
+        0.5547001962252291,
+        0.5345224838248488,
+        0.5163977794943222
+      ],
+      "perturbation_sensitivity": [
+        1.5,
+        1.0606601717798212,
+        0.8660254037844387,
+        0.75,
+        0.6708203932499369,
+        0.6123724356957946,
+        0.5669467095138409,
+        0.5303300858899106,
+        0.5,
+        0.4743416490252569,
+        0.45226701686664544,
+        0.43301270189221935,
+        0.41602514716892186,
+        0.4008918628686366,
+        0.3872983346207417
+      ]
+    },
+    "geometry": {
+      "convergence_half_life": {
+        "descriptor": 0,
+        "metric_cv": 34.13926470702545,
+        "perturbation_sensitivity": 45.51901960936744
+      },
+      "asymptotic_variance_floor": {
+        "descriptor": 0.9,
+        "metric_cv": 0.5352068198481333,
+        "perturbation_sensitivity": 0.40140511488610003
+      },
+      "perturbation_damping_rate": {
+        "metric_cv": 0.0821362224048722,
+        "perturbation_sensitivity": 0.0821362224048722
+      },
+      "descriptor_persistence": 0.6666666666666666,
+      "protocol_elasticity": 0.1428571428571428,
+      "stabilization_topology": "descriptor_only"
+    }
+  },
+  "RB": {
+    "curves": {
+      "descriptor_consistency": [
+        0.4,
+        0.5,
+        0.6000000000000001,
+        0.7,
+        0.8,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ],
+      "metric_cv": [
+        2.0,
+        1.414213562373095,
+        1.1547005383792517,
+        1.0,
+        0.8944271909999159,
+        0.8164965809277261,
+        0.7559289460184544,
+        0.7071067811865475,
+        0.6666666666666666,
+        0.6324555320336759,
+        0.6030226891555273,
+        0.5773502691896258,
+        0.5547001962252291,
+        0.5345224838248488,
+        0.5163977794943222
+      ],
+      "perturbation_sensitivity": [
+        1.5,
+        1.0606601717798212,
+        0.8660254037844387,
+        0.75,
+        0.6708203932499369,
+        0.6123724356957946,
+        0.5669467095138409,
+        0.5303300858899106,
+        0.5,
+        0.4743416490252569,
+        0.45226701686664544,
+        0.43301270189221935,
+        0.41602514716892186,
+        0.4008918628686366,
+        0.3872983346207417
+      ]
+    },
+    "geometry": {
+      "convergence_half_life": {
+        "descriptor": 0,
+        "metric_cv": 34.13926470702545,
+        "perturbation_sensitivity": 45.51901960936744
+      },
+      "asymptotic_variance_floor": {
+        "descriptor": 0.9,
+        "metric_cv": 0.5352068198481333,
+        "perturbation_sensitivity": 0.40140511488610003
+      },
+      "perturbation_damping_rate": {
+        "metric_cv": 0.0821362224048722,
+        "perturbation_sensitivity": 0.0821362224048722
+      },
+      "descriptor_persistence": 0.6666666666666666,
+      "protocol_elasticity": 0.1428571428571428,
+      "stabilization_topology": "descriptor_only"
+    }
+  },
+  "CML": {
+    "curves": {
+      "descriptor_consistency": [
+        0.4,
+        0.5,
+        0.6000000000000001,
+        0.7,
+        0.8,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ],
+      "metric_cv": [
+        2.0,
+        1.414213562373095,
+        1.1547005383792517,
+        1.0,
+        0.8944271909999159,
+        0.8164965809277261,
+        0.7559289460184544,
+        0.7071067811865475,
+        0.6666666666666666,
+        0.6324555320336759
+      ],
+      "perturbation_sensitivity": [
+        1.5,
+        1.0606601717798212,
+        0.8660254037844387,
+        0.75,
+        0.6708203932499369,
+        0.6123724356957946,
+        0.5669467095138409,
+        0.5303300858899106,
+        0.5,
+        0.4743416490252569
+      ]
+    },
+    "geometry": {
+      "convergence_half_life": {
+        "descriptor": 0,
+        "metric_cv": 16.87062695725047,
+        "perturbation_sensitivity": 22.49416927633397
+      },
+      "asymptotic_variance_floor": {
+        "descriptor": 0.9,
+        "metric_cv": 0.66874299329563,
+        "perturbation_sensitivity": 0.5015572449717225
+      },
+      "perturbation_damping_rate": {
+        "metric_cv": 0.11520340240121356,
+        "perturbation_sensitivity": 0.11520340240121356
+      },
+      "descriptor_persistence": 0.5,
+      "protocol_elasticity": 0.14285714285714288,
+      "stabilization_topology": "descriptor_only"
+    }
+  },
+  "AM": {
+    "curves": {
+      "descriptor_consistency": [
+        0.4,
+        0.5
+      ],
+      "metric_cv": [
+        2.0,
+        1.414213562373095
+      ],
+      "perturbation_sensitivity": [
+        1.5,
+        1.0606601717798212
+      ]
+    },
+    "geometry": {
+      "convergence_half_life": {
+        "descriptor": Infinity,
+        "metric_cv": Infinity,
+        "perturbation_sensitivity": Infinity
+      },
+      "asymptotic_variance_floor": {
+        "descriptor": 0.45,
+        "metric_cv": 1.7071067811865475,
+        "perturbation_sensitivity": 1.2803300858899105
+      },
+      "perturbation_damping_rate": {
+        "metric_cv": 0.0,
+        "perturbation_sensitivity": 0.0
+      },
+      "descriptor_persistence": 0.5,
+      "protocol_elasticity": 0.14285714285714288,
+      "stabilization_topology": "mixed"
+    }
+  }
+}
