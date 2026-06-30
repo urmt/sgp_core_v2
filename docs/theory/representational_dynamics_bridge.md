@@ -110,7 +110,45 @@ Cov(τ_rep, τ_func) ≠ 0
 
 ---
 
-## 5. Cross-Cutting Findings
+## 5. Operational Principles
+
+Two principles emerge from the empirical comparison that constrain interpretation
+without making ontological claims.
+
+### P1: Timescale-Dependent Framework Dominance
+
+TRACK B (coupled) describes local transition mechanics. TRACK A (parallel) describes
+long-horizon recovery geometry and hysteresis persistence. This is not a claim about
+"true" system architecture — it is an operational finding about measurement timescale:
+
+| Timescale | Dominant Track | Observable | Empirical Signal |
+|-----------|---------------|------------|-----------------|
+| Short (1–50 steps) | TRACK B | Cross-correlation, coupling strength | ρ > 0.3, lag structure |
+| Long (100–600 steps) | TRACK A | Path divergence, loop area | Reversibility gap > 0.3 |
+
+**Implication:** The appropriate analytical framework depends on the measurement
+window. Frameworks that fix a single explanatory regime (purely coupled or purely
+independent) will systematically misdescribe dynamics at the opposite timescale.
+
+### P2: Functional Restoration Underdetermines Representational Restoration
+
+Representational hysteresis dominates functional hysteresis across all tested systems.
+This means:
+
+- Observed functional recovery (behavioral competence regained) is not evidence of
+  representational recovery (prior internal geometry restored).
+- The converse is not claimed: representational recovery may occur without functional
+  recovery (the immune system shows ED explosion without pathogen clearance).
+- The asymmetry is measurable, not metaphysical — it is quantified as the ratio
+  of functional reversibility to representational reversibility.
+
+**Implication:** Any intervention study that measures only functional outcomes
+cannot constrain claims about representational persistence. Both modalities must
+be measured independently.
+
+---
+
+## 6. Cross-Cutting Findings
 
 ### Finding 1: Representation ≫ Function Hysteresis
 Representational trajectories are near-completely irreversible across all systems (reversibility ≈ 0). Functional trajectories show > 0.33 reversibility in 3/4 systems. Consistent with Phase 004B: representation and function are separable.
@@ -128,7 +166,7 @@ TRACK B (coupled) is favored by collapse dynamics analysis across all 4 systems.
 
 ---
 
-## 6. Constraint Compliance Verification
+## 7. Constraint Compliance Verification
 
 | Constraint | Status | Notes |
 |------------|--------|-------|
@@ -141,7 +179,7 @@ TRACK B (coupled) is favored by collapse dynamics analysis across all 4 systems.
 
 ---
 
-## 7. Repository Identity
+## 8. Repository Identity
 
 **Current:** Adaptive representational dynamics — collapse trajectories as primary objects, dual-framework comparison, empirical constraint compliance.
 
@@ -149,7 +187,7 @@ TRACK B (coupled) is favored by collapse dynamics analysis across all 4 systems.
 
 ---
 
-## 8. Key References
+## 9. Key References
 
 - `experiments/dynamics/collapse_dynamics.py` — Core dual-framework engine
 - `experiments/dynamics/precursor_signatures.py` — Precursor detection (Div 3)
@@ -157,3 +195,6 @@ TRACK B (coupled) is favored by collapse dynamics analysis across all 4 systems.
 - `experiments/dynamics/metrics.py` — Collapse trajectory metrics
 - `experiments/dynamics/analysis.py` — Trajectory pattern classification
 - Phase 004B: Functional recovery vs representational recovery dissociation
+- `docs/external_dataset_staging.md` — Division 5: falsification matrix and escalation ladder
+- Trapp, S., Pascucci, D., & Chelazzi, L. (2021). *Predictive brain: Addressing the level of representation by reviewing perceptual hysteresis.* Cortex.
+- Rafiei, S. S., et al. (2026). *Cortical neuron classes and recursive curvature collapse.* Theory in Biosciences.
