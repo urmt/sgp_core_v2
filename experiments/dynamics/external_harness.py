@@ -56,6 +56,14 @@ class ExternalSystemAdapter:
         return self._system.step()
 
 
+def _prepare_system(system_class, coupling: float = 1.0, **kwargs):
+    """Construct and optionally train a system."""
+    sys = system_class(coupling=coupling, **kwargs)
+    if hasattr(sys, 'train_readout'):
+        sys.train_readout()
+    return ExternalSystemAdapter(sys)
+
+
 def run_full_evaluation(system_class, system_name: str,
                         coupling: float = 1.0,
                         dynamics_steps: int = 200,
@@ -78,16 +86,14 @@ def run_full_evaluation(system_class, system_name: str,
     print(f"  Parameters: {system_kwargs}")
     print(f"{'=' * 64}")
 
-    raw = system_class(coupling=coupling, **system_kwargs)
-    system = ExternalSystemAdapter(raw)
+    system = _prepare_system(system_class, coupling=coupling, **system_kwargs)
 
     print(f"\n  [1/4] TRACK A — Parallel Dynamics...")
     pa = ParallelDynamicsAnalyzer(n_steps=dynamics_steps)
     track_a = pa.analyze(system)
     _print_track_a(track_a)
 
-    raw2 = system_class(coupling=coupling, **system_kwargs)
-    sys2 = ExternalSystemAdapter(raw2)
+    sys2 = _prepare_system(system_class, coupling=coupling, **system_kwargs)
     print(f"\n  [2/4] TRACK B — Coupled Dynamics...")
     ca = CoupledDynamicsAnalyzer(n_steps=dynamics_steps)
     track_b = ca.analyze(sys2)
@@ -206,17 +212,29 @@ def _print_report_card(report: Dict):
 
 def main():
     from experiments.dynamics.external.hopfield_recall import HopfieldRecallSystem
+    from experiments.dynamics.external.kuramoto_grid import KuramotoGridSystem
+    from experiments.dynamics.external.reservoir_echo import ReservoirSystem
+    from experiments.dynamics.external.gene_regulatory import GeneRegulatorySystem
 
     configs = [
-        ("hopfield_standard", HopfieldRecallSystem, {'n_neurons': 100, 'n_patterns': 10, 'noise_std': 0.05}),
-        ("hopfield_low_noise", HopfieldRecallSystem, {'n_neurons': 100, 'n_patterns': 10, 'noise_std': 0.01}),
-        ("hopfield_high_noise", HopfieldRecallSystem, {'n_neurons': 100, 'n_patterns': 10, 'noise_std': 0.15}),
-        ("hopfield_many_patterns", HopfieldRecallSystem, {'n_neurons': 100, 'n_patterns': 20, 'noise_std': 0.05}),
+        ("hopfield_std", HopfieldRecallSystem, 1.0, {'n_neurons': 100, 'n_patterns': 10, 'noise_std': 0.05}),
+        ("hopfield_low_N", HopfieldRecallSystem, 1.0, {'n_neurons': 100, 'n_patterns': 10, 'noise_std': 0.01}),
+        ("hopfield_high_N", HopfieldRecallSystem, 1.0, {'n_neurons': 100, 'n_patterns': 10, 'noise_std': 0.15}),
+        ("hopfield_many_P", HopfieldRecallSystem, 1.0, {'n_neurons': 100, 'n_patterns': 20, 'noise_std': 0.05}),
+        ("kuramoto_std", KuramotoGridSystem, 2.0, {'n_oscillators': 64, 'noise_std': 0.05}),
+        ("kuramoto_low_K", KuramotoGridSystem, 0.5, {'n_oscillators': 64, 'noise_std': 0.05}),
+        ("kuramoto_high_N", KuramotoGridSystem, 2.0, {'n_oscillators': 64, 'noise_std': 0.15}),
+        ("reservoir_std", ReservoirSystem, 0.9, {'n_units': 100, 'noise_std': 0.01}),
+        ("reservoir_low_sr", ReservoirSystem, 0.5, {'n_units': 100, 'noise_std': 0.01}),
+        ("reservoir_high_N", ReservoirSystem, 0.9, {'n_units': 100, 'noise_std': 0.05}),
+        ("gene_std", GeneRegulatorySystem, 1.0, {'n_genes': 50, 'noise_std': 0.02}),
+        ("gene_low_N", GeneRegulatorySystem, 1.0, {'n_genes': 50, 'noise_std': 0.005}),
+        ("gene_high_N", GeneRegulatorySystem, 1.0, {'n_genes': 50, 'noise_std': 0.08}),
     ]
 
     results = {}
-    for name, cls, kwargs in configs:
-        results[name] = run_full_evaluation(cls, name, coupling=1.0, dynamics_steps=200, **kwargs)
+    for name, cls, coupling, kwargs in configs:
+        results[name] = run_full_evaluation(cls, name, coupling=coupling, dynamics_steps=200, **kwargs)
 
     print(f"\n{'=' * 64}")
     print(f"  TIER 1 SUMMARY — Hopfield Recall Benchmark")
