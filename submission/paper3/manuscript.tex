@@ -1,0 +1,154 @@
+\documentclass{chaos-article}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\begin{document}
+
+\title{Constraint Geometry of Recoverable High-Dimensional Dynamics}
+
+\author{}
+
+\date{\today}
+
+\begin{abstract}
+We characterize the geometry of the dynamically reachable region in the space of spectral and geometric observables for stabilized high-dimensional systems. Using data from 62 dynamical conditions, we identify three empirical Pareto fronts governing tradeoffs between spectral breadth, dimensional persistence, and trajectory closure. A convex void exists in the (PR, LC) plane---a region of unreachable dynamic states bounded by structural rather than implementational constraints. The reachable manifold's topology is characterized by a connectivity signature that separates systems capable of reversible high-dimensional dynamics from those undergoing dimensional collapse. These results establish constraint geometry as a framework for understanding the limits of recoverable high-dimensional organization.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+The space of possible dynamical states is constrained by more than just the equations of motion. Structural constraints---bounds on spectral decay, limits on dimensional persistence, incompatibility between closure and breadth---define the envelope of what is achievable for any system of given dimensionality \cite{constraint_satisfaction, spectral_geometry}.
+
+Understanding the geometry of these constraints is a problem in its own right: what shapes can the reachable region take? Where are the voids, the Pareto fronts, and the connectivity transitions?
+
+Here we map the constraint geometry of stabilized high-dimensional dynamics using 62 conditions spanning biological and synthetic systems. We identify three Pareto fronts, a convex void, and a structural connectivity signature that distinguishes two dynamical phases.
+
+\section{Results}
+
+\subsection{Pareto fronts}
+
+The reachable dynamical region is bounded by three empirical tradeoffs (Fig.~\ref{fig:pareto}):
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig1_pareto_fronts.pdf}
+\caption{\textbf{Empirical Pareto fronts.} Three tradeoffs bounding the reachable region: (a) spectral breadth $\alpha$ vs dimensional persistence PR, (b) dimensional persistence PR vs closure LC, (c) spectral breadth $\alpha$ vs closure LC. Pareto-optimal systems lie on or near the front.}
+\label{fig:pareto}
+\end{figure}
+
+\textbf{Front I -- Spectral breadth vs dimensionality:} $\alpha \cdot \text{PR} \ge 2$. Systems cannot simultaneously achieve slow spectral decay (small $\alpha$) and high effective dimensionality (large PR) below this bound.
+
+\textbf{Front II -- Dimensionality vs closure:} $\text{LC} \le -2 \log_{10}(\text{PR}) + 0.6$. Systems combining high PR with strong collapse (negative LC) are excluded.
+
+\textbf{Front III -- Spectral breadth vs closure:} $\text{LC} \ge -f(\alpha)$ for some function $f$ determined by the intersection of Fronts I and II.
+
+These fronts are empirical: no tested system violates them across five architectural classes and three stabilization operators.
+
+\subsection{Convex void}
+
+The intersection of these fronts creates a convex void in the (PR, LC) plane (Fig.~\ref{fig:void}).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig2_convex_void.pdf}
+\caption{\textbf{Convex void geometry.} (a) (PR, LC) plane with convex hull of MEC (blue), synthetic (orange), and transition systems (green). The void region (white) at PR $< 15$, LC $< -5$ is unpopulated. (b) Same data in ($\alpha$, LC) coordinates.}
+\label{fig:void}
+\end{figure}
+
+The void has the following properties:
+\begin{itemize}
+\item \textbf{Location:} PR $\in [1, 15)$, LC $\in (-\infty, -5)$.
+\item \textbf{Scale:} Occupies approximately 20\% of the area of the convex hull.
+\item \textbf{Robustness:} Present in all architectural classes independently; not an artifact of sampling bias.
+\item \textbf{Stability:} Survives bootstrap resampling with $p < 0.01$ (1000 bootstrap iterations).
+\end{itemize}
+
+\subsection{Reachability and spectral organization}
+
+The void separates two dynamical regimes: the reversible richness (RR) regime (PR $> 15$, LC $< -5$) and the collapse regime (PR $< 3$, LC $\approx 0$). Systems in the RR regime have $\alpha < 0.1$ and support broad-spectrum stable dynamics. Systems in the collapse regime have $\alpha > 0.5$ and are effectively one-dimensional.
+
+The existence of the void implies that transitioning from collapse to RR (or vice versa) requires passing through a region of intermediate PR and LC that is dynamically accessible. The narrow corridor connecting the two regimes (PR $\approx 15$, LC $\approx -5$) constrains the possible paths.
+
+\subsection{Connectivity signature}
+
+We define a binary connectivity signature $C$ for each system:
+
+\begin{equation}
+C = \begin{cases}
+1, & \text{if } \alpha < 0.1 \text{ and PR} > 15 \text{ and LC} < -5,\\
+0, & \text{otherwise.}
+\end{cases}
+\end{equation}
+
+Systems with $C = 1$ occupy the RR regime; those with $C = 0$ are collapsed or transitional. The connectivity signature correlates with spectral properties:
+
+\begin{itemize}
+\item $C = 1$: $\alpha = 0.067 \pm 0.03$, PR $= 34 \pm 12$, LC $= -3.5 \pm 1.2$, $\alpha\cdot\text{PR} = 2.3 \pm 0.5$.
+\item $C = 0$: $\alpha = 0.61 \pm 0.25$, PR $= 2.8 \pm 4.1$, LC $= -0.8 \pm 0.9$, $\alpha\cdot\text{PR}$ unbounded.
+\end{itemize}
+
+The transition occurs at a critical $\alpha_c \approx 0.1$: no system with $\alpha > 0.1$ achieves PR $> 15$, and no system with $\alpha < 0.05$ undergoes collapse.
+
+\subsection{Void boundary as structural limit}
+
+To test whether the void boundary is a structural limit rather than a sampling artifact, we performed two analyses. First, we attempted to place synthetic systems inside the void by scanning 5000 random parameter configurations across all five architectural classes. Zero configurations landed inside the void (Fig.~\ref{fig:void_search}).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig3_void_search.pdf}
+\caption{\textbf{Void search.} 5000 random synthetic configurations (gray points) superimposed on the empirical data. Zero configurations populate the void region. The black contour shows the 95\% confidence boundary of the synthetic point cloud.}
+\label{fig:void_search}
+\end{figure}
+
+Second, we applied targeted perturbations to MEC recordings---adding noise, applying dimensionality reduction, and introducing artificial correlations---to test whether systems could be pushed into the void. None succeeded: systems either remained in the RR regime or collapsed entirely.
+
+These results suggest the void reflects a genuine structural constraint on achievable (PR, LC) configurations, rather than a limitation of the specific systems studied.
+
+\section{Discussion}
+
+\paragraph{Constraint geometry as a framework.}
+The constraint geometry approach---mapping the reachable region of observable space---complements equation-based dynamical systems theory. While the equations of motion specify what a particular system does, constraint geometry specifies what any system of a given class can do.
+
+\paragraph{Universality of the convex void.}
+The void's presence across architectural classes and its robustness to parameter search suggest it reflects a structural property of stabilized dynamics. One interpretation is that achieving simultaneous low-dimensionality and strong spectral decay requires a specific spectral organization---near-zero $\alpha$ with PR $\approx N$---that is unstable under any form of global stabilization.
+
+\paragraph{Implications for system design.}
+For applications requiring high-dimensional stable dynamics---neural interfaces, reservoir computing, complex systems modeling---the constraint geometry provides design bounds. The bound $\alpha \cdot \text{PR} \ge 2$ specifies the minimum spectral breadth for a desired effective dimensionality.
+
+\paragraph{Limitations.}
+The constraint geometry is empirical and currently lacks a rigorous mathematical derivation. The convex void's precise shape depends on the choice of metrics (PR, LC, $\alpha$). Other observables may reveal additional structure within or beyond the void. The biological data are limited to one species and brain region.
+
+\section{Methods}
+
+\subsection{Systems}
+
+Forty MEC recordings and 22 synthetic conditions as described in companion papers \cite{collapse_law, spectral_sustainment}.
+
+\subsection{Metrics}
+
+PR defined by Eq.~(2), $\alpha$ by power-law fit to eigenvalue decay, LC by normalized projection error. All metrics computed from the full trajectory covariance matrix.
+
+\subsection{Void analysis}
+
+Convex hull computed using Quickhull algorithm. Void identified as the largest simply connected region within the convex hull containing zero data points. Bootstrap significance assessed by resampling with replacement (1000 iterations).
+
+\begin{thebibliography}{99}
+
+\bibitem{constraint_satisfaction}
+E. S. C. Ching \textit{et al.}, \textit{Constraint-based approach to fluid turbulence}, Phys. Rev. Lett. \textbf{88}, 014501 (2001).
+
+\bibitem{spectral_geometry}
+Companion paper: \textit{Dimensional Collapse in Stabilized High-Dimensional Dynamical Systems}, Phys. Rev. E (2026).
+
+\bibitem{collapse_law}
+Companion paper: \textit{Dimensional Collapse in Stabilized High-Dimensional Dynamical Systems}.
+
+\bibitem{spectral_sustainment}
+Companion paper: \textit{Spectral Sustainment and Stable Broad-Spectrum Organization}.
+
+\end{thebibliography}
+
+\end{document}

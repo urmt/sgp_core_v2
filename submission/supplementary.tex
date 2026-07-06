@@ -1,0 +1,89 @@
+\documentclass[aps,prx,onecolumn,twoside,showpacs,superscriptaddress]{revtex4-2}
+
+\usepackage{amsmath,amssymb,graphicx,hyperref}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=blue,
+  urlcolor=blue,
+}
+
+\begin{document}
+
+\title{Supplementary Material: \\ Spectral Constraints on Dimensional Persistence}
+\author{SGP Collaboration}
+\date{\today}
+
+\maketitle
+
+\section{Spectral Bound Derivation}
+
+For a normalized covariance matrix $C$ with eigenvalues $\lambda_k$ sorted in
+descending order, the exponential decay assumption $\lambda_k \sim e^{-\alpha k}$
+gives the participation ratio:
+
+\[
+\mathrm{PR} = \frac{\left(\sum_{k=1}^N \lambda_k\right)^2}{\sum_{k=1}^N \lambda_k^2}
+\]
+
+Assuming the exponential form and taking $N \to \infty$:
+
+\[
+\mathrm{PR}(\alpha) = \frac{(1 + e^{-\alpha})}{(1 - e^{-\alpha})}
+\]
+
+This gives the bound $\alpha \cdot \mathrm{PR} \geq 2$ for all covariance matrices
+with exponentially decaying spectra (see Paper~1, Eq.~4).
+
+\section{Precision Matrix Estimation}
+
+Precision matrices were estimated using graphical lasso
+(Friedman, Hastie \& Tibshirani, 2008) with cross-validated regularization
+parameter $\lambda$. The optimal $\lambda$ was selected by 5-fold cross-validation
+maximizing test-set log-likelihood.
+
+For the MEC recordings, the precision matrix yields:
+\begin{itemize}
+  \item Mean $\alpha \approx 0.33 \pm 0.11$
+  \item Mean PR $\approx 98 \pm 53$
+  \item Sparsity $\approx 78\%$
+\end{itemize}
+This contrasts with the lag-1 VAR operator ($\alpha \approx 0.01$), confirming that
+the dominant statistical structure is instantaneous, not temporal.
+
+\section{Scaling Separation Protocol}
+
+For each recording with $N \geq 100$, neurons were randomly subsampled to sizes
+$N \in \{20, 30, 50, 80, 100\}$. At each $N$, the MEC eigenvector statistics
+(mean IPR, NNS ratio $r$, eigenvalue decay $\alpha$) were computed from the
+correlation matrix and compared against:
+
+\begin{itemize}
+  \item \textbf{GOE ensemble}: $T \times N$ i.i.d.\ Gaussian matrices, same $T$ as MEC
+  \item \textbf{Sparse precision ensemble}: Random sparse symmetric precision
+    with sparsity $p=0.05$, diagonal-dominant, inverted to give sparse covariance
+\end{itemize}
+
+The ensemble distance $d(N)$ is the Mahalanobis distance between the MEC centroid
+and ensemble centroid in the 3D metric space $(\alpha, \text{IPR}, r)$:
+
+\[
+d(N) = \left\| \frac{\vec{\mu}_{\text{MEC}} - \vec{\mu}_{\text{ens}}}{\vec{\sigma}_{\text{ens}}} \right\|
+\]
+
+Power-law fit: $d(N) = a N^b$ via log-log linear regression.
+
+\section{Bootstrap Confidence}
+
+Each subsampling was repeated 8 times with random neuron subsets to provide
+bootstrap confidence intervals. The reported aggregate exponents are means
+across 15 recordings with $N \geq 100$.
+
+\section{Per-Recording Metrics}
+
+See `repository/figures/fig3_metrics_table.csv` for per-recording $\alpha$, PR,
+LC, mean IPR, NNS ratio, and $\alpha \cdot \mathrm{PR}$ values for all 21
+MEC recordings.
+
+\end{document}
