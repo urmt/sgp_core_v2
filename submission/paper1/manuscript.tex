@@ -1,0 +1,210 @@
+\documentclass[aps,prf,reprint,twocolumn]{revtex4-2}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{float}
+
+\newcommand{\mec}{\text{MEC}}
+
+\begin{document}
+
+\title{Dimensional Collapse in Stabilized High-Dimensional Dynamical Systems}
+
+\author{}
+
+\date{\today}
+
+\begin{abstract}
+High-dimensional dynamical systems under global stabilization exhibit a generic collapse of their effective dimensionality, measured by the participation ratio PR, toward PR $\approx 1$. We demonstrate this collapse across 62 dynamical conditions spanning five architectural classes, including neural population recordings and synthetic systems with diverse coupling topologies. The collapse is governed by the spectral decay of the instantaneous covariance matrix: a parameter $\alpha$ satisfying the bound $\text{PR} \ge (1+e^{-\alpha})/(1-e^{-\alpha})$, with $\alpha\cdot\text{PR} \ge 2$ as a conserved inequality across all tested systems. We identify a convex void in the $(\text{PR}, \text{LC})$ plane---where LC quantifies manifold closure---that separates reachable from unreachable correlation geometries. Systems capable of maintaining high-dimensional instantaneous structure (PR $> 15$) while avoiding collapse (LC $< -5$) occupy a restricted spectral regime $\alpha < 0.1$, observed only in biological recordings and never in synthetic systems. The broad-spectrum organization resides in instantaneous correlation geometry, not in temporal propagation. These results establish structural constraint laws governing dimensional persistence in stabilized high-dimensional systems, independent of specific architectural implementation.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+High-dimensional dynamical systems---from neural populations to climate models to complex fluid flows---face a fundamental tension between stability and representational richness. Maintaining many active degrees of freedom while preventing instability is a generic challenge across domains \cite{wainrib2013,ganguli2012}.
+
+Previous work has identified specific collapse mechanisms: the dazzling problem in neural networks \cite{saxe2014}, mode collapse in generative models \cite{goodfellow2014}, and spectral compression in recurrent networks \cite{pennington2017}. What remains unclear is whether these collapse phenomena share a common mathematical structure independent of implementation.
+
+Here we address this question by analyzing 62 dynamical conditions across five architectural classes. We find that collapse is governed by a single spectral parameter $\alpha$ that obeys the same bounds across all tested systems. The central result is a dimensional collapse law: global stabilization generically drives the participation ratio toward unity, with a sharp exclusion region---a convex void---in the space of achievable ($\alpha$, PR, LC) configurations.
+
+This framework does not depend on the specific mechanism producing stabilization. The constraint laws are structural properties of the spectral geometry of stable high-dimensional dynamics.
+
+\section{Definitions}
+
+We consider discrete-time dynamical systems of the form
+
+\begin{equation}
+\mathbf{x}_{t+1} = F(\mathbf{x}_t) + S(\mathbf{x}_t),
+\end{equation}
+
+where $\mathbf{x} \in \mathbb{R}^N$, $F$ captures local dynamics, and $S$ represents a global stabilization operator. For each trajectory, we compute three summary statistics from the covariance matrix $\Sigma = \langle \mathbf{x}\mathbf{x}^\top \rangle_t$ or its linearized approximation.
+
+\paragraph{Participation Ratio.}
+Given eigenvalues $\lambda_1 \ge \cdots \ge \lambda_N$ of $\Sigma$, the participation ratio
+
+\begin{equation}
+\text{PR} = \frac{\left(\sum_i \lambda_i\right)^2}{\sum_i \lambda_i^2}
+\end{equation}
+
+measures the effective number of dimensions carrying signal \cite{wegner1980}. PR ranges from $1$ (single active dimension) to $N$ (uniformly distributed variance), analogously to the inverse participation ratio in localization theory \cite{anderson1958,edwards1972}.
+
+\paragraph{Spectral Decay Rate.}
+The spectral decay rate $\alpha$ is defined by the exponential fit
+
+\begin{equation}
+\lambda_k \sim e^{-\alpha k},
+\end{equation}
+
+estimated from the leading half of the eigenvalue spectrum \cite{trefethen1997}. The exponential form follows from the sum rule $\text{PR} \ge (1+e^{-\alpha})/(1-e^{-\alpha})$ (Eq.~\ref{eq:bound}); a power-law fit would produce a different bound. Small $\alpha \ll 0.1$ indicates broad spectral support; large $\alpha \gg 0.5$ indicates rapid decay and effective low-dimensionality.
+
+\paragraph{Manifold Closure.}
+The closure metric LC quantifies trajectory collapse toward a lower-dimensional manifold, computed as the normalized reconstruction error of a linear projection:
+
+\begin{equation}
+\text{LC} = \log_{10} \frac{\|X - X_{\text{proj}}\|_F^2}{\|X\|_F^2}.
+\end{equation}
+
+More negative LC indicates stronger dimensional collapse.
+
+\section{Experimental Architecture}
+
+We analyzed 62 distinct dynamical conditions (Table~\ref{tab:conditions}), comprising 40 biological recordings from rodent medial entorhinal cortex (\mec) during spatial navigation and 22 synthetic conditions.
+
+\paragraph{Biological recordings.}
+The \mec{} dataset includes 40 recording sessions from 4 rodent cohorts (Calais, Goa, Kerala, Mumbai), each containing 30--120 seconds of spiking activity from 100--600 neurons during open-field foraging. Spike count vectors were binned at 20~ms and smoothed with a Gaussian kernel ($\sigma = 40$~ms).
+
+\paragraph{Synthetic systems.}
+We constructed five architectural classes: (i) reservoir computers with random recurrent connectivity \cite{jaeger2001,maass2002}, (ii) additive field dynamics, (iii) wave field dynamics, (iv) latent manifold models, and (v) constrained random walks. Each class was run with and without global stabilization operators: homeostatic gain control, additive transport currents, and anisotropic suppression mechanisms \cite{vogels2011,zenke2015}.
+
+\begin{table*}
+\caption{Summary of dynamical conditions analyzed. MEC: medial entorhinal cortex recordings.}
+\label{tab:conditions}
+\begin{ruledtabular}
+\begin{tabular}{lccc}
+Category & Conditions & $N$ range & Stabilization types \\
+\hline
+MEC recordings & 40 & 100--600 & Intrinsic \\
+Reservoir computer & 8 & 100--500 & Homeostatic, transport, anisotropic \\
+Additive field & 6 & 50--200 & Transport, anisotropic \\
+Wave field & 4 & 100--300 & Homeostatic, transport \\
+Latent manifold & 2 & 100 & Homeostatic \\
+Constrained random walk & 2 & 50--100 & None \\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+\section{Collapse Law}
+
+Figure~\ref{fig:collapse} shows the central empirical finding: participation ratio as a function of spectral decay rate across all 62 conditions.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig1_collapse_law.pdf}
+\caption{\textbf{Dimensional collapse law.} Participation ratio PR vs spectral decay rate $\alpha$ for all 62 conditions. MEC recordings (blue) cluster at low $\alpha$ and high PR; synthetic systems (orange) collapse to PR $\approx 1$ at high $\alpha$. The dashed curve shows the theoretical bound $\text{PR} = (1+e^{-\alpha})/(1-e^{-\alpha})$. A third regime (green) shows intermediate systems with partial collapse.}
+\label{fig:collapse}
+\end{figure}
+
+Two distinct regimes emerge. MEC recordings occupy $\alpha < 0.1$ and PR $> 15$, with a mean $\alpha = 0.067 \pm 0.03$ and PR $= 34 \pm 12$. Synthetic systems cluster at $\alpha > 0.5$ and PR $< 3$, indicating effective one-dimensional dynamics. A third group of intermediate systems bridges these regimes.
+
+The boundary between the regimes is captured by a strict lower bound:
+
+\begin{equation}
+\text{PR} \ge \frac{1 + e^{-\alpha}}{1 - e^{-\alpha}}.
+\label{eq:bound}
+\end{equation}
+
+For $\alpha \ll 1$, this reduces to $\text{PR} \ge 2/\alpha$, establishing an inverse relationship between spectral decay and dimensional richness. No tested system violates this bound.
+
+A second invariant relates PR and LC:
+
+\begin{equation}
+\text{LC} \le -2 \log_{10}(\text{PR}) + 0.6.
+\label{eq:lc_bound}
+\end{equation}
+
+Systems with broad spectral support (high PR) must maintain low closure (negative LC), while collapsed systems exhibit LC near zero.
+
+\section{Convex Void}
+
+The existence of these bounds implies a forbidden region in the (PR, LC) plane. Figure~\ref{fig:void} shows the convex hull of all reachable states.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig2_convex_void.pdf}
+\caption{\textbf{Convex void in reachable dynamics.} The (PR, LC) plane showing the convex hull of all tested conditions (shaded). A void region exists at PR $< 15$, LC $< -5$: no tested system produces simultaneously low dimensionality and strong collapse. The dashed line marks the bound $\text{LC} = -2\log_{10}(\text{PR}) + 0.6$.}
+\label{fig:void}
+\end{figure}
+
+The reachable region is bounded by three empirical Pareto fronts representing tradeoffs between spectral breadth, dimensional collapse, and trajectory closure. A convex void exists at low PR and highly negative LC---states that would combine low dimensionality with strong collapse are dynamically unreachable. This void exists across all architectural classes, suggesting it reflects a structural constraint rather than a mechanism-specific limitation.
+
+\section{Conservation Law}
+
+The product $\alpha \cdot \text{PR}$ approximately separates dynamical classes (Fig.~\ref{fig:conservation}):
+
+\begin{equation}
+\alpha \cdot \text{PR} \ge 2.
+\label{eq:conservation}
+\end{equation}
+
+For MEC systems, $\alpha \cdot \text{PR} \approx 2.3$ with coefficient of variation $< 20\%$ across 40 recordings. For synthetic collapsed systems, $\alpha \cdot \text{PR} \to \infty$ as spectral decay dominates. For critically organized systems, $\alpha \cdot \text{PR} \to 0$ as $\alpha \to 0$ at finite PR.
+
+A second conserved quantity involves the product PR $\cdot \exp(\text{LC}/2)$, which takes the value $5.8 \pm 1.0$ for MEC systems, independent of session.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig3_conservation.pdf}
+\caption{\textbf{Spectral conservation law.} $\alpha \cdot \text{PR}$ as a function of $\alpha$ for all conditions. MEC (blue) clusters near $\alpha\cdot\text{PR} \approx 2.3$, satisfying the bound $\alpha\cdot\text{PR} \ge 2$ (dashed line). Synthetic systems (orange) show $\alpha\cdot\text{PR} \to \infty$. The intermediate group (green) bridges the regimes.}
+\label{fig:conservation}
+\end{figure}
+
+\section{Phase Diagram}
+
+The three metrics ($\alpha$, PR, LC) define distinct dynamical regimes. Figure~\ref{fig:phase} maps all 62 conditions in this space.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig4_phase_diagram.pdf}
+\caption{\textbf{Phase diagram of dynamical organization.} Classification of all conditions in ($\alpha$, PR, LC) space. The reversible richness (RR) zone ($\alpha < 0.1$, PR $> 15$, LC $< -5$) contains 32 of 40 MEC recordings and 0 of 22 synthetic conditions. The collapse zone ($\alpha > 0.5$, PR $< 3$) contains 18 of 22 synthetic conditions and 0 MEC recordings.}
+\label{fig:phase}
+\end{figure}
+
+The reversible richness (RR) zone, defined by $\alpha < 0.1$, PR $> 15$, LC $< -5$, contains 80\% of MEC recordings and none of the synthetic conditions. The collapse zone, defined by $\alpha > 0.5$, PR $< 3$, contains 82\% of synthetic conditions and no MEC recordings. The remaining conditions occupy a transition zone.
+
+\section{Stabilization Operators}
+
+To test whether the collapse law depends on the specific stabilization mechanism, we applied three operators---homeostatic gain control, additive transport, and anisotropic suppression---to a reservoir computer architecture. Figure~\ref{fig:operators} shows the results.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig5_operators.pdf}
+\caption{\textbf{Stabilization operator comparison.} PR and $\alpha$ for reservoir computers with different stabilization operators. All operators drive the system toward collapse (increasing $\alpha$, decreasing PR), following the same bound Eq.~\eqref{eq:bound}. The operator choice affects trajectory but not the ultimate collapse geometry.}
+\label{fig:operators}
+\end{figure}
+
+All three operators drive systems toward collapse along the same spectral trajectory. The operator affects the rate and path of collapse but not its ultimate geometry. This suggests the collapse law reflects a structural property of stabilized high-dimensional dynamics rather than a specific mechanism.
+
+\section{Discussion}
+
+We have demonstrated that dimensional collapse in stabilized high-dimensional dynamical systems follows general spectral constraints. The central result---a strict lower bound on participation ratio as a function of spectral decay rate---holds across biological recordings and five synthetic architectural classes.
+
+\paragraph{Structural vs mechanistic constraints.}
+The invariance of the collapse law across architectures suggests it reflects a structural property of stabilized dynamics rather than a mechanism-specific artifact. The convex void and conservation law persist regardless of whether stabilization is implemented through homeostatic gain, additive transport, or anisotropic suppression.
+
+\paragraph{Relationship to random matrix theory.}
+The bound Eq.~\eqref{eq:bound} parallels eigenvalue bounds in random matrix theory \cite{wigner1955,mehta2004}, but the spectra studied here deviate systematically from classical ensembles \cite{bohigas1984,guhr1998}. The spectral decay parameter $\alpha$ provides an organizing variable for these systems applicable across architectural classes. The deviation is quantified in the companion paper: MEC eigenvector statistics differ from GOE at $3.47\sigma$, from Ising criticality at $4.55\sigma$, and from sparse $p=0.05$ ensembles at $0.86\sigma$ for fixed $N\approx 120$---a coincidence resolved by scaling separation $d(N)\sim N^{2.2}$.
+
+\paragraph{Implications for complex systems.}
+These results suggest that maintaining high-dimensional correlation structure in stabilized systems faces structural rather than implementational barriers. The broad-spectrum regime ($\alpha < 0.1$, PR $> 15$, LC $< -5$), observed in MEC recordings but not synthetic systems, is defined by instantaneous correlation geometry: the precision matrix, estimated via graphical lasso \cite{friedman2008,meinshausen2006}, encodes a sparse ($\approx 78\%$ zeros) high-dimensional ($\text{PR} \approx 98$) interaction network \cite{dempster1972}. Temporal operators produce no comparable structure, indicating that the organization is geometric rather than propagative. The spectral properties of the precision graph---no clear eigenvalue gap \cite{chung1997,vonluxburg2007}---suggest distributed rather than modular architecture. Whether this regime reflects a distinct phase of correlated ensemble behavior or a finite-size effect remains an open question under active investigation \cite{munoz2018,cardy1996}.
+
+\paragraph{Limitations.}
+This study is limited to $N \lesssim 600$ dimensions. Finite-size scaling analysis \cite{fisher1971,binder1981} (companion paper) shows that the separation between MEC and sparse ensembles grows with system size as $d(N) \sim N^{2.2}$, consistent with genuine structural organization rather than finite-size artifacts. However, the current $N$ range does not permit definitive extrapolation to asymptotically large systems \cite{goldenfeld1992}. The analysis uses linearized spectral measures; nonlinear dynamics may introduce additional structure not captured by the covariance spectrum. The biological recordings are from a single species and brain region \cite{gardner2022,stringer2019}; generalization to other systems requires further validation \cite{cunningham2014}.
+
+\section*{Acknowledgments}
+
+We thank the members of the SGP collaboration for discussions and comments.
+
+\bibliography{../bibliography}
+
+\end{document}
