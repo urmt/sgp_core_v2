@@ -180,6 +180,10 @@ This study is limited to $N \lesssim 600$ dimensions. Finite-size scaling analys
 
 Because recordings are reused across subsampling analyses, effective sample counts for scaling estimates may be lower than nominal bootstrap counts. The null-model family tested here---Poisson, shuffled, and sparse ensembles---does not exhaust the space of possible nulls; additional null constructions (e.g., state-space models, latent factor models) may produce different separation profiles. All preprocessing choices (20~ms binning, $\sigma = 40$~ms smoothing, $z$-scoring) affect spectral estimates; the robustness of our conclusions across this pipeline is documented in the companion paper but cannot be taken as proof of invariance under arbitrary preprocessing. The claims in this paper are observational and descriptive: we characterize the spectral geometry of \mec{} covariance structure and its separation from tested nulls, but do not identify the mechanism producing this organization.
 
+\section*{Data Availability}
+
+All code, data, and reproduction scripts are archived at \href{https://doi.org/10.5281/zenodo.21223156}{doi:10.5281/zenodo.21223156}. The repository includes the full preprocessing pipeline, statistical comparison module, and all null-control experiments.
+
 \section*{Acknowledgments}
 
 We thank the members of the SGP collaboration for discussions and comments.
