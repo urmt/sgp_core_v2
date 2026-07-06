@@ -136,10 +136,10 @@ The geometric-series reference curve (Eq.~\ref{eq:reference}) provides a baselin
 
 A natural concern is that the observed separation might arise from preprocessing choices (smoothing, binning, normalization) rather than genuine spectral structure. To test this, we applied the full preprocessing pipeline to each null ensemble and computed $(\alpha, \text{PR})$ for the resulting covariance matrices.
 
-Table~\ref{tab:controls} summarizes the results. All four null ensembles are separated from MEC by $D_M > 10$ under both naive and Ledoit--Wolf estimation ($p < 0.001$ for all, permutation test with $n_{\text{perm}} = 5000$). The separation is not attributable to smoothing-induced broadening: smoothed Gaussian nulls produce $\alpha \approx 0.004$--$0.035$, narrower than MEC ($\alpha \approx 0.039$).
+Table~\ref{tab:controls} summarizes the results. All four null ensembles are separated from MEC by $D_M > 10$ under both naive and Ledoit--Wolf estimation ($p < 0.001$ for all, permutation test with $n_{\text{perm}} = 5000$). The separation is not attributable to smoothing-induced broadening: smoothed Gaussian nulls produce $\alpha \approx 0.003$--$0.035$ (broader than MEC) and PR $\approx 32$--$245$ (wider range than MEC's PR $\approx 11$--$91$), yet remain statistically separated in $(\alpha, \text{PR})$ space ($D_M = 128.4$, $p < 0.001$).
 
 \begin{table}
-\caption{Null-control distances. Mahalanobis distance $D_M$ (Eq.~\ref{eq:mal}) between MEC and each null ensemble, under naive and Ledoit--Wolf (LW) covariance estimation. All $p < 0.001$ ($n_{\text{perm}} = 5000$).}
+\caption{Null-control distances. Mahalanobis distance $D_M$ (Eq.~\ref{eq:mahal}) between MEC and each null ensemble, under naive and Ledoit--Wolf (LW) covariance estimation. All $p < 0.001$ ($n_{\text{perm}} = 5000$).}
 \label{tab:controls}
 \begin{ruledtabular}
 \begin{tabular}{lcc}
@@ -192,7 +192,7 @@ All three operators drive systems toward collapse along similar spectral traject
 
 \section{Finite-Size Sensitivity}
 
-The MEC-vs-null separation grows with sampled system size $N$. Starting from 15 MEC recordings with $N \ge 100$, we subsampled neurons at sizes $N \in \{20, 30, 50, 80, 100\}$ and computed the Mahalanobis distance $d(N)$ between MEC and a sparse Erd\H{o}s--R\'{e}nyi null ($p = 0.05$) in $(\alpha, \text{IPR})$ space. The distance increases as $d(N) \sim N^{2.2 \pm 0.1}$ (bootstrap 95\% CI: $[2.0, 2.4]$) over the tested range, indicating that the separation grows with dimensionality rather than converging to zero.
+The MEC-vs-null separation grows with sampled system size $N$. Starting from 15 MEC recordings with $N \ge 100$, we subsampled neurons at sizes $N \in \{20, 30, 50, 80, 100\}$ and computed the Mahalanobis distance $d(N)$ between MEC and a sparse Erd\H{o}s--R\'{e}nyi null ($p = 0.05$) in $(\alpha, \text{PR})$ space. The distance increases as $d(N) \sim N^{2.2 \pm 0.1}$ (bootstrap 95\% CI: $[2.0, 2.4]$) over the tested range, indicating that the separation grows with dimensionality rather than converging to zero.
 
 \section{Discussion}
 
@@ -202,13 +202,13 @@ We have characterized the spectral geometry of dimensional collapse in stabilize
 The observed spectral patterns are properties of the instantaneous correlation geometry. The precision matrix, estimated via graphical lasso \cite{friedman2008,meinshausen2006}, encodes a sparse ($\approx 78\%$ zeros) high-dimensional (PR $\approx 98$) interaction network \cite{dempster1972}. Temporal operators produce no comparable structure, indicating that the organization is geometric rather than propagative.
 
 \paragraph{Relationship to random matrix theory.}
-The reference curve Eq.~\ref{eq:reference} parallels eigenvalue bounds in random matrix theory \cite{wigner1955,mehta2004}, but the spectra studied here deviate systematically from classical ensembles \cite{bohigas1984,guhr1998}. MEC eigenvector statistics differ from GOE at $3.47\sigma$ and from sparse $p=0.05$ ensembles at $0.86\sigma$ for fixed $N \approx 120$, with the latter showing increasing separation with sampled dimensionality.
+The reference curve Eq.~\ref{eq:reference} parallels eigenvalue bounds in random matrix theory \cite{wigner1955,mehta2004}, but the spectra studied here deviate systematically from classical ensembles \cite{bohigas1984,guhr1998}. Comparing eigenvector statistics (inverse participation ratio $\sum_i |v_i|^4$ and level spacing ratios \cite{wegner1980,atas2013}) across 15 recordings with $N \ge 100$, MEC differs from GOE at $3.47\sigma$ and from sparse $p=0.05$ ensembles at $0.86\sigma$ for fixed $N \approx 120$, with the latter showing increasing separation with sampled dimensionality.
 
 \paragraph{Open questions.}
 The origin of the broad-spectrum regime ($\alpha < 0.1$, PR $> 15$) observed in \mec{} recordings remains unresolved. It may reflect specific biophysical mechanisms---network architecture, single-cell properties, or task engagement---or it may be a generic property of any system operating near a stability boundary.
 
 \paragraph{Limitations.}
-This study is limited to $N \lesssim 600$ dimensions. The $N$ range does not permit extrapolation to larger systems \cite{goldenfeld1992}. The analysis uses linearized spectral measures; nonlinear dynamics may introduce additional structure. The biological recordings are from a single species and brain region \cite{gardner2022,stringer2019}; generalization requires further validation \cite{cunningham2014}. The null-model family tested here does not exhaust the space of possible nulls; additional constructions (e.g., state-space models, latent factor models) may produce different separation profiles. All preprocessing choices affect spectral estimates; the robustness of our conclusions across this pipeline is documented above but cannot be taken as proof of invariance under arbitrary preprocessing. The claims in this paper are observational and descriptive: we characterize the spectral geometry of \mec{} covariance structure and its separation from tested nulls, but do not identify the mechanism producing this organization.
+This study is limited to $N \lesssim 600$ dimensions. The $N$ range does not permit extrapolation to larger systems \cite{goldenfeld1992}. Because recordings are reused across subsampling analyses, effective sample counts for scaling estimates may be lower than nominal bootstrap counts; the reported 95\% CI ($[2.0, 2.4]$) should be interpreted with this non-independence in mind. The analysis uses linearized spectral measures; nonlinear dynamics may introduce additional structure. The biological recordings are from a single species and brain region \cite{gardner2022,stringer2019}; generalization requires further validation \cite{cunningham2014}. The null-model family tested here does not exhaust the space of possible nulls; additional constructions (e.g., state-space models, latent factor models) may produce different separation profiles. All preprocessing choices affect spectral estimates; the robustness of our conclusions across this pipeline is documented above but cannot be taken as proof of invariance under arbitrary preprocessing. The claims in this paper are observational and descriptive: we characterize the spectral geometry of \mec{} covariance structure and its separation from tested nulls, but do not identify the mechanism producing this organization.
 
 \section*{Data Availability}
 
