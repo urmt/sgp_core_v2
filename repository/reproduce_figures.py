@@ -56,13 +56,11 @@ def load_mec_recordings(data_dir=None):
 # ═════════════════════════════════════════════════════════════════════════
 
 def spectral_decay_rate(eigvals):
-    """Fit exponential decay lambda_k ~ exp(-alpha * k). Return alpha."""
     s = np.sort(eigvals)[::-1]
-    ks = np.arange(1, len(s) + 1)
-    valid = s > 1e-10
-    if valid.sum() < 3:
+    half = len(s) // 2
+    if half < 4:
         return 0.0
-    coeffs = np.polyfit(ks[valid], np.log(s[valid]), 1)
+    coeffs = np.polyfit(np.arange(1, half), np.log(s[1:half]), 1)
     return float(-coeffs[0])
 
 def participation_ratio(eigvals):

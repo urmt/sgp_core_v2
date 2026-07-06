@@ -8,49 +8,47 @@
 
 \begin{document}
 
-\title{Spectral Sustainment and Stable Broad-Spectrum Organization in Neural Dynamics}
+\title{Finite-Size Sensitivity of Spectral Comparison in Neural Covariance Data}
 
 \author{}
 
 \date{\today}
 
 \begin{abstract}
-Systems maintaining high-dimensional dynamics under stabilization occupy a restricted spectral regime characterized by slow spectral decay and broad eigenvalue support. We analyze 40 recordings from rodent medial entorhinal cortex (MEC) during spatial navigation and 22 synthetic dynamical conditions. Spectral decay rate $\alpha \approx 0.067$ for MEC separates broad-spectrum organization ($\alpha < 0.1$) from dimensional collapse ($\alpha > 0.5$). The quantity $\alpha\cdot\text{PR} \approx 2.3$ serves as a conserved invariant distinguishing MEC from both collapsed and critically organized systems. Finite-size scaling analysis reveals that MEC/sparse ensemble separation grows with system size $N$ as $d(N) \sim N^{2.2}$, confirming that the observed broad-spectrum correlation geometry reflects genuine structure rather than finite-size artifacts. The dominant organization resides in instantaneous precision geometry ($\alpha \approx 0.33$, PR $\approx 98$, $78\%$ sparsity) rather than temporal propagation. We propose a candidate stable broad-spectrum regime---provisionally termed Stably Sustained Critical Spectrum (SSCS)---characterized by $\alpha < 0.1$, PR $> 15$, and LC $< -5$.
+Characterizing the spectral properties of neural covariance data requires careful comparison against appropriate null models. We analyze 21 recordings from rodent medial entorhinal cortex (\mec) and compare their eigenvalue and eigenvector statistics against four random matrix ensembles: GOE, shifted Wigner, sparse Erd\H{o}s--R\'{e}nyi, and Ising criticality. At fixed $N \approx 120$, \mec{} eigenvalue spectra are well-described by a shifted Wigner ensemble ($d = 0.51\sigma$) or an Ising model ($d = 0.51\sigma$), while eigenvector statistics match sparse $p=0.05$ correlations ($d = 0.86\sigma$). This partial agreement is a finite-size coincidence: subsampling analysis reveals that the \mec/sparse ensemble distance in eigenvector space grows as $d(N) \sim N^{2.2 \pm 0.1}$, strongly rejecting the hypothesis that \mec{} converges to the sparse null at larger $N$. The instantaneous precision geometry ($\alpha \approx 0.33$, PR $\approx 98$, $78\%$ sparsity) provides a richer spectral signature than temporal propagation operators ($\alpha \approx 0.01$). These results establish methodological requirements for null-model comparison in neural covariance analysis and demonstrate that finite-size effects can produce misleading ensemble agreement at experimentally accessible dimensions.
 \end{abstract}
 
 \maketitle
 
 \section{Introduction}
 
-Dynamical systems that sustain high-dimensional activity while maintaining stability are rare. Most stabilized systems collapse to low-dimensional manifolds characterized by rapid spectral decay and few active modes \cite{ganguli2012,pennington2017}. A small class of systems---including neural populations during active behavior \cite{mazor2005,churchland2012,stringer2019} and certain turbulent flows \cite{holmes2012}---maintain broad spectral support with many active degrees of freedom.
+Dynamical systems that sustain high-dimensional activity while maintaining stability are rare. Most stabilized systems collapse to low-dimensional manifolds characterized by rapid spectral decay and few active modes \cite{ganguli2012,pennington2017}. A small class of systems---including neural populations during active behavior \cite{mazor2005,churchland2012,stringer2019}---maintain broad spectral support with many active degrees of freedom.
 
-Understanding the spectral conditions that separate broad-spectrum sustainment from collapse is a statistical physics problem with implications for neural computation, complex systems, and the theory of high-dimensional organization.
-
-Here we characterize the spectral sustainment regime observed in recordings from rodent medial entorhinal cortex. We identify a spectral decay parameter $\alpha$ that serves as an organizing variable, establish scaling relationships, compare against random matrix ensembles, and discuss the evidence for a candidate stable broad-spectrum regime.
+Understanding whether this broad-spectrum organization reflects genuine structure or finite-size artifacts requires systematic comparison against null models. Here we perform such a comparison, with three contributions. First, we benchmark the spectral properties of \mec{} covariance data against four standard random matrix ensembles. Second, we show that apparent agreement with a sparse correlation ensemble at fixed $N$ is eliminated by scaling analysis, which reveals growing separation $d(N) \sim N^{2.2}$. Third, we compare the spectral content of instantaneous correlation geometry versus temporal propagation operators.
 
 \section{Results}
 
 \subsection{Spectral organization of MEC dynamics}
 
-The eigenvalue spectrum of the correlation matrix of MEC activity follows a slow exponential decay with exponent $\alpha = 0.067 \pm 0.03$ (Fig.~\ref{fig:spectra}, mean across 40 sessions). The exponential form $\lambda_k \sim e^{-\alpha k}$ is dictated by the spectral bound $\text{PR} \ge (1+e^{-\alpha})/(1-e^{-\alpha})$ derived from the geometric series of the covariance spectrum \cite{trefethen1997}. This decay is substantially slower than that of random matrix ensembles \cite{wigner1955,mehta2004} (GOE: $\alpha \approx 0.27$ for matched dimensionality) and of synthetic stabilized systems ($\alpha > 0.5$).
+The eigenvalue spectrum of the correlation matrix of \mec{} activity follows a slow exponential decay with exponent $\alpha = 0.039 \pm 0.018$ (Fig.~\ref{fig:spectra}, mean across 21 sessions). The decay is estimated from eigenvalues $2$ through $N/2$ of the $z$-scored correlation matrix via least-squares regression on log-transformed values (companion paper). This decay is substantially slower than that of random matrix ensembles \cite{wigner1955,mehta2004} (GOE: $\alpha \approx 0.27$ for matched dimensionality) and of synthetic stabilized systems ($\alpha > 0.5$).
 
-The participation ratio PR $= 34 \pm 12$ confirms broad spectral support, with approximately 30\% of dimensions carrying significant variance. The closure metric LC $= -3.5 \pm 1.2$ indicates moderate trajectory collapse, consistent with stable but non-degenerate dynamics.
+The participation ratio PR $= 37 \pm 20$ confirms broad spectral support. The closure metric LC $= -3.5 \pm 1.2$ indicates moderate trajectory collapse, consistent with stable but non-degenerate dynamics.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig1_mec_spectra.pdf}
-\caption{\textbf{Eigenvalue spectra of MEC dynamics.} (a) Mean eigenvalue decay (black) with $\pm 1\sigma$ confidence interval (shaded) across 40 MEC recordings. GOE prediction for matched $N$ (red dashed) and synthetic stabilized system (orange dashed) shown for comparison. (b) Distribution of $\alpha$ across recordings.}
+\caption{\textbf{Eigenvalue spectra of \mec{} dynamics.} (a) Mean eigenvalue decay (black) with $\pm 1\sigma$ confidence interval (shaded) across 21 \mec{} recordings. GOE prediction for matched $N$ (red dashed) and synthetic stabilized system (orange dashed) shown for comparison. (b) Distribution of $\alpha$ across recordings.}
 \label{fig:spectra}
 \end{figure}
 
 \subsection{Comparison with random matrix ensembles}
 
-We compared the spectral properties of MEC dynamics against several random matrix ensembles (Table~\ref{tab:ensembles}). The MEC eigenvalue spectrum is best approximated by a shifted Wigner ensemble $A = W - cI$ with coupling strength $c \approx 0.35$ (distance $d = 0.51\sigma$ in $\alpha$), and by a generalized Ising model with zero-mean Gaussian couplings $J_{ij} \sim \mathcal{N}(0, \sigma^2/N)$ producing $\alpha \approx 0.076$ (distance $0.51\sigma$ from the MEC mean).
+We compared the spectral properties of \mec{} dynamics against four random matrix ensembles (Table~\ref{tab:ensembles}). The \mec{} eigenvalue spectrum is well-approximated by a shifted Wigner ensemble $A = W - cI$ with coupling strength $c \approx 0.35$ (distance $d = 0.51\sigma$ in $\alpha$), and by a generalized Ising model with zero-mean Gaussian couplings $J_{ij} \sim \mathcal{N}(0, \sigma^2/N)$ producing $\alpha \approx 0.076$ (distance $0.51\sigma$ from the \mec{} mean).
 
-However, \textbf{eigenvector statistics} \cite{evers2008} reveal a more nuanced picture. Analysis of inverse participation ratio (IPR) \cite{wegner1980} and level spacing ratio distributions \cite{atas2013} across 15 MEC recordings shows that MEC eigenvectors differ from GOE at $3.47\sigma$ and from Ising criticality at $4.55\sigma$, but match a sparse random correlation ensemble (5\% density) within $0.86\sigma$ (Fig.~\ref{fig:eigenvectors}). This partial agreement is a finite-size coincidence: scaling analysis below shows the separation grows with $N$.
+However, \textbf{eigenvector statistics} \cite{evers2008} reveal a more nuanced picture. Analysis of inverse participation ratio (IPR) \cite{wegner1980} and level spacing ratio distributions \cite{atas2013} across 15 \mec{} recordings shows that \mec{} eigenvectors differ from GOE at $3.47\sigma$ and from Ising criticality at $4.55\sigma$, but match a sparse random correlation ensemble (5\% density) within $0.86\sigma$ (Fig.~\ref{fig:eigenvectors}). This partial agreement is a finite-size coincidence: scaling analysis below shows the separation grows with $N$.
 
 \begin{table}
-\caption{Ensemble comparison. Distance $d$ (in standard deviations of the null) between MEC and each ensemble. Values $d < 1$ indicate indistinguishability.}
+\caption{Ensemble comparison. Distance $d$ (in standard deviations of the null) between \mec{} and each ensemble. Values $d < 1$ indicate indistinguishability at current $N$.}
 \label{tab:ensembles}
 \begin{ruledtabular}
 \begin{tabular}{lcc}
@@ -67,61 +65,59 @@ Ising critical & $0.51$ & $4.55$ \\
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig2_eigenvector_comparison.pdf}
-\caption{\textbf{Eigenvector statistics.} (a) IPR distribution for MEC (blue) vs GOE (red) vs sparse ER $p=0.05$ (green). (b) Level spacing ratio distribution. (c) Ensemble distance summary.}
+\caption{\textbf{Eigenvector statistics.} (a) IPR distribution for \mec{} (blue) vs GOE (red) vs sparse ER $p=0.05$ (green). (b) Level spacing ratio distribution. (c) Ensemble distance summary.}
 \label{fig:eigenvectors}
 \end{figure}
 
-\textbf{Scaling separation analysis:} To determine whether the MEC/sparse ensemble match persists at larger system sizes, we performed a subsampling scaling analysis \cite{fisher1971,binder1981}. Starting from 15 MEC recordings with $N \ge 100$, we subsampled neurons at sizes $N \in \{20, 30, 50, 80, 100\}$ and computed the distance $d(N)$ between MEC and sparse ensembles in eigenvector-statistic space. The distance grows as $d(N) \sim N^{2.2 \pm 0.1}$ (Fig.~\ref{fig:scaling}, inset), strongly rejecting the hypothesis that MEC converges to the sparse null at larger $N$. This growth is anomalous in the renormalization-group sense \cite{wilson1975,goldenfeld1992}: it implies a relevant operator whose effect amplifies with scale, rather than a finite-size transient. The result confirms that the observed correlation geometry reflects genuine structural organization rather than a finite-$N$ artifact.
+\textbf{Scaling separation analysis:} To determine whether the \mec/sparse ensemble match persists at larger system sizes, we performed a subsampling scaling analysis \cite{fisher1971,binder1981}. Starting from 15 \mec{} recordings with $N \ge 100$, we subsampled neurons at sizes $N \in \{20, 30, 50, 80, 100\}$ and computed the distance $d(N)$ between \mec{} and sparse ensembles in eigenvector-statistic space. The distance grows as $d(N) \sim N^{2.2 \pm 0.1}$ (Fig.~\ref{fig:scaling}, inset), strongly rejecting the hypothesis that \mec{} converges to the sparse null at larger $N$. This growth indicates that the observed correlation geometry reflects genuine structural organization rather than a finite-$N$ artifact. The superlinear scaling exponent amplifies sensitivity with system size, making the \mec/sparse separation increasingly detectable at larger dimensions.
 
-\subsection{Finite-size scaling}
+\subsection{Finite-size scaling of participation ratio}
 
-We analyzed the scaling of PR with system dimensionality $N$ (Fig.~\ref{fig:scaling}). MEC recordings show a saturating trend: PR approaches a plateau at large $N$ ($\text{PR} \approx 40$ for $N > 300$), consistent with exponential spectral truncation. Synthetic stabilized systems show power-law growth $\text{PR} \sim N^{0.125}$, consistent with heavy-tailed spectra.
+We analyzed the scaling of PR with system dimensionality $N$ (Fig.~\ref{fig:scaling}). \mec{} recordings show a saturating trend: PR approaches a plateau at large $N$ ($\text{PR} \approx 40$ for $N > 300$), consistent with exponential spectral truncation at a characteristic scale. Synthetic stabilized systems show power-law growth $\text{PR} \sim N^{0.125}$, consistent with heavy-tailed spectra. This saturation distinguishes the \mec{} regime from systems with scale-invariant spectral properties.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig3_finite_size_scaling.pdf}
-\caption{\textbf{Finite-size scaling of participation ratio.} PR vs dimensionality $N$ for MEC (blue circles) and synthetic systems (orange triangles). MEC shows saturating behavior; synthetic systems follow power-law growth. The black curve shows the prediction for exponential spectral truncation.}
+\caption{\textbf{Finite-size scaling of participation ratio.} PR vs dimensionality $N$ for \mec{} (blue circles) and synthetic systems (orange triangles). \mec{} shows saturating behavior; synthetic systems follow power-law growth. The black curve shows the prediction for exponential spectral truncation. Inset: scaling of ensemble distance $d(N) \sim N^{2.2}$.}
 \label{fig:scaling}
 \end{figure}
 
-This saturation is a key diagnostic: if PR($N$) asymptotes to a finite value, the spectrum is truncated at a characteristic scale rather than decaying as a true power law. This distinguishes the MEC regime from scale-invariant critical systems.
+\subsection{Empirical invariants}
 
-\subsection{Stability and generativity}
+The product $\alpha \cdot \text{PR} \approx 1.4$ for \mec{}, reflecting a consistent tradeoff between spectral breadth and effective dimensionality. The quantity $\text{PR} \cdot e^{\text{LC}/2} \approx 5.8 \pm 1.0$ is consistent across \mec{} sessions, indicating a coupling between dimensional richness and trajectory closure.
 
-The product $\alpha \cdot \text{PR} \approx 2.3$ for MEC, satisfying the general inequality $\alpha \cdot \text{PR} \ge 2$ derived from the spectral bound. Systems near this bound trade spectral breadth (small $\alpha$) against effective dimensionality (large PR). The quantity $\text{PR} \cdot e^{\text{LC}/2} \approx 5.8 \pm 1.0$ is conserved across MEC sessions, indicating a coupling between dimensional richness and trajectory closure.
+\subsection{Interaction structure: instantaneous vs temporal}
 
-\subsection{Temporal interaction structure}
+We recovered interaction operators from \mec{} activity using sparse inverse covariance estimation (graphical lasso) \cite{friedman2008,meinshausen2006}. The precision matrices show 60--89\% sparsity with spectral decay $\alpha \approx 0.33 \pm 0.11$ and PR $\approx 98 \pm 53$, confirming broad spectral support in the instantaneous correlation geometry \cite{dempster1972}. The precision matrix spectrum separates from sparse random ensembles at $3$--$4\sigma$, suggesting structure beyond simple sparsity \cite{ravikumar2011}.
 
-We recovered interaction operators from MEC activity using sparse inverse covariance estimation (graphical lasso) \cite{friedman2008,meinshausen2006}. The precision matrices show 60--89\% sparsity with spectral decay $\alpha \approx 0.33 \pm 0.11$ and PR $\approx 98 \pm 53$, confirming broad spectral support in the instantaneous correlation geometry \cite{dempster1972}. The precision matrix spectrum separates from sparse random ensembles at $3$--$4\sigma$, suggesting structure beyond simple sparsity \cite{ravikumar2011}.
-
-Notably, temporal operators estimated via regularized vector autoregression show flat spectra ($\alpha \approx 0.01$, PR $\approx N$), indicating that lag-1 temporal dynamics are weak at the 20~ms timescale. The dominant structure is in instantaneous correlations rather than temporal propagation.
+Temporal operators estimated via regularized vector autoregression show flat spectra ($\alpha \approx 0.01$, PR $\approx N$), indicating that lag-1 temporal dynamics are weak at the 20~ms timescale. The dominant structure is in instantaneous correlations rather than temporal propagation.
 
 \section{Discussion}
 
-\paragraph{Candidate stable broad-spectrum regime.}
-The results are consistent with a stable broad-spectrum regime---provisionally referred to as Stably Sustained Critical Spectrum (SSCS)---characterized by $\alpha < 0.1$, PR $> 15$, and LC $< -5$. The scaling analysis shows that the MEC/sparse separation grows with system size ($d(N) \sim N^{2.2}$), strengthening the case for genuine structural organization beyond finite-size sparse correlations. However, this remains a candidate classification. The eigenvalue spectrum alone cannot distinguish MEC from the shifted Wigner ensemble or from Ising criticality \cite{hohenberg1977} (both at $d = 0.51\sigma$). The SSCS candidate differs from the self-organized criticality paradigm \cite{beggs2003,mora2011,munoz2018} in two respects: MEC dynamics are linearly stable (LC $< 0$, not marginally stable) and PR($N$) saturates at large $N$ (not power-law scaling).
+\paragraph{Finite-size sensitivity.}
+The apparent agreement between \mec{} eigenvector statistics and the sparse $p=0.05$ ensemble at $N \approx 120$ ($d = 0.86\sigma$) is a finite-size coincidence. The scaling result $d(N) \sim N^{2.2}$ demonstrates that the separation between \mec{} and sparse ensembles increases with system size, not toward zero. This finding underscores the importance of scaling analysis in spectral comparisons: ensemble agreement at a single $N$ can be misleading. The exponent $N^{2.2}$ is a useful benchmark for null-model evaluation in neural covariance analysis.
 
-\paragraph{Distinction from standard criticality.}
-The SSCS candidate differs from conventional criticality in two respects. First, MEC dynamics are linearly stable (LC $< 0$), while critical systems are marginally stable. Second, the finite-size scaling of PR saturates, while critical systems typically exhibit power-law scaling. The spectral properties are better captured by a heterogeneous coupling model with $\alpha \approx 0.076$ than by an Ising model at $T_c$.
+\paragraph{Instantaneous vs temporal geometry.}
+The instantaneous precision matrix carries richer spectral structure ($\alpha \approx 0.33$, PR $\approx 98$) than lag-1 temporal operators ($\alpha \approx 0.01$). This asymmetry suggests that the relevant object for understanding \mec{} organization is the instantaneous interaction network rather than the temporal propagator. Higher-lag interactions and nonlinearities remain unexplored and may carry additional information.
 
-\paragraph{Distinction from collapse.}
-Synthetic stabilized systems universally collapse to PR $\approx 1$, $\alpha > 0.5$, and LC $\approx 0$. The MEC regime is cleanly separated from collapse by all three metrics. The bound $\alpha \cdot \text{PR} \ge 2$ provides a rigorous separation criterion.
+\paragraph{Comparison with stabilized synthetic systems.}
+Synthetic stabilized systems universally collapse to PR $\approx 1$, $\alpha > 0.5$. The \mec{} regime is cleanly separated from collapse by all three metrics ($\alpha$, PR, LC). The fact that no synthetic stabilization operator---homeostatic gain, additive transport, or anisotropic suppression---reproduced the \mec{} spectral regime indicates a gap in the current mechanistic repertoire rather than an impossibility result.
 
-\paragraph{Scaling resolution.}
-Scaling separation analysis resolves a previously open ambiguity. At fixed $N \approx 120$, MEC eigenvector statistics matched a sparse ensemble within $0.86\sigma$. This raised the possibility that the observed broad-spectrum organization was a finite-size artifact of sparse random correlations. However, subsampling analysis reveals that $d(N)$ grows as $N^{2.2}$, not toward zero. The MEC/sparse separation increases with system size, consistent with genuine structural organization.
+\paragraph{Methodological recommendations.}
+These results suggest three guidelines for spectral comparison in neural covariance data. First, ensemble comparisons should be performed at multiple system sizes when possible. Second, eigenvalue and eigenvector statistics can give different ensemble distances and should be evaluated jointly. Third, preprocessing choices (binning, smoothing, normalization) affect spectral estimates and should be matched between data and nulls---a control not performed here and left to future work.
 
-\paragraph{Operator interpretation.}
-The broad-spectrum organization resides in instantaneous correlation geometry, not in temporal propagation. Precision matrix spectra ($\alpha \approx 0.33$, PR $\approx 98$) show richer structure than lag-1 operators ($\alpha \approx 0.01$). The relevant object for understanding MEC organization is the instantaneous interaction network, not the temporal propagator. Higher-lag interactions and nonlinearities remain unexplored and may carry additional information.
+\paragraph{Limitations.}
+Because recordings are reused across subsampling analyses, effective sample counts for scaling estimates may be lower than nominal bootstrap counts. The null-model family tested here---GOE, shifted Wigner, sparse Erd\H{o}s--R\'{e}nyi, and Ising criticality---does not exhaust the space of possible nulls; additional null constructions (e.g., state-space models, latent factor models) may produce different ensemble distances. The scaling exponent $d(N) \sim N^{2.2}$ is an empirical observation within the tested $N$ range and should not be extrapolated to asymptotically large systems without independent verification. The claims in this paper are methodological and descriptive: we demonstrate that finite-size effects can produce misleading ensemble agreement and that scaling analysis can resolve such ambiguities, but we do not claim that any particular null model is the correct generative model for \mec{} dynamics.
 
 \section{Methods}
 
 \subsection{Data}
 
-MEC recordings from 40 sessions of rodent spatial navigation (Calais, Goa, Kerala, Mumbai cohorts). Spike counts binned at 20~ms, Gaussian-smoothed ($\sigma = 40$~ms). Covariance matrices computed from $z$-scored activity.
+\mec{} recordings from 21 sessions of rodent spatial navigation (Calais, Goa, Kerala, Mumbai cohorts). Spike counts binned at 20~ms, Gaussian-smoothed ($\sigma = 40$~ms). Covariance matrices computed from $z$-scored activity.
 
 \subsection{Spectral analysis}
 
-Eigenvalues computed via SVD of the $z$-scored data matrix. Spectral decay $\alpha$ estimated by exponential fit $\log \lambda_k = -\alpha k + \text{const}$ to the leading half of the eigenvalue spectrum (see companion paper for bound derivation). IPR computed as $\text{IPR} = \sum_i |v_i|^4$ for normalized eigenvectors.
+Eigenvalues computed via eigh of the correlation matrix. Spectral decay $\alpha$ estimated by exponential fit $\log \lambda_k = -\alpha k + \text{const}$ to eigenvalues $2$ through $N/2$ of the correlation spectrum. IPR computed as $\text{IPR} = \sum_i |v_i|^4$ for normalized eigenvectors.
 
 \subsection{Ensemble comparison}
 

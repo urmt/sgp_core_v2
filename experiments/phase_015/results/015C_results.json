@@ -1,0 +1,611 @@
+{
+  "Calais_0713_2_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0517,
+      "real_PR": 28.9,
+      "null_alpha_mean": 0.0061,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 68.0,
+      "null_PR_std": 0.0,
+      "d_alpha": 373.36
+    },
+    "sigma_40": {
+      "real_alpha": 0.0558,
+      "real_PR": 25.9,
+      "null_alpha_mean": 0.0136,
+      "null_alpha_std": 0.0004,
+      "null_PR_mean": 64.2,
+      "null_PR_std": 0.1,
+      "d_alpha": 100.12
+    },
+    "sigma_80": {
+      "real_alpha": 0.0605,
+      "real_PR": 22.1,
+      "null_alpha_mean": 0.0191,
+      "null_alpha_std": 0.0006,
+      "null_PR_mean": 60.0,
+      "null_PR_std": 0.2,
+      "d_alpha": 74.28
+    }
+  },
+  "Goa_1207_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0615,
+      "real_PR": 29.7,
+      "null_alpha_mean": 0.0122,
+      "null_alpha_std": 0.0004,
+      "null_PR_mean": 59.9,
+      "null_PR_std": 0.1,
+      "d_alpha": 138.55
+    },
+    "sigma_40": {
+      "real_alpha": 0.0651,
+      "real_PR": 27.6,
+      "null_alpha_mean": 0.0272,
+      "null_alpha_std": 0.0007,
+      "null_PR_mean": 50.0,
+      "null_PR_std": 0.3,
+      "d_alpha": 51.38
+    },
+    "sigma_80": {
+      "real_alpha": 0.0718,
+      "real_PR": 24.8,
+      "null_alpha_mean": 0.0389,
+      "null_alpha_std": 0.0011,
+      "null_PR_mean": 41.5,
+      "null_PR_std": 0.5,
+      "d_alpha": 28.61
+    }
+  },
+  "Goa_1209_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0404,
+      "real_PR": 30.8,
+      "null_alpha_mean": 0.0094,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 97.5,
+      "null_PR_std": 0.2,
+      "d_alpha": 227.1
+    },
+    "sigma_40": {
+      "real_alpha": 0.0454,
+      "real_PR": 25.1,
+      "null_alpha_mean": 0.0214,
+      "null_alpha_std": 0.0003,
+      "null_PR_mean": 73.6,
+      "null_PR_std": 0.4,
+      "d_alpha": 72.72
+    },
+    "sigma_80": {
+      "real_alpha": 0.0541,
+      "real_PR": 18.9,
+      "null_alpha_mean": 0.031,
+      "null_alpha_std": 0.0006,
+      "null_PR_mean": 56.5,
+      "null_PR_std": 0.4,
+      "d_alpha": 41.17
+    }
+  },
+  "Goa_1209_1_MEC_FRtensor_18c25cb3": {
+    "sigma_0": {
+      "real_alpha": 0.021,
+      "real_PR": 57.4,
+      "null_alpha_mean": 0.0018,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 163.9,
+      "null_PR_std": 0.0,
+      "d_alpha": 951.66
+    },
+    "sigma_40": {
+      "real_alpha": 0.0227,
+      "real_PR": 48.6,
+      "null_alpha_mean": 0.0039,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 159.5,
+      "null_PR_std": 0.1,
+      "d_alpha": 446.18
+    },
+    "sigma_80": {
+      "real_alpha": 0.025,
+      "real_PR": 38.7,
+      "null_alpha_mean": 0.0055,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 154.4,
+      "null_PR_std": 0.1,
+      "d_alpha": 335.39
+    }
+  },
+  "Goa_1210_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0149,
+      "real_PR": 90.6,
+      "null_alpha_mean": 0.0014,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 255.3,
+      "null_PR_std": 0.0,
+      "d_alpha": 1116.5
+    },
+    "sigma_40": {
+      "real_alpha": 0.0159,
+      "real_PR": 77.8,
+      "null_alpha_mean": 0.0031,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 244.8,
+      "null_PR_std": 0.1,
+      "d_alpha": 478.45
+    },
+    "sigma_80": {
+      "real_alpha": 0.017,
+      "real_PR": 62.9,
+      "null_alpha_mean": 0.0044,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 233.0,
+      "null_PR_std": 0.2,
+      "d_alpha": 528.98
+    }
+  },
+  "Goa_1210_1_MEC_FRtensor_90a0e9b0": {
+    "sigma_0": {
+      "real_alpha": 0.0282,
+      "real_PR": 53.1,
+      "null_alpha_mean": 0.0069,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 165.6,
+      "null_PR_std": 0.3,
+      "d_alpha": 262.66
+    },
+    "sigma_40": {
+      "real_alpha": 0.0322,
+      "real_PR": 44.9,
+      "null_alpha_mean": 0.0162,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 106.9,
+      "null_PR_std": 0.4,
+      "d_alpha": 119.45
+    },
+    "sigma_80": {
+      "real_alpha": 0.0402,
+      "real_PR": 35.4,
+      "null_alpha_mean": 0.0253,
+      "null_alpha_std": 0.0002,
+      "null_PR_mean": 74.2,
+      "null_PR_std": 0.4,
+      "d_alpha": 67.23
+    }
+  },
+  "Goa_1211_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0323,
+      "real_PR": 38.7,
+      "null_alpha_mean": 0.0083,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 123.0,
+      "null_PR_std": 0.2,
+      "d_alpha": 174.93
+    },
+    "sigma_40": {
+      "real_alpha": 0.0365,
+      "real_PR": 31.4,
+      "null_alpha_mean": 0.019,
+      "null_alpha_std": 0.0003,
+      "null_PR_mean": 87.2,
+      "null_PR_std": 0.5,
+      "d_alpha": 69.71
+    },
+    "sigma_80": {
+      "real_alpha": 0.0444,
+      "real_PR": 23.6,
+      "null_alpha_mean": 0.0281,
+      "null_alpha_std": 0.0003,
+      "null_PR_mean": 64.2,
+      "null_PR_std": 0.5,
+      "d_alpha": 52.0
+    }
+  },
+  "Goa_1211_1_MEC_FRtensor_a16d6c04": {
+    "sigma_0": {
+      "real_alpha": 0.0165,
+      "real_PR": 75.0,
+      "null_alpha_mean": 0.0016,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 202.3,
+      "null_PR_std": 0.0,
+      "d_alpha": 1646.96
+    },
+    "sigma_40": {
+      "real_alpha": 0.0179,
+      "real_PR": 63.5,
+      "null_alpha_mean": 0.0035,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 195.7,
+      "null_PR_std": 0.1,
+      "d_alpha": 385.69
+    },
+    "sigma_80": {
+      "real_alpha": 0.0197,
+      "real_PR": 50.9,
+      "null_alpha_mean": 0.0049,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 188.1,
+      "null_PR_std": 0.1,
+      "d_alpha": 299.48
+    }
+  },
+  "Hanover_0615_2_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0439,
+      "real_PR": 29.6,
+      "null_alpha_mean": 0.0027,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 71.8,
+      "null_PR_std": 0.0,
+      "d_alpha": 684.43
+    },
+    "sigma_40": {
+      "real_alpha": 0.0465,
+      "real_PR": 27.0,
+      "null_alpha_mean": 0.0059,
+      "null_alpha_std": 0.0002,
+      "null_PR_mean": 70.9,
+      "null_PR_std": 0.0,
+      "d_alpha": 233.13
+    },
+    "sigma_80": {
+      "real_alpha": 0.0493,
+      "real_PR": 24.6,
+      "null_alpha_mean": 0.0084,
+      "null_alpha_std": 0.0002,
+      "null_PR_mean": 69.9,
+      "null_PR_std": 0.1,
+      "d_alpha": 268.24
+    }
+  },
+  "Kerala_1207_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0204,
+      "real_PR": 58.5,
+      "null_alpha_mean": 0.0015,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 224.9,
+      "null_PR_std": 0.0,
+      "d_alpha": 1333.61
+    },
+    "sigma_40": {
+      "real_alpha": 0.0219,
+      "real_PR": 53.9,
+      "null_alpha_mean": 0.0033,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 216.8,
+      "null_PR_std": 0.1,
+      "d_alpha": 638.36
+    },
+    "sigma_80": {
+      "real_alpha": 0.0237,
+      "real_PR": 48.4,
+      "null_alpha_mean": 0.0047,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 207.4,
+      "null_PR_std": 0.1,
+      "d_alpha": 530.21
+    }
+  },
+  "Kerala_1207_1_MEC_FRtensor_a631b804": {
+    "sigma_0": {
+      "real_alpha": 0.0384,
+      "real_PR": 30.3,
+      "null_alpha_mean": 0.0075,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 145.1,
+      "null_PR_std": 0.2,
+      "d_alpha": 301.08
+    },
+    "sigma_40": {
+      "real_alpha": 0.0427,
+      "real_PR": 26.4,
+      "null_alpha_mean": 0.0174,
+      "null_alpha_std": 0.0002,
+      "null_PR_mean": 97.9,
+      "null_PR_std": 0.6,
+      "d_alpha": 128.18
+    },
+    "sigma_80": {
+      "real_alpha": 0.0502,
+      "real_PR": 21.8,
+      "null_alpha_mean": 0.0265,
+      "null_alpha_std": 0.0003,
+      "null_PR_mean": 69.4,
+      "null_PR_std": 0.7,
+      "d_alpha": 75.55
+    }
+  },
+  "Kerala_1208_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0368,
+      "real_PR": 45.7,
+      "null_alpha_mean": 0.0078,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 135.8,
+      "null_PR_std": 0.3,
+      "d_alpha": 274.82
+    },
+    "sigma_40": {
+      "real_alpha": 0.0406,
+      "real_PR": 40.7,
+      "null_alpha_mean": 0.018,
+      "null_alpha_std": 0.0003,
+      "null_PR_mean": 93.7,
+      "null_PR_std": 0.7,
+      "d_alpha": 70.65
+    },
+    "sigma_80": {
+      "real_alpha": 0.0475,
+      "real_PR": 34.5,
+      "null_alpha_mean": 0.0269,
+      "null_alpha_std": 0.0003,
+      "null_PR_mean": 67.7,
+      "null_PR_std": 0.4,
+      "d_alpha": 65.43
+    }
+  },
+  "Kerala_1209_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.048,
+      "real_PR": 22.0,
+      "null_alpha_mean": 0.0099,
+      "null_alpha_std": 0.0002,
+      "null_PR_mean": 90.6,
+      "null_PR_std": 0.2,
+      "d_alpha": 157.85
+    },
+    "sigma_40": {
+      "real_alpha": 0.0529,
+      "real_PR": 20.0,
+      "null_alpha_mean": 0.0221,
+      "null_alpha_std": 0.0003,
+      "null_PR_mean": 69.9,
+      "null_PR_std": 0.4,
+      "d_alpha": 101.58
+    },
+    "sigma_80": {
+      "real_alpha": 0.0605,
+      "real_PR": 17.7,
+      "null_alpha_mean": 0.0321,
+      "null_alpha_std": 0.0006,
+      "null_PR_mean": 54.1,
+      "null_PR_std": 0.5,
+      "d_alpha": 45.19
+    }
+  },
+  "Kerala_1210_2_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0744,
+      "real_PR": 14.6,
+      "null_alpha_mean": 0.0143,
+      "null_alpha_std": 0.0007,
+      "null_PR_mean": 44.3,
+      "null_PR_std": 0.1,
+      "d_alpha": 87.26
+    },
+    "sigma_40": {
+      "real_alpha": 0.0819,
+      "real_PR": 12.1,
+      "null_alpha_mean": 0.032,
+      "null_alpha_std": 0.0012,
+      "null_PR_mean": 38.7,
+      "null_PR_std": 0.3,
+      "d_alpha": 42.32
+    },
+    "sigma_80": {
+      "real_alpha": 0.0934,
+      "real_PR": 9.4,
+      "null_alpha_mean": 0.0448,
+      "null_alpha_std": 0.0018,
+      "null_PR_mean": 33.4,
+      "null_PR_std": 0.4,
+      "d_alpha": 26.91
+    }
+  },
+  "Kerala_1211_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.044,
+      "real_PR": 25.3,
+      "null_alpha_mean": 0.0091,
+      "null_alpha_std": 0.0002,
+      "null_PR_mean": 103.3,
+      "null_PR_std": 0.1,
+      "d_alpha": 201.91
+    },
+    "sigma_40": {
+      "real_alpha": 0.0493,
+      "real_PR": 21.1,
+      "null_alpha_mean": 0.0206,
+      "null_alpha_std": 0.0003,
+      "null_PR_mean": 77.1,
+      "null_PR_std": 0.4,
+      "d_alpha": 88.3
+    },
+    "sigma_80": {
+      "real_alpha": 0.0575,
+      "real_PR": 16.7,
+      "null_alpha_mean": 0.0302,
+      "null_alpha_std": 0.0004,
+      "null_PR_mean": 58.3,
+      "null_PR_std": 0.4,
+      "d_alpha": 74.32
+    }
+  },
+  "Kerala_1213_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0344,
+      "real_PR": 20.5,
+      "null_alpha_mean": 0.008,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 130.3,
+      "null_PR_std": 0.2,
+      "d_alpha": 204.88
+    },
+    "sigma_40": {
+      "real_alpha": 0.0389,
+      "real_PR": 18.0,
+      "null_alpha_mean": 0.0184,
+      "null_alpha_std": 0.0003,
+      "null_PR_mean": 90.9,
+      "null_PR_std": 0.6,
+      "d_alpha": 74.74
+    },
+    "sigma_80": {
+      "real_alpha": 0.0468,
+      "real_PR": 15.5,
+      "null_alpha_mean": 0.0275,
+      "null_alpha_std": 0.0003,
+      "null_PR_mean": 66.1,
+      "null_PR_std": 0.5,
+      "d_alpha": 64.09
+    }
+  },
+  "Mumbai_1125_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0833,
+      "real_PR": 17.8,
+      "null_alpha_mean": 0.0161,
+      "null_alpha_std": 0.0008,
+      "null_PR_mean": 35.9,
+      "null_PR_std": 0.0,
+      "d_alpha": 85.47
+    },
+    "sigma_40": {
+      "real_alpha": 0.0931,
+      "real_PR": 16.0,
+      "null_alpha_mean": 0.0351,
+      "null_alpha_std": 0.0024,
+      "null_PR_mean": 32.1,
+      "null_PR_std": 0.3,
+      "d_alpha": 24.51
+    },
+    "sigma_80": {
+      "real_alpha": 0.1073,
+      "real_PR": 13.6,
+      "null_alpha_mean": 0.0498,
+      "null_alpha_std": 0.0031,
+      "null_PR_mean": 28.5,
+      "null_PR_std": 0.4,
+      "d_alpha": 18.81
+    }
+  },
+  "Mumbai_1129_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0229,
+      "real_PR": 55.0,
+      "null_alpha_mean": 0.002,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 154.8,
+      "null_PR_std": 0.0,
+      "d_alpha": 850.76
+    },
+    "sigma_40": {
+      "real_alpha": 0.0247,
+      "real_PR": 48.0,
+      "null_alpha_mean": 0.0044,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 150.4,
+      "null_PR_std": 0.1,
+      "d_alpha": 347.33
+    },
+    "sigma_80": {
+      "real_alpha": 0.0271,
+      "real_PR": 40.1,
+      "null_alpha_mean": 0.006,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 145.2,
+      "null_PR_std": 0.1,
+      "d_alpha": 224.19
+    }
+  },
+  "Mumbai_1129_1_MEC_FRtensor_075a63ad": {
+    "sigma_0": {
+      "real_alpha": 0.0466,
+      "real_PR": 10.9,
+      "null_alpha_mean": 0.0094,
+      "null_alpha_std": 0.0002,
+      "null_PR_mean": 97.5,
+      "null_PR_std": 0.1,
+      "d_alpha": 194.7
+    },
+    "sigma_40": {
+      "real_alpha": 0.0525,
+      "real_PR": 9.3,
+      "null_alpha_mean": 0.0212,
+      "null_alpha_std": 0.0005,
+      "null_PR_mean": 73.6,
+      "null_PR_std": 0.4,
+      "d_alpha": 69.12
+    },
+    "sigma_80": {
+      "real_alpha": 0.0622,
+      "real_PR": 7.6,
+      "null_alpha_mean": 0.0307,
+      "null_alpha_std": 0.0005,
+      "null_PR_mean": 56.7,
+      "null_PR_std": 0.5,
+      "d_alpha": 65.5
+    }
+  },
+  "Mumbai_1130_1_MEC_FRtensor": {
+    "sigma_0": {
+      "real_alpha": 0.0355,
+      "real_PR": 28.0,
+      "null_alpha_mean": 0.0078,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 135.7,
+      "null_PR_std": 0.2,
+      "d_alpha": 225.33
+    },
+    "sigma_40": {
+      "real_alpha": 0.039,
+      "real_PR": 24.6,
+      "null_alpha_mean": 0.0181,
+      "null_alpha_std": 0.0002,
+      "null_PR_mean": 93.4,
+      "null_PR_std": 0.5,
+      "d_alpha": 116.02
+    },
+    "sigma_80": {
+      "real_alpha": 0.0457,
+      "real_PR": 19.8,
+      "null_alpha_mean": 0.027,
+      "null_alpha_std": 0.0004,
+      "null_PR_mean": 67.4,
+      "null_PR_std": 0.5,
+      "d_alpha": 48.26
+    }
+  },
+  "Mumbai_1130_1_MEC_FRtensor_50ee2840": {
+    "sigma_0": {
+      "real_alpha": 0.0201,
+      "real_PR": 23.3,
+      "null_alpha_mean": 0.0019,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 201.5,
+      "null_PR_std": 0.0,
+      "d_alpha": 1065.44
+    },
+    "sigma_40": {
+      "real_alpha": 0.0217,
+      "real_PR": 19.8,
+      "null_alpha_mean": 0.0043,
+      "null_alpha_std": 0.0,
+      "null_PR_mean": 191.8,
+      "null_PR_std": 0.1,
+      "d_alpha": 461.83
+    },
+    "sigma_80": {
+      "real_alpha": 0.0238,
+      "real_PR": 16.0,
+      "null_alpha_mean": 0.006,
+      "null_alpha_std": 0.0001,
+      "null_PR_mean": 181.0,
+      "null_PR_std": 0.2,
+      "d_alpha": 324.12
+    }
+  }
+}
