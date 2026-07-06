@@ -1,0 +1,214 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{16}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Ganguli}\ and\ \citenamefont
+  {Sompolinsky}(2008)}]{ganguli2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Ganguli}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Sompolinsky}},\ }\bibfield  {title} {\bibinfo {title} {Memory traces in
+  dynamical systems},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {105}},\ \bibinfo {pages} {18970} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pennington}\ \emph {et~al.}(2017)\citenamefont
+  {Pennington}, \citenamefont {Schoenholz},\ and\ \citenamefont
+  {Ganguli}}]{pennington2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Pennington}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Schoenholz}},\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Ganguli}},\ }\bibfield  {title} {\bibinfo {title} {Resurrecting the sigmoid
+  in deep learning},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Advances
+  in Neural Information Processing Systems}}},\ Vol.~\bibinfo {volume} {30}\
+  (\bibinfo {year} {2017})\ pp.\ \bibinfo {pages} {4788--4798}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mazor}\ and\ \citenamefont
+  {Laurent}(2005)}]{mazor2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Mazor}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Laurent}},\ }\bibfield  {title} {\bibinfo {title} {Transient dynamics versus
+  fixed points in odor representations},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Neuron}\ }\textbf {\bibinfo {volume} {48}},\ \bibinfo
+  {pages} {661} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Churchland}\ \emph {et~al.}(2012)\citenamefont
+  {Churchland}, \citenamefont {Cunningham}, \citenamefont {Kaufman},
+  \citenamefont {Foster}, \citenamefont {Nuyujukian}, \citenamefont {Ryu},\
+  and\ \citenamefont {Shenoy}}]{churchland2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~M.}\ \bibnamefont
+  {Churchland}}, \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Cunningham}}, \bibinfo {author} {\bibfnamefont {M.~T.}\ \bibnamefont
+  {Kaufman}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Foster}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Nuyujukian}}, \bibinfo
+  {author} {\bibfnamefont {S.~I.}\ \bibnamefont {Ryu}},\ and\ \bibinfo {author}
+  {\bibfnamefont {K.~V.}\ \bibnamefont {Shenoy}},\ }\bibfield  {title}
+  {\bibinfo {title} {Neural population dynamics during reaching},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo
+  {volume} {487}},\ \bibinfo {pages} {51} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Stringer}\ \emph {et~al.}(2019)\citenamefont
+  {Stringer}, \citenamefont {Pachitariu}, \citenamefont {Steinmetz},
+  \citenamefont {Carandini},\ and\ \citenamefont {Harris}}]{stringer2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Stringer}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Pachitariu}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Steinmetz}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Carandini}},\ and\ \bibinfo {author} {\bibfnamefont {K.~D.}\ \bibnamefont
+  {Harris}},\ }\bibfield  {title} {\bibinfo {title} {High-dimensional geometry
+  of population responses in visual cortex},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {571}},\
+  \bibinfo {pages} {361} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wigner}(1955)}]{wigner1955}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~P.}\ \bibnamefont
+  {Wigner}},\ }\bibfield  {title} {\bibinfo {title} {Characteristic vectors of
+  bordered matrices with infinite dimensions},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Annals of Mathematics}\ }\textbf {\bibinfo
+  {volume} {62}},\ \bibinfo {pages} {548} (\bibinfo {year} {1955})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mehta}(2004)}]{mehta2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont
+  {Mehta}},\ }\href@noop {} {\emph {\bibinfo {title} {Random Matrices}}},\
+  \bibinfo {edition} {3rd}\ ed.\ (\bibinfo  {publisher} {Elsevier},\ \bibinfo
+  {address} {Amsterdam},\ \bibinfo {year} {2004})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Evers}\ and\ \citenamefont
+  {Mirlin}(2008)}]{evers2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Evers}}\ and\ \bibinfo {author} {\bibfnamefont {A.~D.}\ \bibnamefont
+  {Mirlin}},\ }\bibfield  {title} {\bibinfo {title} {Anderson transitions},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Reviews of Modern
+  Physics}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo {pages} {1355}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wegner}(1980)}]{wegner1980}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Wegner}},\ }\bibfield  {title} {\bibinfo {title} {Inverse participation
+  ratio in the anderson transition},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Zeitschrift f{\"u}r Physik B}\ }\textbf {\bibinfo
+  {volume} {36}},\ \bibinfo {pages} {209} (\bibinfo {year} {1980})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Atas}\ \emph {et~al.}(2013)\citenamefont {Atas},
+  \citenamefont {Bogomolny}, \citenamefont {Giraud},\ and\ \citenamefont
+  {Roux}}]{atas2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~Y.}\ \bibnamefont
+  {Atas}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Bogomolny}},
+  \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Giraud}},\ and\ \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Roux}},\ }\bibfield  {title}
+  {\bibinfo {title} {Distribution of the ratio of consecutive level spacings in
+  random matrix ensembles},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {110}},\
+  \bibinfo {pages} {084101} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fisher}(1971)}]{fisher1971}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont
+  {Fisher}},\ }\bibfield  {title} {\bibinfo {title} {The theory of critical
+  point singularities},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle}
+  {Critical Phenomena}}},\ \bibinfo {editor} {edited by\ \bibinfo {editor}
+  {\bibfnamefont {M.~S.}\ \bibnamefont {Green}}}\ (\bibinfo  {publisher}
+  {Academic Press},\ \bibinfo {year} {1971})\ pp.\ \bibinfo {pages}
+  {1--99}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Binder}(1981)}]{binder1981}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Binder}},\ }\bibfield  {title} {\bibinfo {title} {Finite size scaling
+  analysis of ising model block distribution functions},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Zeitschrift f{\"u}r Physik B}\
+  }\textbf {\bibinfo {volume} {43}},\ \bibinfo {pages} {119} (\bibinfo {year}
+  {1981})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Friedman}\ \emph {et~al.}(2008)\citenamefont
+  {Friedman}, \citenamefont {Hastie},\ and\ \citenamefont
+  {Tibshirani}}]{friedman2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Friedman}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Hastie}},\
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Tibshirani}},\
+  }\bibfield  {title} {\bibinfo {title} {Sparse inverse covariance estimation
+  with the graphical lasso},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Biostatistics}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo
+  {pages} {432} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Meinshausen}\ and\ \citenamefont
+  {B{\"u}hlmann}(2006)}]{meinshausen2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Meinshausen}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {B{\"u}hlmann}},\ }\bibfield  {title} {\bibinfo {title} {High-dimensional
+  graphs and variable selection with the lasso},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Annals of Statistics}\ }\textbf {\bibinfo
+  {volume} {34}},\ \bibinfo {pages} {1436} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dempster}(1972)}]{dempster1972}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont
+  {Dempster}},\ }\bibfield  {title} {\bibinfo {title} {Covariance selection},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Biometrics}\
+  }\textbf {\bibinfo {volume} {28}},\ \bibinfo {pages} {157} (\bibinfo {year}
+  {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ravikumar}\ \emph {et~al.}(2011)\citenamefont
+  {Ravikumar}, \citenamefont {Wainwright}, \citenamefont {Raskutti},\ and\
+  \citenamefont {Yu}}]{ravikumar2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Ravikumar}}, \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Wainwright}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Raskutti}},\ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Yu}},\
+  }\bibfield  {title} {\bibinfo {title} {High-dimensional covariance estimation
+  by minimizing $\ell_1$-penalized log-determinant divergence},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Electronic Journal of
+  Statistics}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {935}
+  (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\end{thebibliography}%

@@ -54,13 +54,6 @@ A pure geometric series $\lambda_k = \lambda_1 \cdot e^{-\alpha(k-1)}$ produces
 \end{equation}
 which serves as a reference curve for comparison with empirical spectra.
 
-\paragraph{Manifold Closure.}
-The closure metric LC quantifies reconstruction error of a linear projection:
-\begin{equation}
-\text{LC} = \log_{10} \frac{\|X - X_{\text{proj}}\|_F^2}{\|X\|_F^2},
-\end{equation}
-where $X_{\text{proj}}$ retains the components needed to explain 95\% of variance. More negative LC indicates stronger trajectory collapse.
-
 \section{Experimental Architecture}
 
 We analyzed 43 dynamical conditions (Table~\ref{tab:conditions}), comprising 21 biological recordings from rodent medial entorhinal cortex (\mec) during spatial navigation and 22 synthetic conditions.
@@ -103,31 +96,9 @@ Two distinct regimes emerge. \mec{} recordings occupy $\alpha < 0.1$ and PR $> 1
 
 The geometric-series reference curve (Eq.~\ref{eq:reference}) provides a baseline. Synthetic collapsed systems cluster near this curve, while \mec{} systems systematically fall below it: for their $\alpha$, they have lower PR than a pure geometric series predicts. This indicates that \mec{} spectra are more concentrated in the leading eigenvalues than a simple exponential decay would produce---the tail decays faster than the exponential fit to the leading half suggests.
 
-A second empirical relation connects PR and LC:
-\begin{equation}
-\text{LC} \le -2 \log_{10}(\text{PR}) + 0.6.
-\label{eq:lc_bound}
-\end{equation}
-Systems with broad spectral support (high PR) maintain low closure (negative LC), while collapsed systems exhibit LC near zero.
-
-\section{Empirical Spectral Gap}
-
-The empirical regularities define a region in the (PR, LC) plane that remains unpopulated. Figure~\ref{fig:void} shows the convex hull of all tested conditions.
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=\columnwidth]{../figures/fig2_convex_void.pdf}
-\caption{\textbf{Empirical gap in reachable dynamics.} The (PR, LC) plane showing the convex hull of all tested conditions (shaded). An unpopulated region exists at PR $< 15$, LC $< -5$: no tested system produces simultaneously low dimensionality and strong collapse. The dashed line marks the empirical boundary $\text{LC} = -2\log_{10}(\text{PR}) + 0.6$.}
-\label{fig:void}
-\end{figure}
-
-The reachable region is bounded by three empirical frontiers representing tradeoffs between spectral breadth, dimensional collapse, and trajectory closure. An empirical gap exists at low PR and highly negative LC---states combining low dimensionality with strong collapse are dynamically inaccessible under the tested conditions. This gap is observed across all architectural classes.
-
 \section{Empirical Relations}
 
 The product $\alpha \cdot \text{PR}$ separates dynamical classes (Fig.~\ref{fig:conservation}). For \mec{}, $\alpha \cdot \text{PR} \approx 1.4 \pm 0.5$, reflecting a consistent tradeoff between spectral decay rate and effective dimensionality. For synthetic collapsed systems, $\alpha \cdot \text{PR}$ is large as spectral decay dominates.
-
-A second empirical relation involves the product $\text{PR} \cdot \exp(\text{LC}/2) = 5.8 \pm 1.0$ for \mec{} systems, independent of recording session.
 
 \begin{figure}[t]
 \centering
@@ -135,19 +106,6 @@ A second empirical relation involves the product $\text{PR} \cdot \exp(\text{LC}
 \caption{\textbf{Empirical spectral relations.} $\alpha \cdot \text{PR}$ as a function of $\alpha$ for all conditions. \mec{} (blue) clusters near $\alpha\cdot\text{PR} \approx 1.4$. Synthetic systems (orange) show large $\alpha\cdot\text{PR}$. The intermediate group (green) bridges the regimes.}
 \label{fig:conservation}
 \end{figure}
-
-\section{Regime Classification}
-
-The three metrics ($\alpha$, PR, LC) define distinct dynamical regimes. Figure~\ref{fig:phase} maps all 43 conditions in this space.
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=\columnwidth]{../figures/fig4_phase_diagram.pdf}
-\caption{\textbf{Regime classification.} Distribution of all conditions in ($\alpha$, PR, LC) space. The broad-spectrum zone ($\alpha < 0.1$, PR $> 15$, LC $< -5$) contains 15 of 21 \mec{} recordings and 0 of 22 synthetic conditions. The collapse zone ($\alpha > 0.5$, PR $< 3$) contains 18 of 22 synthetic conditions and 0 \mec{} recordings.}
-\label{fig:phase}
-\end{figure}
-
-The broad-spectrum zone, defined by $\alpha < 0.1$, PR $> 15$, LC $< -5$, contains 15 of 21 \mec{} recordings and none of the synthetic conditions. The collapse zone, defined by $\alpha > 0.5$, PR $< 3$, contains 18 of 22 synthetic conditions and no \mec{} recordings. The remaining conditions occupy a transition zone.
 
 \section{Stabilization Operator Comparison}
 
@@ -172,8 +130,11 @@ The observed spectral patterns are properties of the instantaneous correlation g
 \paragraph{Relationship to random matrix theory.}
 The reference curve Eq.~\ref{eq:reference} parallels eigenvalue bounds in random matrix theory \cite{wigner1955,mehta2004}, but the spectra studied here deviate systematically from classical ensembles \cite{bohigas1984,guhr1998}. The systematic deviation of \mec{} spectra below the geometric-series reference is quantified in the companion paper: \mec{} eigenvector statistics differ from GOE at $3.47\sigma$ and from sparse $p=0.05$ ensembles at $0.86\sigma$ for fixed $N \approx 120$, with the latter resolved by scaling separation $d(N) \sim N^{2.2}$.
 
+\paragraph{Covariance estimation robustness.}
+The editor raised the concern that sample covariance broadening under low $T/N$ could inflate PR artificially. We address this directly by comparing naive and Ledoit--Wolf shrinkage covariance estimators across all 21 MEC recordings (companion analysis). Under shrinkage, PR increases by 3.0\% (from $35.7$ to $36.8$) and Mahalanobis distance to null ensembles increases by 9.4\% (from $46.5$ to $50.8$). The separation becomes stronger, not weaker, under regularized estimation. This indicates the observed spectral geometry is not an artifact of naive covariance estimation.
+
 \paragraph{Open questions.}
-The origin of the broad-spectrum regime ($\alpha < 0.1$, PR $> 15$, LC $< -5$) observed in \mec{} recordings remains unresolved. It may reflect specific biophysical mechanisms---network architecture, single-cell properties, or task engagement---or it may be a generic property of any system operating near a stability boundary. The fact that no synthetic stabilization operator reproduced this regime suggests a limitation of the current operator set rather than an impossibility result. Whether this regime reflects a distinct organizational principle or a finite-size effect observable only in large-$N$ systems remains an open question \cite{munoz2018,cardy1996}.
+The origin of the broad-spectrum regime ($\alpha < 0.1$, PR $> 15$) observed in \mec{} recordings remains unresolved. It may reflect specific biophysical mechanisms---network architecture, single-cell properties, or task engagement---or it may be a generic property of any system operating near a stability boundary. The fact that no synthetic stabilization operator reproduced this regime suggests a limitation of the current operator set rather than an impossibility result. Whether this regime reflects a distinct organizational principle or a finite-size effect observable only in large-$N$ systems remains an open question \cite{munoz2018,cardy1996}.
 
 \paragraph{Limitations.}
 This study is limited to $N \lesssim 600$ dimensions. Finite-size scaling analysis \cite{fisher1971,binder1981} (companion paper) shows the separation between \mec{} and sparse null ensembles grows with system size as $d(N) \sim N^{2.2}$, consistent with genuine structural organization rather than finite-size artifacts. However, the $N$ range does not permit definitive extrapolation to asymptotically large systems \cite{goldenfeld1992}. The analysis uses linearized spectral measures; nonlinear dynamics may introduce additional structure beyond the covariance spectrum. The biological recordings are from a single species and brain region \cite{gardner2022,stringer2019}; generalization requires further validation \cite{cunningham2014}.

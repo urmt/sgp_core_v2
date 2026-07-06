@@ -32,7 +32,7 @@ Understanding whether this broad-spectrum organization reflects genuine structur
 
 The eigenvalue spectrum of the correlation matrix of \mec{} activity follows a slow exponential decay with exponent $\alpha = 0.039 \pm 0.018$ (Fig.~\ref{fig:spectra}, mean across 21 sessions). The decay is estimated from eigenvalues $2$ through $N/2$ of the $z$-scored correlation matrix via least-squares regression on log-transformed values (companion paper). This decay is substantially slower than that of random matrix ensembles \cite{wigner1955,mehta2004} (GOE: $\alpha \approx 0.27$ for matched dimensionality) and of synthetic stabilized systems ($\alpha > 0.5$).
 
-The participation ratio PR $= 37 \pm 20$ is consistent with broad spectral support. The closure metric LC $= -3.5 \pm 1.2$ indicates moderate trajectory collapse, consistent with stable but non-degenerate dynamics.
+The participation ratio PR $= 37 \pm 20$ is consistent with broad spectral support.
 
 \begin{figure}[t]
 \centering
@@ -84,7 +84,7 @@ We analyzed the scaling of PR with system dimensionality $N$ (Fig.~\ref{fig:scal
 
 \subsection{Empirical invariants}
 
-The product $\alpha \cdot \text{PR} \approx 1.4$ for \mec{}, reflecting a consistent tradeoff between spectral breadth and effective dimensionality. The quantity $\text{PR} \cdot e^{\text{LC}/2} \approx 5.8 \pm 1.0$ is consistent across \mec{} sessions, indicating a coupling between dimensional richness and trajectory closure.
+The product $\alpha \cdot \text{PR} \approx 1.4$ for \mec{}, reflecting a consistent tradeoff between spectral breadth and effective dimensionality.
 
 \subsection{Interaction structure: instantaneous vs temporal}
 
@@ -101,7 +101,7 @@ The apparent agreement between \mec{} eigenvector statistics and the sparse $p=0
 The instantaneous precision matrix carries richer spectral structure ($\alpha \approx 0.33$, PR $\approx 98$) than lag-1 temporal operators ($\alpha \approx 0.01$). This asymmetry suggests that the relevant object for understanding \mec{} organization is the instantaneous interaction network rather than the temporal propagator. Higher-lag interactions and nonlinearities remain unexplored and may carry additional information.
 
 \paragraph{Comparison with stabilized synthetic systems.}
-Synthetic stabilized systems universally collapse to PR $\approx 1$, $\alpha > 0.5$. The \mec{} regime is cleanly separated from collapse by all three metrics ($\alpha$, PR, LC). The fact that no synthetic stabilization operator---homeostatic gain, additive transport, or anisotropic suppression---reproduced the \mec{} spectral regime indicates a gap in the current mechanistic repertoire rather than an impossibility result.
+Synthetic stabilized systems universally collapse to PR $\approx 1$, $\alpha > 0.5$. The \mec{} regime is cleanly separated from collapse by both metrics ($\alpha$, PR). The fact that no synthetic stabilization operator---homeostatic gain, additive transport, or anisotropic suppression---reproduced the \mec{} spectral regime indicates a gap in the current mechanistic repertoire rather than an impossibility result.
 
 \paragraph{Methodological recommendations.}
 These results suggest three guidelines for spectral comparison in neural covariance data. First, ensemble comparisons should be performed at multiple system sizes when possible. Second, eigenvalue and eigenvector statistics can give different ensemble distances and should be evaluated jointly. Third, preprocessing choices (binning, smoothing, normalization) affect spectral estimates and should be matched between data and nulls---a control not performed here and left to future work.
